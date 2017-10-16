@@ -1,0 +1,267 @@
+Econ 2004:
+The Open Economy
+
+Lecture 8: External imbalances
+
+Reading.
+Core:
+Carlin & Soskice (2015) Chapter 11.
+
+Optional: See Moodle page
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+1
+
+Last lecture
+
+Model-building:
+The medium-run model:
+1. Using the AD-BT-ERU model to model external supply shocks
+like oil shocks
+2. Balance of payments;
+3. Intertemporal approach to balance of payments
+
+Policy question
+• Oil shocks
+• Natural resource discovery  TODAY
+• Imbalances may or may not be a problem for policy-makers 
+TODAY
+UCL ECON2004 TERM 2 LECTURE 8
+
+2
+
+This lecture
+
+Model-building:
+1. Sector financial balances
+2. A 2-bloc model of the world economy - extending the AD-BTERU and 3-equation models
+3. Global imbalances
+
+Policy question
+• Why do ‘twin’ or ‘triple’ deficits arise?
+• Are national / global imbalances necessarily a problem for
+policy-makers?
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+3
+
+1. Sector financial balances
+How do we relate these three:
+• government’s fiscal balance
+• trade balance and
+• private sector’s financial balance?
+
+Use the goods market equilibrium condition & rearrange:
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+4
+
+Source: OECD Economic Outlook Statistical Tables, OECD.Stat; private sector balance is the residual.
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+5
+
+Are charts like this useful? Do they show something of economic
+significance? We need to use a model.
+First,
+Focus on the usual
+analysis of GDP
+Then,
+Examine the sector
+financial balances
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+6
+
+How to interpret changes in financial balances (Example #1)
+Use sector financial balances:
+Dotcom boom & bust in US from mid 1990s:
+Boom (i.e. begin with y)
+• High private sector I (why?
+); implies
+private sector financial surplus
+• Clinton uses private sector boom to consolidate public
+finances so public sector financial surplus
+• Some of private sector boom is financed from abroad
+so external balance ________________
+Bust (i.e. begin with y)
+•
+•
+
+•
+UCL ECON2004 TERM 2 LECTURE 8
+
+7
+
+(Example #2)
+Bush Jnr tax cuts, wars + housing boom … then bust
+in 2000s:
+Boom
+• Private sector boom (why?
+) so private
+sector financial surplus
+• Bush cuts taxes & increases military spending so
+public sector financial surplus
+• Some of private & sector deficits are financed from
+abroad so external
+NOTE:
+Bust (Global Financial Crisis)
+•
+
+•
+•
+UCL ECON2004 TERM 2 LECTURE 8
+
+8
+
+Summary: sector financial balances
+1. Use a model to explain what happens to y
+2. Use sector balances to provide another lens on what has
+happened
+3. Using (1) and (2) together helps diagnose the source and
+consequences of phenomena such as twin or triple deficits
+4. See Chapter 11 for an example using the intertemporal
+approach to show how triple deficits could accompany a natural
+resource windfall – in that case, deficits are
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+9
+
+Example #3 Greece
+15
+
+10
+
+5
+
+0
+
+2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015
+-5
+
+-10
+
+-15
+
+-20
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+Current account balance
+Government budget balance
+Private sector balance
+
+10
+
+2. Model-building: a 2-bloc model of the world economy
+Stylized fact #1: Dramatic emergence of huge global imbalances
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+11
+
+Stylized fact #2: Low & stable inflation
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+12
+
+We need a model to show how global imbalances are consistent with stable inflation
+2-bloc model with inflation-targeting central banks (strip the model to the bone)
+• Assume world = 2 blocs only
+• Simplify by using vertical ERU curves; ye identical in each bloc
+• Simplify AD curves: by having coefficients a and b the same in each bloc and
+equal to 1
+• Concentrate only on the MREs not on adjustment
+
+Now, assume AA > AB and look for new MRE
+First result:
+Global imbalances at the new MRE
+Mechanism: Real exchange rates and BT (role of q)
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+13
+
+2-bloc model (cont.)
+Note: this is no longer a SOE model with r* exogenous.
+Role of r* is to balance yD = ye at MRE for the world.
+Second result: World real interest rate (role of r*)
+• For the ‘world’ = country A + country B,
+
+Summary:
+• Symmetric equilibrium, i.e. A and B are identical
+• If Bloc A has higher aggregate demand (e.g. permanent positive domestic AD
+shock), then
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+14
+
+2-bloc model (cont.)
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+15
+
+Summary: global imbalances and stable inflation
+Simple model
+• provides an answer to the question: How are growing global
+imbalances compatible with successful national inflation-targeting?
+• consistent with the stylized facts of the 2000s
+3 cases of global real interest rates and current account imbalances:
+1. +ve domestic demand shock in bloc A only
+… world real interest rate is ___________; A’s BT ___ ; B’s BT __________
+2. +ve demand shock in bloc A; -ve demand shock in bloc B of equal size
+… world real interest rate is _________; A’s BT _________; B’s BT ______
+3. + demand shock of equal size in both blocs
+… world real interest rate is ________ ; A’s BT _________; B’s BT _______
+Model requires 3 rational actors solving the model … inflation-targeting
+CB in each bloc; foreign exchange market
+UCL ECON2004 TERM 2 LECTURE 8
+
+18
+
+3. Global imbalances (see C&S 11.1.4)
+Different national growth strategies – export-oriented vs. finance
+(domestic-demand)-oriented
+
+Export-oriented
+
+; predict
+
+Finance (domestic-demand)-oriented
+
+; predict
+
+World real interest rate remained low, which suggests …
+Model predicted: countries with +ve domestic AD shocks have
+
+Check with facts:
+US, UK, Spain … growth in 2000s?
+China, Germany, Japan … growth in 2000s?
+UCL ECON2004 TERM 2 LECTURE 8
+
+19
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+20
+
+Next week
+The Economics of the Eurozone
+
+Check-list questions
+Chapter 11 checklist questions 8, 10
+
+UCL ECON2004 TERM 2 LECTURE 8
+
+21
+
+

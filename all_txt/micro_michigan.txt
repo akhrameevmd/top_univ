@@ -1,0 +1,6 @@
+ECON 401 - Intermediate Microeconomic Theory
+A systematic study of the role of the price system in organizing economic activity and an evaluation of its effectiveness. Analytical tools are developed and applied to the activities of the household, the firm, 
+and to their interactions in the market under varying degrees of competition.
+
+The aim of this course is to introduce students to the models of behavior and of equilibrium that are most important to contemporary economics. These models provide the lens through which economists today study economic reality. We shall consider the mathematical formulation of these models, the interpretation of the models, and how the models are used in empirical research.
+

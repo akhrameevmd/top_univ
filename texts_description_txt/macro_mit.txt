@@ -1,0 +1,25 @@
+14.02 Principles of Macroeconomics
+Prereq: None 
+U (Fall, Spring) 
+3-0-9 units. HASS-S
+
+Provides an overview of macroeconomic issues including the determination of national income, economic growth, unemployment, inflation, interest rates, and exchange rates. Introduces basic macroeconomic models and illustrates key principles through applications to the experience of the US and other economies. Explores a range of current policy debates, such as the economic effects of monetary and fiscal policy, the causes and consequences of the 2008 global financial crisis, and the factors that influence long-term growth in living standards. Lectures are recorded and available for students with scheduling conflicts.
+Fall: R. Caballero, M. Beraja 
+Spring: J. Poterba
+
+14.05 Intermediate Macroeconomics
+Prereq: 14.01, 14.02 
+U (Spring) 
+4-0-8 units. HASS-S
+
+Uses the tools of macroeconomics to investigate various macroeconomic issues in depth. Topics range from economic growth and inequality in the long run to economic stability and financial crises in the short run. Surveys many economic models used today. Requires a substantial research paper on the economics of long-run economic growth.
+A. Simsek
+
+14.06 Advanced Macroeconomics
+Prereq: 14.01, 14.02 
+U (Spring) 
+4-0-8 units. HASS-S
+
+Blends a thorough study of the theoretical foundations of modern macroeconomics with a review of useful mathematical tools, such as dynamic programming, optimal control, and dynamic systems. Develops comfort with formal macroeconomic reasoning and deepens understanding of key macroeconomic phenomena, such as business cycles. Goes on to study more specific topics, such as unemployment, financial crises, and the role of fiscal and monetary policy. Special attention to reviewing relevant facts and disentangling them from their popular interpretations. Uses insights and tools from game theory. Includes applications to recent and historical events.
+G. M. Angeletos
+

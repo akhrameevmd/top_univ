@@ -1,0 +1,3811 @@
+ECON2001
+
+1
+
+Lecture Notes
+
+ECON2001 Microeconomics
+Lecture Notes
+Term 2
+Ian Preston
+
+“The object of the science of Political Economy is to ascertain the laws
+which regulate the production, distribution and consumption of wealth, or
+the outward things obtained by labour, and needed or desired by man.”
+
+Statement by the Council of the University of London,
+explanatory of the nature and objects of the institution, 1827
+
+“Political economy or economics is a study of mankind in the ordinary
+business of life; it examines that part of individual and social action which
+is most closely connected with the attainment and with the use of the
+material requisites of wellbeing.”
+
+Alfred Marshall, Principles of Economics, 1890
+
+Course Guidance
+The main body of these lecture notes constitutes the examinable material for this
+part of the course.
+Threaded through that material are:
+• Worked Examples: These demonstrate how to use the theory in simple
+practical problems.
+• Case Studies: These show examples of the theory informing applied empirical
+investigation.
+• History Notes: These provide historical context to the development of the
+ideas.
+None of these will be the subject of examination questions in themselves. Nonetheless
+reading them should enhance your understanding of the course and the examination
+will test ability to use the theory to solve problems and discuss applications.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+2
+
+Lecture Notes
+
+Topic 1 : Budget constraints and consumer
+demand
+Summary: Consumer choice is restricted by affordability as captured
+by the budget constraint and this alone restricts the nature of demand
+functions. Dependence on the parameters of the budget constraint are
+the basis for several ways to classify demands.
+
+Budget constraint
+Consumers purchase M goods q from within a budget set B of affordable
+bundles. In the standard model, prices p are constant and total spending has
+to remain within budget so that p0 q ≤ y where y is total budget. Maximum
+affordable quantity of any commodity is y/pi and slope ∂qi /∂qj |B = −pj /pi is
+constant and independent of total budget.
+In practical applications budget constraints are frequently kinked or discontinuous as a consequence, for example, of taxation or non-linear pricing. If
+the price of a good rises with the quantity purchased (say because of taxation
+above a threshold) but without any discontinuity then the budget set is convex
+whereas if it falls (say because of a bulk buying discount) or there is a jump (say
+because a price change applies to units below the threshold) then the budget
+set is not convex.
+
+Marshallian demands
+The consumer’s chosen quantities written as a function of y and p are the
+Marshallian or uncompensated demands q = f (y, p)
+Consider the effects of changes in y and p on demand for, say, the ith good:
+• total budget y
+– the path traced out by demands as y increases is called the income
+expansion path whereas the graph of fi (y, p) as a function of y is
+called the Engel curve
+– we can summarise dependence in the total budget elasticity
+i =
+
+y ∂qi
+∂ ln qi
+=
+qi ∂y
+∂ ln y
+
+– if demand for a good rises with total budget, i > 0, then we say it
+is a normal good and if it falls, i < 0, we say it is an inferior good
+– if budget share of a good, wi = pi qi /y, rises with total budget, i > 1,
+then we say it is a luxury or income elastic and if it falls, i < 1, we
+say it is a necessity or income inelastic
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+3
+
+Lecture Notes
+
+Case Study 1 : Budget constraints: Stamp Duty Land Tax
+
+Residential property transactions in England are subject to a tax known as
+stamp duty land tax. Prior to late 2014, if the value of the transaction was
+below £125K the transaction was exempt but, once it exceeded that value, tax
+was due at 1% on the whole of the value of the transaction. This meant that
+as the value passed £125K not only did the after-tax price of owner-occupied
+housing increase but also the tax that was liable jumped by £1.25K. At £250K
+another threshold was passed at which the rate of tax increased to 3%, again
+on the whole of the value so that there was a jump of £5K in the liability.
+There were further discrete jumps for similar reasons at higher values. When
+translated into a budget constraint between housing and other wealth this created
+jumps (or “notches”) at these points and there is evidence that house sales
+showed bunching at values just below these notches. Objections to the “badly
+designed” form of the tax led to the announcement of reforms smoothing out
+the schedule in the Autumn Statement of 2014.
+
+[Source:
+
+M. Best and H. Kleven, 2013, Housing Market Responses to Transaction Taxes: Evidence From Notches
+
+and Stimulus in the UK, LSE Working Paper. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+4
+
+Lecture Notes
+
+• own price pi
+– the path traced out by demands as pi increases is called the offer
+curve whereas the graph of fi (y, p) as a function of pi is called the
+demand curve
+– we can summarise dependence in the (uncompensated) own price
+elasticity
+∂ ln qi
+pi ∂qi
+=
+ηii =
+qi ∂pi
+∂ ln pi
+– if uncompensated demand for a good rises with own price, ηii > 0,
+then we say it is a Giffen good
+– if budget share of a good rises with price, ηii > −1, then we say it is
+price inelastic and if it falls, ηii < −1, we say it is price elastic
+• other price pj , j 6= i
+– we can summarise dependence in the (uncompensated) cross price
+elasticity
+∂ ln qi
+pj ∂qi
+=
+ηij =
+qi ∂pj
+∂ ln pj
+– if uncompensated demand for a good rises with the price of another,
+ηij > 0, then we can say it is an (uncompensated) substitute whereas
+if it falls with the price of another, ηij < 0, then we can say it is
+an (uncompensated) complement. These are not the best definitions
+of complementarity and substitutability however since they may not
+be symmetric, in other words qi could be a substitute for qj while
+qj is a complement for qj . A better definition, guaranteed to be
+symmetric, is one based on the concept of compensated demands to
+be introduced below.
+
+Adding up
+We know that demands must lie within the budget set:
+p0 f (y, p) ≤ y.
+If consumer spending exhausts the total budget then this holds as an equality,
+p0 f (y, p) = y,
+which is known as adding up.
+If we differentiate with respect to y then we get a property known as Engel
+aggregation
+X ∂fi
+X
+pi
+=
+wi i = 1.
+∂y
+i
+i
+By adding up
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+5
+
+Lecture Notes
+
+Case Study 2 : Engel Curves for Food
+
+The extent to which nutrition responds to income in poor countries is an important issue for poverty reduction policy that is tied in with the nature of food
+demand. The figure below shows the estimated elasticity of calorie intake to per
+capita expenditure for households in rural Maharashtra, India in the mid 1980s.
+The mean expenditure share for food is 0.73 in the poorest 10% of households
+and 0.54 in the top 10% suggesting that food is a normal good and a necessity
+in economic terms. Compatibly with this we see a total budget elasticity for
+calorie intake between 0 and 1 across the range of expenditures observed with
+some evidence of elasticity diminishing as total outlay increases.
+
+[Source: S. Subramaniam and A. Deaton, 1996, The Demand for Food and Calories, Journal of Political Economy 104,
+133-162. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+6
+
+Lecture Notes
+
+• not all goods can be inferior
+• not all goods can be luxuries
+• not all goods can be necessities
+Also certain specifications are ruled out for demand systems. It is not possible, for example, for all goods to have constant income elasticities
+unless these
+P
+elasticities are all 1. Otherwise pi qi = Ai y αi , say, and 1 = i Ai y αi −1 for all
+budgets y which is impossible unless all αi = 1. This does not rule out constant
+elasticities for individual goods.
+There are also restrictions on price effects. The property derived by differentiating with respect to an arbitrary price pj is known as Cournot aggregation
+fj +
+
+X
+i
+
+pi
+
+X
+∂fi
+= 0 ⇒ wj +
+wi ηij = 0
+∂pj
+i
+
+As a consequence, for example, if the price of some good goes up then purchases
+of some good must be reduced so no good can be a Giffen good unless it has
+strong complements.
+
+Homogeneity
+Multiplying y and p by the same factor does not affect the budget constraint
+and, if it does not affect motivations for choice within budget sets, choices should
+not be affected either.
+Marshallian demands should therefore be homogeneous of degree zero:
+f (λy, λp) = f (y, p)
+for any λ > 0.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+7
+
+Lecture Notes
+
+Worked Example A : Adding up and homogeneity
+
+Consider the demand system specified by
+X
+pi fi (y, p) = ai y +
+bij pj + ci
+
+i = 1, 2, . . . , M
+
+j
+
+for appropriate parameters ai , bij and ci , i, j = 1, 2, . . . , M . For obvious reasons
+this is called the linear expenditure system.
+P
+Adding up requires i pi fi (y, p) = y for all possible values of y and p. Hence
+we need
+!
+X
+XX
+X
+ai − 1 y +
+bij pj +
+ci = 0
+i
+
+i
+
+j
+
+i
+
+for all possible values of y and p. This can only be true if
+X
+X
+X
+ai = 1
+bij = 0
+ci = 0
+j = 1, 2, . . . , M.
+i
+
+i
+
+i
+
+These are the requirements of adding up.
+To satisfy homogeneity requires fi (λy, λp) = fi (y, p) for i = 1, 2, . . . , M and
+any λ > 0. So
+ai
+
+λy X λpj
+1
+y X pj
+1
++
+bij
++ ci
+= ai +
+bij + ci
+λp
+λp
+λp
+p
+p
+p
+i
+i
+i
+i
+j
+j
+
+which is true if and only if ci = 0 for every good.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+8
+
+Lecture Notes
+
+History Note I : Demand curves
+The Marshallian demand curve is named after Alfred Marshall (18421924), a dominant figure in British economics in the late 19th and early
+20th century. Marshall worked on the theory of demand in the 1890s
+and was the first person to use the notion of elasticity. The first person to write down such an expression for demand was probably his Irish
+contemporary Francis Ysidro Edgeworth (1845-1926).
+Consumer demand is however a very old notion. The earliest empirical investigation of the relationship between quantity consumed and price
+arguably goes back to the work of the seventeenth century political arithmetician Gregory King (1648-1712) on the price of corn. Mathematical
+expression of a relationship between demand and own price can be found
+in the work of the French engineers Augustin Cournot (1801-77) and
+Jules Dupuit (1804-66) in the 1830s. The term Giffen good reflects observations attributed by Marshall to the Scottish statistician Robert Giffen
+(1837-1910) on the demand for bread.
+Engel curves are named after the German statistician Ernst Engel (18211896) who studied the relationship between the budget share of food and
+both income and demographic characteristics in household surveys in the
+1850s.
+Definitions of complements and substitutes have a complex history that
+cannot be untangled from ideas about utility discussed below. Early ideas
+appear in the work of Stanley Jevons (1835-1882) in the 1870s, for example, but the most satisfactory conceptualisation came eventually from
+the work of John Hicks (1904-89, Nobel 1972) and Roy Allen (1906-83)
+at LSE in the 1950s.
+
+c
+
+
+A Marshall
+
+A A Cournot
+
+E Engel
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+9
+
+Lecture Notes
+
+Topic 2 : Revealed preference and negativity
+Summary: Revealed preference restrictions can be seen as requirements
+of consistency for choice across different budget sets. They impose further important restrictions on the nature of consumer demands including
+justifying the Law of Demand.
+
+Revealed preference
+Suppose the consumer chooses q A at prices pA when q B was no more expensive than q A :
+0
+0
+pA q A ≥ pA q B .
+We say that q A is (directly) revealed preferred to q B . The Weak Axiom of
+Revealed Preference (WARP) says that the consumer would never then choose
+q B at any prices pB such that q A was affordable:
+0
+
+0
+
+pB q A ≤ pB q B .
+The Strong Axiom of Revealed Preference (SARP) says that there should
+be no cycles in revealed preference so, for example, we should never find q A
+revealed preferred to q B , q B revealed preferred to q C and q C revealed preferred
+to q A (or any longer cycle).
+
+Negativity
+Suppose that as prices change from pA to pB the consumer is compensated
+in the sense that their total budget is adjusted to maintain affordability of the
+original bundle. This is known as Slutsky compensation. Then choices before and
+0
+0
+after satisfy pB q A = pB q B . But the later choice cannot then have been cheaper
+0
+0
+at the initial prices or the change would violate WARP. Hence pA q A ≤ pA q B .
+By subtraction we get negativity:
+(pB − pA )0 (q B − q A ) ≤ 0.
+This shows a sense in which price changes and quantity changes must move, on
+average, in opposite directions if the consumer is compensated.
+If we consider the case where the price of only one good changes then we
+see that this implies that Slutsky-compensated effects of own price rises must
+be negative. In other words, Slutsky-compensated demand curves necessarily
+slope down.
+Note the weakness of the assumptions needed for this conclusion.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+10
+
+Lecture Notes
+
+Case Study 3 : Revealed Preference Tests
+
+Revealed preference ideas can be applied to data on consumer outcomes to test
+compatibility of behaviour with economic models in ways that are not restrictively tied to any particular specification of preferences. Famulari, for example,
+took data on over 4000 households in 25 metropolitan districts of the US between 1982 and 1985. She grouped them into 43 demographic types, to control
+for taste heterogeneity, and looked for revealed preference violations in pairwise
+comparisons involving consumption of nine categories of items. For the median
+demographic type her results showed violations in only 0.70% of comparisons.
+However, violations were much more likely in comparisons involving similar
+total expenditure. When total expenditures were less than 20% apart the rate
+of violation was 2.67% and when less than 5% this rose to 5.13%. Violations
+of this sort could reflect inconsistent behaviour but could also arise from other
+explanations such as taste change, issues of within-household decision-making,
+problems of data aggregation or other inappropriateness of the model applied.
+[Source: M. Famulari, 1995, A household-based, non-parametric test of demand theory, Review of Economics and
+Statistics 77, 372-382. ]
+
+Slutsky equation
+The Slutsky-compensated demand function given initial bundle q A is defined
+by
+g(q A , p) = f (p0 q A , p)
+- that is to say it is the demand if budget is constantly adjusted to keep initial
+choice q A affordable. Differentiating establishes a relationship between Slutskycompensated and Marshallian price effects
+∂fi
+∂gi
+∂fi
++
+= qjA
+.
+∂pj
+∂y
+∂pj
+The difference is the income effect qjA ∂fi /∂y and it is positive if the good is
+normal. Hence, since the Slutsky-compensated effect has been shown to be
+negative, so must be the Marshallian effect for normal goods. This is the Law
+of Demand.
+The Slutsky equation is highly useful. Its importance is that it allows testing
+of restrictions regarding compensated demands since it shows how to calculate
+compensated effects from the sort of uncompensated effects estimated in applied
+demand analysis.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+11
+
+Lecture Notes
+
+Worked Example B : Negativity and the Slutsky equation
+
+Consider the linear expenditure system again and assume that homogeneity
+has been imposed so ci = 0 for all goods. Demand for the ith good is
+ai y X pj
+fi (y, p) =
++
+bij .
+pi
+pi
+j
+Using the Slutsky equation the compensated own price effect is
+∂fi
+bii − (1 − ai )qi
+∂fi
+∂gi
++
+= fi
+=
+∂pi
+∂y
+∂pi
+pi
+so compensated demand curves slope down only if
+fi (y, p) >
+
+bii
+.
+1 − ai
+
+History Note II : Revealed preference, income and
+substitution effects
+The concept of revealed preference was introduced by the the influential
+American economist Paul Samuelson (1915-2009, Nobel 1970) in 1938.
+The weak axiom having been proposed by Samuelson, the Dutch-American
+economist Hendrik Houthakker (1924-2008) introduced the strong axiom
+in 1950 leading eventually to the tying together of theories of revealed
+preference and theories of utility maximisation as considered below.
+The separation of uncompensated price effects into income and substitution effects was established by the Russian economist and statistician,
+Evgeny Slutsky (1880-1948) in 1915. Although politically radical in his
+youth, Slutsky’s pathbreaking work in economics came to a halt in the
+1930s Soviet Union as he chose to concentrate on less controversial fields
+of statistics and meteorology.
+
+P Samuelson
+
+H Houthakker
+
+E Slutsky
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+12
+
+Lecture Notes
+
+Topic 3 : Consumer preferences
+Summary: Specifying which bundles the consumer prefers to which others provides the foundation for a fuller modelling of choice. The nature
+of these preferences can be restricted by assumptions which vary from
+what is minimally necessary for a viable theory to assumptions which
+seriously constrain the nature of choice.
+
+Preferences
+Suppose the consumer has a preference relation % where q A % q B means
+q is at least as good as q B . For the purpose of modelling demand this can be
+construed as an inclination to choose the bundle q A over the bundle q B . For
+modelling welfare effects, the interpretation needs to be strengthened to include
+a link to consumer wellbeing.
+A weak preference relation suffices to define strict preference  and indifference ∼ if we let
+A
+
+• % and - be equivalent to ∼,
+• % and  be equivalent to .
+For any bundle q A we can define
+• the weakly preferred set R(q A ) as all bundles q B such that q B % q A
+• the weakly dispreferred set L(q A ) as all bundles q B such that q A % q B
+• the indifferent set I(q A ) as all bundles q B such that q B ∼ q A (or, in other
+words, as the intersection of R(q A ) and L(q A ))
+
+Consumer Rationality
+We want the preference relation to provide a basis to consistently identify a
+set of most preferred elements in any possible budget set and for this we need
+assumptions.
+• Completeness Either q A % q B or q B % q A . This ensures that choice is
+possible in any budget set.
+• Transitivity q A % q B and q B % q C implies q A % q C . This ensures that
+there are no cycles in preferences within any budget set.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+13
+
+Counterexample to Completeness :
+
+Lecture Notes
+
+Consumer preferences are incomplete if,
+
+say, there are two goods q1 and q2 and q A % q B if and only if both q1A ≥ q1B and
+q2A ≥ q2B . With these prefernces, the consumer simply cannot decide between
+two bundles if each bundle has more of one of the two goods.
+Counterexample to Transitivity :
+
+Consumer preferences are intransitive if,
+
+say, there are two goods q1 and q2 and q A % q B if and only if either q1A ≥ q1B
+or q2A ≥ q2B . Take bundles q A and q C such that both q1A > q1C and q2A > q2C .
+Clearly q A  q C . But if we take another bundle q B such that q1B < q1C but
+q2B > q2A then q B % q A and q C % q B . Hence transitivity is violated.
+To take another example, suppose there are three goods and preferences are
+such that q A % q B if and only if the number of goods i for which qiA > qiB
+is at least as many as the number of goods for which qiA < qiB . If we take
+the bundles q A = (0, 1, 2), q B = (2, 0, 1) and q C = (1, 2, 0) then we see that
+q A  q B  q C  q A which clearly violates transitivity.
+
+Together these two assumptions are sometimes referred to as consumer rationality. They ensure that the preference relation is a preference ordering.
+To make preferences mathematically well behaved we make the technical
+assumption:
+• Continuity If q A % q B and q B % q C then there is a bundle indifferent to
+q B on any path joining q A to q C . This rules out discontinuous jumps in
+preferences.
+
+Counterexample to Continuity :
+
+Continuity is violated by the example of
+
+lexicographic preferences. Say that there are two goods q1 and q2 and that the
+consumer prefers one bundle to another if and only if it either has more of q1
+or the same amount of q1 and more of q2 . The consumer is indifferent between
+no bundles that differ in any way and indifferent sets are single points. Given
+any three different bundles it is easy to draw a path from the least to the most
+preferred that does not pass through any bundle indifferent to the third, since
+it is only necessary to avoid the path passing directly through the third bundle
+itself.
+
+Utility functions
+A utility function u(q) is a representation of preferences such that qA % qB
+if and only if u(qA ) ≥ u(qB ). A utility function exists if preferences give a
+continuous ordering.
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+14
+
+Lecture Notes
+
+Utility functions are not however unique since if u(q) represents certain preferences then any increasing transformation φ(u(q)) also represents the same
+preferences. We say that utility functions are ordinal.
+
+Nonsatiation, monotonicity and convexity
+A further assumption rules out consumers ever being fully satisfied:
+• Nonsatiation Given any bundle there is always some direction in which
+changing the bundle will make the consumer better off.
+If this is true then indifferent sets have no thick regions to them and we can
+visualise them as indifference curves.
+The next assumption takes this further by specifying the direction of increasing preference:
+• Monotonicity Larger bundles are preferred to smaller bundles.
+
+Counterexample to Nonsatiation and monotonicity : Suppose preferences are
+P
+represented by utility function u(q) = −(q − γ)0 (q − γ) = − i (qi − γi )2 for
+some bundle γ. Indifference curves for such preferences are circles around the
+“bliss point” γ. Nonsatiation is violated since there is a bundle, γ, from which
+there is no direction in which it is possible to increase consumer satisfaction.
+Utility is increasing in all quantities provided that qi < γi for all i but not
+otherwise.
+Given monotonicity, indifference curves must slope down. This slope is
+known as the marginal rate of substitution (MRS).
+Monotonicity corresponds to increasingness of the utility function u(q). An
+indifference curve is defined by u(q) being constant and therefore the MRS is
+given by
+dq2 
+∂u/∂q1
+MRS =
+ =−
+dq1 u
+∂u/∂q2
+which is obviously negative if ∂u/∂q1 , ∂u/∂q2 > 0.
+• Convexity λq A + (1 − λ)q B % q B if q A % q B and 1 ≥ λ ≥ 0.
+This says that weakly preferred sets are convex or, equivalently, MRS is
+diminishing.
+Convexity can be interpreted as capturing taste for variety. It says that a
+consumer will always prefer to mix any two bundles between which they are
+indifferent. The corresponding property of the utility function is known as
+quasiconcavity.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+15
+
+Lecture Notes
+
+Counterexample to Convexity : Suppose preferences are represented by utility
+P
+function u(q) = q 0 q = i qi2 . Preferences are monotonic but indifference curves
+are quarter-circles centred on the origin and MRS is increasing rather than
+diminishing.
+
+Homotheticity and quasilinearity
+Homotheticity and quasilinearity are both strong restrictions expressing different ways in which indifference curves within an indifference map can share a
+common shape.
+• Homotheticity If q A ∼ q B then λq A ∼ λq B for any λ > 0.
+Graphically this means that higher indifference curves can be constructed
+from lower ones by magnifying from the origin. This is a strong restriction that
+would rarely be made in practice but it is useful to consider as a reference case.
+It is not a restriction on the shape of any one indifference curve but on the
+relationship between indifference curves within an indifference map.
+If preferences are homothetic then marginal rates of substitution are constant
+along rays through the origin. This is only true for homothetic preferences and
+this is usually an easy way to check whether given preferences are homothetic.
+If there exists a homogeneous utility representation u(q) where u(λq) =
+λu(q) then preferences can be seen to be homothetic. Since increasing transformations preserve the properties of preferences, then any utility function which is
+an increasing function of a homogeneous utility function also represents homothetic preferences. In fact all utility functions representing homothetic preferences
+are of this form.
+ A   B 
+q1
+q1
+ q2A   q2B 
+
+ 
+
+• Quasilinearity (with respect to the first good) If  q A  ∼  q B 
+ 3   3 
+..
+..
+.
+.
+ A
+  B
+
+q1 + λ
+q1 + λ
+ q2A   q2B 
+
+ 
+
+then  q A  ∼  q B  for any λ.
+3
+3
+
+ 
+
+..
+..
+.
+.
+Quasilinearity is another strong restriction based on a similar idea. It says
+that adding the same amount to one particular good preserves indifference. This
+means that higher indifference curves are parallel translations of lower ones. In
+this case, marginal rates of substitution are constant along lines parallel to axes.
+If there exists a utility representation u(q) such that u(q1 , q2 , . . . ) = q1 +
+F (q2 , q3 , . . . ), say, then preferences are quasilinear. This is also true of any
+utility functions which are increasing transformations of functions with this
+property.
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+16
+
+Lecture Notes
+
+Worked Example C : Preferences
+
+Some examples of preference structures illustrate some of these properties:
+P
+• Perfect substitutes u(q) = i αi q1 : The MRS between the ith and jth
+good is −αi /αj and is constant. In two dimensions, indifference curves
+are parallel straight lines. Weakly preferred sets are therefore (weakly but
+not strictly) convex. These are the only preferences which are homothetic
+and quasilinear.
+• Perfect complements u(q) = min[α1 q1 , α2 q2 , . . . , αM qM ]: In two dimensions, indifference curves are L-shaped with the kinks lying on a ray
+through the origin of slope α1 /α2 . Weakly preferred sets are convex.
+These preferences are homothetic but not quasilinear.
+P
+• Cobb-Douglas: u(q) = i αi ln qi : Preferences are homothetic, indifference curves are smooth and weakly preferred sets are convex. MRS is
+−α
+P i qj /αj qi . Typically, the expression for utility would be scaled so that
+i αi = 1.
+If there are two goods and we look along the indifference curve corre−α/(1−α)
+sponding to utility υ then q2 = eυ/(1−α) q1
+. So the MRS is
+M RS = −
+
+α υ/(1−α) −1/α
+e
+q1
+1−α
+
+which is diminishing in q1 .
+P
+• Stone-Geary: u(q) = i αi ln (qi − γi ): This is a simple modification
+to Cobb-Douglas under which preferences are no longer homothetic but
+indifference curves remain smooth and MRS −αi (qj − γj ) /αj (qi − γi ) is
+still diminishing.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+17
+
+Lecture Notes
+
+History Note III : Utility
+The relevance of “value in use” to demand behaviour is discussed in
+many works of classical economics including those of Adam Smith (17231790), David Ricardo (1772-1823) and Jean-Baptiste Say (1767-1832).
+The notion of quantifying utility appears as a solution to paradoxes of
+choice under uncertainty in the mid-eighteenth century writings of Daniel
+Bernoulli (1700-82).
+Towards the end of that century, utility became the central principle in the
+system of ethics developed by the British philosopher, Jeremy Bentham
+(1748-1832) (whose dressed skeleton can be seen in UCL cloisters). The
+link from Benthamite ideas and associated notions of consumer utility to
+theories of demand is discussed in the notes on consumer choice below but
+is particularly explicit, for example, in Stanley Jevons’ (1835-82) theory
+of demand.
+Indifference curves as a way of representing consumer preferences were
+introduced by the Irish economist Francis Ysidro Edgeworth (1845-1926)
+in the 1880s. To nineteenth century developers of these ideas, utility
+was thought of as cardinal - measureable and comparable. The realisation that only the preference ordering matters to demand behaviour was
+made by the American economist Irving Fisher (1867-1947) and Italian
+social philosopher Vilfredo Pareto (1848-1923) in the 1890s. The axiomatic approach to defining preferences originates in the work of the
+Norwegian economist Ragnar Frisch (1895-1973, Nobel 1969) in 1926.
+The conditions for existence of utility functions to represent preferences
+were explored by the Norwegian econometrician Herman Wold (1908-92)
+and French economist Gérard Debreu (1921-2004, Nobel 1983) in the
+1940s and 1950s, Debreu for example introducing the problematic case of
+lexicographic preferences.
+
+c
+
+
+J Bentham
+
+F Edgeworth
+
+R Frisch
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+18
+
+Lecture Notes
+
+History Note IV : Preferences
+The Cobb-Douglas form for preferences is an especially simple form that
+implies constant budget shares. It derives originally from the production function specified for work on the US by the American senator and
+economist Paul Douglas (1892-1976) and mathematician Charles Cobb
+(1875-1949). Preferences with perfect complements are sometimes referred to as Leontief preferences after their use by American economist
+and Russian emigré Wassily Leontief (1906-99, Nobel 1973), pioneer of
+input-output analysis. These are both examples of homothetic preferences, homotheticity being an idea used in the work of Ragnar Frisch
+(1895-1973, Nobel 1969) but first defined formally in the work on production economics of Ronald Shephard (1912-82).
+
+C Cobb
+
+P Douglas
+
+Stone-Geary preferences adapt the Cobb-Douglas form to give a simple
+departure from homotheticity. As worked examples below show, this results in consumer demands identical to the linear expenditure system.
+First suggested by the Irish economist Roy Geary (1896-1983), these preference were first applied to data by the British applied economist Richard
+Stone (1913-91, Nobel 1984).
+
+R Stone
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+19
+
+Lecture Notes
+
+Topic 4 : Consumer choice
+Summary: If the consumer consistently chooses the most preferred
+among affordable bundles then it is possible to give a complete description of the properties that demands must satisfy. To see this, it is illuminating to think of consumers also as expenditure minimisers.
+
+Consumer optimisation
+Suppose that the consumer chooses q so as to best satisfy their preferences
+within the budget set, which is to say to solve
+max u(q)
+q
+
+p0 q ≤ y.
+
+s.t.
+
+Then choices satisfy WARP. In fact, the assumption of optimising behaviour
+is equivalent to SARP. Utility maximising choices therefore satisfy negativity,
+homogeneity and, assuming non-satiation, adding up.
+
+Tangency condition
+If all goods are chosen in positive quantities and preferences are convex then
+the solution to the consumer’s optimisation problem is at a tangency between
+an indifference curve and the boundary of the budget set.
+This is true even for non-linear budget sets. However if the budget set is
+linear (or indeed simply convex) then we know that such a tangency is unique
+so finding one guarantees that we have found the best choice for the consumer.
+If the budget set is not convex, on the other hand, then there can be multiple
+tangencies and the optimum can typically be found only by comparing the level
+of utility at each of them.
+The nature of Marshallian demands can then be inferred by moving the
+budget constraint to capture changes in y and p and tracing out movement of
+the tangency.
+
+Demand under homotheticity and quasilinearity
+As income increases. slopes of budget constraints do not change. Income expenditure paths traced out by the tangencies as incomes are increased therefore
+all occur at points with the same MRS.
+Homotheticity and quasilinearity are each characterised by the nature of
+paths along which MRS is constant and therefore each give rise to income expansion paths of particular shapes.
+• Homotheticity MRS is constant along rays through the origin so income
+expansion paths are rays through the origin. Quantities consumed are proportional to total budget y given prices and budget shares are independent
+of y.
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+20
+
+Lecture Notes
+
+• Quasilinearity MRS is constant along lines parallel to one of the axes
+so income expansion paths are parallel to one of the axes. Quantities
+demanded of all but one of the goods are independent of y (so long as all
+goods are chosen in positive quantities).
+
+Constrained optimisation
+Mathematically, Marshallian demands solve
+max u(q)
+
+p0 q ≤ y
+
+s.t.
+
+q
+
+This can be solved by finding stationary points of the Lagrangean
+u(q) − λ(p0 q − y).
+For interior solutions, first order conditions require
+∂u
+= λpi
+∂qi
+which imply
+MRS = −
+
+∂u/∂qi
+pi
+=− .
+∂u/∂qj
+pj
+
+This is a confirmation of the tangency condition - the slope of indifference curve
+and budget constraint are equal at interior solutions.
+
+Expenditure minimisation
+In comparison with the utility maximisation problem
+max u(q)
+q
+
+p0 q ≤ y
+
+s.t.
+
+consider now the alternative problem of minimising the expenditure necessary
+to reach a given utility
+min p0 q
+q
+
+u(q) ≥ υ
+
+s.t.
+
+Solutions to this problem are Hicksian or compensated demands q = g(υ, p).
+The problem can be solved by finding stationary points of the Lagrangean
+p0 q − µ(u(q) − υ).
+which, for interior solutions, gives first order conditions requiring
+pi = µ
+
+∂u
+∂qi
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+21
+
+and therefore
+MRS = −
+
+Lecture Notes
+
+∂u/∂qi
+pi
+=− .
+∂u/∂qj
+pj
+
+Note that this is exactly the same tangency condition encountered in solving
+the utility maximisation problem.
+We can define important functions giving the values of the two problems.
+The value of the maximised utility function as a function of y and p can be found
+by substituting the Marshallian demands back into the direct utility function
+u(q). We call this the indirect utility function
+v(y, p) = u(f (y, p)) = max u(q) s.t. p0 q ≤ y
+q
+
+The value of the minimised cost as a function of υ and p can be found by
+costing the Hicksian demands. We call this the expenditure function or cost
+function
+c(υ, p) = p0 g(υ, p) = min p0 q s.t. u(q) ≥ υ.
+q
+
+The link between the two problems can be expressed by noting the equality
+of the quantities solving the two problems
+f (c(υ, p), p) = g(υ, p)
+
+f (y, p) = g(v(y, p), p)
+
+or noting that v(y, p) and c(υ, p) are inverses of each other in their first arguments
+v(c(υ, p), p) = υ
+c(v(y, p), p) = y.
+
+Expenditure function
+The expenditure function c(υ, p) has the properties that
+• it is increasing in every price in p (assuming the good is consumed) and
+in υ
+• it is homogeneous of degree one in prices p, c(υ, λp) = λc(υ, p). The
+Hicksian demands are homogeneous of degree zero so the total cost of
+purchasing them must be homogeneous of degree one
+c(υ, λp) = λp0 g(υ, λp) = λp0 g(υ, p) = λc(υ, p)
+• it is concave in prices p, c(υ, λpA +(1−λ)pB ) ≥ λc(υ, pA )+(1−λ)c(υ, pB ).
+This follows simply from the fact that the cost-minimising choices at prices
+pA and pB no longer minimise costs at λpA + (1 − λ)pB .
+
+Indirect utility function
+The properties of the indirect utility function v(y, p) correspond exactly to
+those of the expenditure function given that the two are inverses of each other.
+In particular it is
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+22
+
+Lecture Notes
+
+• increasing in y and decreasing in each element of p
+• homogeneous of degree zero in y and p:
+v(λy, λp) = v(y, p)
+This should be apparent also from the homogeneity properties of Marshallian demands.
+(The property corresponding to concavity of the expenditure function is
+known as quasiconvexity of the indirect utility function.)
+
+Shephard’s Lemma
+Among the most useful features of these functions are their simple links to
+the associated demands. For example, it is possible to get from the expenditure
+function to the Hicksian demands simply by differentiating.
+Since c(υ, p) = p0 g(υ, p)
+∂c(υ, p)
+∂pi
+
+=
+=
+=
+
+∂g(υ, p)
+∂pi
+X ∂u ∂g(υ, p)
+gi (υ, p) + µ
+∂qi ∂pi
+i
+
+gi (υ, p) + p0
+
+gi (υ, p)
+
+using the first order condition for solving the cost minimisation problem and
+the fact that utility is held constant in that problem.
+This is known as Shephard’s Lemma. Its importance is that it allows compensated demands to be deduced simply from the expenditure function.
+
+Roy’s Identity
+Since v(c(υ, p), p) = υ
+∂v(y, p) ∂v(y, p) ∂c(u, p)
++
+∂pi
+∂y
+∂pi
+∂v(y, p)/∂pi
+⇒−
+∂v(y, p)/∂y
+
+=
+
+0
+
+=
+
+gi (v(y, p), p)
+
+=
+
+fi (y, p)
+
+using Shephard’s Lemma.
+This is Roy’s identity and shows that uncompensated demands can be deduced simply from the indirect utility function by differentiation.
+In many ways it is easier to derive a system of demands by beginning with
+well specified indirect utility function v(y, p) or expenditure function c(υ, p) and
+differentiating than by solving a consumer problem directly given a direct utility
+function u(q).
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+23
+
+Lecture Notes
+
+Slutsky equation, again
+Since g(υ, p) = f (c(υ, p), p)
+∂gi (υ, p)
+∂pj
+
+=
+=
+
+∂fi (y, p) ∂fi (y, p) ∂c(υ, p)
++
+∂pj
+∂y
+∂pj
+∂fi (y, p) ∂fi (y, p)
++
+fj (y, p)
+∂pj
+∂y
+
+Notice that this is the same as the Slutsky equation derived earlier for
+Slutsky-compensated demands. Hicks-compensated price derivatives are the
+same as Slutsky-compensated price derivatives since the two notions of compensation coincide at the margin.
+This means the results derived earlier can simply be carried over. Hicksian
+demands therefore also satisfy negativity at the margin. In particular
+∂gi (υ, p)
+≤ 0.
+∂pi
+Another way to look at this is to see that it follows directly from concavity
+of the expenditure function and the fact, from Shephard’s Lemma, that compensated demands are derivatives of the expenditure function..
+(Negativity can actually be stated slightly more strongly than this, involving
+also restrictions on cross-price effects, but this is the most important implication).
+
+Slutsky symmetry
+There is one more property of Hicksian demands that can now be deduced.
+From Shephard’s Lemma
+∂gi (υ, p)
+∂ 2 c(υ, p)
+∂gj (υ, p)
+=
+=
+∂pj
+∂pi pj
+∂pi
+Compensated cross-price derivatives are therefore also symmetric. Holding
+utility constant, the effect of increasing the price of one good on the quantity
+chosen of another is numerically identical to the effect of increasing the price of
+the other good on the quantity chosen of the first good.
+This shows that notions of complementarity and substitutability are consistent between demand equations if using compensated demands and provides
+a strong argument for defining complementarity and substitutability in such
+terms. This would not be true if using uncompensated demands because income effects are not symmetric.
+
+Integrability
+To summarise, if demands are consistent with utility maximising behaviour
+then they have the following properties
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+24
+
+Lecture Notes
+
+• Adding up: Demands must lie on the budget constraint and therefore
+p0 f (y, p)
+
+= y
+
+p0 g(υ, p)
+
+= c(υ, p)
+
+• Homogeneity: Increasing all incomes and prices in proportion leaves the
+budget constraint and therefore demands unaffected
+fi (y, p)
+
+=
+
+fi (λy, λp)
+
+gi (υ, p)
+
+=
+
+gi (υ, λp)
+
+• Negativity of compensated own price effects: In particular, a compensated
+increase in any good’s price can only reduce demand for that good
+∂gi /∂pi = ∂fi /∂pi + fi ∂fi /∂y ≤ 0
+• Symmetry of compensated cross price effects:
+∂gi /∂pj = ∂gj /∂pi
+If demands satisfy these restrictions then there is a utility function u(q)
+which they maximise subject to the budget constraint. We say demands are
+integrable. These are all the restrictions required by consumer optimisation.
+We know a system of demands is integrable if any of the following hold
+• They were derived as solutions to the utility maximisation or expenditure
+minimisation problem given a well specified direct utility function
+• They were derived by Shephard’s Lemma from a well specified cost function or they were derived by Roy’s Identity from a well specified indirect
+utility function
+• They satisfy adding up, homogeneity, symmetry and negativity.
+The connections between the concepts discussed can be summarised in the
+diagram below:
+Utility maximisation problem
+maxq u(q) s.t. p0 q ≤ y
+←→
+↓
+Uncompensated demands
+qi = fi (y, p)
+i = 1, 2, ...
+←→
+l
+Indirect utility function
+v(y, p)
+←→
+
+Expenditure
+P minimisation problem
+minq p0 q s.t. u(q) ≥ υ
+↓
+Compensated demands
+qi = gi (υ, p)
+i = 1, 2, ...
+l
+Expenditure function
+c(υ, p)
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+25
+
+Lecture Notes
+
+Case Study 4 : Demand Systems
+
+Banks, Blundell and Lewbel use UK data to estimate parameters of a particular
+demand specification called the Quadratic Almost Ideal demand system. This is
+an example of a general class of demand systems characterised by a quadratic
+relationship between budget shares and the log of total expenditure, a functional
+form that appears to fit data reasonably well. The estimates below are for a five
+good system (food, fuel, clothing, alcohol, other goods) for nondurable spending
+and are calculated for a relatively homogeneous sample of married couples in
+the South East over the years 1970-1986, imposing homogeneity. Slutsky symmetry and negativity are tested and found to be statistically acceptable given
+the estimated parameter values for all except a few high spending households.
+Because the associated indirect utility function is known it is possible to calculate the exact welfare effects of reforms which change the prices of goods. The
+authors of the study are therefore able to calculate estimated welfare losses,
+measured in equivalent expenditure terms, for extension of Value Added Tax to
+all forms of clothing for households in the sample as in the figure below. Note
+that, rather than simply costing losses given existing expenditure patterns, such
+estimated losses allow for behavioural responses.
+
+[Source:
+
+J. Banks, R. Blundell and A. Lewbel, 1997, Quadratic Engel Curves and Consumer Demand, Review of
+
+Economics and Statistics 79, 527-539. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+26
+
+Lecture Notes
+
+Worked Example D : Demands under Stone-Geary preferences
+
+P
+P
+Suppose the direct utility function is u(q) = i αi ln (qi − γi ) with i αi = 1.
+This is Stone-Geary preferences as introduced earlier.
+The tangency condition defining optimum consumer choice is
+
+
+∂u/∂qi
+αi qj − γj
+pi
+M RS = −
+=−
+=−
+i, j = 1, 2, . . . , M
+∂u/∂qj
+αj qi − γi
+pj
+Hence for each good pi qi = pi γi +
+budget constraint
+y=
+
+X
+
+pi qi =
+
+X
+
+i
+
+=
+
+(p1 q1 − p1 γ1 ) and substituting into the
+
+pi γi +
+
+i
+
+So p1 q1 = p1 γ1 + α1 (y −
+Marshallian demands
+fi (y, p)
+
+αi
+α1
+
+P
+
+i
+
+1
+(p1 q1 − p1 γ1 ) .
+α1
+
+pi γi ) and by a similar argument we establish all
+
+
+
+X
+αi 
+y−
+p j γj 
+γi +
+pi
+j
+
+i = 1, 2, . . . , M.
+
+
+
+P
+Budget shares are wi = αi + pi γi − αi j pj γj /y so those goods are necesP
+sities for which pi γi is greater than αi j pj γj .
+Substituting into the direct utility function gives the indirect utility function
+X
+v(y, p) =
+αi ln (fi (y, p) − γi )
+i
+
+!
+=
+
+ln y −
+
+X
+
+p i γi
+
+−
+
+i
+
+X
+
+αi ln pi +
+
+X
+
+i
+
+αi ln αi
+
+i
+
+Inverting v(y, p) in y then gives the expenditure function
+ αi
+X
+pi
+c(υ, p) =
+pi γi + eυ Πi
+α
+i
+i
+The compensated demands are then most easily found by differentiating c(υ, p)
+(using Shephard’s Lemma) or by substituting c(υ, p) into the uncompensated
+demands
+ αj
+pj
+αi
+i = 1, 2, . . . , M.
+gi (υ, p) = γi + eυ Πj
+pi
+αj
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+27
+
+Lecture Notes
+
+Worked Example E : Demands under quasilinear preferences
+
+Suppose direct utility takes the quasilinear form
+u(q1 , q2 ) = α ln q1 + q2
+The tangency condition is
+M RS
+
+= −
+
+∂u/∂q1
+α
+p1
+=− =−
+∂u/∂q2
+q1
+p2
+
+⇒ p1 q1 = αp2
+
+This defines an interior optimum assuming y > αp2 .
+Hence, directly and by substituting into the budget constraint, uncompensated
+demands are
+f1 (y, p)
+
+= αp2 /p1
+
+f2 (y, p)
+
+=
+
+(y/p2 ) − α
+
+Uncompensated demand for the first good is independent of total budget y.
+Substituting into the direct utility function gives the indirect utility function
+v(y, p)
+
+=
+
+α ln f1 (y, p) + f2 (y, p)
+
+=
+
+α ln(αp2 /p1 ) + (y/p2 ) − α
+
+Inverting in y gives the expenditure function
+c(υ, p) = p2 (υ − α ln(αp2 /p1 ) + α)
+Differentiating or substituting then gives the compensated demands
+g1 (υ, p)
+
+=
+
+g2 (υ, p)
+
+=
+
+∂c(υ, p)
+= f1 (c(υ, p), p) = αp2 /p1
+∂p1
+∂c(υ, p)
+= f2 (c(υ, p), p) = υ − α ln(αp2 /p1 )
+∂p2
+
+The compensated demand for the first good is independent of υ.
+If y ≤ αp2 then nothing is spent on the second good, f1 (y, p) = y/p1 and
+f2 (y, p) = 0. Hence v(y, p) = α ln(y/p1 ) and c(υ, p) = p1 eυ/α .
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+28
+
+Lecture Notes
+
+Worked Example F : Demands under perfect complements
+
+Suppose direct utility is
+u(q1 , q2 ) = min[a1 q1 , a2 q2 ]
+Goods are perfect complements and at the optimum
+a1 q1
+⇒ a1 f1 (y, p)
+
+= a2 q2
+= a2 f2 (y, p) =
+
+a1 a2 y
+a2 p1 + a1 p2
+
+Substituting into the direct utility function gives the indirect utility function
+v(y, p)
+
+=
+=
+
+min[f1 (y, p), f2 (y, p)]
+a1 a2 y
+a2 p1 + a1 p2
+
+Inverting in y gives the expenditure function
+c(υ, p) =
+
+1
+υ(a2 p1 + a1 p2 )
+a1 a2
+
+Differentiating or substituting gives the compensated demands
+gi (υ, p) =
+
+∂c(υ, p)
+= υ/ai
+∂pi
+
+c
+
+
+i = 1, 2
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+29
+
+Lecture Notes
+
+Worked Example G : Integrability
+
+Conditions for adding up, homogeneity and negativity for the linear expenditure system have been discussed above. Now consider symmetry. Using the
+Slutsky equation again
+∂gi
+∂fi
+bij + ai qj
+∂fi
++
+= fj
+=
+∂pj
+∂y
+∂pj
+pi
+
+i 6= j.
+
+Hence ∂gi /∂pj = ∂gi /∂pj requires
+X
+X
+pj bij + ai aj y + ai
+bjk pk = pi bji + aj ai y + aj
+bik pk .
+k
+
+k
+
+By equating terms on each side for each price, this can be seen to be true if
+(ai − 1)bji
+
+= aj bii
+
+i 6= j
+
+ai bjk
+
+= aj bik
+
+i 6= j 6= k
+
+Introduce a new notation γi for bii /(1 − ai ). Then the first condition implies
+bij = −ai γj for all i 6= j in which case the second set of conditions are all
+automatically satisfied. So the system reduces to
+
+
+X
+pi fi (y, p) = pi γi + ai y −
+p j γj 
+i = 1, 2, . . . , M
+j
+
+It is clear that the linear expenditure system with integrability restrictions
+imposed is exactly the same as the Stone-Geary demand system with ai = αi .
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+30
+
+Lecture Notes
+
+History Note V : Consumer Choice
+The first utility-based derivation of a demand curve is in the work in the
+1840s of the French engineer Jules Dupuit (1804-66) on the valuation
+of bridges where he identifies willingness to pay with marginal utility.
+The Prussian economist Hermann Gossen (1810-1858) published work
+in the 1850s which went almost unnoticed despite recognising the fundamental principle that optimal budgetary allocation would equate marginal
+utilities of spending across goods. It was in the 1860s and 1870s that
+the economists Stanley Jevons (1835-1882) working in England (and latterly Professor at UCL), Carl Menger (1840-1921) in Austria and Léon
+Walras (1834-1910) in Switzerland all arrived independently at an understanding of marginalist principles. Jevons and Walras were enthusiastic advocates of mathematical formalisation whereas Menger was determinedly opposed.
+Manipulation of indirect utility and expenditure functions is mainly a
+twentieth century approach, though the Italian engineer Giovanni Antonelli (1858-1944) appears to have explored ideas more or less unnoticed
+in the 1880s, including effectively defining an indirect utility function.
+These notions reappeared in the 1930s and 1940s in the work of American economist Harold Hotelling (1895-1973) and French economist René
+Roy (1894-1977) and mathematician Jean Ville (1910-1989). The expenditure function was introduced in the 1950s by American economist
+Lionel McKenzie (1919-2010), the parallel between expenditure minimisation and cost minimisation in production economics allowing him to
+pull across the lemma proved by Ronald Shephard (1912-82) establishing
+the link to cost-minimising demands. These are designated as Hicksian
+demands after John Hicks (1904-89, Nobel 1972) who was instrumental
+in replacing Slutsky’s notion of compensation with that of holding utility
+constant.
+
+c
+
+
+H Hotelling
+
+R Roy
+
+L McKenzie
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+31
+
+Lecture Notes
+
+History Note VI : Integrability
+G Antonelli
+
+Negativity and symmetry as required properties of demands were proved
+by Evgeny Slutsky (1880-1948) in 1915. The question of what properties
+of demand are sufficient for compatibility with utility maximisation and
+of how to work back from demands to preferences was first raised by Giovanni Antonelli (1858-1944) in the 1880s who recognised that the answer
+would involve integration from implied marginal rates of substitution.
+The conclusive solution to the question establishing adding up, homogeneity, negativity and symmetry as jointly sufficient conditions for integrability came in the 1960s work of the Polish-American economist Leonid Hurwicz (1917-2008, Nobel 2007), the Japanese economist Hirofumi Uzawa
+(1928-2014) and American economist Marcel Richter (1932-2014).
+
+L Hurwicz
+
+H Uzawa
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+32
+
+Lecture Notes
+
+Topic 5 : Consumer welfare
+Summary: The view of consumers as choosing in their own best interests suggests natural ways to measure the effects of prices on consumer
+welfare.
+
+Consumer surplus
+By Roy’s identity the effect of a small change in price pi on utility is proportional to the quantity consumed
+∂v
+∂v
+= − qi .
+∂pi
+∂y
+The horizontal distance of the demand curve from the vertical axis is therefore
+an indicator of the marginal welfare cost of increasing price. If ∂v/∂y is constant
+then the effect of increasing the price to the point where none of the good is
+demanded is therefore a triangular area underneath a demand curve. We call
+this consumer surplus.
+What sort of demand curve do we need to use to keep ∂v/∂y constant? If
+preferences are quasilinear then this will be true of the Hicksian or Marshallian
+demand curve. Consumer surplus arguments are therefore rigorously justified if
+preferences are quasilinear.
+Even if preferences are not quasilinear the general idea behind calculating
+consumer surplus as the area under a demand curve usually still gives a reasonable approximation to a good measure of welfare.
+Along a compensated demand curve utility is held constant by construction
+and qi = ∂c(υ, p)/∂pi . The increase in the cost of reaching that given utility as
+a price changes can be regarded as a measure of the cost to the consumer and
+can be equated to an area under a demand curve
+c(υ, pA ) − c(υ, pB ) =
+
+Z
+
+pA
+
+pB
+
+∂c(υ, p)
+dpi =
+∂pi
+
+Z
+
+pA
+
+gi (υ, p)dpi
+pB
+
+If the fixed level of utility is initial utility then this is the compensating
+variation. If the fixed level of utility is final utility then this is the equivalent
+variation. Both are recognised measures of welfare
+
+Cost of living indices
+The expenditure function is the ideal concept for comparing cost of living.
+We can define a (true or Konüs) cost of living index as the ratio of the minimum
+cost of reaching a given utility in two periods. Say that we are comparing
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+33
+
+Lecture Notes
+
+current prices pA with prices in a base period pB . Then the cost of living index
+is the ratio of expenditure functions
+T (υ, pA , pB ) =
+
+c(υ, pA )
+c(υ, pB )
+
+Notice that such a cost of living index depends on the utility level υ at which
+we make the comparison. Must this be so? There are only two case in which
+not:
+• If prices are proportional pA = λpB then the cost of living index is equal
+to λ at all υ, whatever preferences,
+• If preferences are homothetic then the cost of living index is equal at all
+υ, whatever prices.
+Two common approximations to the true index are used. Both compare the
+cost of purchasing a fixed bundle of goods.
+The Laspeyres index is the ratio of the costs of purchasing the base period
+bundle q B
+ A
+0
+X
+pi
+pA q B
+B
+A B
+wi
+L(p , p ) =
+0 B =
+B
+B
+p
+p q
+i
+i
+where the second expression shows that the Laspeyres index can be conveniently
+written as a budget-share-weighted average of price ratios.
+If L(pA , pB ) < 1 and consumer’s total expenditure is unchanged then the
+consumer can afford the base bundle and cannot be worse off.
+0
+We also know that pB q B = c(υ B , pB ) where υ B is the base period utility
+0
+and also that pA q B cannot be less than the minimum cost of attaining uB in
+the current period (since q B gives utility υ B but not necessary most cheaply
+at current prices). Hence the Laspeyres index is greater than the true cost of
+living index at base period utility,
+L(pA , pB ) ≥ T (υ B , pA , pB ).
+This is so because consumers are free to substitute away from goods which
+become more expensive and therefore evaluating the cost at a fixed bundle
+exaggerates the impact on cost of living.
+The Paasche index is the ratio of the costs of purchasing the current period
+bundle q A
+0
+pA q A
+P (pA , pB ) =
+.
+0
+pB q A
+By similar arguments the consumer must be worse off if P (pA , pB ) > 1 and
+total expenditure is unchanged. Likewise the Paasche index can be shown to
+be less than the true cost of living index at current utility υ A ,
+P (pA , pB ) ≤ T (υ A , pA , pB ).
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+34
+
+Lecture Notes
+
+If preferences are homothetic then the true index T is the same at all utilities
+so we can write simply
+P ≤ T ≤ L.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+35
+
+Lecture Notes
+
+Worked Example H : Price indices
+
+P
+Take the example of Stone-Geary preferences u(q) = i αi ln (qi − γi ) as analysed earlier.
+Suppose that the first
+is a necessity at base prices, so sB
+1 > α1 where we
+P good
+B
+B
+B
+define si = pi γi / j pj γj . Base period budget shares are
+wiB = αi + sB
+i − αi
+
+X
+
+B
+pB
+j γj /y
+
+i = 1, 2, . . . , M
+
+j
+
+as shown earlier.
+Say that between the base and final period the price of good 1 doubles and
+other prices stay the same, so we can express the Laspeyres index as
+ A
+X
+pi
+A B
+B
+L(p , p ) =
+wi
+B
+p
+i
+i
+X
+B
+=
+wi + w1B
+i
+
+1 + α1 + sB
+1 − α1
+
+=
+
+X
+
+B
+pB
+j γj /y .
+
+j
+
+The Laspeyres index is therefore higher for poorer households, those with higher
+yB .
+The true index evaluated at base utility is
+T (υ B , pA , pB )
+
+=
+
+=
+
+c(υ B , pA )
+c(υ B , pB )
+ A αi
+P A
+p
+υB
+Πi αii
+i p i γi + e
+ B αi
+P B
+pi
+υB Π
+p
+γ
++
+e
+i
+i
+i i
+αi
+!
+X
+
+=
+
+pB
+i γi
+
++
+
+pB
+1 γ1
+
++
+
+B
+
+y −
+
+i
+
+=
+
+2
+
+α1
+
+X
+
+pB
+i γi
+
+!
+α1
+
+2
+
+/y B
+
+i
+
++ 1+
+
+sB
+1
+
+α1
+
+−2
+
+X
+
+B
+pB
+i γi /y
+
+i
+α1
+> 0 for all 0 < α1 < 1 the true index is also
+Since sB
+1 > α1 and 1 + α1 − 2
+higher for poorer households, those with higher y B .
+Note also that the Laspeyres index does indeed always exceed this true index
+!
+X
+A B
+B A B
+α1
+B
+B
+L(p , p ) − T (υ , p , p ) = (1 + α1 − 2 ) 1 −
+pi γi /y
+>0
+i
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+36
+
+Lecture Notes
+
+Case Study 5 : Price Indices
+
+If preferences are not homothetic and different goods change prices at different
+rates then inflation will differ for households at different points in the income
+distribution. The figure below shows rates of inflation for households in the
+highest and lowest decile groups in the UK over a quarter of a century. These
+are calculated from the UK Family Expenditure Survey using Laspeyres indices.
+Inflation is not systematically higher for one group than the other but in individual years it can differ by as much as 5 per cent. It has been higher for the
+rich more often but the biggest differences have been in years when the poor
+were hardest hit.
+
+[Source:
+
+I. Crawford and Z. Smith, 2002, Distributional Aspects of Inflation, Institute for Fiscal Studies Com-
+
+mentary 90. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+37
+
+Lecture Notes
+
+History Note VII : Consumer welfare
+Ideas for measurement of consumer welfare precede modern consumer
+theory. Jules Dupuit (1804-66) introduced the notion of consumer surplus
+in his 1840s work on bridges, mentioned above, and the idea was refined
+by Alfred Marshall (1842-1924). Compensating variation as a measure of
+the welfare effect of a price change was proposed by John Hicks (1904-89,
+Nobel 1972) in the 1930s.
+The notion of a price index as an average of relative prices for different
+goods can be traced back at least to the English bishop William Fleetwood (1656-1723) writing in the early 1700s and as a ratio of costs of
+representative bundles at least to the English economist John Lowe (d.
+1831) in the 1820s. The Laspeyres and Paasche indices are attributable
+to the ideas of fixing this bundle at either the initial or final bundle as
+proposed by the German statisticians Etienne Laspeyres (1834-1913) and
+Hermann Paasche (1851-1925) respectively. The suggestion that it would
+be appropriate to take different bundles optimally delivering a fixed utility
+and derivation of results about such an index’s properties is owed to the
+Russian statistician Alexandr Konüs (1895-1990) writing in the 1920s.
+
+J Dupuit
+
+E Laspeyres
+
+A A Konüs
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+38
+
+Lecture Notes
+
+Topic 6 : Endowments and labour supply
+Summary: Extending the analysis to recognise the fact that consumers
+may begin with endowments and buy as well as sell goods leads to a
+richer model. In particular, it suggests a way to model supply of labour
+and to understand why responses to wage changes may not be as simple
+as responses to other prices.
+
+Buying and selling
+Suppose an individual has endowments ω = (ω1 , ω2 , ...) of goods. The
+consumer problem becomes
+max u(q)
+
+s.t.
+
+q
+
+p0 q ≤ y + p0 ω
+
+Demands are now
+qi = fi (y + p0 ω, p)
+
+i = 1, 2, . . .
+
+where fi (.) is the standard uncompensated demand function. It is sometimes
+convenient to draw a distinction between gross demands q and net demands or
+excess demands z = q − ω. Let φ(y, p, ω) = f (y + p0 ω, p) − ω define a new
+function giving net demands as a function of y, p and ω.
+Changes in endowments have effects like income effects. Changes in prices
+have the usual effects plus an effect due to the change in the value of the individual’s endowment - the endowment income effect. Specifically
+∂φi
+∂pj
+
+=
+=
+
+∂fi
+∂fi
+ωj
++
+∂pj
+∂y
+∂gi
+∂fi
+− (qj − ωj )
+∂pj
+∂y
+
+where gi (υ, p) is the usual compensated demand function. This extends the
+Slutsky equation to the case of demand with endowments. Note that, written
+in terms of net demands, the equation is unchanged
+∂φi
+∂pj
+
+=
+
+∂gi
+∂φi
+− zj
+.
+∂pj
+∂y
+
+Notice that the sign of the income effect depends upon whether the individual
+is a net buyer (qi > ωi ) as in the usual case or a net seller (qi < ωi ). An increase
+in the price of a normal good can now increase demand if the individual is a net
+seller and the endowment income effect is strong enough.
+Note that there is an important revealed preference argument relating to
+uncompensated demands in this situation. A seller will never become a buyer if
+the price rises and a buyer will never become a seller if the price falls. In each
+case, such a change is not possible since it would involve consuming a bundle
+available before the change when the bundle then chosen remains affordable.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+39
+
+Lecture Notes
+
+Labour supply
+The prime example of the importance of considering demand with endowments is the analysis of labour supply. Suppose an individual has preferences
+over hours not working (“leisure”) h and consumption c. They have unearned
+income of m and endowment of time T. The price of consumption is p and the
+nominal wage is w. The individual’s budget constraint is
+pc + wh = m + wT ≡ M
+which may appear more familiar if written in terms of hours worked l = T − h:
+pc = m + wl.
+The value of endowments in this context M = m + wT is referred to as full
+income.
+Suppose the individual is free to choose any hours of work, subject only to
+their budget constraint. Demand for leisure can be written as an uncompensated
+demand function, dependent on full income, wage and output price
+h = φ(m, w, p, T ) + T = f (M, w, p)
+or as a compensated demand function
+h = g(υ, w, p).
+The Slutsky equation for leisure is
+∂f
+∂f
+∂g
+∂f
+∂φ
+=
++T
+=
+− (h − T )
+.
+∂w
+∂w
+∂M
+∂w
+∂M
+Since the individual sells time (h < T ) the income effect of a wage change
+is opposed to the compensated effect if leisure is normal.
+Rephrasing in the more familiar terms of labour supply l we can define an
+uncompensated labour supply function
+l = Lu (m, w, p) ≡ T − f (m + wT, w, p)
+and an compensated labour supply function
+l = Lc (υ, w, p) ≡ T − g(υ, w, p)
+and it follows that
+
+∂Lc
+∂Lu
+∂Lu
+=
++l
+.
+∂w
+∂w
+∂m
+The opposition of income and substitution effects is still there and the direction of the uncompensated wage effect on chosen hours of work depends upon the
+balance between the two. Since that balance can differ at different wage rates it
+is quite possible for a labour supply curve to slope upwards at some wages and
+downwards at others as in a so-called backward-bending labour supply curve.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+40
+
+Lecture Notes
+
+Worked Example I : Labour supply
+
+Suppose the utility function defined over leisure h and consumption c has a
+Cobb-Douglas form
+u(c, h) = α ln h + (1 − α) ln c.
+The budget constraint is wh + pc = wT + m which we can rewrite in terms of
+labour supplied l = T − h to express the consumer’s problem as
+max α ln(T − l) + (1 − α) ln
+l
+
+wl + m
+p
+
+.
+The first order condition for solution α/(T − l) = (1 − α)w/(wl + m) is solved
+by
+l = (1 − α)T − αm/w.
+Labour supply is increasing in w for all values of m > 0 so the substitution
+effect always dominates the income effect for such preferences.
+
+Case Study 6 : Labour Supply
+
+Practical study of labour supply is complicated by a number of factors. Taxation
+and benefit systems make actual budget constraints linking hours of work to
+labour income much more complicated than the simple linear budget constraint
+considered here. Corner solutions at zero hours may be optimal for certain
+types of households with low wages and participation responses to changes in
+budget constraints can be as important as adjustments in hours worked. Also
+individual labour supply decisions of individuals within households need to be
+modelled jointly to capture interdependence.
+Lone mothers are a particularly common focus of policy interest. Over the
+1980s and 1990s several changes in US tax policy were aimed at encouraging
+them to work and these were accompanied by unprecedented increases in employment and hours. Meyer and Rosenbaum compare the behaviour of single
+women with and without children to assess the contribution of different policy
+changes using a large population survey. They find that over 60% of the change
+was accounted for by responses to changes in tax credits, a smaller but still
+significant proportion to changes in welfare programs and little to changes in
+Medicaid, training and child care programs. They conclude that policies aimed
+at “making work pay” rather than penalising not working are most effective in
+achieving the desired effects.
+[Source: B. Meyer and D. Rosenbaum, 2001, Welfare, the Earned Income Tax Credit, and the labor supply of single
+mothers, Quarterly Journal of Economics 116, 1063-1114. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+41
+
+Lecture Notes
+
+History Note VIII : Labour supply
+W S Jevons
+
+Recognition that labour supply can be analysed as a consumer choice problem involving the weighing of disutility of labour against the utility of
+consumption can be found in marginalist works, for example, of Stanley Jevons (1835-1882), Alfred Marshall (1842-1924) and even Hermann
+Gossen (1810-1858).
+The possibility that the opposition of income and substitution effects given
+the endowment of time might create ambiguity in the slope of labour supply curves and even backward-bending behaviour was clarified by work of
+British economists Lionel Robbins (1898-1984) and John Hicks (1904-89,
+Nobel 1972) in the 1930s.
+
+J R Hicks
+
+L Robbins
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+42
+
+Lecture Notes
+
+Topic 7 : Intertemporal choice
+Summary: Allocation of spending over time can be seen as a further
+example of the theory of demand with endowments. Particular features
+of the intertemporal setting suggest restrictions on preferences which
+put natural structure on intertemporal demand behaviour. If we allow a
+variety of assets then in the simplest models their investment decision
+is separable from the decision about when to consume the returns.
+
+Intertemporal choice
+Another example of demand with endowments is analysis of intertemporal
+choice. Suppose an individual has preferences over consumption when young c0
+and consumption when old c1 . They have endowed income of y0 and y1 in the
+two periods. (If necessary, bequests received can be treated as part of y0 and
+bequests given as part of c1 ). Assume no uncertainty about the future. If the
+real interest rate on bonds linking the two periods is equal to r for both lending
+and borrowing then the budget constraint is
+c0 +
+
+c1
+y1
+= y0 +
+.
+1+r
+1+r
+
+which implies that the present value of consumption must equal the present
+value of income.
+Demand for current consumption is
+
+
+y1
+c0 = f0 y0 +
+,r
+1+r
+The effect of interest rate changes clearly depend upon whether the individual is a saver or a borrower since this determines the sign of the income effect.
+Note that an interest rate rise will never induce a saver to become a borrower
+and an interest rate fall will never induce a borrower to become a saver.
+Often it is assumed that the utility function can be written as the sum of
+utility contributions from the different periods with similar within-period utility
+functions but with future utility discounted. Thus
+u(c0 , c1 ) = ν(c0 ) +
+
+1
+ν(c1 )
+1+δ
+
+where ν(.) is the within-period utility function and δ is a subjective discount rate.
+Convexity of preferences, which amounts here to a desire to smooth consumption
+over the life-cycle, requires ν(.) to be concave, ν 00 (.) < 0.
+Maximising such a utility function subject to the lifetime budget constraint
+max
+c0
+
+ν(c0 ) +
+
+1
+ν(y1 + (y0 − c0 )(1 + r))
+1+δ
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+43
+
+gives first order condition
+
+Lecture Notes
+
+ν 0 (c0 )
+1+r
+=
+.
+ν 0 (c1 )
+1+δ
+
+This is known as the consumption Euler equation. Given concavity of ν(.),
+if r = δ, so that subjective discounting matches the market interest rate and
+impatience cancels out the market incentive to save, then c0 = c1 and the
+consumption stream is flat. If r > δ then c0 < c1 and if r < δ then c0 > c1 . In
+all of these cases c0 and c1 will both be increasing functions of lifetime resources
+y0 + y1 /(1 + r).
+The responsiveness of consumption decisions to changes in the interest rate r
+depends critically in such a context on the concavity in the within-period utility
+function ν(.). The more concave is ν(.) the more sensitive is the intertemporal
+marginal rate of substitution to differences in consumption between periods
+and therefore the less dramatically do consumption decisions need to respond
+to bring the MRS into harmony with the interest rate.
+
+Asset choice
+Suppose that as well as investing in bonds with fixed return of r the individual can also invest in another asset - say a family enterprise. If X is placed
+in the family enterprise in the first period then suppose F (X) is returned in the
+second period.
+The optimisation problem now has two dimensions
+max
+c0 ,X
+
+ν(c0 ) +
+
+1
+ν(y1 + F (X) + (y0 − c0 − X)(1 + r))
+1+δ
+
+and first order conditions (assuming an interior solution) are
+ν 0 (c0 )
+=
+ν 0 (c1 )
+F 0 (X) =
+
+1+r
+1+δ
+(1 + r).
+
+Note that the solution to the financial decision is independent of intertemporal
+preferences. The individual invests in the family enterprise until the marginal
+rate of return falls to the market interest rate. This maximises the present
+value of the individual’s asset portfolio and the first order condition for optimum
+consumption choice, given that present value, is as in the simpler problem above.
+The simplicity of the investment decision is a consequence of assuming away
+issues concerning risk, liquidity and so on.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+44
+
+Lecture Notes
+
+Case Study 7 : Intertemporal Choice
+
+The top two panels of the figure below show how mean consumption and income
+vary over the life cycles of American households. The figure is made by taking
+data from the US Consumer Expenditure Survey over the 1980s and early 1990s,
+grouping observed households into generational cohorts according to their date
+of birth and plotting the means of these variables against age. The humped
+shape to both profiles reflects to some extent the pattern of household size as
+captured in the profiles for numbers of adults and children below.
+Regressing mean changes in log consumption on interest rates (with controls for
+seasonality and demographic change) gives an estimate of the Euler equation
+suggesting an intertemporal elasticity of substitution of 0.637 (with a standard
+error of 0.333).
+
+[Source:
+
+O. Attanasio, J. Banks, C. Meghir and G. Weber, 1999, Humps and bumps in lifetime consumption,
+
+Journal of Business and Economic Statistics 17, 22-35. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+45
+
+Lecture Notes
+
+Worked Example J : Life-cycle spending
+
+Suppose an individual lives for two periods with life-time preferences
+u(c0 , c1 ) = ln (c0 − γ0 ) +
+
+1
+ln (c1 − γ1 )
+1+δ
+
+where γ0 and γ1 are period-specific consumption needs. This is similar to
+the additive model considered above but with within-period utility functions
+allowed to vary with needs of the period, νt (ct ) = ln(ct −γt ). Note that this is an
+intertemporal version of Stone-Geary preferences. Utility-maximising demands
+take the form
+
+
+1+δ
+y1 − γ1
+c0 = γ0 +
+y0 − γ0 +
+2+δ
+1+r
+
+
+1+r
+y1 − γ1
+y0 − γ0 +
+c1 = γ 1 +
+2+δ
+1+r
+The life-cycle path for consumption is independent of the path of incomes given
+the discounted present value of lifetime income. A higher value for the interest
+rate r leads to a more steeply rising path and a higher value of the impatience
+parameter δ to a less steeply rising one. Even if r = δ the consumption path
+will still not be flat if γ0 6= γ1 .
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+46
+
+Lecture Notes
+
+History Note IX : Intertemporal Choice
+The application of marginalist ideas to questions of intertemporal allocation was taken up in depth in the 1870s by the Austrian civil servant
+and economist Eugen von Böhm-Bawerk (1851-1914), a follower of Carl
+Menger (1840-1921). His ideas led to development of the two period
+model of income and consumption outlined here, laid out as a model of
+intertemporal choice in the work of the American economist Irving Fisher
+(1867-1947) in the early twentieth century and making clear the links between interest rates, intertemporal rates of substitution, intertemporal
+rates of return and consumer time preference.
+
+E Böhm-Bawerk
+
+I Fisher
+
+Relationships between paths of income and consumption were a prominent aspect of the life-cycle model of Franco Modigliani (1918-2003, Nobel 1985) and permanent income model of Milton Friedman (1912-2006,
+Nobel 1975) developed in the US in the 1950s and 1960s.
+
+F Modigliani
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+47
+
+Lecture Notes
+
+Topic 8 : Choice under uncertainty
+Summary: Choice under uncertainty can be modelled similarly in many
+ways to intertemporal choice, with the distinction between states of the
+world mirroring that between periods of time and aversion to risk mirroring the desire to smooth consumption over time. The theory is able to
+describe important aspects of behaviour but also fails to capture certain
+anomalies.
+
+Uncertainty
+Extending the standard analysis to the case of uncertainty involves regarding
+quantities consumed in different uncertain states of the world as different goods.
+Preferences will depend on perceived probabilities of states of the world occurring. Budget constraints depend on the mechanisms available for managing
+risk.
+Some examples of budget constraints in circumstances involving risk are:
+• An individual with an asset worth A faces a probability π of losing it. He
+can purchase insurance of K at a cost of γK. Consumption in case of loss
+is c1 = (1 − γ)K and in the case of no loss is c0 = A − γK. The budget
+γ
+constraint for the individual is c0 = A − 1−γ
+c1 .
+• An individual with income of m has a true tax liability of T but tries
+to evade an amount D by underdeclaration. There is probability π of
+being audited in which case he pays the full liability T plus a fine f D.
+Consumption in case of audit is c1 = m − T − f D and in the case of no
+audit is c0 = m − T + D. The budget constraint for the individual is
+c1 = (1 + f )(m − T ) − f c0 .
+In both of these cases the budget constraint is linear, downward sloping and
+independent of the probability π.
+Preferences are defined over quantities consumed in the different states
+(c0 , c1 ...) and depend on perceived probabilities of the states occurring (π0 , π1 , ...).
+Under certain assumptions it may be reasonable to regard the consumer as maximising expected utility
+X
+u(c0 , c1 ..., π0 , π1 , ...) =
+πi ν(ci )
+for some state-specific utility function ν(.). We refer to u(·) as a von-NeumannMorgenstern expected utility function.
+The most controversial assumption required to justify an expected utility formulation is the sure thing principle (or the closely related strong independence
+axiom). Consider the following two choices:
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+48
+
+Lecture Notes
+
+
+
+Choice 1 : 
+ Option A1
+Option B1
+
+π1
+α1
+β1
+
+
+Probability
+π2
+1 − π1 − π2 
+
+
+α2
+γ
+β2
+γ
+
+π1
+α1
+β1
+
+
+Probability
+π2
+1 − π1 − π2 
+
+
+α2
+δ
+β2
+δ
+
+
+
+Choice 2 : 
+ Option A2
+Option B2
+
+In each case the two options deliver the same outcome as each other with
+probability 1−π1 −π2 (though these outcomes differ between the two choices). It
+might therefore be argued that the choice should be driven only by the different
+outcomes occurring in the other columns. However these outcomes are the
+same in the two choices. Therefore if A1 is preferred to B1 it is argued that
+A2 should be preferred to B2 . This is the sure thing principle. Combined with
+other less controversial axioms extending choice to uncertain situations with
+multiple outcomes it implies that the MRS between consumption in any two
+states is independent of outcomes in any other state.
+Note that the function ν(.) is not ordinal. Preferences are changed by arbitrary increasing transformations of ν(.). However u(.) is still ordinal.
+
+Risk aversion
+To capture risk aversion we need to capture the fact that risk averse individuals prefer to receive the expected value of any gamble with certainty to
+undertaking the gamble. Thus
+ν((1 − π)c0 + πc1 ) > (1 − π)ν(c0 ) + πν(c1) .
+For this always to be true requires that ν(.) be a concave function. The degree
+of concavity is an indicator of the strength of aversion to risk.
+Consider the insurance case again.
+sumer chooses K to maximise
+
+An expected utility maximising con-
+
+(1 − π)ν(A − γK) + πν((1 − γ)K).
+The first order condition requires
+(1 − π)γν 0 (A − γK) = (1 − γ)πν 0 ((1 − γ)K).
+If insurance is actuarially fair then π = γ and therefore ν 0 (A − γK) =
+ν ((1 − γ)K). If the individual is risk averse then ν 0 (.) is a decreasing function
+and therefore A = K so there is full insurance. This is a typical illustration of
+behaviour under risk. The fairness of insurance means that risk can be eliminated without compromising expected consumption and a risk averse individual
+chooses therefore to eliminate risk.
+0
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+49
+
+Lecture Notes
+
+Case Study 8 : Choice under Uncertainty
+
+Theoretical consumers behaving as expected utility maximisers seem to show
+a perhaps unnaturally high proficiency in their understanding and ability to
+work with probabilities. In practice there is abundant evidence that individuals
+understand probabilities poorly. Even where probabilities are described clearly
+their behaviour often fails to satisfy axioms upon which the theory is based.
+They attach greater importance to the status quo than is explicable and their
+decisions depend upon how the situation is framed when described to them.
+A particularly well known example in which behaviour fails to fit is the so-called
+Allais paradox. Consider the following two choices:
+
+
+Probability
+
+0.01 0.33 0.66 
+
+Choice 1 : 
+ Option A1 2400 2400 2400 
+Option B1
+0
+2500 2400
+
+
+Choice 2 : 
+ Option A2
+Option B2
+
+
+Probability
+0.01 0.33 0.66 
+
+2400 2400
+0 
+0
+2500
+0
+
+Kahneman and Tversky report the outcome of presenting these to 72 students.
+In the first choice 82% chose A1 whereas in the second choice 83% chose B2 .
+61% of students made the modal choice in both cases but this combination of
+choices violates the sure thing principle. Presumably the attraction of certainty
+in the first choice has something to do with this.
+Expected utility theory captures some features of behaviour that we would want
+to include, such as aversion to risk, and continues to be widely assumed in
+much work but it has clear inadequacies in many contexts and exploration of
+such deviations is an important part of ongoing research.
+[Source: D. Kahneman and A. Tversky, 1979, Prospect theory: an analysis of decision under risk, Econometrica 47,
+263-292.
+
+]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+50
+
+Lecture Notes
+
+Worked Example K : Insurance
+
+Suppose that an individual is an expected utility maximiser with within-state
+utility function given by ν(c) = ln c. Since this is concave the individual is
+risk-averse. Their objective actually has the form of Cobb-Douglas utility with
+the probabilities taking the place of preference coefficients
+u(c0 , c1 ) = (1 − π) ln c0 + π ln c1 .
+The first order condition for optimal insurance choice
+(1 − γ)π
+(1 − π)γ
+=
+A − γK
+(1 − γ)K
+implies K = πA/γ. As expected this is less than A unless γ ≤ π. Wealth levels
+in the two states are c0 = (1 − π)A and c1 = (1 − γ)πA/γ.
+
+If insurance is less than fair π < γ then there is underinsurance. The extent
+of underinsurance depends on the concavity of ν(.).
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+51
+
+Lecture Notes
+
+History Note X : Choice under Uncertainty
+Development of ideas of probability in the eighteenth century was tied
+closely to development of ideas about choice under uncertainty. The St
+Petersburg paradox which seemed to suggest an implausible case in which
+it would be rational to gamble unlimited sums of money was resolved
+by the postulation of logarithmic utility by Daniel Bernoulli (1700-82),
+alluded to in earlier sections.
+The expected utility theorem was proved by the Hungarian-American polymath John von Neumann (1903-57) and German-American collaborator
+Oskar Morgenstern (1902-77) in connection with their foundational work
+on game theory. The sure thing principle was put forward by the American statistician Leonard Savage (1917-71) as part of a proposed axiomatisation of subjective decision theory. Measurement and comparison of
+risk aversion in an expected utility framework was explored in the 1960s
+by American economists Kenneth Arrow (1921-2017, Nobel 1972) and
+John Pratt (b.1931).
+The Allais paradox, attributed to French economist Maurice Allais (19112010, Nobel 1988), was one of several departures of behaviour from the
+postulates of expected utility theory that have been apparent since the
+1950s. Paradoxes such as these have done much to encourage the growth
+of the field of behavioural economics associated, for example, with the
+Israeli-American and Israeli psychologists, Daniel Kahneman (b. 1934,
+Nobel 2002) and Amos Tversky (1937-96).
+
+c
+
+
+J von Neumann
+
+L J Savage
+
+M Allais
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+52
+
+Lecture Notes
+
+Topic 9 : General equilibrium
+Summary: If we put consumers together and allow them to trade then
+we can ask whether prices will exist that lead all markets to clear and,
+if so, whether this provides a sensible or illuminating theory of price
+determination. Adding profit-maximising producers to the picture turns
+out not to complicate matters unmanageably.
+
+Exchange equilibrium
+Suppose the economy consists of H households. The hth household has
+endowment ω h and consumes a bundle q h . An allocation of goods is said to be
+feasible if the aggregate amount consumed of each good equals the aggregate
+endowment
+X
+X
+qih =
+ωih i = 1, 2, ..., H
+h
+
+h
+
+The initial endowments obviously constitute one feasible allocation.
+Demands if prices are p are qih = fih (p0 ω h , p), i = 1, 2, ..., H where p0 ω h is
+the value of the individual’s endowment. Note that there is no assumption that
+different households have the same preferences. Market demand is found by
+adding the demands across individuals
+X
+Qi (p0 ω 1 , p0 ω 2 , ..., p) =
+fih (p0 ω h , p) i = 1, 2, ...
+h
+
+Note the dependence on the complete distribution of endowments.
+Let zih denote the excess demand from the ith household. The aggregate
+excess demand zi is given by the excess of market demand over the sum of
+endowments
+X
+X
+Zi (p) =
+zih =
+[fih (p0 ω h , p) − ωih ] i = 1, 2, ...
+h
+
+h
+
+General equilibrium - referred to also as market equilibrium, competitive equilibrium or Walrasian equilibrium - is a set of prices such that aggregate excess
+demand is zero on all markets.
+X
+Zi =
+zih = 0 i = 1, 2, ...
+h
+
+A competitive allocation, if it exists, is another example of a feasible allocation.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+53
+
+Lecture Notes
+
+Walras’ Law
+If there are M goods then this seems to define M equations in M unknown
+prices. However this is misleading. The fact that each household must be on
+its budget constraint implies that the value of that household’s excess demand
+is zero
+X
+X
+X
+pi qih =
+pi ωih ⇒
+pi zih = 0.
+i
+
+i
+
+i
+
+Adding this equation over households establishes that the value of aggregate
+excess demand is also zero
+X
+pi Zi (p) = 0.
+i
+
+This is Walras’ law and is true for any prices (not only the equilibrium prices).
+It implies that the M excess demands are not independent - in fact there are
+only M − 1 independent excess demands to set to zero.
+However since demands are homogeneous multiplying all prices by any positive number will give the same excess demands. If any prices constitute a Walrasian equilibrium, then so therefore do any positive multiple of those prices. It
+is therefore only relative prices which are determined by the equilibrium conditions.
+There are therefore actually M −1 independent equations determining M −1
+relative prices.
+A common diagrammatic representation of general equilibrium for a twoperson two-good exchange economy is the Edgeworth-Bowley box. This is a rectangular box whose horizontal and vertical dimensions are set to the economywide endowments of the two goods. Consumptions of the two individuals are
+read from opposite corners of the box and any point in the box represents a
+feasible allocation in the economy. Preferences of the two individuals can be
+represented by drawing indifference curves. A price vector for the economy
+defines a common budget constraint passing through the endowment point representing trading possibilities for the two individuals. Individuals’ desired trades
+are defined by tangencies between this budget constraint and indifference curves
+for the two individuals. Equilibrium exists if and only if these desired trades
+coincide.
+
+Existence, uniqueness and stability
+Nothing said so far ensures existence of a Walrasian equilibrium but if aggregate demands vary continuously as a function of prices then it can be proved
+that at least one equilibrium must exist.
+There is no guarantee however that the equilibrium will be unique without
+further assumptions on preferences and indeed economies with multiple equilibria are easily illustrated.
+Whether or not prices in an economy out of equilibrium will tend to move so
+as to take it towards equilibrium is a question that cannot be answered without
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+54
+
+Lecture Notes
+
+a theory of what happens out of equilibrium. If not all demands can be met
+from the economy’s endowments then what happens and how do prices adjust?
+It is possible to tell artificial and simple stories demonstrating the ability of a
+hypothetical auctioneer to find equilibrium prices under appropriate assumptions about preferences but these arguably tell us little about the stability of
+equilibrium in actual economies with trading taking place out of equilibrium.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+55
+
+Lecture Notes
+
+Worked Example L : Exchange equilibrium
+
+Demands if prices are p are qih = fih (Y h , p), i = 1, 2, ..., M where Y h = p0 ω h
+is the value of the individual’s endowment. We need to find a price vector p
+solving the market clearing equations
+X
+X
+fih (p0 ω h , p) =
+ωih i = 1, 2, ..., M
+h
+
+h
+
+From Walras’ law we need only solve for M − 1 relative prices achieving market
+clearing on M − 1 of the M markets.
+As an example, suppose there are only two goods so we need to find only one
+relative price to clear one market. Since we can solve only for the relative price
+we normalise the price of good 2 to be 1 and let P be the price of the first. Let
+there be two consumers A an B who have Cobb-Douglas demands over the two
+goods. Individual h therefore has demands
+q1h = αh Y h /P
+
+q2h = (1 − αh )Y h
+
+h = A, B
+
+where αh is an individual-specific taste parameter.
+Individual endowments are ω h = (ω1h , ω2h ). Therefore, by substituting the value
+of the endowments, demands are
+q1h = αh (P ω1h + ω2h )/P
+
+q2h = (1 − αh )(P ω1h + ω2h )
+
+To find equilibrium, we know from Walras’ law that we need only find the price
+to clear one market. Take the first. Market clearing requires
+ω1A + ω1B = q1B + q1B = αA (P ω1A + ω2A )/P + αB (P ω1B + ω2B )/P
+Solving for P gives
+P =
+
+αA ω2A + αB ω2B
+.
+(1 − αA )ω1A + (1 − αB )ω1B
+
+Note that this is increasing in endowments of the second good and decreasing
+in endowments of the first. Note also that it is increasing in the demand
+parameters αA and αB . These are readily intelligible demand and supply
+effects for this example.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+56
+
+Lecture Notes
+
+Equilibrium in economies with production
+We can introduce production into the economy by assuming the existence
+of K firms, each taking prices as given and choosing production plans so as to
+maximise profits given their own technology
+π k = max p0 y k
+yk
+
+F k (y k ) ≤ 0
+
+s.t.
+
+for k = 1, 2, ..., K. Note that firms are not being assumed to share a common
+technology.
+Inputs to production come from consumers’ net supply of endowments (and
+particularly labour supply). Net outputs of firms supplement consumers’ endowments as sources of resources for consumption.
+Firms are assumed to be owned by consumers so that profits are returned
+to them. If the hth household owns a share θhk of the kth firm then its budget
+constraint is therefore
+X
+p0 q h ≤ p0 ω h +
+θhk π k
+k
+
+P
+. All profits are assumed to be distributed in this way so that h θhk = 1 for
+all k = 1, 2, . . . .
+We can now redefine aggregate excess demand for any good as the excess of
+aggregate consumption over endowments and production:
+X
+ X k
+Zi (p) =
+qih − ωih −
+yi .
+h
+
+Given that
+
+P
+
+h θhk
+
+k
+
+= 1, note that Walras’ law still holds since
+X
+pi Zi (p) = 0.
+i
+
+Walrasian equilibrium is defined in the same way as a price vector which
+ensures excess demands are zero on all markets. Existence of at least one
+equilibrium is guaranteed if aggregate net demands are continuous functions
+of prices, which in such an economy is assured by strict convexity of preferences
+and production possibilities.
+
+Limitations of general equilibrium analysis
+Models of general equilibrium describe idealised economies without market
+power for individual agents, without frictions which might prevent clearing of
+markets and in which all interdependence between agents can be accommodated
+through the price mechanism. They are interesting and important benchmarks
+because of their interesting welfare properties, discussed below, but many of the
+most interesting questions in economics are about the properties of economies
+which do not fit such a simplified description.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+57
+
+Lecture Notes
+
+Worked Example M : General equilibrium with production
+
+We now need to find a price vector p solving the more complicated market
+clearing equations
+X
+X
+X
+X
+fih (p0 ω h +
+θhk π k (p), p) =
+ωih +
+yik (p) i = 1, 2, ..., M
+h
+
+k
+
+h
+
+k
+
+where π k (p) and yik (p) are functions giving profits and net supplies given p.
+From Walras’ law we still only need only solve for M −1 relative prices achieving
+market clearing on M − 1 of the M markets.
+To take a typically simple example, suppose there is one firm, one consumer,
+one output and one input which is labour time. Suppose the only endowment
+is one unit of time held by the consumer. The consumer receives all profits,
+θ11 = 1.
+We can solve only for the relative price so we normalise the price of output to
+be 1 and let W be the price of labour (which is to say, the real wage). Full
+income for the consumer is W +π(W ) where π(W ) is the firm’s profits returned
+to the consumer as unearned income.
+Let the consumer have Cobb-Douglas preferences so that their demand for time
+is h = α(W + π(W ))/W where α is a preference parameter. Supply of labour
+is therefore l = 1 − h = (1 − α) − απ(w)/W .
+√
+Let the firm have a technology which
+√ allows it to produce output L with
+labour input L. Profit is therefore L − W L. Maximising this gives labour
+demand L = 1/4W 2 and maximised profit π(W ) = 1/4W . Equating supply of
+labour to demand for labour requires
+1/4W 2 = (1 − α) − α/4W 2
+which implies equilibrium real wage
+1
+W =
+2
+
+r
+
+1+α
+.
+1−α
+
+A stronger preference for leisure tightens supply of labour and increases the
+equilibrium real wage in this simple economy.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+58
+
+Lecture Notes
+
+Case Study 9 : Computable General Equilibrium
+
+One of the things to be learned from general equilibrium models is the way
+in which changes in conditions in one market can ramify into effects on others. This can be particularly important, for example, in analysing the impact of
+tax changes which affect goods which are inputs into production of many others.
+General equilibrium effects therefore seem particularly important in considering
+the effect of carbon taxes proposed as policy responses to global warming. Several institutions have developed computable multiple sector models to assist in
+analysis. An example is G-Cubed, a nine-geographical-region twelve-industrialsector model of the world economy developed at the Brookings Institution. The
+figure below shows projections for the impact of a gradually introduced fossil
+fuel tax on the US economy (with revenue returned to households in the form
+of lump sum rebates). by raising the price of coal, natural gas and oil, the
+policy reform achievements significant abatement of carbon dioxide emissions.
+Underlying this is a complex pattern of sectoral adjustments which feed through
+into changing composition of GDP as illustrated in the lower panel. Scenarios in which the tax revenue is used differently can look quite different. The
+virtue of this sort of modelling is that it can deliver a sophisticated picture of
+the effects of nuanced reforms. The weakness is the sometimes opaque complex
+dependence on details of the model’s formulation, estimation of its parameters
+and assumptions about smoothness of equilibriation.
+
+[Source:
+
+W. McKibbin, A. Morris, P. Wilcoxen and Y. Cai, 2012, The Potential Role of a Carbon Tax in US Fiscal
+
+Reform, Brookings Institution, Climate and Energy Economics Discussion Paper. ]
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+59
+
+Lecture Notes
+
+History Note XI : General equilibrium
+Determination of prices in exchange is a topic that has been of longstanding interest to economics. Léon Walras (1834-1910) was particularly successful in formulating a mathematical description of a competitive equilibrium with multiple markets and with consumption and production of goods, inspired in part by notions of equilibrium in physics. The
+Edgeworth-Bowley box used to illustrate equilibrium geometrically was a
+construction introduced by the Irish economist Francis Ysidro Edgeworth
+(1845-1926) and popularised by the English statistician Arthur Bowley
+(1869-1918) (both sometime lecturers at UCL) after refinement by the
+Italian social thinker Vilfredo Pareto (1848-1923).
+Rigorous proofs of theorems on existence and uniqueness of equilibrium
+for an economy in which complete markets are hypothesised to cover all
+uncertain contingencies were made in the work of the 1950s by the American economists Lionel McKenzie (1919-2010) and Kenneth Arrow (19212017, Nobel 1972) and his French coauthor Gérard Debreu (1921-2004,
+Nobel 1983), work widely regarded as a highpoint of its brand of mathematical economics.
+
+L Walras
+
+K Arrow
+
+G Debreu
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+60
+
+Lecture Notes
+
+Topic 10 : Welfare theorems and public
+goods
+Summary: Competitive equilibrium exhausts the scope for mutual gains
+from trade. Outcomes are efficient in the sense that it is impossible to
+make everyone better off. Moreover any efficient allocation is supportable as a competitive equilibrium if government can redistribute endowments appropriately. If individual demands are interdependent, as there
+are when there are public goods or externalities, then efficiency can be
+promoted by public intervention.
+
+Fundamental welfare theorems for exchange
+equilibria
+Walrasian equilibrium in exchange economies have the general property of
+Pareto efficiency. This means that there is no feasible allocation such that all
+consumers are better off (or some are better off without any being any worse
+off).
+To prove this suppose it were not the case. Then there would exist a feasible
+allocation r1 , r2 ,... such that r1 was preferred to q 1 , r2 was preferred to q 2 and
+so on. But then these bundles could not be affordable at the equilibrium prices
+p or the consumers would have purchased them. Thus
+X
+X
+X
+pi rih ≥
+pi qih =
+pi ωih h = 1, 2, ..., H
+i
+
+i
+
+i
+
+with at least one of these inequalities being strict.
+Adding across consumers gives
+X X
+X X
+pi
+rih >
+pi
+ωih .
+i
+
+h
+
+i
+
+h
+
+P
+P
+But this conflicts with feasibility which requires h rih = h ωih , i = 1, 2, ..., M
+Hence there can be no such alternative allocation.
+This is the First Fundamental Theorem of Welfare Economics. Walrasian
+equilibrium is always Pareto efficient.
+Note that this says nothing about desirability in other respects. There are
+many Pareto efficient allocations and any Walrasian equilibrium that results
+from particular initial endowments will be just one. The locus of Pareto efficient
+allocations is known as the contract curve. Considerations such as distributional
+equity may give good grounds for regarding certain allocations on the contract
+curve to be socially preferred to others and whether or not these are attained
+will inevitably depend, for example, upon the equity in the allocation of initial
+endowments.
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+61
+
+Lecture Notes
+
+The Second Fundamental Theorem of Welfare Economics tells us conversely
+that, under certain further assumptions, any Pareto efficient allocation can be
+sustained as a Walrasian equilibrium given the right allocation of initial endowments. In particular, this is true if we assume all agents have convex preferences.
+
+Efficiency of exchange equilibria
+P
+Take an economy with total endowments Ω = h ω h and consider choosing
+the allocation across consumers to maximise the utility of one consumer, say
+h = 1, subject to specified utilities, ūh , h = 2, 3, . . . , H, for all of the others:
+
+
+X
+max
+u1 Ω −
+qh 
+2
+3
+q , q , ...
+
+h=2,3,...,H
+
+s.t.
+
+h
+
+u (q h ) = ūh , h = 2, 3, . . . , H
+
+The set of feasible solutions to problems of this nature constitute the set of
+Pareto optima for the economy. First order conditions for internal optima require
+h
+∂u1
+h ∂u
+=
+λ
+, h = 2, 3, . . . , H
+∂qi1
+∂qih
+where λh is the Lagrange multiplier on the utility constraint for the jth household. These imply
+∂ug /∂qig
+∂uh /∂qih
+=
+∂ug /∂qjg
+∂uh /∂qjh
+for every pair of households {g, h} and every pair of goods {i, j}. Unless
+marginal rates of substitution are equated across consumers then a reallocation
+can improve some individuals utilities without harming others and the allocation is not Pareto optimal. Competitive equilibrium achieves Pareto efficiency
+because consumer choice ensures all individuals equate their MRS to a common
+price ratio.
+
+Fundamental welfare theorems for equilibria
+with production
+Both fundamental theorems still hold for economies with production if assumptions are appropriately extended. In particular Walrasian equilibria are
+still Pareto efficient.
+To prove this, assume, as when proving efficiency in an exchange economy,
+that it were not so. Then there would exist productions plans x1 , x2 ,... and a
+feasible allocation r1 , r2 ,... such that r1 was preferred to q 1 , r2 was preferred to
+q 2 and so on. But, as in the earlier proof, these bundles could not be affordable
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+62
+
+Lecture Notes
+
+at the equilibrium prices p, given equilibrium profits or the consumers would
+have purchased them. Thus
+X
+X
+X
+X
+pi rih ≥
+pi ωih +
+θhk
+pi yik h = 1, 2, ..., H
+i
+
+i
+
+i
+
+k
+
+with at least one of these inequalities being strict.
+Adding across consumers gives
+"
+#
+X X
+X
+X
+X
+h
+h
+k
+pi
+ri >
+pi
+ωi +
+yi
+i
+
+i
+
+h
+
+h
+
+k
+
+P
+
+since h θhk = 1.
+But if this alternative allocation is feasible under the alternative production
+plans then
+"
+#
+X
+X
+X
+h
+h
+k
+ri =
+ωi +
+xi .
+h
+
+h
+
+k
+
+and therefore
+X
+
+pi
+
+i
+
+X
+
+xki >
+
+X
+
+pi
+
+i
+
+k
+
+X
+
+yik
+
+k
+
+which means that, contrary to assumption, the equilibrium production plans
+cannot be maximising profits.
+
+Efficiency of equilibria with production
+Extending the earlier reasoning, consider choosing both consumption allocation and production plans to maximise the utility of one consumer, again say
+h = 1, subject to specified utilities, ūh , h = 2, 3, . . . , for all of the others but
+also subject to technical feasibility:
+
+
+X
+X
+max u1 
+yk −
+qh 
+q 2 , q 3 , ...
+
+k
+
+s.t.
+
+h=2,3,...,H
+h
+
+h
+
+u (q ) = ūh , h = 2, 3, . . . , H
+F k (y k ) = 0, k = 1, 2, . . . , K
+
+First order conditions for internal optima now require
+h
+∂u1
+h ∂u
+=
+λ
+, h = 2, 3, . . . , H
+∂qi1
+∂qih
+
+= µk
+
+∂F k
+, k = 1, 2, . . . , K
+∂yik
+
+where µk is the Lagrange multiplier on the technology constraint for the kth
+firm These imply
+∂uh /∂qih
+∂F k /∂yik
+=
+h
+h
+∂u /∂qj
+∂F k /∂yjk
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+63
+
+Lecture Notes
+
+Worked Example N : Contract Curve
+
+Consider the two-person two-good Cobb-Douglas exchange economy described
+earlier. Assume that both individuals have the same preferences, αA = αB = α.
+Pareto efficiency requires that the two individuals have the same MRS
+
+ A
+ A
+
+α
+q2
+q2
+α
+=
+1 − α q1A
+1 − α q1A
+which means both consume the two goods in the same ratio. Plainly that
+has to be the same as the ratio of economy-wide endowments Ω2 /Ω1 where
+Ωi = ωiA + ωiB . The contract curve is therefore the diagonal of the EdgeworthBowley box defined by qiA = φΩi , qiB = (1 − φ)Ωi , i = 1, 2, for all values of
+0 ≤ φ ≤ 1.
+Every one of the allocations of the contract curve is sustainable as a competitive
+equilibrium. Suppose, for example, that egalitarian principles mean that the
+government favours the equal allocation qiA = qiB = 21 Ωi , i = 1, 2. If it intervenes to reallocate endowments to this point so that ωiA = ωiB = 21 Ωi , i = 1, 2
+then individuals will not trade away from consumption of those endowments.
+
+for every household h, every firm k and every pair of goods {i, j}. Marginal
+rates of substitution need not only to be equated across consumers but also to
+be equated to common marginal rates of transformation among firms. Competitive equilibrium still achieves this because firms face the same price ratios as
+consumers.
+
+Public goods
+Public goods are goods that are usually characterised as nonrival and nonexcludable. Nonrivalry means that the benefits of consumption enjoyed by one
+person do not compromise those enjoyed by another. Nonexcludability means
+that noone can be prevented from enjoying the benefits once the good is provided. These characteristics are conceptually distinct and there are nonrivalrous
+goods that are excludable (broadcasting) and rivalrous goods from the benefits
+of which it is difficult to exclude people (common-pool resources like fisheries).
+Provision of public goods raises problems both at the national level but also at
+much smaller levels such as within individual households.
+For simplicity, let us assume there is only a single private good, q h , and
+extend the specification of utilities for individuals within the population h =
+1, 2, . . . , H so as to include dependence not only on this good but also a collectively consumed public good Q, uh = uh (q h , Q). Let us also simplify production
+technology so that there is a constant marginal rate of transformation between
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+64
+
+Lecture Notes
+
+the two goods at which P units of the privateP
+good can be converted into one
+h
+unit of the public good. In other words Ω =
+h q + P Q for some fixed Ω.
+
+Efficient supply of public goods
+Finding the condition for efficient supply of the public good and allocation
+of private goods requires solving
+
+
+X
+max
+u1 Ω −
+q h − P Q, Q
+2
+3
+q , q , ...
+
+h=2,3,...,H
+
+s.t.
+
+h
+
+u (q h , Q) = ūh , h = 2, 3, . . . , H
+
+First order conditions for internal optima now require
+∂u1
+∂uh
+= λh h , h = 2, 3, . . . , H
+1
+∂q
+∂q
+1
+X
+∂u
+∂uh
+∂uh
+P 1 =
++
+λh
+∂q
+∂Q
+∂Q
+h=2,3,...,H
+
+which together imply
+P =
+
+X
+h
+
+∂uh
+∂Q
+∂uh
+∂q h
+
+Optimal provision requires not that the marginal rate of substitution between
+the public and private good be equated for each consumer to P but rather that
+the sum be equated to P . This is sometimes known as the Samuelson condition.
+Provision of the public good benefits all consumers and these benefits need to be
+totalled up when considering efficiency of provision not considered separately.
+
+Private and public provision of public goods
+How then should public goods be provided? Suppose that individuals start
+with endowments of the private good from which they can contribute individually towards a common pool to be used for provision of the public good. Demands are now interdependent and we need to take that into account in deciding
+how to model decision making. Suppose that individuals take the contributions
+of others as given and consider the Nash equilibrium in private contributions
+Gh . Each individual solves
+
+
+X
+maxGh uh ω h − P Gh , Gh +
+Gg 
+g6=h
+
+Some will not contribute at all but those who do will choose such that
+P =
+
+∂uh /∂Q
+,
+∂uh /∂q h
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+65
+
+Lecture Notes
+
+equating individual MRS to P . It is clear that the condition for efficiency will
+not be satisfied. The sum of MRS will typically be much greater than P . The
+public good will therefore be underprovided as individuals fail to take account
+of the benefits to others from private provision.
+This is usually taken as a case for collective public provision, financed by
+taxes and determined by some mechanism of collective choice. The appropriate
+nature of taxes and the elicitation of individual valuations of public provision is
+a topic pursued in courses on public economics.
+It is the dependence of individual wellbeing on levels provided by others that
+generates the inefficiency in private provision. Similar problems will arise from
+other forms of interdependence. One person’s consumption of a good can affect
+other’s enjoyment negatively (for example, noise pollution) and there can be
+positive or negative interdependence between activities of different producers or
+between consumers and producers. These are all examples of the more general
+phenomenon of externalities.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+66
+
+Lecture Notes
+
+Worked Example O : Public Goods
+
+Consider an economy of N individuals consuming a public good Q and a private
+good q h , h = 1, 2, . . . , N . All have preferences described by Cobb-Douglas
+utility u(q h , Q) = α ln q h + (1 − α) ln Q. Individuals begin with endowments of
+the private good ω h but there is technology through which endowments can be
+transformed into the public good. The economy has a constant marginal rate of
+transformation
+P between the two
+P
+Pgoods such that its production possibilities
+are h q h + P Q = Ω where Ω = h ω h .
+Pareto optimal supply requires the sum of individual marginal rates of substitution equal the marginal rate of transformation
+P h
+
+α
+hq
+=P
+1−α
+Q
+Substituting into the production possibility frontier gives P Q = αΩ.
+If the public good is supplied privately then, assuming each individual contributes positively, each individual supplies only up to the point where
+
+ h
+α
+q
+= P.
+1−α Q
+Each individual consumes the same quantity of the private good, q h = (1 −
+α)P Q/α, and substitution of this into the production possibility frontier gives
+P Q = αΩ/(α + N − αN ). The public good is inefficiently undersupplied.
+If any individual has endowment below the common private consumption so
+that ω h < (1 − α)Ω/(α + N − αN ) then they will not contribute. Equilibrium
+provision will be determined by decisions among those who are contributors.
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+ECON2001
+
+67
+
+Lecture Notes
+
+History Note XII : Welfare in General Equilibrium
+The ethical defensibility of market outcomes has been a persistent matter
+of political contention that has attracted the interest of economists for
+centuries. The interpretation of the welfare theorems as vindicating the
+observations of Adam Smith (1723-90) on the workings of an “invisible
+hand” in market economies is common, if arguably strained.
+The Pareto criterion for welfare comparison is owed to the Italian social
+thinker Vilfredo Pareto (1848-1923) and fits naturally with the withdrawal
+from willingness to make interpersonal comparisons of utility associated
+with his recognition that consumer theory relies only on ordinal description of preferences. Pareto himself understood that exchange equilibrium
+exhausted the scope for Pareto improvements. Proof of the first and second fundamental welfare theorems are associated principally with work in
+the 1930s and 1940s by Abba Lerner (1903-82) and Oskar Lange (190465), extended in the 1950s by Kenneth Arrow (1921-2017, Nobel 1972).
+Lange and Lerner were both socialists by inclination concerned with the
+possibility for decentralising efficient decision making under public ownership, Lerner a Russian-born economist who worked in the UK then the
+US and Lange a Polish economist who worked also in the UK and US
+before returning to communist Poland after the Second World War.
+
+V Pareto
+
+A Lerner
+
+O Lange
+
+History Note XIII : Public Goods, Externalities and
+Collective Action
+Recognition that collective consumption creates a case for state intervention can be found in Adam Smith (1723-90). Conditions for optimum supply of a public good were proved in the 1950s by American
+economist Paul Samuelson (1915-2009, Nobel 1970). The economic concept of externalities, the difficulties posed by them for market allocation
+and the possibility of remedies through taxation were discussed by English
+economist Arthur Cecil Pigou (1877-1959) in the 1920s. The possibility that well-defined property rights over externality-producing activities
+would nonetheless permit the achievement of efficient solutions through
+bargaining was discussed by the British economist Ronald Coase (19102013, Nobel 1991) in the 1960s. Elinor Ostrom (1933-2012, Nobel 2009)
+has studied the practice of economic governance of common property resources.
+
+A C Pigou
+
+R Coase
+
+E Ostrom
+
+c
+
+
+Ian Preston, 2007, 2009, 2011, 2013, 2015, 2017
+
+

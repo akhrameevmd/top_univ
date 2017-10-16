@@ -1,0 +1,18 @@
+ECON 281-0 Introduction to Applied Econometrics
+Estimation and analysis of a variety of empirical econometric
+models. Descriptive statistics, univariate regression,
+multiple regression, simultaneous equations, and forecasting.
+Prerequisites:
+201; 202; MATH 220; STAT 210 or
+equivalent.
+ECON 381-1,2 Econometrics 1. Probability and distribution
+theory, statistical inference, simple and multiple regression,
+specification error and multicollinearity, heteroskedasticity
+and serial correlation, measurement error,
+dummy variables. Prerequisites: 310-1 (281, 310-2, 311
+recommended); MATH 230, 234, 240, and 314 (or equivalent).
+2. Hypothesis testing, estimation with deficient data,
+distributed lags, panel data, simultaneous equation systems,
+limited dependent variables. Prerequisite:
+381-1 (310-2,
+311 recommended).

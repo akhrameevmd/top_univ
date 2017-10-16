@@ -1,0 +1,125 @@
+eco517
+
+princeton university
+
+fall 2017
+
+ECO517: ECONOMETRIC THEORY I
+
+version: September 20, 2017
+
+i n s t ru c t o r ( pa r t i ) Michal Kolesár (mkolesar@princeton.edu)
+Office: JRRB 278, OH: Wed 3–4pm
+i n s t ru c t o r ( pa r t i i ) Bo Honoré (honore@princeton.edu), JRRB 392
+ta Liyu Dou (ldou@princeton.edu), OH TBD Mon 4.10-5pm, JRRB A74
+g r a d e r ( pa r t i i ) Charis Katsiardis (ck7@princeton.edu)
+l e c t u r e s Mondays and Wednesdays 10.40am–12.10pm, JRRB 101
+p r e c e p t s Time and date will be co-ordinated by Mr. Dou. Mon 3–4pm, McCosh 60
+c o u r s e d e s c r i p t i o n Part I of the course provides an introduction to statistical theory. A brief review of probability will be given mainly as background material; it is
+assumed to be known. Part II of the course provides an introduction to regression
+analysis.
+i n- c l a s s m i d t e r m Wednesday, Oct 25
+f i na l To be scheduled
+g r a d i n g Your grade will be an equally weighted average of grades in Part I and Part
+II. Your grade in Part I will be based on weekly problem sets (30%) and an in-class
+midterm (70%).
+
+PART I: STATISTICS (SEPT 13–OCT 25)
+t e x t Hogg, R. V., McKean, J. W. and Craig, A. T. (2013) Introduction to Mathematical
+Statistics, Pearson Education, New York, 7th edn
+The book covers all of the material of the course and, in addition, provides many
+problems for practice as well as excellent references. Earlier editions are just as
+good.
+l e c t u r e n o t e s I will post lecture notes following each lecture.
+
+1
+
+p ro b l e m s e t s Only one problem (marked) is required from each problem set, the
+solution to which will be posted after the due date. All other problems are for
+your own study; the solutions to them won’t be posted, but will be discussed
+during precepts. One problem from the problem sets will appear on the midterm
+exam.
+You are free and encouraged to work in small groups for the exercises, but you
+should write up the solutions alone. If you worked with other people on the
+problem set, please record their names in your write-up.
+Problem sets should be handed in to the TA at the beginning of the Wednesday
+lecture or sent to the TA via e-mail before the lecture. No late assignments will be
+accepted.
+s c h e du l e
+Date
+
+Lecture
+
+Problem Set
+
+Sep 13 W
+
+1. Probability review, normal distribution
+
+Sep 18 M
+
+2. Limit theorems
+
+Sep 20 W
+
+3. Sample, histograms, sample moments, likelihood.
+
+PS 1 given
+
+Sep 25 M
+
+4. Sufficient statistics
+
+Sep 27 W
+
+5. Estimation
+
+Oct 2 M
+
+6. Cramér-Rao bound
+
+Oct 4 W
+
+7. Large sample properties of MLE
+
+Oct 9 M
+
+8. Bayesian concepts. Complete class theorem.
+
+Oct 11 W
+
+9. Testing concepts.
+
+Oct 16 M
+
+10. Neyman-Pearson lemma. Unbiased tests.
+
+Oct 18 W
+
+11. Testing in large samples
+
+Oct 23 M
+
+12. Confidence sets. Pratt’s theorem.
+
+Oct 25 W
+
+Midterm
+
+Oct 30 M
+
+Fall recess
+
+PS 1 Due
+PS 2 Due
+PS 3 Due
+PS 4 Due
+PS 5 due
+
+PART II: REGRESSION ANALYSIS
+t e x t Hayashi, F. (2000) Econometrics, Princeton University Press, Princeton, NJ
+s c h e du l e : A detailed schedule will be distributed at the beginning of the second half.
+
+2
+
+

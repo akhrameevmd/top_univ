@@ -1,0 +1,241 @@
+Texts
+Wooldridge, Jeffrey M. Introductory Econometrics: A Modern Approach. 3rd ed. Mason, OH: Thomson/South-Western, 2006.
+ISBN: 9780324289787.
+Goldberger, Arthur S. A Course in Econometrics. Cambridge, MA: Harvard University Press, 1991. ISBN: 9780674175440.
+DeGroot, Morris H., and Mark J. Schervish. Probability and Statistics. 3rd ed. Boston, MA: Addison-Wesley, 2001. ISBN: 9780201524888.
+Wooldridge is the main text. The material in Goldberger is more advanced and optional. DeGroot and Schervish is a recommended text for
+statistics review. The lecture notes are unavailable.
+The course consists of parts 1 (A, B, and C) and 2 (D, E, F, and G).
+TOPIC #
+
+TOPICS
+
+READINGS
+
+A. Review of probability and statistics
+Lecture note 1: Probability and distribution
+1
+
+Probability and distribution
+
+Lecture note 2: Expectation and moments
+Wooldridge. Appendix B.
+Goldberger. Chapters 1-7.
+DeGroot. Chapters 1-5.
+
+2
+
+Expectation and moments
+
+Burtless, Gary. "Are Targeted Wage Subsidies Harmful? Evidence from a Wage Voucher
+Experiment." Industrial and Labor Relations Review 39 (October 1985): 105-111.
+
+B. Review of statistical inference
+
+3
+
+Sampling distributions and
+inference
+
+Lecture note 3: Sampling distributions and inference
+Lecture note 4: Approximate [asymptotic] distribution of the sample mean
+Lecture note 5: Confidence intervals
+Wooldridge. Appendix C.
+
+4
+
+5
+
+The Central Limit theorem
+(Asymptotic distribution of the
+sample mean)
+
+Confidence intervals
+
+Goldberger. Chapters 8-10.
+DeGroot. Chapters 6-8.
+Woodbury, S. A., and R. Spiegelman. "Bonuses to Workers and Employers to Reduce
+Unemployment: Randomized Trials in Illinois." American Economic Review 77, no. 4
+(September 1987): 513-530.
+
+C. Regression basics
+6
+
+Conditional expectation
+functions, bivariate regression
+
+7
+
+Sampling distribution of
+regression estimates; GaussMarkov theorem
+
+8
+
+How Classical assumptions are
+used; asymptotic distribution of
+the sample slope
+
+9
+
+Lecture note 6: Bivariate regression
+Lecture notes 7 and 8: Sampling distribution of regression estimates
+Lecture note 9: Residuals, fitted values, and goodness of fit
+Wooldridge. Chapters 1-5.
+Goldberger. Chapters 13-16.
+
+Residuals, fitted values, and
+goodness of fit
+
+D. Multivariate regression
+
+10
+
+Regression, causality, and
+control; anatomy of multivariate
+regression coefficients
+
+11
+
+Omitted variables formula, short
+vs. long regressions
+
+Lecture note 10: Introduction to multivariate regression
+Lecture note 11: Multivariate regression (cont.)
+Lecture note 12a: Using multivariate regression
+
+12a
+
+Dummy variables and
+interactions; testing linear
+restrictions using F-tests
+
+Lecture note 12b: Regression analysis of "Natural Experiments" - the minimum wage
+controversy
+Wooldridge. Chapters 6-7 and 19.
+Goldberger. Chapters 17-24.
+Krueger, A. "How Computers Have Changed the Wage Structure: Evidence from Micro
+Data." Quarterly Journal of Economics 108, no. 1 (February 1993): 33-60.
+
+TOPIC #
+
+TOPICS
+
+DiNardo, J., and J. S. Pischke. "The Returns to Computer Use Revisited: Have Pencils
+READINGS
+Changed the Wage Structure Too?" The Quarterly Journal of Economics 112, no. 1
+(February 1997): 291-303.
+Krueger, A., and S. B. Dale. "Estimating the Payoff to Attending a More Selective
+College: An Application of Selection on Observables and Unobservables." The Quarterly
+Journal of Economics 117 (November 2002): 1491-1529.
+
+12b
+
+Regression analysis of natural
+experiments, differences-indifferences
+
+Card, David E., and Alan B. Krueger. Myth and Measurement: The New
+Economics of the Minimum Wage. Princeton, NJ: Princeton University Press, 1995,
+chapters 1 to 4. ISBN: 9780691048239.
+
+E. Inference problems - heteroscedasticity and autocorrelation
+
+13a
+
+Heteroscedasticity,
+consequences of; weighted least
+squares; the linear probability
+model
+
+Lecture note 13a: Heteroscedasticity, linear probability models
+Lecture note 13b: Serial correlation
+Wooldridge. Chapters 8 and 12.
+Goldberger. Chapters 27-28.
+
+13b
+
+Serial correlation in time series,
+consequences of; quasidifferencing; common-factor
+restriction; Durbin-Watson test
+for serial correlation
+
+Freeman, R., and A. Castillo-Freeman. "When the Minimum Wage Really
+Bites: The Effect of the US-Level Minimum on Puerto Rico." In Immigration and the Work
+Force: Economic Consequences for the United States and Source Areas. Edited by G.
+Borjas and R. Freeman. Chicago, IL: University of Chicago Press, 1992. ISBN:
+9780226066332.
+Graddy, K. "Testing for Imperfect Competition at the Fulton Fish Market." RAND Journal
+of Economics 26, no. 1 (Spring 1995): 75-92.
+
+F. Instrumental variables, simultaneous equations models, measurement error
+Lecture note 14: Instrumental variables for omitted-variables problems
+Wooldridge. Chapter 15.
+14a
+
+Using IV to solve omittedvariables problems
+
+Goldberger. Chapter 31.
+Angrist, J. "Lifetime Earnings and the Vietnam Era Draft Lottery: Evidence from Social
+Security Administrative Records." American Economic Review 80, no. 3 (June 1990):
+313-336.
+Angrist, J., and A. Krueger. "Does Compulsory School Attendance Affect Schooling and
+Earnings?" Quarterly Journal of Economics 106, no. 4 (November 1991): 979-1014.
+
+14b
+
+Measurement error (Timepermitting)
+
+Angrist, J., and W. E. Evans. "Children and Their Parents' Labor Supply: Evidence from
+Exogenous Variation in Family Size." American Economic Review 88 (June 1998): 450477.
+Lecture note 14b: IV and measurement error
+Ashenfelter, O., and A. Krueger. "Estimates of the Economic Returns to Schooling from a
+New Sample of Twins." American Economic Review 84, no. 5 (December 1994): 11571174.
+Lecture note 14c: Regression-discontinuity
+
+14c
+
+Regression-discontinuity designs
+(Time-permitting)
+
+Angrist, J., and V. Lavy. "Using Maimonides Rule to estimate the Effects of Class Size on
+Scholastic Achievement." Quarterly Journal of Economics 114, no. 2 (May 1999): 533575.
+
+G. Simultaneous equation models
+Simultaneous equations models
+I
+
+15
+
+The use of structural
+models
+Simultaneous equations
+bias
+The identification
+problem
+The structure and the
+reduced form
+Indirect least squares
+
+Lecture note 15: Simultaneous equations models - motivation and identification
+Lecture note 16: Simultaneous equations models - estimation
+Wooldridge. Chapter 16.
+Goldberger. Chapters 32-34.
+Angrist, J., G. Imbens, and K. Graddy. "The Interpretation of Instrumental Variables
+Estimators in Simultaneous Equations Models with an Application to the Demand for
+Fish." Review of Economic Studies 67, no. 3 (July 2000): 499-527.
+
+TOPIC #
+
+TOPICS
+Simultaneous equations models
+II
+
+16
+
+IV for the SEM
+Two-stage least squares
+Sampling variance of
+2SLS estimates
+
+READINGS
+
+

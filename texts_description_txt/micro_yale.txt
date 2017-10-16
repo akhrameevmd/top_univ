@@ -1,0 +1,6 @@
+An introduction to the basic tools of microeconomics to provide a rigorous framework for understanding how individuals, 
+firms, markets, and governments allocate scarce resources. The design and evaluation of public policy.
+
+The theory of resource allocation and its applications. Topics include the theory of choice, consumer and firm behavior, production, price determination in different market structures, welfare, and market failure.
+
+After introductory microeconomics and completion of the mathematics requirement for the major or its equivalent. Elementary techniques from multivariate calculus are introduced and applied, but prior knowledge is not assumed. May not be taken after Econ 125.

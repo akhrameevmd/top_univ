@@ -1,0 +1,8 @@
+The aim of this course is to get you conversant in the language of microeconomics. When noneconomists
+think about economics, they typically think of the study of unemployment, growth,
+and other factors relating to the macroeconomy at large. However, behind the scenes lies a vast
+array of choices and transactions carried out by individual agents; be that individuals’ choices
+of whether to work, how much to save, what to buy, firms’ choices about how much to produce,
+what prices to charge and whether to invest, and government’s choices about what to tax, what
+to subsidise, and what goods and services to provide. These are the sorts of microeconomic issues
+that we will study this term.

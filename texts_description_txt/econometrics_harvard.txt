@@ -1,0 +1,9 @@
+Introduction to Econometrics
+We analyze the linear model as a tool for describing relationships in economic data and
+associated disciplined. In particular, we will focus on best linear predictors under square
+loss and analyze this prediction problem in details using cross sectional data. We discuss
+nonlinear models and their approximations using linear models. Topics include: multiple
+regression, instrumental variables regression, analysis of random experiments and
+quasi-experiments, and regression with time series data. Students will learn how to
+conduct and critique empirical studies. The course gives sufficient details on the theory
+but will focus on applications. Prerequisite: Statistics 104 or equivalent.

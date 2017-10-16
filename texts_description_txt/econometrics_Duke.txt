@@ -1,0 +1,4 @@
+
+ECON  208D - Introduction to Econometrics
+	
+Introduction to the theory and practice of econometrics. Estimation, hypothesis testing and model evaluation in the linear regression model. Observational and experimental methods to identify causal effects including instrumental variable and panel data methods. Lectures are supplemented by labs that use STATA. Prerequisites: Economics 101, and Mathematics 112L, 122L, 202, 212, or higher; and Statistics 111, 130, 230, or 250 or Mathematics 230 or 342. Instructor: Staff

@@ -1,0 +1,4 @@
+ECON 402 - Intermediate Macroeconomic Theory
+This course in macroeconomics deals with the determination of broad economic aggregates such as national income, employment, the price level, and the balance of payments in both the short run and the long run. 
+Rigorous analysis is used to understand the forces that determine these economic variables, and how they are affected by public policies.
+

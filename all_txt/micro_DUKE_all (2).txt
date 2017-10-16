@@ -1,0 +1,330 @@
+Econ 205 Spring 2017
+Syllabus
+
+Instructor and Head TA
+Professor Rachel Kranton
+rachel.kranton@duke.edu
+Office: 219 Social Sciences
+Office hours: Mondays 1-3 pm
+Head TA (HTA)
+Yasha Miami
+ebs30@duke.edu
+Office:
+Office hours: Friday 2-4 pm
+Textbook
+Nicholson and Snyder, Microeconomic Theory. Cengage Learning, Twelfth Edition,
+2017.
+Course Requirements
+The course requires regular attendance in lecture and discussion sections,
+completion of problem sets, quizzes, and exams.
+Discussion Sections
+Students are assigned a weekly discussion section lead by a Teaching Assistant. The
+material discussed in each section will be determined weekly based on students’
+feedback, concerning topics that require additional review. The Head TA will
+organize obtaining this feedback from students.
+Office Hours
+The instructor, the HTA, the TA’s, and the undergraduate teaching assistants will be
+holding office hours throughout the week. Please use these office hours to discuss
+problem sets, lecture material, etc. Office hours will be posted on Sakai.
+
+Course Grade: Exams, Quizzes, Problem Sets
+The course grades are based on problem sets, quizzes, and three exams. There is no
+curve in the class per se, and students are not competing with each other for grades.
+Grades are assigned to reflect a student's mastery of the material as indicated by
+cumulative performance on the assignments and the exams. Each student could
+receive an A, for example, if each student performs well on all the elements of the
+course, with the grades assigned as explained below.
+Exams
+Eighty percent of a student’s course score is earned through exam points. There will
+be two midterms and a final – with a total of 300 exam points, 75 from each
+midterm and 150 from the final. The final exam score will replace any midterm
+score that is below the final exam score. If the student’s final exam score is higher
+(percentage wise) than one midterm, that midterm score is dropped and the final
+becomes 75% of the student’s total exam points. If the student’s final exam score is
+higher (percentage wise) than both midterms, both midterm scores are dropped
+and the final becomes 100% of the student’s total exam points.
+There are no make-up exams for midterms. If a student misses a midterm exam for
+any reason, then points from that midterm will be allocated to the final exam. For
+example, if a student misses the second midterm, the final exam counts for 75% of
+the student’s exam points.
+If a student misses the final exam and has a dean’s excuse, a make-up final exam will
+be given.
+Note that the exam average is not based on a student's performance relative to the
+class on each individual exam. The exam average is based on total number of points
+accumulated over the semester.
+The dates of the exams and other exam policies are below.
+Quizzes
+Ten percent of the course score will derive from ten in-class quizzes given over the
+semester. The quizzes are designed to give students the incentive to steadily keep
+pace with the course material and will be based on material recently covered in
+lecture. Each quiz will have a grade of 0, 0.8, or 1, with 0 indicating the student did
+not take the quiz or did not use an appropriate strategy to answer the question, 0.8
+indicating the student took the quiz and used an appropriate strategy to answer the
+question, and 1 indicating a completely correct answer. It is possible a student will
+receive a grade somewhere between 0.8 and 1 if the answer is between the criteria
+for those two grades.
+
+Quizzes will be given at the end of class, and a student can only take a quiz if the
+student has attended the full class session.
+There will be no make-up quizzes for any reason. If a student does not take a quiz,
+the grade for that quiz is 0.
+Each student’s average quiz score will be based on the top six quiz scores over the
+course of the semester.
+Problem Sets
+Ten percent of the course score is earned by completion and submission of the
+eleven problem sets assigned during the term. Problem sets are an integral part of
+the course, and success in the course is highly unlikely without timely completion of
+the problem sets.
+Students are encouraged to work together on the problem sets but must submit
+individually written answers. Students must write the names of other students
+with whom they worked on the top of their submitted problem set.
+Each problem set is given a score of 0, 0.7 or 1, where 0 indicates the problem set
+was not completed or not turned in on time. A 0.7 indicates the problem set was
+completed and turned in one time. One problem, selected at random, from each
+problem set will be graded; if the problem set was completed and turned in on time
+and the student uses an appropriate strategy to solve the selected problem, the
+problem set grade is a 1.
+If a problem set is not turned in on time for any reason, the grade is 0 for that
+problem set.
+Problem set average will be based on the top 7 problem set grades for the semester.
+Problem sets should be uploaded by the due date/time to your Dropbox folder on
+Sakai. Unless otherwise announced, problem sets are due on Mondays and must be
+by midnight of the due date. Note that problem sets can be submitted early. No late
+problem sets will be accepted. The HTA will discuss procedures further.
+Course Scores and Conversion to Letter Grades
+A student’s course score is calculated as follows:
+(0.80) x (exam average) +
+(0.10) x (quiz average) +
+(0.10) x (problem set average)
+
+If the median course score of the class is 85 or above, letter grades are assigned
+according to each student’s course score.
+If the median of the class is below 85, each student’s course score is increased by the
+difference between the class median and 85 to yield adjusted course scores. For
+example, if the median score is 82.7, then each student’s score is increased by 2.3.
+Letter grades are then assigned according to each student’s adjusted course score,
+except for the letter grade of A+, as described below.
+Letter grades are assigned using the following chart:
+
+Letter Grade
+A
+AB+
+B
+BC+
+C
+CD+
+D
+D-
+
+Cut-off Course Score
+95
+90
+87
+83
+80
+77
+73
+70
+65
+60
+55
+
+The letter grade of A+ is given for overall exceptional performance in the course. To
+earn a letter grade of A+, a student’s individual exam average must be at least 95%,
+individual quiz average must be at least 95%, and individual problem set average
+must be 100%.
+Exam Schedule
+The exam schedule is:
+Midterm #1: Wednesday Feb. 15 in class (date subject to change)
+Midterm #2: Wednesday March 29 in class (date subject to change)
+Final: Tuesday May 2 9am-noon Social Sciences 139
+Midterm #2 is cumulative and approximately 30% of points derive from the first
+third of the course and 70% from the second third.
+The final exam is cumulative and approximately 30% of points derive from the first
+third of the course, 30% from the second third, and 40% from the last third.
+
+Re-grading- Rescoring of Exams
+If a student thinks an exam (midterm and/or final) has been scored incorrectly, it is
+possible to petition for a re-grading of the exam. The petition must be typed and
+submitted to the HTA in writing - by email - within 24 hours of receiving the graded
+exam. The HTA decides whether or not to accept the petition. If the petition is
+accepted, the entire exam will be re-graded, which could result in a lower total score.
+A student must submit this petition for any re-grading, including the case that the
+points were not added up correctly.
+Lecture Notes
+Lecture notes will be posted on Sakai after each lecture. The lecture notes will
+consist of the explanations, graphs, equations, applications, problems, etc. that the
+instructor writes in real time during the lecture. (A pdf is created from a jnt file.)
+While useful, the notes will be not comprehensive; the lectures will involve
+explanations that are verbal and also occur in response to students’ questions.
+While the posted lecture notes should be a useful aid, they are not a substitute for
+attending class.
+Academic Integrity
+Students can work together on problem sets, as discussed above. Each student must
+turn in their solutions and write-ups, respectively.
+On quizzes and exams any form of colluding, copying, or using unauthorized
+materials is strictly prohibited. Students are expected to uphold the Duke
+Community Standard http://studentaffairs.duke.edu/conduct/about-us/dukecommunity-standard.
+Difficulties Completing Coursework or Taking the Final Exam
+PAY ATTENTION TO THIS: Be sure and contact your academic dean in due time
+for any issues that interfere with completing coursework during the semester
+and up to and including the day and time of the final exam.
+There is nothing the instructor can do or consider (such as difficulties the student
+may have faced during the semester) to adjust a student’s course grade. These are
+all matters for the student's Dean. The instructor must use the same grading criteria
+for all students.
+Only a student's dean can excuse a student from the final exam. If a student takes
+the final exam but then feels there were extenuating circumstances (illness, etc.)
+that interfered with the student’s performance, there is nothing the instructor can
+do to adjust the student’s score and course grade.
+
+The only circumstance in which an instructor can change a course grade after
+coursework is complete is the case where there was an instructor error in
+transcription or error in calculation of scores.
+For the Trinity policies on grades and exams, including absence from final exams,
+withdrawing from course, and grade changes, see
+http://trinity.duke.edu/undergraduate/academic-policies/grades-exams
+Class Schedule and Textbook Chapters
+The schedule on the next page is ambitious and approximate. We will most likely
+adjust as the course proceeds.
+Topics discussed in lectures are the core items of the course and the topics for
+which students are responsible on exams. Chapter #’s are for reference. The class
+will not cover every topic in the textbook chapters.
+COURSE SCHEDULE ECON 205 SPRING 2017
+
+Wednesday
+Monday
+Wednesday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+Monday
+Monday
+
+January 11
+January 16
+January 18
+January 23
+January 25
+January 30
+January 30
+February 1
+February 6
+February 6
+February 8
+February 13
+February 13
+
+Wednesday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+SPRING BREAK
+Monday
+Monday
+Wednesday
+
+February 15
+February 20
+February 22
+February 27
+February 27
+March 1
+March 6
+March 6
+March 8
+SPRING BR
+March 20
+March 20
+March 22
+
+Class Overview – Consumer Theory
+MLK DAY – No Class
+Consumer Preferences & Utility – Chapter 3
+Utility Maximization – Chapter 4
+Expenditure Minimization – Chapter 4
+Problem Set #1 due
+Demand – Chapter 4-5
+Income and Substitution Effects – Chapter 5
+Problem Set #2 due
+Welfare Analysis – Chapter 5
+Welfare Analysis – Chapter 5
+Problem Set #3 due
+Labor Supply, Intertemporal Choice – Chapter 16,
+Chapter 17
+Midterm Exam #1
+Production – Chapter 9
+Production, Costs – Chapter 9, Chapter 10
+Problem Set #4 due
+Costs – Chapter 10
+Profit Maximization – Chapter 11
+Problem Set #5 due
+Supply – Chapter 11
+Competitive Markets – Chapter 12
+SPRING BREAK
+Problem Set #6 due
+Monopoly – Chapter 14
+Price Discrimination - Chapter 14
+
+Monday
+Monday
+Wednesday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+Monday
+Monday
+Wednesday
+Friday
+Tuesday
+
+March 27
+March 27
+March 29
+April 3
+April 5
+April 10
+April 10
+April 12
+April 17
+April 17
+April 19
+April 24
+April 24
+April 26
+April 29
+May 2
+
+Problem Set #7 due
+General Equilibrium – Chapter 13
+Midterm Exam #2
+Basics of Game Theory – Chapter 8
+Game Theory – Chapter 8
+Problem Set #8 due
+Game Theory & Oligopoly – Chapter 15
+Oligopoly – Chapter 15
+Problem Set #9 due
+Public Goods – Chapter 19
+Risk & Uncertainty – Chapter 7
+Problem set # 10 due
+Asymmetric Information – Chapter 18
+Asymmetric Information – Chapter 18
+Problem set # 11 due
+FINAL EXAM
+
+

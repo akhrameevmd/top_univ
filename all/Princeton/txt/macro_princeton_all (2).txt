@@ -1,0 +1,62 @@
+Economics 503
+
+Macroeconomic Theory I
+Gregor Jarosch
+195 JRR
+email:gjarosch@princeton.edu
+
+Overview: This is a graduate course in the first year macroeconomics field. I will teach the first half and
+Esteban Rossi-Hansberg will teach the second half.
+Organization: The class meets on Mondays and Wednesdays from 9:00am to 10:30pm in JRR 198. A
+preliminary syllabus is attached. The material may change throughout the course. There will be weekly
+precepts at a time to be determined. The preceptor is Joseph Abadi. Finally, I will hold weekly office
+hours.
+Grading: Your grade for my part of the course will be based on five problem sets, counting for 30% of the
+grade, and a midterm exam, counting for 70%. The grading for Esteban’s part of the course will most
+likely use the same split.
+Books: the following two books are recommended, i.e. they are good books to own. However, we will not
+really use them so that you don’t need to buy them (Esteban will likely draw on SLP more than LS).
+- Stokey, Nancy, Robert E. Lucas Jr. and Edward C. Prescott (1989), “Recursive Methods in
+Economic Dynamics”
+- Ljungqvist, Lars and Thomas J. Sargent (2004), “Recursive Macroeconomic Theory”.
+Topics: The course will follow the designs of Richard Rogerson and Ben Moll who have taught the course
+in previous years. Ben's slides for 503 are publicly available on his website. I plan, however, to teach on
+the board and will certainly deviate from Ben's material frequently, in particular later on in the course.
+The course will use the neoclassical growth framework to touch upon various key macro topics such as
+growth, taxation, and the income distribution, but mostly it will serve as an environment to introduce
+standard tools and methods used in modern macroeconomics. The following is a coarse and preliminary
+outline of the course.
+1. Some Basics
+2. The Growth Model: Theory (most of the course)
+2.1 The Growth Model in Discrete and Continuous Time
+2.2 Transition Dynamics
+2.3 Competitive Equilibrium
+3. The Growth Model and the Data
+- Acemoglu, Daron (2008), Chapter 3, “The Solow Model and the Data”, in “Introduction to
+Modern Economic Growth”
+- King, Robert, and Sergio Rebelo. 1993. “Transitional Dynamics and Economic Growth in the
+Neoclassical Model.” The American Economic Review, 83(4): 908–931
+- Chen, Kaiji, Ayse Imrohoroglu, and Selahattin Imrohoroglu. 2006. “The Japanese Saving Rate.”
+American Economic Review, 96(5): 1850–1858
+4. Policy Analysis in the Growth Model (Capital Taxation)
+- Chamley, Christophe, “Optimal Taxation of Capital Income in General Equilibrium with Infinite
+Lives,” Econometrica, 1986, 54 (3), pp. 607–622.
+
+-
+
+Judd, Kenneth L., “Redistributive taxation in a simple perfect foresight model,” Journal of Public
+Economics, 1985, 28 (1), 59 – 83
+*Straub, Ludwig and Ivan Werning (2014), “Positive Long Run Capital Taxation: Chamley-Judd
+Revisited”
+
+5. Adding Growth to the Growth Model
+5.1 Exogenous Technological Progress and Balanced Growth
+◦ Romer, Paul M, 1986. “Increasing Returns and Long-run Growth,” Journal of Political
+Economy, vol. 94(5), 1002-1037
+5.2 Endogenous Growth
+◦ Lucas, Robert Jr., 1988. “On the mechanics of economic development”, Journal of
+Monetary Economics, vol. 22(1), 3-42
+6. Adding Labor to the Growth Model
+7. Sequence of Markets
+
+

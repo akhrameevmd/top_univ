@@ -1,0 +1,471 @@
+Econ 2004:
+The Open Economy
+
+Lecture 6: The supply side and the AD-BT-ERU model
+Reading.
+Core:
+Carlin & Soskice (2015) Chapter 10 Sections 10.1.2, 10.2.2, 10.2.3, 10.3, 10.4
+
+Optional: See Moodle page
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+1
+
+First half of the course – a balance sheet
+Model-building
+• MRE model (AD-BT-ERU) – equilibrium unemployment and exchange rate;
+medium-run inflation rate
+• 3-equation model of inflation targeting central bank – incorporating forwardlooking forex market
+• Close-up on the balance of trade  Marshall-Lerner condition; BT curve
+Policy questions
+• Optimal response to shocks by inflation-targeting CB
+• Overshooting & shocks from the forex market
+Events
+• Inflation and exchange rate regimes: under fixed & flexible exchange rates
+• Thatcher and exchange rate overshooting; Swiss Franc
+• ‘Currency wars’ (China, Japan – Abenomics, Trump) and CB policy
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+2
+
+This lecture
+Model-building
+• A range of equilibrium unemployment rates in the open economy
+(downward-sloping ERU curve)
+• The AD-BT-ERU model with a downward-sloping ERU
+• Long-run equilibrium: real exchange rate expectations
+
+Policy questions
+Can the government use fiscal policy to choose a lower equilibrium
+unemployment rate?
+Can a private sector boom lead to a lower equilibrium unemployment rate?
+Why these questions?
+Can DEMAND-SIDE policy or shocks affect equ. unemployment?
+
+Case study – the NICE years for the British economy under the Labour
+government from 1997-2007 (before the global financial crisis)
+UCL ECON2004 TERM 2 LECTURE 6
+
+5
+
+The UK economy under Labour (from 1997) – the NICE years
+• Remarkably strong performance of UK economy following exit from
+‘fixed’ exchange rate ERM in 1992
+
+What was this?
+See CS2006 pp.
+698-704 or De
+Grauwe book
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+6
+
+UK economic performance before the global financial
+crisis
+Question. How was such a prolonged period of falling U without
+rising π possible?
+Using a closed economy model, how can you explain this?
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+7
+
+The UK economy under Labour (from 1997) – the NICE
+years before the global financial crisis
+Using the open economy model:
+H1. Supply-side improvements beginning with Thatcher reforms …
+ERU shifts right
+Use AD-ERU model for H1
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+8
+
+The UK economy under Labour (from 1997) – the NICE years
+H2. Positive aggregate demand shocks… AD shifts right and economy
+moves down ERU
+AD-ERU model for H2 cannot predict lower equilibrium U
+
+→Is the ERU curve downward-sloping?
+→If so, IS shocks & higher G can change
+equilibrium unemployment in open
+economy
+UCL ECON2004
+TERM 2 LECTURE 6
+
+9
+
+Back to the model:
+Why is there a range of equilibrium unemployment rates in the
+open economy?
+The downward-sloping ERU curve – workers care about their real wage in terms
+of consumer prices (vertical ERU assumes _____ not ____ )
+
+Deriving the ERU curve
+Components: as usual, WS &PS curves
+1. WS curve – we now introduce the CPI
+
+What is the consumer price index (CPI) in the open economy?
+Assume:
+• all imports are final goods
+• households consume a bundle of home-produced & imported final goods
+Hence,
+
+PC  (1   ) P   P*e
+UCL ECON2004 TERM 2 LECTURE 6
+
+10
+
+Deriving the ERU curve (cont.)
+2. PS curve – we have to define this in terms of W/PC so we can
+show PS on same diagram as WS (p.370)
+We know
+Compare with the
+closed economy &
+W
+P  Px  (1   )
+vertical ERU PS:
+
+
+
+Pm  P*e
+
+How to remember?
+
+PC  (1   ) P   P e
+*
+
+ 1   
+W
+PS
+
+w 
+PC
+1   (Q  1)
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+11
+
+Deriving the ERU curve (cont.)
+Hence for WS=PS(Q) i.e. where inflation is constant, there is a
+range of levels of ye: the ERU
+WS curve: wWS  B ( y, zW )
+
+ 1   
+1   (Q  1)
+ 1   
+ wPS : B( y, zW ) 
+1   (Q  1)
+
+PS curve: wPS 
+wWS
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+12
+
+So much for the maths, what does it mean?
+•
+
+Consider a real appreciation due to a nominal appreciation
+
+•
+
+What are the implications for SUPPLY-SIDE equilibrium?
+
+•
+
+What happens to P (for domestic production and exports) as a
+result of nominal appreciation?
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+13
+
+All about the ERU curve
+1. Use q not Q on the axis (for
+convenience)
+2. Why is ERU downwardsloping?
+
+3. What shifts ERU (just as for
+vertical ERU – nothing new
+here)?
+UCL ECON2004 TERM 2 LECTURE 6
+
+14
+
+All about the ERU curve
+4. Why is inflation constant on
+the ERU curve?
+
+5. What is happening to
+inflation if not on ERU?
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+15
+
+Back to the UK economy under Labour (from 1997) –
+the NICE years
+H1. Supply-side improvements
+beginning with Thatcher reforms;
+ERU shifts right; new MRE at lower U
+→ for q, U, π, BT?
+
+H2. Positive aggregate demand
+shocks (consumption, housing,
+government spending)
+AD shifts right; new MRE at lower U
+→ for q, U, π, BT?
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+16
+
+Summarizing the AD-BT-ERU model
+The BT curve – why flatter than AD?
+
+If the economy is above the BT curve,
+there is a BT _____ and vice versa;
+BT shifts with _____
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+17
+
+Back to the UK economy under Labour (from 1997) –
+the NICE years
+H1 Supply side – how does it work?
+ERU shifts right → downward pressure on inflation; looser MP; new
+MRE at depreciated RER and lower U.
+Model predicts:
+• BT improves
+• real depreciation &
+• lower U
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+18
+
+Back to the UK economy under Labour (from 1997) –
+the NICE years
+H2. Positive aggregate demand shocks (consumption, housing,
+government spending) … AD shifts right; new MRE at lower U
+How does it work?
+AD shifts right → upward pressure on inflation; tighter monetary policy;
+nominal appreciation; new MRE at appreciated RER and lower U
+Model predicts:
+• BT deteriorates
+• real appreciation &
+• lower U
+
+Next step: check with the evidence …
+UCL ECON2004 TERM 2 LECTURE 6
+
+19
+
+The UK economy under Labour (from 1997) – the NICE
+years
+Step 1. Evidence on predicted outcomes
+H1 and H2 both predict lower U and stable inflation
+But
+H1 predicts real depreciation, improvement in BT
+H2 predicts real appreciation, deterioration in BT
+
+For BT data, see slide 21
+below
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+20
+
+The UK economy under Labour (from 1997) – the NICE
+years
+Step 2. Evidence on causes
+
+H1. Supply-side improvements beginning with Thatcher reforms …
+ERU shifts right
+Many indicators of this
+
+• WS curve shifted ____ (weaker unions, tighter conditions for U benefits)
+• PS shifted ____ (lower taxes, more product market competition)
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+21
+
+The UK economy under Labour (from 1997) – the NICE
+years
+Step 2. Evidence on causes
+H2. Positive aggregate demand shocks (consumption, housing,
+government spending) … AD shifts right; new MRE at lower U
+
+• Many indicators of this – covered in Term 1
+• Charts on next slide (show growth of GDP p.a.; and contributions of
+C (including housing); I; G; and (X-M)
+• Comparison with Germany
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+22
+
+GDP
+% p.a.
+4
+3
+
+UK
+2
+
+Germany
+
+1
+0
+
+1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005
+
+Private non-housing investment
+
+Private consumption and housing
+% p.a.
+3
+
+% p.a.
+3
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005
+
+1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005
+-1
+
+Government consumption & investment
+
+% p.a.
+3
+
+UK
+
+-1
+
+Net exports
+
+% p.a.
+3
+
+Germany
+
+2
+
+2
+
+1
+
+1
+
+UK
+
+Germany
+
+0
+
+0
+
+1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005
+
+1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005
+-1
+
+-1
+
+UK
+
+Germany
+
+UK
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+Germany
+
+23
+
+Summary of 2 hypotheses about the NICE years
+Evidence supports a synthetic hypothesis with a combination of
+• ERU (supply-side) shocks – lagged effect of Thatcher reforms
+• AD shocks (private and public sector spending booms)
+• BT (some new sources of comparative advantage including financial
+sector probably helped maintain ‘strong’ pound)
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+24
+
+Medium- and long-run equilibrium
+In the model so far,
+Equilibrium real exchange rate, ___ , is determined by ______
+
+But in the long run, pressures toward
+
+Why?
+
+ Concept of long-run equilibrium RER:
+UCL ECON2004 TERM 2 LECTURE 6
+
+25
+
+Medium- and long-run equilibrium
+What happens if q E is determined by BT=0?
+Begin at MRE with BT < 0.
+Show that the only stable MRE is at BT=0.
+
+What happens if at MRE, BT > 0 ?
+UCL ECON2004 TERM 2 LECTURE 6
+
+26
+
+Summing up
+1. Full model: AD-BT-ERU provides a general framework for policy
+analysis & can be used to look at MRE irrespective of exchange
+rate regime
+2. Remember what is behind each curve, what affects its slope &
+what can shift it; think about data relevant to each curve
+a) AD:
+the demand side, i.e. IS curve
+b) BT:
+X, M and their determinants
+c) ERU: the supply side, i.e. WS, PS
+
+3. Can be used in conjunction with the 3-equation model to
+discuss CB’s response to shocks under flexible exchange rates
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+27
+
+Next week … all about oil
+How to analyse
+• the macro impact of oil price shocks
+• discovery of a natural resource
+
+Self-test questions
+CS (2015) Chapter 10, checklist questions 5, 7, 9, 10
+
+UCL ECON2004 TERM 2 LECTURE 6
+
+28
+
+

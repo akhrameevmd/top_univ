@@ -1,0 +1,20 @@
+ECON 21100. Microeconometrics. 100 Units.
+This course provides students with a basic understanding of how econometrics, economic theory, and
+knowledge of institutions can be used to draw credible inferences on economic relationships. Topics
+include multivariate linear regression, causal inference, omitted variables bias, fixed and random effects
+models, simultaneous equation models, the propensity score, and discrete choice models. Students
+have the opportunity to apply these techniques to empirical questions in industrial organization, as well
+as in environmental, labor, and public economics.
+Instructor(s): Staff Terms Offered: TBD
+Prerequisite(s): ECON 21020 or ECON 2 1030
+ECON 21110. Applied Microeconometrics. 100 Units.
+This course will cover a broad set of applications in labor economics, public economics, industrial
+organization, economics of education, environmental economics, and development economics. There
+will be a strong focus on how economic theory, institutional details, and experiments can be used to
+draw causal inferences on economic relationships. There will be emphasis on applying a number of
+commonly used microeconometric methods to economic data; including the linear regression model,
+fixed and random effects models, instrumental variables, and discrete choice models. When interpreting
+the empirical results, we will also discuss the importance of omitted variables bias and measurement
+error.
+Instructor(s): J. Joensen Terms Offered: Spring
+Prerequisite(s): ECON 20900 or ECON 21000

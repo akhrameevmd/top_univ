@@ -1,0 +1,1672 @@
+Macroeconometrics
+Topic 3: Multivariate Time Series
+
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas 2016
+
+Multivariate Time Series
+
+I
+
+Spurious Regressions & Co-integration
+
+I
+
+Single Equation Dynamic Models: ARDL & ECM models
+
+Multivariate Time Series
+
+Spurious Regressions
+
+Spurious Regressions
+I
+
+Spurious regressions have a long tradition in statistics
+
+I
+
+Yule (1926): “Why do we sometimes get
+nonsense-correlations between time-series?”
+
+I
+
+“It is fairly familiar knowledge that we sometimes obtain
+between quantities varying with the time (time-variables) quite
+high correlations to which we cannot attach any physical
+significance whatever, although under the ordinary test the
+correlation would be held to be certainly "significant"”
+
+Spurious Regressions
+I
+
+Real Data Example: Yule (1926)
+
+I
+
+Proportion of Church of England marriages to all
+marriages for the years 1866-1911 inclusive and
+standardized mortality per 1000 persons for the same years
+
+I
+
+Correlation coefficient = 0.9512
+
+Spurious Regression
+I
+
+“As the occurrence of such “nonsense-correlations” makes one
+mistrust the serious arguments that are sometimes put forward
+on the basis of correlations between time series (...) it is
+important to clear up the problem how they arise and in what
+special cases.” Yule (1926)
+
+I
+
+“When we find that a theoretical formula applied to a particular
+case gives results which common sense judges to be incorrect, it
+is generally as well to examine the particular assumptions
+from which it was deduced, and see which of them are
+inapplicable to the case in point.” Yule (1926)
+
+Spurious Regressions
+I
+
+Yule (1926): Experimental exercise
+
+I
+
+He simulated the distribution of the empirical correlation
+coefficient calculated from two independent i.i.d.
+processes, from two independent random walks, and from
+two independent cumulated random walks
+
+Spurious Regressions
+I
+
+Granger and Newbold (1974): “Spurious Regressions in
+Econometrics”
+
+I
+
+“It is very common to see reported in applied econometric
+literature time series regression equations with an apparently
+high degree of fit, measured by the coefficient of multiple
+correlation R2 or the corrected coefficient R̄2 , but with an
+extremely low value for the Durbin-Watson statistic.”
+
+I
+
+How nonsense regressions can arise? A simulation study:
+
+I
+
+Let yt = yt 1 + vt and xt = xt 1 + wt with y0 = 0, x0 = 0,
+and vt i.i.d. (0, 1) independent of wt i.i.d. (0, 1) and
+consider the least squares regression
+yt = α̂ + β̂xt + ût , t = 1, ..., T
+
+Spurious Regressions
+Let yt = yt 1 + vt and xt = xt 1 + wt with y0 = 0, x0 = 0, and
+vt i.i.d. (0, 1) independent of wt i.i.d. (0, 1) and consider the
+least squares regression yt = α̂ + β̂xt + ût , t = 1, ..., T
+
+A draw
+α̂
+tα̂
+β̂
+tβ̂
+R2
+DW
+
+T = 99
+-0102
+-0.170
+0.605
+10.821
+0.546
+0.151
+
+T = 999
+-11.658
+-26.032
+0.610
+65.532
+0.811
+0.032
+
+Spurious Regressions
+
+A Monte Carlo
+T = 99
+
+T = 999
+
+tα̂
+tβ̂
+R2
+DW
+tα̂
+tβ̂
+R2
+DW
+
+percentiles
+5%
+50%
+95%
+-17.384 0.361 18.955
+-10.987 0.012 11.247
+0.001
+0.168
+0.659
+0.047
+0.144
+0.372
+-56.073 -1.656 56.769
+-37.819 0.516 39.271
+0.001
+0.171
+0.695
+0.004
+0.016
+0.038
+
+rf1.96 =0.756
+m(R2 )=0.232
+m(DW )=0.171
+rf1.96 =0.927
+m(R2 )=0.240
+m(DW )=0.018
+
+Spurious Regressions
+
+I
+
+Phillips (1986): “Understanding Spurious Regressions in
+Econometrics”
+
+I
+
+“The present paper develops an asymptotic theory for
+regressions that relate quite general integrated random processes.
+This includes spurious regressions of the Granger-Newbold
+type as a special case. It turns out that the correct asymptotic
+theory goes a long way towards explaining the experimental
+results that these authors obtained. In many cases their findings
+are quite predictable from the true asymptotic behavior of the
+relevant statistics.”
+
+Spurious Regressions
+I
+
+“Thus, our theory demonstrate that in the Granger-Newbold
+regressions of independent random walks the usual t-ratio
+significance test does not possess a limiting distribution, but
+actually diverges as the sample size T ! ∞.”
+
+I
+
+“Inevitably, therefore, the bias in this test towards the rejection
+of no relationship (based on a nominal critical value of 1.96) will
+increase with T.”
+
+I
+
+“We also show that the Durbin-Watson statistic actually
+converges in probability to zero, while the regression R2 has a
+non-degenerate limiting distribution as T ! ∞.”
+
+Spurious Regressions
+
+Let yt = yt 1 + vt and xt = xt 1 + wt with y0 = 0, x0 = 0, and
+vt i.i.d. (0, 1) independent of wt i.i.d. (0, 1) and consider the
+least squares regression
+yt = β̂xt + ût , t = 1, ..., T
+where
+
+PT
+
+yt xt
+β̂ = P1T
+2
+1 xt
+
+Spurious Regressions
+
+(a) Denominator
+T
+
+2
+
+x2t =) σ2w
+
+Z
+
+yt xt =) σv σw
+
+Z
+
+T
+X
+1
+
+1
+
+W (r)2 dr
+
+0
+
+(b) Numerator
+T
+
+2
+
+T
+X
+1
+
+0
+
+1
+
+V (r) W (r) dr
+
+Spurious Regressions
+
+Therefore,
+β̂ =
+
+PT
+
+1 yt xt
+PT 2
+1 xt
+
+σv
+!
+σw
+d
+
+R1
+0
+
+V (r) W (r) dr
+R1
+2
+0 W (r) dr
+
+That is the OLS estimator converges to a random variable
+
+Spurious Regressions
+
+It can also be shown that
+T
+
+1/2
+
+tβ =) D,
+
+and
+R2 =) M,
+where D and M are two random variables.
+
+Spurious Regressions
+
+I
+
+Macroeconomic time series are non-stationary and
+persistent
+
+I
+
+Are all regressions in macroeconomics spurious then?!?!?!?!
+
+I
+
+(...)
+
+Multivariate Time Series
+
+Co-integration
+
+Integration
+Definition (I (d))
+A series with no deterministic components which has a
+stationary, invertible, ARMA representation after differencing d
+times, is said to be integrated of order d, denoted xt I (d).
+
+I
+
+In this course, only the values d = 0 and d = 1 will be
+considered (e.g. random walk), but many results can be
+generalized to other cases including the fractional
+difference model
+
+I
+
+Substantial differences between xt
+(Random walk!)
+
+I (0) and xt
+
+I (1).
+
+Integration
+
+Properties of xt
+
+I (0) (with zero mean):
+
+(i) var(xt ) is finite
+(ii) innovations have only temporary effect on xt
+(iii) autocorrelations, ρk , decrease steadily in magnitude for
+large enough k, so sum is finite
+
+Integration
+
+Properties of xt
+
+I (1) (x0 = 0):
+
+(i) var(xt ) goes to infinity as t goes to infinity
+(ii) innovations have permanent effect on xt
+(iii) autocorrelations, ρk ! 1 for all k as t ! ∞
+
+Co-integration
+
+I
+
+If xt and yt are both I (d), then it is “generally” true that the
+linear combination
+zt = xt
+
+ayt ,
+
+will also be I (d)
+
+I
+
+David Hendry said to Clive Granger: The difference of two
+I (1) variables can be I (0)...
+
+Co-integration
+Engle, R. F. and C. W. J. Granger (1987): “Co-integration and
+Error Correction: Representation Estimation and Testing,”
+Econometrica 55, 251-276.
+
+Definition (Co-integration)
+The components of the vector xt are said to be co-integrated of
+order d, b, denoted xt CI (d, b), if (i) all components of xt are
+I (d); (ii) there exists a vector α (6= 0) so that
+zt = α0 xt I (d b), b > 0. The vector α is called the
+co-integrating vector
+
+Co-integration
+I
+
+Consider: d = b = 1. That is xt
+
+I
+
+Simplest example: Let yt
+
+I (1) and zt = α0 xt
+
+I ( 1 ) , xt
+
+I (0)
+
+I (1), and
+
+yt = θxt + zt
+with zt
+
+I (0)
+
+I
+
+Hence, zt will rarely drift far from zero (if it has zero mean)
+and will often cross the zero line
+
+I
+
+Equilibrium Relationship: yt θxt ; so that zt represent the
+stationary deviation from the equilibrium
+
+I
+
+Therefore, yt and xt will not move too far away from each
+other
+
+Co-integration
+I
+
+Real Consumption and Real GDP
+
+I
+
+U.S. Quarterly Data from the Federal Reserve Bank of St.
+Louis: 1947Q1-2012Q2
+14,000
+12,000
+10,000
+8,000
+6,000
+4,000
+2,000
+0
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+REALC
+
+80
+
+85
+
+90
+
+REALGDP
+
+95
+
+00
+
+05
+
+10
+
+Co-integration
+I
+
+Government Expenditures and Revenues
+
+I
+
+U.S. Quarterly Data from the Federal Reserve Bank of St.
+Louis: 1947Q1-2012Q2
+4,000
+3,500
+3,000
+2,500
+2,000
+1,500
+1,000
+500
+0
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+REVENUES
+
+80
+
+85
+
+90
+
+95
+
+EXPENDITURES
+
+00
+
+05
+
+10
+
+Co-integration
+I
+
+Real Stock Prices and Real Dividends
+
+I
+
+U.S. Monthly Data from Robert Shiller: 1871m1-2012m6
+32
+
+2,800
+
+28
+
+2,400
+
+24
+
+2,000
+
+20
+
+1,600
+
+16
+
+1,200
+
+12
+
+800
+
+8
+
+400
+
+4
+
+0
+80
+
+90
+
+00
+
+10
+
+20
+
+30
+
+40
+
+REALP
+
+50
+
+60
+REALD
+
+70
+
+80
+
+90
+
+00
+
+10
+
+Co-integration
+The common factor explanation
+I
+
+Example: Let Wt
+
+I (1) and consider the following system
+yt = aWt + uyt
+xt = Wt + uxt
+
+where uyt and uxt are both I (0)
+I
+
+Then, yt
+
+I
+
+But
+yt
+
+I
+
+I (1) and xt
+
+axt = aWt + uyt
+
+I (1)
+
+aWt + auxt = uyt + auxt
+
+Cancellation of the common factor Wt !
+
+I (0)
+
+Testing for Cointegration
+Engle and Granger proposal
+I
+
+Estimate the long run (static) relationship by OLS
+yt = f (t) + βxt + zt ,
+
+I
+
+and compute the OLS residuals, ẑt
+Then test for co-integration
+Ho : ẑt
+Ha : ẑt
+
+I (1)
+I (0)
+
+I
+
+DF test on ẑt : Important! Critical values are not the same as
+those derived by Dickey and Fuller (ẑt incorporates the
+OLS estimates!)
+
+I
+
+Critical values tabulated by MacKinnon (1991)
+
+Testing for Cointegration
+Estimation Properties
+
+yt = θxt + zt
+In general,
+I
+
+OLS estimates biased and inefficient (although
+super-consistent!)
+
+I
+
+Nonstandard distributions with nuisance parameters
+
+I
+
+There could be more than one cointegrating vector
+
+I
+
+Endogeneity
+
+I
+
+Static Relation
+
+Multivariate Time Series
+
+Single Equation Dynamic Models:
+ARDL & ECM
+
+Single Equation Dynamic Models
+
+I
+
+Distributed Lags
+
+I
+
+Autoregressive
+
+I
+
+ARDL
+
+Single Equation Dynamic Models
+
+Distributed Lags
+yt = µ + β0 xt + β1 xt
+with E(εt jxt , xt
+
+1 , ...)
+
+= 0.
+
+(Multipliers + Graph)
+
+1
+
++ ... + βr xt
+
+r
+
++ εt
+
+Single Equation Dynamic Models
+
+Autoregressive
+yt = µ + β0 xt + γ1 yt
+with E(εt jyt
+
+1 , yt 2 , ...xt )
+
+(Multipliers + Graph)
+
+= 0.
+
+1
+
++ ... + γp yt
+
+p
+
++ εt
+
+Single Equation Dynamic Models
+
+ARDL
+yt = µ + γ1 yt
+with E(εt jyt
+
+1
+
++ ... + γp yt
+
+p
+
++ β0 xt + β1 xt
+
+1 , yt 2 , ...xt , xt 1 , ...)
+
+(Multipliers + Graph)
+
+= 0.
+
+1
+
++ ... + βr xt
+
+r
+
++ εt
+
+Single Equation Dynamic Models
+I
+
+Distributed Lags
+yt = µ + β0 xt + β1 xt
+with E(εt jxt , xt
+
+I
+
+1 , ...)
+
+1
+
++ ... + βr xt
+
+r
+
++ εt
+
+= 0.
+
+Using the lag operator
+yt = µ + ( β0 + β1 L + ... + βr Lr )xt + εt
+
+I
+
+Or more compactly
+yt = µ + Br (L)xt + εt
+
+Single Equation Dynamic Models
+I
+
+Autoregressive
+yt = µ + β0 xt + γ1 yt
+with E(εt jyt
+
+I
+
++ ... + γp yt
+
+p
+
++ εt
+
+= 0.
+
+Using the lag operator
+
+(1
+I
+
+1 , yt 2 , ...xt )
+
+1
+
+γ1 L
+
+...
+
+γ p Lp ) yt = µ + β 0 xt + ε t
+
+Or more compactly
+Cp (L)yt = µ + β0 xt + εt
+
+Single Equation Dynamic Models
+I
+
+ARDL
+yt = µ + γ1 yt
+with E(εt jyt
+
+I
+
+1 , yt 2 , ...xt , xt 1 , ...)
+
+= 0.
+
+Using the lag operator
+
+(1
+I
+
+1 + ... + γp yt p + β0 xt + β1 xt 1 + ... + βr xt r + εt
+
+γ1 L
+
+...
+
+γp Lp )yt = µ + ( β0 + β1 L + ... + βr Lr )xt + εt
+
+Or more compactly
+C p ( L ) yt = µ + Br ( L ) xt + ε t
+
+Single Equation Dynamic Models
+I
+
+IMPORTANT: ARDL models can be written in Error
+Correction Form
+
+I
+
+Example: ARDL(1,1)
+yt = µ + γ1 yt
+
+I
+
+1
+
++ β0 xt + β1 xt
+
+1
+
++ εt
+
+ECM representation
+∆yt = µ + (γ1
+where θ =
+
+1)(yt
+
+( β0 + β1 ) / ( γ1
+
+1
+
+1)
+
+θxt
+
+1) +
+
+β0 ∆xt + εt
+
+Single Equation Dynamic Models
+I
+
+Stability: The ARDL model is stable when the roots of the
+autoregressive polynomial Cp (L) are outside the unit circle
+
+I
+
+If the model is stable then the following RD representation
+is well defined
+yt =
+
+µ
+Br (L)
+1
++
+xt +
+εt
+Cp (L) Cp (L)
+Cp (L)
+
+I
+
+Br (L)/Cp (L) = D∞ (L) is convergent if the model is stable
+(finite impact of a change in xt - back to equilibrium)
+
+I
+
+Note that the new error term, say ut = εt /Cp (L) is now
+autocorrelated
+
+I
+
+α = µ/Cp (L) = µ/Cp (1) is also finite
+
+Single Equation Dynamic Models
+
+I
+
+DL representation of an ARDL model
+yt =
+
+I
+
+µ
+Br (L)
+1
++
+xt +
+εt
+Cp (L) Cp (L)
+Cp (L)
+
+We can write this as
+yt = α + D∞ (L)xt + ut = α +
+
+∞
+X
+j=0
+
+where α = µ/Cp (1) and ut = εt /Cp (L)
+
+δj xt
+
+j
+
++ ut
+
+Single Equation Dynamic Models
+Multipliers and Transmission of effects
+I
+
+Impact (or contemporaneous) Multiplier:
+m0 =
+
+I
+
+∂yt
+Br (0)
+= D∞ (0 ) = δ 0 =
+= β0
+∂xt
+Cp (0)
+
+j-th lag Multiplier:
+mj =
+
+I
+
+∂yt
+= δj 6 = βj
+∂xt j
+
+Total (or long run) Multiplier:
+mT =
+
+∞
+X
+j=0
+
+mj = D(1) =
+
+∞
+X
+j=0
+
+δj =
+
+Br ( 1 )
+Cp ( 1 )
+
+Single Equation Dynamic Models
+
+Measures of the Speed of Transmission
+I
+
+Mean lag: tells us how concentrated or diluted the effect of
+xt on yt is. Earlier lags get higher weights
+
+I
+
+Median lag: time when the dependent variable yt has
+accumulated 50% of the total effect. If the effect is
+transmitted slowly, the Median Lag will be larger
+
+Single Equation Dynamic Models
+
+Measures of the Speed of Transmission
+I
+
+Mean lag: weighted mean of all multipliers
+P∞
+D0 (1 )
+B0 (1 )
+j=0 jδj
+=
+MeanLag = P∞
+=
+D(1)
+B(1)
+j=0 δ j
+dD(L)
+
+C0 (1 )
+C(1)
+
+where D0 (1) = dL jL=1 . The mean lag tells us how
+concentrated or diluted the effect of xt on yt is. Earlier lags
+get higher weights
+
+Single Equation Dynamic Models
+
+Measures of the Speed of Transmission
+I
+
+Median lag: time when the dependent variable yt has
+accumulated 50% of the total effect
+)
+( Pq
+j=0 δ j
+MedianLag = min P∞
+0.5
+q
+j=0 δ j
+
+If the effect is transmitted slowly, the Median Lag will be
+larger
+
+Single Equation Dynamic Models
+Correlation among regressors and error term
+I
+
+Mean independence of the error term and the regressors is
+a fundamental assumption for OLS to deliver unbiased
+and consistent estimates
+
+I
+
+This occurs when the error term is autocorrelated
+
+I
+
+To see this, notice that
+yt = µ + βxt + αyt
+yt
+
+I
+
+Endogeneity!
+
+1
+
++ εt
+= µ + βxt 1 + αyt 2 + εt
+1
+
+1
+
+Single Equation Dynamic Models
+Correlation among regressors and error term
+I
+
+Example: AR(1) errors
+yt = µ + βxt + αyt
+εt = φεt
+where ut
+
+I
+
+1
+
+1
+
++ εt
+
+1
+
++ εt
+
++ ut
+
+i.i.d.(0, σ2u )
+
+Example: MA(1) errors
+yt = µ + βxt + αyt
+εt = ut + θut
+where ut
+
+i.i.d.(0, σ2u )
+
+1
+
+Single Equation Dynamic Models
+
+Correlation among regressors and error term
+I
+
+Endogeneity!
+
+I
+
+What could we do?
+
+Single Equation Dynamic Models
+
+Correlation among regressors and error term
+I
+
+Endogeneity!
+
+I
+
+What could we do?
+
+I
+
+IV / 2SLS
+
+Single Equation Dynamic Models
+
+Economic Hypotheses and Dynamic Models
+I
+
+Adaptive Expectations
+
+I
+
+Partial Adjustment
+
+Single Equation Dynamic Models
+Adaptive Expectations Hypothesis
+I
+
+Consider
+yt = α + βxet+1jt + εt
+
+xet+1jt = λxetjt
+
+1
+
++ (1
+
+λ ) xt
+
+where xet+1jt is the expectation at time t of xt+1 , xetjt 1 is the
+previous expectation, xt is the realization at time t, and
+λ 2 [0, 1]
+I
+
+When λ = 0 : immediate correction. When λ = 1 :
+expectations are static
+
+Single Equation Dynamic Models
+
+Adaptive Expectations Hypothesis
+I
+
+The expectations formation equation can be written as
+xet+1jt
+
+xetjt
+
+1
+
+= (1
+
+λ)(xt
+
+xetjt
+
+1)
+
+where xet+1jt xetjt 1 is the change in the expectation;
+(1 λ) intensity of speed of adjustment of expectations;
+(xt xetjt 1 ) error in the last expectation formation
+
+Single Equation Dynamic Models
+Adaptive Expectations Hypothesis
+The expectations equation
+xet+1jt = λxetjt
+
++ (1
+
+λ ) xt
+
+λL)xet+1jt = (1
+
+λ)xt
+
+1
+
+can also be rewritten as
+
+(1
+Hence:
+xet+1jt =
+
+(1 λ )
+xt = (1
+(1 λL)
+
+λ)(xt + λxt
+
+1
+
++ λ2 xt
+
+2
+
++ ...)
+
+Single Equation Dynamic Models
+Adaptive Expectations Hypothesis
+I
+
+The model is
+yt = α + βxet+1jt + εt
+
+xet+1jt = λxetjt
+
+1
+
++ (1
+
+λ ) xt
+
+where xet+1jt is the expectation at time t of xt+1 , xetjt 1 is the
+previous expectation, xt is the realization at time t, and
+λ 2 [0, 1]
+I
+
+I
+
+And we have seen that
+(1 λ )
+xet+1jt =
+xt = ( 1
+(1 λL)
+
+λ)(xt + λxt
+
+1
+
++ λ 2 xt
+
+Therefore, we can write the model in ADRL form
+yt = α + β
+
+(1 λ )
+xt + ε t
+(1 λL)
+
+2
+
++ ...)
+
+Single Equation Dynamic Models
+Adaptive Expectations Hypothesis
+I
+
+Therefore, we can write the model in DL form
+yt = α + β
+
+I
+
+(1 λ )
+xt + ε t
+(1 λL)
+
+We can also write
+
+(1
+
+λL)yt = (1
+
+λL)α + β(1
+
+λ)xt + (1
+
+λL)εt
+
+or equivalently
+yt = α + β xt + γ yt
+
+1
+
++ εt
+
+where α = (1 λ)α, β = β(1 λ), γ = λ, and
+εt = εt λεt 1 . Notice: yt ARDL(1, 0) with εt
+MA(1)
+
+Single Equation Dynamic Models
+Partial Adjustment
+I
+
+In Partial Adjustment models there is a target variable yt
+that depends on another variable xt ; that is
+yt = µ + βxt + εt
+
+I
+
+Partial Adjustment Hypothesis:
+yt
+
+yt
+
+1
+
+= γ(yt
+
+yt
+
+1)
+
+where yt yt 1 is the observed change and (yt
+the targeted change
+I
+
+yt
+
+If γ = 0 : there is no adjustment. If γ = 1 : we get an
+instantaneous adjustment
+
+1)
+
+is
+
+Single Equation Dynamic Models
+Partial Adjustment
+I
+
+Partial Adjustment Hypothesis:
+yt
+
+yt
+
+1
+
+= γ(yt
+
+yt
+
+1)
+
+where yt yt 1 is the observed change and (yt
+the targeted change
+I
+
+1)
+
+is
+
+Motivation: An agent is trying to minimize the following
+cost function:
+ct = a1 (yt
+
+yt
+
+1)
+
+2
+
++ a2 ( yt
+
+yt )2
+
+where (yt yt 1 ) is the adjustment cost and (yt
+cost of not being optimal
+I
+
+yt
+
+yt ) is the
+
+The solution to this optimization problem (based on the
+FOC ∂ct /∂yt = 0) gives
+a2
+yt yt 1 =
+(y
+yt 1 )
+a1 + a2 t
+
+Single Equation Dynamic Models
+Partial Adjustment
+I
+
+Notice that the adjustment equation
+yt
+
+yt
+
+1
+
+= γ(yt
+
+yt
+
+1)
+
+can be written as
+yt =
+
+γ
+y
+(1 γ )L) t
+
+I
+
+(1
+Partial Adjustment Hypothesis:where yt yt 1 is the
+observed change and (yt yt 1 ) is the targeted change
+
+I
+
+Hence, back to the original model, that is
+yt = µ + βxt + εt
+we see that we can then substitute yt so that we get
+
+(1
+
+(1 γ )L)
+yt = µ + βxt + εt
+γ
+
+Single Equation Dynamic Models
+Partial Adjustment
+I
+
+Hence, back to the original model, that is
+yt = µ + βxt + εt
+we see that we can then substitute yt so that we get
+
+(1
+I
+
+(1 γ )L)
+yt = µ + βxt + εt
+γ
+
+The model has an ARDL representation
+yt = α0 + α1 xt + α2 yt
+where α0 = γµ, α1 = γβ, α2 = (1
+
+1
+
++ vt
+
+γ), and vt = γεt
+
+Co-integration and Dynamic Models
+I
+
+We have seen that ARDL models can be written in ECM
+form
+
+I
+
+There is a very important result that connects the concept
+of co-integration with the ECM representation
+
+I
+
+This result is known as the Granger Representation
+Theorem
+
+I
+
+The theorem says (roughly) that a vector of I (1) time series
+is co-integrated if and only if an error correction
+representation exists.
+
+I
+
+This theorem is of great value both in theory and in
+practice.
+
+Co-integration and Dynamic Models
+
+By the Granger Representation Theorem, two time series yt
+and xt are co-integrated if and only if the following ECM
+representation exist
+∆yt =
+
+γ 1 ( yt
+
+1
+
+∆xt =
+
+γ 2 ( yt
+
+1
+
++ Ω1 (L)∆xt
+βxt 1 ) + Φ2 (L)∆yt 1 + Ω2 (L)∆xt
+βxt
+
+1) +
+
+Φ1 (L)∆yt
+
+1
+
++ ε1t
+1 + ε2t
+1
+
+Co-integration and Dynamic Models
+ECM
+∆yt =
+
+γ 1 ( yt
+
+1
+
+∆xt =
+
+γ 2 ( yt
+
+1
+
+I
+
+γ 1 ( yt
+
+βxt
+
+1
+
++ Ω1 (L)∆xt
+βxt 1 ) + Φ2 (L)∆yt 1 + Ω2 (L)∆xt
+βxt
+
+1)
+
+1) +
+
+γ1 : speed of adjustment
+
+I
+
+yt
+
+βxt
+
+1
+
+1
+
+: error correction term
+
+I
+
+1
+
+Φ1 (L)∆yt
+
+long-run equilibrium relationship
+
++ ε1t
+1 + ε2t
+1
+
+Co-integration and Dynamic Models
+
+ECM
+∆yt =
+
+γ 1 ( yt
+
+1
+
+∆xt =
+
+γ 2 ( yt
+
+1
+
++ Ω1 (L)∆xt
+βxt 1 ) + Φ2 (L)∆yt 1 + Ω2 (L)∆xt
+βxt
+
+1) +
+
+Φ1 (L)∆yt
+
+1
+
+I
+
+Φ1 (L)∆yt
+
+I
+
+the model could include deterministic terms
+
+1
+
++ Ω1 (L)∆xt 1 : short run dynamics
+
++ ε1t
+1 + ε2t
+1
+
+Co-integration and Dynamic Models
+
+Co-integration is a facinating theory!
+We could continue talking about it for another term,
+or two, or three... but...
+
+The End
+End of the course
+I hope you have enjoyed it
+and
+learnt some econometrics along the way...
+Merry\
+Christmas!
+
+

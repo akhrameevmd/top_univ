@@ -1,0 +1,32 @@
+ Essentials of Econometrics (ECNM10052)
+Summary 
+Essentials of Econometrics provides an introduction to
+econometric theory and practice for advanced
+undergraduate students who have completed courses in
+probability and statistics, microeconomics and
+macroeconomics. EE aims to ensure that all economics
+honours students have a sound grasp of the basic
+techniques of modern empirical economics.
+
+Course
+description
+
+Essentials of Econometrics (EE) provides an opportunity
+to learn skills that are important for later stages of the
+Economics programme, and many future career and life
+contexts. EE aims to ensure that all economics honours
+students have a sound grasp of the basic techniques of
+modern empirical economics.
+The topics covered are likely to include: statistics
+(review of probability distributions, statistical
+inference, estimation and hypothesis testing); the
+linear regression model (two-variable model, multiple
+regression, functional forms, dummy variables);
+regression analysis in practice (model selection criteria
+and tests, multicollinearity, heteroskedasticity,
+autocorrelation).
+EE includes weekly lab sessions to reinforce lectures,
+with exercises which foster 'learning-by-doing'. The
+course provides an opportunity to develop and practice
+key practical skills in computing, data gathering,
+processing, analysis and presentation.

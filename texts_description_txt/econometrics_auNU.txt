@@ -1,0 +1,25 @@
+EMET4308/EMET8008 - Econometric
+Theory 
+
+This is an advanced course on econometric theory. It intends to cover GMM, basic panel
+data and time series models.
+
+Applied Macro and Financial Econometrics
+This course will examine modern applied research on macroeconomic and financial issues. The
+main objective is to allow students to understand and critically appraise applied work on
+macroeconomic and financial topics.
+
+Economic Models and Introductory
+Econometrics
+This is a unit in basic econometrics, emphasising the problems involved in the empirical
+measurement of economic relationships and the techniques used to solve these problems.
+While the application of econometric techniques is of prime importance, the results are not
+just presented but derived using a mixture of rigour and intuition so as to leave as few
+loose ends as possible.
+Econometris II: Econometric Models
+This course presents and develops techniques necessary for the quantitative analysis of economic
+and business problems that are beyond the scope of the simple linear regression model covered in
+EMET2007 or STAT2008. Topics include: endogeneity, instrumental variables estimation, natural
+experiments, binary dependent variables, and panel data estimation. This is a hand-on course
+with a focus on applications in economics as well as business. A standard statistical software will
+be used during computer sessions, no special programming skills are required.

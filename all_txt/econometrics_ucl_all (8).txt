@@ -1,0 +1,931 @@
+ECON 2007: Quant Econ and Econometrics
+Regression with Time Series
+Dr. Áureo de Paula
+Department of Economics
+University College London
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+1 / 45
+
+Introduction
+Time-series data have a few subtle departures from cross-sectional
+datasets. Most importatly:
+I
+
+There is a natural order: time flows in one direction. . . (A
+sequence of random variables is called a stochastic process.)
+
+I
+
+Whereas in cross-sectional settings, random sampling is a typical
+paradigm, time-series observations will usually be display some
+dependence. Tomorrow is not completely independent from today!
+
+I
+
+Example: Life Expectancy in UK.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+2 / 45
+
+Introduction
+
+I
+
+To learn how today and tomorrow are related, we would like to get
+many realizations for a stochastic process of interest. The thought
+experiment of restarting the stochastic process to collect a
+different realization of the trajectory of random variables is
+nevertheless infeasible.
+
+I
+
+If we observe many “todays” and “tomorrows” and the relation
+between them is stable we might still be able to use only one
+realization of the process nonetheless.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+3 / 45
+
+Static Models
+A static model is one in which only contemporaneous variables
+appear. For example,
+yt = β0 + β1 xt + ut
+An example would be a (static) Philips curve:
+inft = β0 + β1 unemt + ut
+Another example would be the relation between life expectancy and
+income per capita:
+lifet = β0 + β1 log inct + ut
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+4 / 45
+
+Finite Distributed Lag Models
+
+A FDL model is one in which lagged explanatory variables appear as
+regressors. For example,
+yt = α0 + δ0 xt + δ1 xt−1 + δ2 xt−2 + ut
+which is a FDL model of order 2.
+δj is the change in y j periods after a temporary change in x.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+5 / 45
+
+Finite Distributed Lag Models
+
+δ0 is the impact propensity or impact multiplier.
+A graph of δj against j is known as the lag distribution and gives the
+dynamic effect of a temporary increase in x on y .
+Pq
+
+is the long-run propensity or long-run multiplier in a FDL
+model of order q and gives the overall change in y from a permanent
+change in x.
+i=0 δj
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+6 / 45
+
+Finite Sample Properties of OLS
+
+Consider again the static linear model:
+yt
+
+= β0 + β1 x1t + · · · + βk xkt + ut
+= β > xt + ut
+
+Under what conditions will OLS estimate β without bias?
+As in the previous term, we need the above linear specification (TS.1)
+and no perfect collinearity (TS.2) (i.e. no explanatory variable is a
+perfect linear combination of the others).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+7 / 45
+
+Finite Sample Properties of OLS
+We also need to avoid counfounding between xt and ut to separate the
+influence of either on yt .
+With a random sample where observations were independent from
+each other this was achieved by the assumption that
+E(ut |xt ) = 0.
+This contemporaneous exogeneity is not enough to guarantee
+unbiasedness since observations will not necessarily be independent
+any longer. (It is nonetheless sufficient for consistency.)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+8 / 45
+
+Finite Sample Properties of OLS
+Since we do not have a random sample, for OLS to be unbiased we
+need to strengthen the condition above to strict exogeneity (TS.3):
+E(ut |x1 , x2 , . . . , xT ) = 0
+for t = 1, . . . , T .
+Anything that breaks contemporaneous exogeneity (e.g., omitted
+variables or measurement error) would break TS.3. It would also break
+if there are lagged outcomes as explanatory variables or any type of
+feedback from past outcomes into explanatory variables: explanatory
+variables that are strictly exogenous cannot react to what has
+happened to yt in the past.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+9 / 45
+
+Finite Sample Properties of OLS
+
+Theorem (Unbiasedness of OLS)
+Under TS.1, TS.2 and TS.3, OLS estimators are unbiased (conditional
+on x1 , x2 , . . . , xT ) and unconditionally.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+10 / 45
+
+Finite Sample Properties of OLS
+With a random sample, homoskedasticity would allow us to obtain an
+expression for the variance of the estimators. This is not enough with
+time series.
+Here, homoskedasticity is stated in terms of all realizations of xt :
+Var (ut |x1 , x2 , . . . , xT ) = Var (ut ) = σ 2
+
+(TS.4)
+
+This means that the residual variance does not depend on covariates
+and does not change through time! It would fail for example if policy
+changes affect the distribution of residuals, changing their variance.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+11 / 45
+
+Finite Sample Properties of OLS
+Yet another assumption is that there be no serial correlation:
+Corr (ut , us |x1 , x2 , . . . , xT ) = 0
+
+(TS.5)
+
+for all t 6= s.
+If these hold, then:
+
+Theorem (OLS Sampling Variances)
+Under TS.1-TS.5,
+Var (β̂j |x1 , . . . , xT ) = σ 2 /[SSTj (1 − Rj2 )]
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+12 / 45
+
+Finite Sample Properties of OLS
+
+TS.1-TS.5 also guarantee unbiasedness of the usual estimator for σ 2
+(i.e., SSR/n − k − 1) and the Gauss-Markov Theorem (i.e., OLS is
+best linear unbiased estimator).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+13 / 45
+
+Finite Sample Properties of OLS
+
+Why these additional conditions were not necessary with
+cross-sectional data?
+With cross-sectional data, random sampling complements
+contemporaneous exogeneity to guarantee strict exogeneity. It
+also complements the usual homoskedasticity assumption to
+guarantee the stricter version we presented above. Finally, it also
+guarantees no serial correlation.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+14 / 45
+
+Dummies, Seasons and Trends
+We can use transformations of the data (e.g., natural logs) much as
+was done in the Term 1.
+It is also customary to employ dummy variables as explanatory
+variables in the analysis of time series. Because observations are
+indexed by time, a dummy variable can be used to single-out particular
+time-periods.
+Those may be systematically different from remaining observations
+because of the implementation of a new policy or changes in
+government. (Of course, remember that these still need to be strictly
+exogenous for the OLS estimator to have good finite sample
+properties.)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+15 / 45
+
+Dummies, Seasons and Trends
+Dummy variables are commonly used as a simple way to control for
+seasonal patterns. Some economic activities such as tourism might be
+influenced by weather patterns for example.
+Although many datasets are pre-adjusted, one may still encounter
+unadjusted data. To account for seasonal patterns we can simply
+include dummy variables among the regressors. For example, for
+monthly data,
+yt = β > xt + δ1 febt + δ2 mart + · · · + δ11 dect + ut
+where febt , mart , . . . are dummies indicating whether t is February,
+March, . . . If there is no seasonality in yt (after accounting for xt ), the δ
+parameters are zero.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+16 / 45
+
+Dummies, Seasons and Trends
+Many time series display a trend which needs to be accounted for, lest
+one might erroneously infer association between two trending
+variables when indeed their change is unrelated to each other.
+If a variables grows by the same amount on average every period, its
+behavior is typically captured well by a linear trend model:
+yt = α0 + α1 t + et
+When the log of the variable has a linear trend, we say that the variable
+itself displays an exponential trend: its growth rate is on average the
+same over time:
+log yt = α0 + α1 t + et
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+17 / 45
+
+Dummies, Seasons and Trends
+Trends may be important in regression analysis as well.
+“[W]e must be careful to allow for the fact that unobserved, trending
+factors that affect yt might also be correlated with the explanatory
+variables. If we ignore this possibility, we may find a spurious
+relationship between yt and one or more explanatory variables. (. . . )
+Fortunately, adding a time trend eliminates this problem.” (Wooldridge,
+p.363)
+More concretely, one adds the time trend as an extra explanatory
+variable. For example,
+yt = β0 + β1 xt + β2 t + ut .
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+18 / 45
+
+Dummies, Seasons and Trends
+Because we can always “partial out” the regression (remember last
+term?), we can interpret the results as a regression using detrended
+data.
+In other words, running OLS on the above example would give us
+β̂0 , β̂1 and β̂2 . The same estimates for β0 and β1 could be obtained if
+we
+1. Run a regression of yt on t and save the residuals as ÿt .
+2. Run a regression of xt on t and save the residuals as ẍt .
+3. Run a regression of ÿt on ẍt .
+It turns out that the intercept and slope coefficient estimates one
+obtains are numerically identical to β̂0 and β̂1 from the original
+regression!
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+19 / 45
+
+Dummies, Seasons and Trends
+
+If yt and xt are trending, one may then include a time trend in the
+regression to prevent from finding a relationship when there is none.
+Even when yt has no discernible trend, if xt has a trend we might want
+to control for that. Otherwise, xt may appear as though it has not
+relationship with yt when it might have one.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+20 / 45
+
+Dummies, Seasons and Trends
+
+For example, Castillo-Freeman and Freeman (1992) examine the effect
+of US minimum wage on employment in Puerto Rico. Their model is a
+more sophisticated version of:
+log(prepopt ) = β0 + β1 log(mincovt ) + β2 log(usgnpt ) + ut
+where prepopt is the employment rate in Puerto Rico, usgnpt is the
+real US gross national product (in billions of dollars) and mincovt is an
+index measure the importance of minimum wage relative to average
+wages.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+21 / 45
+
+Dummies, Seasons and Trends
+Initial results give
+\ t) =
+log(prepop
+
+−1.05
+(0.77)
+
+−.154
+(.065)
+
+log(mincovt )
+
+−.012
+(.089)
+
+log(usgnpt )
+
+log(mincovt )
+
++1.06
+(0.18)
+
+log(usgnpt )
+
+With a time trend nevertheless,
+\ t) =
+log(prepop
+
+de Paula (UCL)
+
+−8.70
+(1.30)
+−.032
+(.005)
+
+−.169
+(.044)
+t
+
+ECON 2007: Quantitative Economics and Econometrics
+
+22 / 45
+
+Dummies, Seasons and Trends
+
+Some caveats:
+I
+
+Be careful when yt and xt have different trends (i.e. linear versus
+exponential)
+
+I
+
+To account for the trend in yt , use detrended yt in constructing the
+R 2 for the regression with time trend. Otherwise, the R 2 will be
+overstated.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+23 / 45
+
+Stationarity and Weak Dependence
+I
+
+The importance of stationarity and weak dependence for us is that
+these notions are used in some LLN and CLT results we will use in
+time series analysis.
+
+I
+
+A stationary process is a series whose probability distribution
+remains stable over time: if we shift the sequence ahead h steps,
+the join probability distribution is unchanged:
+The stochastic process {xt : t = 1, 2, . . . } is stationary if for every
+collection of time indices 1 ≤ t1 ≤ t2 ≤ · · · ≤ tm , the joint
+distribution of (xt1 , xt2 , . . . , xtm ) is the same as the joint distribution
+of (xt1 +h , xt2 +h , . . . , xtm +h ) for all h ≥ 1.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+24 / 45
+
+Stationarity and Weak Dependence
+
+I
+
+Sometimes we only require a weaker form of stationarity:
+The stochastic process {xt : t = 1, 2, . . . } with finite second
+moment E(xt2 ) < ∞ is covariance stationary if ( i ) E(xt ) is
+constant; ( ii ) Var (xt ) is constant; and ( iii ) for any t, h ≥ 1,
+Cov (xt , xt+h ) depends only on h and not on t.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+25 / 45
+
+Stationarity and Weak Dependence
+
+I
+
+The notion of weak dependence relates to how related two
+rancom variables xt and xt+h are as h gets large.
+
+I
+
+If a process is weakly dependent, xt and xt+h are almost
+independent as h gets large.
+
+I
+
+Different ways of mathematically formalizing “almost
+independence” give rise to different forms of weak dependence.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+26 / 45
+
+Examples
+I
+
+MA(1) process:
+xt = ut + ρut−1 ,
+
+t = 1, 2, . . .
+
+where ut is iid with mean zero and variance σ 2 .
+I
+
+AR(1) process:
+yt = ρyt−1 + ut ,
+
+t = 1, 2, . . .
+
+with |ρ| < 1 and ut is iid with mean zero and variance σ 2 .
+I
+
+“Trend-stationary” series. (Notice that these series are
+non-stationary).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+27 / 45
+
+Asymptotic Properties of OLS
+I
+
+For unbiasedness, we used three assumptions: TS.1-3.
+
+I
+
+For consistency, we will maintain the no perfect collinearity
+condition (TS.2)=(TS.2’).
+
+I
+
+We will also require the linear specification to hold (TS.1):
+yt = β0 + β1 x1t + β2 x2t + · · · + βk xkt + ut ,
+but we will append to it the requirement that {(yt , xt ) : t = 1, 2, . . . }
+be stationary and weakly dependent. (TS.1’)
+
+I
+
+Stationarity and weak dependence are used to establish Laws of
+Large Numbers and Central Limit Theorems.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+28 / 45
+
+Asymptotic Properties of OLS
+
+I
+
+For unbiasedness, we required strict exogeneity. To attain
+consistency, we can weaken that condition to contemporaneous
+exogeneity (TS.3’):
+E(ut |xt ) = 0.
+
+I
+
+This allows for feedback from past outcomes into explanatory
+variables and lagged values of yt as regressors.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+29 / 45
+
+Asymptotic Properties of OLS
+
+Under these conditions:
+
+Theorem (Consistency of OLS)
+Assume TS.1’-3’, the OLS estimators are consistent:
+plimβ̂ = β
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+30 / 45
+
+Asymptotic Properties of OLS
+I
+
+An important model satisfying TS.1’-3’ is the AR(1) model:
+yt = β0 + β1 yt−1 + ut
+where
+E(ut |yt−1 , yt−2 , . . . ) = 0
+
+I
+
+The model is clearly linear. For stationarity and weak dependence
+to hold, we need that |β1 | < 1. In this case, TS.1’ holds.
+
+I
+
+TS.3’ also holds.
+
+I
+
+OLS consistently estimates β0 and β1 .
+
+I
+
+β1 is biased. The magnitude of the bias depends on sample size
+and how close β1 is to 1.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+31 / 45
+
+Asymptotic Properties of OLS
+
+I
+
+To obtain asymptotic distribution results, we need a version of
+TS.4 and TS.5:
+
+I
+
+(TS.4’) The errors are contemporaneously homoskedastic:
+var (ut |xt ) = σ 2 .
+
+I
+
+(TS.5’) No serial correlation: E(ut us |xt xs ) = 0.
+
+I
+
+This last condition may be delicate in static or finite distributed lag
+regression models.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+32 / 45
+
+Asymptotic Properties of OLS
+
+Under these conditions:
+
+Theorem (Asymptotic Normality of OLS)
+Assume TS.1’-5’, the OLS estimators are asymptotically normal. The
+usual OLS standard errors, t stats, F stats and LM stats are
+asymptotically valid.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+33 / 45
+
+Example: Efficient Markets Hypothesis
+Let yt be weekly percentage returns in the NYSE. A version of the
+EMH states that:
+E(yt |yt−1 , yt−2 , . . . ) = E(yt )
+Otherwise, one could use past information to predict returns and once
+such investment opportunities are noticed, any predictability would
+disappear.
+Using weekly data from 1976 to 1989, one gets:
+\ =
+return
+
+0.180
+(0.081)
+
++0.059
+(0.038)
+
+returnt−1
+
+(n = 689, R 2 = .0035). The autoregressive coefficient is not
+statistically different from zero at usual significance levels. An AR(2)
+model also supports the EMH.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+34 / 45
+
+Highly Persistent Time Series
+
+I
+
+Many economic time series are not characterized by weak
+dependence (e.g. T-bill).
+
+I
+
+To analyse those, we need to transform the data for it to be used
+in statistical analysis.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+35 / 45
+
+Random Walk
+I
+
+An example of a highly persistent time series is the random walk:
+yt = yt−1 + ut ,
+
+t = 1, 2, . . .
+
+where ut is independent and identically distributed with mean zero
+and constant variance σ 2 . It is also assumed that the initial value
+y0 is independent of ut (and typically set to zero).
+I
+
+It can be shown that
+E(yt ) = E(y0 ),
+
+for all t
+
+and
+Var (yt ) = σ 2 t
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+36 / 45
+
+Random Walk
+
+I
+
+The persistent behavior of the random walk is reflected in the fact
+that its present value is important even in the very distant future:
+E(yt+h |yt ) = yt ,
+
+for all h ≥ 1
+
+I
+
+No matter how far in the future, our best forecast is the current
+value of the series.
+
+I
+
+In contrast, for the AR(1) process we studied earlier (with |ρ| < 1):
+E(yt+h |yt ) = ρh yt
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+37 / 45
+
+Random Walk
+
+I
+
+It can be deduced that
+Corr (yt , yt+h ) =
+
+I
+
+p
+t/(t + h).
+
+The correlation depends on the starting point is goes to zero (as
+h → ∞), but slowly as t → ∞.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+38 / 45
+
+Random Walk
+I
+
+One generalization of the RW is a unit root process, which allows
+ut to be dependent.
+
+I
+
+Another generalization is the RW with drift:
+yt = α + yt−1 + ut ,
+
+I
+
+This introduces a trend in the expected value of yt :
+E(yt ) = αt + E(y0 ),
+
+I
+
+t = 1, 2, . . .
+
+for all t
+
+It is important to note that trending and highly persistent behaviors
+are different. Many highly persistent series (i.e., interest rates,
+inflation rates and unemployment rates) do not present an obvious
+trend.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+39 / 45
+
+Random Walk
+
+I
+
+One of the problems of a unit root is that OLS estimators of the
+autoregressive coefficient (= 1) are consistent, but their
+asymptotic distribution is not normal!
+
+I
+
+In fact, the estimator of the autoregressive coefficient tends to be
+severely biased towards zero: the expected value of β̂1 is
+approximately 1 − 5.3/T . With 20 years of quarterly data (=80
+observations), the expectation is approximately 0.934.
+
+I
+
+Because the distribution has a long left tail, t-tests will also be
+affected.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+40 / 45
+
+An Example
+I
+
+Consider for example the following “misterious” time series:
+
+I
+
+This series is statistically indistinguishable from a unit root (even
+at 10%).
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+41 / 45
+
+Transformations of Highly Persistent Time Series
+I
+
+Unit root processes can lead to errenous inference if the
+assumptions guaranteeing the asymptotic properties fail.
+
+I
+
+Simple transformations may nonetheless be enough to address
+some of the issues.
+
+I
+
+For example, if we first-difference a random walk process we end
+up with a stationary process:
+yt − yt−1 = ut
+
+I
+
+It would also remove the time trend from a trending variable
+yt = α0 + α1 t + ut :
+yt − yt−1 = α1 + ut − ut−1
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+42 / 45
+
+Transformations of Highly Persistent Time Series
+To estimate the elasticity of hourly wages with respect to output per
+hour, one can estimate:
+log(hourt ) = β0 + β1 log(outphrt ) + β2 t + ut
+where the time trend is included to accommodate the fact that both
+series are clearly upward trending.
+Results are given below:
+\ t) =
+log(hrwage
+
+de Paula (UCL)
+
+−5.33
+(0.37)
+
++1.64
+(0.09)
+
+log(outputhrt )
+
+−.018
+(0.002)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+t
+
+43 / 45
+
+Transformations of Highly Persistent Time Series
+
+But even after linearly detrending, the first order autocorrelation is still
+high for both variables (0.967 and 0.945).
+To accommodate the possibility of a unit root, the model is reestimated
+in differences:
+\ t ) = −.0036 +.809 ∆ log(outputhrt )
+∆log(hrwage
+(.0042) (.173)
+which substantially reduces the estimated elasticity.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+44 / 45
+
+These slides covered:
+Wooldridge 10, 11.1-3, Stock and Watson 14 and 15.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+45 / 45
+
+

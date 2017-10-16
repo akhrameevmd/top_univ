@@ -1,0 +1,9 @@
+Econometrics
+Description/Objectives:
+This course is an introduction to econometrics. Econometrics is a sub-discipline of statistics that provides methods for inferring economic structure from data. This course has two goals. The first goal is to give you means to evaluate an econometric analysis critically and logically. Second, you should be able to analyze a data set methodically and comprehensively using the tools of econometrics.
+
+ECO517: ECONOMETRIC THEORY I
+course description Part I of the course provides an introduction to statistical theory.
+A brief review of probability will be given mainly as background material; it is
+assumed to be known. Part II of the course provides an introduction to regression
+analysis.

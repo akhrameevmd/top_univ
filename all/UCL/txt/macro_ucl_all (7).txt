@@ -1,0 +1,480 @@
+Econ 2004:
+The Open Economy
+
+Lecture 10: Crises, macroeconomic models, and policy
+regimes– an overview
+Reading.
+Core:
+Carlin & Soskice (2015) Chapter 12 Sections 5 and 6; Carlin & Soskice (2015)
+Chapter 7 (you covered some of this in the first term)
+You will also find useful the CORE ebook The Economy see Unit 17 www.coreecon.org
+
+Optional: See Moodle page
+UCL ECON2004 TERM 2 LECTURE 10
+
+1
+
+Last lecture - recap and introduction to this lecture – background
+to the Eurozone crisis
+1.
+2.
+
+Success of the ECB
+Divergence in member countries … remember different motives for joining
+
+Before the global financial crisis (2008):
+Common characteristic of the crisis countries: current account deficit
+2 types of vulnerability to a debt crisis:
+Type 1. Private sector indebtedness
+Type 2. Excessive government deficits before the crisis
+After the global financial crisis
+Common characteristics of the crisis countries: government debt problems
+• Current account deficit
+• High level of government debt
+• Attacked by the ‘bond vigilantes’
+• Doubts about solvency … can government honour its bonds?
+UCL ECON2004 TERM 2 LECTURE 10
+
+2
+
+Indicators 1999-2007: countries ranked by interest rate spread
+over German Bund Q2 2011
+Current
+account (%
+GDP)
+
+Greece
+Ireland
+Portugal
+Spain
+Italy
+Belgium
+Austria
+France
+Finland
+Netherlands
+Germany
+
+-8.1
+-1.6
+-9.2
+-5.5
+-1.1
+3.6
+1.3
+0.8
+6.2
+5.3
+2.7
+
+Real exchange
+Real
+rate (manuf.) interest rate
+
+129.9
+97.0
+107.6
+123.0
+123.6
+104.0
+92.6
+98.7
+79.1
+101.1
+85.1
+
+General
+government
+balance (%
+GDP)
+
+0.9
+0.3
+1.2
+0.2
+2.0
+2.4
+2.9
+2.5
+3.1
+1.6
+3.5
+
+-5.8
+1.6
+-3.6
+0.1
+-2.8
+-0.5
+-1.8
+-2.6
+3.7
+-0.5
+-2.1
+
+RER: 1999=100; increase is appreciation. European Commission - Economic and Financial
+Affairs - Economic Databases and Indicators - Price and Cost Competitiveness
+RIR: 10 year government bond yields and spread over German bonds deflated by GDP deflator
+Source: OECD
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+3
+
+This lecture – crises and macroeconomics
+• The Eurozone crisis – a sovereign debt crisis
+• The 3 global economic crises, economic models & economic policy
+regimes
+• Great Depression – aggregate demand-based
+• Stagflation – inflation-based
+• Global Financial Crisis – debt-based
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+4
+
+CCA membership and vulnerability to a sovereign debt
+
+crisis
+Question: Spain and the UK – why was Spain and not the UK attacked by
+the bond vigilantes in 2010-2011?
+
+Spain
+Primary balance % GDP
+Public sector debt %
+GDP
+Forecast growth
+
+UK
+
+2010
+2010
+
+2012
+2013
+10-year govt bond yields 2010
+2011
+Answer: Spain in Eurozone; UK not
+Why does that matter?
+1.
+2.
+UCL ECON2004 TERM 2 LECTURE 10
+
+5
+
+Symptom of a sovereign debt crisis: yields on government
+
+bonds
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+6
+
+Why is a member of a CCA vulnerable to a sovereign debt
+crisis? The role of governance arrangements
+Q: why did the default risk disappear?
+A:
+Governance in the Eurozone:
+• Government to government
+• ECB to government
+• Fiscal rules
+ view that it was unnecessary to have supra-national government
+Compare relationships among banks – government(s) – central
+bank in a nation state with those in the Eurozone
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+7
+
+Governance arrangements in a nation state
+
+
+
+CB is lender of last resort (LOLR) to commercial banks: liquidity
+support. Solvency support for comm. banks rests on gov’t.
+
+
+
+Key: CB is LOLR to Govt. → CB may mitigate fear of govt. debt
+default by printing money to buy govt. bonds → ↓ Risk premium.
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+8
+
+Governance arrangements in the Eurozone
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+9
+
+What happened to end the panic?
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+10
+
+The Eurozone’s problematic governance structure
+Draghi’s speech of 26th July 2012: “the only way out of this present crisis is to have more
+Europe, not less Europe. A Europe that is founded on four building blocks: a fiscal union, a
+financial [banking] union, an economic union and a political union.”
+
+•
+•
+•
+•
+
+Citizens of member countries
+Governments of member countries
+Central Bank of the Eurozone
+Banking system – cross-border banks including countries outside
+Eurozone; national governments responsible for solvency; ECB for
+liquidity
+“Within our mandate, the ECB is ready to do whatever it takes to preserve
+the euro. And believe me, it will be enough.”
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+11
+
+Reform proposals for governance in the Eurozone
+Political union
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+12
+
+The Eurozone crisis – policy steps
+• ECB – massive injection of liquidity … to support the banks; the banks
+bought government debt … + Draghi statement  panic receded … the
+risk premia fell … solvency of governments improved; but weak growth
+& fear of deflation  QE (2015); additional measures 2016
+• See http://blogs.ft.com/gavyndavies/2016/03/13/the-end-of-negativerates-but-not-cental-bank-alchemy/ for an excellent summary
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+13
+
+The Eurozone crisis – policy steps (cont.)
+• Eurozone – bail-outs for Greece, Ireland, Portugal accompanied by
+harsh fiscal austerity conditions (refer back to Lecture 8 for Greece)
+• Eurozone – fiscal compact (like the SGP but more stringent; harsher
+penalties; external surveillance of national budgets; and MIP)
+• Eurozone – ‘banking union’ – arrangements for the resolution of failing
+banks. Limited backstop will be provided but not full mutualisation.
+Problem: where will growth come from? Think of the sector balances … if
+the government sector goes toward surplus (plans to save more), for
+growth not to fall, one or both of the following must happen:
+• private sector 
+• external sector (X-M) 
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+14
+
+The 3 global economic crises, economic models & economic
+policy regimes
+• Great Depression – aggregate demand-based
+• Stagflation – inflation-based
+• Global Financial Crisis – debt-based
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+15
+
+Global economic crises
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+16
+
+Global economic crises – unusual post-crisis behaviour in US
+and UK
+Is this ‘secular stagnation’?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+17
+
+Great Depression, macro models & policy regime
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+18
+
+Post - Great Depression paradigm & policy regime shift
+
+New Paradigm – Keynes’ economics
+• Explanation for persistence of mass unemployment
+• New ‘general’ theory to encompass the full employment equilibrium of
+classical theory as special case
+• Weakness of economy’s self-stabilizing mechanisms meant
+stabilization policy was necessary
+New Policy Regime
+• national – demand-management
+• international – Bretton Woods
+2 decades of growth & stability – the Golden Age (see Unit 17 in CORE
+ebook)
+UCL ECON2004 TERM 2 LECTURE 10
+
+19
+
+Seeds of the Stagflation crisis
+• Low U and increased economic security via expansion of the welfare
+state  shift in bargaining power to labour (strikes)
+• By late 1960s, wage push (profit squeeze) and higher equilibrium U;
+exacerbated by weakening labour productivity growth and then by
+commodity and oil price shocks in 1970s
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+20
+
+Problems for the prevailing paradigm (Keynesian economics
+e.g. IS/LM & Mundell-Fleming models) & policy regime
+• Supply-side effects on equilibrium unemployment neglected
+• Consequence that macroeconomic policy was oriented to sustaining
+aggregate demand
+• Using prevailing models of inflation, such policy intervention was
+forecast to be effective (remember 1973 oil shock)
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+21
+
+Post - Great Stagflation paradigm shift
+A research programme comprising
+• a methodology (the origins of DSGE models studied in MSc macro
+courses – see Chapter 16 of CS2015)
+• new classical assumptions of perfect competition, rational
+expectations, flexible prices (the neoclassical growth model)
+• a single model to describe growth and cycles – technology shocks 
+RBC (Real Business Cycle) models
+
+Problem for RBC models to explain persistence in inflation;
+unemployment costs of disinflation
+ New Keynesian (NK) model
+combines RBC methods with sticky P, W
+summarized in a 3-equation model for policy analysis: IS, PC, MR (similar
+to the model we have studied)
+UCL ECON2004 TERM 2 LECTURE 10
+
+22
+
+Post - Great Stagflation policy regime shift
+New Policy Regime (national & international)
+• Inflation targeting central banks
+• No international coordination – flexible exchange rates and capital
+mobility
+2 decades of growth & stability – the Great Moderation
+Seeds of the next crisis
+• Low U but rising inequality (wage squeeze)
+• Financial liberalization
+• Interdependent global growth patterns – export-based (China &
+Germany) + finance-based (US, UK)
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+23
+
+Income distribution; imbalances within and between countries
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+24
+
+Post- Great Stagflation paradigm & policy regime shifts
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+25
+
+Problems for the prevailing paradigm (RBC & NK
+macroeconomics e.g. 3-equation model) & policy regime
+(inflation-targeting CBs)
+Problems for the paradigm
+• NK-type models do not have banks etc. in the model – that is why you
+studied Chapters 5-7
+& policy regime
+• Inflation targeting macro regime (called ‘Taylor Rule’ macro) was
+consistent with stable inflation alongside growing leverage and
+growing global financial imbalances
+• Success of inflation targeting regime reduced macro risk & fuelled
+leverage cycle (expansion of household and bank debt)
+• Policy inattention ‘paradox of credibility’ permitted Minsky type crisis
+to occur … view that aggregate risk had fallen … fuelled more
+borrowing (see Minsky box in CORE Unit 17)
+• Inattention to implications of trends in income distribution for financial
+fragility – reliance on sub-prime lending to sustain aggregate demand
+UCL ECON2004 TERM 2 LECTURE 10
+
+26
+
+Overview: Global crises, macro models & macro policy
+regimes
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+27
+
+Learning in macroeconomics
+• Lessons of economic history are important … claim (made during the 2
+decades of the Great Moderation prior to the GFC) that the new policy
+regime had brought boom & bust to an end was not sensible
+• Assumption that advanced economies would not have banking or
+sovereign debt crises was mistaken
+• BUT there is evidence of learning by economists & policy-makers:
+• policy responses to the crisis reflected lessons of the Great
+Depression (see charts in Chapter 7 comparing post-GFC with postGreat Depression)
+• BUT history shows recovery from debt-type crises is slow & painful &
+and that ‘too early, too harsh’ austerity can delay recovery (more
+recent research is pointing in this direction)
+
+UCL ECON2004 TERM 2 LECTURE 10
+
+28
+
+Unusual post-crisis behaviour in US & UK
+Questions:
+
+1. Is this ‘secular stagnation’?
+2. What are the implications for monetary policy of a low natural
+or stabilizing rate of interest? (and of r* at a global level)
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+29
+
+Unusual post-crisis behaviour in US & UK
+Questions:
+1. Is this ‘secular stagnation’?
+2. What are the implications for monetary policy of
+a low natural or stabilizing rate of interest? (and
+of r* at a global level) – uncomfortable times.
+
+In our model, the question is:
+what keeps the IS curve
+depressed at the global level?
+Which supply-side and
+demand-side factors
+a) are depressing investment
+• S-side – falling innovation
+potential (e.g. Robert
+Gordon), slowing labour
+force growth
+• D-side – coordination
+problem of low aggregate
+demand
+a) are raising savings
+• S-side – aging populations,
+increasing inequality, rising
+risk aversion
+We do not yet know the
+answer – there’s much still to
+learn in macroeconomics!
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+30
+
+

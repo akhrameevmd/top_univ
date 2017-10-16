@@ -1,0 +1,18 @@
+ECON UN1105 Principles of Economics.
+Corequisites: ECON UN1155
+
+How a market economy determines the relative prices of goods, factors of production, and the allocation of resources and the circumstances under which it does it efficiently.
+ Why such an economy has fluctuations and how they may becontrolled.
+
+ECON UN3211 Intermediate Microeconomics. 
+Prerequisites: ECON UN1105 and MATH UN1101 and (MATH UN1201 or MATH UN1207)
+
+The determination of the relative prices of goods and factors of production and the allocation of resources.
+
+
+ECON GU4211 Advanced Microeconomics. 
+Prerequisites: ECON W3211, W3213, and MATH V2010.
+Corequisites: MATH V2500 or MATH W4061.
+
+The course provides a rigorous introduction to microeconomics. Topics will vary with the instructor but will include consumer theory, producer theory, general equilibrium and welfare, social choice theory, game theory and information economics.
+This course is strongly recommended for students considering graduate work in economics.

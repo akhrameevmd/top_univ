@@ -1,0 +1,7 @@
+Ec 123. Macroeconomics. 9 units (3-0-6); third term. Prerequisite: Ec 11
+and modest ability to program in Matlab or Mathematica. The role of time and
+uncertainty in understanding the behavior of economic aggregates such as
+investment, employment, and price levels. Emphasis is on representativeagent
+recursive equilibrium models. Topics include practical dynamic programming;
+job search, matching, and unemployment; asset pricing; monetary
+and fiscal policy; and taxation and insurance. 

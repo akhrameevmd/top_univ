@@ -1,0 +1,2895 @@
+APPENDIX B ✦ Probability and Distribution Theory
+
+845
+
+In the singular case, the matrix of partial derivatives will be singular and the determinant of
+the Jacobian will be zero. In this instance, the singular Jacobian implies that A is singular or,
+equivalently, that the transformations from x to y are functionally dependent. The singular case
+is analogous to the single-variable case.
+Clearly, if the vector x is given, then y = Ax can be computed from x. Whether x can be
+deduced from y is another question. Evidently, it depends on the Jacobian. If the Jacobian is
+not zero, then the inverse transformations exist, and we can obtain x. If not, then we cannot
+obtain x.
+
+Q
+
+APPENDIX B
+
+PROBABILITY AND
+DISTRIBUTION THEORY
+B.1
+
+INTRODUCTION
+
+This appendix reviews the distribution theory used later in the book. Since a previous course in
+statistics is assumed, most of the results will be stated without proof. The more advanced results
+in the later sections will be developed in greater detail.
+
+B.2
+
+RANDOM VARIABLES
+
+We view our observation on some aspect of the economy as the outcome of a random process
+which is almost never under our (the analyst’s) control. In the current literature, the descriptive
+(and perspective laden) term data generating process, or DGP is often used for this underlying
+mechanism. The observed (measured) outcomes of the process are assigned unique numeric
+values. The assignment is one to one; each outcome gets one value, and no two distinct outcomes
+receive the same value. This outcome variable, X, is a random variable because, until the data
+are actually observed, it is uncertain what value X will take. Probabilities are associated with
+outcomes to quantify this uncertainty. We usually use capital letters for the “name” of a random
+variable and lowercase letters for the values it takes. Thus, the probability that X takes a particular
+value x might be denoted Prob(X = x).
+A random variable is discrete if the set of outcomes is either ﬁnite in number or countably
+inﬁnite. The random variable is continuous if the set of outcomes is inﬁnitely divisible and, hence,
+not countable. These deﬁnitions will correspond to the types of data we observe in practice. Counts
+of occurrences will provide observations on discrete random variables, whereas measurements
+such as time or income will give observations on continuous random variables.
+B.2.1
+
+PROBABILITY DISTRIBUTIONS
+
+A listing of the values x taken by a random variable X and their associated probabilities is a
+probability distribution, f (x). For a discrete random variable,
+f (x) = Prob(X = x).
+
+(B-1)
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+846
+
+The axioms of probability require that
+1.
+2.
+
+0 ≤ Prob(X = x) ≤ 1.
+
+x
+
+(B-2)
+(B-3)
+
+f (x) = 1.
+
+For the continuous case, the probability associated with any particular point is zero, and
+we can only assign positive probabilities to intervals in the range of x. The probability density
+function (pdf) is deﬁned so that f (x) ≥ 0 and
+
+
+
+1.
+
+Prob(a ≤ x ≤ b) =
+
+b
+
+f (x) dx ≥ 0.
+
+(B-4)
+
+a
+
+This result is the area under f (x) in the range from a to b. For a continuous variable,
+
+
+
++∞
+
+f (x) dx = 1.
+
+2.
+
+(B-5)
+
+−∞
+
+If the range of x is not inﬁnite, then it is understood that f (x) = 0 anywhere outside the appropriate
+range. Since the probability associated with any individual point is 0,
+Prob(a ≤ x ≤ b) = Prob(a ≤ x < b)
+= Prob(a < x ≤ b)
+= Prob(a < x < b).
+B.2.2
+
+CUMULATIVE DISTRIBUTION FUNCTION
+
+For any random variable X, the probability that X is less than or equal to a is denoted F(a). F(x)
+is the cumulative distribution function (cdf). For a discrete random variable,
+F(x) =
+
+
+
+f (X ) = Prob(X ≤ x).
+
+(B-6)
+
+X≤x
+
+In view of the deﬁnition of f (x),
+f (xi ) = F(xi ) − F(xi−1 ).
+For a continuous random variable,
+
+
+
+(B-7)
+
+x
+
+f (t) dt
+
+F(x) =
+
+(B-8)
+
+−∞
+
+and
+f (x) =
+
+dF(x)
+.
+dx
+
+(B-9)
+
+In both the continuous and discrete cases, F(x) must satisfy the following properties:
+1.
+2.
+3.
+4.
+
+0 ≤ F(x) ≤ 1.
+If x > y, then F(x) ≥ F(y).
+F(+∞) = 1.
+F(−∞) = 0.
+
+From the deﬁnition of the cdf,
+Prob(a < x ≤ b) = F(b) − F(a).
+
+(B-10)
+
+Any valid pdf will imply a valid cdf, so there is no need to verify these conditions separately.
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+B.3
+
+847
+
+EXPECTATIONS OF A RANDOM VARIABLE
+
+DEFINITION B.1 Mean of a Random Variable
+The mean, or expected value, of a random variable is
+
+E[x] =
+
+⎧
+x f (x)
+⎪
+⎪
+⎨
+
+if x is discrete,
+
+x
+
+
+⎪
+⎪
+⎩ x f (x) dx if x is continuous.
+
+(B-11)
+
+x
+
+
+
+
+
+The notation
+or x , used henceforth, means the sum or integral over the entire range
+x
+of values of x. The mean is usually denoted µ. It is a weighted average of the values taken by x,
+where the weights are the respective probabilities. It is not necessarily a value actually taken by
+the random variable. For example, the expected number of heads in one toss of a fair coin is 12 .
+Other measures of central tendency are the median, which is the value m such that Prob(X ≤
+m) ≥ 12 and Prob(X ≥ m) ≥ 12 , and the mode, which is the value of x at which f (x) takes its
+maximum. The ﬁrst of these measures is more frequently used than the second. Loosely speaking,
+the median corresponds more closely than the mean to the middle of a distribution. It is unaffected
+by extreme values. In the discrete case, the modal value of x has the highest probability of
+occurring.
+Let g(x) be a function of x. The function that gives the expected value of g(x) is denoted
+
+⎧
+g(x) Prob(X = x) if X is discrete,
+⎪
+⎪
+⎨ x
+E[g(x)] = 
+⎪
+⎪
+⎩ g(x) f (x) d
+if X is continuous.
+
+(B-12)
+
+x
+
+If g(x) = a + bx for constants a and b, then
+E[a + bx] = a + bE[x].
+An important case is the expected value of a constant a, which is just a.
+
+DEFINITION B.2 Variance of a Random Variable
+The variance of a random variable is
+Var[x] = E[(x − µ)2 ]
+
+=
+
+⎧
+2
+⎪
+⎪ (x − µ) f (x)
+⎨
+x
+
+if x is discrete,
+
+
+⎪
+⎪
+⎩ (x − µ)2 f (x) dx if x is continuous.
+
+(B-13)
+
+x
+
+Var[x], which must be positive, is usually denoted σ 2 . This function is a measure of the
+dispersion of a distribution. Computation of the variance is simpliﬁed by using the following
+
+848
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+important result:
+Var[x] = E[x 2 ] − µ2 .
+
+(B-14)
+
+E[x 2 ] = σ 2 + µ2 .
+
+(B-15)
+
+A convenient corollary to (B-14) is
+
+By inserting y = a + bx in (B-13) and expanding, we ﬁnd that
+Var[a + bx] = b2 Var[x],
+
+(B-16)
+
+which implies, for any constant a, that
+Var[a] = 0.
+
+(B-17)
+
+To describe a distribution, we usually use σ , the positive square root, which is the standard
+deviation of x. The standard deviation can be interpreted as having the same units of measurement
+as x and µ. For any random variable x and any positive constant k, the Chebychev inequality states
+that
+1
+(B-18)
+Prob(µ − kσ ≤ x ≤ µ + kσ ) ≥ 1 − 2 .
+k
+Two other measures often used to describe a probability distribution are
+skewness = E[(x − µ)3 ]
+and
+kurtosis = E[(x − µ)4 ].
+Skewness is a measure of the asymmetry of a distribution. For symmetric distributions,
+f (µ − x) = f (µ + x)
+and
+skewness = 0.
+For asymmetric distributions, the skewness will be positive if the “long tail” is in the positive
+direction. Kurtosis is a measure of the thickness of the tails of the distribution. A shorthand
+expression for other central moments is
+µr = E[(x − µ)r ].
+Since µr tends to explode as r grows, the normalized measure, µr /σ r , is often used for description.
+Two common measures are
+µ3
+skewness coefﬁcient = 3
+σ
+and
+degree of excess =
+
+µ4
+− 3.
+σ4
+
+The second is based on the normal distribution, which has excess of zero.
+For any two functions g1 (x) and g2 (x),
+E[g1 (x) + g2 (x)] = E[g1 (x)] + E[g2 (x)].
+
+(B-19)
+
+For the general case of a possibly nonlinear g(x),
+
+
+
+E[g(x)] =
+
+g(x) f (x) dx
+x
+
+(B-20)
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+and
+
+
+
+	
+
+Var[g(x)] =
+
+
+2
+
+g(x) − E [g(x)]
+
+f (x) dx.
+
+849
+
+(B-21)
+
+x
+
+(For convenience, we shall omit the equivalent deﬁnitions for discrete variables in the following discussion and use the integral to mean either integration or summation, whichever is
+appropriate.)
+A device used to approximate E[g(x)] and Var[g(x)] is the linear Taylor series approximation:
+g(x) ≈ [g(x 0 ) − g  (x 0 )x 0 ] + g  (x 0 )x = β1 + β2 x = g ∗ (x).
+
+(B-22)
+
+If the approximation is reasonably accurate, then the mean and variance of g ∗ (x) will be approximately equal to the mean and variance of g(x). A natural choice for the expansion point is
+x 0 = µ = E(x). Inserting this value in (B-22) gives
+g(x) ≈ [g(µ) − g  (µ)µ] + g  (µ)x,
+
+(B-23)
+
+E[g(x)] ≈ g(µ)
+
+(B-24)
+
+Var[g(x)] ≈ [g  (µ)]2 Var[x].
+
+(B-25)
+
+so that
+
+and
+
+A point to note in view of (B-22) to (B-24) is that E[g(x)] will generally not equal g(E[x]).
+For the special case in which g(x) is concave—that is, where g  (x) < 0—we know from Jensen’s
+inequality that E[g(x)] ≤ g(E[x]). For example, E[log(x)] ≤ log(E[x]).
+
+B.4
+
+SOME SPECIFIC PROBABILITY
+DISTRIBUTIONS
+
+Certain experimental situations naturally give rise to speciﬁc probability distributions. In the
+majority of cases in economics, however, the distributions used are merely models of the observed
+phenomena. Although the normal distribution, which we shall discuss at length, is the mainstay
+of econometric research, economists have used a wide variety of other distributions. A few are
+discussed here.1
+B.4.1
+
+THE NORMAL DISTRIBUTION
+
+The general form of a normal distribution with mean µ and standard deviation σ is
+f (x | µ, σ 2 ) =
+
+1
+2 2
+√ e−1/2[(x−µ) /σ ] .
+σ 2π
+
+(B-26)
+
+This result is usually denoted x ∼ N [µ, σ 2 ]. The standard notation x ∼ f (x) is used to state that
+“x has probability distribution f (x).” Among the most useful properties of the normal distribution
+1A
+
+much more complete listing appears in Maddala (1977a, Chaps. 3 and 18) and in most mathematical
+statistics textbooks. See also Poirier (1995) and Stuart and Ord (1989). Another useful reference is Evans,
+Hastings and Peacock (1993). Johnson et al. (1970, 1974, 1993) is an encyclopedic reference on the subject of
+statistical distributions.
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+is its preservation under linear transformation.
+If x ∼ N [µ, σ 2 ],
+
+then (a + bx) ∼ N [a + bµ, b2 σ 2 ].
+
+(B-27)
+
+One particularly convenient transformation is a = −µ/σ and b = 1/σ . The resulting variable
+z = (x − µ)/σ has the standard normal distribution, denoted N [0, 1], with density
+1
+2
+φ(z) = √ e−z /2 .
+2π
+
+(B-28)
+
+The speciﬁc notation φ(z) is often used for this distribution and (z) for its cdf. It follows from
+the deﬁnitions above that if x ∼ N [µ, σ 2 ], then
+f (x) =
+
+
+
+
+
+1
+x−µ
+.
+φ
+σ
+σ
+
+Figure B.1 shows the densities of the standard normal distribution and the normal distribution
+with mean 0.5, which shifts the distribution to the right, and standard deviation 1.3 which, it can
+be seen, scales the density so that it is shorter but wider. (The graph is a bit deceiving unless you
+look closely; both densities are symmetric.)
+Tables of the standard normal cdf appear in most statistics and econometrics textbooks.
+Because the form of the distribution does not change under a linear transformation, it is not
+necessary to tabulate the distribution for other values of µ and σ . For any normally distributed
+variable,
+
+
+
+
+
+a−µ
+x−µ
+b−µ
+,
+<
+<
+Prob(a < x < b) = Prob
+σ
+σ
+σ
+
+(B-29)
+
+which can always be read from a table of the standard normal distribution. In addition, because
+the distribution is symmetric, (−z) = 1 − (z). Hence, it is not necessary to tabulate both the
+negative and positive halves of the distribution.
+
+FIGURE B.1
+
+The Normal Distribution.
+
+f1⫽Normal[0,1] and f2⫽Normal[.5,1.3] Densities
+.42
+F1
+F2
+
+.34
+
+Density
+
+850
+
+.25
+
+.17
+
+.08
+
+.00
+⫺4.0
+
+⫺2.4
+
+⫺.8
+
+.8
+Z
+
+2.4
+
+4.0
+
+APPENDIX B ✦ Probability and Distribution Theory
+B.4.2
+
+851
+
+THE CHI-SQUARED, t, AND F DISTRIBUTIONS
+
+The chi-squared, t, and F distributions are derived from the normal distribution. They arise in
+econometrics as sums of n or n1 and n2 other variables. These three distributions have associated
+with them one or two “degrees of freedom” parameters, which for our purposes will be the
+number of variables in the relevant sum.
+The ﬁrst of the essential results is
+
+•
+
+If z ∼ N [0, 1], then x = z2 ∼ chi-squared[1]—that is, chi-squared with one degree of
+freedom—denoted
+z2 ∼ χ 2 [1].
+
+(B-30)
+
+This result is a skewed distribution with mean 1 and variance 2. The second is
+
+•
+
+If x1 , . . . , xn are n independent chi-squared[1] variables, then
+n
+
+
+xi ∼ chi-squared[n].
+
+(B-31)
+
+i=1
+
+The mean and variance of a chi-squared variable with n degrees of freedom are n and 2n, respectively. A number of useful corollaries can be derived using (B-30) and (B-31).
+
+•
+
+If zi , i = 1, . . . , n, are independent N [0, 1] variables, then
+n
+
+
+zi2 ∼ χ 2 [n].
+
+(B-32)
+
+i=1
+
+•
+
+If zi , i = 1, . . . , n, are independent N [0, σ 2 ] variables, then
+n
+
+
+(zi /σ )2 ∼ χ 2 [n].
+
+(B-33)
+
+i=1
+
+•
+
+If x1 and x2 are independent chi-squared variables with n1 and n2 degrees of freedom,
+respectively, then
+x1 + x2 ∼ χ 2 [n1 + n2 ].
+
+(B-34)
+
+This result can be generalized to the sum of an arbitrary number of independent
+chi-squared variables.
+Figure B.2 shows the chi-squared density for three degrees of freedom. The amount of
+skewness declines as the number of degrees of freedom rises. Unlike the normal distribution, a
+separate table is required for the chi-squared distribution for each value of n. Typically, only a
+few percentage points of the distribution are tabulated for each n. Table G.3 in Appendix G of
+this book gives upper (right) tail areas for a number of values.
+
+•
+
+If x1 and x2 are two independent chi-squared variables with degrees of freedom parameters
+n1 and n2 , respectively, then the ratio
+x1 /n1
+F [n1 , n2 ] =
+(B-35)
+x2 /n2
+has the F distribution with n1 and n2 degrees of freedom.
+
+The two degrees of freedom parameters n1 and n2 are the numerator and denominator degrees
+of freedom, respectively. Tables of the F distribution must be computed for each pair of values
+of (n1 , n2 ). As such, only one or two speciﬁc values, such as the 95 percent and 99 percent upper
+tail values, are tabulated in most cases.
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+852
+
+Chi-squared[3] Density
+.30
+
+Density
+
+.24
+
+.18
+
+.12
+
+.06
+
+.00
+0
+
+2
+
+6
+
+4
+
+8
+
+10
+
+X
+FIGURE B.2
+
+•
+
+The Chi-squared [3] Distribution.
+
+If z is an N [0, 1] variable and x is χ 2 [n] and is independent of z, then the ratio
+t[n] = √
+
+z
+x/n
+
+(B-36)
+
+has the t distribution with n degrees of freedom.
+The t distribution has the same shape as the normal distribution but has thicker tails. Figure B.3
+illustrates the t distributions with three and 10 degrees of freedom with the standard normal
+distribution. Two effects that can be seen in the ﬁgure are how the distribution changes as the
+degrees of freedom increases, and, overall, the similarity of the t distribution to the standard
+normal. This distribution is tabulated in the same manner as the chi-squared distribution, with
+several speciﬁc cutoff points corresponding to speciﬁed tail areas for various values of the degrees
+of freedom parameter.
+Comparing (B-35) with n1 = 1 and (B-36), we see the useful relationship between the t and
+F distributions:
+
+•
+
+If t ∼ t[n], then t 2 ∼ F[1, n].
+
+and the ratio has a noncentral F distribution. These distributions arise as follows.
+1.
+
+Noncentral chi-squared distribution. If z has a normal distribution with mean µ and
+standard deviation 1, then the distribution of z2 is noncentral chi-squared with parameters 1
+and µ2 /2. If µ equals zero, then the familiar central chi-squared distribution results. The
+extensions that will enable us to deduce the distribution of F when the restrictions do not
+hold in the population are:
+a. If z ∼ N [µ, ] with J elements, then z  −1 z has a noncentral chi-squared distribution
+with J degrees of freedom and noncentrality parameter µ  −1 µ/2, which we denote
+χ∗2 [J, µ  −1 µ/2].
+b. If z ∼ N [µ, I] and M is an idempotent matrix with rank J, then z Mz ∼ χ∗2 [J, µ Mµ/2].
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+853
+
+Normal[0,1], t[3] and t[10] Densities
+.45
+NORMAL
+T3
+T10
+
+Density
+
+.36
+
+.27
+
+.18
+
+.09
+
+.00
+⫺4.0
+
+⫺2.4
+
+⫺.8
+
+.8
+
+2.4
+
+4.0
+
+Z
+FIGURE B.3
+
+2.
+
+The Standard Normal, t[3] and t[10] Distributions.
+
+Noncentral F distribution. If X1 has a noncentral chi-squared distribution with
+noncentrality parameter λ and degrees of freedom n1 and X2 has a central chi-squared
+distribution with degrees of freedom n2 and is independent of X1 , then
+F∗ =
+
+X1 /n1
+X2 /n2
+
+has a noncentral F distribution with parameters n1 , n2 , and λ.2 Note that in each of these
+cases, the statistic and the distribution are the familiar ones, except that the effect of the
+nonzero mean, which induces the noncentrality, is to push the distribution to the right.
+B.4.3
+
+DISTRIBUTIONS WITH LARGE DEGREES OF FREEDOM
+
+The chi-squared, t, and F distributions usually arise in connection with sums of sample observations. The degrees of freedom parameter in each case grows with the number of observations.
+We often deal with larger degrees of freedom than are shown in the tables. Thus, the standard
+tables are often inadequate. In all cases, however, there are limiting distributions that we can use
+when the degrees of freedom parameter grows large. The simplest case is the t distribution. The
+t distribution with inﬁnite degrees of freedom is equivalent to the standard normal distribution.
+Beyond about 100 degrees of freedom, they are almost indistinguishable.
+For degrees of freedom greater than 30, a reasonably good approximation for the distribution
+of the chi-squared variable x is
+z = (2x)1/2 − (2n − 1)1/2 ,
+2 The
+
+(B-37)
+
+denominator chi-squared could also be noncentral, but we shall not use any statistics with doubly
+noncentral distributions.
+
+854
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+which is approximately standard normally distributed. Thus,
+Prob(χ 2 [n] ≤ a) ≈ [(2a)1/2 − (2n − 1)1/2 ].
+As used in econometrics, the F distribution with a large-denominator degrees of freedom is
+common. As n2 becomes inﬁnite, the denominator of F converges identically to one, so we can
+treat the variable
+x = n1 F
+
+(B-38)
+
+as a chi-squared variable with n1 degrees of freedom. Since the numerator degree of freedom
+will typically be small, this approximation will sufﬁce for the types of applications we are likely
+to encounter.3 If not, then the approximation given earlier for the chi-squared distribution can
+be applied to n1 F.
+B.4.4
+
+SIZE DISTRIBUTIONS: THE LOGNORMAL DISTRIBUTION
+
+In modeling size distributions, such as the distribution of ﬁrm sizes in an industry or the distribution
+of income in a country, the lognormal distribution, denoted LN[µ, σ 2 ], has been particularly
+useful.4
+f (x) = √
+
+1
+
+2
+
+2π σ x
+
+e−1/2[(ln x−µ)/σ ] ,
+
+x > 0.
+
+A lognormal variable x has
+E[x] = eµ+σ
+
+2 /2
+
+and
+2
+
+	
+
+2
+
+
+
+
+Var[x] = e2µ+σ eσ − 1 .
+The relation between the normal and lognormal distributions is
+If y ∼ LN[µ, σ 2 ], ln y ∼ N [µ, σ 2 ].
+A useful result for transformations is given as follows:
+If x has a lognormal distribution with mean θ and variance λ2 , then
+ln x ∼ N(µ, σ 2 ), where µ = ln θ 2 − 12 ln(θ 2 + λ2 )
+
+and σ 2 = ln(1 + λ2 /θ 2 ).
+
+Since the normal distribution is preserved under linear transformation,
+then ln yr ∼ N [r µ, r 2 σ 2 ].
+
+if y ∼ LN[µ, σ 2 ],
+
+If y1 and y2 are independent lognormal variables with y1 ∼ LN[µ1 , σ12 ] and y2 ∼ LN[µ2 , σ22 ],
+then
+
+
+
+
+
+y1 y2 ∼ LN µ1 + µ2 , σ12 + σ22 .
+3 See
+4A
+
+Johnson and Kotz (1970) for other approximations.
+
+study of applications of the lognormal distribution appears in Aitchison and Brown (1969).
+
+APPENDIX B ✦ Probability and Distribution Theory
+B.4.5
+
+855
+
+THE GAMMA AND EXPONENTIAL DISTRIBUTIONS
+
+The gamma distribution has been used in a variety of settings, including the study of income
+distribution5 and production functions.6 The general form of the distribution is
+f (x) =
+
+λ P −λx P−1
+e x ,
+(P)
+
+x ≥ 0, λ > 0, P > 0.
+
+(B-39)
+
+Many familiar distributions are special cases, including the exponential distribution (P = 1) and
+chi-squared (λ = 12 , P = n2 ). The Erlang distribution results if P is a positive integer. The mean
+is P/λ, and the variance is P/λ2 .
+B.4.6
+
+THE BETA DISTRIBUTION
+
+Distributions for models are often chosen on the basis of the range within which the random
+variable is constrained to vary. The lognormal distribution, for example, is sometimes used to
+model a variable that is always nonnegative. For a variable constrained between 0 and c > 0, the
+beta distribution has proved useful. Its density is
+(α + β)
+f (x) =
+(α)(β)
+
+ α−1 
+x
+c
+
+x
+1−
+c
+
+β−1
+
+1
+.
+c
+
+(B-40)
+
+This functional form is extremely ﬂexible in the shapes it will accommodate. It is symmetric if
+α = β, asymmetric otherwise, and can be hump-shaped or U-shaped. The mean is cα/(α + β),
+and the variance is c2 αβ/[(α + β + 1)(α + β)2 ]. The beta distribution has been applied in the study
+of labor force participation rates.7
+B.4.7
+
+THE LOGISTIC DISTRIBUTION
+
+The normal distribution is ubiquitous in econometrics. But researchers have found that for some
+microeconomic applications, there does not appear to be enough mass in the tails of the normal
+distribution; observations that a model based on normality would classify as “unusual” seem not
+to be very unusual at all. One approach has been to use thicker-tailed symmetric distributions.
+The logistic distribution is one candidate; the cdf for a logistic random variable is denoted
+F(x) = (x) =
+
+1
+.
+1 + e−x
+
+The density is f (x) = (x)[1 − (x)]. The mean and variance of this random variable are zero
+and π 2 /3.
+B.4.8
+
+DISCRETE RANDOM VARIABLES
+
+Modeling in economics frequently involves random variables that take integer values. In these
+cases, the distributions listed thus far only provide approximations that are sometimes quite
+inappropriate. We can build up a class of models for discrete random variables from the Bernoulli
+distribution for a single binomial outcome (trial)
+Prob(x = 1) = α,
+Prob(x = 0) = 1 − α,
+5 Salem
+
+and Mount (1974).
+
+6 Greene
+
+(1980a).
+
+7 Heckman
+
+and Willis (1976).
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+856
+
+0.2500
+
+0.1875
+
+0.1250
+
+0.0625
+
+0.0000
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+X
+FIGURE B.4
+
+The Poisson [3] Distribution.
+
+where 0 ≤ α ≤ 1. The modeling aspect of this speciﬁcation would be the assumptions that the success probability α is constant from one trial to the next and that successive trials are independent.
+If so, then the distribution for x successes in n trials is the binomial distribution,
+Prob(X = x) =
+
+ 
+
+n x
+α (1 − α)n−x ,
+x
+
+x = 0, 1, . . . , n.
+
+The mean and variance of x are nα and nα(1 − α), respectively. If the number of trials becomes
+large at the same time that the success probability becomes small so that the mean nα is stable,
+the limiting form of the binomial distribution is the Poisson distribution,
+Prob(X = x) =
+
+e−λ λx
+x!
+
+The Poisson distribution has seen wide use in econometrics in, for example, modeling patents,
+crime, recreation demand, and demand for health services.
+
+B.5
+
+THE DISTRIBUTION OF A FUNCTION
+OF A RANDOM VARIABLE
+
+We considered ﬁnding the expected value of a function of a random variable. It is fairly common
+to analyze the random variable itself, which results when we compute a function of some random
+variable. There are three types of transformation to consider. One discrete random variable may
+be transformed into another, a continuous variable may be transformed into a discrete one, and
+one continuous variable may be transformed into another.
+
+857
+
+Density
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+b
+␮2
+
+␮3
+
+␮1
+
+␮2
+
+␮3
+
+c
+
+␮4
+
+d
+
+␮5
+
+e
+
+␮6
+
+Income
+
+Relative
+frequency
+
+a
+␮1
+
+FIGURE B.5
+
+␮4
+
+␮5
+
+␮6
+
+Censored Distribution.
+
+The simplest case is the ﬁrst one. The probabilities associated with the new variable are
+computed according to the laws of probability. If y is derived from x and the function is one to
+one, then the probability that Y = y(x) equals the probability that X = x. If several values of x
+yield the same value of y, then Prob(Y = y) is the sum of the corresponding probabilities for x.
+The second type of transformation is illustrated by the way individual data on income are typically obtained in a survey. Income in the population can be expected to be distributed according
+to some skewed, continuous distribution such as the one shown in Figure B.5.
+Data are often reported categorically, as shown in the lower part of the ﬁgure. Thus, the
+random variable corresponding to observed income is a discrete transformation of the actual
+underlying continuous random variable. Suppose, for example, that the transformed variable y is
+the mean income in the respective interval. Then
+Prob(Y = µ1 ) = P(−∞ < X ≤ a),
+Prob(Y = µ2 ) = P(a < X ≤ b),
+Prob(Y = µ3 ) = P(b < X ≤ c),
+and so on, which illustrates the general procedure.
+If x is a continuous random variable with pdf fx (x) and if y = g(x) is a continuous monotonic
+function of x, then the density of y is obtained by using the change of variable technique to ﬁnd
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+858
+
+the cdf of y:
+
+
+
+b
+
+fx (g −1 (y))|g −1 (y)| dy.
+
+Prob(y ≤ b) =
+−∞
+
+This equation can now be written as
+
+
+
+b
+
+fy (y) dy.
+
+Prob(y ≤ b) =
+−∞
+
+Hence,
+fy (y) = fx (g −1 (y))|g −1 (y)|.
+
+(B-41)
+
+To avoid the possibility of a negative pdf if g(x) is decreasing, we use the absolute value of the
+derivative in the previous expression. The term |g −1 (y)| must be nonzero for the density of y to be
+nonzero. In words, the probabilities associated with intervals in the range of y must be associated
+with intervals in the range of x. If the derivative is zero, the correspondence y = g(x) is vertical,
+and hence all values of y in the given range are associated with the same value of x. This single
+point must have probability zero.
+One of the most useful applications of the preceding result is the linear transformation of a
+normally distributed variable. If x ∼ N [µ, σ 2 ], then the distribution of
+y=
+
+x−µ
+σ
+
+is found using the result above. First, the derivative is
+y=
+
+x
+dx
+µ
+− ⇒ x = σ y + µ ⇒ f −1 (y) =
+= σ.
+σ
+σ
+dy
+
+Therefore,
+fy (y) = √
+
+1
+2πσ
+
+2 /(2σ 2 )
+
+e−[(σ y+µ)−µ]
+
+1
+2
+|σ | = √ e−y /2 .
+2π
+
+This is the density of a normally distributed variable with mean zero and standard deviation
+one. It is this result which makes it unnecessary to have separate tables for the different normal
+distributions which result from different means and variances.
+
+B.6
+
+REPRESENTATIONS OF A PROBABILITY
+DISTRIBUTION
+
+The probability density function (pdf) is a natural and familiar way to formulate the distribution
+of a random variable. But, there are many other functions that are used to identify or characterize
+a random variable, depending on the setting. In each of these cases, we can identify some other
+function of the random variable that has a one to one relationship with the density. We have
+already used one of these quite heavily in the preceding discussion. For a random variable which
+has density function f (x), the distribution function or pdf, F(x), is an equally informative function
+that identiﬁes the distribution; the relationship between f (x) and F(x) is deﬁned in (B-6) for a
+discrete random variable and (B-8) for a continuous one. We now consider several other related
+functions.
+For a continuous random variable, the survival function is S(x) = 1 − F(x) = Prob[X > x].
+This function is widely used in epidemiology where x is time until some transition, such as recovery
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+859
+
+from a disease. The hazard function for a random variable is
+h(x) =
+
+f (x)
+f (x)
+=
+S(x)
+1 − F(x)
+
+The hazard function is a conditional probability;
+h(x) = limt↓0 Prob(X ≤ x ≤ X + t | X ≥ x)
+hazards have been used in econometrics in studying the duration of spells, or conditions, such
+as unemployment, strikes, time until business failures, and so on. The connection between the
+hazard and the other functions is h(x) = −d ln S(x)/dx. As an exercise, you might want to verify the interesting special case of h(x) = 1/λ, a constant—the only distribution which has this
+characteristic is the exponential distribution noted in Section B.4.5.
+For the random variable X, with probability density function f (x), if the function
+M(t) = E[et x ]
+exists, then it is the moment-generating function. Assuming the function exists, it can be shown
+that
+dr M(t)/dt r |t=0 = E[xr ].
+The moment generating function, like the survival and the hazard functions, is a unique characterization of a probability distribution. When it exists, the moment-generating function has a
+one-to-one correspondence with the distribution. Thus, for example, if we begin with some random variable and ﬁnd that a transformation of it has a particular MGF, then we may infer that
+the function of the random variable has the distribution associated with that MGF. A convenient
+application of this result is the MGF for the normal distribution. The MGF for the standard
+2
+normal distribution is Mz(t) = et /2 .
+A useful feature of MGFs is the following:
+if x and y are independent, then the MGF of x + y is Mx (t)My (t).
+This result has been used to establish the contagion property of some distributions, that is, the
+property that sums of random variables with a given distribution have that same distribution.
+The normal distribution is a familiar example. This is usually not the case. It is for Poisson and
+chi-squared random variables.
+One qualiﬁcation of all of the preceding is that in order for these results to hold, the
+MGF must exist. It will for the distributions that we will encounter in our work, but in at
+least one important case, we cannot be sure of this. When computing sums of random variables which may have different distributions and whose speciﬁc distributions need not be so
+well behaved, it is likely that the MGF of the sum does not exist. However, the characteristic
+function,
+φ(t) = E[eitx ]
+will always exist, at least for relatively small t. The characteristic function is the device used to
+prove that certain sums of random variables converge to a normally distributed variable—that
+is, the characteristic function is a fundamental tool in proofs of the central limit theorem.
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+860
+
+B.7
+
+JOINT DISTRIBUTIONS
+
+The joint density function for two random variables X and Y denoted f (x, y) is deﬁned so that
+
+⎧ 
+f (x, y)
+if x and y are discrete,
+⎪
+⎪
+⎨a≤x≤b c≤y≤d
+Prob(a ≤ x ≤ b, c ≤ y ≤ d) =  b  d
+⎪
+⎪
+⎩
+f (x, y) dy dx if x and y are continuous.
+a
+
+(B-42)
+
+c
+
+The counterparts of the requirements for a univariate probability density are
+f (x, y) ≥ 0,
+
+
+x
+
+f (x, y) = 1
+
+y
+
+ 
+
+(B-43)
+f (x, y) dy dx = 1
+
+x
+
+if x and y are discrete,
+
+if x and y are continuous.
+
+y
+
+The cumulative probability is likewise the probability of a joint event:
+F(x, y) = Prob(X ≤ x, Y ≤ y)
+
+=
+
+⎧ 
+⎪
+f (x, y)
+⎪
+⎪
+⎨
+
+⎪
+⎪
+⎪
+⎩
+
+x
+
+
+
+(B-44)
+
+y
+
+f (t, s) ds dt
+
+−∞
+
+B.7.1
+
+in the discrete case
+
+X≤x Y≤y
+
+in the continuous case.
+
+−∞
+
+MARGINAL DISTRIBUTIONS
+
+A marginal probability density or marginal probability distribution is deﬁned with respect to an
+individual variable. To obtain the marginal distributions from the joint density, it is necessary to
+sum or integrate out the other variable:
+
+⎧
+⎪
+f (x, y)
+in the discrete case
+⎪
+⎪
+⎨ y
+fx (x) = 
+⎪
+⎪
+⎪
+⎩ f (x, s) ds in the continuous case.
+
+(B-45)
+
+y
+
+and similarly for fy (y).
+Two random variables are statistically independent if and only if their joint density is the
+product of the marginal densities:
+f (x, y) = fx (x) fy (y) ⇔ x and y are independent.
+
+(B-46)
+
+If (and only if) x and y are independent, then the cdf factors as well as the pdf:
+F(x, y) = Fx (x)Fy (y)
+or
+Prob(X ≤ x, Y ≤ y) = Prob(X ≤ x)Prob(Y ≤ y).
+
+(B-47)
+
+APPENDIX B ✦ Probability and Distribution Theory
+B.7.2
+
+861
+
+EXPECTATIONS IN A JOINT DISTRIBUTION
+
+The means, variances, and higher moments of the variables in a joint distribution are deﬁned with
+respect to the marginal distributions. For the mean of x in a discrete distribution,
+E[x] =
+
+
+
+x fx (x)
+
+x
+
+=
+
+
+
+
+x
+
+
+
+x
+
+=
+
+
+x
+
+
+f (x, y)
+
+(B-48)
+
+y
+
+x f (x, y).
+
+y
+
+The means of the variables in a continuous distribution are deﬁned likewise, using integration
+instead of summation:
+
+
+
+x fx (x) dx
+
+E[x] =
+x
+
+ 
+
+(B-49)
+x f (x, y) dy dx.
+
+=
+x
+
+y
+
+Variances are computed in the same manner:
+Var[x] =
+
+	
+
+
+2
+
+x − E[x]
+
+fx (x)
+
+x
+
+=
+
+	
+x
+
+B.7.3
+
+
+2
+
+x − E[x]
+
+f (x, y).
+
+(B-50)
+
+y
+
+COVARIANCE AND CORRELATION
+
+For any function g(x, y),
+
+⎧ 
+g(x, y) f (x, y)
+in the discrete case,
+⎪
+⎪
+⎨
+x
+y
+E[g(x, y)] =  
+⎪
+⎪
+⎩
+g(x, y) f (x, y) dy dx in the continuous case.
+x
+
+(B-51)
+
+y
+
+The covariance of x and y is a special case:
+Cov[x, y] = E[(x − µx )(y − µ y )]
+= E[xy] − µx µ y
+= σxy .
+If x and y are independent, then f (x, y) = fx (x) fy (y) and
+σxy =
+
+
+x
+
+=
+
+
+x
+
+fx (x) fy (y)(x − µx )(y − µ y )
+
+y
+
+(x − µx ) fx (x)
+
+
+y
+
+= E[x − µx ]E[y − µ y ]
+= 0.
+
+(y − µ y ) fy (y)
+
+(B-52)
+
+862
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+The sign of the covariance will indicate the direction of covariation of X and Y. Its magnitude
+depends on the scales of measurement, however. In view of this fact, a preferable measure is the
+correlation coefﬁcient:
+r [x, y] = ρxy =
+
+σxy
+,
+σx σ y
+
+(B-53)
+
+where σx and σ y are the standard deviations of x and y, respectively. The correlation coefﬁcient
+has the same sign as the covariance but is always between −1 and 1 and is thus unaffected by any
+scaling of the variables.
+Variables that are uncorrelated are not necessarily independent. For example, in the discrete distribution f (−1, 1) = f (0, 0) = f (1, 1) = 13 , the correlation is zero, but f (1, 1) does not
+equal fx (1) fy (1) = ( 13 )( 23 ). An important exception is the joint normal distribution discussed subsequently, in which lack of correlation does imply independence.
+Some general results regarding expectations in a joint distribution, which can be veriﬁed by
+applying the appropriate deﬁnitions, are
+E[ax + by + c] = a E[x] + bE[y] + c,
+Var[ax + by + c] = a 2 Var[x] + b2 Var[y] + 2ab Cov[x, y]
+= Var[ax + by],
+
+(B-54)
+
+(B-55)
+
+and
+Cov[ax + by, cx + dy] = ac Var[x] + bd Var[y] + (ad + bc)Cov[x, y].
+
+(B-56)
+
+If X and Y are uncorrelated, then
+Var[x + y] = Var[x − y]
+= Var[x] + Var[y].
+
+(B-57)
+
+For any two functions g1 (x) and g2 (y), if x and y are independent, then
+E[g1 (x)g2 (y)] = E[g1 (x)]E[g2 (y)].
+B.7.4
+
+(B-58)
+
+DISTRIBUTION OF A FUNCTION OF BIVARIATE
+RANDOM VARIABLES
+
+The result for a function of a random variable in (B-41) must be modiﬁed for a joint distribution.
+Suppose that x1 and x2 have a joint distribution fx (x1 , x2 ) and that y1 and y2 are two monotonic
+functions of x1 and x2 :
+y1 = y1 (x1 , x2 )
+y2 = y2 (x1 , x2 ).
+Since the functions are monotonic, the inverse transformations,
+x1 = x1 (y1 , y2 )
+x2 = x2 (y1 , y2 ),
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+863
+
+exist. The Jacobian determinant of the transformations is the determinant of the matrix of partial
+derivatives,
+
+
+  
+∂ x1 /∂ y1 ∂ x1 /∂ y2   ∂x 
+ =  .
+J = 
+∂ x2 /∂ y1 ∂ x2 /∂ y2   ∂y 
+The joint distribution of y1 and y2 is
+fy (y1 , y2 ) = fx [x1 (y1 , y2 ), x2 (y1 , y2 )]abs(|J |).
+The determinant must be nonzero for the transformation to exist. A zero determinant implies
+that the two transformations are functionally dependent.
+Certainly the most common application of the preceding in econometrics is the linear transformation of a set of random variables. Suppose that x1 and x2 are independently distributed
+N [0, 1], and the transformations are
+y1 = α1 + β11 x1 + β12 x2 ,
+y2 = α2 + β21 x1 + β22 x2 .
+To obtain the joint distribution of y1 and y2 , we ﬁrst write the transformations as
+y = a + Bx.
+The inverse transformation is
+x = B−1 (y − a),
+so the absolute value of the Jacobian determinant is
+abs|J | = abs|B−1 | =
+
+1
+.
+abs|B|
+
+The joint distribution of x is the product of the marginal distributions since they are independent.
+Thus,
+2
+
+2
+
+
+
+fx (x) = (2π)−1 e(x1 +x2 )/2 = (2π)−1 ex x/2 .
+Inserting the results for x(y) and J into fy (y1 , y2 ) gives
+fy (y) = (2π)−1
+
+1
+
+ −1
+e−(y−a) (BB ) (y−a)/2 .
+abs|B|
+
+This bivariate normal distribution is the subject of Section B.9. Note that by formulating it as we
+did above, we can generalize directly to the multivariate case, that is, with an arbitrary number
+of variables.
+Perhaps the more common situation is that in which it is necessary to ﬁnd the distribution
+of one function of two (or more) random variables. A strategy that often works in this case is
+to form the joint distribution of the transformed variable and one of the original variables, then
+integrate (or sum) the latter out of the joint distribution to obtain the marginal distribution. Thus,
+to ﬁnd the distribution of y1 (x1 , x2 ), we might formulate
+y1 = y1 (x1 , x2 )
+y2 = x2 .
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+864
+
+The Jacobian would then be
+
+
+ ∂ x1
+
+J = abs  ∂ y1
+ 0
+
+The density of y1 would then be
+
+
+
+∂ x1 
+
+
+
+∂ y2  = abs ∂ x1
+
+∂ y1
+1 
+
+
+
+fy1 (y1 ) =
+
+fx [x1 (y1 , y2 ), y2 ] dy2 .
+y2
+
+B.8
+
+CONDITIONING IN A BIVARIATE DISTRIBUTION
+
+Conditioning and the use of conditional distributions play a pivotal role in econometric modeling.
+We consider some general results for a bivariate distribution. (All these results can be extended
+directly to the multivariate case.)
+In a bivariate distribution, there is a conditional distribution over y for each value of x. The
+conditional densities are
+f (y | x) =
+
+f (x, y)
+fx (x)
+
+f (x | y) =
+
+f (x, y)
+.
+fy (y)
+
+(B-59)
+
+and
+
+It follows from (B-46) that:
+If x and y are independent, then f (y | x) = fy (y)
+
+and
+
+f (x | y) = fx (x).
+
+(B-60)
+
+The interpretation is that if the variables are independent, the probabilities of events relating
+to one variable are unrelated to the other. The deﬁnition of conditional densities implies the
+important result
+f (x, y) = f (y | x) fx (x)
+
+(B-61)
+
+= f (x | y) fy (y).
+B.8.1
+
+REGRESSION: THE CONDITIONAL MEAN
+
+A conditional mean is the mean of the conditional distribution and is deﬁned by
+
+⎧
+⎪
+⎪
+yf (y | x) dy if y is continuous,
+⎪
+⎨ y
+E[y | x] = 
+⎪
+⎪
+yf (y | x)
+if y is discrete.
+⎪
+⎩
+y
+
+The conditional mean function E[y | x] is called the regression of y on x.
+A random variable may always be written as
+
+	
+
+
+
+
+y = E[y | x] + y − E[y | x]
+= E[y | x] + ε.
+
+(B-62)
+
+APPENDIX B ✦ Probability and Distribution Theory
+B.8.2
+
+865
+
+CONDITIONAL VARIANCE
+
+A conditional variance is the variance of the conditional distribution:
+Var[y | x] = E
+
+	
+
+
+
+	
+
+=
+
+
+2  
+x
+
+y − E[y | x]
+
+
+2
+
+y − E[y | x]
+
+(B-63)
+f (y | x) dy,
+
+if y is continuous
+
+y
+
+or
+Var[y | x] =
+
+	
+
+
+2
+
+y − E[y | x]
+
+f (y | x), if y is discrete.
+
+(B-64)
+
+y
+
+The computation can be simpliﬁed by using
+
+	
+
+
+2
+
+Var[y | x] = E[y2 | x] − E[y | x] .
+
+(B-65)
+
+The conditional variance is called the scedastic function and, like the regression, is generally
+a function of x. Unlike the conditional mean function, however, it is common for the conditional
+variance not to vary with x. We shall examine a particular case. This case does not imply, however,
+that Var[y | x] equals Var[y], which will usually not be true. It implies only that the conditional
+variance is a constant. The case in which the conditional variance does not vary with x is called
+homoscedasticity (same variance).
+
+B.8.3
+
+RELATIONSHIPS AMONG MARGINAL
+AND CONDITIONAL MOMENTS
+
+Some useful results for the moments of a conditional distribution are given in the following
+theorems.
+
+THEOREM B.1 Law of Iterated Expectations
+E[y] = Ex [E[y | x]].
+
+(B-66)
+
+The notation Ex [.] indicates the expectation over the values of x. Note that E[y | x] is a
+function of x.
+
+THEOREM B.2 Covariance
+In any bivariate distribution,
+
+
+
+	
+
+Cov[x, y] = Covx [x, E[y | x] =
+
+
+
+
+x − E[x] E[y | x] fx (x) dx.
+
+x
+
+(Note that this is the covariance of x and a function of x.)
+
+(B-67)
+
+866
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+The preceding results provide an additional, extremely useful result for the special case in
+which the conditional mean function is linear in x.
+
+THEOREM B.3 Moments in a Linear Regression
+If E[y | x] = α + βx, then
+α = E[y] − βE[x]
+and
+β=
+
+Cov[x, y]
+.
+Var[x]
+
+(B-68)
+
+The proof follows from (B-66).
+
+The preceding theorems relate to the conditional mean in a bivariate distribution. The following theorems which also appears in various forms in regression analysis describe the conditional
+variance.
+
+THEOREM B.4 Decomposition of Variance
+In a joint distribution,
+Var[y] = Varx [E[y | x]] + Ex [Var[y | x]].
+
+(B-69)
+
+The notation Varx [.] indicates the variance over the distribution of x. This equation states
+that in a bivariate distribution, the variance of y decomposes into the variance of the conditional
+mean function plus the expected variance around the conditional mean.
+
+THEOREM B.5 Residual Variance in a Regression
+In any bivariate distribution,
+Ex [Var[y | x]] = Var[y] − Varx [E[y | x]].
+
+(B-70)
+
+On average, conditioning reduces the variance of the variable subject to the conditioning. For
+example, if y is homoscedastic, then we have the unambiguous result that the variance of the
+conditional distribution(s) is less than or equal to the unconditional variance of y. Going a step
+further, we have the result that appears prominently in the bivariate normal distribution (Section B.9).
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+867
+
+THEOREM B.6 Linear Regression and Homoscedasticity
+In a bivariate distribution, if E[y | x] = α + βx and if Var[y | x] is a constant, then
+
+	
+
+
+
+
+	
+
+
+
+
+2
+Var[y | x] = Var[y] 1 − Corr2 [y, x] = σ y2 1 − ρxy
+.
+
+(B-71)
+
+The proof is straightforward using Theorems B.2 to B.4.
+
+B.8.4
+
+THE ANALYSIS OF VARIANCE
+
+The variance decomposition result implies that in a bivariate distribution, variation in y arises
+from two sources:
+1.
+
+Variation because E[y | x] varies with x:
+regression variance = Varx [E[y | x]].
+
+2.
+
+(B-72)
+
+Variation because, in each conditional distribution, y varies around the conditional mean:
+residual variance = Ex [Var[y | x]].
+
+(B-73)
+
+Thus,
+Var[y] = regression variance + residual variance.
+
+(B-74)
+
+In analyzing a regression, we shall usually be interested in which of the two parts of the total
+variance, Var[y], is the larger one. A natural measure is the ratio
+coefﬁcient of determination =
+
+regression variance
+.
+total variance
+
+(B-75)
+
+In the setting of a linear regression, (B-75) arises from another relationship that emphasizes the
+interpretation of the correlation coefﬁcient.
+If E[y | x] = α + βx, then the coefﬁcient of determination = COD = ρ 2 ,
+
+(B-76)
+
+where ρ 2 is the squared correlation between x and y. We conclude that the correlation coefﬁcient
+(squared) is a measure of the proportion of the variance of y accounted for by variation in the
+mean of y given x. It is in this sense that correlation can be interpreted as a measure of linear
+association between two variables.
+
+B.9
+
+THE BIVARIATE NORMAL DISTRIBUTION
+
+A bivariate distribution that embodies many of the features described earlier is the bivariate
+normal, which is the joint distribution of two normally distributed variables. The density is
+f (x, y) =
+
+1
+
+2πσx σ y
+
+
+
+x − µx
+εx =
+,
+σx
+
+2
+
+1−
+
+ρ2
+
+2
+
+e−1/2[(εx +ε y −2ρεx η y )/(1−ρ
+
+y − µy
+εy =
+.
+σy
+
+2 )]
+
+(B-77)
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+868
+
+The parameters µx , σx , µ y , and σ y are the means and standard deviations of the marginal distributions of x and y, respectively. The additional parameter ρ is the correlation between x and y.
+The covariance is
+σxy = ρσx σ y .
+
+(B-78)
+
+The density is deﬁned only if ρ is not 1 or −1, which in turn requires that the two variables not
+be linearly related. If x and y have a bivariate normal distribution, denoted
+
+
+
+
+
+(x, y) ∼ N2 µx , µ y , σx2 , σ y2 , ρ ,
+then
+
+•
+
+The marginal distributions are normal:
+
+
+
+
+
+
+
+
+
+fx (x) = N µx , σx2 ,
+
+(B-79)
+
+fy (y) = N µ y , σ y2 .
+
+•
+
+The conditional distributions are normal:
+
+
+
+
+
+f (y | x) = N α + βx, σ y2 (1 − ρ 2 )
+α = µ y − βµx ,
+
+•
+
+β=
+
+σxy
+,
+σx2
+
+(B-80)
+
+and likewise for f (x | y).
+x and y are independent if and only if ρ = 0. The density factors into the product of the two
+marginal normal distributions if ρ = 0.
+
+Two things to note about the conditional distributions beyond their normality are their linear
+regression functions and their constant conditional variances. The conditional variance is less than
+the unconditional variance, which is consistent with the results of the previous section.
+
+B.10
+
+MULTIVARIATE DISTRIBUTIONS
+
+The extension of the results for bivariate distributions to more than two variables is direct. It is
+made much more convenient by using matrices and vectors. The term random vector applies to
+a vector whose elements are random variables. The joint density is f (x), whereas the cdf is
+
+
+
+xn
+
+F(x) =
+−∞
+
+
+
+xn−1
+
+
+···
+
+−∞
+
+xn−1
+
+f (x) dx1 · · · dxn−1 dxn .
+
+(B-81)
+
+−∞
+
+Note that the cdf is an n-fold integral. The marginal distribution of any one (or more) of the n
+variables is obtained by integrating or summing over the other variables.
+B.10.1
+
+MOMENTS
+
+The expected value of a vector or matrix is the vector or matrix of expected values. A mean vector
+is deﬁned as
+
+⎡ ⎤
+
+⎡
+
+⎤
+
+µ1
+E[x1 ]
+µ
+E[x
+⎢ 2⎥ ⎢
+2 ]⎥
+⎥ = ⎢ . ⎥ = E[x].
+µ=⎢
+.
+⎣ .. ⎦ ⎣ .. ⎦
+E[xn ]
+µn
+
+(B-82)
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+Deﬁne the matrix
+
+⎡
+
+(x1 − µ1 )(x1 − µ1 )
+⎢(x2 − µ2 )(x1 − µ1 )
+⎢
+(x − µ)(x − µ) = ⎢
+..
+⎣
+.
+(xn − µn )(x1 − µ1 )
+
+869
+
+⎤
+
+(x1 − µ1 )(x2 − µ2 )
+(x2 − µ2 )(x2 − µ2 )
+
+· · · (x1 − µ1 )(xn − µn )
+· · · (x2 − µ2 )(xn − µn ) ⎥
+⎥
+⎥.
+..
+⎦
+.
+(xn − µn )(x2 − µ2 ) · · · (xn − µn )(xn − µn )
+
+The expected value of each element in the matrix is the covariance of the two variables in the
+product. (The covariance of a variable with itself is its variance.) Thus,
+
+⎡
+
+σ11
+⎢σ21
+⎢
+E[(x − µ)(x − µ) ] = ⎢ .
+⎣ ..
+σn1
+
+σ12
+σ22
+σn2
+
+⎤
+
+· · · σ1n
+· · · σ2n ⎥
+⎥
+⎥ = E [xx ] − µµ ,
+..
+⎦
+.
+· · · σnn
+
+(B-83)
+
+which is the covariance matrix of the random vector x. Henceforth, we shall denote the covariance
+matrix of a random vector in boldface, as in
+Var[x] = .
+By dividing σi j by σi σ j , we obtain the correlation matrix:
+
+⎡
+
+1
+⎢ρ21
+⎢
+R=⎢ .
+⎣ ..
+ρn1
+B.10.2
+
+ρ12
+1
+..
+.
+ρn2
+
+ρ13
+ρ23
+..
+.
+ρn3
+
+⎤
+
+· · · ρ1n
+· · · ρ2n ⎥
+⎥
+.. ⎥ .
+. ⎦
+··· 1
+
+SETS OF LINEAR FUNCTIONS
+
+Our earlier results for the mean and variance of a linear function can be extended to the multivariate case. For the mean,
+E[a1 x1 + a2 x2 + · · · + an xn ] = E[a x]
+= a1 E[x1 ] + a2 E[x2 ] + · · · + an E[xn ]
+= a1 µ1 + a2 µ2 + · · · + an µn
+
+(B-84)
+
+= a µ.
+For the variance,
+
+	
+
+
+2 
+
+Var[a x] = E a x − E[a x]
+= E
+
+  	
+
+a x − E[x]
+
+
+2 
+
+= E[a (x − µ)(x − µ) a]
+as E[x] = µ and a (x − µ) = (x − µ) a. Since a is a vector of constants,
+Var[a x] = a E[(x − µ)(x − µ) ]a = a a =
+
+n
+n 
+
+i=1
+
+j=1
+
+ai a j σi j
+
+(B-85)
+
+870
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+Since it is the expected value of a square, we know that a variance cannot be negative. As such,
+the preceding quadratic form is nonnegative, and the symmetric matrix  must be nonnegative
+deﬁnite.
+In the set of linear functions y = Ax, the ith element of y is yi = ai x, where ai is the ith row
+of A [see result (A-14)]. Therefore,
+E[yi ] = ai µ.
+Collecting the results in a vector, we have
+E[Ax] = Aµ.
+
+(B-86)
+
+For two row vectors ai and a j ,
+Cov[ai x, aj x] = ai a j .
+Since ai a j is the ijth element of AA ,
+Var[Ax] = AA .
+
+(B-87)
+
+This matrix will be either nonnegative deﬁnite or positive deﬁnite, depending on the column rank
+of A.
+B.10.3
+
+NONLINEAR FUNCTIONS
+
+Consider a set of possibly nonlinear functions of x, y = g(x). Each element of y can be approximated with a linear Taylor series. Let ji be the row vector of partial derivatives of the ith function
+with respect to the n elements of x:
+ji (x) =
+
+∂gi (x)
+∂ yi
+= .
+
+∂x
+∂x
+
+(B-88)
+
+Then, proceeding in the now familiar way, we use µ, the mean vector of x, as the expansion point,
+so that ji (µ) is the row vector of partial derivatives evaluated at µ. Then
+gi (x) ≈ gi (µ) + ji (µ)(x − µ).
+
+(B-89)
+
+From this we obtain
+E[gi (x)] ≈ gi (µ),
+
+(B-90)
+
+Var[gi (x)] ≈ ji (µ)ji (µ) ,
+
+(B-91)
+
+Cov[gi (x), g j (x)] ≈ ji (µ)j j (µ) .
+
+(B-92)
+
+and
+
+These results can be collected in a convenient form by arranging the row vectors ji (µ) in a matrix
+J(µ). Then, corresponding to the preceding equations, we have
+E[g(x)]  g(µ),
+
+(B-93)
+
+Var[g(x)]  J(µ)J(µ) .
+
+(B-94)
+
+The matrix J(µ) in the last preceding line is ∂y/∂x evaluated at x = µ.
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+B.11
+
+871
+
+THE MULTIVARIATE NORMAL DISTRIBUTION
+
+The foundation of most multivariate analysis in econometrics is the multivariate normal distribution. Let the vector (x1 , x2 , . . . , xn ) = x be the set of n random variables, µ their mean vector,
+and  their covariance matrix. The general form of the joint density is
+
+
+f (x) = (2π)−n/2 ||−1/2 e(−1/2)(x−µ) 
+
+−1 (x−µ)
+
+.
+
+(B-95)
+
+If R is the correlation matrix of the variables and Ri j = σi j /(σi σ j ), then
+−1 ε
+
+f (x) = (2π)−n/2 (σ1 σ2 · · · σn )−1 |R|−1/2 e(−1/2)εR
+
+,
+
+(B-96)
+
+where εi = (xi − µi )/σi .8
+Two special cases are of interest. If all the variables are uncorrelated, then ρi j = 0 for i = j.
+Thus, R = I, and the density becomes
+
+
+f (x) = (2π)−n/2 (σ1 σ2 · · · σn )−1 e−ε ε/2
+= f (x1 ) f (x2 ) · · · f (xn ) =
+
+n
+
+
+(B-97)
+
+f (xi ).
+
+i=1
+
+As in the bivariate case, if normally distributed variables are uncorrelated, then they are independent. If σi = σ and µ = 0, then xi ∼ N [0, σ 2 ] and ei = xi /σ , and the density becomes
+
+
+f (x) = (2π)−n/2 (σ 2 )−n/2 e−x x/2σ
+
+2
+
+(B-98)
+
+Finally, if σ = 1,
+
+
+f (x) = (2π)−n/2 e−x x/2 .
+
+(B-99)
+
+This distribution is the multivariate standard normal, or spherical normal distribution.
+B.11.1
+
+MARGINAL AND CONDITIONAL NORMAL DISTRIBUTIONS
+
+Let x1 be any subset of the variables, including a single variable, and let x2 be the remaining
+variables. Partition µ and  likewise so that
+µ1
+µ=
+µ2
+
+!
+
+ 11
+and  =
+ 21
+
+!
+
+ 12
+.
+ 22
+
+Then the marginal distributions are also normal. In particular, we have the following theorem.
+
+THEOREM B.7 Marginal and Conditional Normal Distributions
+If [x1 , x2 ] have a joint multivariate normal distribution, then the marginal distributions are
+x1 ∼ N(µ1 ,  11 )
+
+(B-100)
+
+8 This result is obtained by constructing , the diagonal matrix with σ as its ith diagonal element. Then,
+i
+R = −1 −1 , which implies that  −1 = −1 R−1 −1 . Inserting this in (B-95) yields (B-96). Note that the
+ith element of −1 (x − µ) is (xi − µi )/σi .
+
+872
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+THEOREM B.7 (Continued)
+and
+x2 ∼ N(µ2 ,  22 ).
+
+(B-101)
+
+The conditional distribution of x1 given x2 is normal as well:
+x1 | x2 ∼ N(µ1.2 ,  11.2 )
+
+(B-102)
+
+µ1.2 = µ1 +  12  −1
+22 (x2 − µ2 )
+
+(B-102a)
+
+where
+
+ 11.2 =  11 −  12  −1
+22  21 .
+
+(B-102b)
+
+Proof: We partition µ and  as shown above and insert the parts in (B-95). To construct
+the density, we use (2-72) to partition the determinant,
+
+
+
+
+
+|| = | 22 |  11 −  12  122  21 ,
+and (A-74) to partition the inverse,
+ 11
+
+ 12
+
+ 21
+
+ 22
+
+!−1
+=
+
+!
+
+ −1
+11.2
+
+− −1
+11.2 B
+
+−B  −1
+11.2
+
+ −1
+ −1
+22 + B  11.2 B
+
+.
+
+For simplicity, we let
+B =  12  −1
+22 .
+Inserting these in (B-95) and collecting terms produces the joint density as a product of
+two terms:
+f (x1 , x2 ) = f1.2 (x1 | x2 ) f2 (x2 ).
+The ﬁrst of these is a normal distribution with mean µ1.2 and variance  11.2 , whereas the
+second is the marginal distribution of x2 .
+
+The conditional mean vector in the multivariate normal distribution is a linear function of the
+unconditional mean and the conditioning variables, and the conditional covariance matrix is
+constant and is smaller (in the sense discussed in Section A.7.3) than the unconditional covariance
+matrix. Notice that the conditional covariance matrix is the inverse of the upper left block of  −1 ;
+that is, this matrix is of the form shown in (A-74) for the partitioned inverse of a matrix.
+
+B.11.2
+
+THE CLASSICAL NORMAL LINEAR REGRESSION MODEL
+
+An important special case of the preceding is that in which x1 is a single variable y and x2 is
+K variables, x. Then the conditional distribution is a multivariate version of that in (B-80) with
+β =  −1
+xx σxy , where σxy is the vector of covariances of y with x2 . Recall that any random variable,
+y, can be written as its mean plus the deviation from the mean. If we apply this tautology to the
+multivariate normal, we obtain
+
+	
+
+
+
+
+y = E[y | x] + y − E[y | x] = α + β  x + ε
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+873
+
+where β is given above, α = µ y − β  µx , and ε has a normal distribution. We thus have, in this
+multivariate normal distribution, the classical normal linear regression model.
+B.11.3
+
+LINEAR FUNCTIONS OF A NORMAL VECTOR
+
+Any linear function of a vector of joint normally distributed variables is also normally distributed.
+The mean vector and covariance matrix of Ax, where x is normally distributed, follow the general
+pattern given earlier. Thus,
+If x ∼ N [µ, ],
+
+then Ax + b ∼ N [Aµ + b, AA ].
+
+(B-103)
+
+If A does not have full rank, then AA is singular and the density does not exist in the full
+dimensional space of x though it does exist in the subspace of dimension equal to the rank of .
+Nonetheless, the individual elements of Ax + b will still be normally distributed, and the joint
+distribution of the full vector is still a multivariate normal.
+B.11.4
+
+QUADRATIC FORMS IN A STANDARD NORMAL VECTOR
+
+The earlier discussion of the chi-squared distribution gives the distribution of x x if x has a standard
+normal distribution. It follows from (A-36) that
+
+
+xx=
+
+n
+
+i=1
+
+xi2
+
+=
+
+n
+
+
+(xi − x̄)2 + nx̄ 2 .
+
+(B-104)
+
+i=1
+
+We know from (B-32) that x x has a chi-squared distribution. It seems natural, therefore, to invoke
+(B-34) for the two parts on the right-hand side of (B-104). It is not yet obvious, however, that
+either of the two terms has a chi-squared distribution or that the two terms are independent,
+as required. To show these conditions, it is necessary to derive the distributions of idempotent
+quadratic forms and to show when they are independent.
+√
+To begin, the second term is the square of nx̄, which can easily be shown to have a standard
+normal distribution. Thus, the second term is the square of a standard normal variable and has chisquared distribution with one degree of freedom. But the ﬁrst term is the sum of n nonindependent
+variables, and it remains to be shown that the two terms are independent.
+
+DEFINITION B.3 Orthonormal Quadratic Form
+A particular case of (B-103) is the following:
+If x ∼ N [0, I] and C is a square matrix such that C C = I, then C x ∼ N [0, I].
+
+Consider, then, a quadratic form in a standard normal vector x with symmetric matrix A:
+q = x Ax.
+
+(B-105)
+
+Let the characteristic roots and vectors of A be arranged in a diagonal matrix  and an orthogonal
+matrix C, as in Section A.6.3. Then
+q = x CC x.
+
+(B-106)
+
+By deﬁnition, C satisﬁes the requirement that C C = I. Thus, the vector y = C x has a standard
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+874
+
+normal distribution. Consequently,
+q = y y =
+
+n
+
+
+λi yi2 .
+
+(B-107)
+
+i=1
+
+If λi is always one or zero, then
+q=
+
+J
+
+
+yi2 ,
+
+(B-108)
+
+j=1
+
+which has a chi-squared distribution. The sum is taken over the j = 1, . . . , J elements associated
+with the roots that are equal to one. A matrix whose characteristic roots are all zero or one is
+idempotent. Therefore, we have proved the next theorem.
+
+THEOREM B.8 Distribution of an Idempotent Quadratic Form in
+a Standard Normal Vector
+
+If x ∼ N [0, I] and A is idempotent, then x Ax has a chi-squared distribution with degrees
+of freedom equal to the number of unit roots of A, which is equal to the rank of A.
+
+The rank of a matrix is equal to the number of nonzero characteristic roots it has. Therefore,
+the degrees of freedom in the preceding chi-squared distribution equals J , the rank of A.
+We can apply this result to the earlier sum of squares. The ﬁrst term is
+n
+
+
+(xi − x̄)2 = x M0 x,
+
+i=1
+
+where M0 was deﬁned in (A-34) as the matrix that transforms data to mean deviation form:
+M0 = I −
+
+1 
+ii .
+n
+
+Since M0 is idempotent, the sum of squared deviations from the mean has a chi-squared distribution. The degrees of freedom equals the rank M0 , which is not obvious except for the useful
+result in (A-108), that
+
+•
+
+The rank of an idempotent matrix is equal to its trace.
+
+(B-109)
+
+Each diagonal element of M0 is 1 − (1/n); hence, the trace is n[1 − (1/n)] = n − 1. Therefore, we
+have an application of Theorem B.8.
+
+•
+
+If x ∼ N(0, I),
+
+n
+
+i=1
+
+(xi − x̄)2 ∼ χ 2 [n − 1].
+
+(B-110)
+
+We have already shown that the second term in (B-104) has a chi-squared distribution with one
+degree of freedom. It is instructive to set this up as a quadratic form as well:
+
+!
+
+nx̄ = x
+2
+
+
+
+1 
+ii x = x [jj ]x,
+n
+
+
+
+where j =
+
+
+
+1
+√ i.
+n
+
+(B-111)
+
+The matrix in brackets is the outer product of a nonzero vector, which always has rank one. You
+can verify that it is idempotent by multiplication. Thus, x x is the sum of two chi-squared variables,
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+875
+
+one with n − 1 degrees of freedom and the other with one. It is now necessary to show that the
+two terms are independent. To do so, we will use the next theorem.
+
+THEOREM B.9 Independence of Idempotent Quadratic Forms
+
+If x ∼ N [0, I] and x Ax and x Bx are two idempotent quadratic forms in x, then x Ax and
+(B-112)
+x Bx are independent if AB = 0.
+
+As before, we show the result for the general case and then specialize it for the example.
+Since both A and B are symmetric and idempotent, A = A A and B = B B. The quadratic forms
+are therefore
+x Ax = x A Ax = x1 x1 ,
+
+where x1 = Ax,
+
+and x Bx = x2 x2 ,
+
+where x2 = Bx.
+
+(B-113)
+
+Both vectors have zero mean vectors, so the covariance matrix of x1 and x2 is
+E(x1 x2 ) = AIB = AB = 0.
+Since Ax and Bx are linear functions of a normally distributed random vector, they are, in turn,
+normally distributed. Their zero covariance matrix implies that they are statistically independent,9
+which establishes the independence of the two quadratic forms. For the case of x x, the two
+matrices are M0 and [I − M0 ]. You can show that M0 [I − M0 ] = 0 just by multiplying.
+B.11.5
+
+THE F DISTRIBUTION
+
+The normal family of distributions (chi-squared, F, and t) can all be derived as functions of
+idempotent quadratic forms in a standard normal vector. The F distribution is the ratio of two
+independent chi-squared variables, each divided by its respective degrees of freedom. Let A and
+B be two idempotent matrices with ranks ra and rb , and let AB = 0. Then
+x Ax/ra
+∼ F [ra , rb ].
+x Bx/rb
+
+(B-114)
+
+If Var[x] = σ 2 I instead, then this is modiﬁed to
+(x Ax/σ 2 )/ra
+∼ F [ra , rb ].
+(x Bx/σ 2 )/rb
+B.11.6
+
+(B-115)
+
+A FULL RANK QUADRATIC FORM
+
+Finally, consider the general case,
+x ∼ N [µ, ].
+We are interested in the distribution of
+q = (x − µ)  −1 (x − µ).
+
+(B-116)
+
+that both x1 = Ax and x2 = Bx have singular covariance matrices. Nonetheless, every element of x1 is
+independent of every element x2 , so the vectors are independent.
+
+9 Note
+
+876
+
+APPENDIX B ✦ Probability and Distribution Theory
+
+First, the vector can be written as z = x − µ, and  is the covariance matrix of z as well as of x.
+Therefore, we seek the distribution of
+
+	
+
+q = z  −1 z = z Var[z]
+
+
+−1
+
+z,
+
+(B-117)
+
+where z is normally distributed with mean 0. This equation is a quadratic form, but not necessarily
+in an idempotent matrix.10 Since  is positive deﬁnite, it has a square root. Deﬁne the symmetric
+matrix  1/2 so that  1/2  1/2 = . Then
+ −1 =  −1/2  −1/2
+and
+z  −1 z = z  −1/2  −1/2 z
+= ( −1/2 z) ( −1/2 z)
+= w w.
+Now w = Az, so
+E(w) = AE[z] = 0
+and
+Var[w] = AA =  −1/2  −1/2 =  0 = I.
+This provides the following important result:
+
+THEOREM B.10 Distribution of a Standardized Normal Vector
+If x ∼ N [µ, ], then  −1/2 (x − µ) ∼ N [0, I].
+
+The simplest special case is that in which x has only one variable, so that the transformation
+is just (x − µ)/σ . Combining this case with (B-32) concerning the sum of squares of standard
+normals, we have the following theorem.
+
+THEOREM B.11 Distribution of x  −1 x When x Is Normal
+If x ∼ N [µ, ], then (x − µ)  −1 (x − µ) ∼ χ 2 [n].
+
+B.11.7
+
+INDEPENDENCE OF A LINEAR AND A QUADRATIC FORM
+
+The t distribution is used in many forms of hypothesis tests. In some situations, it arises as the
+ratio of a linear to a quadratic form in a normal vector. To establish the distribution of these
+statistics, we use the following result.
+10 It
+
+will be idempotent only in the special case of  = I.
+
+APPENDIX C ✦ Estimation and Inference
+
+877
+
+THEOREM B.12 Independence of a Linear and a Quadratic Form
+
+A linear function Lx and a symmetric idempotent quadratic form x Ax in a standard normal
+vector are statistically independent if LA = 0.
+
+The proof follows the same logic as that for two quadratic forms. Write x Ax as x A Ax =
+(Ax) (Ax). The covariance matrix of the variables Lx and Ax is LA = 0, which establishes the
+independence of these two random vectors. The independence of the linear function and the
+quadratic form follows since functions of independent random vectors are also independent.
+The t distribution is deﬁned as the ratio of a standard normal variable to the square root of
+a chi-squared variable divided by its degrees of freedom:
+t[J ] = 
+
+N [0, 1]
+χ 2 [J ]/J
+
+1/2 .
+
+A particular case is
+t[n − 1] = 
+
+√
+nx̄
+
+1
+n−1
+
+ n
+
+i=1
+
+(xi − x̄)2
+
+1/2
+
+=
+
+√
+nx̄
+,
+s
+
+where s is the standard deviation of the values of x. The distribution of the two variables in t[n−1]
+was shown earlier; we need only show that they are independent. But
+√
+
+1
+nx̄ = √ i x = j x
+n
+
+and
+s2 =
+
+x M 0 x
+.
+n−1
+
+It sufﬁces to show that M0 j = 0, which follows from
+M0 i = [I − i(i i)−1 i ]i = i − i(i i)−1 (i i) = 0.
+
+Q
+
+APPENDIX C
+
+ESTIMATION AND INFERENCE
+C.1
+
+INTRODUCTION
+
+The probability distributions discussed in Appendix B serve as models for the underlying data generating processes that produce our observed data. The goal of statistical inference in econometrics
+is to use the principles of mathematical statistics to combine these theoretical distributions and
+the observed data into an empirical model of the economy. This analysis takes place in one of two
+frameworks, classical or Bayesian. The overwhelming majority of empirical study in econometrics
+
+

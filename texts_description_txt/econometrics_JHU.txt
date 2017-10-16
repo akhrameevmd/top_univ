@@ -1,0 +1,17 @@
+180.334 Econometrics
+Introduction to the methods of estimation in economic research. The first part of the course develops the primary method employed in economic research, 
+the method of least squares. This is followed by an investigation of the performance of the method in a variety of important situations. 
+The development of a way to handle many of the situations in which ordinary least squares is not useful, the method of instrumental variables, concludes the course.
+
+Instructor: Husain
+
+180.434 Advanced Econometrics
+This is a faster-paced and more intensive version of Econometrics 180.334. You can use either 180.334 or 180.434 to satisfy the requirement for the economics major.
+ This course is suitable for those students who prefer a more technical treatment of econometric methodologies. Both 180.334 and 180.434 will be offered during the same time slot, so the logistics of switching from 180.334 to 180.434
+ should be seamless, should you decide to make the switch. NOTE: you may not take both 180.334 and 180.434.
+
+Prerequisites:
+
+Students may only receive credit for either AS.180.334 or AS.180.434.;AS.180.301, one semester of linear algebra, one semester of calculus, AS.280.345 or EN.553.211 or EN.553.111 or EN.553.310 or EN.553.311 or EN.553.420 or EN.560.435.
+
+Instructor: Krasnokutskaya

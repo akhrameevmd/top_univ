@@ -1,0 +1,42 @@
+Quantitative Economics and Econometrics
+ECON 2007
+Term 2, 2017-2018
+Instructor: Áureo de Paula
+Office: 228 Drayton House
+Office Hour: Thursdays 16:00-18:00 (January) 14:30-15:30 (after January) or by appointment.
+Aims: To provide students with a thorough understanding of core techniques of quantitative economics and econometrics and their application to test economic theories and
+measure magnitudes relevant for economic policy. The course serves as a foundation for
+subsequent study of quantitative topics. Term 2 expands on the topics learned on Term 1
+for cross-sectional data and introduces basic concepts in time series models.
+Objectives: At the end of the module, students should:
+• Understand the main techniques of quantitative economics and econometrics, including
+their strengths and limitations.
+• Understand how these techniques can be applied to test economic theories and measure
+economic magnitudes.
+• Have some practical experience of the application of econometric methods using Stata.
+Problem Sets:
+There will be three problem sets for feedback. Students must hand in all problem sets and
+there is no tolerance for late assignments. Additional problems will also be covered in tutorials and the problems will be made available in advance on Moodle.
+Practical sessions will take place on Mondays, 10:00-11:00 and are scheduled for TBA. The
+practical sessions will be led by TBA
+The class will meet on Fridays, 11:00-13:00 at Logan Hall (IOE).
+Course Plan (check for updates):
+Week 20 (12/01): IV (W Ch.15.1-15.6, SW Ch.12)
+Week 21 (19/01): IV (W Ch.15.1-15.6, SW Ch.12)
+Week 22 (26/01): Simultaneous Equations Models (W Ch.16.1-16.3)
+1
+
+(PS1: Due February 2)
+Week 23 (02/02): Limited Dependent Variables (W Ch.17; SW Ch.11)
+Week 24 (09/02): Limited Dependent Variables (W Ch.17; SW Ch.11)
+Week 26 (23/02): Limited Dependent Variables (W Ch.17; SW Ch.11)
+(PS2: Due March 3)
+Week 27 (02/03): Limited Dependent Variables (W Ch.17; SW Ch.11)
+Week 28 (09/03): Regression with Time Series (W Ch.10, 11.1-3; SW Ch.14, 15)
+Week 29 (16/03): Regression with Time Series (W Ch.10, 11.1-3; SW Ch.14, 15)
+Week 30 (23/03): Serial Corr. and Heteroskedasticity (W Ch.12; SW Ch.15)
+(PS3: Due March 30)
+
+2
+
+

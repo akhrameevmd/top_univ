@@ -1,0 +1,651 @@
+ECON2004 Macroeconomic Theory and Policy
+Lecture 2: The demand side.
+
+Reading: see Moodle
+
+Last lecture
+The permanent income hypothesis:
+ct 
+
+r
+ te
+1 r
+
+
+  1  r at 1  
+e
+t
+
+Assumptions:
+
+i 0
+
+1
+ye
+i t i
+1  r 
+
+Implications:
+
+Empirical performance:
+ct  c0 c   cy c yt  cr c rt
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 1
+
+Consumption smoothing and financial markets
+In practice:
+ Lending rates are higher than
+borrowing rates, and vary across
+individuals and time (CORE Unit 11)
+
+So the PIH also assumes that
+
+ Some households are credit
+constrained i.e. the amount they can
+borrow is limited
+ more details in lecture 8
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 2
+
+Consumption with credit constraints
+News about an increase in income from y1
+to y2 at time t+1 is announced at time t
+
+So if (for example) 50% of households
+are credit constrained and 50% credit
+unconstrained, aggregate consumption
+will be:
+
+y2
+
+y2
+y1
+t
+
+t+1
+
+Time
+y1
+t
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+t+1
+
+Time
+
+Slide 3
+
+“Hand-to-mouth” behaviour
+There is evidence that some
+households simply consume their
+current income.
+
+For such households, consumption will
+simply be equal to current income
+
+
+
+1
+e
+Ut  
+log
+c
+t i
+i
+i 0 1   
+
+See CORE unit 12
+
+Ways to think about this:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 4
+
+Aggregate consumption and current income
+Consumption of “hand to mouth” households
+
+ctHTM  yt
+
+Compare this with the
+“Keynesian” consumption
+function c = co + cyy
+
+Consumption of households who follow the PIH
+
+ctPIH
+
+
+r 
+1
+r
+e 
+
+y 
+yt
+1  r at 1  
+i t i 
+1 r 
+Why didn’t we just assume
+i 1 1  r 
+ 1 r
+this at the start?
+
+So if a proportion α of households follow the PIH,
+aggregate consumption is:
+
+ct  ctPIH  1   ctHTM
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 5
+
+So how big is cy?
+Across countries:
+
+Relation with inequality:
+
+Source: "The Distribution of Wealth and the MPC: Implications of New European Data," (with Christopher D. Carroll and Jiri
+Slacalek), American Economic Review: Papers and Proceedings,Volume 104, No. 5, pp. 107--11, May 2014.
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 6
+
+Pre-tax and after-tax income
+y represents households disposable
+income i.e. after tax
+
+And lifetime wealth:
+
+
+If instead y represented pre-tax
+income, would need to replace y in the
+above slides with (1-t)y where t is the
+proportional tax rate.
+
+
+
+
+
+1
+e
+e
+  1  r at 1  
+1
+
+t
+y
+t i
+t i
+i
+
+
+1
+
+r
+i 0
+e
+t
+
+Which set of expressions to use:
+i.e. the Keynesian consumption
+function would be
+
+c = c0 + cy(1-t)y
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+ when thinking about consumption in
+isolation, the original expressions (and
+state y is after-tax income)
+ when thinking about consumption in
+terms of the macroeconomy, the
+expressions on this slide
+Slide 7
+
+Application: the multiplier as an empirical concept
+Definition:
+
+Measuring the government spending
+multiplier:
+
+Δy/Δz where z is something exogenous
+e.g. the government spending multiplier
+Δy/Δg “how much does output change as
+a result of an exogenous change in
+government spending”
+Why does this matter?
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+ difficult to estimate because of reverse
+causation – government spending both
+reacts to and affects output…
+ …and because different episodes
+might not be comparable
+ a rough rule of thumb is the multiplier
+in normal times is between 0 and 1.5
+ some evidence of negative multipliers
+“expansionary fiscal contractions”
+
+Slide 8
+
+Application: the multiplier in theory
+Take the consumption function
+c = co (Ʌ)+ cy(Ʌ)(1-t)y
+Substitute it into the aggregate demand
+equation:
+ad = c + v +g =
+Assume the goods market clears so
+y = ad then
+
+So theoretically the government
+spending multiplier is:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+The sum to infinity of a gp:
+
+If most agents are hand-to-mouth:
+
+If all agents follow the PIH:
+
+Slide 9
+
+Investment
+Definition: spending on goods that
+yield a stream of future services.
+Examples:
+firms:
+
+households:
+
+Bank of England Inflation Report February 2014
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 10
+
+The q theory of investment
+Firms choose the level of their capital
+stock to maximise their value:
+
+The benefit of investing a unit of revenue
+is:
+Time
+t
+t+1
+t+2
+t+3
+
+Capital depreciates over time at rate δ
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+MB
+afk
+(1- δ) afk
+
+The cost is:
+
+Slide 11
+
+The q theory of investment
+Setting marginal benefit equal to
+marginal cost:
+
+
+af k
+1  
+
+af k  ...  1
+2
+1  r 1  r 
+Or
+q 1
+
+The value of q determines a firm’s
+investment decision
+
+q=1
+q>1
+q<1
+
+MB = MC
+
+k=k*, v=
+
+where
+af k
+q
+r 
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 12
+
+The determinants of investment
+af k
+q
+r 
+
+Also future values of these variables
+will have similar effects on the MB of
+capital and hence on q and investment
+
+r
+δ
+a
+
+Future r
+Future δ
+Future a
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 13
+
+Measuring q
+Is q easy to measure?
+
+af k
+q
+r 
+Instead define average Q as
+
+…or can use Q to judge whether the
+stock market is under or over-valued.
+… simply need to calculate the ratio on
+the RHS of the expression for Q. If it’s
+> 1 this means:
+
+Q = Stock market value of firm / Replacement 1.
+cost of capital
+Can show under certain conditions (perfect
+competition) q = Q
+
+2.
+3.
+See Smithers and Wright (1998)
+“Valuing Wall Street”
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 14
+
+Empirical evidence on investment
+Prediction of q theory:
+ investment by firms is sensitive to the
+real interest rate
+
+Prediction of q theory:
+ investment by firms is (largely)
+independent of current cashflow
+ why?
+
+The evidence
+ measurement issues
+ weak negative or no effect
+
+The evidence
+ investment is sensitive to cashflow
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 15
+
+Investment and animal spirits
+“a large proportion of our positive activities depend on spontaneous optimism rather than on a
+mathematical expectation, whether moral or hedonistic or economic. Most, probably, of our
+decisions to do something positive, the full consequences of which will be drawn out over many
+days to come, can only be taken as a result of animal spirits — of a spontaneous urge to action
+rather than inaction, and not as the outcome of a weighted average of quantitative benefits
+multiplied by quantitative probabilities. Enterprise only pretends to itself to be mainly actuated
+by the statements in its own prospectus, however candid and sincere. Only a little more than an
+expedition to the South Pole, is it based on an exact calculation of benefits to come. Thus if the
+animal spirits are dimmed and the spontaneous optimism falters, leaving us to depend on
+nothing but a mathematical expectation, enterprise will fade and die; — though fears of loss
+may have a basis no more reasonable than hopes of profit had before…individual initiative will
+only be adequate when reasonable calculation is supplemented and supported by animal spirits,
+so that the thought of ultimate loss which often overtakes pioneers, as experience undoubtedly
+tells us and them, is put aside as a healthy man puts aside the expectation of death”
+(Keynes, The General Theory, Ch 12)
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 16
+
+Investment and animal spirits
+
+
+af k
+1  
+
+af k  ...  1
+2
+1  r 1  r 
+ we wrote that equation as if the firm
+knew all the quantities on the left
+hand side
+ is a firm able to form expectations of
+the long-horizon state of technology
+or the marginal product of capital?
+ See lecture 5 for more on “deep
+uncertainty”
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+ most new firms fail; most investments
+lose money (though they can deliver
+social benefits in the process)
+ given all this, investment only happens
+if investors have “spontaneous optimism
+…animal spirits —a spontaneous urge to
+action”… which seems quite a good
+characterisation of entrepreneurs.
+ Schumpeterian growth (CORE Unit
+2,12)
+ one explanation of why investment
+might be only weakly dependent on
+interest rates
+Slide 17
+
+Household investment
+Consumer durables:
+
+Housing:
+
+ purchase produces a stream of utility
+in the form of future services
+
+ purchase produces a stream utility in
+the form of future housing services
+
+ often funded with debt.
+
+ usually funded with debt (mortgages)
+
+ easily deferred if debt is hard to obtain
+
+ negatively related to interest rates
+
+ negatively related to interest rates
+
+ outside option is renting
+ is housing wealth net worth? An
+increase in house prices means the
+value of housing services increases. A
+household can only realise such wealth
+if they consume less housing services.
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 18
+
+Goods market equilibrium: The IS curve
+ad = c + v + g
+
+ assume goods market equilibrium y = ad
+
+ the demand side will be summarised by
+the IS curve, a relation between current
+real interest rates and current income
+ consumption is c= c(Ʌ c) where Ʌ c are
+the variables that determine non-durable
+consumption
+ among these are real interest rates and
+current output so write
+ct  c0 c   cy c yt  cr c rt
+ similarly for investment by firms and
+households
+
+vt  v0 v   v y v yt  vr v rt
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+ a fall in interest rates causes interestrate sensitive components of
+consumption and investment to rise so
+increasing output directly
+ this has a multiplier effect increasing
+output further
+Slide 19
+
+The IS curve and goods market equilibrium
+r
+
+On the curve:
+
+IS
+
+Above the curve:
+
+y
+
+Below the curve:
+
+How does the goods market adjust when it
+is out of equilibrium? See problem set 1.
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 20
+
+The IS curve
+ct  c0 c   c y c yt  cr c rt
+
+vt  v0 v   v y v yt  vr v rt
+
+What determines the slope of the
+curve?
+ The interest sensitivity of non-durable
+and durable consumption, housing
+investment and investment by firms
+ The size of the multipliers for
+consumption and investment
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+What shifts the curve?
+ Changes in Ʌc, Ʌv and g (exogenous
+government spending)
+ See problem set 1 q 3 for the algebra
+of the IS curve
+
+Slide 21
+
+The IS curve and an increase in asset prices
+
+ an increase in asset prices will tend
+to increase consumption and
+investment
+
+r
+
+IS
+
+ mechanisms?
+ there will then be a multiplier effect
+on output
+
+y
+
+ more in lecture 8
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 22
+
+The IS curve and monetary policy
+
+ one way monetary policy works is
+by changing real interest rates i.e.
+be moving the economy along the
+IS curve
+ the effectiveness of monetary policy
+will depend on the slope of the IS
+curve
+
+r
+
+IS
+
+y
+
+ more in lecture 6
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 23
+
+The IS curve and fiscal policy
+
+Fiscal policy
+ changes in government spending shift
+the IS curve
+
+r
+
+IS
+
+ the effect on output will depend on the
+size of the multiplier…
+ … but it’s much more complicated
+than that.
+
+y
+
+ more in lecture 7
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 24
+
+Summary
+This lecture:
+ consumption with credit constraints
+and hand-to-mouth behaviour
+ the multiplier
+
+Next lecture:
+ the supply side
+ perfect competition
+
+ investment
+
+ imperfect competition – wage setting
+and price setting
+
+ the IS curve
+
+ the Phillips curve
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 2
+
+Slide 25
+
+

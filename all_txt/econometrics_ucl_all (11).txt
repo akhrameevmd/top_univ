@@ -1,0 +1,776 @@
+Multiple Linear Regression Model
+Derivations∗
+Alexandros Theloudis †
+November 7, 2015
+
+1
+
+The model
+
+The multiple linear regression model can be written in the population as:
+y = β0 + β1 x1 + ∙ ∙ ∙ + βk xk + u
+where:
+• y is the independent variable
+• β0 is the constant
+• xj , j = {1, 2, . . . , k} is the independent variable
+• βj is the coefficient on xj
+• u is the error term
+
+Advantages of controlling for more variables:
+• Zero conditional mean assumption more reasonable
+– Closer to estimating causal/ceteris paribus effects (everything else equal)
+• More general functional form
+• Better prediction of y / better fit of the model
+
+1.1
+
+Assumptions
+
+The Multiple Linear Regression Model is usually thought of in the context of the following assumptions:
+1. MLR.1 - Linearity
+The model is linear in parameters. Notice that
+y = β0 + β1 ln x1 + β2 x2 + ∙ ∙ ∙ + βk xk + u
+is also linear in parameters. For z = ln x1 the above model can be rewritten as:
+y = β 0 + β1 z + β2 x 2 + ∙ ∙ ∙ + βk x k + u
+which is clearly linear.
+∗ Prepared
+
+for the ECON2007 Practical Lecture on 18 October 2013. It draws material from Magne Mogstad’s
+lecture notes entitled “Multiple Regression: Estimation”.
+† Alexandros Theloudis: Research Student, Department of Economics, University College London, Gower Street,
+WC1E 6BT London (email: alexandros.theloudis.10@ucl.ac.uk).
+
+1
+
+2. MLR.2 - Random sample
+The sample is a random draw from the population. The data in the sample are {(xi1 , . . . , xik , yi ) :
+i = 1, . . . , n}, where {xi1 , . . . , xik , yi } are i.i.d. (independent and identically distributed).
+3. MLR.3 - Full rank or no perfect collinearity
+xj 6= c and there is P
+no exact linear relationship among any xj in the population, i.e. xj
+cannot be written as −j α−j x−j , where α−j are constants and −j = 1, . . . , j−1, j+1, . . . , k.
+4. MLR.4 - Zero conditional mean
+Conditional on x1 , . . . , xk the mean of u is 0, i.e. E[u|x1 , . . . , xk ] = 0. Notice that this
+assumption also implies that E[u] = 0 and E[xj u] = 0, ∀j. (Can you prove this? )
+
+5. MLR.5 - Homoscedasticity
+The variance of u is constant and independent of x, i.e. E[u2 |x1 , . . . , xk ] = σ 2 .
+For the remaining part of this note, we will assume for simplicity that the model can be written
+as:
+y = β 0 + β 1 x 1 + β2 x 2 + u
+(i.e. with two independent variables only). All the results derived herein can be easily extended
+to accommodate the general case of k independent variables.
+
+2
+
+The OLS estimator
+
+We want to estimate the following MLR
+yi = β0 + β1 xi1 + β2 xi2 + ui .
+
+(1)
+
+Let β̂0 , β̂1 , and β̂2 be the OLS estimators for β0 , β1 , and β2 respectively. The following expressions
+are important:
+yi = β̂0 + β̂1 xi1 + β̂2 xi2 + ûi
+ŷi = β̂0 + β̂1 xi1 + β̂2 xi2
+ûi = yi − ŷi
+Notice that these expressions resemble the ones derived for fitted values and residuals in the context
+of the Simple Linear Regression Model. How can we interpret β̂1 in this context? β̂1 measures
+the ceteris-paribus change in y given an one unit change in x1 ; put differently, it measures the
+change in y given an one unit change in x1 , holding x2 fixed. Obviously, β̂2 has an analogous
+interpretation.
+How do we actually obtain β̂0 , β̂1 , and β̂2 in the context of the Multiple Linear Regression Model?
+There are three equivalent ways: the minimization of the sum of squared residuals, the partiallingout method, and, finally, a method which makes use of a number of moment conditions.
+
+2.1
+
+Sum of squared residuals
+
+We can obtain β̂0 , β̂1 , and β̂2 by minimizing the sum of squared residuals
+Q(β̂) =
+
+n 
+X
+i=1
+
+yi − β̂0 − β̂1 xi1 − β̂2 xi2
+
+2
+
+We derive the first order conditions of Q(β̂) with respect to β̂0 , β̂1 , and β̂2 and we set them equal
+to 0:
+∂Q
+∂β0
+
+=
+
+−2
+
+n 
+X
+i=1
+
+
+yi − β̂0 − β̂1 xi1 − β̂2 xi2 = 0
+2
+
+∂Q
+∂β1
+∂Q
+∂β2
+
+=
+=
+
+−2
+−2
+
+n
+X
+i=1
+
+n
+X
+i=1
+
+
+
+xi1 yi − β̂0 − β̂1 xi1 − β̂2 xi2 = 0
+
+
+xi2 yi − β̂0 − β̂1 xi1 − β̂2 xi2 = 0
+
+These are three equations with three unknowns; solving them simultaneously we get β̂0 , β̂1 , and
+β̂2 (you do not have to remember the following formulae):
+Pn
+Pn
+Pn
+Pn
+ˉ2 )2 i=1 (yi − yˉ)(xi1 − x
+ˉ1 ) − i=1 (yi − yˉ)(xi2 − x
+ˉ2 ) i=1 (xi1 − x
+ˉ1 )(xi2 − x
+ˉ2 )
+i=1 (xi2 − x
+β̂1 =
+Pn
+Pn
+Pn
+2
+2
+2
+ˉ1 )
+ˉ2 ) − ( i=1 (xi1 − x
+ˉ1 )(xi2 − x
+ˉ2 ))
+i=1 (xi1 − x
+i=1 (xi2 − x
+Pn
+P
+P
+P
+n
+n
+n
+(xi1 − x
+ˉ1 )2 i=1 (yi − yˉ)(xi2 − x
+ˉ2 ) − i=1 (yi − yˉ)(xi1 − x
+ˉ1 ) i=1 (xi1 − x
+ˉ1 )(xi2 − x
+ˉ2 )
+β̂2 = i=1
+P
+P
+Pn
+2
+n
+n
+2
+2
+ˉ1 )
+ˉ2 ) − ( i=1 (xi1 − x
+ˉ1 )(xi2 − x
+ˉ2 ))
+i=1 (xi1 − x
+i=1 (xi2 − x
+β̂0 = yˉ − β̂1 x
+ˉ1 − β̂2 x
+ˉ2
+Pn
+Pn
+where x
+ˉj = n−1 i=1 xij and yˉ = n−1 i=1 yi .
+
+2.2
+
+The partialling-out method
+
+A more intuitive way to obtain β̂0 , β̂1 , and β̂2 is the following. First, we estimate a Simple Linear
+Regression of x1 on x2 (and any other independent variables in the context of a general k-variable
+model):
+xi1 = α0 + α1 xi2 + ri1
+where ri1 is an error term. We will use the Simple Linear Regression tools to get the OLS estimates
+α̂0 and α̂1 which will then allow us to construct the residual:
+r̂i1 = xi1 − α̂0 − α̂1 xi2
+How can we interpret residual r̂i1 ? It is the variation in xi1 that is left after removing the variation
+in xi2 .
+Properties of residual r̂i1
+The usual properties apply to r̂i1 :
+Pn
+1. Residuals sum to zero:
+i=1 r̂i1 = 0
+
+2. Residuals are orthogonal to regressors:
+
+Pn
+
+i=1 r̂i1 xi2
+
+=0
+
+3. Sum
+residual and dependent variable equals sum of squared residuals:
+Pnbetween
+Pn of products
+2
+r̂
+x
+=
+r̂
+i1
+i1
+i=1
+i=1 i1
+Proof:
+
+n
+X
+
+r̂i1 xi1
+
+=
+
+i=1
+
+=
+=
+
+n
+X
+i=1
+n
+X
+i=1
+n
+X
+
+r̂i1 (xi1 − α̂0 − α̂1 xi2 + α̂0 + α̂1 xi2 )
+r̂i1 (r̂i1 + α̂0 + α̂1 xi2 )
+2
++ α̂0 r̂i1 + α̂1 xi2 r̂i1
+r̂i1
+
+i=1
+
+=
+
+n
+X
+
+2
+r̂i1
++ α̂0
+
+i=1
+
+n
+X
+
+r̂i1 +α̂1
+
+i=1
+
+| {z }
+=0
+
+3
+
+
+
+n
+X
+i=1
+
+|
+
+r̂i1 xi2 =
+{z
+
+=0
+
+}
+
+n
+X
+i=1
+
+2
+r̂i1
+
+After having obtained r̂i1 , we regress yi on r̂i1 and a constant:
+yi = θ0 + θ1 r̂i1 + vi
+This is nothing but the Simple Linear Regression Model again. The OLS estimate of the slope
+coefficient is
+
+Pn
+ˉ
+i=1 r̂i1 − r̂1 yi
+θ̂1 = Pn
+ ;
+ˉ 2
+i=1 r̂i1 − r̂1
+and as r̂ˉ1 = 0, we can rewrite this as:
+
+Pn
+r̂i1 yi
+θ̂1 = Pi=1
+n
+2 .
+i=1 r̂i1
+
+(2)
+
+How can we interpret this estimated coefficient? θ̂1 measures the change in y which is due to
+an one-unit change in x1 after having x2 partialled out; put differently, θ̂1 measures the change
+in y which is due to an one-unit change in x1 holding x2 fixed. But that is exactly what β̂1 is
+measuring too (return to the discussion at the beginning of this section).
+Formally, replacing r̂i1 in (??) with an analytical expression consisting of xi1 and xi2 only
+(obtained from the regression in the first stage), one can see that θ̂1 is exactly the same as β̂1
+from the minimization of squared residuals. In the next section we will prove that θ̂1 (or β̂1 ; used
+interchangeably hereafter) is an unbiased estimate of the unknown β1 in the population.
+Going back to (??), how can we obtain β̂2 ? Using the same two-step approach one can show
+that
+Pn
+r̂i2 yi
+β̂2 = Pi=1
+n
+2 .
+i=1 r̂i2
+More generally, in a model with k independent variables
+Pn
+r̂ij yi
+β̂j = Pi=1
+j = 1, 2, . . . , k
+n
+2 ,
+i=1 r̂ij
+
+where r̂ij is the OLS residuals from a regression of xj on the other explanatory variables and a
+constant.
+Finally, the estimated constant is
+= yˉ − β̂1 x
+ˉ1 − β̂2 x
+ˉ2
+P
+n
+and yˉ = n−1 i=1 yi . In the general case with k variables, β̂0 =
+β̂0
+
+Pn
+−1
+
+where x
+ˉj = n
+i=1 xij
+ˉ1 − ∙ ∙ ∙ − β̂k x
+ˉk .
+yˉ − β̂1 x
+
+2.3
+
+Moment conditions
+
+As in the context of the Simple Linear Regression, one can use the sample counterparts of the
+2 + 1 moment conditions (or k + 1 in the case of a general k-variable model) that follow from
+MLR.4 :
+E[u] = 0
+E[xj u] = 0
+
+j = 1, 2
+
+The derivation is then straightforward. Can you show it?
+
+3
+
+Unbiasedness
+
+Using the partialling-out method we showed that
+Pn
+r̂i1 yi
+β̂1 = Pi=1
+n
+2
+i=1 r̂i1
+4
+
+We will now show analytically that β̂1 is an unbiased estimator of the true β1 in the population:
+Pn
+r̂i1 yi
+Pi=1
+β̂1 =
+n
+2
+i=1 r̂i1
+Pn
+β x + β2 xi2 + ui )
+MLR.1
+i=1 r̂i1 (β0 +
+Pn1 i12
+=
+i=1 r̂i1
+Pn
+Pn
+Pn
+Pn
+r̂i1 β1 xi1
+r̂i1 β2 xi2
+r̂i1 ui
+i=1 r̂i1 β0
+i=1
+i=1
+P
+P
+P
+Pi=1
+=
++
++
++
+n
+n
+n
+n
+2
+2
+2
+2
+r̂
+r̂
+r̂
+i=1 i1
+i=1 i1
+i=1 i1
+i=1 r̂i1
+Pn
+Pn
+Pn
+Pn
+r̂i1
+r̂i1 xi1
+r̂i1 xi2
+r̂i1 ui
+i=1
+i=1
+i=1
+= β0 Pn 2 +β1 Pn 2 +β2 Pn 2 + Pi=1
+n
+2
+r̂
+r̂
+r̂
+i=1 r̂i1
+| i=1
+{z i1}
+| i=1
+{z i1 }
+| i=1
+{z i1 }
+=0
+
+=
+
+=1
+
+=0
+
+Pn
+r̂i1 ui
+β1 + Pi=1
+n
+2
+i=1 r̂i1
+
+Taking expectations conditional on x1 and x2 we get:
+Pn
+r̂i1 ui
+E[β̂1 |(xi1 , xi2 )∀i] = β1 + E[ Pi=1
+n
+2 |(xi1 , xi2 )∀i]
+i=1 r̂i1
+Pn
+r̂i1 ui
+MLR.2
+= β1 + E[ Pi=1
+n
+2 |x1 , x2 ]
+i=1 r̂i1
+Pn
+r̂i1 E[ui |x1 , x2 ]
+∗
+= β1 + i=1 Pn 2
+i=1 r̂i1
+MLR.4
+
+=
+
+β1
+
+where ∗ implies that as we are conditioning on x1 and x2 , r̂i1 is no longer random and can therefore
+exit the expectations operator. Unbiasedness (E[β̂1 ] = β1 ) now follows from the Law of Iterated
+Expectations. Similarly, it can be shown that β̂2 is also an unbiased estimator for β2 .
+To prove unbiasedness of β̂0 , one has to notice that:
+β̂0
+
+=
+
+yˉ − β̂1 x
+ˉ1 − β̂2 x
+ˉ2
+
+=
+
+β0 + β1 x
+ˉ 1 + β2 x
+ˉ2 − β̂1 x
+ˉ1 − β̂2 x
+ˉ2
+
+=
+
+β0 + (β1 − β̂1 )ˉ
+x1 + (β2 − β̂2 )ˉ
+x2
+
+Then, unbiasedness follows from the unbiasedness of β̂1 and β̂2 .
+
+4
+
+Variance of OLS estimator
+
+Recall that
+
+We derive the variance as follows:
+
+
+V ar β̂1 |(xi1 , xi2 )∀i
+
+
+
+Pn
+r̂i1 ui
+β̂1 = β1 + Pi=1
+n
+2 .
+i=1 r̂i1
+=
+
+V ar (
+
+n
+X
+
+2 −1
+r̂i1
+)
+
+i=1
+
+MLR.2
+
+=
+
+V ar (
+
+n
+X
+i=1
+
+5
+
+n
+X
+
+r̂i1 ui |(xi1 , xi2 )∀i
+
+n
+X
+
+r̂i1 ui |x1 , x2
+
+i=1
+
+2 −1
+r̂i1
+)
+
+i=1
+
+!
+
+!
+
+∗
+
+=
+
+(
+
+n
+X
+
+2 −2
+r̂i1
+) V
+
+ar
+
+i=1
+
+∗&∗∗
+
+=
+
+(
+
+n
+X
+
+i=1
+
+2 −2
+r̂i1
+)
+
+i=1
+
+MLR.5
+
+=
+
+σ2 /
+
+n
+X
+
+n
+X
+i=1
+
+n
+X
+
+r̂i1 ui |x1 , x2
+
+!
+
+2
+r̂i1
+V ar (ui |x1 , x2 )
+
+2
+r̂i1
+
+i=1
+
+=
+
+σ 2 /(SST1 (1 − R12 ))
+
+where ∗ implies that as we are conditioning on x1 and x2 , r̂i1 no longer varies and can therefore
+exit the variance operator; ∗∗ implies that the variance of the sum is equal to the sum of the
+variances only if the covariances are 0. To see this last point, think about the simple case with
+n = 2. In this case:
+!
+2
+X
+r̂i1 ui |x1 , x2
+= V ar (r̂11 u1 + r̂21 u2 |x1 , x2 )
+V ar
+i=1
+
+=
+
+=
+
+V ar (r̂11 u1 |x1 , x2 ) + V ar (r̂21 u2 |x1 , x2 ) + Cov (r̂11 u1 , r̂21 u2 |x1 , x2 )
+2
+X
+
+V ar (r̂i1 ui |x1 , x2 ) + r̂11 r̂21 Cov (u1 , u2 |x1 , x2 )
+
+2
+X
+
+V ar (r̂i1 ui |x1 , x2 )
+
+i=2
+
+=
+
+i=2
+
+as the last covariance
+is 0 because
+of MLR.2. Finally, notice that
+P
+P
+
+Rj2 = 1 −
+
+5
+
+Pn
+
+n
+i=1
+
+2
+r̂i1
+
+i=1 (xi1 −x1 )
+
+2
+
+≡1−
+
+n
+i=1
+
+2
+r̂i1
+
+SST1
+
+.
+
+Pn
+
+2
+i=1 r̂i1
+
+= SST1 (1−R12 ) because
+
+Final remarks
+
+There are many unbiased estimators of βj , j = {0, 1, 2, . . . , k}. A theorem usually referred to as
+the Gauss-Markov theorem states that under assumptions MLR.1 through MLR.5, β̂j is the best
+linear unbiased estimator (BLUE) of βj , j = {0, 1, 2, . . . , k} because:
+• Best = smallest variance
+• Linear in parameters
+• Unbiased: E[β̂j ] = βj
+• Estimator: β̂j = f unction(data)
+
+6
+
+

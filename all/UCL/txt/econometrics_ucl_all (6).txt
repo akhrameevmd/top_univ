@@ -1,0 +1,632 @@
+ECON 2007: Quant Econ and Econometrics
+Probit, Logit and Tobit
+Dr. Áureo de Paula
+Department of Economics
+University College London
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+1 / 35
+
+Introduction
+LDV models refer to those where the dependent variable’s range is
+restricted:
+I
+
+Binary Response (e.g., Probit, Logit)
+
+I
+
+Tobit (i.e., mixed continuous-discrete outcomes)
+
+I
+
+Censored (e.g., top coding, duration models)
+
+I
+
+Truncated
+
+I
+
+Sample Selection
+
+I
+
+Count data
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+2 / 35
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+3 / 35
+
+Food for Thought
+How could you help this person out (and get hired)?
+I
+
+What kind of econometric model would you use?
+
+I
+
+What kind of data would you collect? What is the dependent
+variable? What would you use as explanatory variables?
+
+I
+
+How would you estimate your model?
+
+I
+
+How could you test whether your predictions are accurate?
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+4 / 35
+
+Binary Response: Logit and Probit
+Consider a person’s decision to work or not and record this choice as
+y = 1 if the person works and y = 0 otherwise. Let the utility of
+working or not working be given by:
+u(y ; x, ey ) = βy> x + ey
+x: a list of personal characteristics that might affect one’s preference
+for work (e.g., number of children, age, non-work income) (absorb the
+constant term into x);
+βy are parameters that quantify how those personal characteristics
+affect the taste for work (β1 ) or leisure (β0 ); and
+ey represents unobserved individual taste shifters (independent of x)
+that depend on whether someone works (e1 ) or not (e0 ) (because x
+contains a constant, assume that E(ey ) = 0).
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+5 / 35
+
+Binary Response: Logit and Probit
+This person will choose to work (y = 1) if, and only if,
+u(1; x, e1 ) > u(0; x, e0 ) ⇔ β1> x + e1 > β0> x + e0
+⇔ (β1 − β0 )> x + e1 − e0 > 0
+| {z }
+| {z }
+≡β
+
+≡e
+
+Consequently,
+
+y=
+
+1,
+0,
+
+if β > x + e > 0
+otherwise.
+
+Or, more compactly:
+y = 1[β > x + e > 0].
+| {z }
+≡y ∗
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+6 / 35
+
+Binary Response: Logit and Probit
+To estimate the probability that a person works (y = 1) we need to
+specify a cumulative distribution function G(·) for e. Typically,
+economists focus on
+I
+
+Normal: G(·) = Φ(·) where
+Z z
+1
+√ exp(−u 2 /2)du, or
+Φ(z) =
+2π
+−∞
+
+I
+
+Logistic: G(·) = Λ(·) where
+Λ(z) =
+
+de Paula (UCL)
+
+exp(z)
+1 + exp(z)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+7 / 35
+
+Binary Response: Logit and Probit
+These are both bell-shaped, symmetric about zero: G(z) = 1 − G(−z).
+Consequently,
+Pr (y = 1|x) = Pr (y ∗ > 0|x) = Pr (e > −β > x)
+= 1 − G(−β > x) = G(β > x),
+which we can use to estimate the parameter vector β.
+Because G(·) is a nonlinear function, we cannot use OLS or GLS.
+Although we can use modifications of those methods, it is nevertheless
+preferrable to use the method of Maximum Likelihood.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+8 / 35
+
+Binary Response: Logit and Probit
+Maximum Likelihood Principle
+Out of all the possible values of the parameter, the value that makes the
+likelihood of the observed data largest should be chosen.
+For a single observation i, to calculate the value of the likelihood at a
+given parameter value β we need the probability mass function of y
+given xi :
+f (y |xi ) = [G(β > xi )]y [1 − G(β > xi )](1−y ) , y = 0, 1
+with corresponding log-likelihood
+li (β) = yi log[G(β > xi )] + (1 − yi ) log[1 − G(β > xi )].
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+9 / 35
+
+Binary Response: Logit and Probit
+
+For a random sample with n observations, the log-likelihood function to
+be maximized is then given by
+L(β) =
+
+n
+X
+
+li (β).
+
+i=1
+
+We cannot write down a closed form solution for the estimator, which
+maximizes L(β). Nevertheless, a computer package will (most of the
+time) easily compute it and it can be shown to be consistent,
+asymptotically normal and efficient.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+10 / 35
+
+Binary Response: Logit and Probit
+Probit: Female Labor Force Participation (MROZ.dta).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+11 / 35
+
+Binary Response: Logit and Probit
+There are three possible routes to test multiple exclusion restrictions
+here:
+1. Lagrange multiplier or score statistic. Only estimates restricted
+model as in linear case.
+2. Wald statistic. Only estimates unrestricted model and, under H0 ,
+is χ2q where q is the number of restrictions.
+3. Likelihood statistic. Estimates both restricted and unrestricted
+models and relies on
+LR = 2(Lur − Lr )
+which, under H0 is χ2q where q is the number of restrictions.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+12 / 35
+
+Binary Response: Logit and Probit
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+13 / 35
+
+Binary Response: Logit and Probit
+
+In a LPM, since Pr (y = 1|x) = β > x, the estimated coefficient would
+give us the direct effect of a covariate xj on Pr (y = 1|x) = p(x).
+In a Logit or Probit, β > x = E(y ∗ |x) and β does not have an immediate
+interpretation as the latent variable y ∗ does not carry well defined
+measurement units.
+We need to work a little further to obtain the effect of xj on
+p(x) = G(β > x).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+14 / 35
+
+Binary Response: Logit and Probit
+I
+
+If xj is discrete, we have to evaluate p(x) at the relevant values for
+xj . For example, if xj is a dummy (e.g. representing gender), the
+effect of this variable is
+G(β0 + β1 x1 + · · · + βj + · · · + βk xk )−
+G(β0 + β1 x1 + · · · + 0 + · · · + βk xk )
+
+I
+
+(1)
+
+If xj is continuous, we can use calculus to obtain
+∂p(x)
+= g(β > x)βj where g(z) ≡ G0 (z).
+∂xj
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+(2)
+
+15 / 35
+
+Binary Response: Logit and Probit
+A few remarks:
+I
+
+(1) can be generalized for other kinds of discrete variables (see
+book);
+
+I
+
+(2) can be generalized for general functional forms among
+regressors. For instance,
+Pr (y = 1|z) = G(β0 + β1 z1 + β2 z12 + β3 log z2 )
+where the partial effect of z1 is ∂Pr (y = 1|z)/∂z1 =
+g(β > z)(β1 + 2β2 z1 ) and of z2 is ∂Pr (y = 1|z)/∂z2 = g(β > z)β3 /z2 .
+
+I
+
+Elasticities are given by xj ∂Pr (y = 1|x)/∂xj /Pr (y = 1|x).
+
+I
+
+Be careful with interactions of variables!
+
+I
+
+Watch out for the output of computer packages (which tend to
+follow (2)).
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+16 / 35
+
+Binary Response: Logit and Probit
+Notice that the partial effects now depend on the value of the
+regressors. To evaluate those in practice there are two common
+alternatives:
+I
+
+PEA. Estimate ∂p(E[x])/∂xj by g(β̂ > x)β̂j . Two issues:
+1. What does it mean to be “47.5% female”?
+2. Averages of functions or functions of averages: age and age2 or
+age and age2 ?
+
+I
+
+APE. Estimate E[∂p(x)/∂xj ] by
+n
+
+β̂j
+
+1X
+g(β̂ > xi ).
+n
+i=1
+
+(Similarly for discrete regressors.)
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+17 / 35
+
+Binary Response: Logit and Probit
+Probit: Partial Effect at the Average (PEA)
+
+Remark: PEAexper = φ(x> β̂) × (β̂exper + 2β̂exper2 exper).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+18 / 35
+
+Binary Response: Logit and Probit
+Probit: Average Partial Effect (APE)
+
+Remark: APEexper =
+
+de Paula (UCL)
+
+PN
+
+i=1
+
+φ(x>
+i β̂) × (β̂exper + 2β̂exper2 experi )/N.
+
+ECON 2007: Quantitative Economics and Econometrics
+
+19 / 35
+
+Binary Response: Logit and Probit
+Probit: PEA. Be careful with the derivatives!
+
+These are different from the previous one because ( 1 ) they use exper2
+instead of exper2 and ( 2 ) the derivative for exper does not account for exper2
+(i.e., PEAexper = φ(x> β̂) × β̂exper )
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+20 / 35
+
+Binary Response: Logit and Probit
+Probit: APE. Be careful with the derivatives!
+
+Remark: APEexper =
+
+PN
+
+i=1
+
+φ(x>
+i β̂) × β̂exper /N.
+
+Notice that only the marginal effect for exper is different than the previous
+APE. Why?
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+21 / 35
+
+Binary Response: Logit and Probit
+We can also take into account the fact that kidslt6 is a discrete variable.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+22 / 35
+
+Binary Response: Logit and Probit
+
+How well do we fit the data? In binary response models there are few
+alternatives:
+I
+
+Percent Correctly Predicted: predict 1 if G(β̂ > xi ) ≥ 0.5 and 0
+otherwise. Check proportion of correct predictions (overall and for
+each outcome).
+
+I
+
+Use fraction of successes in-sample as threshold (especially if
+number of successes in data is small).
+
+I
+
+Pseudo R-squared: 1 − Lur /L0 or compare P̂i to yi as in usual R 2 .
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+23 / 35
+
+Binary Response: Logit and Probit
+
+Pseudo-R 2 is 22.06% in our example.
+For prediction percentages:
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+24 / 35
+
+Tobit
+There are many cases in Economics where corner solutions arise.
+For example, consider the case of a person deciding how many hours
+of work to supply.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+25 / 35
+
+Tobit
+Let y represent the number of hours worked. It is (a) continuous over
+positive values and (b) is zero with positive probability.
+To model E(y |x) we rely (again) on a latent variable y ∗ :
+y ∗ = β>x + u
+
+u ∼ N (0, σ 2 )
+
+y = max(c, y ∗ )
+where c is a real number (and again we absorb the constant into x.
+Notice that, as c → −∞, y ∗ → y .
+Here, we will assume that c = 0.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+26 / 35
+
+Tobit
+Then, we can deduct that
+Pr (y = 0|x) = Pr (y ∗ < 0|x) = Pr (u < −β > x|x)
+= Pr (u/σ < −β > x/σ|x)
+= Φ(−β > x/σ) = 1 − Φ(β > x/σ)
+Consequently, the density of y conditional on x = xi is given by
+(1/σ)φ[(y − β > xi )/σ], y > 0
+
+1 − Φ(β > xi /σ), y = 0
+
+which we can use to construct a MLE for β!
+The MLE maximizes L(β) =
+
+Pn
+
+i=1 li (β)
+
+where
+
+li (β) = 1[yi = 0] log[1 − Φ(β > xi /σ)] +
+1[yi > 0] log{(1/σ)φ[(y − β > xi )/σ]}
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+27 / 35
+
+Tobit
+
+The coefficient βj gives the partial effect of xj on E(y ∗ |x), but the
+observed outcome is instead y .
+The conditional expectation of y is given by
+E[y |x] = Pr (y > 0|x).E(y |x, y > 0) + 0.Pr (y = 0|x)
+= Φ(β > x/σ).[β > x + σλ(β > x/σ)]
+= Φ(β > x/σ)β > x + σφ(β > x/σ)
+where λ(z) = φ(z)/Φ(z) is called the inverse Mills’ ratio.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+28 / 35
+
+Tobit
+There are two partial effects of potential interest:
+I
+
+The ’conditonal’ partial effect:
+n
+o
+∂E(y |x, y > 0)/∂xj = βj 1 + λ0 (β > x/σ)
+o
+n
+= βj 1 − λ(β > x/σ)[β > x/σ + λ(β > x/σ)]
+
+I
+
+The ’unconditional’ partial effect:
+∂E(y |x)/∂xj
+
+= ∂Pr (y > 0|x)/∂xj .E(y |x, y > 0)
++Pr (y > 0|x).∂E(y |x, y > 0)/∂xj
+= βj Φ(β > x/σ)
+
+These can be estimated as PEA or APE in the Probit or Logit cases.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+29 / 35
+
+Tobit
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+30 / 35
+
+Tobit
+Tobit: Average Partial Effect (APE) on hours conditional on hours>0
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+31 / 35
+
+Tobit
+Tobit: Average Partial Effect (APE) on uncensored probability
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+32 / 35
+
+Tobit
+Tobit: Average Partial Effect (APE) on observed hours
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+33 / 35
+
+Tobit
+Compare with OLS results. . .
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+34 / 35
+
+Tobit
+The Tobit model has a few important limitations.
+I
+
+The effect of xj on E(y |x, y > 0) and Pr (y > 0|x) are both
+proportional to βj .
+This rules out situation in which xj affects both objects in different
+directions. For instance, the effect of a person’s age on the
+amount of life insurance. Younger people may be less likely to buy
+life insurance, so Pr (y > 0|x) increases with age. Conditional on
+having a policy, its value may nonetheless decrease with age, as
+people get near the end of their lives. In this case, E(y |x, y > 0)
+would decrease with age. (For a informal specification test using
+probits, see book.)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+35 / 35
+
+These slides covered:
+Wooldridge Chs. 17.1 and 17.2, Stock and Watson Ch.11.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+36 / 35
+
+

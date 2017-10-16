@@ -1,0 +1,309 @@
+ECON 3011A - Intermediate Microeconomic Theory
+Fall 2017
+(This version: 01/09/2017)
+Tuesday 8:30 – 10:15AM CKB LT3
+Thursday 12:30 – 1:15PM CKB LT3
+
+Instructor:
+Office hours:
+
+Prof. Shi, Ce Matthew (史 册)
+Monday 2 - 3PM
+Tuesday 10:30 – 11:30AM
+(or by appointment)
+
+TA:
+Office hours:
+
+shice@cuhk.edu.hk
+910 Esther Lee Building (ELB)
+
+Mr. Lin, Jinan (林基楠)
+Mr. Zhou, Kang (周 康)
+Friday 4 – 5PM
+Thursday 2 - 3PM
+jlin@link.cuhk.edu.hk
+kangzhou@link.cuhk.edu.hk
+ELB 1017
+ELB 1017
+(One more TA: TBA)
+
+Tutorials: TBD
+Course Description: Intermediate Microeconomic Theory is one of the most important
+courses in the undergraduate economics curriculum. It is the basis for any other more
+advanced courses in economics – both micro and macro.
+You will learn the basic analytical tools of microeconomic theory, which means being able
+to define, recognize, illustrate and interpret microeconomic concepts algebraically,
+graphically and conceptually. We will illustrate the usefulness of these analytical tools
+through engaging and relevant examples. You will develop the ability to creatively apply
+these analytical tools to collective and individual questions.
+Prerequisites include basic microeconomics, calculus, and linear algebra.
+Readings: For textbook, we will be using Microeconomics, by David Besanko and Ronald
+R. Braeutigam, the international student version, 5th edition.
+It is also acceptable if students use older versions of the textbook. However, it is your
+responsibility to keep the materials and problem sets updated.
+Further readings:
+Varian, Hal (2014). Intermediate Microeconomics, 9th edition, Norton;
+Varian, Hal (1992). Microeconomic Analysis, 3rd edition, Norton;
+Kreps, David (1990). A Course in Microeconomic Theory, Princeton U. Press.
+Method of Evaluation: Participation (5%), Homework Assignments (10%), Quizzes (10%),
+Midterm (30%), Final (45%).
+
+1 
+ 
+
+Participation: Participation will be graded based on attendance and contribution to the class.
+Lecture attendance is mandatory. However, I do not take attendance. You may want to
+notify me in advance or give me a note afterward for any medical emergency, religious
+holiday, field trip and athletic contest, which are the only valid excuses for an absence from
+quiz and examination.
+Communication is highly valued in this class. I encourage you to ask questions and
+express your thoughts during lectures and tutorials. There is no such thing as a stupid question.
+When necessary, I will randomly choose a name to answer my question and/or to speak up.
+One can lose one participation point if she/he is absent without a valid excuse or refuses to
+speak.
+In addition, courtesy is expected in classroom. In particular, you should refrain from chitchatting, making loud noises, or playing with electronic devices during lectures. You can
+also lose participation points if your behavior is disruptive to the class.
+Tutorials: Tutorials are an integral part of the course, and students are expected to attend.
+We will use them to expand on ideas presented in the text and in the lectures, to discuss
+homework problems and quizzes, and to provide an opportunity for you to ask questions
+about anything that you would like to clarify.
+We will hold 5-6 tutorials throughout the semester. The exact dates are TBD.
+Examination: The midterm exam is scheduled to be held in class on October 17 (Tuesday).
+The centrally-planned final examination is TBD. The final exam is NOT cumulative.
+However, due to the nature of the knowledge learned in this class, for the final exam, you
+are expected to know basic concepts and skills learned before the midterm.
+Group Homework: We will have 5 homework assignments, usually one for every three
+chapters. Each homework accounts for 2% of your course grade. The main purpose of these
+problems is to help you learn the material. So, each homework consists of 5 to 7 problems
+that will be graded (and that you need to submit) and many other suggested problems that
+you should do for practice.
+You should turn in each assignment in group of 4 students. Group formation will be done
+before the third week of class. Late assignments will not be accepted.
+Quizzes: We will have 5 in-class quizzes (usually one for every other week). Quizzes are to
+check if you are doing the assigned reading and you learn the material presented in class.
+Detailed dates will be announced later. I will drop your lowest quiz score, so each quiz accounts
+for 2.5% of your course grade.
+Extra Credits: There will be extra-credit opportunities throughout the semester. I will only
+make those announcements during lecture.
+
+2 
+ 
+
+Students with Special Needs: If you have a documented disability and need special
+accommodations, please see me as soon as possible.
+Academic Honesty: Attention is drawn to University policy and regulations on honesty in
+academic work, and to the disciplinary guidelines and procedures applicable to breaches of
+such policy and regulations. Details may be found at http://www.cuhk.edu.hk/policy/academichonesty/.
+The sample statement is as follows, can be downloaded at 
+http://www.cuhk.edu.hk/policy/academichonesty/Eng_htm_files_(2013‐14)/declaration_en.doc. 
+ 
+I am submitting the assignment for:  
+□ an individual project or  
+□ a group project on behalf of all members of the group. It is hereby confirmed that the submission 
+is authorized by all members of the group, and all members of the group are required to sign this 
+declaration.  
+I/We declare that: (i) the assignment here submitted is original except for source material explicitly 
+acknowledged; (ii) the piece of work, or a part of the piece of work has not been submitted for more 
+than one purpose (e.g. to satisfy the requirements in two different courses) without declaration; and 
+(iii)  the  submitted  soft  copy  with  details  listed  in  the  <Submission  Details>  is  identical  to  the  hard 
+copy(ies), if any, which has(have) been / is(are) going to be submitted.  
+I/We  also  acknowledge  that  I  am/we  are  aware  of  University  policy  and  regulations  on  honesty  in 
+academic work, and of the disciplinary guidelines and procedures applicable to breaches of such policy and 
+regulations, as contained in the University website http://www.cuhk.edu.hk/policy/academichonesty/.  
+In the case of a group project, we are aware that each student is responsible and liable to disciplinary 
+actions  should  there  be  any  plagiarized  contents/undeclared  multiple  submission  in  the  group 
+project,  irrespective  of  whether  he/she  has  signed  the  declaration  and  whether  he/she  has 
+contributed directly or indirectly to the problematic contents. 
+It is also understood that assignments without a properly signed declaration by the student concerned 
+and in the case of a group project, by all members of the group concerned, will not be graded by the 
+teacher(s). 
+ 
+__________________________  
+
+ 
+
+__________________________ 
+
+Signature(s)  
+
+ 
+
+ 
+
+        Date 
+
+__________________________  
+
+ 
+
+__________________________ 
+
+Name(s)  
+
+ 
+
+ 
+
+ 
+
+__________________________  
+
+ 
+
+__________________________ 
+
+Course code 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Student ID(s) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3 
+ 
+
+Course title 
+
+Tentative Class Schedule
+Week
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+Date
+
+Topics
+
+Sept. 5
+Sept. 7
+Sept. 12
+Sept. 14
+Sept. 19
+Sept. 21
+Sept. 26
+Sept. 28
+Oct. 3
+Oct. 5
+Oct. 10
+Oct. 12
+Oct. 17
+Oct. 19
+Oct. 24
+Oct. 26
+Oct. 31
+Nov. 2
+Nov. 7
+Nov. 9
+Nov. 14
+Nov. 16
+Nov. 21
+Nov. 23
+Nov. 28
+Nov. 30
+Dec. 5
+
+Introduction & Overview
+Comparative Statics
+Demand and Supply
+Consumer Preferences
+Utility
+Consumer Choice
+Consumer Choice
+Theory of Demand
+Demand Curves
+(Class cancelled)
+Production
+Cost Minimization
+Midterm Exam
+Cost Minimization
+Cost Curves
+
+TBA
+
+Perfect Competitive
+Markets
+Perfect Competition
+General Equilibrium
+Monopoly
+(Class cancelled)
+Monopoly
+Game Theory
+Oligopoly
+Conclusion
+(candidate date for makeup class)
+Final Exam
+
+4 
+ 
+
+Textbook
+Note
+Chapter
+Ch. 1
+Ch. 2
+Ch. 2
+e-add/drop on
+Ch. 3
+CUSIS
+Ch. 3
+HW 1 due
+Ch. 4
+Ch. 5
+Ch. 5
+HW2 due (Fri.)
+Ch. 6
+Midterm in class
+Ch. 7
+Ch. 7
+Ch. 8
+HW3 due
+Ch. 9
+Ch. 16
+Ch. 16
+Ch. 11
+Ch. 13
+Ch. 14
+Ch. 14
+
+HW4 due
+
+HW5 due
+
+TBA
+
+

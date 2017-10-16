@@ -1,0 +1,559 @@
+Econometrics
+Preliminaries: Matrix Algebra
+
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas Term 2016
+
+What is a Matrix?
+I
+
+There are many books on Matrix Algebra
+
+I
+
+The material in this pdf is based on: Econometric Analysis
+by Greene (Appendix A)
+
+I
+
+A matrix is a rectangular array of numbers
+2
+
+a11 a12
+6 a21 a22
+A = [aik ] = 6
+4
+an1 an2
+
+3
+a1K
+a2K 7
+7
+5
+anK
+
+I
+
+aik stands for arow,col so that i = 1, ..., n and j = 1, ..., K
+
+I
+
+A is an n
+
+I
+
+If K = 1, A becomes a column vector
+
+I
+
+If n = 1, A becomes a row vector
+
+K matrix
+
+Some special matrices
+
+I
+
+I
+
+Symmetric matrix: a matrix that has aik = aki for all i and k;
+e.g.,
+2
+3
+3 2 9
+A=4 2 1 6 5
+9 6 5
+
+Diagonal matrix: a square matrix that has only nonzero
+entries on the main diagonal; e.g.,
+2
+3
+3 0 0
+A=4 0 1 0 5
+0 0 5
+
+Some special matrices
+
+I
+
+I
+
+Scalar matrix: a diagonal matrix with the same value in all
+diagonal elements; e.g.,
+2
+3
+9 0 0
+A=4 0 9 0 5
+0 0 9
+Identity matrix: a scalar matrix with ones on the diagonal;
+e.g.,
+2
+3
+1 0 0
+A=4 0 1 0 5
+0 0 1
+
+Algebra of Matrices
+
+I
+
+Transposition: The transpose of A = [aij ] is A0 = [aji ]; e.g.,
+2
+
+3
+2
+3
+1 2 3
+1 4 7
+if A = 4 4 5 6 5 then A0 = 4 2 5 8 5
+7 8 9
+3 6 9
+
+Note if A is symmetric then A = A0
+
+Algebra of Matrices
+
+I
+
+Addition:
+A + B = [aij + bij ] or A
+I
+I
+I
+
+B = [aij
+
+Adding the zero (or null) matrix: A + 0 = A
+Commutative: A + B = B + A
+Associative: (A + B) + C = A + (B + C)
+
+bij ]
+
+Algebra of Matrices
+
+I
+
+Scalar Multiplication: Let c 2 R, then cA = [caji ]; e.g.,
+2
+
+3
+2
+3
+3 2 9
+6 4 18
+if A = 4 2 1 6 5 then 2A = 4 4 2 12 5
+9 6 5
+18 12 10
+
+Algebra of Matrices
+I
+
+Matrix Multiplication: Let A and B be n K and K
+respectively. (Note the dimensions!) Then,
+C = AB = [cij ] = [
+
+K
+X
+
+aik bkj ]
+
+k =1
+
+I
+
+Example
+2
+
+then
+
+3
+2
+3
+3 2 9
+2 1 5
+if A = 4 2 1 6 5 and B = 4 3 2 7 5
+9 6 5
+1 2 9
+2
+
+3
+21 25 110
+AB = 4 13 16 71 5
+41 31 132
+
+m,
+
+Algebra of Matrices
+I
+
+Matrix Multiplication: Let A and B be n
+respectively. Then,
+C = AB = [cij ] = [
+
+K
+X
+
+K and K
+
+aik bkj ]
+
+k =1
+
+I
+
+Some properties
+I
+I
+I
+I
+I
+I
+
+Important: AB 6= BA
+Associative: (AB)C = A(BC)
+Distributive: A(B + C) = AB + AC
+Transpose of a product: (AB)0 = B0 A0
+Transpose of an extended product: (ABC)0 = C0 B0 A0
+Identity: AIK = In A = A
+
+m,
+
+Algebra of Matrices
+I
+
+Inverse of a square Matrix: Let A be a square matrix
+(n n). The inverse matrix, denoted A 1 , is defined such
+that
+A 1 A = AA 1 = I
+
+I
+
+Example: Let A be a 2
+
+2 matrix
+
+A=
+then
+A
+
+1
+
+=
+
+a11 a12
+a21 a22
+
+1
+a11 a22
+
+a12 a21
+
+,
+
+a22
+a21
+
+a12
+a11
+
+where
+
+jAj = a11 a22
+
+a12 a21
+
+is the determinant of A. So if jAj = 0, then A is not
+invertible
+
+Algebra of Matrices
+I
+
+Determinant of a square Matrix: A practical definition
+(Laplace): Let A be a K K matrix. For any row i,
+
+jAj =
+
+K
+P
+
+k =1
+
+aik ( 1)i+k jAik j
+
+where jAik j is a minor of A, i.e., the determinant of Aik
+where Aik is the matrix obtained after deleting row i and
+column k
+I
+I
+
+Cik = ( 1)i+k jAik j is known as a cofactor
+Example: If
+
+A=
+
+a11 a12
+a21 a22
+
+then jAj = a11 a22
+
+a12 a21
+
+Algebra of Matrices
+
+I
+
+Example: If
+
+then
+
+3
+a11 a12 a13
+A = 4 a21 a22 a23 5
+a31 a32 a33
+2
+
+jAj = a11 a22 a33 + a21 a32 a13 + a12 a23 a31
+a31 a22 a13 a32 a23 a11 a21 a12 a33
+
+Algebra of Matrices
+I
+
+Inverse of a matrix. General Case:
+A
+where
+
+1
+
+=
+
+1 0
+C
+jAj
+
+2
+
+C11 C12
+6 C21 C22
+C=6
+4
+Cn1 Cn2
+
+is the matrix of cofactors
+I
+
+Equivalently: The ik th element of A
+aik =
+
+jCki j
+.
+jAj
+
+3
+C1K
+C2K 7
+7
+5
+CnK
+1,
+
+say aik , is
+
+Algebra of Matrices
+
+I
+
+Example:
+2
+
+3
+3 2 9
+if A = 4 2 1 6 5 then A
+9 6 5
+
+1
+
+2
+
+31
+1 4
+44
+=
+22
+3
+
+44
+66
+0
+
+3
+3
+0 5
+1
+
+Algebra of Matrices
+I
+
+Rank of a Matrix: The rank of a matrix, denoted rank(A),
+is the maximum number of linearly independent rows or
+columns
+
+I
+
+rank(A) = rank(A0 )
+
+I
+
+A matrix A is full rank if its rank is equal to the number of
+columns it contains
+
+I
+
+rank(AB)
+
+I
+
+If A is M n and B is a square matrix with rank(B) = n,
+then rank(AB) = rank(A)
+
+I
+
+Important: rank(A) = rank(A0 A) = rank(AA0 )
+
+I
+
+Proposition: jAj 6= 0 if and only if it has full rank
+
+min(#rows, #cols)
+
+min(rank(A), rank(B))
+
+Algebra of Matrices
+
+I
+
+Rank of a Matrix: Example: Let
+A=
+I
+I
+I
+
+a11 a12
+a21 a22
+
+if jAj = a11 a22 a12 a21 6= 0, then rank(A) = 2
+if jAj = 0 because A = 0, then rank(A) = 0
+otherwise (that is if A 6= 0 and jAj = 0), then rank(A) = 1
+
+Algebra of Matrices
+I
+
+Quadratic forms and Definite Matrices
+
+I
+
+A quadratic form: q = x0 Ax where A is a symmetric matrix
+
+I
+
+Positive Definite: A is positive definite if x0 Ax > 0 for all
+nonzero x
+
+I
+
+Negative Definite: A is positive definite if x0 Ax < 0 for all
+nonzero x
+
+I
+
+Positive Semidefinite: A is positive semidefinite if
+x0 Ax 0 for all nonzero x (var-cov matrices)
+
+I
+
+Negative Semidefinite: A is negative semidefinite if
+x0 Ax 0 for all nonzero x
+
+Algebra of Matrices
+
+I
+
+Calculus and Matrix Algebra
+
+I
+
+First rule:
+∂(Ax)
+= A0
+∂x
+
+I
+
+Second rule:
+
+∂(x0 Ax)
+= (A + A0 )x
+∂x
+
+Algebra of Matrices
+I
+
+Calculus and Matrix Algebra
+A=
+
+I
+
+,
+
+x=
+
+x1
+x2
+
+=
+
+1 2
+3 4
+
+Example: First rule
+∂(Ax)
+=
+∂x
+
+I
+
+1 3
+2 4
+
+∂
+
+x1 + 3x2
+2x1 + 4x2
+∂x
+
+= A0
+
+Second rule:
+∂(x21 + 5x1 x2 + 4x22 )
+∂x
+
+=
+=
+
+2x1 + 5x2
+5x1 + 8x2
+1 3
+2 4
+
+= (A + A0 )x
+
++
+
+1 2
+3 4
+
+x1
+x2
+
+

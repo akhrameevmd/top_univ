@@ -1,0 +1,541 @@
+Econ 2004:
+The Open Economy
+
+Lecture 5: Demand Side and Trade Balance in the Open Economy
+Reading.
+Core:
+Carlin and Soskice (2015) Chapter 10 Sections 10.1 (to see where we are going),
+10.2.1
+Blanchard, Amighini & Giavazzi (2010) Chapters 6 and 18 … much the same
+material is presented as in CS but in a different order and with less detail.
+
+Optional: See Moodle page
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+1
+
+These are the questions for this course:
+
+1. What is happening in the real-world macro economy?
+2. How are policy choices made & what would we expect their
+effects to be?
+The aim is for you to be able to answer them using an organized
+framework … a set of related models
+
+How far have we got?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+2
+
+Progress so far
+1. The core concept of arbitrage behaviour in the forex market
+(there are profits to be made by anticipating what is expected
+to happen in the future)  UIP and real UIP condition
+How do we know what will happen to e, q NOW?
+
+2. Medium-run model: AD-ERU model.
+How do we know if the economy is in medium-run equilibrium (in
+MRE
+y
+,
+
+,q ?
+e
+the model)? What determines
+How do demand & supply shocks affect __ and __ in MRE & why
+don’t they affect __ ?
+3. 3-equation open economy model for flexible exchange rate
+economy – i.e. where there is monetary policy at national level:
+IS/PC/MR (modern monetary policy framework)
+How do we get from one MRE to another following a shock?
+UCL ECON2004 TERM 2 LECTURE 5
+
+5
+
+To feel comfortable with the models, you must be able to answer
+the questions using words and
+and
+Why use?
+Comment
+AD-ERU
+ AD & ERU are the same under fixed & flex exchange
+Medium-run model – pins
+rates
+down MRE when inflation  Pins down destination when analysing adjustment to
+is constant
+shocks (Z)
+ NB Adjustment is different under fixed & flex exchange
+Shows RER and
+rates (we discuss fixed e in Lecture 9)
+equilibrium output in MRE
+So far, we have nothing to say about how the
+economy adjusts to a new MRE under fixed exchange
+rates
+3-equation open
+ Given ‘A’ and ‘Z’, model adjustment to shocks; shows
+economy
+CB’s r decisions explicitly
+ Adjustment process along RX curve is consistent with
+Dynamic model of
+rational expectations – forex operators & CB ‘solve the
+inflation-targeting CB
+model’
+(flex e only)
+ CB uses MP to get on to MR/RX at point ‘C’ involves
+exchange rate overshooting
+UCL ECON2004 TERM 2 LECTURE 5
+
+6
+
+Why use?
+The simulator
+
+Comment
+
+
+
+
+
+To check that you understand both the ‘destination’ i.e. the new
+equilibrium and the dynamic adjustment – compare the impulseresponse plots with your diagrams
+To experiment with different shocks, different parameters, to play the role
+of policy maker
+For example, model effects of Brexit, of Trump policies
+To get a publication on the OUP website
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+7
+
+This lecture
+
+Focus on the demand side (AD) and the trade balance (BT) … (some
+of this will be familiar from ECON1001)
+• Why is the AD curve positively sloped?
+• If a real depreciation increases the real cost of
+we know it improves the trade balance?
+
+, how do
+
+• Why is the BT curve positively sloped in the q-y diagram and is it
+steeper or flatter than the AD?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+8
+
+Demand in the Open Economy
+Assume we are in the short-run before the annual wage round,
+Q1. What determines y?
+Q2. What determines the balance of trade, BT?
+
+Why do we care about BT?
+When BT<0, M > X
+→ home is borrowing from abroad and home’s wealth is
+Why do changes in wealth matter?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+9
+
+Goods Market Equilibrium
+
+Simple functions for X =
+and M =
+yD = demand for domestically produced goods & services requires
+that we
+We therefore
+have goods market
+equilibrium
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+10
+
+PART
+MULTIPLIER
+Data1.on
+mpc and MODEL
+mp to import (both matter for the multiplier)
+Data on marginal propensity
+to consume (UK) and
+marginal propensity to
+import (China)
+
+Source:
+http://www.bankofengland.co.uk/publications/Documents/quarterlybulleti
+n/2015/q404.pdf
+
+Source: citi
+
+11
+
+Another form of the goods market equilibrium condition
+Outflows of demand (leakages) & inflows of demand (injections) for domestic output
+
+Balance of trade:
+
+y
+UCL ECON2004 TERM 2 LECTURE 5
+
+12
+
+Summary
+From the short run model (so far), compare open with closed
+economy IS
+1. IS is steeper because multiplier is
+2. IS shifts with exogenous exports
+
+because of
+
+Note that when y = yD , i.e. at GME, BT
+
+Can policy eliminate BT deficit or surplus?
+What instruments do we have in the model (so far)?
+What happens to y?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+13
+
+Bringing in the richer model of imports & exports
+
+What affects demand for imports cf. home production; demand for
+our exports cf. other countries’ output?
+
+Price-setting in the open economy
+We assume
+• imperfect competition,
+• differentiated goods
+• segmented markets
+UCL ECON2004 TERM 2 LECTURE 5
+
+14
+
+2 hypotheses for price-setting
+
+P1. Home-cost based (same as closed economy)
+
+P2. World-price based (based on prices of similar goods in foreign
+markets)
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+15
+
+Price-setting & the real exchange rate
+
+Example:
+Home’s costs rise (↑ W and / or ↓labour productivity, λ), what
+happens to PX and to RER defined as
+?
+Note: definition of unit labour costs: W/λ
+With home-cost based price-setting i.e. P1,
+
+With world price-setting, i.e. P2,
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+16
+
+Price-setting & the real exchange rate
+
+Puzzle – P2 suggests that a rise in home’s costs does not affect its
+RER as defined by price competitiveness,
+.
+Is home’s competitiveness affected by higher costs?
+
+Why?
+
+→ We need a second definition of RER, cost competitiveness
+W /   e ULC *e
+
+RULC 
+
+W
+/
+
+
+ ULC
+*
+
+Increase in RULC is a real
+UCL ECON2004 TERM 2 LECTURE 5
+
+17
+
+Comparison with an integrated goods market
+
+When the goods market is perfectly integrated across borders, Law
+Of One Price holds
+
+When LOOP holds for all goods & services in the economy, Absolute
+Purchasing Power Parity holds
+
+When LOOP & Absolute PPP & perfect competition hold then
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+18
+
+Choosing a set of assumptions
+Empirical evidence:
+1. goods markets are segmented across national borders
+2. much trade is in differentiated products (goods and services)
+under imperfect competition
+3. non-traded services are an important component of GDP
+
+Hence,
+we do not assume
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+19
+
+Defining export & import functions in terms of the RER
+(use home cost pricing, P1)
+Use
+PX
+PM
+Simple
+function
+
+New function
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+20
+
+Introducing the Terms of Trade
+
+Using home cost pricing, P1,
+P
+P*e PM
+1
+Q
+
+and X  terms of trade 
+P
+PX
+PM
+Q
+
+A rise in Q as defined is
+• a
+in home’s competitiveness BUT ALSO
+• a
+
+in home’s terms of trade … explain why 
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+21
+
+How does a change in the real exchange rate affect the trade
+balance?
+We want to draw BT in AD-ERU diagram:
+Determinants of BT:
+
+Why is there ambiguity about the effect of Q on BT?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+22
+
+Two steps to work out implications of change in Q for BT
+
+Step 1. Keep y fixed, i.e.
+
+BT
+Q
+
+BT
+Q
+
+Step 2. Allow for implications of
+on y, i.e. if y rises, imports
+rise as well … so what is the effect on BT?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+23
+
+Step 1. The Marshall-Lerner condition: sign of
+
+BT
+Q
+
+Economic intuition: a depreciation of Q has two effects
+• it boosts home’s competitiveness raising volume of exports &
+reducing volume of imports → unambiguous rise in BT
+This is the
+• it raises the real cost of imports (this is what causes the volume
+effect for imports) → unambiguous fall in BT
+This is the
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+24
+
+Step 1. The Marshall-Lerner condition (cont.)
+
+We write down BT and identify the volume and terms of trade
+effects:
+
+Which is larger?
+If volume effect is ‘big enough’, then
+↑Q → ↑BT
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+25
+
+Step 1. The Marshall-Lerner condition (cont.)
+What is ‘big enough’?
+
+Since TT effect is exactly
+sum of volume effects must >1 for
+
+BT
+0
+Q
+
+.
+
+This is the Marshall-Lerner condition:
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+26
+
+Empirical evidence
+
+1. Shows that elasticities are large enough to satisfy M-L condition
+2. In the very short-run, volumes are fixed by contracts
+→ only terms of trade effect operates
+→ so-called J-curve effect
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+27
+
+dBT
+Step 2. Since y is endogenous, what is dQ ?
+
+BT  BT (Q, y, y* )
+ X (Q, y* )  QM (Q, y )
+
+We can sign the partial equilibrium effects, but what is the general
+equilibrium effect?
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+28
+
+This lecture: relating what we have done today to the AD-ERU
+diagram
+• Why is the AD curve positively sloped?
+Because …
+• Why is the BT curve positively sloped?
+
+• Is the BT curve in the q-y diagram steeper or flatter than the AD?
+
+We still have to show this …
+UCL ECON2004 TERM 2 LECTURE 5
+
+29
+
+To show that BT is flatter than AD:
+We write down the goods market equilibrium using the new export
+& import functions
+→ open economy IS curve
+
+Compare with yBT, i.e. level of output, y, at which BT=0
+By inspection, we can see that
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+30
+
+Hence, BT is flatter than AD
+Summary:
+Assume r = r* and begin at balanced trade (on AD and BT)
+Consider a unit increase in Q:
+Step 1. If ML holds, AD and BT are positively sloped because net
+exports are higher
+Step 2. If the new y is lower than the new yBT, then there must be
+BT surplus at the GME and hence, BT must be flatter than AD
+Compare
+With
+you know that …..
+Draw in q-y diagram:
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+31
+
+How are the current account and the RER related? – eurozone
+countries
+Points to note
+1. Real exchange matters for trade balance and current account
+2. Eurozone highlights this as there is no variation in intra-eurozone nominal
+exchange rate
+3. RER measure is RULC with data here defined such that a rise in RULC is a real
+appreciation
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+32
+
+Using AD-BT-ERU
+Example – Trump’s policies, the dollar and the current account
+Points to note
+• See Eichengreen FT article on Moodle
+• Note: There is a typo in the third para. “Thus, fiscal policy will strengthen
+worsen the current account of the balance of payments, …”
+• For Reagan years, see Figure 11.13, p. 413
+• Show the arguments about fiscal and monetary policy in the AD-BT-ERU
+diagram
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+33
+
+Summary
+Key concepts: volume effect; terms of trade effect; Marshall-Lerner
+condition
+• Price-setting in the open economy for differentiated goods leads
+to a natural definition of price competitiveness, i.e. Q
+• Imports & exports depend on Q
+• Opening the economy affects the IS through the multiplier and
+the determinants of IS shifts
+• A rise in Q (i.e. a real depreciation) improves the trade balance
+• We have added to the model the BT curve & an explanation for
+why it is flatter than AD … we use this result a great deal because
+it will allow us to see whether a shock has led to an
+improvement or deterioration in external balance… learn how to
+explain it
+Self-test questions
+CS (2015) Chapter 10, Checklist questions 1-3, 8
+UCL ECON2004 TERM 2 LECTURE 5
+
+34
+
+Next lecture … after Reading Week
+
+Model-building:
+A range of equilibrium unemployment rates in the open economy
+(downward-sloping ERU curve)
+The full AD-BT-ERU model
+Policy questions:
+Can the government use fiscal policy to choose a lower equilibrium
+unemployment rate?
+Case study – the NICE years for the British economy under the Blair
+Labour government
+UCL ECON2004 TERM 2 LECTURE 5
+
+35
+
+

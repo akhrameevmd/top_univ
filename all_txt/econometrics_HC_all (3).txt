@@ -1,0 +1,144 @@
+The Chinese University of Hong Kong
+
+Economics 4120, Fall 2017
+
+Applied Forecasting Methods
+Instructor: Xiaohu(Frank) Wang
+Office: Room 907, Esther Lee Building
+E-mail: xiaohu.wang@cuhk.edu.hk
+Office Hours: Wednesday 2:30pm-3:30pm or by appointment
+Teaching Assistant: Ying, Zhang
+Office: Room 1017, Esther Lee Building
+E-mail: Zhying@link.cuhk.edu.hk
+Office Hours: Tuesday 11:00am-12:00pm or by appointment
+Tutorial Hours: TBA
+Scheduled Class Time and Organizations: Class will meet once a week from 2:30pm to 5:15pm
+on Tuesdays for lecture in room 307, Esther Lee Building. Students are encouraged to ask questions and provide suggestions throughout the course.
+Course Description and Objectives: This course is designed as a sequel to Introduction to
+Econometrics and focuses on forecasting. Forecasting is important, as forecasts are constantly
+made in business, economics, government, finance, and many other fields and much depends on
+them. This course will introduce you to econometric time-series models and methods that can
+be used to generate forecasts. A wide range of topics are going to be covered, including basic
+concepts of forecasting, forecasting trends and seasonality, ARIMA processes, combination of
+forecasts, evaluation of forecasts, and volatility forecasting. Upon successful completion of this
+course, the students are expect to master basic properties of modern forecasting models, and be
+able to skillfully select appropriate forecasting models to fit real data sets and generate their own
+forecasts.
+Software: EVIEWS will be used for computer-based calculations. A student version of EVIEWS
+is available at www.eviews.com. However, the freedom is granted for you to chose any statistical
+software which you feel comfortable to use for assignments.
+Course Web Page: Access through CUSIS.
+Course Texts:
+The required textbook is
+
+1
+
+Diebold, Francis X. (2008): "Elements of Forecasting," Fourth Edition, South Western College Publishing Co..
+Good general econometrics textbooks are
+Stock, James and Mark Watson (2003): "Introduction to Econometrics," Addison Wesley.
+Wooldridge, Jeffrey M.(2003): "Introductory Econometrics: A Modern Approach," Fifth
+Edition, South Western College Publishing Co..
+Advanced time series textbooks are
+Hamilton, James (1994): "Time Series Analysis,", Princeton Univ. Press.
+Fuller, Wayne A. (1996): "Introduction to Statistical Time Series," Second Edition, WileyInterscience.
+Tsay, Ruey S. (2005): "Analysis of Financial Time Series," Second Edition, Wiley-Interscience.
+Granger, C.W., John and Newbold, Paul (1986): "Forecasting Economic Time Series," Second Edition, New Milford, Connecticut, U.S.A..
+Course Requirements:
+Problem Sets [20%]: There will be three to four problem sets, assigned during the semester.
+For each, students will have one week to complete. The problem sets are designed to give
+you the opportunity to review and enhance the material learned in class.
+Midterm Exam [20%]: It is scheduled at class time on Tuesday, Oct. 17.
+Final Exam [60%]: The final exam will be conducted centrally by the school Registration
+and Examination Section. All students are expected to take final examination at the same
+time. If you are sick or have other compelling reasons preventing you from taking the
+test, a certified medical note or proper documents from a dean or other authorities must be
+supplied. Then a make-up exam might be scheduled. Exchange students are reminded that
+early departure is not a valid reason for not taking the final exam.
+Honesty in Academic Work: Please visit the following web-site for details of university policy
+on Honesty in Academic Work: http://www.cuhk.edu.hk/policy/academichonesty/.
+Course Outline:
+The sessions outlined below include topics which are going to be covered in this course. These
+are only approximate and more time will be spent on some topics than others.
+
+2
+
+1. Introduction to Forecasting
+2. Review of Probability, Statistics and Regression for Forecasting
+3. Six Considerations Basic to Successful Forecasting
+The Decision Environment and Loss Function
+The Forecast Object, Statement and Horizon
+The Information Set
+Methods and Complexity, the Parsimony Principle, and the Shrinkage Principle
+4. Statistical Graphics for Forecasting
+The Power of Statistical Graphics
+Simple Graphical Techniques
+Elements of Graphical Style
+Application: Graphing Four Components of Real GDP
+5. Modeling and Forecasting Trend
+Modeling Trend
+Estimating Trend Models
+Forecasting Trend
+Selecting Forecasting Models Using the Akaike and Schwarz Criteria
+Applications: Forecasting Retail Sales
+6. Modeling and Forecasting Seasonality
+The Nature and Sources of Seasonality
+Modeling Seasonality
+Forecasting Seasonal Series
+Applications: Forecasting Housing Starts
+7. Characterizing Cycles
+Covariance Stationary Time Series
+White Noise
+The Lag Operator
+Wold’s Theorem, the General Linear Process, and Rational Distributed Lags
+3
+
+Estimation and Inference for the Mean, Autocorrelation, and Partial Autocorrelation
+Functions
+Application: Characterizing Canadian Employment Dynamics
+8. Modeling Cycles: MA, AR, and ARMA Models
+Moving Average (MA) Models
+Autoregressive (AR) Models
+Autoregressive Moving Average (ARMA) Models
+Applications: Specifying and Estimating Models for Employment Forecasting
+9. Forecasting Cycles
+Optimal Forecasts
+Forecasting Moving Average Processes
+Making the Forecasts Operational
+The Chain Rule of Forecasting
+Application: Forecasting Employment
+10. A Forecasting Model with Trend, Seasonal, and Cyclical Components
+Assembling What We’ve Learned
+Application: Forecasting Liquor Sales
+Recursive Estimation Procedures for Diagnosing and Selecting Forecasting Models
+11. Forecasting with Regression Models
+Conditional Forecasting Models and Scenario Analysis
+Accounting for Parameter Uncertainty in Confidence Intervals for Conditional Forecasts
+Unconditional Forecasting Models
+Distributed Lags, Polynomial Distributed Lags, and Rational Distributed Lags
+Regressions with Lagged Dependent Variables, Regressions with ARMA Disturbances,
+and Transfer Function Models
+Vector Autoregressions
+Predictive Causality
+impulse-Response Functions and Variance Decompositions
+Application: Housing Starts and Completions
+4
+
+12. Evaluating and Combining Forecasts
+Evaluating a Single Forecast
+Evaluating Two or More Forecasts: Comparing Forecast Accuracy
+Forecasting Encompassing and Forecast Combination
+Application: OverSea Shipping Volume on the Atlantic East Trade Lane
+13. Stochastic Trends
+Stochastic Trends and Forecasting
+Unit Roots: Estimation and Testing
+Application: Modeling and Forecasting the Yen/Dollar Exchange Rate
+Smoothing
+14. Volatility Measurement, Modeling, and Forecasting
+The Basic ARCH Process
+The GARCH Process
+Estimating, Forecasting, and Diagnosing GARCH Models
+Application: Stock Market Volatility
+
+5
+
+

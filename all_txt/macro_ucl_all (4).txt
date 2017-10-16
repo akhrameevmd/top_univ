@@ -1,0 +1,409 @@
+Econ 2004:
+The Open Economy
+
+Lecture 7: All about oil: macro analysis of oil shocks and natural
+resource windfalls
+Reading.
+Core:
+Carlin & Soskice (2015) Chapter 11 Sections 11.1.1, 11.1.2 and 11.2.1, 10.1.1 (yes,
+again), 11.2.2
+
+Optional: See Moodle page
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+1
+
+Last lecture
+
+Model-building:
+The medium-run model: AD-BT-ERU
+• The supply side in the open economy – the downward-sloping
+ERU curve and a range of constant inflation equilibria
+• The full AD-BT-ERU model
+
+Policy question
+• Can the government use fiscal policy to choose a lower
+equilibrium unemployment rate? … e.g. the Labour government
+in the UK?
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+2
+
+This lecture
+
+Model-building:
+1. Using the AD-BT-ERU model to model external supply shocks like oil
+shocks
+2. Balance of payments
+3. Intertemporal approach to balance of payments
+• Applies permanent income hypothesis model of consumption to
+country’s current account
+• Intuition: current account simply reflects consumption smoothing by
+borrowing and lending of optimizing agents
+
+Policy question
+• How does the policy regime affect the impact of oil shocks?
+• How does the discovery of a natural resource affect the macroeconomy?
+UCL ECON2004 TERM 2 LECTURE 7
+
+3
+
+Three oil shocks
+1973 OPEC I:
+More than doubling in real price of oil followed by stagflation (↑π
+to 15%; ↑U to 10% in US)
+1979 OPEC II:
+Oil price shock in 1979 followed by painful disinflation with high U
+2002-2008:
+Strong rises in real oil price, which peaks higher than in OPEC I or II
+but inflation and U remain low
+Fall in oil price:
+• 1986
+• 2008-2009 – financial crisis
+• 2014 – xxxx – supply and
+demand
+UCL ECON2004 TERM 2 LECTURE 7
+
+7
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+8
+
+Latest …
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+9
+
+Three oil shocks
+Why were 1970s shocks so damaging?
+• Poor understanding of nature of shock
+
+Why were private & policy responses so different in 2002-08?
+
+• Improved understanding of the nature of oil shocks
+• New monetary policy regimes of inflation-targeting (e.g. Fed,
+ECB, BoE)
+• Labour market reforms weakened labour and reduced ‘real wage
+resistance’
+UCL ECON2004 TERM 2 LECTURE 7
+
+10
+
+How does a model help?
+An oil shock is
+1. Aggregate demand shock and external trade shock – why?
+
+2. An external supply shock – why?
+
+We have all the ingredients to model this:
+AD and BT shift
+ERU shifts
+UCL ECON2004 TERM 2 LECTURE 7
+
+11
+
+How does a model help?
+What does the model predict?
+
+What was the policy response?
+
+This explains stagflation: lower output and higher inflation
+It also helps explain why 2000s was different from 1970s
+UCL ECON2004 TERM 2 LECTURE 7
+
+12
+
+Modelling an oil shock
+1. Why does an oil shock depress aggregate demand & shift AD & BT left?
+
+2. Define the external terms of trade between raw materials (oil) and
+manufactures;
+Prm*
+Pmf* e
+  * and Q 
+Assume all imports are raw materials;
+Pmf
+Pmf
+Define PM
+Define home’s terms of trade
+Derive M
+So, net exports are:
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+13
+
+Oil shocks – model (cont.)
+3. Impact on the supply side
+
+PC  P  P*e, where  is unit
+materials requirement of output
+ (1   )
+PS
+w 
+1  Q
+   wPS  ERU shifts left
+
+Supply-side effect: Upward
+pressure on inflation + higher
+unemployment = stagflation
+
+Explaining the ToT effect
+q
+• ERU shifts left when τ rises if workers
+seek compensation in ↑W for cuts in
+real wages due to higher oil prices = ‘real
+wage resistance’
+• We take account of ToT effect when we
+have W/PC on vertical axis in WS/PS
+model
+UCL ECON2004 TERM 2 LECTURE 7
+
+y
+14
+
+1973 Oil shock
+Flexible exchange rates, but not inflation-targeting CBs
+Policy focused on offsetting negative aggregate demand effects → loose
+monetary policy called ‘accommodating monetary policy’
+→ Depreciation / inflation spiral:
+
+Stagflation:
+• Fuelled by
+• Exacerbated by adaptive inflation expectations & real wage
+resistance
+UCL ECON2004 TERM 2 LECTURE 7
+
+15
+
+1979 Oil shock
+Flexible exchange rates, change of regime
+Policy shifted to non-accommodating MP (‘anti-inflation’) associated
+with Thatcher in the UK; Volcker (Fed chairman in the US)
+→ Keep ‘money tight’, allow unemployment to rise as necessary to
+bring inflation down:
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+16
+
+Comparison with 2002-2008 oil shock
+What was different?
+1. Monetary policy: inflation targeting MP NOT accommodating MP. CB will
+therefore not allow a depreciation / inflation spiral. CB understands the
+nature of the shock.
+2.
+
+Impact on AD of higher commodity import costs offset by household access
+to
+
+3.
+
+Inflation target also helped anchor inflation expectations (use simulator to
+see effect of anchored inflation expectations)
+
+4.
+
+More flexible labour markets (following labour market deregulation from the
+1980s onwards) meant less ‘real wage resistance’ – workers understood that
+the oil shock is a real shock to the economy and higher nominal wages will
+just lead to inflation: hence ERU does not shift left (or by much less)
+UCL ECON2004 TERM 2 LECTURE 7
+
+17
+
+The collapse in the oil price in 2014/15/16
+Fall in world oil price
+•
+•
+•
+•
+
+A positive demand and supply-side shock
+Apply the model – with the usual assumptions
+Consider a situation in which falling inflation could lead to
+deflation – what problems could this raise?
+Evaluate the potential danger of this in the light of what we
+know about inflation expectations in the current period
+
+See the article by Gavyn Davies (and other new articles) on
+Moodle – excerpts here
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+18
+
+Open economy accounting – keeping track of wealth changes
+Balance of payments (Chapter 10.1.1)
+
+BP  current a/c + capital account  0
+
+Examples:
+1. Suppose (BT + INT) > 0 and ΔR = 0
+
+2. Suppose (BT + INT) > 0 and F = 0
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+19
+
+Summary
+1.
+
+A current account surplus (source of forex) entails as a counterpart, a capital
+account deficit, i.e. an outflow (or use) of forex (to purchase foreign assets),
+recorded as
+
+2.
+
+A current account deficit …
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+20
+
+Key points
+• BP must by definition be zero
+• Why do we care about the current account?
+
+is changing.
+
+• How can there be a BP crisis if BP ≡ 0?
+• Crisis refers to the private balance: (BT + INT) + F
+If (BT + INT) + F > 0, then ΔR > 0
+
+If (BT + INT) + F < 0, then ΔR < 0
+• CB can run out of R … this is a crisis
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+21
+
+Inter-temporal approach to current account – how
+countries can smooth consumption
+Assumptions:
+• Perfect international capital mobility, PCM
+• Domestic consumption determined by PIH, i.e. consumption smoothing: any
+expected fluctuations in hh net income can be smoothed by borrowing /
+lending abroad
+
+
+i
+
+E
+ 1 
+CAt   
+
+y
+t i ,
+* 
+i 1  1  r 
+
+where y is aggregate household net income, including net income from abroad.
+
+Accounting identities & definitions:
+
+CA  X  M  INT
+X  M  y C  I G
+
+Intuition: if expect income to rise,
+then smooth C by borrowing now,
+implies CA < 0
+
+CA  y  INT  C  I  G  y  C ,
+
+Open economy means economy
+as a whole can borrow
+
+where y  y  INT  I  G
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+22
+
+Example: Unexpected fall in y t
+e.g. due to a temporary fall in exports
+
+
+i
+
+E
+ 1 
+CAt   
+ y t i ,
+* 
+i 1  1  r 
+
+where y is aggregate household net income
+• If expect higher income in future (when exports recover), then
+• What if the fall in exports is permanent?
+• For a temporary fall,
+• In the model of intertemporal optimization, countries can borrow and lend at
+r*
+UCL ECON2004 TERM 2 LECTURE 7
+
+23
+
+Example: Resource windfall and the current account
+E
+
+Model as:  y t i >0 when i  0
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+24
+
+Resource windfall in AD-BT-ERU model
+On discovery
+
+Long-run equilibrium
+
+q
+
+q
+
+y
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+y
+
+25
+
+Summary about current accounts
+We have shown that a CA deficit can be benign (unproblematic) or it can be
+symptomatic of macro imbalance …
+1.
+
+If CA balance reflects rational, intertemporal optimizing behaviour, then
+countries will have CA surplus or deficit reflecting differences in preferences,
+investment opportunities, resource windfalls, demographics
+→ no policy concern
+
+2.
+
+Myopia (short-sightedness), political pressures, etc. may mean that e.g. CA
+deficit reflects ‘too low’ rather than optimal national saving … e.g. due to
+unsustainably high private consumption (e.g. based on house price bubble)
+or high government spending
+→ policy concern
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+26
+
+Next lecture
+• More about global imbalances … looking beyond a single country
+
+Self-test questions:
+Carlin and Soskice (2015) Chapter 11 questions: 1-4, 6.
+
+UCL ECON2004 TERM 2 LECTURE 7
+
+27
+
+

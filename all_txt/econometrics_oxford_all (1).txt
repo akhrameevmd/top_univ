@@ -1,0 +1,2744 @@
+Microeconometrics
+Limited Dependent Variable Models
+
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas Term 2016
+
+Limited Dependent Variable Models
+
+“A limited dependent variable is broadly defined as a
+dependent variable whose range of values is substantively
+restricted,” Wooldrige p. 583
+
+Limited Dependent Variable Models
+Examples
+I
+
+Binary Response: y takes only two values: 1 or 0, which
+indicate whether or not a certain even has occurred
+
+I
+
+Multinomial Response: y takes on values 0, 1, 2, ..., J for J a
+positive integer, which denote responses or choices from
+multiple alternatives without an intrinsic ordering (no
+natural numerical vales)
+
+I
+
+Ordered Response: y takes on values 0, 1, 2, ..., J for J a
+positive integer, which denote responses or choices from
+multiple alternatives with an intrinsic ordering (no natural
+numerical vales)
+
+I
+
+Count Data: y takes on values 0, 1, 2, .. which denote a
+count of the number of occurrences (natural numerical
+vales)
+
+Limited Dependent Variable Models
+Examples: Which is which?
+I
+
+A mortgage application is accepted or denied
+
+I
+
+Mode of transport chosen by a commuter: subway, bus,
+drive, walk/bike
+
+I
+
+Mode of transport: public or private
+
+I
+
+Obtaining a high school degree, some college education
+(but not graduating), graduating from college, MPhil,
+DPhil
+
+I
+
+Number of restaurant meals eaten by a consumer in a week
+
+I
+
+Decision on whether to participate in the labor market or
+not
+
+I
+
+Number of crimes committed
+
+Limited Dependent Variable Models
+Examples: Which is which?
+I
+
+Survey questions about strength of feelings about a
+particular commodity, such as a movie
+
+I
+
+Number of visits to a recreation site
+
+I
+
+Number of defects per unit of time in a production process
+
+I
+
+Variable indicating whether a student’s grade in an
+intermediate macro course was higher than that in the
+principles course
+
+I
+
+Scale of occupations: unskilled employees, machine
+operators, skilled manual employees, clerical and sales
+workers and technicians, etc..
+
+I
+
+Choice of automobile models from a varied menu of
+features
+
+Limited Dependent Variable Models
+Examples
+I
+
+Binary Response: y takes only two values: 1 or 0, which
+indicate whether or not a certain even has occurred
+
+I
+
+Multinomial Response: y takes on values 0, 1, 2, ..., J for J a
+positive integer, which denote responses or choices from
+multiple alternatives without an intrinsic ordering (no
+natural numerical vales)
+
+I
+
+Ordered Response: y takes on values 0, 1, 2, ..., J for J a
+positive integer, which denote responses or choices from
+multiple alternatives with an intrinsic ordering (no natural
+numerical vales)
+
+I
+
+Count Data: y takes on values 0, 1, 2, .. which denote a
+count of the number of occurrences (natural numerical
+vales)
+
+Limited Dependent Variable Models
+
+“In these and any number of other cases, the dependent variable is not
+a quantitative measure of some economic outcome, but rather an
+indicator of whether or not some outcome occurred. It follows that the
+regression methods we have used up to this point are largely
+inappropriate. We turn, instead to modeling probabilities and using
+econometric tools to make probabilistic statements about the
+occurrence of these events. We will also examine models for counts of
+occurrences,” Greene p. 721
+
+Limited Dependent Variable Models
+
+Binary Response Models
+
+Binary Response Models
+
+I
+
+Dependent variable
+yi =
+
+I
+
+1 if event A is observed for i
+0 otherwise
+
+Observable characteristics: xi
+
+Cross-sectional Data: Labor Force Participation
+
+I
+
+Labor Force Participation: Data: Wooldrige (p. 239)
+I
+I
+I
+I
+I
+I
+
+inlfi : 1 if woman i reports working for a wage outside the
+home, 0 otherwise
+nwifeinci : husband’s earnings
+educi : years of education
+exp eri : past years of labor market experience
+kidslt6i : number of children less than six years old
+kidsge6i : number of kids between 6 and 18 years of age
+
+Binary Response Models
+I
+
+Dependent variable: yi = 1 (A)
+
+I
+
+Explanatory variables: xi
+
+I
+
+Objective: Modelling the probability that yi = 1
+
+I
+
+We specify
+P (y = 1jx) = G (x, β)
+P (y = 0jx) = 1
+
+G (x, β)
+
+I
+
+β: measures the impact of changes in x on the probability
+
+I
+
+Notice
+E [yjx] = 0
+
+(1
+
+G (x, β)) + 1
+
+G (x, β) = G (x, β)
+
+Binary Response Models
+
+I
+
+Linear Probability Model: G (x, β) linear
+
+I
+
+Probit: G (x, β) Normal
+
+I
+
+Logit: G (x, β) Logistic
+
+Binary Response Models
+
+Linear Probability Model
+
+Binary Response Models
+
+Linear Probability Model
+I
+
+Objective: Modelling the probability that yi = 1:
+P (y = 1jx) = G (x, β)
+P (y = 0jx) = 1
+
+I
+
+G (x, β)
+
+The linear probability model specifies:
+P (y = 1jx) = G (x, β) = x0 β
+
+Binary Response Models
+
+Linear Probability Model
+I
+
+Objective: Modelling the response probability (that y = 1):
+P (y = 1jx) = G (x, β)
+
+I
+
+The linear probability model considers
+P (y = 1jx) = G (x, β) = x0 β = β0 + β1 x1 + ... + βk xk
+and specifies
+yi = xi0 β + ui
+
+Cross-sectional Data: Labor Force Participation
+
+I
+
+Labor Force Participation: Data: Wooldrige (p. 239)
+I
+I
+I
+I
+I
+I
+
+inlfi : 1 if woman i reports working for a wage outside the
+home, 0 otherwise
+nwifeinci : husband’s earnings
+educi : years of education
+exp eri : past years of labor market experience
+kidslt6i : number of children less than six years old
+kidsge6i : number of kids between 6 and 18 years of age
+
+Binary Response Models
+
+Linear Probability Model: Labor Force Participation
+Wooldrige, p. 250
+
+d = 0.586
+inlf
+
+(0.154)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0014)
+
+0.00060exper
+(0.00018)
+
+I
+
+(0.007)
+
+2
+
+0.016age
+
+(0.002)
+
+(0.006)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.034)
+
+(0.013)
+
+Coefficients interpretation:
+I
+
+educ: (ceteris paribus) another year of education increases
+the probability of labor force participation by 0.038
+
+Binary Response Models
+Linear Probability Model: Labor Force Participation
+Wooldrige, p. 250
+
+d = 0.586
+inlf
+
+(0.154)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0014)
+
+0.00060exper
+(0.00018)
+
+I
+
+(0.007)
+
+2
+
+0.016age
+
+(0.002)
+
+(0.006)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.034)
+
+(0.013)
+
+Coefficients interpretation:
+I
+
+nwifeinc: (ceteris paribus) if ∆nwifeinc = 10 (i.e. an increase
+of $10000), then the probability that a woman is in the labor
+market falls by 0.034
+
+Binary Response Models
+Linear Probability Model: Labor Force Participation
+Wooldrige, p. 250
+
+d = 0.586
+inlf
+
+(0.154)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0014)
+
+0.00060exper
+(0.00018)
+
+I
+
+(0.007)
+
+2
+
+0.016age
+
+(0.002)
+
+(0.006)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.034)
+
+(0.013)
+
+Coefficients interpretation:
+I
+
+exper: Quadratic: past experience has a diminishing effect
+on the labor force participation. In particular, (ceteris
+paribus) the estimated change in the probability is
+approximated as 0.039 2 (0.0006) = 0.039 0.0012exper
+
+Binary Response Models
+Linear Probability Model: Labor Force Participation
+Wooldrige, p. 250
+
+d = 0.586
+inlf
+
+(0.154)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0014)
+
+0.00060exper
+(0.00018)
+
+I
+
+(0.007)
+
+2
+
+0.016age
+
+(0.002)
+
+(0.006)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.034)
+
+(0.013)
+
+Coefficients interpretation:
+I
+
+kidslt6 and kidsge6: very different effect of the number of
+younger and older children. (ceteris paribus) Having one
+additional child less than six years old reduces the
+probability of participation by 0.262.
+
+Binary Response Models
+
+Linear Probability Model
+I
+
+The linear probability model considers
+P (y = 1jx) = G (x, β) = x0 β = β0 + β1 x1 + ... + βk xk
+and specifies
+yi = xi0 β + ui
+
+I
+
+Easy to estimate and interpret
+
+Binary Response Models
+
+Linear Probability Model: Shortcomings
+I
+
+Heteroscedasticity (by construction):
+I
+I
+
+I
+
+I
+I
+
+Notice that xi0 β + ui must equal zero or one
+Therefore, ui equals either xi0 β or 1 xi0 β with
+probabilities 1 G and G, respectively. (Not normally
+distributed in finite samples)
+Hence,
+Var [ujx] = x0 β 1 x0 β
+Gauss-Markov does not apply
+We could use HAC standard errors
+
+Binary Response Models
+
+Linear Probability Model: Labor Force Participation
+HAC standard errors
+Wooldrige 2, p. 250
+
+d = 0.586
+inlf
+
+(0.151)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0015)
+
+0.00060exper
+(0.00019)
+
+I
+
+(0.007)
+
+2
+
+0.016age
+
+(0.002)
+
+Similar standard errors!
+
+(0.006)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.032)
+
+(0.013)
+
+Binary Response Models
+
+Linear Probability Model: Shortcomings
+Wooldrige , p. 251
+I
+
+Predicted probabilities may not belong to [0, 1]:
+/ [0, 1]
+ŷi = x0 β̂ 2
+
+Binary Response Models
+Linear Probability Model: Shortcomings
+Wooldrige , p. 251
+d = 0.586
+inlf
+
+(0.151)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0015)
+
+0.00060exper
+(0.00019)
+
+I
+I
+
+I
+
+(0.007)
+
+2
+
+0.016age
+
+(0.002)
+
+(0.006)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.032)
+
+(0.013)
+
+A probability cannot be linearly related to the independent
+variables for all their positive values
+Labor force participation example: from 0 to 1 young child
+reduces the probability of working by 0.262, the same
+reduction as going from 1 to 2 children
+Extreme: going from 0 to four young children reduces the
+probability of working by
+d = 0.262 (∆kidslt6) = 0.262 4 = 1.048
+∆inlf
+
+Binary Response Models
+
+I
+
+How can these shortcomings be overcome?
+
+I
+
+We need
+lim P (y = 1jx) = 1
+
+x0 β!+∞
+
+lim P (y = 1jx) = 0
+
+x0 β ! ∞
+
+I
+
+Cumulative Distribution Functions
+
+Binary Response Models
+
+F(x'b)
+
+1.0
+0.8
+0.6
+0.4
+0.2
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+x'b
+
+Binary Response Models
+
+Probit and Logit
+
+Binary Response Models
+I
+
+Normal distribution: Probit
+P (y = 1jx) =
+
+Z
+
+x0 β
+∞
+
+φ (t) dt = Φ x0 β
+
+where Φ (x0 β) denotes the standard normal distribution
+function and φ the standard normal density
+I
+
+Logistic distribution: Logit
+P (y = 1jx) =
+
+exp (x0 β)
+= Λ x0 β
+1 + exp (x0 β)
+
+Binary Response Models
+
+I
+
+In general,
+P (y = 1jx) = E [yjx] = G x0 β = G ( β0 + β1 x1 + ... + βk xk )
+
+I
+
+G is nonlinear in Probit and Logit models!!!
+
+Binary Response Models
+
+Marginal Effects
+
+Binary Response Models
+Marginal Effects: Binary explanatory variable
+I
+
+Model
+P (y = 1jx) = E [yjx] = G ( β0 + β1 x1i + β2 x2i + ... + βk xki )
+where x1i is a binary explanatory variable (dummy)
+
+I
+
+Partial effect from changing x1i from zero to one is
+G ( β0 + β1 + β2 x2i + ... + βk xki )
+
+I
+
+G ( β0 + β2 x2i + ... + βk xki )
+
+This depends on all the values of the other xj . We can
+evaluate the partial effect at some particular value of the
+xj ’s
+
+Binary Response Models
+
+Marginal Effects: Continuous explanatory variable
+P (y = 1jx) = G x0 β = G ( β0 + β1 x1 + ... + βk xk )
+I
+
+Marginal effects
+∂E [yjx]
+∂xj
+
+I
+
+What are they in the probit and logit models?
+
+Binary Response Models
+
+Probit: Normal Distribution
+I
+
+Recall: for X
+
+I
+
+Density function
+
+N (0, 1)
+
+1
+g (x) = φ (x) = p e
+2π
+I
+
+Cumulative distribution function
+Z
+G (x) = Φ (x) =
+
+1 2
+2x
+
+x
+∞
+
+φ (x) dx
+
+Binary Response Models
+
+Cumulative distribution (cdf) vs Density (pdf)
+
+G0 (x ) =
+
+dG (x)
+= g (x)
+dx
+
+Binary Response Models
+Probit Marginal Effects
+
+P (y = 1jx) =
+I
+
+Z
+
+x0 β
+∞
+
+φ (t) dt = Φ x0 β
+
+Marginal effect:
+∂E [yjx]
+∂xj
+
+=
+
+dΦ (x0 β) ∂ (x0 β)
+d (x0 β) ∂xj
+
+dΦ (x0 β)
+β
+d (x0 β ) j
+= φ x0 β β j
+
+=
+
+where φ (x0 β) is known as the scale factor
+
+Binary Response Models
+
+Probit Marginal Effects
+I
+
+How do we evaluate the marginal effect:
+∂E [yjx]
+= φ x0 β β j
+∂xj
+
+I
+
+We could evaluate marginal effects for mean values of the
+x:
+∂E [yjx]
+= φ x̄0 β βj
+∂xj x̄
+
+Binary Response Models
+Logit Marginal Effects
+
+P (y = 1jx) =
+I
+
+exp (x0 β)
+= Λ x0 β
+1 + exp (x0 β)
+
+Marginal effect:
+∂E [yjx]
+∂xj
+
+=
+=
+=
+
+dΛ (x0 β) ∂ (x0 β)
+d (x0 β) ∂xj
+dΛ (x0 β)
+β
+d (x0 β ) j
+exp (x0 β) (1 + exp (x0 β))
+
+= Λ x0 β
+where Λ (x0 β) (1
+
+1
+
+exp (x0 β) exp (x0 β)
+
+(1 + exp (x0 β))2
+Λ x0 β β j
+
+Λ (x0 β)) is known as the scale factor
+
+βj
+
+Binary Response Models
+
+Logit Marginal Effects
+I
+
+How do we evaluate the marginal effect:
+∂E [yjx]
+= Λ x0 β
+∂xj
+
+I
+
+1
+
+Λ x0 β
+
+βj
+
+We could evaluate marginal effects for mean values of the
+x:
+∂E [yjx]
+= Λ x̄0 β 1 Λ x̄0 β βj
+∂xj x̄
+
+Binary Response Models
+
+Marginal Effects Summary
+I
+
+Probit: P (y = 1jx) = Φ (x0 β)
+∂E [yjx]
+= φ x0 β β j
+∂xj
+
+I
+
+Logit: P (y = 1jx) = Λ (x0 β)
+∂E [yjx]
+= Λ x0 β
+∂xj
+
+1
+
+Λ x0 β
+
+βj
+
+Binary Response Models
+Probit Marginal Effects: Example
+I
+
+Estimated model
+ŷi = Φ β̂0 + β̂1 x1i + β̂2 x2i
+
+I
+
+Mean values
+x̄0 β̂ = β̂0 + β̂1 x̄1 + β̂2 x̄2
+
+I
+
+Estimated marginal effect at x̄
+
+\
+∂E
+[yjx]
+∂x2
+
+= φ β̂0 + β̂1 x̄1 + β̂2 x̄2 β̂2
+x̄
+
+Binary Response Models
+Probit Marginal Effects: Example
+I
+
+Estimated model
+ŷi = Λ β̂0 + β̂1 x1i + β̂2 x2i
+
+I
+
+Mean values
+x̄0 β̂ = β̂0 + β̂1 x̄1 + β̂2 x̄2
+
+I
+
+Estimated marginal effect at x̄
+
+\
+∂E
+[yjx]
+∂x2
+
+= Λ β̂0 + β̂1 x̄1 + β̂2 x̄2
+x̄
+
+1
+
+Λ β̂0 + β̂1 x̄1 + β̂2 x̄2
+
+β̂2
+
+Binary Response Models
+
+Estimation
+
+Binary Response Models
+
+Estimation
+I
+
+Nonlinear Least Squares: not efficient
+
+I
+
+ML: “For estimating limited dependent variable models,
+maximum likelihood methods are indispensable. Because
+maximum likelihood estimation is based on the distribution of y
+given x, the heteroskedasticity in Var(yjx) is automatically
+accounted for” Wooldrige, p. 587
+
+Binary Response Models
+
+Estimation: Maximum Likelihood
+I
+
+Let (yi , xi ) be a random sample of size n
+
+I
+
+Let the density of yi given xi be
+P (yi jxi , β) = G xi0 β
+
+I
+
+yi
+
+1
+
+1 yi
+
+G xi0 β
+
+where yi = 0, 1
+
+The joint density of y1 , ..., yn given xi is then
+P (y1 , ..., yn jxi , β) =
+
+n
+Y
+i=1
+
+G xi0 β
+
+yi
+
+1
+
+G xi0 β
+
+1 yi
+
+Binary Response Models
+Estimation: Maximum Likelihood
+I
+
+The joint density of y1 , ..., yn given xi is then
+P (y1 , ..., yn jxi , β) =
+
+I
+
+n
+Y
+
+yi
+
+G xi0 β
+
+G xi0 β
+
+1
+
+1 yi
+
+i=1
+
+The log-likelihood is then
+
+Ln ( β) = ln (P (y1 , ..., yn jxi , β))
+n
+Y
+y
+= ln
+G xi0 β i 1
+
+G xi0 β
+
+i=1
+
+=
+
+n
+X
+i=1
+
+yi ln G xi0 β
+
++
+
+n
+X
+i=1
+
+(1
+
+1 yi
+
+!
+
+yi ) ln 1
+
+G xi0 β
+
+Binary Response Models
+Estimation: Maximum Likelihood
+I
+
+The log-likelihood is then
+
+Ln ( β ) =
+I
+
+n
+X
+
+yi ln G xi0 β
+
++
+
+i=1
+
+n
+X
+
+(1
+
+yi ) ln 1
+
+G xi0 β
+
+i=1
+
+Objective: Maximize the log-likelihood function. FOC:
+∂ Ln ( β )
+∂β
+
+=
+
+n
+X
+i=1
+
+=
+
+n
+X
+i=1
+
+yi
+"
+
+g xi0 β xi
+G xi0 β
+
+yi
+
+g
+G
+
+xi0 β
+xi0 β
+
+n
+X
+i=1
+
+(1
+
+g xi0 β xi
+1 G xi0 β
+#
+g xi0 β
+xi = 0
+yi )
+1 G xi0 β
+
+(1
+
+yi )
+
+Binary Response Models
+Logit: Maximum Likelihood
+I
+
+Logit
+G
+
+I
+
+xi0 β
+
+xi0 β
+
+=Λ
+
+0
+
+=
+
+exi β
+0
+
+1 + exi β
+Objective: Maximize the log-likelihood function. FOC:
+"
+#
+n
+X
+g xi0 β
+g xi0 β
+∂ Ln ( β )
+=
+yi
+xi = 0
+(1 yi )
+∂β
+G xi0 β
+1 G xi0 β
+i=1
+
+I
+
+Logit model:
+2
+
+n 6
+X
+6
+∂ Ln ( β )
+6yi
+=
+6
+∂β
+4
+i=1
+
+e
+
+x0 β
+i
+x0 β
+i
+
+x0 β
+i
+
+e
+2
+
+x0 β
+i
+
+1+e
+
+x0 β
+i
+x0 β
+1+e i
+
+e
+
+2
+
+1+e
+
+(1
+
+yi )
+1
+
+x0 β
+i
+x0 β
+1+e i
+
+e
+
+3
+
+7
+7
+7 xi = 0
+7
+5
+
+Binary Response Models
+Logit: Maximum Likelihood
+I
+
+Logit
+G
+
+I
+
+xi0 β
+
+=Λ
+
+0
+
+=
+
+exi β
+0
+
+1 + exi β
+
+Logit model:
+2
+
+n 6
+X
+6
+∂ Ln ( β )
+6yi
+=
+6
+∂β
+4
+i=1
+
+I
+
+xi0 β
+
+e
+
+x0 β
+i
+
+x0 β
+i
+x0 β
+i
+
+e
+2
+
+x0 β
+i
+
+1+e
+
+x0 β
+i
+x0 β
+1+e i
+
+e
+
+1+e
+
+(1
+
+yi )
+1
+
+x0 β
+i
+x0 β
+1+e i
+
+e
+
+Simplifying
+
+n
+
+X
+∂ Ln ( β )
+=
+yi
+∂β
+i=1
+
+2
+
+Λ xi0 β
+
+xi = 0
+
+3
+
+7
+7
+7 xi = 0
+7
+5
+
+Binary Response Models
+Probit: Maximum Likelihood
+I
+
+Probit
+G xi0 β = Φ xi0 β
+
+I
+
+FOC
+"
+n
+X
+g xi0 β
+∂ Ln ( β )
+=
+yi
+∂β
+G xi0 β
+
+(1
+
+g xi0 β
+yi )
+1 G xi0 β
+
+#
+
+xi = 0
+
+(1
+
+φ xi0 β
+yi )
+1 Φ xi0 β
+
+#
+
+xi = 0
+
+i=1
+
+I
+
+Probit model:
+"
+n
+X
+φ xi0 β
+∂ Ln ( β )
+=
+yi
+∂β
+Φ xi0 β
+i=1
+
+Binary Response Models
+Logit: Maximum Likelihood
+I
+
+Probit
+G xi0 β = Φ xi0 β
+
+I
+
+Probit model. FOC:
+"
+n
+X
+φ xi0 β
+∂ Ln ( β )
+=
+yi
+∂β
+Φ xi0 β
+
+(1
+
+i=1
+
+I
+
+φ xi0 β
+yi )
+1 Φ xi0 β
+
+Simplifying
+n
+
+X
+∂ Ln ( β )
+=
+wi yi
+∂β
+
+Φ xi0 β
+
+i=1
+
+where wi = φ xi0 β / Φ xi0 β
+
+1
+
+Φ xi0 β
+
+xi = 0
+
+#
+
+xi = 0
+
+Binary Response Models
+
+Probit or Logit in practice?
+Cameron and Trivedi, p. 472
+I
+
+Empirically, either logit and probit can be used
+
+I
+
+Often little difference between predicted probabilities
+
+I
+
+The difference is greater in the tail (probabilities close to 0
+or 1)
+
+I
+
+Less difference if interest is averaged marginal effects
+
+Binary Response Models
+
+Probit or Logit in practice?
+Cameron and Trivedi, p. 472
+I
+
+Natural metric to compare models: Fitted log-likelihood
+
+Ln β̂ =
+I
+
+n
+X
+i=1
+
+yi ln G
+
+xi0 β̂
+
++
+
+n
+X
+i=1
+
+Often log-likelihoods are similar
+
+(1
+
+yi ) ln 1
+
+G xi0 β̂
+
+Binary Response Models
+Probit or Logit in practice?
+Cameron and Trivedi, p. 473
+I
+
+I
+
+Different models yield different β̂ (artifact of using
+different models). What needs to be compared are
+marginal effects across models
+Rule of thumb:
+β̂Logit ' 4 β̂OLS
+β̂Probit ' 2.5 β̂OLS
+
+β̂Logit ' 1.6 β̂Probit
+
+I
+I
+
+Amemiya (1981, p. 1488) shows that this rule of thumb
+works well if 0.1 p 0.9
+Greater departures across models across models occur in
+the tails
+
+Binary Response Models
+
+Determining Model Adequacy
+Cameron and Trivedi, p. 473
+I
+
+Pseudo-R2
+
+I
+
+Predicted Probabilities
+
+Binary Response Models
+Determining Model Adequacy
+Cameron and Trivedi, p. 473
+I
+
+Pseudo-R2 : (proposed by McFadden, 1974)
+
+Ln β̂
+Ln (ȳ)
+Pn
+yi ) ln (1 p̂i ))
+i=1 (yi ln p̂i + (1
+= 1
+n [ȳ ln ȳ + (1 ȳ) ln(1 ȳ)]
+P
+where p̂i = G xi0 β̂ and ȳ = n 1 ni=1 yi
+Compares the likelihood function with all regressors to the
+likelihood with none
+Interpretation is as with the usual R2
+R2Binary = 1
+
+I
+I
+
+Binary Response Models
+Determining Model Adequacy
+Cameron and Trivedi, p. 473
+I
+
+Predicted Probabilities: Based on the correctly predicted
+percentage
+
+I
+
+Consider the following rule: Predict Y = 1 if model
+estimates that P (y = 1) > 0.5; predict Y = 0 otherwise
+
+I
+
+Construct the following table
+Frequencies
+predicted y = 0 predicted y = 1
+Observed y = 0
+X
+Observed y = 1
+X
+
+Binary Response Models
+
+Testing
+
+Binary Response Models
+Asymptotics
+Wooldridge, p. 588
+I
+
+The general theory of MLE for random samples applies
+
+I
+
+Under very general conditions, the MLE is consistent,
+asymptotically normal, and asymptotically efficient
+
+I
+
+Hence, each β̂ comes with an (asymptotic) standard error
+
+[ β̂ =
+Avar
+
+n
+X
+i=1
+
+which is a k
+
+g xi0 β̂
+G xi0 β̂
+
+1
+
+2
+
+xi xi0
+
+G xi0 β̂
+
+k matrix (see Wooldrige, p. 631)
+
+!
+
+1
+
+Binary Response Models
+Significance Test
+Wooldridge, p. 588
+I
+
+As in previous topics, once we have the standard errors,
+we can construct (asymptotic) t tests (as with OLS)
+
+I
+
+Hypothesis:
+Ho : βj = 0
+Ha : βj 6= 0
+
+I
+
+Test Statistic:
+t=
+
+β̂j
+s.e. β̂j
+
+I
+
+Decision Rule: Reject the null if jtj > 1.96
+
+Binary Response Models
+
+Testing General Hypothesis
+Greene, p. 564
+I
+
+The Trinity:
+I
+I
+I
+
+Wald Test
+Likelihood Ratio Test
+Lagrange Multiplier (Scores) Test
+
+Binary Response Models
+Testing General Hypothesis
+I
+
+Wald Test: If the restriction is valid, then c β̂ should be
+close to q. (Based on estimates of the unrestricted model)
+
+I
+
+Hypothesis
+Ho : c ( β) = q
+Ha : c ( β) 6= q
+
+I
+
+Test Statistic
+W = c β̂
+
+I
+
+q
+
+0
+
+h
+
+\ c β̂
+AsyVar
+
+q
+
+i
+
+1
+
+Decision Rule: Reject the null if W > χ2α/2;q
+
+c β̂
+
+q
+
+χ2q
+
+Binary Response Models
+Testing General Hypothesis
+I
+
+I
+
+Likelihood Ratio Test: If the restriction is valid, then
+imposing it shoud not lead to a large reduction in the
+log-likelihood. (Based on estimates of both the unrestricted
+and restricted models)
+Hypothesis
+Ho : c ( β) = q
+Ha : c ( β) 6= q
+
+I
+
+Test Statistic
+LR =
+
+I
+
+2 ln L̂R
+
+ln L̂UR =
+
+2 ln
+
+L̂R
+L̂UR
+
+Decision Rule: Reject the null if LR > χ2α/2;q
+
+χ2q
+
+Binary Response Models
+Testing General Hypothesis
+I
+
+I
+
+Lagrange Test: If the restriction is valid, then the restricted
+estimator should be near the point that maximizes the
+log-likelihood. (Based on estimates of the restricted
+models)
+Hypothesis
+Ho : c ( β) = q
+
+I
+
+Ha : c ( β) 6= q
+
+Test Statistic
+LM =
+
+∂ ln Ln β̂R
+∂ β̂R
+
+I
+
+!0
+
+I β̂R
+
+1
+
+∂ ln Ln β̂R
+∂ β̂R
+
+!
+
+χ2q
+
+where I β̂R is the information matrix, that is, minus the
+expected Hessian matrix (second derivatives)
+Decision Rule: Reject the null if LM > χ2α/2;q
+
+Binary Response Models
+
+Example:
+Labor Force Participation
+
+Binary Response Models
+
+Linear Probability Model: Labor Force Participation
+Wooldrige, p. 250
+
+d = 0.586
+inlf
+
+(0.154)
+
+0.0034nwifeinc + 0.038educ + 0.039exper
+(0.0014)
+
+0.00060exper
+
+(0.007)
+
+2
+
+(0.00018)
+
+0.016age
+
+(0.002)
+
+0.262kidslt6 + 0.013kidsge6
+
+(0.034)
+
+percentage correctly predicted 73.4
+log
+
+likelihood
+
+Pseudo R2 0.264
+
+(0.006)
+
+(0.013)
+
+Binary Response Models
+
+Logit (MLE): Labor Force Participation
+Wooldrige, p. 594
+
+d = Λ(0.425
+inlf
+
+0.021nwifeinc + 0.221educ + 0.206exper
+
+(0.860)
+
+(0.008)
+2
+
+0.0032exper
+(0.0010)
+
+(0.043)
+
+0.088age
+
+(0.015)
+
+1.443kidslt6 + 0.060kidsge6)
+
+(0.204)
+
+percentage correctly predicted 73.6
+log
+
+likelihood
+2
+
+Pseudo R
+
+0.220
+
+401.77
+
+(0.032)
+
+(0.075)
+
+Binary Response Models
+
+Probit (MLE): Labor Force Participation
+Wooldrige, p. 594
+
+d = Φ(0.270
+inlf
+
+0.012nwifeinc + 0.131educ + 0.123exper
+
+(0.005)
+
+(0.509)
+
+0.0019exper2
+(0.0006)
+
+(0.025)
+
+0.053age
+
+(0.008)
+
+0.868kidslt6 + 0.036kidsge6)
+
+(0.119)
+
+percentage correctly predicted 73.4
+log
+
+likelihood
+2
+
+Pseudo R
+
+0.221
+
+401.30
+
+(0.019)
+
+(0.043)
+
+Binary Response Models
+
+Labor Force Participation
+Wooldrige, p. 594
+
+I
+
+Consistent story from the 3 models
+
+I
+
+Sign of coefficients the same across models
+
+I
+
+Same variables are statistically significant in each model
+
+I
+
+The pseudo R2 for the LPM is the usual R2 . For logit and
+probit, it is the measure based on the log-likelihoods
+
+Binary Response Models
+Labor Force Participation
+Wooldrige, p. 594
+I
+I
+
+Magnitudes of β̂j across models not directly comparable.
+Instead, we compare marginal effects (or scale factors)
+Recall:
+I
+
+Probit Marginal effect:
+∂E [yjx]
+= φ x0 β β j
+∂xj
+
+I
+
+where φ (x0 β) is known as the scale factor
+Logit Marginal effect:
+∂E [yjx]
+= Λ x0 β
+∂xj
+where Λ (x0 β) (1
+
+1
+
+Λ x0 β
+
+βj
+
+Λ (x0 β)) is known as the scale factor
+
+Binary Response Models
+Labor Force Participation
+Wooldrige, p. 594
+I
+
+Estimated Marginal Effects:
+I
+
+Probit Marginal effect:
+∂E [yjx]
+= φ x0 β̂ β̂j
+∂xj
+
+I
+
+where φ x0 β̂ is known as the scale factor
+Logit Marginal effect:
+∂E [yjx]
+= Λ x0 β̂
+∂xj
+where Λ x0 β̂
+
+1
+
+Λ x0 β̂
+
+1
+
+Λ x0 β̂
+
+β̂j
+
+is known as the scale factor
+
+Binary Response Models
+Labor Force Participation
+Wooldrige, p. 594
+I
+
+Probit Scale Factor evaluated at the mean values:
+φ x̄0 β̂ = 0.391
+
+I
+
+Logit Scale Factor evaluated at the mean values:
+Λ x̄0 β̂
+
+I
+
+1
+
+Λ x̄0 β̂
+
+= 0.243
+
+Comparing:
+0.391/0.243
+which is close to the rule of thumb
+
+1.61
+
+Binary Response Models
+
+Labor Force Participation
+Wooldrige, p. 594
+I
+
+Estimated Marginal Effects of Educ:
+I
+
+Probit Marginal effect:
+∂E [yjx]
+= φ x̄0 β̂ β̂Educ = 0.391
+∂Educi
+
+I
+
+0.221 = 0.086
+
+Logit Marginal effect:
+∂E [yjx]
+= Λ x̄0 β̂
+∂Educi
+
+1
+
+Λ x̄0 β̂
+
+β̂Educ = 0.243
+
+0.221 = 0.053
+
+The Poisson Regression Model
+
+The Poisson Regression Model
+
+The Poisson Regression Model
+Count Data
+I
+
+Count Data: y takes on values 0, 1, 2, .. which denote a
+count of the number of occurrences (natural numerical
+vales)
+
+I
+
+Examples:
+I
+I
+I
+I
+I
+I
+I
+I
+
+Number of children ever born to a woman
+Number of times someone is arrested
+Number of patents applied for by a firm in a year
+Number of visits to a recreation site
+Number of defects per unit of time in a production process
+Number of people in a community who survive to age 100
+Number of customers entering a store on a given day
+etc... etc...
+
+The Poisson Regression Model
+The Poisson Regression Model
+I
+
+Count Data: y takes on values 0, 1, 2, .. which denote a
+count of the number of occurrences (natural numerical
+vales)
+
+I
+
+Examples:
+I
+I
+I
+I
+I
+I
+I
+I
+
+Number of children ever born to a woman
+Number of times someone is arrested
+Number of patents applied for by a firm in a year
+Number of visits to a recreation site
+Number of defects per unit of time in a production process
+Number of people in a community who survive to age 100
+Number of customers entering a store on a given day
+etc... etc...
+
+The Poisson Regression Model
+The Poisson Regression Model
+Wooldrige, p. 604
+I
+
+As with binary response models, a linear model for
+E [yjx1 , ..., xk ] might not provide the best fit over all values
+of the x’s
+
+I
+
+Poisson Regression Model
+E [yjx1 , ..., xk ] = exp ( β0 + β1 x1 + ... + βk xk )
+
+I
+
+Because exp (.) is always positive, the Poisson regression
+model ensures that predicted values for y will also be
+positive
+
+The Poisson Regression Model
+The Poisson Regression Model: Marginal Effects
+Wooldrige2, p. 726
+I
+
+Poisson Regression Model
+E [yjx1 , ..., xk ] = exp ( β0 + β1 x1 + ... + βk xk )
+
+I
+
+Marginal effect:
+∂E [yjx]
+= exp ( β0 + β1 x1 + ... + βk xk ) βj
+∂xj
+
+I
+
+For a dummy regressor, say x1 :
+E [yjx1 = 1, ..., xk ]
+
+E [yjx1 = 0, ..., xk ]
+
+= exp ( β0 + β1 + ... + βk xk )
+I
+
+exp ( β0 + ... + βk xk )
+
+Evaluate the marginal effects for some representative
+individual
+
+The Poisson Regression Model
+The Poisson Regression Model: Coefficients Interpretation
+Wooldrige, p. 581
+I
+
+Poisson Regression Model
+E [yjx1 , ..., xk ] = exp ( β0 + β1 x1 + ... + βk xk )
+
+I
+
+Change in E [yjx1 , ..., xk ]
+(1)
+
+(0)
+
+fE[yjx1 , ..., xk ]
+=
+
+(0)
+
+E[yjx1 , ..., xk ]g/E[yjx1 , ..., xk ]
+(1)
+
+exp( β0 + β1 x1 + ... + βk xk )
+
+(0)
+
+exp( β0 + β1 x1 + ... + βk xk )
+
+= exp( βk ∆xk )
+
+1
+
+(1)
+
+xk
+
+where ∆xk = xk
+I
+
+(0)
+
+100 exp( β̂k ) is the percentage change
+
+(0)
+
+exp( β0 + β1 x1 + ... + βk xk )
+
+The Poisson Regression Model
+The Poisson Regression Model: Coefficients Interpretation
+Wooldrige, p. 581
+I
+
+Poisson Regression Model
+E [yjx1 , ..., xk ] = exp ( β0 + β1 x1 + ... + βk xk )
+
+I
+
+Take logs:
+ln (E [yjx1 , ..., xk ]) = β0 + β1 x1 + ... + βk xk
+
+I
+
+so that the log of the expected value is linear
+Using the approximation properties of the log
+%∆E (yjx)
+
+I
+
+100βj ∆xj
+
+100βj is roughly the percentage change in E (yjx) given
+one-unit increase in xj
+
+The Poisson Regression Model
+
+Estimation
+
+The Poisson Regression Model
+Maximum Likelihood Estimation
+(Cameron and Trivedi p. 117 or Greene p. 843)
+I
+
+Primary equation of the model
+P (Y = yi jλi (xi )) =
+
+e
+
+λi λyi
+i
+
+yi !
+
+, y = 0, 1, 2, ...
+
+I
+
+The most common formulation for λi is the loglinear
+model:
+ln λi = xi0 β
+
+I
+
+In this case:
+0
+
+E [yi jxi ] = V [yi jxi ] = λi = exi β
+
+The Poisson Regression Model
+
+Maximum Likelihood
+(Cameron and Trivedi p. 117 or Greene p. 843)
+
+yi = E [yi jxi ] + ui
+in this case is
+
+0
+
+yi = exi β + ui
+and our objective is to estimate β by ML
+
+The Poisson Regression Model
+
+Maximum Likelihood
+I
+
+Density: By iid
+f (y1 , ..., yn jxi , β) =
+
+I
+
+n
+Y
+i=1
+
+f (yi jxi , β) =
+
+n
+Y
+e
+i=1
+
+λi λyi
+i
+
+yi !
+
+Conditional Likelihood function:
+Ln (y1 , ..., yn jx1 , ...xn , β) =
+
+n
+Y
+i=1
+
+L ( yi j xi , β ) =
+
+n
+Y
+e
+i=1
+
+λ i λ yi
+i
+
+yi !
+
+The Poisson Regression Model
+
+Maximum Likelihood
+I
+
+Conditional Likelihood function:
+Ln (y1 , ..., yn jx1 , ...xn , β) =
+
+I
+
+n
+Y
+i=1
+
+L ( yi j xi , β ) =
+
+n
+Y
+e
+i=1
+
+λ i λ yi
+i
+
+yi !
+
+Conditional Log-Likelihood function:
+
+Ln ( β) = ln (Ln (y1 , ..., yn jx1 , ...xn , β)) = ln
+
+n
+Y
+e
+i=1
+
+λi λyi
+i
+
+yi !
+
+!
+
+The Poisson Regression Model
+Maximum Likelihood
+0
+
+Log-Likelihood function: ln (λi ) = xi0 β or equivalently λi = exi β
+!
+y
+n
+Y
+e λi λ i i
+Ln ( β) = ln
+yi !
+i=1
+!
+y
+n
+X
+e λi λ i i
+=
+ln
+yi !
+
+=
+
+i=1
+n
+X
+
+( λi ln (e) + yi ln (λi )
+
+i=1
+
+=
+
+n
+X
+i=1
+
+0
+
+exi β + yi xi0 β
+
+ln (yi !)
+
+ln (yi !))
+
+The Poisson Regression Model
+
+Extremum Estimators Examples: Maximum Likelihood
+The Maximum Likelihood (ML) estimator is defined as
+β̂ = arg maxQn ( β)
+β
+
+where
+
+n
+
+1X
+ln f (yi jxi , β)
+Qn ( β) =
+n
+i=1
+
+and where f (yi jxi , β) is the conditional likelihood for
+observation i.
+
+The Poisson Regression Model
+Maximum Likelihood Example
+Example: The Poisson regression model: The Maximum
+Likelihood (ML) estimator is defined as
+β̂ = arg maxQn ( β)
+β
+
+where
+n
+
+Qn ( β) =
+
+1X
+ln f (yi jxi , β)
+n
+i=1
+
+=
+
+n
+1X
+n
+i=1
+
+0
+
+exi β + yi xi0 β
+
+ln (yi !)
+
+The Poisson Regression Model
+Maximum Likelihood Example
+Example: The Poisson regression model:
+I
+
+MLE
+n
+
+β̂ = arg maxQn ( β) = arg max
+β
+
+I
+
+FOC:
+
+β
+
+1X
+n
+
+e
+
+xi0 β
+
++ yi xi0 β
+
+ln (yi !)
+
+i=1
+
+n
+
+∂Qn ( β)
+1X
+=
+yi
+∂β
+n
+
+0
+
+exi β xi = 0
+
+i=1
+
+I
+
+System of Nonlinear equations!!! Numerical Methods
+
+!
+
+The Poisson Regression Model
+
+Testing
+
+The Poisson Regression Model
+Asymptotics
+Wooldridge, p. 606
+I
+
+The general theory of MLE for random samples applies
+
+I
+
+Under very general conditions, the MLE is consistent,
+asymptotically normal, and asymptotically efficient
+
+I
+
+Hence, each β̂ comes with an (asymptotic) standard error
+
+[ β̂ = σ̂
+Avar
+
+2
+
+n
+X
+i=1
+
+which is a k
+
+exp
+
+xi0 β
+
+xi xi0
+
+!
+
+k matrix (see Wooldrige, p. 631)
+
+1
+
+The Poisson Regression Model
+
+Example:
+Number of Arrests
+
+Cross-sectional Data: Crime Data
+
+I
+
+Crime: Data: Wooldrige (p. 4, 78,172, 295, 583)
+I
+I
+I
+I
+I
+I
+
+crimei : some measure of the frequency of criminal activity
+Ex: narr86i : number of times a man was arrested during
+1986
+pcnvi : proportion of prior arrests leading to conviction
+tottimei : total time the man has spent in prison prior to 1986
+since reaching the age of 18
+ptime86i : months spent in prison in 1986
+qemp86i : number of quarters in 1986 during which the man
+was legally employed
+
+The Poisson Regression Model
+Linear Model: Number of Arrests
+Wooldrige, p. 608
+
+\ = 0.577
+narr86
+
+0.132pcnv
+
+(0.038)
+
+(0.040)
+
++0.012tottime
+(0.009)
+
+0.051qemp86
+
+(0.014)
+
+0.011avgsen
+
+(0.012)
+
+0.041ptime86
+
+(0.009)
+
+0.0015inc86
+(0.0003)
+
++0.327black + 0.194hispan
+(0.045)
+
+log
+2
+
+R
+
+likelihood
+0.073
+
+(0.040)
+
+0.022born60
+
+(0.033)
+
+The Poisson Regression Model
+Poisson Model: Number of Arrests
+Wooldrige, p. 608
+
+\ = exp( 0.600
+narr86
+
+(0.067)
+
++0.024tottime
+(0.015)
+
+0.038qemp86
+
+(0.029)
+
+0.402pcnv
+
+(0.085)
+
+0.099ptime86
+
+(0.021)
+
+0.0081inc86
+(0.0010)
+
++0.661black + 0.500hispan
+(0.074)
+
+log
+2
+
+R
+
+likelihood
+0.077
+
+0.024avgsen
+
+(0.020)
+
+(0.074)
+
+2248.76
+
+0.051born60)
+
+(0.064)
+
+The Poisson Regression Model
+Interpreting the results
+Wooldrige, p. 608
+I
+
+OLS and Poisson coefficients: not directly comparable,
+very different meanings. Example: coefficient on pcnv:
+
+I
+
+Linear Model: 0.132: if ∆pcnv = 0.1, expected number of
+arrests falls by 0.013
+
+I
+
+Poisson Model: 0.402: if ∆pcnv = 0.1, expected number
+of arrests falls by 4% (0.402(0.1) = 0.0402 and multiply by
+100 to get the percentage effect)
+
+I
+
+Poisson coefficient on black: 0.661: expected number of
+arrests for a black man is
+100 (exp (0.661) exp (0)) 93.7% higher than for a
+white man with the same values for the other explanatory
+variables
+
+

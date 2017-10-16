@@ -1,0 +1,8 @@
+Ec 122. Econometrics. 9 units (3-0-6); first term. Prerequisites: Ma 3.
+The application of statistical techniques to the analysis of economic data.
+Instructor: Sherman. 
+SS 213 abc. Financial Economics. 9 units (3-2-4); first, second, third
+terms. First term: asset pricing theory, statistical tests on historical data
+and evidence from financial markets experiments. Second term: financial
+econometrics, with emphasis on applications to risk management. Third
+term: general equilibrium foundations of asset and option pricing theory. 

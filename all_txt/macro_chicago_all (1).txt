@@ -1,0 +1,26 @@
+ECON 23200. Topics in Macroeconomics. 100 Units.
+This course focuses on the use of dynamic general equilibrium models to study questions in
+macroeconomics. Topics include long-run growth and dynamic fiscal policy (Ricardian equivalence, tax
+smoothing, capital taxation), labor market search, industry investment, and asset pricing. On the
+technical side, we cover basic optimal control (Hamiltonians) and dynamic programming (Bellman
+equations).
+Instructor(s): N. Stokey Terms Offered: TBD
+Prerequisite(s): ECON 20200 (or ECON 20210) and MATH 20300
+ECON 23220. Introduction to Advanced Macroeconomic Analysis. 100 Units.
+This course introduces students to advanced methods for macroeconomic analysis. In the first part, we
+discuss time series methods such as impulse response analysis, vector autoregression, co-integration,
+shock identification, and business cycle detrending. In the second part, we examine and analyze a
+simple, yet powerful stochastic dynamic real business cycle model. In that context, the students will
+learn about dynamic programming, rational expectations, intertemporal optimization, asset pricing, the
+Frisch elasticity of labor supply, log-linearization, and computational tools to solve for the recursive law
+of motion of dynamic stochastic general equilibrium models. Finally, we touch upon some further
+models, such as the overlapping generations model and/or the continuous-time neoclassical growth
+model. The course is useful for students interested to deepen their knowledge in macroeconomics, in
+order to read, understand, and replicate some of the recent research in the field; as preparation for
+careers involving macroeconomic analysis, time series analysis, or asset pricing; or as preparation for
+graduate school. Decent knowledge of linear algebra and calculus is required. All advanced material will
+be taught in class.
+Instructor(s): H. Uhlig Terms Offered: Winter
+Prerequisite(s): ECON 20200 (or ECON 20210) and ECON 21020 (or ECON 21030)
+
+

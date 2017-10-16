@@ -1,0 +1,1113 @@
+Macroeconomics: Intro and the IS-LM Model
+14.02 Notes
+
+1
+
+March 3, 2014
+
+1 These
+
+slides are NOT a substitute for chapters 2-5 of the book. They are meant to
+give you a more coincise and analytical presentation of the IS-LM model but many
+aspects of the model that are discussed in the book are not in these slides, and we shall
+assume you have read the book.
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+1 / 34
+
+Macroeconomics
+To understand
+how the …nancial crisis hit the real economy
+how the government – through its monetary and …scal policies – was
+able to alleviate the e¤ects of the …nancial shock on the economy
+we need a model of the economy. Not of a single market, but of entire
+economy. This is what macroeconomics is about: constructing models of
+the aggregate economy and then using them to understand the e¤ects of
+external shocks
+policies
+We start from the de…nition of the economy’s aggregate output
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+2 / 34
+
+GDP: The economy’s aggregate output. Three ways to
+measure GDP: the example of an economy consisting of
+only two …rms
+
+Steel company
+
+Car company
+
+100$
+
+Revenues
+Expenses
+wages
+
+14.02 Notes
+
+80$
+20$
+
+Pro…t
+
+()
+
+200$
+
+Revenues
+Expenses
+wages
+steel
+Pro…t
+
+70$
+100$
+30$
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+3 / 34
+
+1. GDP is the value of …nal goods (cars in the example)
+produced in the economy in a given period. Value of cars
+sold = 200$. See this merging the two companies
+
+Steel company+Car company
+200$
+
+Revenues
+Expenses
+wages
+
+50$
+
+Pro…t
+
+14.02 Notes
+
+150$
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+4 / 34
+
+2. GDP is the sum of the value added in the economy in
+a given period: 200$
+
+Steel company
+
+Car company
+
+100$
+
+Revenues
+Expenses
+wages
+
+80$
+20$
+
+Pro…t
+
+200$
+
+Revenues
+Expenses
+wages
+steel
+Pro…t
+
+70$
+100$
+30$
+
+- steel company: value added = 100$
+- car company: value added = 200$ - 100$ (steel bought) = 100$
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+5 / 34
+
+3. GDP is the sum of incomes (pro…ts plus salaries) in the
+economy in a given period: 200$
+
+Steel company
+
+Car company
+
+100$
+
+Revenues
+Expenses
+wages
+
+80$
+20$
+
+Pro…t
+
+200$
+
+Revenues
+Expenses
+wages
+steel
+Pro…t
+
+70$
+100$
+30$
+
+- incomes in the steel company: 80$ + 20$ = 100$
+- incomes in the car company: 70$ + 30$ = 100$
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+6 / 34
+
+Nominal and real GDP
+
+year
+
+quantity of cars
+
+price of cars
+
+nominal GDP
+
+real GDPin 2005$
+
+2004
+2005
+2006
+
+10
+12
+13
+
+20,000$
+24,000$
+26,000$
+
+200,000$
+288,000$
+338,000$
+
+240,000$
+288,000$
+312,000$
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+7 / 34
+
+From nominal to real GDP and the Chain Index
+
+You can compute the change in real GDP from year t to year t + 1 in two
+alternative ways
+Yt +1
+Pt Qt +1
+=
+Yt
+Pt Qt
+or
+Yt +1
+Pt +1 Qt +1
+=
+Yt
+Pt +1 Qt
+the two ways of computing it are obviously identical
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+8 / 34
+
+From nominal to real GDP and the Chain Index
+With two goods, Y1 and Y2 , the two ways of computing the change in real GDP
+from year t to year t + 1 are no longer identical:
+0
+
+Yt +1
+Yt
+Yt +1
+Yt
+if you divide thorugh
+
+=
+
+00
+
+=
+
+Y t +1
+Yt
+
+0
+
+P1,t Q1,t +1 + P2,t Q2,t +1
+P1,t Q1,t + P2,t Q2,t
+P1,t +1 Q1,t +1 + P2,t +1 Q2,t +1
+P1,t +1 Q1,t + P2,t +1 Q2,t
+
+by P1,t /P2,t and
+
+Y t +1
+Yt
+
+00
+
+by P1,+1 /P2,t +1 you
+
+can verify that the two ways of computing the change in real GDP from year t to
+year t + 1 are equal only if P1,t /P2,t = P1,+1 /P2,t +1 . Since the relative price
+of goods changes over time, this condition will in general not be satis…ed. Thus
+the two expressions will give you two di¤erent changes in real GDP.
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+9 / 34
+
+From nominal to real GDP and the Chain Index
+The chain index addresses the problem by simply de…ning the change in GDP as
+the weighted average of the two
+
+g(01 /00 ) = .5
+
+"
+
+Yt +1
+Yt
+
+0
+
++
+
+Yt +1
+Yt
+
+00
+
+#
+
+Finally it is customary to compute the change in real GDP using an index that is
+(aribitrarily) set to be equal to 100 in a "base" year, say the year 2000:
+
+chain index2000 = 100
+chain index2001 = 100 g(01/00 )
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+10 / 34
+
+The Model of the Goods (and Services) Market (Model 1)
+We proceed in steps, starting from the simplest model and then making
+more complicated (realistic) by relaxing assumptions.
+Model 1: The Goods market
+1 market: the market for goods and services
+1 variable to determine: the level of production, or output
+(Y = GDP)
+1 equilibrium condition to determine it:
+Supply of Y = Demand for Y
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+11 / 34
+
+Supply of Y
+The economy is closed: no goods are exported or imported
+The price of Y is …xed
+P (Y ) = P = 1
+Therefore (for the time being)
+$Y = Y
+What does this assumption mean:
+Output is determined by demand: at the …x price P = 1 …rms
+produce any amount of Y needed to satisfy demand
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+12 / 34
+
+Demand for Y
+
+Z
+
+Consumption (C ) + Investment (I ) + Government Spending (G )
+
+The 3 components of demand:
+Consumption is a function of disposable income (income net of taxes)
+C = c Y Disposable
+
+= c 0 + c 1 (Y
+
+T)
+
+c1 is the marginal propensity to consume
+Taxes, Government Spending and Investment are assumed to be
+exogenous
+T =T , I =I , G =G
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+13 / 34
+
+Consumption Function
+
+Consumption is a function of disposable income (income net of taxes)
+We shall assume a linear relationship
+C = c Y Disposable
+
+= c 0 + c 1 (Y
+
+T )
+
+where c 0 , c 1 (c0 > 0, 0 < c1 < 1) are positive parameters
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+14 / 34
+
+© Source unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+© United Nations. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Solving the Model
+Variables
+I
+I
+
+3 exogenous variables: T , I , G
+1 endogenous variable: Y
+F
+
+once you know Y , C = c0 + c1 (Y
+
+T ) determines C
+
+Equations
+I
+
+1 equation: the market clearing condition, Y = Z
+
+With 1 equation and 1 endogenous variable the model can be solved
+What can move this economy away from an equlibrium?
+I
+I
+
+policy, shifts in T or in G
+shocks, shifts in …rms’or consumers’con…dence, i.e. shifts in I or c0
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+15 / 34
+
+Equilibrium in the Goods Market
+
+The "equilibrium" level of Y is the level that clears the market, i.e.
+makes supply equal to demand
+Y = Z = C + I + G = c0 + c1 ( Y
+
+T) + I + G
+
+Thus the level of Y that clears the market is
+Y = c 0 + c 1 (Y
+
+14.02 Notes
+
+()
+
+T) + I + G
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+16 / 34
+
+Solving for the market equilibrium
+C = c 0 + c 1 (Y
+
+T ) C = c0 + c1 Y
+
+c1 T
+
+with
+c1 < 1
+
+solving for Y
+Y =
+
+c0 + I + G
+
+1
+1
+
+c1
+c1 T
+
+c0 + I + G
+
+c1 T
+
+is Autonomus spending
+
+Autonomus spending is spending that does not depend on Y
+1
+1
+14.02 Notes
+
+()
+
+c1
+
+> 1 is the Keynesian multiplier.
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+17 / 34
+
+Inventories
+So far we have assumed
+Output t =
+
+∑ Final
+
+Sales t
+
+where t refers to some year.
+What if not all output produced in year t is sold in year t ? Consider two
+extreme cases:
+∑ Final Salest = Outputt 1
+or
+Outputt =
+Outputt
+
+∑ Final
+
+∑ Final
+
+Salest +1
+
+Salest = ∆Inventoriest
+
+∆Inventories are called Inventory Investment. (Note Inventories are not
+part of demand)
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+18 / 34
+
+Comparative Statics Exercises
+
+Shifts in policy: G or T or both
+Shifts in con…dence
+I
+I
+
+consumers’con…dence can shift c0
+…rms’con…dence can shift I
+
+Remember
+Y =
+
+14.02 Notes
+
+()
+
+1
+1
+
+c1
+
+c0 + I + G
+
+Macroeconomics: Intro and the IS-LM Model
+
+c1 T
+
+March 3, 2014
+
+19 / 34
+
+© Pearson. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+An example of the e¤ects of a policy shift: President
+Obama’s 2009 Stimulus Program
+Total package: US$ 800 bn (5,7% of 2008 GDP)
+Composition of the package
+I
+I
+
+2/3 ∆G > 0 : 533 US$ bn
+1/3 ∆T < 0 : - 266 US$ bn
+
+E¤ect of the package on Y for di¤erent values of c1
+c1 = 0.3
+multipliers
+dY
+1
+dG = 1 c1
+c1
+dY
+dT =
+1 c1
+
+14.02 Notes
+
+1.4
+0.4
+
+()
+
+c1 = 0.6
+2.5
+1.5
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+20 / 34
+
+E¤ects of President Obama’s 2009 Stimulus Program
+under Model 1
+
+c1 = 0.3: (1.4) (533) + (0.4) (266) = 852 US $bn (6.1% of GDP )
+c1 = 0.6: (2.5) (533) + (1.5) (266) = 1.731 US $bn
+(12.3% of GDP )
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+21 / 34
+
+Christina Romer’s Assumptions: E¤ects on Y of 1$ of
+higher G or 1$ of lower T in period 0
+(professor Christina Romer was President Obama’s …rst Chairperson of the
+Council of Economic Advisers. Homework: Compute the multipliers Christina
+used to get these numbers)
+
+Quarter
+1
+2
+3
+4
+5
+6
+
+G
+1.05
+1.24
+1.35
+1.44
+1.51
+1.53
+
+14.02 Notes
+
+()
+
+T
+0.00
+0.49
+0.58
+0.66
+0.75
+0.84
+
+Quarter
+7
+8
+9
+20
+11
+12
+
+G
+1.54
+1.57
+1.57
+1.57
+1.57
+1.55
+
+T
+0.93
+0.99
+0.99
+0.99
+0.99
+0.98
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+22 / 34
+
+A useful exercise: the Balanced-Budget Multiplier
+What is the e¤ect on Y of an increase in G fully …nanced by a
+corresponding increse in T
+dG = dT
+
+Y = c0 + c1 ( Y
+dY
+dT
+
+= c1 (dY
+= dG
+
+dY (1
+
+T) + I + G
+dT ) + dG
+
+c1 ) = dT (1
+
+c1 )
+
+dY = dT = dG
+the multiplier is 1. You still get a positive e¤ect, but not bigger than 1:
+the private sector (Consumption) does not move, thus there is no
+"multiplier e¤ect".
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+23 / 34
+
+Investment equals Saving: An Alternative Way of Thinking
+About Goods Market equilibrium
+Start from Private Saving
+S Pr
+
+YD
+
+C
+
+Y
+
+Now add the Saving by the Government T
+Total Saving in the economy is
+S Pr + S Pu = Y
+
+T
+
+C + T
+
+T
+
+C
+
+G
+
+G =Y
+
+But from Goods Market Equilibrium we know that Y
+Thus
+S = S Pr + S Pu = I
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+C
+C
+
+G
+G = I.
+
+March 3, 2014
+
+24 / 34
+
+The "Paradox" of Saving
+
+Suppose consumers decide to save more at any level of Y . This means
+that c0 falls. What happens to Saving ?
+S PR =
+
+c0 + ( 1
+
+c1 ) Y
+
+T
+
+As c0 falls consumers tend to save more, but their income Y will also be
+lower, which will reduce S. What is the net e¤ect? Remember that – when
+there is equilibrium in the goods market – saving is equal to investment
+I = S PR + T
+
+G =S
+
+then the net e¤ect is zero.
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+25 / 34
+
+Model 2 - The IS-LM Model
+
+So far the only variable in the private sector that could respond to
+shifts in policy (dT or dG ) or in "con…dence" (dI or dc0 ) is
+consumption
+What else could respond?
+I
+
+I
+
+prices ? NOT in the Short Run. Prices are slow to respond. Our
+assumption that prices are …xed is, as we shall see, not too bad. We
+shall study what happens when prices respond in the Medium Run
+…nancial markets? YES: the price of …nancial assets responds
+instanteneously to news.
+
+We thus extend the model adding a …nancial sector
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+26 / 34
+
+Introducing Financial Markets
+Financial markets include many assets with decreasing degrees of
+liquidity. From the most liquid (money) to the less liquid (equity)
+I
+
+cash, demand deposits, saving deposits, money market mutual funds,
+government bonds, corporate bonds, equity
+
+Start from the essentials. Assume there are only two …nancial assets
+I
+I
+
+"money" (cash, demand deposits), that pays no interest
+bonds, that pay an interest rate i per period
+
+Think of the problem of how to allocate a given amount W between
+bonds and cash: the higher the interest the larger the fraction of W
+you will want to keep in bonds, and thus the more often you will go
+to the bank to sell bonds and get cash.
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+27 / 34
+
+The demand for …nancial assets
+Demand for "money" (M d ), the most liquid asset
+M d = L (Y , i )
+we shall assume L (Y , i ) = f1 Y f2 i with f1 , f2 (f1 , f2 > 0) two positive
+parameters, so that
+M d = f1 Y f2 i
+Demand for Bonds (B d )
+Bd = W
+
+Md
+
+where W is your wealth, which is divided between money and bonds.
+Note: given W , if you know M d you do not need a second equation to
+compute B
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+28 / 34
+
+"Stock" and "Flow" variables
+
+So far we have introduced two types of variables in our model
+Flow variables. Y , C : these are measured as ‡ows per unit time. For
+instance C is consumption per period, e.g. per year
+Stock variables. B, W , M: these are stocks at any moment in time
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+29 / 34
+
+Equilibrium in the …nancial market
+
+As we said, one equilibrium condition is enough — because once we
+know M, given W , we know B = W M
+Equilibrium requires that the demand for money, M d , equals the
+quantity of money that the central bank has put in the economy,
+which, for the time being, we assume to be a …xed quantity M
+Md = M
+M d = L (Y , i ) = M
+this equation determines the interest rate i for any given level of Y
+and M
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+30 / 34
+
+Closing the model
+
+How does i a¤ect the economy?
+We focus on one channel only: Investment
+Assumption: Investment depends on
+I
+I
+
+i, the cost …rms face to borrow the funds needed to acquire new
+machines, build a new plant, etc
+Y , the level of demand
+I = I (i, Y ) = d1 Y
+
+d2 i
+
+with d1 , d2 (d1 , d2 > 0) two positive parameters
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+31 / 34
+
+The structure of Model 2: the IS-LM Model
+4 exogenous variables: T , I , G , M
+2 endogenous variables: Y , i
+Equations
+I
+
+2 equilibrium conditions
+F
+F
+
+equilibrium in the goods market Y = Z
+equilibrium in he …nancial market M d = M
+
+With 2 equations and 2 endogenous variables, the model can be solved
+What can move this economy away from an equilibrium?
+I
+I
+
+policy, shifts in T , G , M
+shocks, shifts in …rms’or consumers’con…dence, i.e. shifts in I or c0
+
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+32 / 34
+
+Solving the IS-LM Model
+Two equations
+equilibrium in the goods market
+Y =Z
+gives you the the IS Curve
+Y = Y (i )
+equilibirum in the …nancial market
+Md = M
+gives you the LM Curve
+i = i (Y )
+two equations and two unknows: the model is solved
+14.02 Notes
+
+()
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+33 / 34
+
+Multipliers in the IS-LM Model
+
+dY
+=
+dT
+(1
+
+dY
+=
+dG
+(1
+
+dY
+=
+dM
+(1
+
+14.02 Notes
+
+()
+
+c1
+
+c1
+<0
+d1 ) + d2 ff12
+
+c1
+
+1
+>0
+d1 ) + d2 ff21
+
+c1
+
+1
+>0
+d1 ) df22 + f1
+
+Macroeconomics: Intro and the IS-LM Model
+
+March 3, 2014
+
+34 / 34
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

@@ -1,0 +1,11 @@
+ECON  210D - Intermediate Macroeconomics	
+Intermediate level treatment of macroeconomic models, fiscal and monetary policy, inflation, unemployment, economic growth. Prerequisite: Economics 201D, and Mathematics 202, 212, or 222. Economics 205D is also required as a prerequisite or a co-requisite to be taken concurrently with Econ 210D. Instructor: Staff
+Topic 1. National Income Accounting
+Topic 2. Trends and Cycles
+Topic 3. Financial Markets
+Topic 4. Aggregate Supply and Economic Growth
+Topic 5. Labor Markets
+Topic 6. Aggregate Demand
+Topic 7. Macroeconomic Dynamics
+Topic 8. Monetary and Fiscal Policy
+ 

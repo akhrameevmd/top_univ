@@ -1,0 +1,3 @@
+Basic probability theory and statistics, distribution theory, estimation and inference, bivariate regression, introduction to multivariate regression, introduction to statistical computing.
+Continuation of Econ 131, with a focus on multivariate regression. Topics include statistical inference, choice of functional form, heteroskedasticity, serial correlation, two-stage least squares,
+qualitative choice models, time series models, and forecasting. Emphasis on statistical computing and the mechanics of how to conduct and present empirical research.

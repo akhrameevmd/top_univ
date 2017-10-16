@@ -1,0 +1,723 @@
+ECON 2007: Quant Econ and Econometrics
+Serial Correlation and Heteroskedasticity
+
+Dr. Áureo de Paula
+Department of Economics
+University College London
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+1 / 27
+
+What of OLS with Serially Correlated Errors?
+
+I
+
+Unbiasedness: TS.1-TS.3 regardless of serial correlation!
+
+I
+
+Consistency: TS.1’-TS.3’ regardless of serial correlation!
+
+I
+
+Lack of serial correlation TS.5 and TS.5’ was invoked to obtain
+standard errors and necessary to show that OLS was B(est)
+L(inear) U(nbiased) E(stimator).
+
+I
+
+With serial correlation, OLS is no longer BLUE.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+2 / 27
+
+Variance of OLS under Serial Correlation
+I
+
+To see how the variance of OLS is affected, imagine that
+ut = ρut−1 + et ,
+
+t = 1, . . . , n
+
+with |ρ| < 1 and et , iid with mean zero and variance σ 2 .
+I
+
+Now consider the simple static linear regression:
+yt = β0 + β1 xt + ut .
+
+I
+
+In this case, remember that
+Pn
+Pn
+(xt − x)ut
+t=1 (xt − x)ut
+β̂1 = β1 + Pn
+= β1 + t=1
+2
+SSTx
+t=1 (xt − x)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+3 / 27
+
+Variance of OLS under Serial Correlation
+I
+
+The variance of the OLS estimator (conditional on x1 , . . . , xT ) is
+then given by
+Var (β̂1 ) =
+
+I
+
+Var (
+
+PT
+
+t=1 (xt −
+SSTx2
+
+x)ut )
+
+If n = 2 and Var (ut ) = σu2 , the above becomes
+P2
+
+t=1 (xt
+
+de Paula (UCL)
+
+− x)2 σu2 + 2(x1 − x)(x2 − x)Cov (u1 , u2 )
+SSTx2
+
+ECON 2007: Quantitative Economics and Econometrics
+
+4 / 27
+
+Variance of OLS under Serial Correlation
+
+I
+
+Since Cov (u1 , u2 ) = ρσu2 , we have that
+Var (β̂1 ) =
+
+I
+
+σ 2 ρ(x1 − x)(x2 − x)
+σu2
++2 u
+SSTx
+SSTx2
+
+If n > 2 the formula can be shown to equal
+2
+
+σu
+σu2
+Var (β̂1 ) =
++2
+SSTx
+
+de Paula (UCL)
+
+PT −1 PT −t
+t=1
+
+j=1
+
+ρj (xt − x)(xt+j − x)
+
+SSTx2
+
+ECON 2007: Quantitative Economics and Econometrics
+
+5 / 27
+
+Variance of OLS under Serial Correlation
+
+I
+
+When ρ = 0 (no serial correlation), the previous formula coincides
+with the usual formula for the variance of the OLS estimator
+variance.
+
+I
+
+Otherwise, the usual formula may over- or under-estimate the
+variance of the coefficient estimator.
+
+I
+
+If ρ > 0 and xt is positively correlated through time, the usual
+formula will underestimate the variance.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+6 / 27
+
+OLS with Lag Dependent Variables
+
+I
+
+If xt contains a lag dependent variable, TS.3 no longer holds (even
+when there is no serial correlation) and OLS is not unbiased.
+
+I
+
+When there is no serial correlation, OLS may still be consistent
+provided TS.3’ holds.
+
+I
+
+Even when there is serial correlation, as long as TS.1’-TS.3’ hold,
+OLS is consistent.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+7 / 27
+
+OLS with Lag Dependent Variables
+I
+
+For example, take
+E(yt |yt−1 ) = β0 + β1 yt−1
+with |β1 | < 1 (TS.1’ holds). Let
+ut = yt − E(yt |yt−1 )
+Because E(ut |yt−1 ) = 0, TS.3’ holds and OLS is consistent
+(provided TS.2’ also holds). In this case,
+Cov (ut , ut−1 ) = Cov (ut , yt−1 − β0 − β1 yt−2 ) = −β1 Cov (ut , yt−2 )
+which needs not be zero.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+8 / 27
+
+OLS with Lag Dependent Variables
+I
+
+In other circumstances, serial correlation and a lagged dependent
+variable may invalidate TS.3’.
+
+I
+
+For instance, let
+yt = β0 + β1 yt−1 + ut
+and
+ut = ρut−1 + et
+where E(et |ut−1 , ut−2 , . . . ) = E(et |yt−1 , yt−2 , . . . ) = 0.
+
+I
+
+In this case,
+Cov (ut , yt−1 ) = ρCov (ut−1 , yt−1 ) 6= 0
+unless ρ = 0 (because yt−1 = β0 + β1 yt−2 + ut−1 ).
+
+I
+
+OLS would not be consistent then.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+9 / 27
+
+OLS with Lag Dependent Variables
+I
+
+But in this case, notice that
+yt
+
+= β0 + β1 yt−1 + ut
+= β0 + β1 yt−1 + ρut−1 + et
+= β0 + β1 yt−1 + ρ(yt−1 − β0 − β1 yt−2 ) + et
+= α0 + α1 yt−1 + α2 yt−2 + et
+
+where α0 = β0 (1 − ρ), α1 = β1 + ρ and α2 = ρβ1 .
+I
+
+Since et is uncorrelated with yt−1 and yt−2 the OLS estimator for
+the above model would be consistent!
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+10 / 27
+
+OLS with Lag Dependent Variables
+
+“You need a good reason for having both a lagged dependent
+variable in a model and a particular model of serial correlation
+in the errors. Often serial correlation in the errors of a
+dynamic model simply indicates that the dynamic regression
+function has not been completely specified.” (p.412)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+11 / 27
+
+Testing for Serial Correlation
+I
+
+How can we test for serial correlation in the residual of
+yt = β0 + β1 x1t + · · · + βk xkt + ut
+
+I
+
+The most common form of serial correlation in the literature is an
+AR(1) structure: ut = ρut−1 + et . We will investigate a few tests of
+the null hypothesis:
+H0 : ρ = 0
+
+I
+
+We discuss tests when x1t , . . . , xkt are ( 1 ) strictly exogenous and
+( 2 ) when they are no strictly exogenous.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+12 / 27
+
+Testing for Serial Correlation: Strictly Exogenous
+Regressors
+
+I
+
+Here we assume that E(et |ut−1 , ut−2 , . . . ) = 0 and
+Var (et |ut−1 ) = Var (et ) = σ 2 .
+
+I
+
+If we observed ut one could simply test H0 by regressing ut on
+ut−1 . Given our assumptions this test would be valid in large
+samples (i.e., asymptotically).
+
+I
+
+We do not observe ut , but we can estimate it!
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+13 / 27
+
+Testing for Serial Correlation with Strictly Exogenous
+Regressors
+I
+
+So, to test for AR(1) serial correlation we
+1. Regress yt on x1t , . . . , xkt and save the estimated residuals ût .
+2. Regress ût on ût−1 and obtain a coefficient estimate ρ̂ and its t-stat
+tρ̂ .
+3. Use tρ̂ to test H0 .
+
+I
+
+Any source of serial correlation that causes adjacent errors ut to
+be correlated can be detected using this test.
+
+I
+
+Beware of numerical versus statistical significance when sample
+size is large (not likely in many applications).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+14 / 27
+
+Testing for Serial Correlation with Strictly Exogenous
+Regressors
+I
+
+Another test for AR(1) serial correlation relies on the
+Durbin-Watson statistic:
+PT
+(ût − ût−1 )2
+DW = t=2PT
+≈ 2(1 − ρ̂)
+2
+t=1 ût
+
+I
+
+The distribution of this test statistic (conditional on regressors)
+depends on the explanatory variables, the sample size, the
+number of regressors and whether the regression contains an
+intercept.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+15 / 27
+
+Testing for Serial Correlation with Strictly Exogenous
+Regressors
+I
+
+Instead of tabulating critical values for all these scenarios, two
+thresholds (dU and dL ) are usually presented for a test of H0
+agains H1 : ρ > 0 at a given signicance level.
+
+I
+
+For example, when n = 45, k = 4 and the significance level is 5%,
+dL = 1.336 and dU = 1.720.
+
+I
+
+When H0 is true, DW ≈ 2. If DW > dU , we fail to reject H0 . If
+DW < dL , we reject H0 in favor of the alternative. When
+dL < DW < dU , the test is inconclusive.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+16 / 27
+
+Testing for Serial Correlation without Strictly
+Exogenous Regressors
+I
+
+Without strict exogeneity, at least one xt is correlated with ut−1 .
+
+I
+
+When this is the case, Durbin (1970) suggested an alternative
+testing procedure that proceeds as follows:
+1. Run OLS of yt on x1t , . . . , xkt and obtain the residuals ût .
+2. Run the regression of ût on x1t , . . . , xkt and ût−1 and obtain the
+coefficient ρ̂ on ût−1 and its t statistic, tρ̂ .
+3. Use tρ̂ to test H0 .
+
+I
+
+x1t , . . . , xkt may contain lagged dependent variables and other
+nonstrictly exogenous explanatory variables.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+17 / 27
+
+Testing for Serial Correlation without Strictly
+Exogenous Regressors
+
+I
+
+Because ût = yt − β̂0 − β̂1 x1t − · · · − β̂k xkt , the t-stat is the same if
+we replace ût with yt in step 2 above.
+
+I
+
+Heteroskedasticity of unknown form can be accomodated by using
+heteroskedasticity-robust t stats.
+
+I
+
+The test can be modified to test for higher order serial correlation
+(e.g., ut = ρ1 ut−1 + ρ2 ut−2 ).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+18 / 27
+
+Serial Correlation-Robust Inference with OLS
+I
+
+OLS can be more robust than estimators that allow for serial
+correlation (see book). We need nevertheless to use appropriate
+standard errors.
+
+I
+
+In the simple linear regression model
+yt = β0 + β1 xt + ut ,
+remember that we have
+PT
+PT
+rt ut
+t=1 (xt − x)ut
+= β1 + Pt=1
+β̂1 = β1 + PT
+T
+2
+2
+t=1 (xt − x)
+t=1 rt
+and the variance of β̂1 (given xt , t = 1, . . . , T ) is
+P −1
+P
+TVar (at ) + 2 Tj=1
+(T − j)Cov (at , at−j )
+Var ( Tt=1 at )
+P
+2 =
+P
+2
+T
+T
+2
+2
+t=1 rt
+t=1 rt
+where rt = xt − x and at = rt ut .
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+19 / 27
+
+Serial Correlation-Robust Inference with OLS
+
+I
+
+This can be further simplified to:
+TVar (at )
+v
+P
+2 ×
+Var (at )
+T
+2
+t=1 rt
+
+P −1
+where v = Var (at ) + 2 Tj=1
+
+I
+
+
+
+T −j
+T Cov (at , at−j )
+
+.
+
+Notice that the first term is the usual robust variance for the
+estimator.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+20 / 27
+
+Serial Correlation-Robust Inference with OLS
+I
+
+This can be generalized to a multiple linear regression.
+
+I
+
+In the linear regression model
+yt = β0 + β1 x1t + · · · + βk xkt + ut ,
+the standard error for the coefficient estimator β̂1 can be shown to
+be equal to
+Avar (β̂1 ) =
+
+T
+X
+t=1
+
+!−2
+E(rt2 )
+
+Var
+
+T
+X
+
+!
+rt ut
+
+t=1
+
+where rt is the residual in
+x1t = δ0 + δ2 x2t + · · · + δk xkt + rt
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+21 / 27
+
+Serial Correlation-Robust Inference with OLS
+I
+
+This variance can be estimated as follows:
+1. Regress x1t on x2t , . . . , xkt and save the residuals r̂t .
+2. For some integer g, compute
+v̂ =
+
+T
+X
+t=1
+
+ât2
+
++2
+
+g
+X
+h=1
+
+[1 − h/(g + 1)]
+
+T
+X
+
+!
+ât ât−h
+
+t=1
+
+where ât = r̂t ût .
+3. The heteroskedasticity and autocorrelation robust standard error is
+then
+√
+[“se(β̂1 )”/σ̂]2 v̂ .
+I
+
+where “se(β̂1 )” denote the usual OLS standard error.
+This obtains as the variance formula (in the simple regression)
+can also be written as:
+P
+ PT 2  2
+ut2 /T
+t=1 rt
+
+ × Tv
+P 2
+ut /T
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+22 / 27
+
+Serial Correlation-Robust Inference with OLS
+I
+
+The corrected standard errors will perform better in large samples.
+
+I
+
+One needs to choose g! Newey and West (1987) recommend (the
+integer part of) 4(n/100)2/9 .
+
+I
+
+With strong serial correlation OLS can be very inefficient. In this
+case it might make sense to first difference the data before
+estimation:
+∆yt = β1 ∆xt + ∆ut .
+(With AR(1) residuals, this will typically eliminate most of the serial
+correlation when ρ is large and positive.)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+23 / 27
+
+Heteroskedasticity
+I
+
+Heteroskedasticity would not cause bias or inconsistency and
+HAC standard errors can be used for inference.
+
+I
+
+Some forms of heteroskedasticity are nevertheless interesting in
+their own. Especially that implied by autoregressive conditional
+heteroskedasticity (ARCH) models and their generalizations.
+
+I
+
+These models postulate something like
+2
+E(ut2 |ut−1 , ut−2 , . . . ) = α0 + α1 ut−1
+
+whereby the variance of the residuals changes dynamically.
+I
+
+Notice that conditions TS.1’-TS.5’ may still hold and inference with
+OLS is still correct.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+24 / 27
+
+Heteroskedasticity
+
+I
+
+We might nonetheless be able to get asymptotically more efficient
+estimators if we exploit the particular nature of the
+heteroskedasticity.
+
+I
+
+This particular form of heteroskedasticity is also of great interest
+for its connection with the analysis of volatility dynamics.
+
+I
+
+It was originally used to investigate the behavior of inflation in the
+UK for example.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+25 / 27
+
+Heteroskedasticity
+For the United States (Engle, 1983):
+
+where h = E(2t |t−1 , t−2 , . . . ), Ṗ = inflation, Ẇ = wage change, Ṁ =
+money supply change.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+26 / 27
+
+These slides covered:
+Wooldridge 12, Stock and Watson 14 and 15.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+27 / 27
+
+

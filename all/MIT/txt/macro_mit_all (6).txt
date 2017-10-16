@@ -1,0 +1,2386 @@
+14.02 - Spring 2014
+
+Macroeconomics and the Financial Crisis
+Francesco Giavazzi
+
+February 2014
+
+1
+
+Outline of the Course
+Part 1: Origins of the 2007-13 economic crisis: why did a failure of the
+…nancial system (of banks in particular) produce the largest recession
+since the Great Depression of the 1930s?
+I The …nancial system (banks) is the core of the economy. We cannot
+
+understand macroecononmics if we do not understand how shocks
+and policies a¤ect the economy through their e¤ects on the
+…nancial system, banks in particular
+I
+I
+
+Why do banks exist? Why are they fragile institutions?
+Four small models
+I
+I
+
+2
+
+Leverage, Moral Hazard, Maturity Mismatch
+Borrowing constraints & ampli…cation of economic shocks
+
+Outline of the Course
+
+Part 2: The policy response to the …nancial crisis
+I Background models (“traditional” macroeconomics)
+I The Fed’s response: interest rates and "quantitative easing"
+I Fiscal policy: President Obama’s "Stimulus Program"
+I Did these policies work?
+I Legacy of the crisis: Debt and the Eurocrisis
+
+3
+
+Macroeconomics and the Financial System
+
+I Understanding banks
+
+4
+
+I
+
+balance sheets
+
+I
+
+leverage
+
+I
+
+non-linearities
+
+Balance Sheets
+
+I The balance sheets of banks and other …nancial …rms are central
+
+to understanding how a …nancial system works and why in 2007-08
+it blew up
+I Before studying the …nancial system we thus need to understand
+
+what a balance sheet is. We do it in 3 steps:
+I
+I
+I
+
+5
+
+de…nition
+balance sheet of a household
+balance sheet of a bank
+
+Balance sheets explained to your younger brother
+
+I
+
+Assets
+
+Liabilities
+
+Saving for a rainy day
+Money working for you
+
+Other people’s money
+Own skin in the game
+
+Assume you wished to set up a company and to start you need 100K
+
+$. You have 10K of your own (your
+
+skin in the game) and borrow 90K from a bank. You then spend 95k to start the company (this is the
+money working for you) and leave 5K in the bank as a bu¤er in case something (small) goes wrong
+
+I
+
+You can loose Your skin in the game. If you loose more, i.e. Other people’s money, you are bankrupt. Your
+skin in the game is the bu¤er against possible losses: the smaller the bu¤er, the smaller the losses you can
+withstand without going bankrupt.
+
+I
+
+Accountants call
+
+I Other people’s money: Debt
+I Your Skin in the Game: Equity
+I Saving for a rainy day: Reserves
+6
+
+I
+
+Leverage =
+
+Assets
+Your Skin in the Game
+
+=
+
+Assets
+Equity
+
+Example: the balance sheet of a household
+I Consider a household which bought a house …nanced by a mortgage
+I How large is the mortgage as a fraction of the value of the house
+
+obviously makes a big di¤erence
+I Also the type of mortgage makes a di¤erence: is the interest rate
+
+…xed, or does it ‡oat with market rates? At current interest rates
+and at current house prices the household may look perfectly able to
+make the mortgage payments, but what if house prices fall, or
+interest rates rise?
+I To understand how risky is the position of this household we need
+
+to know its balance sheet, i.e. the value of the house and the size
+and conditions of the mortgage.
+
+7
+
+Balance sheet of a household (thousand US $)
+
+Assets
+House
+Stocks
+Bank deposits
+
+Liabilities
+1.000
+50
+10
+
+Mortgage
+Equity
+
+900
+160
+
+I this family has purchased a house with a downpayment of 100 and a
+
+mortgage worth 900. Its net worth (its Equity ) is 160: 100 (equity
+in the house) + 60 (cash and stocks)
+I its leverage (the ratio of Assets to the family’s net worth) is
+
+1060/160 = 6.625
+
+8
+
+Balance sheet of a household (thousand US $)
+I Assume house prices fall 30% and the value of the house falls to
+
+700. The family is broke: it’s net worth has become negative:
+60 + (100 300) = 140 (because the 100 of equity in the
+house is less than the fall in the value of the house)
+
+Assets
+House
+Stocks
+Bank deposits
+
+Liabilities
+700
+50
+10
+
+Mortgage
+Net worth
+
+900
+140
+
+I If the interest rate on the mortgage remains unchanged, he family is
+
+still able to make its monthly mortgage payment: just looking at
+‡ows (monthly income and monthly mortgage payments) we would
+not have guessed the family could be in trouble.
+I The problem is that this family had too much debt. What would
+
+have happened if its leverage had been 2 instead of 6.625?
+9
+
+I But what does "being broke" mean in practice?
+
+Balance sheet of a household: the youwalkaway.com
+solution
+I Assume the mortgage is a non-recourse loan, i.e. if the borrower is
+
+delinquent the bank has only the right to re-possess the house. Now
+the bank is broke (its equity,140 is not su¢ cient to absorb the loss,
+200)
+
+household
+Assets
+House
+Stocks
+Bank deposits
+
+bank
+
+Liabilities
+
+1000
+50
+10
+
+Assets
+
+Mortgage
+Net worth
+
+900
+160
+
+Mortgage
+
+House
+
+bank
+
+Stocks
+10
+
+Bank deposits
+
+Liabilities
+
+0
+50
+10
+
+Mortgage
+Net worth
+
+Deposits
+Equity
+
+household
+Assets
+
+Liabilities
+
+900
+
+Assets
+
+0
+60
+
+House
+
+Liabilities
+
+700
+
+Deposits
+Equity
+
+760
+60
+
+760
+140
+
+Balance sheet of a household: when the bank can seize all
+your assets
+I Assume instead that the mortgage contract gives the bank the right
+
+to reclaim not only the house, but any other households’assets.
+Now the bank survives: its equity is zero but not negative.
+
+household
+Assets
+House
+Stocks
+Bank deposits
+
+bank
+
+Liabilities
+
+1000
+50
+10
+
+Mortgage
+Net worth
+
+Assets
+
+900
+160
+
+Mortgage
+
+Liabilities
+
+900
+
+Equity
+
+bank
+
+household
+Assets
+House
+Stocks
+Bank deposits
+11
+
+Liabilities
+
+0
+0
+0
+
+Mortgage
+Net worth
+
+Deposits
+
+Assets
+
+0
+0
+
+House
+Assets
+
+Liabilities
+
+700
+60
+
+Deposits
+Equity
+
+760
+0
+
+760
+140
+
+The Balance Sheet of a Bank
+
+12
+
+I
+
+Remember what is Leverage
+
+I
+
+Leverage =
+
+Assets
+Your Skin in the Game
+
+=
+
+Assets
+Equity
+
+Leverage and Fragility
+I
+
+The balance sheet of banks is crucial to understand
+I
+I
+
+I
+
+remember that the reason banks hold equity is to absorb
+possible losses on the assets they own
+
+I
+
+how much equity should a bank have is the central question in
+the current debate about reforming the …nancial system and
+thus avoid another …nancial disaster
+
+I
+
+Thus there is a tradeo¤
+I
+I
+
+13
+
+their role in transferring savings from households to …rms
+why they are fragile institutions
+
+the more equity a bank holds, the larger its bu¤er, the stronger
+the bank is, i.e. the less likely it goes bankrupt
+the more equity a bank has, the lower its pro…tability: this
+explains why raising equity is di¢ cult
+
+Leverage
+I
+
+Assume a bank has an amount of debt (e.g. deposits) D and
+an amount of equity (K̄ ) also called capital. Its liabilities are
+L = D + K̄ , equal to its total assets
+
+I
+
+The bank holds two types of assets
+I
+I
+
+14
+
+loans and other investments (what we called Money working
+for you )
+reserves (what we called Savings for a rainy day )
+
+I
+
+Let α be the fraction of total assets invested, and (1
+fraction kept as reserves
+
+I
+
+Investment is risky: for each dollar invested today you get p
+dollars tomorrow; where p is a random variable. We may
+assume E (p )  1 still with some probability p  1
+
+α) the
+
+Leverage
+The Bank’s Balance Sheet today
+
+(1
+
+Assets
+α) L (reserves)
+
+Liabilities
+L = D + K̄ (equity)
+
+αL (loans and other risky investments)
+The Bank’s Expected Balance Sheet tomorrow
+Assets
+Liabilities
+Deposits: D
+(1 α ) L
+p (αL)
+Capital: K̄ + (p 1) (αL)
+I
+
+I
+15
+
+Here we see why banks hold equity: in order to be able to
+absorb losses (or gains) on their assets. Note that the capital
+tomorrow is equal to the original capital plus the realized
+capital gain (p 1) (αL)— which is a capital loss for p  1
+L
+Assets
+= Capital
+, the ratio of
+The bank’s leverage ratio is λ = Capital
+total assets (equal to total liabilities) to capital
+
+Leverage
+If K̄ + (p 1) (αL) < 0 the bank is broke.
+Note that we can rewrite the condition as
+K̄ + (p
+
+1) (αL) < 0
+
+K̄ + p (αL)
+K̄ + p (αL)
+
+(αL) + (1
+K̄ + p (αL) + (1
+p (αL) + (1
+p (αL) + (1
+
+(αL)
+α) L
+α) L
+α) L
+α) L
+
+<
+<
+<
+<
+<
+
+0
+
+(1 α ) L
+L
+L K̄
+D
+
+The last line says that the bank is broke when the value of assets is
+not enough to pay for deposits
+The possibility that the bank defaults (becomes unable to pay its
+debt) introduces a non-linearity
+16
+
+Leverage and the probability that the bank defaults
+What is the probability that a bank will go broke?
+Prob (K̄
+
+(1
+
+p ) (αL)  0) = Prob
+
+p1
+
+K̄
+αL
+
+which is increasing in α : for a given value K̄ , the higher the
+fraction of total assets the bank invests in the risky asset, the
+higher the probability it goes broke.
+How do banks choose α? They choose it so that the probability of
+going broke is less than or equal to some number— say 5%
+Prob p  1
+
+K¯
+αL
+
+0.05
+
+For given K̄ the above inequality determines the value of α.
+17
+
+Leverage and Value at Risk (VAR)
+
+j (1 p ) αL j is also called the bank’s Value at Risk. K̄ should be
+large enough to absorb a loss equal to j (1 p ) αL j which occurs
+with a 5% probability
+
+18
+
+Leverage and VAR
+The bank has two choices to make: α and K̄ . Using the expression
+for the leverage ratio (λ = KL¯ ), the probability that a bank will go
+broke is
+Prob p  1
+I
+
+I
+
+19
+
+= Prob p  1
+
+1
+αλ
+
+for given α, the probability that a bank will go broke is an
+increasing function of the leverage ratio λ. To reduce λ the
+bank can
+I
+
+I
+
+K̄
+αL
+
+keep its assets, L, constant but …nance them with less debt
+and more equity (remember, L = K̄ + D)
+keep K̄ constant but reduce L — for example reducing loans to
+…rms and households— thus reducing D
+
+for given α, the value of λ such that Prob p  1
+is decreasing with Var (p ) 1
+
+1 This
+
+1
+αλ
+
+5%
+
+is strictly true if the ditribution of p is Normal. It is not true for some
+other distributions.
+
+Leverage of U.S. and European banks before the crisis
+U.S. banks
+Citigorup
+
+19.2
+
+JPMorgan
+
+12.7
+
+Wells Fargo
+
+12.0
+
+Bank of America
+
+11.7
+
+European banks
+
+20
+
+UBS
+
+53.4
+
+Credit Suisse
+
+22.7
+
+Fortis
+
+25.5
+
+Dexia
+
+36.8
+
+BNP Paribas
+
+28.5
+
+Barclays
+
+37.8
+
+Royal Bank of Scotland
+
+21.7
+
+Deutsche Bank
+
+52.0
+
+Banks may have a high λ and still be safe by keeping α low–and indeed
+this was thought to be the case for European banks which own lots of
+"safe" government bonds. This is why Deutsche Bank was considered
+safe even with a value of λ almost three times that of Citi.
+
+Leverage and the Crisis
+I In the years before the crisis macroeconomic volatility was low, thus
+
+Var (p ) was low
+I low
+
+Var (p ) meant that banks, for given α, could a¤ord a relatively
+high λ— or, for given λ, they could a¤ord a higher α (they could
+hold a higher share of risky assets)
+
+I at the start of the crisis volatility suddenly increased and banks
+
+responded by lowering both λ and α
+I but this takes time because raising capital and reshu- ing the bank’s
+
+assets takes time
+I reducing
+I
+I
+
+21
+
+α is also dangerous because
+
+if the bank reduces its lending to …rms (or stops lending to
+…rms), investment will fall
+if it sells other risky assets, such as shares, it pushes share
+prices down precisely at a time when the stock market
+(beacuse of the crisis) is already falling. This could generate a
+negative leverage cycle
+
+Leverage Cycles and Fire Sales
+Assume for simplicity α = 1. The bank’s iinitial balance sheet (with
+leverage = 10) is
+Assets
+Liabilities
+
+110
+
+Deposits 99
+Capital 11
+
+Balance sheet after the fall in asset prices (leverage = 10,9)
+Assets
+
+Liabilities
+
+109
+
+Deposits 99
+Capital 10
+
+The bank can return to a leverage ratio of 10 selling assets and paying
+back deposits
+Assets
+Liabilities
+
+100
+
+22
+
+Deposits 90
+Capital 10
+
+The bank ignites a …re sale: it sells assets precisely when asset prices are
+falling !
+
+Raising Capital to Avoid Fire Sales
+Balance sheet after the fall in asset prices (leverage = 10,9)
+Assets
+
+Liabilities
+
+109
+
+Deposits 99
+Capital 10
+
+The bank can return to a leverage ratio of 10 instead of selling assets, by
+rasing capital
+
+23
+
+Assets
+
+Liabilities
+
+110
+
+Deposits 99
+Capital 11
+
+How does this help us understand what happened since
+2008?
+Phase I: Bank Losses (writedowns) and Re-capitalizations: 08/2007 - 08/2008
+
+© Bloomberg. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+24
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+Source: Figure. 1.3 in International Monetary Fund. "World Economic Outlook:
+Sustaining the Recovery." October 2009.
+
+25
+
+The Leverage of European Banks and the Crisis in the
+Euro Area
+European banks:
+UBS
+Credit Suisse
+Fortis
+Dexia
+BNP Paribas
+Barclays
+Royal Bank of Scotland
+Deutsche Bank
+
+53.4
+22.7
+25.5
+36.8
+28.5
+37.8
+21.7
+52.0
+
+I High leverage was not a problem so long as
+
+α was low because
+government bonds were considered safe. But when this assumption
+no longer held, European banks found they had far too little capital
+
+I This in turn made government debt more risk because the
+
+26
+
+assumption was that governments would bail out the banks if they
+went bankrupt
+
+The Financial System
+
+I What is the …nancial system? What role does it play in the
+
+economy?
+I
+
+The role of the …nancial system is to transfer the savings of
+households to those who need the funds to …nance real
+economic activity, e.g. set up a new company or expand an
+existing one
+
+I How can this be done? Start from the simplest case: the economy
+
+of Robinson Crusoe
+
+27
+
+Robinson Crusoe’s Economy
+
+I Robinson has a project: a land to farm. In his economy there is no
+
+…nancial system, because Robinson has no one with whom to trade
+
+Assets
+
+Liabilities
+
+Projects
+
+Equity
+
+Projects (farming) are wholly owned by the farmer (Robinson). In
+this economy there is no borrowing, and no "delegation", thus no
+need to monitor the managers who carry out the projects.
+
+28
+
+Financial System and Delegation
+I Who owns the capital rarely is the best person to run a project
+
+which uses that capital
+I Modern economies work thanks to contracts that allow to delegate
+
+the running of projects to more skilful individuals
+I The …nancial system provides the institutional framework for those
+
+contracts
+
+Delegation to a project manager without …nancial
+intermediaries
+Firm’s balance sheet
+
+29
+
+Household’s balance sheet
+
+Assets
+
+Liabilities
+
+Assets
+
+Liabilities
+
+Projects
+
+Debt
+Equity
+
+Firm’s bonds
+Firm’s shares
+
+Equity
+
+Financial System and Delegation via Banks
+Bank’s balance sheet
+Assets
+Loans to …rms
+
+Liabilities
+Deposits
+
+Other assets
+
+Equity (shares issued by the bank)
+
+Firm’s balance sheet
+Assets
+
+Liabilities
+
+Projects Debt (Bonds)
+Bank loan
+Shares
+30
+
+Household’s balance sheet
+Assets
+
+Liabilities
+
+Firm’s bonds
+Shares of …rms and banks
+Bank deposits
+
+Equity
+
+Why do banks exist?
+
+I Banks (and other …nancial …rms) exist because people in the
+
+economy are di¤erent: they have di¤erent skills and di¤erent
+needs— in economists’jargon they are heterogeneous
+I Banks (and the …nancial system more generally) help solving the
+
+problems posed by this heterogeneity
+
+31
+
+Two examples of heterogeneity - 1: Heterogeneity wrt skills
+I Entrepreneurs are very special individuals. Their characteristic is to
+
+have the skills necessary to turn ideas into projects and then run
+them. They do this borrowing from people who do not have these
+skills. Investors (those who own the capital) are happy to lend to
+entrepreneurs because they hope to participate in the returns
+produces by the e¢ cient exploitation of smart ideas
+I The contract between a lender and an entrepreneur is complicated
+I
+
+I
+
+entrepreneurs may not have the incentive to run their project
+diligently enough. Once they have raised the funds from
+investors they may prefer to spend time on the beach
+lenders (investors) cannot observe how diligently the
+entrepreneur is running her project, thus they can be fooled
+
+I this "lack of trust" can be overcome if entrepreneurs risk enough of
+
+their own in the project
+I banks can facilitate the contract between entrepreneurs and lenders,
+32
+
+monitoring the entrepreneurs
+
+Two examples of heterogeneity - 2: Heterogeneity wrt
+liquidity needs
+I Agents have di¤erent preferences
+I
+I
+
+some wish to hold very liquid assets (demand deposits)
+other need to borrow long term, e.g. a 30-year mortgage to
+buy a house or to build a new plant.
+
+I Another role banks can play is associated with the fact that they
+
+can transform maturities, i.e. borrow by issuing demand deposits
+and lend for 30 years
+I We shall now study two models which describe some the
+
+mechanisms underlying these two reasons why banks exist. In both,
+as we shall see, balance sheets are central. (Of course our list of
+reasons why banks exist is not exhaustive: there are a few more, like
+the fact that banks may be better at evaluating the …rms’projects.)
+
+1. Entrepreneurs, banks and small investors
+2. The bene…ts and the risks of transforming maturities and providing
+33
+
+liquidity
+
+1. Why do banks exist? Entrepreneurs, banks and small
+investors
+[Bengt Holmostrom and Jean Tirole, "Financial intermediation, loanable
+funds and the real sector", Quarterly Journal of Economics, 1997]
+
+There are 3 actors in the economy: entrepreneurs, small investors
+and banks
+Entrepreneurs
+I
+
+there are many of them; each one has
+I
+I
+
+I
+
+an idea implemented today will produce tomorrow
+I
+I
+
+I
+34
+
+an idea that costs I dollars to implement
+an amount A of cash they can dedicate to their idea, A  I
+
+R  0 with prob p
+0 with prob (1 p )
+
+if they don’t invest their cash in their idea, entrepreneurs can
+buy a safe government bond whose total return is 0  γI  R
+
+The contract between entrepreneurs and small investors
+Since A  I , the idea, to be implemented, needs outside funding.
+Assume there are only small investors. They are small in the sense
+that they do not have the resources to monitor how diligently the
+entrepreneur whom they have …nanced runs her project
+I
+
+Entrepreneurs can a¤ect p, the probability of success, by
+deciding how much e¤ort to put into running their project.
+This creates a moral hazard if their e¤ort cannot be observed
+
+I
+
+If they put little e¤ort they enjoy a private bene…t B (e.g.
+they spend more time on the beach, less on their project)
+I
+I
+
+I
+
+35
+
+if private bene…ts are 0, p = pH
+if private bene…ts are B, p = pL  pH
+
+Small investors do not observe the entrepreneur’s e¤ort. Their
+outside option (if they do not invest in the project) is buying
+the safe government bond.
+
+The contract between entrepreneurs and small investors
+
+We assume that returns are such that investing in the
+entrepreneur’s idea yields a higher return than investing in a safe
+government bond only if the entrepreneur puts in enough
+e¤ort:
+
+36
+
+I
+
+pH R  γI
+
+I
+
+pL R + B  γI
+
+How to make sure that entrepreneurs are diligent
+To make sure that she works hard and thus achieves pH , small
+investors need to o¤er the entrepreneur a contract that is
+su¢ ciently attractive to induce her to work hard. Consider the
+following contract:
+I
+
+if the project succeeds R will be divided between RE for the
+entrepreneur and RS for the investors with RE such that the
+entrepreneur has an incentive to put in pH
+
+I
+
+RE must satisfy
+pH RE
+
+pL RE + B
+
+i.e.
+RE
+I
+
+37
+
+B/ (pH
+
+pL ) = B/∆p
+
+Note that, as pL ! pH , the contract becomes unfeasible
+because giving the entrepreneur the necessary incentive
+becomes impossible
+
+Pledgeable income
+I
+
+Since RE
+B/∆p for the entrepreneur to be credible when
+he commits not to shirk, not all the income produced by the
+project can be pledged to outside (small) investors
+RS
+
+38
+
+(R
+
+B/∆p )  R
+
+I
+
+Limited pledgeability arises because of the moral hazard
+problem of entrepreneurs
+
+I
+
+Limited pledgeability is what makes contract theory (a lively
+branch of economics) interesting. It is also what opens up an
+intrusting role for …nancial intermediaries (banks) because
+sometimes they can attenuate the moral hazard problem
+
+To have an incentive to be diligent the entrepreneur must
+contribute a minimum of her own to the project
+I
+
+Consider the small investor. If he does not …nance the project,
+his alternative is to buy the safe bond with a return γ. Thus
+he will only invest if
+γ (I
+
+pH RS
+I
+
+and since
+
+(R
+
+RS
+I
+
+A)
+
+B/∆p )
+
+small investors will lend as long as
+_
+
+A = A( γ )
+
+I
+
+39
+
+I
+
+[pH /γ (R
+
+B/∆p )]
+
+i.e. unless_the entrepreneur contributes a minimum amount of
+her own, A(γ), she cannot credibly commit to pH
+which will be the return for small investors when they invest in
+the project? Competition among them will bring it down to γ,
+the return on their alternative option, which is investing in
+safe bonds
+
+How can banks help
+Banks can …nance the entrepreneur’s project. But di¤erently from
+small investors they can also monitor how diligently she runs it.
+They cannot control the entrepreneur perfectly (i.e. make sure
+B = 0) but, by spending some money, they can avoid "extreme"
+negligence, i.e. they can reduce the entrepreneur’s outside bene…t
+to b  B. When the entrepreneur enjoys b the prob of success
+remains pL . The bank’s monitoring cost is c  0.
+I
+I
+
+if the project succeeds, R will be shared: R = RE + RS + RB
+the entrepreneur must be guaranteed
+RE
+
+I
+
+b/∆p
+
+where the only di¤erence is that now b  B
+the bank must be guaranteed a total gross return RB large
+enough to make sure it has the incentive to monitor
+pH RB
+
+c
+
+pL RB
+
+i.e.
+40
+
+RB
+
+c/∆p
+
+The minimum amount the bank must contribute to be
+credible when it says it will monitor the entrepreneur
+I Let IB be the amount the bank contributes to the project. How
+
+large should IB be?
+I To determine this value we need to start from the bank’s outside
+
+option: call β the return the bank can obtain if it invests elsewhere
+in the economy. The bank must therefore be guaranteed a total net
+return (that is net of the monitoring cost) at least equal to βIB ,
+where
+
+βIB = pH RB
+using RB
+
+c = c (pH /∆p
+
+c/∆p
+IB =
+
+1)
+
+cpL
+β∆p
+
+I For any given value of the bank’s outside option,
+
+β, this value of IB
+is the minimum amount the bank must contribute to be credible
+when it says it will monitor the entrepreneur
+
+41
+
+The amount the bank will be asked to contribute
+I Because monitoring is costly, the entrepreneur will …nance through
+
+the bank as little of the project as possible, that is no more than
+cp L
+∆p . The reason is that in order to o¤er the bank a net return
+equal to β, the entrepreneur must pay a gross return larger than β,
+that is large enough to cover monitoring costs
+
+IB =
+
+I
+
+assume for instance, that the bank’s outside option— its return
+if it invests elsewhere in the economy— is γ, equal to the
+outside option of small investors. Then the gross return the
+entrepreneur must pay the bank per unit it invests in the
+project is γ + c/IB  γ. Even in this case the entrepreneur
+will not fund more than IB from the bank
+
+I Finally note that a bank that has no capital— and thus can
+
+contribute nothing of its own to the project— and simply …nances all
+its loans to …rms issuing deposits is useless — at least if we think
+that the main reason why banks exist is to monitor …rms
+42
+
+What is there for small investors?
+I
+
+When RE and RB are such that the entrepreneur has an
+incentive to be diligent, and the bank has an incentive to
+monitor, small investors get
+RS = [R
+
+(b + c ) /∆p ]
+
+and must contribute I A IB . Since their alternative
+remains the safe bond, they will …nance the project provided
+γ [I
+I
+
+IB ( β)]
+
+pH [R
+
+(b + c ) /∆p ]
+
+This condition can be re-written as
+A
+
+43
+
+A
+
+A(γ, β) = I
+
+IB ( β)
+
+(pH /γ) [R
+
+(b + c ) /∆p ]
+
+Which Project Are Financed ? (returns are net returns)
+
+© Oxford University Press. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+44
+
+What can go wrong? (1)
+
+A could fall (e.g. asset price shock from a bubble bursting)
+Assume the entrepreneur contributes the real estate, for instance
+the land where the project
+is developed. If real estate prices fall, A
+_
+will fall. If it falls below A(γ), projects that previously could be
+…nanced only by small investors, now need a bank because the
+value of what the entrepreneur contributes is no longer su¢ cient to
+attract small investors.
+
+45
+
+What can go wrong? (2)
+
+c is too small (e.g. subprimes)
+c pH
+Remember that IB
+β∆p . If the bank claims the cost of
+monitoring, c, is small (or underestimates the cost of monitoring)
+it will contribute too little to the project. Ex-post it will have no
+incentive to do the monitoring. In this case the entrepreneur’s
+private bene…t will remain B because
+
+RE =
+and p = pL
+
+46
+
+B
+b
+
+∆p
+∆p
+
+What can go wrong ? (3)
+
+The bank may not have enough capital to credibly commit to
+monitor entrepreneurs. Remember that the minimum amount a
+bank must contribute to the project is IB ( β) = cβ∆ppH . If it commits
+less then IB ( β) its return is insu¢ cient to cover the cost of
+monitoring, thus the bank will not monitor.
+
+47
+
+What happened before and during the crisis ?
+Each one of the three things that could go wrong has gone wrong:
+
+1. c : before the crisis banks had reduced their direct investments in
+the projects they had …nanced. They had done this selling their
+loans to other investors (what is called securitization, assembling a
+large number of mortgages and building a …nancial security which
+contains them all.) The bene…t was less exposure to risk; the cost
+was reduced incentive to monitor.
+
+2. IB ( β): banks’capital fell during the crisis. This means that banks
+had less capital for direct lending.
+
+3. A: the fall in real estate prices and in asset prices in general,
+reduced the value of A, the resources entrepreneurs could commit
+to their projects.
+
+48
+
+2. Why do banks exist? Second example: heterogeneity
+wrt preferences
+I The second role banks play is associated with the fact that they can
+
+"transform maturities", i.e. borrow short (by issuing checking
+accounts) and lend long (e.g. for 30 years).
+I This is useful because some agents in the economy wish to hold
+
+very liquid assets (checking accounts), while other agents need to
+borrow long term, e.g. a 30-year mortgage to buy a house or to
+build a new plant, In other words people di¤er in their preferences
+as to when they want to consume.
+I Without a bank it would be hard to …nd a mortgage. Assume all
+
+households wished to keep their savings in checking accounts: then
+who would buy a 30-year mortgage?
+
+49
+
+A model of maturity transformation
+[Diamond, D., and P. Dybvig "Bank runs, deposit insurance and
+liquidity", Journal of Political Economy, 1983]
+There are 3 periods
+I
+
+t = 0 agents start with 1 unit of endowment each. Investment
+decisions are made. 2 technologies are available:
+I
+I
+
+I
+
+50
+
+one delivers 1 unit of output in t = 1 for each unit of output
+invested in t = 0
+the other delivers R  1 units of output in t = 2 for each unit
+of output invested in t = 0. However, if this technology is
+liquidated in t = 1 it delivers L  1 units of output
+
+t = 1 and t = 2: agents consume
+
+Agents’types
+
+I
+
+There are 2 types of agents, and many agents of each type. The
+size of the population is normalized to 1.
+I
+I
+I
+
+"patient", who consume only in t = 2 and nothing in t = 1
+"impatient" who consume all in t = 1
+agents learn their type only in t = 1 all they know in t = 0 is
+prob (being patient ) = π
+prob (being impatient ) = 1 π
+
+I of course if you knew your type in
+
+t = 0 you could invest
+everything in one technology or the other.
+
+51
+
+The world of Robinson Crusoe: no banks and no one with
+whom to trade
+
+Call I the amount agents invest in the technology with return R at
+t = 0. Then their consumption options are
+I if impatient:
+
+c1A = (1
+
+I ) + LI = 1
+
+(1
+
+L) I
+
+1 (= 1 only
+
+for I = 0)
+I if patient:
+
+c2A = (1
+
+I ) + RI = 1 + I (R
+
+for I = 1)
+where A stands for "Autarky", Robinson’s world
+
+52
+
+1)
+
+R (= R only
+
+Market economy
+In t = 1 agents can trade.
+I An agent who …nds out he is impatient can issue a bond that
+
+promises to pay 1 unit of good in t = 2, sell it and eat in t = 1.
+The price of this bond is p. p is a relative price that transforms
+t = 2 goods in t = 1 goods
+
+p=
+
+[units of t = 1 goods ]
+[units of t = 2 goods ]
+
+I Since the impatient agent will receive
+
+RI in t = 2, he can trade it
+
+for p (RI ) units of t = 1 goods
+I Similarly an agent who …nds out he is patient will trade
+
+units of t = 1 goods,which he does not need, for (1
+of t = 2 goods
+I Thus
+I
+
+53
+
+I
+
+(1 I )
+I )/p units
+
+c1M = (1 I ) + pRI if impatient, where the superscipt M
+refers to the market equilibrium
+(1 I )
+c2M = p + RI
+if patient
+
+Market economy (cont.)
+
+I If
+
+1/p  R, agents choose I = 0 because by trading at price p
+they can do better than investing at return R. Remember
+1/p =
+
+[units of t = 2 goods ]
+[units of t = 1 goods ]
+
+Thus
+
+c1M = 1,
+I If
+
+1/p  R, agents choose I = 1 and
+c1M = pR,
+
+54
+
+c2M = 1/p.
+
+c2M = R
+
+Market economy (cont.)
+
+Neither p  1/R , nor p  1/R are feasible because they imply that
+c1M , c2M exceed the resources available to the economy
+I
+
+p  1/R =) I = 1, c2M = R and c1M = pR  1: this is
+unfeasible
+
+I
+
+p  1/R =) I = 0, c1M = 1 and c2M = 1/p  R : this is also
+unfeasible
+
+55
+
+Market economy (cont.)
+The only feasible equilibrium is p = 1/R where agents choose
+I
+
+c1M = 1 if impatient
+
+I
+
+c2M = R if patient
+
+I
+
+I M 2 [0, 1]
+
+The last task is …nding I M , the amount invested in the "long"
+technology. In order for these choices to be feasible I M must be such that
+
+(1
+
+π ) c1M
+πc2M
+
+So I M must be equal to π.
+
+56
+
+= 1
+
+IM
+
+= RI M
+
+Why the market outcome is (in general) not optimal
+The market equilibrium is:
+I
+I
+
+c1M = 1 if impatient
+c2M = R if patient
+
+i.e. agents who …nd out they are impatient forgo R and consume 1  R.
+I the market economy yields the same allocation agents would have
+
+chosen had they known their type in t = 0.
+I i.e. it eliminates the ine¢ ciency caused by uncertainty (the Autarkic
+I
+
+equilibrium is ine¢ cient: there is always some liquidation).
+c1M = 1, c M
+2 = R may not be the best solution. If in t = 0
+agents could insure against the possibility that in t = 1 they …nd
+ou
+n t they are impatient, they might
+o wish to consume
+
+c1  c1M = 1, c 2  c2M = R
+
+denotes optimal
+
+consumption levels. How could they insure? 2
+are assuming that agents give identical importance to
+consumption in the two periods, i.e. there is no discounting. In other
+words agents maximize U = (1 π ) u (c1I ) + πu (c2P ). They will wish to
+insure provided (1 π ) u 0 (1)  πu 0 (R ) where u 0 is the marginal utility of
+consumption.
+2 We
+
+57
+
+where
+
+How can a bank improve upon the market outcome
+I Assume we want to achieve
+I in
+
+fc1  1, c 2  R, c1  c 2 g
+
+t = 0 the bank issues demand deposits: in exchange for a
+deposit of one unit at t = 0, agents receive either c1 at t = 1, or
+c2 at t = 2. To achieve this the bank, in t = 0 stores (1 π ) c1
+and invests πc2 /R in the technology which yields R in t = 2 (of
+course subject to the constraint (1 π ) c1 +πc2 /R = 1)
+
+I the bank achieves the optimal allocation provided no individual
+
+withdraws at t = 1 unless she does not have to, i.e. unless she
+discovers she is impatient. No patient consumer withdraws in t = 1
+I provided c 
+1
+
+c 2 this assumption is not unreasonable because it
+would be irrational for a "patient" consumer to withdraw at t = 1
+pretending he is impatient.
+
+58
+
+Bank runs: why can they happen
+I suppose a patient consumer anticipates that all other patient
+
+consumers will pretend they are impatient and withdraw c1 at t = 1
+I at
+
+t = 1 the bank must then liquidate all its long term investment.
+The total amount of resources available to the bank are
+(1 π ) c1 + π (c2 /R ) L  c1 if c2 /c1  R/L
+
+I thus for
+
+1  c2 /c1  R/L, if depositors anticipate that a large
+enough number of them will want to withdraw early, the bank fails
+
+I note that
+
+1  c2 /c1  R/L always holds for c1  c 2 and
+c1  1, c 2  R
+
+I bottom line: bank runs can happen because banks may be
+
+solvent
+but illiquid , i.e. their assets are not readily convertible into cash
+(here consumption).
+
+59
+
+Bank runs: when can they happen
+
+© Source unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+60
+
+Bank runs: possible remedies
+
+I Narrow banking. The bank invests nothing in the illiquid technology
+
+and stores everything
+I
+
+Suspension of convertibility. The bank has the option of stop paying
+its depositors when it runs out of cash. This means that any client
+who shows up "late" will see her/his deposit transformed from a
+demand deposit to a 2-period bond
+
+I
+
+Deposit insurance. The government steps in when the bank runs
+out of cash
+
+61
+
+Inside and Outside Liquidity
+We have already seen an example of liquidity crises in the model of
+"bank runs". Here we discuss a model that further highlights the
+importance of liquidity
+[ J. Tirole, Illiquidity and all its Friends, mimeo, 2010 and
+Inside and Outside Liquidity, MIT Press, 2010]
+I
+
+Two types of liquidity
+I
+
+I
+
+I
+
+62
+
+inside liquidity: liquidity provided by markets participants
+with no outside intervention
+outside liquidity: liquidity provided by the government
+through its ability to borrow against future tax revenues
+
+Two questions
+I
+
+Is inside liquidity su¢ cient, or, in order to prevent liquidation
+of otherwise pro…table projects, outside liquidity is needed?
+
+I
+
+Inside liquidity need not only be su¢ cient in the aggregate. It
+also needs to be dispatched to those who need it
+
+Liquidity shocks
+I
+
+I
+
+Three periods. The interest rate between each two subsequent
+periods is zero— meaning that if you do not invest in this
+project your alternative is a net return equal to zero.
+t=0
+I
+
+I
+
+t=1
+I
+
+I
+
+I
+
+with probability 1/2 there is an overrun (a "liquidity shock").
+An additional quantity, 20, of funds is needed to keep the
+project running. Otherwise the project is liquidated and yields
+no income in t = 2
+with probability 1/2, there is no overrun
+
+t=2
+I
+
+I
+63
+
+an entrepreneur …nances a project whose initial cost is 10,
+borrowing 2 from investors and contributing 8 in equity
+
+provided the overrun, if it happened, has been covered, and
+provided the entrepreneur has put enough "e¤ort" in running
+his project, this produces a revenue of 30
+the revenue, 30, is then shared between the investors and the
+entrepreneur
+
+Pleadgeable income (what can be promised to investors)
+I
+
+I
+
+I
+
+I
+
+64
+
+in t = 0 the expected contribution of investors to the project
+is 2 + (1/2)20 = 12. Assuming there are many investors who
+compete with one another, 12 is all that must be promised to
+them in t = 0 to bring them in (Remember that the interest
+rate is assumed to be zero)
+what goes to the entrepreneur, in case of a success, is 18.
+Assume that 18 is what is needed to make sure that the
+entrepreneur puts enough ”e¤ort” into running the project
+(i.e. assume 18 is the amount that solves the incentive
+problem we studied in the Holmstrom-Tirole model)
+The income the entrepreneur can credibly pledge to outside
+investors in t = 0 is thus P = 30 18 = 12 all that remains
+goes to the entrepreneur
+provided investors are promised 12 in case of success, they will
+…nance the project in t = 0 even if they know that (1) it
+might need re…nancing and (2) in case of success, 18 will be
+turned over to the entrepreneur
+
+Finance as you go
+Now we are in t = 1
+
+65
+
+I
+
+if an overrun occurs, the entrepreneur will ask investors to
+contribute 20
+
+I
+
+but what looked feasible in t = 0 (remember that investors
+were happy to be promised 12 knowing that they might be
+asked to cover an overrun) is no longer feasible in t = 1
+
+I
+
+all the entrepreneur can promise is to deliver P = 12 in t = 2
+if the project succeeds. If he promised more investors would
+understand that he would not run it e¢ ciently
+
+I
+
+but what is needed to keep the project going is 20  12.
+Looked at as of t = 1 no investor will cover the overrun and
+the project will be abandoned
+
+I
+
+trying to bring in "new" investors, o¤ering them seniority with
+respect "old" investors doesn’t help. The project is
+abandoned even if the entrepreneur gave 0 to the old investors
+and promised P to new ones
+
+Insuring through a credit line
+To solve the problem that arises in t = 1 the entrepreneur can buy
+insurance from a bank
+I in t = 0 the entrepreneur contracts with a bank a credit line
+equal to 20. If in t = 1 the overrun occurs, the credit line is
+drawn. The bank cannot renege. It pays 20 and becomes the
+senior creditor: the old investors get nothing and the bank
+gets 12 in t = 2
+I in t = 0, to commit to the credit line, the bank asks a fee
+equal to 4
+I the bank is …ne. It makes zero expected pro…ts: it loses if the
+credit line is drawn, it gains if no overrun occurs
+4
+I
+
+66
+
+I
+
+(1/2)20 + (1/2)12 = 0
+
+in t = 0 investors must now contribute more than 2 (the
+di¤erence between the cost of the project and the
+entrepreneur’s contribution). Now they must also pay the
+bank’s fee. Thus they must contribute 2 + 4 = 6
+investors are happy to contribute 6 because 6 = (1/2)12
+
+Insuring through a credit line
+I
+
+Alternatively, assume that the bank, rather than being paid a
+fee, is paid in shares of the …rm. The …rm issues 4 more
+shares (beyond the 2 bought by investors) so that the total
+capital of the project is now 6 :
+I
+I
+
+I
+
+Expected returns (computed as of t = 0) equal the amount of
+capital invested. The expected return for investors is 2, equal
+to the amount they paid to buy shares. The expected return
+of the bank is zero, since the shares were given to the bank for
+free (in exchange for its commitment to …nance an overrun):
+I
+I
+
+67
+
+4 = (2/3)6 is the capital contributed by the bank
+2 = (1/3)6 is the capital contributed by investors
+
+investors:(1/2)(1/3)12 + (1/2)(1/3)0 = 2
+bank: (1/2) [(2/3)12] + (1/2) [ 20 + 12] = 0
+
+The problem of time inconsistency
+
+68
+
+I
+
+Remember that in t = 1 the bank cannot renege on the credit
+line
+
+I
+
+Come t = 1 …nancing the overrun is a money-losing operation:
+the bank would not be willing to do it unless it is bound by a
+contract— an example of a situation of time inconsistency
+
+I
+
+Thus the credit line must be pre-arranged in t = 0
+
+Macroeconomics
+
+69
+
+I
+
+Where does the bank …nd the 20 it is committed to contribute
+to the project in the event of an overrun?
+
+I
+
+Assume that there are many …rms and that their liquidity
+shocks are uncorrelated: half face an overrun, half do not. In
+other words there is no macroeconomic (or aggregate) shock
+
+I
+
+Is there enough private liquidity in this economy to avoid
+ine¢ cient liquidations, or do you need the "government" to
+step in to avoid liquidations?
+
+Diversi…cation
+I
+I
+
+I
+I
+
+Assume the number of …rms is normalized to 1
+In t = 0 the bank receives 2/3 of the shares of all …rms— in
+exchange for the commitment to provide liquidity in t = 1 to
+those …rms (1/2 of all …rms) who will need it
+In t = 1 the bank, to honor its commitment, needs
+(1/2) 20 = 10
+The value of the bank’s portfolio (the value of the shares it
+owns) is: [(1/2) 12] + [(1/2) (2/3)12] = 10
+I [(1/2) 12] is the value of the bank’s shares in the …rms that
+I
+
+I
+70
+
+have a liquidity shock, where old shareholders will receive
+nothing and the bank will receive the entire pledgeable output;
+[(1/2) (4/6)12] is the value of the bank’s shares in the …rms
+that do not have a liquidity shock, and where the bank will
+share pledgeable output with small shareholders
+
+By selling its entire portfolio (assuming the existence of a
+market where the bank can do this) the bank obtains enough
+liquidity to "recapitalize" half the …rms.
+
+Diversi…cation
+
+If liquidity shocks are uncorrelated there is always enough inside
+liquidity and no project will ever be abandoned. What could go
+wrong?
+
+71
+
+The need for banking supervision
+Inside liquidity need not only be su¢ cient in the aggregate. It
+also needs to be dispatched to those who need it
+I
+I
+I
+
+this condition breaks down if banks are not perfectly diversi…ed
+in the previous example there is only one bank: shocks cancel
+out in the aggregate, thus the bank is perfectly diversi…ed
+but consider a situation where there are two …rms and two
+banks each extending a credit line to one …rm only
+I
+
+I
+I
+
+I
+
+72
+
+there is no aggregate liquidity shock: one …rm faces an overrun
+and draws on its credit line; the other pays the commitment
+fee but does not draw because it has no overrun
+one bank makes a pro…t of 4 (the commitment fee), the other
+a loss of 4
+the …rm which faces an overrun cannot rely on its bank to
+…nance it and must fold up its project
+
+there is still enough liquidity in the aggregate, but it is not
+dispatched to the …rm that needs it because the bank which
+makes a pro…t has no incentive to give it up, transfer it to the
+other so that this can deliver on its committed credit line
+
+Liquidity crises: summing up
+The lesson from this example is that inside liquidity may be
+insu¢ cient to prevent liquidation of otherwise productive projects,
+even absent macroeconomic shocks. The government has two ways
+to deal with this
+I
+
+it can use regulation to make sure that all banks are perfectly
+diversi…ed, so that none is exposed to idiosyncratic shocks.
+This is the superior, though probably unrealistic solution
+
+I
+
+alternatively, if regulation fails to achieve perfect
+diversi…cation, it can step in to provide outside liquidity to
+those …rms to which liquidity fails to be dispatched
+
+Why can the government provide "outside liquidity" when the
+private sector cannot? Because the government can raise funds in
+t = 1 by taxing citizens and promising to pay them back in t = 2
+73
+
+Borrowing with collateral, leverage and the ampli…cation
+and persistence of real shocks
+I
+
+Why and through which channels can the …nancial market
+amplify a shock that hits the real economy, for instance a
+shock to productivity?
+
+I
+
+Why does leverage arise and how does it amplify shocks
+
+I
+
+Why shocks do not die out immediately— i.e. they are
+persistent
+
+[Nobu Kioyotaki and John Moore, "Credit Cycles", Journal of
+Politcal Economy, 1997]
+74
+
+A model of Entrepreneurs and Landlords
+I The economy has a …xed quantity of land,
+
+k that can be used to
+
+grow fruit
+I Some land is farmed by Entrepreneurs, (E ), the rest of the land is
+farmed by Landlords, (L): k L + k E = k
+I
+
+I
+
+75
+
+I
+
+Entrepreneurs: their technology to grow fruit is ytE = ak Et 1
+with a (which is a measure of their productivity) constant and
+relatively high. Thus E have a very e¢ cient technology with
+constant returns. But they own no land: to produce they need
+to buy the land from landlords
+Landlords: have a more traditional decreasing-returns
+00
+technology: ytL = f (k Lt 1 ), f 0  0, f  0. Decreasing returns
+means that their productivity is lower the larger the portion of
+land they farm. Thus beyond some point they are willing to
+sell their land to E . How much land they farm thus depends
+on how much they sell to E . The larger is ktE (the land farmed
+by E ) the smaller is the land farmed by L, and thus the higher
+its productivity
+it takes one period to grow fruit: ktL, 1E produces fruit in t
+
+Entrepreneurs
+I
+
+E 0 s resources (their net worth) are not su¢ cient to buy the land
+they wish to farm
+
+I To buy the land
+
+E borrow from L. So L sells land to E and at the
+same time …nances E 0 s purchase
+
+I De…ne
+I
+
+I
+
+q the price of land and b the amount E borrows from L
+Loans are for one period. The gross interest rate is R : if you
+borrow b the following period you need to repay Rb (the interest
+plus the principal). R is exogenous
+0
+E s budget constraint
+aktE
+
+1
+
+Rbt
+
+1
+
++ qt ktE
+
+1
+
++ bt
+
+qt ktE
+
+which can be re-written as
+
+qt ktE
+
+ktE
+0
+
+76
+
+1
+
+aktE
+
+1
+
++ (bt
+
+Rbt
+
+1)
+
+the term on the left is E s net purchase of land; the terms on the
+0
+right are, respectively, E s income and its net borrowing
+
+Entrepreneurs’collateral constraint
+
+I
+
+L lend to E only if the loans are guaranteed by su¢ cient collateral
+
+I The collateral is land: if
+
+E fails to repay the loan, L keeps the land
+Rbt
+
+I
+I
+
+77
+
+qt +1 ktE
+
+Rbt is how much E needs to repay in (t + 1)
+qt +1 ktE is the value, at time (t + 1) , when the loan is repaid,
+of the land used as collateral
+
+How much will E borrow and how much land will E buy ?
+I
+I
+
+E will borrow as much as they can given the constraint
+bt = qt +1 ktE /R
+0
+Replacing bt into E s budget constraint we determine how much
+land E will buy
+
+(qt
+
+qt +1 /R ) ktE = (qt + a) ktE
+
+1
+
+Rbt
+
+1
+
+= aktE
+
+1
+
+Rbt 1 = aktE 1 ,
+on the di¤erence between the cost of new land, qt ktE , and the
+E spend their entire net worth,
+
+(qt + a) ktE 1
+
+amount they can borrow against each unit of land they buy,
+I
+
+I
+
+78
+
+(qt +1 /R )
+(qt qt +1 /R ) is the downpayment E pays when buying the land:
+you pay qt to buy a unit of land but you can borrow qt +1 /R , thus
+what you need to pay upfront is (qt qt +1 /R ) per unit of land
+you buy. In other words
+E buys land up to the point at which the required downpayment is
+0
+covered by E s net worth. The amount of land E buys is thus
+
+ktE = aktE
+
+1
+
+(qt
+
+qt +1 /R )
+
+1
+
+Borrowing and leverage
+
+ktE =
+
+aktE 1
+net worth
+=
+= leverage
+(1 / leverage )
+(qt qt +1 /R )
+
+net worth
+
+I Borrowing, Entrepreneurs "leverage" their net worth buying
+
+ktE 
+
+net worth
+I The smaller the downpayment,
+
+(qt qt +1 /R ) , they are required
+to put up, the larger the amount of land they can buy for any value
+of their net worth
+
+79
+
+Landlords
+I
+
+L farms land up to the point at which the productivity of the land
+they farm equals the opportunity cost— what they would earn if
+instead of farming they sold the land to E in t (and buy it t + 1)
+
+1 0 L
+f kt = qt qt +1 /R = ut (ktL ) = ut (k ktE )
+R
+on the left is L0 s return per unit of land they farm (discounted by R
+because it takes one period for land to produce fruit). On the right
+is the alternative: instead of farming the land, L can sell it in t and
+buy it back in t + 1 at price qt +1 (discounted because you buy it
+back one period later). This alternative is the opportunity cost (also
+called user cost, ut )
+0
+I ut plays a dual role. It is L s opportunity cost of farming a unit of
+land, but it is also the required downpayment per unit of land E
+buys
+I This condition determines how much land L farm
+80
+
+1 0
+f (k
+R
+
+ktE ) = ut (k
+
+ktE )
+
+Steady State
+I The economy is in steady state when
+ktE = ktE 1 = k E
+I
+
+qt = qt
+
+= q and
+
+qt +1 /R ) ktE = aktE
+we can thus determine the steady state values q and u
+
+From qt
+
+qt +1 /R = ut (ktL ) and (qt
+R
+
+1
+R
+
+q =u =a
+
+I From the condition determining how much land
+1 0
+ktE ) = ut we …nd k E
+R f (k
+I Finally, using the collateral constraint,
+
+b =
+
+81
+
+1
+
+a
+R
+
+1
+
+L farms,
+
+bt = qt +1 ktE /R
+kE
+
+1
+
+Steady state
+
+© Source unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+82
+
+Leverage and Ampli…cation of shocks
+
+ktE =
+
+aktE 1
+= leverage
+(qt qt +1 /R )
+
+net worth = leverage
+
+aktE
+
+I Assume E su¤er a shock to their net worth: for instance their
+
+productivity, a, falls
+I
+I
+
+because leverage  1, ktE falls by more
+leverage ampli…es shocks
+
+I But leverage itself will change when
+I
+I
+I
+
+83
+
+a falls
+
+assume when the shock occurs we are around the steady state
+remember that in steady state q = RR 1 a. q falls when a
+falls
+the fall in q produces a capital loss on the land owned by E
+that reduces leverage and further ampli…es the shock to a
+
+1
+
+Persistence
+
+I As a result of the fall in
+
+a, E enter the following period with lower
+
+net worth
+I Thus the shock does not die out immediately: it propagates to the
+
+following period
+
+84
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

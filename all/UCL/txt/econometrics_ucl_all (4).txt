@@ -1,0 +1,82 @@
+ECON 2007: Quantitative Economics and Econometrics
+Term 1, Fall 2016
+Professor Eric French
+201 Drayton House
+Office hours: 13:00-13:30 and 15:00-16:30 Friday
+Aim:
+To provide students with a thorough understanding of core techniques of quantitative
+economics and econometrics and their application to test economic theories and measure
+magnitudes relevant for economic policy. The course serves as a foundation for subsequent
+study of quantitative topics. The main focus will be on econometric methods that are useful to
+analyze individual level cross sectional data using OLS regression techniques.
+
+Objectives:
+At the end of the module, students should:
+ Understand the main techniques (most importantly, OLS regression) of quantitative
+economics and econometrics, including their strengths and limitations.
+ Understand how these techniques can be applied to test economic theories and
+measure economic magnitudes.
+ Have some practical experience of the application of econometric methods using
+Stata.
+
+Prerequisites:
+ECON 1001: Economics, ECON 1002: Applied Economics and ECON 1003: Statistical
+Methods in Economics
+
+Teaching and Assessment:
+Taught by: Eric French (Term 1—fall) and Aureo de Paula (Term 2—winter)
+ In Term 1, the course introduces main techniques of quantitative economics and
+econometrics. Term 2 introduces further topics and applications.
+ The course comprises a total of 40 hours of lectures in all (20 in each term).
+ There will also be 10 practical sessions (5 per term) and 16 compulsory smaller-group
+tutorial/practical classes (8 per term) with accompanying exercises/assignments.
+ The practical sessions and tutorial classes will be taught by the teaching assistants.
+ There will 8 problem sets in Term 1. For four of the problem sets, there is no need to
+turn them in. Four of the problem sets will be turned in and graded. These will be
+posted Friday by 19:00, are due the following Wednesday by 19:00, and will be
+returned the following week.
+ The problem sets will include both analytical problems and empirical problems that
+will require the use of Stata.
+ Course materials (slides, problem sets, answer keys, lecturecasts, etc.) will be
+uploaded onto the Moodle course page.
+ Assessment: There will be a single 3-hour written examination for the whole course in
+Term 3. The final mark is solely based on the exam.
+
+Textbook:
+Jeffrey Wooldridge: Introductory Econometrics: Europe, Middle East, & Africa (EMEA)
+Edition, 1st edition. This textbook is available at Waterstones, 82 Gower Street for
+about £54, and also online at
+http://edu.cengage.co.uk/catalogue/product.aspx?isbn=1408093758 (for about the same
+price). Buy it! It is a great investment. There are 4 copies of this at the Main Library on 1
+week loan and 1 copy in short loan, with 2 at SSEES. This is the inexpensive version of
+Wooldridge’s textbook which does not have technical appendices. There is a very nice
+version of Wooldridge’s textbook you can purchase on Amazon that has great extra technical
+appendices but costs a little more:
+http://www.amazon.co.uk/Introductory-Econometrics-Jeffrey-Wooldridge/dp/111153439X
+
+Computers:
+This class will make heavy use of Stata. A good resource for Stata is
+http://www.ats.ucla.edu/stat/stata/
+
+10 Lectures: 2-hour lectures held on Fridays, 11:00-13:00. Topics covered and
+approximate dates:
+1. Introduction to OLS: Simple Regression (chapter 1-2, and also Appendix B & C of the
+longer version of Wooldridge), 7 October.
+2. OLS: Simple Regression (chapter 2), 14 October.
+3. OLS: Multiple Regression (chapter 3), 21 October.
+4. OLS: Inference (ch4) t-test, confidence intervals, F-test, 28 October.
+5. OLS: Asymptotics (everything in chapter 5 except “the Lagrange multiplier statistic”)
+consistency, efficiency, 4 November.
+6. OLS: Specification (everything in chapter 6 except “Beta Coefficients”), 18 November.
+7. OLS: Qualitative data (chapter 7), measurement error (chapter 9.4), 25 November.
+8. OLS: Heteroscedasticity and robust s.e.'s (everything in chapter 8.1-8.3 except
+“Heteroskedasticity-Robust LM Tests”, “White Test for Heteroskedasticity”), 2 December.
+9. Pooled regression (chapter 13), 9 December.
+10. Panel data (chapter 14.1-14.3), 16 December.
+
+5 Practical sessions: Monday 10:00-11:00. Held on the following dates: 17 Oct, 24 Oct,
+28 Nov, 5 December, 12 December.
+
+8 tutorial sessions: see your timetable for details.
+
+

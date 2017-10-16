@@ -1,0 +1,20 @@
+Topics in Microeconomics (ECNM10070)
+Summary
+This course is designed to provide a coherent development
+of some important topics in microeconomic analysis at a
+more advanced level than that of standard intermediate
+courses. It thus extends and deepens the work of
+Economics 1 and Economics 2, bridging the gap between
+intermediate and graduate level courses in economics, and
+providing insight into some recent areas of economic
+research activity. Throughout there is an emphasis on the
+application of economic principles.
+
+Course
+description
+
+The course has a mathematical content and knowledge of
+basic calculus is assumed.
+Topics covered may include asymmetric information,
+expected utility theory, auction theory; bargaining theory;
+social choice theory.

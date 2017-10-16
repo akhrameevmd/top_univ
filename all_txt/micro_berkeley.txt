@@ -1,0 +1,10 @@
+ECON 100A Economic Analysis--Micro
+Resource allocation and price determination.
+ECON 101A Economic Theory--Micro 
+Theory of resource allocation and price determination with an emphasis on microeconomic principles.
+ECON 104 Advanced Microeconomic Theory 
+This course explores some issues in advanced microeconomic theory, with special emphasis on game-theoretic models and the theory of choice under uncertainty. Specific applications will vary from year to year, but will generally include topics from information economics and models of strategic interaction.
+ECON 230C Public Sector Microeconomics
+The economic and policy analysis of government expenditures, taxes, and intergovernmental fiscal relations.
+ECON C270A Microeconomics of Development
+Theoretical and empirical analyses of poverty and inequality, household and community behavior, and contract and institutions in the context of developing countries.

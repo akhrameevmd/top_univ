@@ -1,0 +1,15 @@
+ECON 2001 Intermediate Microeconomics 2010/11
+Textbooks
+The main texts for the lectures will be
+Frank Cowell, Microeconomics: Principles and Analysis, Oxford University Press
+Hal R. Varian, Intermediate Microeconomics: A Modern Approach, Norton
+Walter Nicholson, Microeconomic Theory: Basic Principles and Extensions, Dryden Press
+There are a number of possible texts for supplementary reading. At a less advanced level than the
+main text would be any of the following:
+Michael L. Katz and Harvey S. Rosen, Microeconomics, McGraw Hill
+Jeffrey Perloff, Microeconomics, Addison Wesley
+Robert S. Pindyck and Daniel L. Rubinfeld, Microeconomics, Prentice Hall
+At a more advanced level, on the other hand, would be:
+Hugh Gravelle and Ray Rees, Microeconomics, Longman
+
+

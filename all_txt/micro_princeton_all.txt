@@ -1,0 +1,376 @@
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 1 of 9
+
+Introduction to Microeconomics
+Professor Henry Farber
+email:
+farber@princeton.edu
+Office:
+259 Simpson International Building
+Office Phone: (609)258-4044
+Office Hours: Monday 2:30-3:30 and Thursday 4:00-5:00
+Make appointments on WASS
+Lecture:
+Tu/Th 2:30-3:20 – McCosh 50
+Organizer:
+Jenny Shen (jenny.shen@princeton.edu)
+
+Important Scheduling Note:
+• Due to the Jewish holiday of Rosh Hashanah (the Jewish New Year), there
+will be no lecture on Thursday September 21.
+• I will give a “make-up” lecture Sunday September 17 at 7:30PM in McCosh
+50.
+Course Description: Economics is the study of how individuals, firms, and the institutions
+of an economy (e.g., markets) produce and allocate scarce resources. We will examine 1) the
+decision making of individuals regarding what and how much to consume, 2) the decision
+making of firms regarding what and how much to produce, 3) how these decisions are coordinated (for better and for worse) through market and other institutions, and 4) the role of
+public policy (e.g., taxation, expenditure, and regulation).
+Classes: There are two lectures and one precept each week. Lectures start promptly at
+2:30PM. Please be seated on time. All changes of precept must be arranged through the
+organizer.
+• Use of electronic devices is not permitted during lecture in order to help
+us all focus on and partipate in the lectures.
+• I will post lecture notes ahead of time. You are free to print these notes
+and bring a paper copy with you to lecture.
+Text: Parkin, Michael. Microeconomics, twelfth edition. Like virtually all texts today, it
+is obscenely priced (an interesting economics issue in its own right). An earlier edition of
+Parkin will easily suffice. Older editions of other texts may also serve well, although you
+should check that it covers the relevant topics (not all do). Other reading assignments will
+be made as needed during the term.
+Note that the particular pages I assign in the text are a general guide. Other pages in the
+“neighborhood” of the noted pages can be relevant, useful, and interesting. Take a look.
+Some material is covered only in the text, some material is covered only in lecture, and other
+material is covered in both.
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 2 of 9
+
+Course Requirements and Grading:
+Final Examination
+Mid-Term Examination
+Problem Sets & Participation in Precepts
+
+45%
+25%
+30%
+
+• The midterm examination will be held on Thursday of midterm week during the usual
+lecture period. Be prepared to stay a bit longer than usual.
+• The final examination will take place during the final examination period at end of
+term.
+• There will be 10 problem sets (one due each week other than the first week, the week of
+Thanksgiving, and the week after fall break). The last problem set will be due during
+reading period in January. A random subset (approximately half) of the problems
+will
+√ √ √
+be graded on each problem set. The problem sets will be graded on a 0, −, , +
+scale.
+• Problem sets must be turned in at the beginning of your assigned precept during
+the “due week” unless otherwise noted. Late problem sets or problem sets turned in
+elsewhere will not be graded. No excuses.
+Other Important Points:
+• Use of personal electronics (including, but not limited to, laptops, hand-helds, phones,
+and tablets) is not permitted in lecture. Use of such devices in lecture is a distraction,
+and careful studies have shown that, on average, students do better on exams when
+use of these devices is prohibited.
+• We will be covering a lot of material, and you will do well to pay close attention and
+not fall behind.
+• In order to reduce your note-taking burden and to allow you to focus on the lecture, I
+will post lecture notes on Blackboard.
+• The posted lecture outline/notes will not include all material covered in lecture, and
+you will be responsible for all material.
+• New material will be covered in precept. You are responisble for this material as well.
+• I do not closely follow the text. The text, lectures, and precepts are complementary
+resources.
+• You will get more out of this course if you discuss the lectures, readings, and ideas
+with your classmates (and others). You are also encouraged to share ideas regarding
+the problem sets, but you would do well to complete the problem sets on your own.
+Of course, the work you turn in must be your own and prepared by you alone.
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 3 of 9
+
+Course Outline
+• Lecture 1 (Thursday 9/14): What is economics I? – Parkin, ch 1, ch 2.
+– Description of course
+– What is microeconomics?
+– Economics as a social science
+– The laws of demand and supply
+– Marginal analysis and opportunity cost
+– Division of labor
+– Exchange – barter vs. money and prices
+– What is a market?
+• Lecture 2 (Sunday 9/17, evening): What is economics II? – Parkin, ch 2, ch 3.
+– The Production Possibilities Frontier:
+Opportunity Cost, and Efficiency in Production
+– Demand Curves
+– Supply Curves
+– Market Equilibrium: Supply = Demand
+– Competitive Markets and their Limitations
+– Equity vs. Efficiency
+• Lecture 3 (Tuesday 9/19): Consumer Choice: Utility as the Foundation of Demand. –
+Parkin, ch.8, pp. 177-184; ch. 9, pp. 201-210.
+– The convenient notion of utility
+– Marginal utility
+– Opportunity cost
+– Budget constraints and indifference curves
+– Consumption choice as the result of utility maximization
+• Precept 1 (9/19–9/21):
+– The division of labor
+– Comparative and Absolute Advantage
+– Derivation of Individual Demand Curves
+• No Lecture Thursday 9/21 – Rosh Hashanah
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 4 of 9
+
+• Lecture 4 (Tuesday 9/26): Consumer Choice: Demand Curves – Parkin, ch 8, pp.
+185-196; ch 9, pp. 208-213.
+–
+–
+–
+–
+
+Consumption Choice: Recap
+Income, Price Changes, and Demand
+Income and Substitution Effects
+The Price Elasticity of Demand
+
+• Precept 2 (9/26–9/28, Problem Set 1 due):
+– Summary of Price Elasticity
+– Normal and Inferior Goods
+• Lecture 5 (Thursday 9/28): Elasticity of Demand, cont’d.– Parkin, ch 4.
+–
+–
+–
+–
+–
+
+Elasticity Along a Demand Curve
+Inelastic, Unit, and Elastic Demand
+The Income Elasticity of Demand
+Market Demand
+Consumer Surplus
+
+• Lecture 6 (Tuesday 10/3):
+– Market Demand and Elasticity – Parkin ch 4, pp. 83-94.
+∗ Determinants of Price Elasticity of Demand
+∗ Cross Price Elasticity
+– Decision Making Under Uncertainty I (Parkin, ch 20, pp. 469-472)
+∗ Incomplete Information
+∗ Probabilistic Outcomes
+∗ Expected Value vs. Expected Utility
+∗ The Lottery Purchase Decision
+• Precept 3 (10/3–10/5, Problem Set 2 due):
+– Substitutes and Complements – Parkin ch 4, pp. 92-94.
+• Lecture 7 (Thursday 10/5): Decision Making Under Uncertainty II – Parkin, ch 20,
+pp. 469-476, 482-484
+–
+–
+–
+–
+–
+
+The Lottery Purchase Decision
+Risk Neutrality
+Risk Aversion
+Insurance
+Risk Seeking Behavior and Gambling
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 5 of 9
+
+• Lecture 8 (Tuesday 10/10: Foundations of Supply. – Parkin, ch 10, pp. 223-228; ch
+11, pp. 247-252.
+– The Firm and its goals: Profit Maximization
+– Production functions
+– Total, average, and marginal products
+– The law of diminishing marginal returns
+– Cost minimization
+• Precept 4 (10/10-10/12, Problem Set 3 due):
+– Returns to Scale
+– Accounting profits vs. economic profits
+• Lecture 9 (Thursday 10/12): Foundations of Supply, cont’d. – Parkin, ch 11.
+– The short- and long-runs
+– Total, Marginal, and Average Product
+– A Firm’s Choice of Technology in the Long Run
+– Marginal Cost and Marginal Revenue
+– Choice of output quantity in a competitive market
+• Lecture 10 (Tuesday 10/17): Perfectly Competitive Markets – Parkin, ch 12.
+– Firm-level decisions in a competitive market
+– Short-run equilibrium for the firm (price and output choice)
+– The importance of free entry and exit
+– Long-run equilibrium of the firm and industry
+– Competition and Efficiency
+• Precept 5 (10/17-10/19, Problem Set 4 due):
+– A Firm’s Choice of Technology in the Long Run
+– Minimum Efficient Scale
+– Competitive Markets => Firms at Efficient Scale
+– Present Value of a Stream of Payments
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 6 of 9
+
+• Lecture 11 (Thursday 10/19): Capital Markets – (Readings to be Assigned); Parkin,
+ch 18, pp. 438-439.
+– Rates of Return and Discounting
+– Economic Rent and Opportunity Cost
+– Risk and Diversification
+– Efficient Market Hypothesis
+– Futures markets and Options
+• Lecture 12 (Tuesday 10/24): Question and Answer Session before Midterm Examination.
+• Precept 6 (10/24-10/26, Problem Set 5 due): Midterm Q&A.
+• Lecture 13 (Thursday 10/26): Midterm Examination
+• Fall Break (10/28-11/5)
+• Lecture 14 (Tuesday 11/7): Welfare Economics – What’s so good about competitive
+markets? – Parkin, ch 5; ch 12, pp. 288-289.
+– Maximizing quantity: efficient resource allocation
+– The invisible hand: the role of prices
+– Consumer surplus, producer surplus, and total surplus
+– Deadweight loss
+• Precept 7 (11/7-11/9):
+– Limits of Pareto Efficiency
+– The Social Welfare Function
+• Lecture 15 (Thursday 11/9): International Trade and Comparative Advantage – Parkin,
+ch. 7.
+– Gains from trade and the law of comparative advantage.
+– The efficiency of free trade
+– Restrictions on trade: tariffs and quotas
+– Arguments for protection
+– Is out-sourcing different from trade in goods?
+– Analysis of Trade Restrictions: Tariffs and Quotas
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 7 of 9
+
+• Lecture 16 (Tuesday 11/14): Imperfect Markets I: Monopoly – Parkin, ch 13.
+– Market power
+– Marginal revenue of a monopolist
+– Output choice of a monopolist
+– Output of a monopolist and welfare (deadweight) loss
+– Price Discrimination
+• Precept 8 (11/14-11/16, Problem Set 6 due):
+– The politics of free trade – Pareto improvements vs. potential Pareto improvements
+– Monopolistic competition and differentiated products – Parkin, ch 14.
+• Lecture 17 (Thursday 11/16): Imperfect Markets II: Oligopoly, Natural Monopoly,
+Barriers to Entry – Parkin, ch 15, pp. 341-355.
+– Oligopoly – When a few large firms dominate
+– Models of strategic interaction – game theory
+∗ Nash equilibrium
+∗ The prisoner’s dilemma (is everywhere)
+– Entry Barriers
+• Lecture 18 (Tuesday 11/21): Government Regulation of Markets and Anti-Trust Policy
+– Parkin, ch. 15, pp. 356-359; ch. 10, pp. 233-237; ch 13, pp. 313-317.
+– Maximizing surplus: consumer surplus, producer surplus, or total surplus?
+– Government intervention in markets: Can economics inform the political process?
+– Regulating markets
+– Anti-competitive activities of firms
+– Measures of market structure
+– Anti-trust policy
+• Precept (11/21-11/23): No Precept this Week (Thanksgiving)
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 8 of 9
+
+• Lecture 19 (Tuesday 11/28): Taxation – Parkin, ch 6, pp. 133-138.
+–
+–
+–
+–
+
+Sources and uses of taxes
+Equity and Efficiency of Taxes
+Deadweight loss from a tax
+Tax incidence: who pays?
+
+• Precept 9 (11/28-11/30, Problem Set 7 due): More on taxation
+–
+–
+–
+–
+
+More on tax incidence
+Efficient taxation
+Why tax?
+Tax expenditures
+
+• Lecture 20 (Thursday 11/30): Market Failures I: Externalities and the Role of Government – Parkin, ch 16; ch 17.
+– Missing or incorrect property rights and externalities
+– Taxation and regulation as remedies
+– Environmental Regulation
+• Lecture 21 (Tuesday 12/5): Market Failures II: Public Goods and the Role of Government – Parkin, ch 16.
+–
+–
+–
+–
+
+What is a public good?
+Market Underprovision of Public Goods.
+The role of government as a provider of public goods.
+Common resources and the tragedy of the commons.
+
+• Precept 10 (12/5-12/7, Problem Set 8 due):
+– Positive externalities.
+– The tragedy of the commons as a prisoner’s dilemma.
+– Solutions to the common resources problem.
+• Lecture 22 (Thursday 12/7): Market Failures III: Incomplete information – Parkin, ch
+20, pp. 476-484; ch. 10, pp. 229-233.
+–
+–
+–
+–
+–
+–
+
+Adverse Selection – the lemons problem
+The market for used cars
+Moral Hazard – a mis-match between who pays and who benefits
+The market for insurance
+Principal-agent problems: aligning goals
+Policy Problem: Health Care Reform
+
+EC0 100
+Fall 2017
+
+Henry Farber
+Page 9 of 9
+
+• Lecture 23 (Tuesday 12/12): Is labor Different from Other Inputs? – Parkin, Ch. 18.
+– Labor markets – demand and supply
+– Labor Demand and the Minimum Wage
+– Monopoly and Monopsony in Labor Markets
+– Labor Unions
+• Precept 11 (12/12-12/14, Problem Set 9 due): Marshall’s conditions for low elasticity
+of demand for labor
+• Lecture 24 (Thursday 12/14): Wages, Income, and Inequality – Parkin, ch 19.
+– Wage determination – The Concept of Human Capital.
+– Discrimination in Labor Markets
+– Measuring Inequality.
+– Changes in the Distribution of Income
+• Note: Problem Set 10 will be due during Reading Period in January.
+
+

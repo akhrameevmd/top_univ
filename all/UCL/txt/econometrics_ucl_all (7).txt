@@ -1,0 +1,544 @@
+ECON 2007: Quant Econ and Econometrics
+Censored, Truncated and Count Data
+Dr. Áureo de Paula
+Department of Economics
+University College London
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+1 / 34
+
+Censoring
+The censored regression model focusses on a classical linear
+regression model where outcome observations are censored. For a
+certain range of values of the outcome, the econometrician does not
+know the exact value but only that the variable is within a certain
+interval.
+Usually censoring occurs because of survey limitations such as top
+coding, cost considerations or attrition.
+Censored regression models are mathematically very similar to the
+Tobit model. Whereas there were no observability issues there, here
+data on the censoring region are “incomplete”.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+2 / 34
+
+Censoring
+
+Adopting the notation in the Tobit model, the model is
+y ∗ = β>x + u
+
+u|x, c ∼ N (0, σ 2 )
+
+y = min(c, y ∗ )
+where now c is possibly random and instead of a max operator, we
+focus on the min.
+The max case is analogous and relates to censoring from below, i.e.
+left-censoring, instead of from above, i.e. right-censoring.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+3 / 34
+
+Censoring
+As in the Tobit case,
+Pr (y = c|x) = Pr (y ∗ ≥ 0|x) = Pr (u ≥ c − β > x|x)
+= 1 − Φ[(c − β > x)/σ]
+And the density of y conditional on x = xi and c = ci is given by
+(1/σ)φ[(y − β > xi )/σ], y < ci
+
+1 − Φ[(ci − β > xi )/σ], y = ci
+
+which is then used to construct a MLE much as in the Tobit case.
+Censoring is typical in duration analysis (i.e., time-to-event).
+Notice that in this case the marginal effects are given by β (as opposed
+to Tobit)!
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+4 / 34
+
+Censoring
+
+For example, Costa and Kahn (2003) use data on soldiers in the
+American Civil War to study how individual and community level
+variables affected group loyalty as measured by time until desertion,
+arrest or AWOL.
+They use a more sophisticated statistical model (e.g., competing risks
+hazard model), but we could also analyze the data using a regression
+model where duration is censored.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+5 / 34
+
+Censoring
+
+Source: Costa and Kahn, (2003): “Cowards and Heroes: Group Loyalty in the American Civil War”, QJE, V.118(2)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+6 / 34
+
+Truncation
+
+In a truncated regression model, certain observations are not selected
+into the sample. This can arise, for instance, in surveys where for cost
+considerations only a subset of the population is targeted.
+The model relies on a regression model:
+y = β > x + u,
+
+E(u|x) = 0.
+
+(1)
+
+Using a random sample with n observations, we could simply use OLS
+and obtain an unbiased estimator for β.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+7 / 34
+
+Truncation
+Let’s assume instead that certain observations are fully observed
+whereas others are not observed at all. Mark the selection into the
+observed sample by the indicator variable si . This variable is = 1 if unit
+i is observed and = 0 otherwise.
+Instead of estimating equation (1), we instead focus on
+si yi = β > si xi + si ui
+
+(2)
+
+When si = 1, we have (1) for the random draw i. Otherwise, when
+si = 0, we obtain 0 = 0 + 0 which is vacuous and adds nothing to the
+estimation. In the end, running OLS on (2) is equivalent to running
+OLS only on those observations selected out of the n initial draws.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+8 / 34
+
+Truncation
+
+When and how does truncation affect the estimation properties?
+For consistency remember that we require that
+E(su) = 0
+
+E[(sxj )(su)] = E[sxj u] = 0.
+
+These are implied by the stronger condition:
+E(su|sx) = 0
+which would also imply that OLS is unbiased.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+9 / 34
+
+Truncation
+Now we can lay out a few scenarios:
+I
+
+If the selection rule s depends only on the explanatory variables x,
+then sxj depends only on x and there is nothing in sx that is not
+known beyond x.Consequently E(u|sx) = 0 since E(u|x) = 0 by
+(1). Then, E(su|sx) = sE(u|sx) = 0 and the estimator is unbiased
+and consistent.
+
+I
+
+If the selection is completly independent of (x, u), then
+E(sxj u) = E(s)E(xj u) = 0 and OLS is consistent. It can also be
+shown that OLS is unbiased.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+10 / 34
+
+Truncation
+I
+
+If the selection depends on the explanatory variables and
+randomness that is independent of u, again one obtain
+unbiasedness since E(u|x, s) = E(u|x). This follows because,
+conditional on x, s is independent of u.
+
+I
+
+If the selection rule relies on the regressand y , OLS will typically
+be inconsistent. For example, let s = 1 if y ≤ c where c is a
+random variable and s = 0 otherwise. Then
+s = 1 if and only if u ≤ c − β > x
+Since s depends on u, they will not be uncorrelated even as we
+condition on x. In this case, typically E(sxj u) 6= 0 and OLS will be
+inconsistent.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+11 / 34
+
+Truncation
+
+Consider for example a linear regression model where:
+y = β0 + β1 x + u
+with β0 = 0 and β1 = 1.
+Assuming distributions for x and u, we can simulate a sample for the
+model above and examine the regression line obtained in the sample.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+12 / 34
+
+Truncation
+Take a sample with 30 observations:
+
+The slope is close (though not quite equal) to β1 = 1. In fact,
+β̂1 = 1.08.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+13 / 34
+
+Truncation
+Consider now only the observations where x ≤ 0.6:
+
+The slope is (still!) close (though not quite equal) to β1 = 1. Here
+β̂1 = 1.01.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+14 / 34
+
+Truncation
+Consider now only the observations where y ≥ 0.5:
+
+In this case, the slope is much flatter than before: β̂1 = 0.27!
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+15 / 34
+
+Truncation
+
+To address the last scenario, we expand the model to:
+y = β > x + u,
+
+u|x, c ∼ N (0, σ 2 ).
+
+Remember that the selection rule is that a random draw (xi , yi ) is
+observed only if yi ≤ ci .
+(In contrast, in a censored model the realizations of xi would be known
+for yi > ci .)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+16 / 34
+
+Truncation
+
+The density of y given x = xi and c = ci is then given by
+f (y |xi , β, σ)
+F (ci |xi , β, σ)
+
+if y < ci
+
+where f (y |x, β, σ) is the normal density with mean β > x and variance σ 2
+and F (y |xi , β, σ) is the corresponding cumulative distribution function.
+This is then used to compute the MLE for the truncated regression.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+17 / 34
+
+Truncation
+An important type of truncation in Economics is (what Wooldridge calls
+“incidental truncation”), more commonly referred to simply as sample
+selection.
+We only observe y for a subset of the population and the selection rule
+depends indirectly on the outcome.
+The canonical example relates wages y = log(wage) to variables such
+as experience. This variable is nevertheless only observed for those
+who choose to participate in the labor force, a decision that may
+depend on variables such as non-labor income.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+18 / 34
+
+Truncation
+The model here is
+y
+
+= β > x + u,
+
+E(u|x, z) = 0
+
+>
+
+s = 1[γ z + ν ≥ 0]
+
+(3)
+(4)
+
+where s = 1 if we observe y and zero otherwise. The variables x and z
+are always observed. We will assume that x is a strict sub-vector of z
+and z is independent of (u, ν).
+Taking the expectation of (3) conditional on z and ν we have
+E[y |z, ν] = β > x + E[u|z, ν] = β > x + E[u|ν]
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+19 / 34
+
+Truncation
+It follows that, if (u, ν) are jointly normal with mean zero, E[u|ν] = ρν
+for some constant ρ. So,
+E[y |z, ν] = β > x + ρν.
+We do not observe ν, but know whether s = 1. Using the formula
+above, it can be shown that
+E[y |z, s = 1] = β > x + ρE[ν|s = 1] = β > x + ρλ(γ > z).
+The last equality derives from normality of ν and (4) in a similar way as
+in our analysis of censored regressions.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+20 / 34
+
+Truncation
+The parameter ρ will be zero when u and ν are independent. In this
+case, the selection is based on explanatory variables and a random
+component that is independent of u. As we saw before, OLS on the
+truncated sample will be consistent.
+If ρ 6= 0, OLS will not be consistent: the inverse Mills’ ratio would be an
+ommited variable. We cannot immediately include that variable though,
+since it depends on γ, which is an unknown parameter. It can
+nevertheless be estimated on the whole sample since
+Pr (s = 1|z) = Φ(γ > z).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+21 / 34
+
+Truncation
+
+Once γ is estimated we can plug in λ(γ̂ > zi ) as an additional explanatory variable for each observation in the truncated sample and run OLS.
+
+This procedure, originally due to Heckman (1976), turns out to provide
+a consistent estimator for β.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+22 / 34
+
+Truncation
+Some caveats apply.
+1. Standard errors need to be corrected to account for the first step
+estimation of γ.
+2. Strictly speaking we can have x = z as λ(·) is a nonlinear function.
+Depending on the range of x though, λ(·) behaves very much like
+a linear function and multicollinearity issues may arise. If there are
+excluded variables appearing in the selection equation, this is less
+of an issue.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+23 / 34
+
+Truncation
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+24 / 34
+
+Truncation
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+25 / 34
+
+Truncation
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+26 / 34
+
+Count Data
+A count variable is a random variable that takes on non-negative
+integer values: {0, 1, 2, . . . }.
+One of the most commons distributions for such variables is the
+Poisson distribution which postulates the probability mass function:
+Pr (y ) =
+
+exp(−λ)λy
+,
+y!
+
+y ∈ {0, 1, 2, . . . }
+
+where λ > 0 characterizes the distribution and y ! = 1 × 2 × · · · × y . It
+can be shown that
+E(y ) = λ
+
+de Paula (UCL)
+
+var (y ) = λ.
+
+ECON 2007: Quantitative Economics and Econometrics
+
+27 / 34
+
+Count Data
+In modelling the dependence of a count variable y on x, the Poisson
+regression simply assumes that λ is a function of x. Because λ > 0, it
+is generally imposed that
+λ = exp(β > x)
+so that
+Pr (y |x) =
+
+exp(− exp(β > x)) exp(β > x)y
+,
+y!
+
+y ∈ {0, 1, 2, . . . }
+
+(5)
+
+and
+E(y |x) = exp(β > x).
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+28 / 34
+
+Count Data
+
+The conditional probability mass function (5) can be used to form the
+log-likelihood to obtain a MLE:
+L(β) =
+
+n
+X
+i=1
+
+n
+X
+li (β) =
+{yi β > xi − exp(β > xi )}
+i=1
+
+where terms that do not depend on β are dropped without loss.
+Noting that ∂E(y |x)/∂xj = exp(β > x)βj we can also form APE or PEA
+estimators for the marginal effect of xj .
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+29 / 34
+
+Count Data
+
+Some caveats:
+1. The model imposes the restriction var (y |x) = E(y |x).
+2. Even if this is not the case, the estimator for β is still consistent!
+(In which case we refer to it as quasi-maximum likelihood
+estimator.)
+3. In this case, we can allow var (y |x) = σ 2P
+E(y |x) where sigma is
+n
+−1
+2
+consistently estimated by (n − k − 1)
+i=1 ûi /ŷi where
+ûi = yi − ŷi .
+4. . . . other solutions still allow for robust standard errors.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+30 / 34
+
+Count Data
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+31 / 34
+
+Count Data
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+32 / 34
+
+Count Data
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+33 / 34
+
+These slides covered:
+Wooldridge 17
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+34 / 34
+
+

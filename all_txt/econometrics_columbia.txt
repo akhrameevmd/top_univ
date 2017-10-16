@@ -1,0 +1,25 @@
+ECON UN3412 Introduction To Econometrics. 
+Prerequisites: (ECON UN3211 or ECON UN3213) and (MATH UN1201 or MATH UN1207) and STAT UN1201
+
+Modern econometric methods; the general linear statistical model and its extensions; simultaneous equations and the identification problem; time series problems; forecasting methods;
+ extensive practice with the analysis of different types of data.
+
+ECON GU4412 Advanced Econometrics.
+Prerequisites: ECON W3211, ECON W3213, ECON W3412, MATH V2010.
+
+The linear regression model will be presented in matrix form and basic asymptotic theory will be introduced. The course will also introduce students to basic time series methods for forecasting and analyzing economic data.
+ Students will be expected to apply the tools to real data.
+
+
+ECON GU4413 Econometrics of Time Series and Forecasting.
+Prerequisites: W3211, W3213, W3412.
+Corequisites: MATH V2010.
+
+This course focuses on the application of econometric methods to time series data; such data is common in the testing of macro and financial economics models. 
+It will focus on the application of these methods to data problems in macro and finance.
+
+ECON GU4918 Seminar In Econometrics.
+Prerequisites: ECON 3211, W3213, W3412, and sign-up in the department's office. 
+
+Analyzing data in a more in-depth fashion than in ECON W3412. Additional estimation techniques include limited dependent variable and simultaneous equation models. 
+Go to the department's undergraduate Seminar Description webpage for a detailed description.

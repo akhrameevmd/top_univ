@@ -1,0 +1,993 @@
+Macroeconometrics
+Topic 1: Macroeconomic Time Series
+
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas 2016
+
+Macroeconometrics
+
+Macroeconometrics is the statistical analysis of
+macroeconomic data and models
+
+Macroeconomic Time Series
+
+I
+
+Time Series Data: GDP, Unemployment, Inflation, etc...
+
+I
+
+As time goes by... causal/dynamic/temporal effects
+
+I
+
+So, once upon a time... a time series lecture began!
+
+What is a Time Series?
+
+I
+
+A time series is a realization of a stochastic process
+
+I
+
+A stochastic process is a family of random variables
+fXt (ω ) , t 2 T, ω 2 Ωg
+
+I
+
+Examples: i.i.d., heteroscedastic, AR(p)
+
+Stochastic Processes
+
+I
+
+A stochastic process is a family of random variables
+fXt (ω ) , t 2 T, ω 2 Ωg
+
+I
+
+Fix t, then Xt (ω ): Ω ! R
+
+I
+
+Fix ω, then Xt (ω ): T ! R
+
+I
+
+Probabilistic framework for time series analysis
+
+Time Series Analysis
+I
+
+A time series is a realization of a stochastic process
+
+I
+
+A stochastic process is a family of random variables
+fXt (ω ) , t 2 T, ω 2 Ωg
+
+I
+
+Common features of economic time series:
+Dependent and heterogeneously distributed
+
+I
+
+Brockwell and Davis: “Introduction to time series and
+forecasting”
+
+Time Series Analysis
+
+I
+
+Common features of economic time series:
+Dependent and heterogeneously distributed
+
+I
+
+Need to relax the i.i.d. assumption
+
+I
+
+No identical distributions:
+e.g., trends (stochastic and/or deterministic)
+
+I
+
+No independently distributed:
+e.g., autocorrelation
+
+Macroeconomic Time Series
+I
+
+Real Consumption and Real GDP
+
+I
+
+U.S. Quarterly Data from the Federal Reserve Bank of St.
+Louis: 1947Q1-2015Q2
+
+Macroeconomic Time Series
+I
+
+Government Expenditures and Revenues
+
+I
+
+U.S. Quarterly Data from the Federal Reserve Bank of St.
+Louis: 1947Q1-2015Q2
+
+Macroeconomic Time Series
+I
+
+Unemployment Rate
+
+I
+
+U.S. Quarterly Data from the Federal Reserve Bank of St.
+Louis: 1948Q1-2015Q2
+
+Macroeconomic Time Series
+I
+
+FED Funds
+
+I
+
+U.S. Quarterly Data from the Federal Reserve Bank of St.
+Louis: 1954Q3-2015Q2
+
+Macroeconomic Time Series
+I
+
+Real Stock Prices and Real Dividends
+
+I
+
+U.S. Monthly Data from Robert Shiller: 1871m1-2012m6
+
+Time Series Analysis
+
+I
+
+Common features of economic time series:
+Dependent and heterogeneously distributed
+
+I
+
+Need to relax the i.i.d. assumption
+
+I
+
+No identical distributions:
+e.g., trends (stochastic and/or deterministic)
+
+I
+
+No independently distributed:
+e.g., autocorrelation
+
+Autocovariance and Autocorrelation Functions
+
+I
+
+The autocovariance function of a process Xt is
+γX (h) = Cov(Xt , Xt
+
+I
+
+h)
+
+= E[fXt
+
+E(Xt )gfXt
+
+h
+
+E(Xt
+
+The autocorrelation function of a process Xt is
+ρX (h) = Corr(Xt , Xt
+
+h)
+
+=p
+
+Cov(Xt , Xt h )
+p
+Var(Xt ) Var(Xt
+
+h)
+
+h )g]
+
+Sample Autocovariance and Autocorrelation
+Functions
+I
+
+The sample autocovariance is
+γ̂X (h) =
+
+T h
+1X
+(Xt+h
+T
+
+X̄T )(Xt
+
+X̄T )
+
+t=1
+
+I
+
+The sample autocorrelation is
+γ̂X (h)
+q
+V̂ (Xt ) V̂ (Xt
+
+ρ̂X (h) = q
+
+h)
+
+Time Series Analysis
+
+I
+
+Common features of economic time series:
+Dependent and heterogeneously distributed
+
+I
+
+Need to relax the i.i.d. assumption
+
+I
+
+Two key concepts (to start with):
+Stationarity and Ergodicity
+
+Relaxing identical distributions: Stationarity
+
+I
+
+Strict vs Weak Stationarity
+
+I
+
+Strict Stationarity: refers to join finite dimensional
+distributions
+
+I
+
+Weak Stationarity: refers to first and second moments
+(only): i.e., mean, variance/autocovariance
+
+Strict Stationarity
+
+I
+
+Strict Stationarity: The time series fXt , t 2 Zg is said to be
+strictly stationary if the joint distributions of (Xt1 , ..., Xtk )0
+0
+and Xt1+h , ..., Xtk+h are the same for all positive integers k
+and for all t1 , ..., tk , h 2 Z.
+
+Weak Stationarity
+
+I
+
+Weak Stationarity: The time series fXt , t 2 Zg is said to be
+weakly stationary if:
+(i) E [Xt ] = m for all t
+(ii) E Xt2 < ∞ for all t
+(iii) Cov (Xt , Xs ) = Cov (Xt+h , Xs+h ) for all t, s, h 2 Z
+
+Stationarity
+I
+
+Two notions of stationarity
+
+I
+
+Strict Stationarity: The time series fXt , t 2 Zg is said to be
+strictly stationary if the joint distributions of (Xt1 , ..., Xtk )0
+0
+and Xt1+h , ..., Xtk+h are the same for all positive integers k
+and for all t1 , ..., tk , h 2 Z.
+
+I
+
+Weak Stationarity: The time series fXt , t 2 Zg is said to be
+weakly stationary if:
+(i) E [Xt ] = m for all t
+(ii) E Xt2 < ∞ for all t
+(iii) Cov (Xt , Xs ) = Cov (Xt+h , Xs+h ) for all t, s, h 2 Z
+
+Strict vs Weak Stationarity
+I
+
+Strict Stationarity: refers to join finite dimensional
+distributions
+
+I
+
+Weak Stationarity: refers to first and second moments
+(only): i.e., mean, variance/autocovariance
+
+I
+
+In principle, neither concept implies each other; but...
+
+I
+
+If the first and second moments exist, then strict
+stationarity implies weak stationarity
+
+I
+
+The converse is not generally true but...
+
+Strict vs Weak Stationarity
+
+I
+
+Under Gaussianity both concepts coincide!
+
+I
+
+Definition: The process Xt is a Gaussian time series if and
+only if the distribution functions of Xt are all multivariate
+normal
+
+I
+
+If Xt is stationary Gaussian, then it is also strictly stationary
+
+Some Stationary Processes
+
+I
+
+iid
+
+I
+
+White Noise
+
+I
+
+MA(1)
+
+I
+
+AR(1)
+
+Some Non-stationary Processes
+
+I
+
+Deterministic Trends
+
+I
+
+Stochastic Trends:
+e.g., Random Walk
+
+I
+
+Deterministic and Stochastic Trends:
+e.g., Random Walk with Drift
+
+I
+
+Breaks
+
+Some Examples
+I
+
+Linear time trend
+xt = µ + βt + ut ; ut
+
+I
+
+i.i.d., AR(1)
+ut
+
+I
+
+i.i.d. (0, 1) ; xt = φxt
+
+1
+
++ ut ;
+
+jφj < 1
+
+Random Walk
+xt = xt
+
+I
+
+i.i.d. (0, 1)
+
+1
+
++ ut ; ut
+
+i.i.d. (0, 1) ; x0 = 0
+
+Random Walk with Drift
+xt = α + xt
+
+1
+
++ ut ; ut
+
+i.i.d. (0, 1) ; x0 = 0
+
+Deterministic Trend
+xt = µ + βt + ut ; ut
+
+i.i.d.N (0, 1)
+
+XDT
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+Random Walk with Drift
+xt = α + xt
+
+1
+
++ ut ; ut
+
+i.i.d.N (0, 1) ; x0 = 0
+XST
+
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+An i.i.d. process
+
+i.i.d. 0, σ2
+
+I
+
+Let ut
+
+I
+
+No trends. Example:
+xt = µ + ut
+
+I
+
+Stochastic Properties
+E [ xt ] = µ
+V [ xt ] = σ 2
+Cov [xt , xs ] = 0
+
+AR(1)
+i.i.d. 0, σ2
+
+I
+
+Let ut
+
+I
+
+No trends. Example:
+xt = µ + φxt
+
+I
+
+1
+
++ ut ;
+
+jφj < 1
+
+Stochastic Properties
+E [ xt ] =
+
+V [ xt ] =
+
+µ
+
+(1
+
+φ)
+
+σ2
+1 φ2
+
+Cov [xt , xs ] = φjt
+
+sj
+
+σ2
+1 φ2
+
+Linear Deterministic Trend
+
+i.i.d. 0, σ2
+
+I
+
+Let ut
+
+I
+
+Deterministic trends. Example:
+xt = µ + βt + ut
+
+I
+
+Stochastic Properties
+E [xt ] = µ + βt
+V [ xt ] = σ 2
+Cov [xt , xs ] = 0
+
+AR(1) with a Deterministic Trend
+i.i.d. 0, σ2
+
+I
+
+Let ut
+
+I
+
+Deterministic trends. Example:
+xt = µ + βt + φxt
+
+I
+
+1
+
++ ut ;
+
+jφj < 1
+
+Stochastic Properties
+E [xt ] =
+
+µ
+
+(1
+
+φβ
+φ)
+
+V [ xt ] =
+
+(1
+
+φ)
+
+2
+
++
+
+β
+
+(1
+
+σ2
+1 φ2
+
+Cov [xt , xs ] = φjt
+
+sj
+
+σ2
+1 φ2
+
+φ)
+
+t
+
+Random Walk
+i.i.d. 0, σ2
+
+I
+
+Let ut
+
+I
+
+Stochastic Trend. Example:
+xt = xt
+
+I
+
+1
+
++ ut ; x0 = 0
+
+Solving Backwards
+xt = xt
+
++ ut
+= xt 2 + ut 1 + ut
+= xt 3 + ut 2 + ut
+= ...
+t
+X
+= x0 +
+uj
+1
+
+j=1
+
+1
+
++ ut
+
+Random Walk
+I
+
+Stochastic Trend. Example:
+xt = xt
+
+1
+
++ ut ; ut
+
+i.i.d. (0, 1) ; x0 = 0
+
+xt = x0 +
+
+t
+X
+
+uj
+
+j=1
+
+I
+
+Stochastic Properties
+E [xt ] = x0 = 0
+V [ xt ] = σ 2 t
+Cov [xt , xs ] = min ft, sg σ2
+
+Random Walk with Drift
+i.i.d. 0, σ2
+
+I
+
+Let ut
+
+I
+
+Deterministic & Stochastic Trend. Example:
+xt = β + xt
+
+I
+
+1
+
++ ut ; x0 = 0
+
+Solving Backwards
+xt = β + xt
+
+=
+=
+=
+=
+
++ ut
+2β + xt 2 + ut 1 + ut
+3β + xt 3 + ut 2 + ut
+...
+t
+X
+tβ + x0 +
+uj
+1
+
+j=1
+
+1
+
++ ut
+
+Random Walk with Drift
+I
+
+Deterministic & Stochastic Trend. Example:
+xt = β + xt
+
+1
+
++ ut ; ut
+
+xt = x0 + βt +
+
+i.i.d. (0, 1)
+
+t
+X
+
+uj
+
+j=1
+
+I
+
+Stochastic Properties
+E [xt ] = x0 + βt
+V [xt ] = σ2 t
+Cov [xt , xs ] = min ft, sg σ2
+
+Some Non-stationary processes
+I
+
+Non-stationarities: Examples
+
+I
+
+Non-stationary in mean:
+xt = µ + βt + ut ; ut
+
+I
+
+ut , t < k
+µ + ut , t k
+
+Non-stationary in variance:
+xt = xt
+
+I
+
+i.i.d.N (0, 1) or xt =
+
+1
+
++ ut ; ut
+
+i.i.d. (0, 1)
+
+Non-stationary in mean and variance:
+xt = β + xt
+
+1
+
++ ut ; ut
+
+i.i.d. (0, 1)
+
+Time Series Analysis
+
+I
+
+Common features of economic time series:
+Dependent and heterogeneously distributed
+
+I
+
+Need to relax the i.i.d. assumption
+
+I
+
+Two key concepts (to start with):
+stationarity and ergodicity
+
+Dependence: Ergodicity
+
+I
+
+Ergodicity is a tricky business
+
+I
+
+Technically, it is a highly abstract concept
+
+I
+
+These technicalities are beyond the scope of these lectures
+
+I
+
+We will intuitively discuss ergodicity
+
+Dependence: Ergodicity
+
+I
+
+The idea is to allow as much dependence/memory as the
+Law of Large Numbers allows
+
+I
+
+Law of Large Numbers: For a process Xt , we want to
+estimate E(Xt ) = µ
+
+I
+
+Stationarity is not enough (example: Yt = Z + Ut where
+Z N (0, 1), Ut i.i.d.N (0, 1) and Z is independent of Ut )
+
+I
+
+Ergodicity Asymptotic independence (today’s events
+have no impact on sufficiently distant events)
+
+Dependence: Ergodicity
+I
+
+The idea is to allow as much dependence/memory as the
+Law of Large Numbers allows
+
+I
+
+Law of Large Numbers: For a process Xt , we want to
+estimate E(Xt ) = µ
+
+I
+
+Ensemble Average: (cross-section-like)
+N
+1 X
+Xit
+N
+i=1
+
+I
+
+Temporal Average: (time-series-like)
+T
+1X
+Xit
+T
+t=1
+
+Dependence: Ergodicity
+I
+
+Ensemble Average: (cross-section-like)
+N
+1 X
+Xit
+N
+i=1
+
+I
+
+Temporal Average: (time-series-like)
+T
+1X
+Xit
+T
+t=1
+
+I
+
+In time series we have to work with the temporal average.
+Under which conditions this is a good choice?
+
+I
+
+Ergodicity: does the temporal average converge to the
+same limit as the ensemble average E(Xt ) = µ?
+
+Dependence: Ergodicity
+I
+
+Ergodicity for the mean: A covariance stationary process is
+ergodic for the mean if
+T
+p
+1X
+Xt ! E(Xt ) = µ
+X̄T =
+T
+t=1
+
+I
+
+Recall: Mean square convergence implies convergence in
+probability
+1
+Var(X̄T ) = 2
+T
+
+I
+
+( T
+X
+t=1
+
+Var(Xt ) + 2
+
+T 1 X
+T
+X
+
+t=1 s=t+1
+
+Cov(Xt , Xs )
+
+)
+
+SufficientPcondition for ergodicity of a weakly stationary
+process: h∞=0 jγ(h)j < ∞ (see Hamilton, p. 47)
+
+Asymptotic Theory
+
+I
+
+Limit Theorems for dependent and/or heterogeneously
+distributed observations
+
+I
+
+Law of Large Numbers
+
+I
+
+Central Limit Theorem
+
+I
+
+See for instance White (1984): “Asymptotic Theory for
+Econometricians”
+
+

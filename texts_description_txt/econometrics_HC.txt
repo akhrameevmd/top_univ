@@ -1,0 +1,7 @@
+ECON3121 INTRODUCTORY ECONOMETRICS
+This course studies the basic econometric theory and the application of econometric methods to actual economic data. The emphasis is on explaining basic ideas behind formulas and rules. Topics covered are: basic concepts of statistical inference; estimation and inference for the general linear statistical model; stochastic regressors; heteroscedasticity; disturbance related sets of regression equations; multicollinearity; autocorrelation; and specification, identification and estimation of simultaneous equation models. Students are advised to take ECON2121 before taking this course.
+ECON2121 METHODS OF ECONOMIC STATISTICS
+This course studies basic statistical concepts and their applications. Major topics include: descriptive statistics; probability distributions; sampling; estimation; hypothesis testing; regression and correlation analysis. Students should have knowledge of elementary differential and integral calculus, and are advised to take ECON1111 before taking this course. (Not for students who have taken, or are currently taking DSME2010, DSME2011, SEEM2430, STAT2006 or STAT2101.)
+ECON4120 APPLIED FORECASTING METHODS
+This course focuses on the estimation and inference of modern econometric forecasting models. Topics include the ARMA model, forecasting trends and seasonality, combination of forecasts, and evaluation of forecasts. Students are advised to take ECON2021 and 3121 before taking this course.
+

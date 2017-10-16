@@ -1,0 +1,364 @@
+The Medium Run
+14.02 Notes
+
+1
+
+March 17, 2014
+
+1 These
+
+slides are NOT a substitute for chapters 6 to 9 of the book. They are meant
+to give you a more coincise and analytical presentation of the the Medium Run Model
+but many aspects of the model that are discussed in the book are not in these slides,
+and we shall assume you have read the book.
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+1 / 18
+
+The Short Run
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+2 / 18
+
+How bad is the assumption that prices don’t move? Not
+too bad in the short run: 4 to 6 quarters.
+
+© Pearson. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+3 / 18
+
+The Medium Run
+Think about what happens when …rms respond to an increase in
+demand by increasing production
+Higher production will lead to higher employment
+Higher employment will lead to lower unemployment
+Lower unemployment will lead to higher wages
+Higher wages will increase production costs, leading …rms to raise
+prices
+Higher prices will lead workers to ask for higher wages
+Higher wages will lead to further increases in prices
+and so on ...
+So far we assumed P = 1
+We now move away from this assumption
+To understand how the sequqnce of events described above happens
+we need to undertsand
+I how the labor market works: employm
+! unempl ! wages
+I
+
+how …rms set prices given production costs
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+4 / 18
+
+Population, Labor force, Employment and Unemployment
+in the US (2010)
+
+Population: 308.7 million
+Non institutionalized civilian population: 237.8 million
+I
+
+Out of the labor force: 84.0 million
+
+I
+
+Civilian labor force: 153.8 million
+F
+F
+
+14.02 Notes
+
+Employment: 139 million
+Unemployed: 14.8 million
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+5 / 18
+
+Labor market ‡ows: measurement
+The Current Population Survey (CPS), is a monthly sample survey of
+approximately 60,000 households.
+Each month, the CPS is administered to about 40.000 households that were
+also in the survey during the previous month.
+The other 20.000 consists of new households
+The month-to-month overlap allows the Bureau of Labor Statistics to track
+individuals who change labor force status from one month to the next
+
+Figure is in the public domain courtesy of the Bureau of Labor Statistics.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+6 / 18
+
+Labor market ‡ows
+
+Figure is in the public domain courtesy of the Bureau of Labor Statistics.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+7 / 18
+
+Labor market ‡ows
+
+Figure is in the public domain courtesy of the Bureau of Labor Statistics.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+8 / 18
+
+Average monthly worker ‡ows, 1996-2003
+
+Courtesy of Steven J. Davis, R. Jason Faberman, John Haltiwanger,
+and the American Economic Association. Used with permission.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+9 / 18
+
+Job creation and job destruction over the cycle
+
+Courtesy of Steven J. Davis, R. Jason Faberman, John Haltiwanger,
+and the American Economic Association. Used with permission.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+10 / 18
+
+Hires, separations, quits and layo¤s over the cycle
+
+Figure is in the public domain courtesy of the Bureau of Labor Statistics.
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+11 / 18
+
+Labor force participation in a boom and in a recession
+
+"Data Source: FRED, Federal Reserve Economic Data, Federal Reserve Bank of St. Louis: Civilian Labor Force
+Participation Rate; U.S. Department of Commerce: Bureau of Economic Analysis;
+accessed September 9, 2014."
+
+"Data Source: FRED, Federal Reserve Economic Data, Federal Reserve Bank of St. Louis: Civilian Labor Force Participation Rate;
+U.S. Department of Commerce: Bureau of Economic Analysis; http://research.stlouisfed.org; accessed September 9, 2014."
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+12 / 18
+
+How are wages and prices set
+wage setting
+
+W = P e F (u, z )
+Let’s assume for the time being P e = P , so that dividing by P we get the real
+wage W /P
+
+W
+= F (u, z ),
+P
+
+Fu  0, Fz  0
+
+price setting: start from the production fct assuming only one factor, N and
+constant returns to scale, so that marginal cost is W
+
+Y =N
+P = (1 + m )W
+W
+1
+=
+P
+1+m
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+13 / 18
+
+Wages, prices and the "natural" rate of unemployment
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+14 / 18
+
+An increase in the generosity of unemployment bene…ts
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+15 / 18
+
+Higher competition (lower mark-ups) reduce the natural
+rate of u
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+16 / 18
+
+Model 3: a macroeconomic model of the Medium Run
+Aggregate supply (for given P e )
+I
+
+I
+
+wage determination
+
+W = P e F (u, z )
+
+price determination
+P = (1 + m )W
+
+P = P e (1 + m )F (u, z )
+Going from u to Y
+u=
+
+U
+L N
+=
+=1
+L
+L
+
+N
+=1
+L
+
+Y
+L
+
+Price setting (for given P e )
+P = P e (1 + m )F (1
+14.02 Notes
+
+()
+
+The Medium Run
+
+Y
+, z)
+L
+March 17, 2014
+
+17 / 18
+
+Model 3: a macroeconomic model of the Medium Run
+
+Aggregate demand
+M
+= YL(i )
+P
+
+14.02 Notes
+
+()
+
+The Medium Run
+
+March 17, 2014
+
+18 / 18
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

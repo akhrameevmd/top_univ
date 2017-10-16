@@ -1,0 +1,18 @@
+ECON UN2257 Global Economy.
+Prerequisites: ECON W1105.
+
+Covers five areas within the general field of international economics: (i) microeconomic issues of why countries trade, how the gains from trade are distributed, and protectionism; (ii) macroeconomic issues such as exchange rates, balance of payments and open economy macroeconomic adjustment,
+ (iii) the role of international institutions (World Bank, IMF, etc); (iv) economic development and (v) economies in transition.
+
+ECON UN3213 Intermediate Macroeconomics. 
+Prerequisites: MATH UN1101 and ECON UN1105 ECON W1105 or the equivalent; MATH V1101 or MATH V1207.
+Corequisites: MATH UN1201
+
+This course covers the determination of output, employment, inflation and interest rates. Topics include economic growth, business cycles, monetary and fiscal policy, consumption and savings and national income accounting. 
+ Prerequisite Courses: ECON UN1105 and MATH UN1101.  Co-requisite Course:  MATH UN1201
+
+ECON GU4213 Advanced Macroeconomics. 
+Prerequisites: ECON W3211, W3213, W3412 and MATH V2010.
+
+An introduction to the dynamic models used in the study of modern macroeconomics. Applications of the models will include theoretical issues such as optimal lifetime consumption decisions and policy issues such as inflation targeting. 
+This course is strongly recommended for students considering graduate work in economics.

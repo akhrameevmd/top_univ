@@ -1,0 +1,783 @@
+Microeconometrics
+Preliminaries
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas Term 2016
+
+Microeconometric Analysis
+I
+
+Microeconometric Analysis: “The analysis of
+individual-level data on the economic behavior of
+individuals or firms,” Cameron and Trivedi, 2005
+
+I
+
+Microeconomic Data: cross-sections or panel data
+
+I
+
+Cross-sectional Data: “consists of a sample of individuals
+taken at a given point in time,” Wooldrige, 2013
+
+I
+
+Panel Data: “A panel data (or longitudinal data) set
+consists of a time series for each cross-sectional member in
+the data set,” Wooldrige, 2013
+
+I
+
+In this course: Cross-sectional data
+
+Cross-sectional Data
+I
+
+Cross-sectional data. Examples:
+
+I
+
+California Test Score: (Stock and Watson, 2012)
+Data : tscorei , stri , exp eni , engi
+
+I
+
+Wage Equations: (Wooldrige, 2013)
+Data : wi , educi , exp eri , femalei , marriedi
+
+I
+
+Labor Force Participation: (Wooldrige, 2013)
+Data : inlfi , nwifeinci , educi , exp eri , agei , kidslt6i , kidsge6i
+
+I
+
+Crime: (Wooldrige, 2013)
+Data : crimei , wagei , othinci , freqarri , freqconvi , avgseni , agei
+
+Cross-sectional Data: California Test Score
+
+I
+
+California Test Score: Data: Stock and Watson (p. 51)
+I
+I
+I
+I
+
+tscorei : average of the math and science test scores for all
+fifth grades in 1999 in district i
+stri : average student-teacher ratio in district i
+exp eni : average expenditure per pupil
+engi : percentage of students still learning English
+
+Cross-sectional Data: Wage Equations
+
+I
+
+Wage Equations: Data: Wooldrige (p. 218)
+I
+I
+I
+I
+I
+
+wi : hourly wage
+educi : years of formal education
+exp eri : years of workforce experience
+femalei : 1 if person i is female, otherwise
+marriedi : 1 if person i is married, otherwise
+
+Cross-sectional Data: Labor Force Participation
+
+I
+
+Labor Force Participation: Data: Wooldrige (p. 239)
+I
+I
+I
+I
+I
+I
+
+inlfi : 1 if woman i reports working for a wage outside the
+home, 0 otherwise
+nwifeinci : husband’s earnings
+educi : years of education
+exp eri : past years of labor market experience
+kidslt6i : number of children less than six years old
+kidsge6i : number of kids between 6 and 18 years of age
+
+Cross-sectional Data: Crime Data
+
+I
+
+Crime: Data: Wooldrige (p. 4, 78,172, 295, 583)
+I
+I
+I
+I
+I
+I
+
+crimei : some measure of the frequency of criminal activity
+Ex: narr86i : number of times a man was arrested
+pcnvi : proportion of prior arrests leading to conviction
+tottimei : total time the man has spent in prison prior to 1986
+since reaching the age of 18
+ptime86i : months spent in prison in 1986
+qemp86i : number of quarters in 1986 during which the man
+was legally employed
+
+Databases
+Some Sources of Microdata: Cameron and Trivedi (2005) p.58
+I
+
+Panel Study in Income Dynamics (PSID)
+
+I
+
+Current Population Survey (CPS)
+
+I
+
+National Longitudinal Survey (NLS)
+
+I
+
+National Longitudinal Surveys of Youth (NLSY)
+
+I
+
+Survey of Income and Program Participation (SIPP)
+
+I
+
+Health and Retirement (HRS)
+
+I
+
+World Bank’s Living Standards Measurement Study
+(LSMS)
+
+I
+
+Data clearinghouses
+
+I
+
+Journal data archives
+
+Students Resources
+Some Students Resources:
+I
+
+Stock and Watson:
+I
+I
+
+Stock: http://scholar.harvard.edu/stock/home
+Watson: http://www.princeton.edu/~mwatson/
+
+I
+
+Wooldrige: http://econ.msu.edu/faculty/wooldridge/
+
+I
+
+Greene: http://people.stern.nyu.edu/wgreene/
+
+I
+
+Cameron and Trivedi:
+I
+I
+
+Cameron: http://cameron.econ.ucdavis.edu/
+Trivedi: http://pages.iu.edu/~trivedi/
+
+Microeconometric Analysis: Regressions
+
+What is it usually done with a dataset, yi , x1i , x2i , ..., xki , in
+microeconometrics?
+REGRESSIONS
+
+“In modern microeconometrics the term regression
+refers to a bewildering range of procedures for studying the
+relationship between an outcome variable y and a set of
+regressors x.” Cameron and Trivedi (2005) p.66
+
+Motivating Regressions
+Conditional Prediction of y given x. (CT, 2005 p.66)
+I
+
+Loss function
+L (e) = L (y
+
+h (x))
+
+where h (x) denotes the predictor defined as a function of
+x, e = y h (x) is the prediction error and L (e) is the loss
+associated with the error e.
+I
+
+Expected Loss:
+E [L (y
+
+I
+
+h (x)) jx]
+
+Optimal Predictor
+minE [L (y
+h(x)
+
+h (x)) jx]
+
+Motivating Regressions: Mean-square error loss
+I
+
+The choice of the loss function depends on the nature of
+the problem being studied
+
+I
+
+The quadratic loss function is often used in econometrics:
+h
+i
+E [L (y h (x)) jx] = E e2 jx
+
+I
+
+Important: For the mean-square error loss function the
+optimal predictor is the conditional expectation E [yjx], i.e.
+if
+h
+i
+minE (y h (x))2 jx
+h(x)
+
+then h (x) = E [yjx]
+
+Motivating Regressions: Mean-square error loss
+
+I
+
+Two approaches: Nonparametric or Parametric E [yjx]
+
+I
+
+In this course, we will specify a parametric model for
+E [yjx] = g (x, β) where β needs to be estimated
+
+Motivating Regressions: Mean-square error loss
+
+I
+
+Sample Analog
+n
+
+1X
+L ( ei )
+n
+i=1
+
+I
+
+For the mean-square error loss function:
+n
+
+n
+
+n
+
+1X 2
+1X
+1X
+L (ei ) =
+ei =
+( yi
+n
+n
+n
+i=1
+
+i=1
+
+g (xi , β))2 ,
+
+i=1
+
+and the β that minimizes it is known as least squares. If g
+is linear, then it known as ordinary least squares
+
+Motivating Regressions: Absolute error loss
+
+I
+I
+I
+
+Absolute error loss: L (e) = jej
+Optimal predictor: med [yjx]
+If med [yjx] = xβ, then
+n
+X
+
+L (ei ) =
+
+i=1
+
+n
+X
+i=1
+
+jyi
+
+xi β j
+
+and the β that minimizes it is known as the least absolute
+deviations estimator
+I
+
+Robustness (outliers)
+
+Motivating Regressions: Asymmetric absolute error
+loss
+I
+I
+I
+I
+
+Asymmetric absolute error loss: penalty of (1
+overprediction and α jej on underprediction
+
+α) jej on
+
+α 2 (0, 1) and α = 0.5 implies symmetry
+
+Optimal predictor: Conditional quantile: qα [yjx]
+Basis for Quantile Regressions:
+n
+X
+i=1
+
+L (ei ) =
+
+n
+X
+
+i:yi xi β
+
+α j yi
+
+xi βα j +
+
+n
+X
+
+i:yi <xi β
+
+(1
+
+α ) j yi
+
+xi βα j
+
+and the βα that minimizes it is known as the αth quantile
+regression estimator. For α = 0.5, we get the median
+regression estimator or least absolute deviations estimator
+described above.
+
+Motivating Regressions: Conditional Expectation
+
+I
+
+Main focus of this course: Conditional Expectation: E [yjx]
+y = E [yjx] + u
+
+I
+
+E [yjx] linear: Example: Linear wage equation
+E [wagejx] = β0 + β1 educ + β2 exper + β3 female
+
+I
+
+E [yjx] is nonlinear. Example: Poisson Regression for
+number of arrests
+E [narr86jx] = exp ( β0 + β1 pcnv + β2 avgsen + β3 tottime)
+
+Conditional Expectations Review
+Definition: Conditional Expectation (Bivariate case): Let Y and X
+be random variables with joint density function f (x, y). Let the
+conditional density function of Y given x 2 B be f (yjx 2 B). Let
+g (Y) be a real-valued function of Y. Then the conditional
+expectation of g (Y) given x 2 B, is defined as
+(i) Discrete case
+X
+E [g (Y ) jx 2 B] =
+g (Y ) f (yjx 2 B)
+y2R(Y )
+
+(ii) Continuous case
+E [g (Y ) jx 2 B] =
+
+Z
+
+(Mittelhammer (2013) p. 125)
+
+∞
+∞
+
+g (Y) f (yjx 2 B) dy
+
+Conditional Expectations Review
+Definition: Conditional Density Function (Bivariate case): Let Y
+and X be random variables with joint density function f (x, y)
+and let fX (x) be the marginal density function of X. The
+conditional density of Y given x 2 B is
+f (yjx 2 B) =
+
+f (x 2 B, y)
+fX ( x 2 B )
+
+Definition: Marginal Density Function (Bivariate case): Let Y and
+X be random variables with joint density function f (x, y). The
+marginal density function of X is
+P
+y2R(Y) f (x, y) discrete case
+R
+fX ( x ) =
+∞
+∞ f (x, y) dy continuous case
+
+Conditional Expectations Review
+
+Example: (Mittelhammer, p. 82)
+I
+
+A company has two processing plants, plant 1 and plant 2.
+The proportion of processing capacity at which each of the
+plants operates on any given day is the outcome of a
+bivariate random variable
+
+I
+
+Joint density function:
+f (x1 , x2 ) = (x1 + x2 ) I[0,1] (x1 ) I[0,1] (x2 )
+
+Conditional Expectations Review
+I
+
+Marginal for X1 : Integrate out x2 from f (x1 , x2 ) as
+Z ∞
+f (x1 , x2 ) dx2
+f1 (x1 ) =
+∞
+Z ∞
+=
+(x1 + x2 ) I[0,1] (x1 ) I[0,1] (x2 ) dx2
+
+=
+
+Z
+
+∞
+1
+
+0
+
+(x1 + x2 ) I[0,1] (x1 ) dx2
+
+=
+
+x1 x2 +
+
+=
+
+1
+x1 +
+2
+
+x22
+2
+
+1
+
+I[0,1] (x1 )
+
+I[0,1] (x1 )
+
+0
+
+Conditional Expectations Review
+
+I
+
+Conditional density function of plan 1’s capacity given
+that plant 2 operates at less than half of capacity
+f (x1 jx2
+
+0.5) =
+
+=
+=
+
+R 0.5
+
+∞ f (x1 , x2 ) dx2
+R 0.5
+∞ f2 (x2 ) dx2
+
+R 0.5
+
+(x1 + x2 ) I[0,1] (x1 ) dx2
+R 0.5
+x2 + 21 dx2
+0
+4
+1
+x1 +
+I
+( x1 )
+3
+3 [0,1]
+
+0
+
+Conditional Expectations Review
+I
+
+What about: Conditional density function for plant 1’s
+capacity given that plant 2’s capacity proportion is
+x2 = 0.75?
+R 0.75
+f (x1 , x2 ) dx2
+0
+=
+f (x1 jx2 = 0.75) = 0.75
+R 0.75
+0
+f2 (x2 ) dx2
+0.75
+
+I
+
+In that case, by an approximation argument (see
+Mittelhammer p.88),
+f (x1 jx2 = 0.75) =
+
+=
+=
+
+f (x1 , 0.75)
+f2 (0.75)
+(x1 + 0.75) I[0,1] (x1 )
+1.25
+3
+4
+x1 +
+I
+( x1 )
+5
+5 [0,1]
+
+Conditional Expectations Review
+
+I
+
+Conditional Expectation of X1 given x2 = 0.75?
+Z ∞
+E [X1 jx2 = 0.75] =
+x1 f (x1 jx2 = 0.75) dx1
+
+=
+
+Z
+
+∞
+1
+
+0
+
+=
+
+17
+30
+
+x1
+
+4
+3
+x1 +
+5
+5
+
+dx1
+
+Conditional Expectations Review
+I
+
+Conditional Expectation of X1 as a function of x2 :
+Z ∞
+x1 f (x1 jx2 ) dx1
+E [X1 jx2 ] =
+∞
+Z ∞
+f ( x1 , x2 )
+=
+x1
+dx1
+f2 ( x 2 )
+∞
+Z 1
+(x1 + x2 ) I[0,1] (x2 )
+x1
+=
+dx1
+x2 + 12 I[0,1] (x2 )
+0
+"
+#
+1
+1
+x
++
+2
+2
+3
+=
+for x2 2 [0, 1]
+x2 + 12
+
+I
+
+When evaluated at x2 = 0.75 same result as above
+
+Motivating Regressions: Conditional Expectation
+I
+
+Main focus of this course: Conditional Expectation: E [yjx]
+y = E [yjx] + u
+
+I
+
+First part of the course E [yjx] linear: Example: Linear
+wage equation
+E [wagejx] = β0 + β1 educ + β2 exper + β3 female
+
+I
+
+Second part of the course E [yjx] is nonlinear. Example:
+Poisson Regression for number of arrests
+E [narr86jx] = exp ( β0 + β1 pcnv + β2 avgsen + β3 tottime)
+
+Conditional Expectations Review
+
+Conditional Expectation, E [yjx], Properties:
+(Wooldrige 2010, p. 30)
+1. The conditional expectation is a linear operator: Let x and y
+be two random scalars and a (x) and b (x) two scalar functions
+of x. Then,
+E [a (x) y + b (x) jx] = E [a (x) yjx] + E [b (x) jx] = a (x) E [yjx] + b (x)
+provided that E (jyj) < ∞, E (ja (x) yj) < ∞, and
+E (jb (x)j) < ∞.
+
+Conditional Expectations Review
+
+1. (General) The conditional expectation is a linear operator:
+Let a1 (x) , ..., aG (x) and b (x) be scalar functions of x, and let
+y1 , ..., yG be random scalars. Then,
+2
+3
+G
+G
+X
+X
+4
+5
+E
+aj ( x ) yj + b ( x ) j x =
+aj ( x ) E yj j x + b ( x )
+j=1
+
+provided that E yj
+E (jb (x)j) < ∞.
+
+j=1
+
+< ∞, E aj (x) yj
+
+< ∞, and
+
+Conditional Expectations Review
+2. Law of Iterated Expectations: (Simplest case):
+E (y) = E [E (yjx)]
+
+3. Law of Iterated Expectations: (General case):
+E [yjx] = E [E (yjw) jx]
+where x and w are vectors with x = f (w) for some
+nonstochastic function f (.).
+
+Conditional Expectations Review
+
+4. If f (x) 2 RJ is a function of x such that E [yjx] = g (f (x)) for
+some scalar function g (.), then
+E [yjf (x)] = E [yjx]
+
+5. If the vector (u, v) is independent of the vector x, then
+E [ujx, v] = E [ujv]
+
+Conditional Expectations Review
+6. If u
+
+y
+
+E [yjx], then
+E [g (x) u] = 0
+
+for any function g (x), provided that E gj (x) u < ∞,
+j = 1, ..., J, and E (juj) < ∞. In particular, E (u) = 0 and
+Cov xj , u = 0, j = 1, ..., K.
+7. Conditional Jensen’s Inequality: If c : R ! R is a convex
+function defined on R and E (jyj) < ∞, then
+c (E [yjx])
+
+E [c (y) jx]
+
+Conditional Expectations Review
+
+8. If E y2 < ∞ and µ (x)
+
+E [yjx], then µ is a solution to
+i
+h
+minE (y m (x))2
+
+m2M
+
+where
+Miis the set of functions m : RK ! R such that
+h
+E m (x)2 < ∞. (That is E [yjx] is the best mean square
+predictor of y given x)
+
+Motivating Regressions: Conditional Expectation
+
+I
+
+Main focus: Conditional Expectation: E [yjx]
+y = E [yjx] + u
+
+I
+
+E [yjx] linear: Example: Linear wage equation
+E [wagejx] = β0 + β1 educ + β2 exper + β3 female
+
+I
+
+E [yjx] is nonlinear. Example: Poisson Regression for
+number of arrests
+E [narr86jx] = exp ( β0 + β1 pcnv + β2 avgsen + β3 tottime)
+
+

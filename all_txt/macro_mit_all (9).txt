@@ -1,0 +1,209 @@
+Time Inconsistency and the Inﬁation Bias
+Notes for 14.02 Spring 2014
+
+∗
+
+April 29 2014
+
+Abstract
+
+Start from the Phillips curve
+y = yn + b(π − π e )
+where b is a positive parameter. Assume the central bank can directly control inﬁation, π.
+It decides the optimal inﬁation rate by minimizing a quadratic loss function deﬁned in terms of
+deviations of inﬁation from a target π ∗ and of output, y, also from a target, which we assume to
+be k times yn , the level of output in the medium run equilibrium. This loss function represents
+society’s well being: the smaller the loss, the better oﬀ is society
+�
+�
+L = 1/2 a (π − π ∗ )2 + (y − kyn )2
+
+with a a positive parameter that describes the relative weight the central bank attaches to
+deviations from its two objectives. k > 1: the central bank wishes to keep y above yn 1 . As we
+shall see it is precisely this incentive that creates an inﬁationary bias.
+Replacing the Phillips curve in the central bank loss function and assuming for simplicity π ∗ =
+02 .
+L = 1/2
+
+��
+�
+�
+aπ 2 + [(1 − k) yn + b(π − π e )]2
+
+We now compute three diﬀerent solutions to this model of output and inﬁation.
+∗
+
+These notes are an extension (not a substitute) of Chapter 24.
+Why would the central bank aim at a level of y > yn ? It might want to do so if it thinks that some ineﬃ ciency,
+for instance imperfect competition among ﬁrms, depresses output in the medium run equilibrium. If this happens
+the obvious question is why wouldn’t you want to address such ineﬃ ciencies directly (e.g. using anti-trust policy),
+rather than through monetary policy. Here we assume that the central bank takes upon itself to address the eﬀects
+of such ineﬃ ciencies.
+2
+The level of the inﬁation target, π ∗ , is in general irrelevant. It becomes relevant if we worry about the possibility
+of the economy being stuck at the Zero Lower Bound, that is when the nominal interest falls to zero and can no
+longer be reduced. Since the nominal interest rate is equal to the real interest rate plus expected inﬁation, the higher
+expected inﬁation —which is equal to π ∗ in the medium run —the higher the medium run nominal rate and thus the
+less likely it will fall to zero.
+1
+
+1
+
+
+1. Discretionary solution
+To determine the optimal inﬁation rate the central bank will choose we take the partial derivative
+of L with respect to π and set it equal to zero. max{π} L yields
+dL
+= aπ + b [(1 − k) yn + b(π − π e )] = 0
+dπ
+
+from which the optimal inﬁation rate – for any given level of π e – is
+
+πD =
+
+b
+[bπ e + (k − 1) yn ]
+a + b2
+
+Assume, for example, for π e = 0, then
+
+b
+(k − 1) yn > π e = 0
+a + b2
+a + kb2
+=
+yn
+a + b2
+
+πD =
+yD
+
+where yn < y D < kyn
+and
+LD = (k − 1)2 yn2
+
+a
+a + b2
+
+We identify this solution with the superscript D to indicate that this is a discretionay solution,
+that is a solution in which the central bank does not commit to keeping π at any particular level:
+it freely chooses the level of π that minimizes L once private sector expectations have been set –
+for example, once nominal wage contracts have been signed based on a given π e .
+In the discretionary solution the central bank pays a cost in terms of inﬁation, which end up
+above zero, and gains something in terms of output which is higher then yn , though not as high as
+kyn .
+The discretionary solution is not an equilibrium because π e = π D . In other words, it is not an
+equilibrium because the private sector is fooled. For instance they expect π e = 0 while instead
+it turns out that the central bank – exploiting the fact that once the private sector chooses π e
+it is stuck with it, for instance because nominal wage contracts are ﬁxed for some time – sets
+πD =
+
+b
+a+b2
+
+(k − 1) yn > 0.
+
+2. Rational expectations
+We now compute the rational expectations equilibrium, that is a solution in which π = π e .
+Under the assumption of rational expectations the private sector forms its expectations taking into
+account the fact that the central bank will respond to any value of π e they choose, setting
+πD =
+
+b
+[bπ e + (k − 1) yn ]
+a + b2
+
+2
+
+
+Thus they will choose π e = π D , and that the rational expectations value of π e will be
+e
+πRE = πRE
+=
+
+b
+(k − 1) yn
+a
+
+In the rational expectations equilibrium
+yRE = yn
+and the loss is
+LRE = (k − 1)2
+
+a + b2 2
+yn > LD
+a
+
+3. Commitment
+Assume the central bank commits to keep π = π ∗ = 0 and not to move π after inﬁation
+expectations have been set. In this case
+
+πC = πe = 0
+y C = yn
+LC = (k − 1)2 yn2 > LD
+Time Inconsistency
+Note that LC > LD . The central bank’s commitment not to deviate from π = 0 once expectations have been set (based on the announcement of π = 0), is time inconsistent: by reneging on its
+promise the central bank would reduce the loss, i.e. would make everyone better oﬀ.
+The bottom line is that neither π D nor π C are equilibria and the only equilibrium is the rational
+expectation equilibrium πRE with yRE = yn and
+LRE > LC > LD
+Figure 1 shows the various solutions graphically.
+Society would be better oﬀ if the central bank was able to commit to π = 0 (notice that this
+holds for any inﬁation target π ∗ , not only for π = 0) and were prevented from re-optimizing once
+inﬁation expectations are set. But we’ve just seen that commitment is time inconsistent3 . So what
+can be done?
+Tying the hands of the central bank
+3
+
+You will recognize this problem as a manifestation of the prisoner dilemma studied in game theory.
+
+3
+
+
+One solution consists in tying the hands of the central bank limiting its discretion. For instance
+writing in the Constitution that the central bank should only care about inﬁation, that is minimize
+L = 1/2 (π − π ∗ )2
+
+Where the only solution is π = π ∗ . This is in fact what the statutes of many central banks say
+(e.g. the European Central Bank, the Swedish Riksbank, the central banks of Norway, Australia
+and New Zealand) but not the US Federal Reserve. The law that created the Fed – the Federal
+Reserve Act od 1913 – says it should care about both inﬁation and output ﬁuctuations, that is
+minimize
+
+h�
+�i
+L = 1/2 a (π − π ∗ )2 + (y − yn )2
+
+How do central banks behave in practice? The Taylor rule
+Go back to the Phillips curve and re-write it as
+π = π e + β (y − yn )
+or
+π − π e = β (y − yn )
+If the central bank was able to keep π = π e = π ∗ , then y = yn . The central bank gives up the
+attempt to move y away from yn (i.e. it sets k = 0), but at least achieves its inﬁation target. This
+is probably the reasonable thing to do. The central bank has only one instrument, the interest rate:
+with one instrument it can hardly achieve two objectives, π = π ∗ and y = kyn .
+Assume you start from π = π e = π ∗ , and y = yn . Now assume that some shock moves π e away
+from π ∗ , e.g. π e > π ∗ . If the central bank maintains π = π ∗ , since π − π e = β (y − yn ) , y < yn ,
+output will fall below the natural rate. This may not be optimal, i.e. it may be better to let π
+
+deviate for some time from π ∗ and limit the fall in output below yn . This can be done setting
+the interest rate following this rule (often referred to as the Taylor Rule from Stanford university
+economist John Taylor)
+i = i∗ + γ (π e − π ∗ ) + δ (y − yn )
+where the parameters γ and δ describe the relative weights the central bank assigns to deviations
+of output and inﬁation from their targets and i∗ = r∗ + π ∗ is the nominal interest rate target for a
+targer real rate r∗ .
+This is how some central banks, e.g. the Federal Reserve, set monetary policy.
+
+4
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

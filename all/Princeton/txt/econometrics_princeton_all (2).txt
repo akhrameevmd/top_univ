@@ -1,0 +1,132 @@
+Department of Economics
+Princeton University
+
+Economics 302
+
+Econometrics
+Syllabus, Fall 2017
+Lectures:
+
+MW 1:30-2:50PM, Frist Campus Center 302
+
+Professor:
+
+Kirill Evdokimov, 279 JRRB
+Office Hours: T 1:45-2:30PM and W 2:50-3:50PM
+(please schedule the meetings via http://wass.princeton.edu)
+Email: kevdokim@princeton.edu
+
+Precepts:
+
+M7:30PM x2, T10:00AM x2, and T11:00AM
+
+Preceptors:
+
+Dmitry Mukhin
+Andrei Zeleneev
+
+Web-page:
+
+http://blackboard.princeton.edu
+
+(mukhin@princeton.edu, office hours TBA)
+(zeleneev@princeton.edu, office hours TBA)
+
+Description/Objectives:
+This course is an introduction to econometrics. Econometrics is a sub-discipline of statistics that
+provides methods for inferring economic structure from data. This course has two goals. The
+first goal is to give you means to evaluate an econometric analysis critically and logically.
+Second, you should be able to analyze a data set methodically and comprehensively using the
+tools of econometrics.
+
+Prerequisites:
+
+
+
+ECO 202 or ORF 245
+MAT 103
+
+Textbook:
+Stock and Watson, Introduction to Econometrics, “3rd edition” or “Update (3rd edition)”.
+
+Requirements/Grading:
+Final Exam: 50%
+There will be a three-hour final exam (to be scheduled by the Office of the Registrar).
+Midterm: 25%
+The midterm will take place in-class on Wednesday, October 25. The midterm test is required. If
+a student misses the midterm test with his/her Dean’s approval the final exam will be
+reweighted appropriately.
+Problem Set(s): 25%
+There will be a number of problem sets (approximately one per week), which will count toward
+25% of your final grade. You may work with other students on the problem sets, but the
+answers you submit must represent your own understanding of the solutions. Direct copying is
+not permitted and will be treated as cheating. In any event, it is not in your own interest to rely
+heavily on others in doing the problems. As with mathematical or analytical subjects,
+econometrics can be understood only by working problems. If you do not do most of the
+problems yourself, understanding of the course will suffer. We will not accept late problem sets,
+but we will ignore the two lowest problem sets grades.
+
+If circumstances arise which you feel warrant an exception to these rules, then you must either
+bring a letter from McCosh, or contact first your residential college dean about the reasons you
+have for requesting the exception, keeping them in the loop about your situation, and seeing if
+she or he has any concerns about my granting it. The Preceptors and I will not consider any
+exceptions for late homework and the like without such a written statement.
+
+Computer Work:
+Computer work is an integral part of econometrics and the problems that will be assigned
+assume general computer literacy. You will be given brief introduction to STATA in one of the
+first precepts.
+
+Timing of Events:
+
+
+Problem sets will be posted Wednesdays and will be due by 1:25pm the following
+Wednesday in the mailbox of your Preceptor on level A of Julis Romo Rabinowitz
+Building. Graded problem sets will be returned in the precept.
+
+
+
+Precepts will start on the second week of the term.
+
+
+
+The midterm will take place in-class on Wednesday, October 25.
+
+
+
+The final exam will be scheduled by the Office of the Registrar.
+
+Other information:
+Email communications should be used for administrative issues. Questions of substance should
+be raised in oral communications.
+The questions regarding the lecture material should be addressed to the Professor. The
+questions regarding the problem sets should be addressed to your Preceptor.
+
+Course Outline:
+
+
+
+
+
+
+
+
+
+Why should you care?
+Introduction and Regression with One Regressor (Stock and Watson, Chapter 4)
+The General Case (Stock and Watson, Chapters 5-9)
+Panel Data (Stock and Watson, Chapter 10)
+Binary Choice (Stock and Watson, Chapter 11)
+Instrumental Variables (Stock and Watson, Chapter 12)
+Experiments and Quasi-Experiments (Stock and Watson, Chapter 13)
+Introduction to Time Series (Stock and Watson, Chapters 14, 15 and 16)
+
+We will briefly review probability and statistics (Stock and Watson, Chapters 2 and 3). The
+relevant topics include:
+ Random variables, probability distributions and densities. Expectations. Multivariate
+distributions, conditional distributions and independence. Special distributions:
+Bernoulli, Normal, Chi-Squared, F and T.
+ Large Sample Theory.
+ Estimators and their properties. Confidence Intervals and Hypothesis Testing.
+
+

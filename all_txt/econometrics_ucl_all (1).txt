@@ -1,0 +1,918 @@
+ECON 2007 - Term 1
+Additional Notes and Proofs on OLS
+Alexandros Theloudis ∗
+November 7, 2015
+We are interested in estimating the relationship between x and y in the population. We assume
+that there is a linear association between the two (Assumption SLR.1 ):
+y = β0 + β 1 x + u
+
+(1)
+
+where β0 and β1 are the parameters of interest and u is an error term. The population is not
+directly observable as it is assumed to be infinite; however we can still learn a lot about the
+aforementioned relation by hinging on random samples from the population. A random sample
+can be denoted as {(xi , yi ) : 1, . . . , n}; this notation implies that we have n observations (xi , yi )
+where {xi , yi } are independently drawn from the same aforementioned population (we say that
+{xi , yi } are i.i.d. - independent and identically distributed ). This is Assumption SLR.2.
+The error terms are assumed to have zero conditional mean: conditional on x the expected
+value of u in the population is 0. This can be written as E(u|x) = 0; it implies that no x conveys
+any information about u (Assumption SLR.4 ).
+The question is: how can we get β0 and β1 ? Well, we can’t unless we have infinite amount of
+information. However, given a random sample of observations, the OLS estimates β̂0 and β̂1 are
+BLUE: Best Linear Unbiased Estimates of the items of interest β0 and β1 . How do we get β̂0 and
+β̂1 ?
+
+1
+
+Derivation of OLS Estimators
+
+There are two equivalent ways to obtain β̂0 and β̂1 given the 3 assumptions above. The first way
+is the Method of Moments ; the second is the Sum of Squared Residuals.
+
+1.1
+
+Method of Moments
+
+E[u|x] = 0 implies that E[u] = 0 and E[xu] = 01 . From (1) we can write:
+E[u] = E[y − β0 − β1 x] = 0
+E[xu] = E[x(y − β0 − β1 x)] = 0
+These equations hold in the population. Their sample analogues are:
+
+1 X
+yi − β̂0 − β̂1 xi = 0
+n i=1
+n
+
+
+1 X
+xi (yi − β̂0 − β̂1 xi ) = 0
+n i=1
+n
+
+∗ Alexandros Theloudis: Department of Economics, University College London, Gower Street, WC1E 6BT London (email: alexandros.theloudis.10@ucl.ac.uk).
+1 From the Law of Iterated Expectations: E (u) = E [E (u|x)] = E [0] = 0. Also: E (xu) = E [E (xu|x)] =
+E [xE (u|x)] = E [x0] = 0
+
+1
+
+where the summation over i implies summation over all sample observations.
+Let’s take the first equation:
+
+1 X
+yi − β̂0 − β̂1 xi = 0
+n i=1
+n
+
+n
+
+n
+
+1X
+1X
+1
+β̂1 xi = n β̂0
+yi −
+n i=1
+n i=1
+n
+n
+
+n
+
+1X
+1X
+yi − β̂1
+xi = β̂0
+n i=1
+n i=1
+(as β̂1 is just a constant number it can exit the summation)
+yˉ − β̂1 x
+ˉ = β̂0
+
+(2)
+
+To reach the last line,
+Pn we make use of the formula for calculating a sample average: for any generic
+variable z: zˉ = n1 i=1 zi .
+Working on the second equation, we can write:
+
+n
+
+
+1 X
+xi (yi − β̂0 − β̂1 xi ) = 0
+n i=1
+
+n 
+X
+
+
+ˉ − β̂1 x2i = 0
+xi yi − xi yˉ + xi β̂1 x
+
+n
+
+
+1 X
+⇔
+xi (yi − (ˉ
+y − β̂1 x
+ˉ) − β̂1 xi ) = 0
+n i=1
+
+(2)
+
+i=1
+n 
+X
+i=1
+
+
+xi (yi − yˉ) − β̂1 xi (xi − x
+ˉ) = 0
+n
+X
+i=1
+
+β̂1
+
+β̂1 xi (xi − x
+ˉ) =
+
+n
+X
+i=1
+
+xi (xi − x
+ˉ) =
+β̂1 =
+
+n
+X
+i=1
+n
+X
+
+xi (yi − yˉ)
+
+xi (yi − yˉ)
+i=1
+Pn
+x (y − yˉ)
+Pni=1 i i
+x
+ˉ)
+i=1 i (xi − x
+
+(3)
+
+Pn
+Expression (3) is the OLS estimator β̂1 if i=1 xi (xi − x
+ˉ) 6= 0. This is guaranteed by Assumption
+SLR.3. Substituting (3) into (2) we can get the OLS estimator β̂0 . Having obtained β̂0 and β̂1
+we can then get:
+• Predicted/fitted values: ŷi = β̂0 + β̂1 xi
+• OLS regression line: ŷ = β̂0 + β̂1 x
+• Residuals: ûi = yi − ŷi
+
+1.2
+
+Sum of Squared Residuals
+
+An alternative (but equivalent) way to obtain the OLS estimators is by minimizing the sum of
+squared residuals (SSR hereafter). What really is a residual ûi ? Think about observation i with
+(xi , yi ); for xi the aforementioned OLS regression line predicts a y-value of ŷi . How far is ŷi from
+the actual yi ? This information is given by ûi ! In other words, ûi is the vertical distance between
+2
+
+yi and ŷi ; it can be both positive or negative depending on whether the actual point lies above or
+below the OLS regression line.
+If we want our OLS regression line to fit the data well, then we must minimize P
+the distances
+n
+ûi , ∀i. How do we do that? One way would be to minimize the sum of residuals
+i=1 ûi . But
+that sum is by definition equal to 0. Instead we can minimize the SSR: the smaller this sum is,
+the closer the OLS regression line is to our sample observations.
+Analytically:
+n
+n
+n 
+2
+X
+X
+X
+2
+min
+û2i ≡ min
+(yi − ŷi ) ≡ min
+yi − β̂0 − β̂1 xi
+i=1
+
+i=1
+
+i=1
+
+We need to find β̂0 and β̂1 so that the above SSR is minimized. Assuming that the above function
+is well behaved, we will derive the first order conditions with respect to β̂0 and β̂1 and set them
+equal to 0. For convenience we should open up the above expression:
+n 
+n 
+2 X
+
+X
+yi − β̂0 − β̂1 xi =
+yi2 + (β̂0 + β̂1 xi )2 − 2yi (β̂0 + β̂1 xi )
+i=1
+
+i=1
+
+The first order conditions are:
+• {with respect to β̂0 }:
+
+n
+n
+
+ X
+X
+2 β̂0 + β̂1 xi −
+2yi = 0
+i=1
+
+i=1
+
+x = nˉ
+y
+nβ̂0 + β̂1 nˉ
+yˉ − β̂1 x
+ˉ = β̂0
+
+Notice that we now actually reached equation (2) above.
+• {with respect to β̂1 }:
+
+n
+n
+
+
+X
+X
+2 β̂0 + β̂1 xi xi −
+2yi xi = 0
+i=1
+
+i=1
+
+n 
+n
+
+X
+(2) X
+⇔
+yˉ − β̂1 x
+ˉ + β̂1 xi xi =
+yi xi
+i=1
+
+n
+X
+i=1
+
+yˉxi +
+
+i=1
+
+n
+X
+i=1
+n
+X
+i=1
+
+β̂1
+
+β̂1 xi (xi − x
+ˉ) =
+β̂1 xi (xi − x
+ˉ) =
+
+n
+X
+i=1
+
+xi (xi − x
+ˉ) =
+β̂1 =
+
+n
+X
+i=1
+n
+X
+i=1
+n
+X
+
+yi xi
+xi (yi − yˉ)
+
+xi (yi − yˉ)
+i=1
+Pn
+x (y − yˉ)
+Pni=1 i i
+x
+ˉ)
+i=1 i (xi − x
+
+Now notice that this is actually the equation we found for β̂1 in (3). It should now be obvious
+that the two ways of obtaining the OLS estimators are equivalent. As before, to obtain an
+equation for β̂0 , one only needs to replace β̂1 in (2) with the expression in (3).
+
+2
+
+Unbiasedness
+
+Every time we draw a new random sample from the population, the estimates β̂0 and β̂1 will be
+different. The question we are asking now is: does the expected value of these estimates equal the
+unknown true value for β0 and β1 in the population or not? The answer is yes. It will turn out
+that E[β̂0 ] = β0 and E[β̂1 ] = β1 and thus we will say that the OLS estimates are unbiased.
+3
+
+2.1
+
+Proof for β̂1
+
+Pn
+Following the lecture notes, we will set s2x = i=1 (xi − x
+ˉ)2 . From (3) we have:
+Pn
+xi (yi − yˉ)
+β̂1 = Pni=1
+x
+ˉ)
+i=1 i (xi − x
+
+Notice that:
+
+n
+X
+i=1
+
+x
+ˉ(xi − x
+ˉ) =
+
+n
+X
+i=1
+
+x
+ˉ xi −
+
+n
+X
+i=1
+
+x
+ˉx
+ˉ = nˉ
+xx
+ˉ − nˉ
+xx
+ˉ=0
+
+Pn
+Pn
+Similarly we can show that i=1 yˉ(xi − x
+ˉ) = 0 and i=1 x
+ˉ(yi − yˉ) = 0. Working on (3) we get:
+Pn
+Pn
+Pn
+xi (yi − yˉ)
+xi (yi − yˉ) − i=1 x
+ˉ(yi − yˉ)
+Pn
+β̂1 = Pni=1
+= Pni=1
+x
+(x
+−
+x
+ˉ
+)
+x
+(x
+−
+x
+ˉ
+)
+−
+x
+ˉ)
+i
+i
+i
+i
+i=1
+i=1
+i=1 ˉ(xi − x
+Pn
+(xi − x
+ˉ)(yi − yˉ)
+= Pni=1
+ˉ)(xi − x
+ˉ)
+i=1 (xi − x
+Pn
+(xi − x
+ˉ)yi
+= Pi=1
+n
+(x
+−
+x
+ˉ )2
+i
+i=1
+Pn
+(xi − x
+ˉ)yi
+= i=1 2
+sx
+Pn
+(xi − x
+ˉ)(β0 + β1 xi + ui )
+(1)
+⇔ β̂1 = i=1
+s2x
+Pn
+Pn
+Pn
+(xi − x
+ˉ)
+(xi − x
+ˉ)xi
+(xi − x
+ˉ)ui
+= β0 i=1 2
++β1 i=1 2
++ i=1 2
+sx
+sx
+sx
+|
+{z
+}
+|
+{z
+}
+=0
+
+= β1 +
+
+Pn
+
+=1
+
+i=1 (xi −
+s2x
+
+x
+ˉ)ui
+
+Now let’s take expectations on both side conditional on the data x1 , x2 , . . . , xn we have available:
+Pn
+
+
+(xi − x
+ˉ)ui
+E[β̂1 |x1 , . . . , xn ] = E β1 + i=1 2
+|x1 , . . . , xn
+sx
+ Pn
+
+ˉ)ui
+i=1 (xi − x
+|x
+,
+.
+.
+.
+,
+x
+= E [β1 |x1 , . . . , xn ] + E
+1
+n
+s2x
+(because the expectation operator is linear)
+ Pn
+
+ˉ)ui
+i=1 (xi − x
+= β1 + E
+|x1 , . . . , xn
+s2x
+(because β1 is just a number)
+= β1 + s−2
+x
+
+n
+X
+i=1
+
+(xi − x
+ˉ)E [ui |x1 , . . . , xn ]
+
+(because conditional on x1 , . . . , xn the expected value of any function of xi is the function itself)
+= β1 +
+
+s−2
+x
+
+n
+X
+i=1
+
+⇔
+
+(xi − x
+ˉ)E [ui |xi ]
+
+E[β̂1 |x1 , . . . , xn ] = β1
+
+(4)
+4
+
+(because of SLR.4 ). We are not done though. We have to prove that the un-conditional expectation of β̂1 is equal to β1 . By the Law of Iterated Expectations:
+h
+i (4)
+h i
+E β̂1 = E E[β̂1 |x1 , . . . , xn ] = E [β1 ] = β1
+
+2.2
+
+Proof for β̂0
+
+From (2) we have that
+β̂0 = yˉ − β̂1 x
+ˉ
+
+Notice that from (1) yˉ = β0 + β1 x
+ˉ+u
+ˉ, so that (2) now becomes:
+ˉ+u
+ˉ − β̂1 x
+ˉ
+β̂0 = β0 + β1 x
+
+x+u
+ˉ
+= β0 + (β1 − β̂1 )ˉ
+
+Now let’s take expectations on both side conditional on the data x1 , x2 , . . . , xn we have available:
+h
+i
+E[β̂0 |x1 , . . . , xn ] = E β0 + (β1 − β̂1 )ˉ
+x+u
+ˉ|x1 , . . . , xn
+h
+i
+= E [β0 |x1 , . . . , xn ] + E (β1 − β̂1 )ˉ
+x|x1 , . . . , xn + E [ˉ
+u|x1 , . . . , xn ]
+
+(because the expectation operator is linear)
+h
+i
+= β0 + x
+ˉE (β1 − β̂1 )|x1 , . . . , xn + E [ˉ
+u|x1 , . . . , xn ]
+
+(because β0 is just a number; also conditional on x1 , . . . , xn x
+ˉ is non-random)
+" n
+#
+1X
+ui |xi
+= β0 + E
+n i=1
+h i
+(because it has already been proved that E β̂1 = β1 )
+n
+
+= β0 +
+⇔
+
+E[β̂0 |x1 , . . . , xn ] = β0
+
+1X
+E [ui |xi ]
+n i=1
+
+(5)
+
+(from SLR.4 ). As before, by the Law of Iterated Expectations one can show that E[β̂0 ] = β0 .
+
+3
+
+Variance of OLS estimator
+
+Here we impose an additional assumption:
+V ar[ui |xi ] = σ 2 ,
+
+∀i
+
+This is Assumption SLR.5 according to the lecture notes. Recall from before that:
+Pn
+(xi − x
+ˉ)ui
+β̂1 = β1 + i=1 2
+sx
+h
+i
+We are now interested in the conditional variance V ar β̂1 |x1 , . . . , xn :
+h
+
+i
+
+
+
+V ar β̂1 |x1 , . . . , xn = V ar β1 +
+
+Pn
+
+i=1 (xi −
+s2x
+
+5
+
+x
+ˉ)ui
+
+|x1 , . . . , xn
+
+
+
+ Pn
+
+i=1 (xi −
+s2x
+
+x
+ˉ)ui
+
+= V ar [β1 |x1 , . . . , xn ] + V ar
+Pn
+
+
+ˉ)ui
+i=1 (xi − x
++ 2Cov β1 ,
+|x1 , . . . , xn
+s2x
+
+|x1 , . . . , xn
+
+
+
+(because by the properties of the variance, V ar(a + b) = V ar(a) + V ar(b) + 2Cov(a, b))
+
+ Pn
+ˉ)ui
+i=1 (xi − x
+|x1 , . . . , xn
+= V ar
+s2x
+(because β1 is just a number so it doesn’t vary or covary with any random variable)
+=(
+
+n
+1 2X
+)
+(xi − x
+ˉ)2 V ar [ui |x1 , . . . , xn ]
+s2x i=1
+
+(because conditional on x1 , . . . , xn , any function of x is treated as a constant number; by the
+properties of the variance: V ar(c ∙ z) = c2 V ar(z) where c is a constant and z is a random variable)
+=(
+
+=(
+
+n
+1 2X
+)
+(xi − x
+ˉ)2 V ar [ui |xi ]
+s2x i=1
+n
+1 2X
+)
+(xi − x
+ˉ )2 σ 2
+s2x i=1
+
+(because of Assumption SLR.5 )
+⇔
+
+i
+h
+1
+V ar β̂1 |x1 , . . . , xn = 2 σ 2
+sx
+
+(6)
+
+Pn
+ˉ)2 = s2x . The derivation of the conditional variance of β̂0 follows a same logic. Can
+as i=1 (xi − x
+you derive it?
+
+4
+
+Goodness-of-Fit (R2 )
+
+How much of the variation in y is explained by variation in x? If we are interested in that question,
+we are after the coefficient of determination R2 . R2 gives us a sense of the goodness-of-fit of our
+regression; i.e. it informs us about what fraction of the variation in y is due to variation in x.
+What do we mean by saying variation in y? The squared
+Pn distance of yi from the sample mean
+yˉ informs us about the spread of yi and is denoted by i=1 (yi − yˉ)2 . Notice that if we divide
+this expression by n − 1 we get the sample variance for yi . For what follows we will work on
+P
+n
+ˉ)2 . As yi = ûi + ŷi we can write:
+i=1 (yi − y
+n
+X
+i=1
+
+2
+
+(yi − yˉ) =
+=
+
+n
+X
+i=1
+
+n
+X
+i=1
+
+=
+
+n
+X
+
+(ûi + ŷi − yˉ)
+
+2
+
+û2i + (ŷi − yˉ)2 + 2ûi (ŷi − yˉ)
+û2i +
+
+i=1
+
+n
+X
+i=1
+
+(ŷi − yˉ)2 + 2
+
+n
+X
+i=1
+
+
+
+ûi (ŷi − yˉ)
+
+The last expression in (7) is 0. To see why, we can use ŷi = β̂0 + β̂1 xi and write:
+n
+X
+i=1
+
+ûi (ŷi − yˉ) =
+
+n
+X
+i=1
+
+ûi (β̂0 + β̂1 xi − yˉ)
+6
+
+(7)
+
+=
+
+n
+X
+i=1
+
+= β̂0
+
+ûi (β̂0 + β̂1 xi ) −
+
+n
+X
+
+ûi + β̂1
+
+i=1
+
+=0
+
+n
+X
+i=1
+
+n
+X
+
+ûi xi − yˉ
+
+where the
+Pnlast line comes from our sample moment conditions
+ˉ) = 0. Going back to (7) we now have:
+Hence:
+i=1 ûi (ŷi − y
+n
+X
+i=1
+
+2
+
+(yi − yˉ) =
+
+n
+X
+
+û2i +
+
+i=1
+
+n
+X
+i=1
+
+ûi yˉ
+
+i=1
+
+n
+X
+
+Pn
+
+i=1
+
+(ŷi − yˉ)2
+
+SST = SSR + SSE
+
+where:
+• SST: Total sum of squares (variation in y)
+• SSR: Sum of squared residuals (unexplained variation in y)
+• SSE: Explained sum of squares (explained variation in y by x)
+Dividing across by SST we get:
+1=
+
+SSR SSE
++
+SST
+SST
+
+SSE
+SSR
+=1−
+SST
+SST
+⇔
+
+R2 ≡
+
+SSR
+SSE
+=1−
+SST
+SST
+
+R2 is the fraction of sample variation in y that is explained by x.
+
+7
+
+ûi
+
+i=1
+
+ûi = 0 and
+
+Pn
+
+i=1
+
+ûi xi = 0.
+
+

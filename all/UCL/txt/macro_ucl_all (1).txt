@@ -1,0 +1,364 @@
+Econ 2004:
+The Open Economy
+
+Lecture 3: The 3-equation open economy model
+
+Reading.
+Core:
+Revision: Carlin & Soskice (2006 book) Chapter 3 Section 2, Chapter 5 Section 3
+New: Carlin & Soskice (2015) Chapter 9 Sections 9.1 (yes, read it through again),
+9.2.4, 9.2.5, 9.3.1
+Optional:
+See Moodle
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+1
+
+Last lecture
+Model-building:
+The medium-run open economy model (AD-ERU model)
+• What determines the medium-run real exchange rate? Supply and
+demand shocks and policies (independent of exchange rate
+regime) 
+• What determines the medium-run inflation rate? Monetary policy
+(i.e. exchange rate) regime …
+
+Fixed exchange rates:  MRE   *
+Flexible exchange rates:  MRE   T
+UCL ECON2004 TERM 2 LECTURE 3
+
+5
+
+Summary: the medium run model (AD-ERU)
+• What are the variables on the axes?
+• Demand side represented by AD curve,
+incorporates
+• Supply side represented by ERU curve
+incorporates WS=PS
+• In MRE, economy is
+• ON an AD curve and ON an ERU curve
+• inflation is constant
+• real exchange rate is constant
+•
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+6
+
+Summary: the medium run model (AD-ERU)
+FAQs:
+1. Why is ERU vertical?
+
+2. What does it mean that q is constant on
+the ERU curve?
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+7
+
+This lecture
+Model-building:
+Focuses on flexible exchange rate economy with inflation-targeting
+CB
+ The 3-equation open economy model
+
+Policy questions:
+How should the CB respond to the following:
+• inflation shock?
+• demand shock?
+• supply shock?
+UCL ECON2004 TERM 2 LECTURE 3
+
+8
+
+Recall the closed economy model
+Draw the basic diagram for the
+closed economy 3-equation model
+Write down the 3 equations
+1.
+2.
+3.
+using
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+9
+
+Last week at LSE, Governor Carney’s speech
+• 3-equation model of closed economy
+• Informal reference to open economy effects
+• We extend model to open economy
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+10
+
+Why is the open economy different?
+One obvious change in the open economy
+
+A more subtle change will be needed:
+“The dollar rose the most against the euro in a month on
+speculation government reports tomorrow will show faster inflation
+in the U.S., underscoring the potential for the Federal Reserve to
+raise interest rates more than some traders had expected.”
+June 9th 2004, Dollar Surges Against Euro as Traders Anticipate Fed Rate Moves, Bloomberg News
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+11
+
+Policy-making in the open economy
+Which exchange
+rate regime?
+
+Fixed – see common
+currency area later
+
+Flexible
+
+Is monetary policy
+available for
+stabilization?
+
+Yes, CB adjusts r, &
+q jumps
+
+No, why not?
+Use fiscal policy or
+unconventional MP
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+12
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+13
+
+The structure of the 3-equation closed economy model
+CB minimizes its loss function, which expresses its objectives
+
+subject to the constraint from the supply side, in the Phillips curve
+
+which produces the monetary rule function that pins down the
+optimal output gap
+
+which is implemented through choice of r using the IS equation
+(best-response Taylor Rule)
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+14
+
+Analyzing an inflation shock in a closed economy
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+15
+
+The structure of the 3-equation open economy model
+CB minimizes the loss function, which expresses its objectives
+
+subject to the constraint from the supply side, in the Phillips curve
+
+which produces the optimal monetary rule function that pins down
+the optimal output gap
+
+which is implemented through choice of r using the IS equation &
+taking account of the reaction of the forward-looking forex market
+(best-response Taylor Rule for the open economy)
+UCL ECON2004 TERM 2 LECTURE 3
+
+16
+
+Comparing an inflation shock in closed & open economies
+Closed
+Open
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+17
+
+Comparing an inflation shock in closed & open economies
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+18
+
+What is the RX curve?
+Remember this step in the closed economy?
+the optimal monetary rule function pins down the optimal output
+gap,
+which is implemented through choice of r using the IS equation
+
+In the open economy, the same step is:
+
+the optimal monetary rule function pins down the optimal output
+gap, which is implemented through choice of r using the IS equation
+& taking account of the reaction of the forward-looking forex market
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+19
+
+Modelling forward-looking behaviour
+Questions:
+
+How does forex market analyse the CB’s optimal reaction to a shock?
+How does the CB analyse the forex market’s reaction to a shock?
+
+Puzzle (example of inflation shock):
+If forex market knows CB will set r above r* for some time;
+it will expect exchange rate ____________,
+which means q will ____________ immediately … but this will
+__________ output and mean the CB has to raise r by less … but in
+this case the ___________ will be less and the CB will have to raise r
+by more
+Q: How much does CB raise r and by how much does q jump?
+UCL ECON2004 TERM 2 LECTURE 3
+
+20
+
+Modelling forward-looking behaviour
+Answer:
+Both solve the same problem; both use the same model; the model
+assumes both have
+
+Tasks:
+1. Doing the maths to derive the RX equation … next week
+2. Practising the logic and integrating with the AD-ERU model – so
+far, we have concentrated on an inflation shock but what about
+supply & demand shocks?
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+21
+
+Demand & supply shocks: 3 equation model & AD-ERU model
+From AD-ERU model, we know that
+• permanent demand & supply shocks affect medium-run real
+exchange rate, q
+• supply shocks affect equilibrium output, ye
+
+Why does this matter?
+CB and forex market need to calculate new MRE q and new ye for the
+output gap
+UCL ECON2004 TERM 2 LECTURE 3
+
+Why didn’t we worry about this
+with an inflation shock? 22
+
+Example: negative demand shock
+“Sterling had lost over a quarter of its value since mid-2007. To some degree, that
+depreciation had probably reflected the need to rebalance the UK economy away
+from domestic towards external demand. In addition over the past year, the global
+outlook had deteriorated with resultant downward revisions to interest rate
+expectations worldwide. But the downward revision to forecasts of the UK
+economy appeared to have been greater than for some other countries. And those
+perceptions may have contributed to sterling's decline.”
+Bank of England, Minutes of the Monetary Policy Committee Meeting, 4 and 5 March 2009
+
+Behaviour of UK exchange rate in context of global financial crisis
+suggests forex market saw a specific problem for the UK
+• the permanent disappearance of some _________ demand
+(revealed as unsustainable)
+• need for permanent shift toward ____________
+• not just a temporary crisis-related demand shock
+UCL ECON2004 TERM 2 LECTURE 3
+
+23
+
+UK: nominal and real exchange rate indices
+↑ appreciation
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+24
+
+Example: negative demand shock
+Using the model to dissect the BoE’s statement
+“Sterling had lost over a quarter of its value since mid-2007.
+To some degree, that depreciation had probably reflected the need to rebalance
+the UK economy away from domestic towards external demand.”
+
+[Model: MRE q is depreciated]
+
+“In addition over the past year, the global outlook had deteriorated with resultant
+downward revisions to interest rate expectations worldwide.”
+
+[Model: likely fall in r*]
+“But the downward revision to forecasts of the UK economy appeared to have
+been greater than for some other countries.”
+
+[Model: expect BoE to cut r relative to r*]
+“And those perceptions may have contributed to sterling's decline.”
+UCL ECON2004 TERM 2 LECTURE 3
+
+25
+
+Central bank reaction to a permanent demand shock
+Step 1. Use AD-ERU model to work out new equilibrium q
+Step 2. Use 3-equation model to work out CB’s policy response &
+dynamic adjustment to shock
+Step 1. Negative demand shock in AD-ERU model
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+26
+
+Central bank reaction to a permanent demand shock
+Step 2. Use 3-equation model to work out CB’s policy response &
+dynamic adjustment to shock
+Diagram
+Intuition (in words)
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+27
+
+Central bank reaction to a negative demand shock
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+28
+
+Central bank reaction to a negative demand shock
+1. Output falls to B on new IS
+2. Inflation falls to B on PC
+3. CB & forex market calculate CB’s
+optimal output gap on MR curve at C
+4. RX shows how much r must be cut
+below r* : C on RX
+5. IS shifts by equilibrium depreciation
+plus extra depreciation to
+take IS to C
+
+6.
+
+7.
+
+CB gradually raises r back to r* along
+RX (as expected)
+Since r  r * from C to Z, q
+appreciates as expected and IS
+moves to the left
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+29
+
+Next week
+
+We get more precise … in the 3-equation model, how exactly does
+the CB calculate the right interest rate change in response to a
+shock? This tells us where the RX curve comes from
+What is exchange rate overshooting and why does it happen?
+Self-test question
+Chapter 9 Checklist question 4
+
+UCL ECON2004 TERM 2 LECTURE 3
+
+30
+
+

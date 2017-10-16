@@ -1,0 +1,3 @@
+ECON 3120 Applied Econometrics
+Introduction to the theory and application of econometric techniques. Emphasis is on both development of techniques and applications of econometrics to economic questions. Topics include estimation and inference in bivariate and multiple regression models, instrumental variables, regression with qualitative information, heteroskedasticity,
+ and serial correlation. Students are expected to apply techniques through regular empirical exercises with economic data.

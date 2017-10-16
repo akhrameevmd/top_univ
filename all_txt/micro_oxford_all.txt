@@ -1,0 +1,615 @@
+PRELIMS MICROECONOMICS 2016-17
+ABI ADAMS
+
+The aim of this course is to get you conversant in the language of microeconomics. When noneconomists think about economics, they typically think of the study of unemployment, growth,
+and other factors relating to the macroeconomy at large. However, behind the scenes lies a vast
+array of choices and transactions carried out by individual agents; be that individuals’ choices
+of whether to work, how much to save, what to buy, firms’ choices about how much to produce,
+what prices to charge and whether to invest, and government’s choices about what to tax, what
+to subsidise, and what goods and services to provide. These are the sorts of microeconomic issues
+that we will study this term.
+While at times the subject matter might at times seem abstract and overly technical, remember
+that the skills you will learn over the term will be invaluable to you as an economist. This course
+will introduce you to a core set of techniques and methods, which you must master before you can
+head off and apply economic analysis to the various topics that you might be interested in, from
+development economics to family economics to monetary economics. To help you make connections
+between the material we will study, and the aspects of the “real world” that you are interested in,
+I am (in the process of!) collecting articles and podcasts for you to delve into to help bring the
+subject to life (see https://abiadams.com/teaching/prelims-micro/).
+Arrangements
+The course will proceed through a mixture of tutorials, classes, and lectures. The tutorials and
+classes are designed to complement the lecture series given by Ian Crawford. If you want to stand
+a good chance of mastering the material, you must attend the lectures.
+Class Work: Work for the classes must be bought to the class but not handed in beforehand.
+I will randomly select two pieces of work to take in at each class to mark.
+Tutorial Work: Work for tutorials must be handed in by 5pm on the Monday morning
+before tutorials. Late work will not be accepted and you will not be able to attend tutorials if you
+do not hand in your problem set.
+
+1
+
+2
+
+ABI ADAMS
+
+Table 1. Timetable
+Monday
+1st
+
+Tuesday
+
+Wednesday
+
+Thursday
+
+Friday
+
+11am: Lecture 11am: Lecture 11am: Lecture
+4pm: Class
+
+2nd 11am: Lecture 11am: Lecture 11am: Lecture 2pm: Group 1
+5pm: Deadline
+
+9am: Group 4
+
+3pm: Group 2 11am: Group 5
+4pm: Group 3
+
+3rd
+
+11am: Lecture 11am: Lecture 11am: Lecture 2pm: Group 1
+5pm: Deadline
+
+9am: Group 4
+
+3pm: Group 2 11am: Group 5
+4pm: Group 3
+
+4th
+
+11am: Lecture 11am: Lecture
+5pm: Class
+
+4pm: Group 3
+
+11am: Lecture 11am: Lecture 11am: Lecture 2pm: Group 1
+5pm: Deadline
+11am: Lecture 11am: Lecture 5pm: Group 4
+5pm: Class
+
+1pm: Group 1 6pm: Group 5
+
+5pm: Deadline 2pm: Group 2
+3pm: Group 3
+7th
+
+11am: Lecture 11am: Lecture 5pm: Group 4
+5pm: Deadline 1pm: Group 1 6pm: Group 5
+2pm: Group 2
+3pm: Group 3
+
+8th
+
+11am: Lecture 11am: Lecture 5pm: Group 4
+5pm: Class
+
+9am: Group 4
+
+3pm: Group 2 11am: Group 5
+4pm: Group 3
+
+6th
+
+9am: Group 4
+
+3pm: Group 2 11am: Group 5
+
+5pm: Deadline
+5th
+
+2pm: Group 1
+
+1pm: Group 1 6pm: Group 5
+
+5pm: Deadline 2pm: Group 2
+3pm: Group 3
+
+PRELIMS MICROECONOMICS 2016-17
+
+3
+
+Readings
+The core textbook for the course is Intermediate Microeconomics by Hal Varian. The chapter
+numbers given below refer to those in the 9th edition. Check that they are consistent with the
+edition you are using! If Varian’s style is not for you, try the additional textbooks listed on the
+department website here. I’ve also added a few references to the ‘Core’ curriculum textbook,
+which has a greater dose of current affairs and economic history than the course we teach in
+Oxford. You can find it here: http://www.core-econ.org/.
+
+4
+
+ABI ADAMS
+
+Topic 1 : Exchange
+Themes :
+• What is Economics?
+• Opportunity Cost
+• Willingness to Pay & Demand
+• Willingness to Accept & Supply
+• Elasticity
+Readings :
+• Varian, Chapter 1 & 15
+• Maths Workbook, Chapters 1-2
+
+Class : Introduction & Refresher (AA).
+(1) How important is the realism of economic assumptions?
+(2) Maths Workbook, Worksheet 1 : 8, 10, 11
+(3) Maths Workbook, Worksheet 2 : 4
+
+Tutorial 1 (RM).
+(1) Explain the nature of the opportunity costs of the following activities:
+(a) Spending time on a train.
+(b) Extracting oil from underground.
+(c) (Popularised by Robert Frank) You won a free ticket to see an Eric Clapton concert
+(which has no resale value). Bob Dylan is performing on the same night and is your
+next-best alternative activity. Tickets to see Dylan cost £40. On any given day, you
+would be willing to pay up to £50 to see Dylan. Assume there are no other costs of
+seeing either performer. What is the opportunity cost of seeing Eric Clapton? £0,
+£10, £40, or £50?
+
+PRELIMS MICROECONOMICS 2016-17
+
+5
+
+(2) Consider a linear demand curve
+qD = a − bp
+Draw a diagram illustrating how the elasticity of demand varies along the demand curve
+(quantity on the horizontal axis, price on the positive part of the vertical axis, price elasticity
+on the negative part of the vertical axis). Indicate the point at which the elasticity is equal
+to minus one. Provide some economic intuition (a story) for why the elasticity might vary
+in this way with respect to price and quantity.
+(3) Suppose that inverse supply is given by
+p = −10 + 21 qs
+(a) What could be the economic interpretation of the negative intercept?
+(b) Supposing that suppliers could costlessly dispose (a “free disposal” assumption) of
+unwanted units what would the supply curve look like?
+(c) If the price is 10, what is the producer surplus assuming free disposal?
+(d) What is the change in the producer surplus if the price increases to 11? Provide an
+economic intuition (a story) for this change.
+
+Tutorial 2 (RM).
+Themes :
+• Comparative Statics
+• Pareto Efficiency
+• Price Controls
+• Taxation
+• Production Possibility Frontier
+Readings :
+• Varian, Chapter 16 & 19
+
+6
+
+ABI ADAMS
+
+(1) According to HM Revenue and Customs, the significance of the borderline between cakes
+and biscuits is that a cake is zero-rated for VAT even if it is covered in chocolate, whereas a
+biscuit attracts standard-rate VAT if “wholly or partly covered in chocolate or some product
+similar in taste and appearance”. The leading case on the borderline is that concerning
+Jaffa cakes which are made by United Biscuits. They are currently zero-rated as cakes.
+HMRC is considering whether to re-designate them as biscuits, in which case they would be
+subject to standard rate VAT. You have been given the following information concerning
+UK sales of Jaffa cakes.
+• Annual UK sales (in millions) are £2
+• Price per Jaffa Cake is £0.10
+• Price elasticity estimate = -0.5.%
+
+1
+
+(a) Assuming that the demand curve is linear, derive the inverse demand curve for Jaffa
+cakes.
+(b) Assuming that the price in the table represents an equilibrium price, that the supply
+curve for Jaffa cakes is linear and that if the price were zero United Biscuits would not
+make any, derive an expression for the inverse supply curve.
+(c) At the equilibrium price, calculate (i) the consumer surplus and explain carefully what
+it measures, (ii) the producer surplus and explain what it measures. (iii) Draw and
+fully label a diagram to illustrate your calculations.
+(d) Suppose that HMRC re-designates Jaffa Cakes as biscuits and applies standard rate
+VAT. Calculate (i) the deadweight loss of the tax and explain what it measures; (ii) the
+amount of Government revenue the tax would raise. (iii) Draw a diagram to illustrate
+your calculations.
+(e) Explain what your results indicate about the effective incidence of the VAT.
+(f) You are concerned that the estimate of the price elasticity you have used is too low
+(i.e. it should be more negative). Without doing any further calculations outline how
+you would expect your results and conclusions to change if this were the case.
+
+1www.mysupermarket.com,
+
+United Biscuits.
+
+PRELIMS MICROECONOMICS 2016-17
+
+7
+
+(2) The table below shows the unit labour requirements for four goods in two countries A and
+B. For our purposes we might wish to think of A as “the rest of the World” and B as some
+country of interest.
+Country A Country B
+Rubber chickens (hr/chicken)
+
+2
+
+4
+
+Trousers (hr/pair)
+
+2
+
+2
+
+Poison gas (hr/kg)
+
+4
+
+3
+
+Beauty products (hr/millihelen)
+
+3
+
+2
+
+.
+
+In the absence of trade, wages in A are £4/hr and in B are much higher: £8/hr.
+(a) For each good, calculate the ratio of the unit labour requirement in each country.
+(b) What are the autarky prices of each good in each country.
+(c) If the wage in A (“the rest of the World”) is fixed, in what direction must the wage in
+B change if the two countries open to free trade, in order for both countries to have
+something that they can export to the other?
+(d) What are the highest and the lowest wages that can prevail in B with free trade, given
+the £4/hr wage in A?
+(e) For which of the goods can you predict with certainty (given our assumptions) the
+pattern of trade, and what is it?
+(f) Suppose that a free trade equilibrium is achieved with a £4/hr wage in A and a wage
+in B which is exactly at the mid-point of the range that you found on part (d). What
+will be the world prices of each good, and which country will export it?
+(g) Suppose that workers in both countries work 40 hours per week, 50 weeks per year.
+Calculate their annual incomes in units of each good, both in autarky and free trade.
+In what sense, if any, have these workers gained from trade? Why (briefly) do workers
+in B appear to have gained, even though their wages are lower due to the effects of
+trade?
+
+8
+
+ABI ADAMS
+
+Topic Two : Firms
+Class : Introduction to Firms (AA).
+Readings :
+• Core, Unit 7
+• Maths Workbook, Chapters 3 - 5
+(1) Maths Workbook, Worksheet 3 : 5, 7
+(2) Maths Workbook, Worksheet 4 : 2
+(3) Maths Workbook, Worksheet 5 : 2
+
+Tutorial 3 : Production (RM).
+Themes :
+• Production Functions
+• Isoquant & Isocost Curves
+• Short & Long Run Costs
+• Competitive Supply
+Readings :
+• Varian, Chapters 20 - 23
+
+(1) The UK is described as having a “productivity gap” compared with other similar countries.
+This is usually based upon measures of output per unit of labour employed (hours worked).
+(a) What is “productivity”?
+(b) Under what circumstances is output per unit of labour a valid measure of productivity?
+(c) How might cross-country differences in the size distribution of firms affect measurements of aggregate productivity?
+
+PRELIMS MICROECONOMICS 2016-17
+
+9
+
+(2) Suppose that a firm’s production function is estimated to be
+1 1 3
+y = L4 K 4
+2
+where y, L, K denote output, labour and capital respectively, and that the rental rate per
+unit of capital is £5 and wages are £10 per unit of labour. Suppose that the firm’s capital
+stock is fixed in the short term at K̄ = 2.
+(a) Find labour demand as a function solely of output.
+(b) Find the firm’s variable and average variable cost functions.
+(c) Find the firm’s fixed and average fixed cost functions.
+(d) Find the firm’s average cost function.
+(e) Find the firm’s marginal cost function.
+(f) Draw the cost curves you have derived on a single diagram.
+(g) Derive the firm’s short run supply curve.
+
+(3) Consider a firm producing a good using two inputs: capital, K, and labour L. Its production
+function is denoted F (K, L). Capital costs are denoted r and labour costs by w per unit.
+(a) How is the shape of the average cost curve for the firm affected by the presence returns
+to scale of various kinds?
+(b) Explain what is meant by the marginal rate of technical substitution between capital
+and labour.
+(c) Explain carefully, using diagrams, how the firm will choose K and L to minimise its
+long-run cost of producing a given level of output.
+√
+√
+(d) Suppose F (K, L) = K + L . (i) Show that F has decreasing returns to scale. (ii)
+Find the marginal rate of technical substitution between capital and labour.
+(e) Hence, or otherwise, find the cost-minimising long-run choice of K and L to produce
+a given level of output, y.
+(f) Find the minimum cost of producing the good as a function of y and w and r. Discuss
+briefly how it depends on y.
+
+10
+
+ABI ADAMS
+
+Tutorial 4 : Competition (RM).
+Themes :
+• Investment
+• Prisoners’ Dilemma
+• Cournot Competition
+• Bertrand Competition
+Readings :
+• Varian, Chapters 28 - 30
+
+(1) Suppose there are two firms, firm 1 and firm 2. Their products compete, and their inverse
+demand curves are (in an obvious notation)
+p1 = 10−3y1 −y2
+and
+p2 = 30−y1 −3y2
+respectively. Firm 1 has the cost function
+c1 = 3y1
+and firm 2 has the cost function
+c2 = 2y2
+(a) Are these products substitutes or complements?
+(b) If the two firms are in Cournot competition how much should each produce?
+(c) If they colluded how much should they jointly produce?
+
+PRELIMS MICROECONOMICS 2016-17
+
+11
+
+(2) Consider a market with two symmetric firms (1 and 2). The inverse demand functions for
+the firms’ goods are
+1
+p1 = 4−y1 − y2
+2
+1
+p2 = 4−y2 − y1
+2
+The firms have the identical cost functions, given by
+c(yi ) = 3yi
+for i = 1, 2.
+(a) Calculate the Bertrand-Nash equilibrium. What is the market price for each good in
+this equilibrium?
+(b) Are the prices of these goods strategic substitutes or strategic complements? Explain.
+(3) Explain why it may be difficult for two firms playing the Cournot game to collude.
+
+12
+
+ABI ADAMS
+
+Topic Three : Consumers
+Class : Utility Maximisation (AA).
+Readings :
+• Core, Unit 3
+• Varian, Chapters 2 & 3
+• Maths Workbook, Chapters 6 & 7
+(1) Maths Workbook, Worksheet 7 : 1, 4
+
+Tutorial 5 : Consumer Choice (AA).
+Themes :
+• Budget Constraint
+• Utility Function
+• Income & Substitution Effects
+Readings :
+• Varian, Chapters 4 - 6
+
+(1) Draw indifference curves to illustrate each of the following statements, commenting on the
+nature of preferences and on the marginal rate of substitution in each case:
+(a) I like Coke and Pepsi, and I don’t care which I drink - I can’t tell them apart.
+(b) I love Coke but hate Pepsi.
+(c) I love Pepsi but have no feelings one way or the other about Coke.
+(d) I always have milk in my coffee, but I never drink milk alone.
+(e) I like tea and coffee, but too much of either stops me sleeping.
+
+PRELIMS MICROECONOMICS 2016-17
+
+13
+
+(2) A student receives a scholarship of £2000 per annum. £1000 of this is needed for essential
+expenditure. The rest can be spent on books, priced at £20 each (with no second-hand
+value) and luxuries, priced at £10 (which contribute only to current utility). The student’s
+utility function is: U (B, L) = B 2 L3
+(a) Find the marginal utilities of books and luxuries, and the MRS of luxuries for books,
+as a function of B and L. Is this a well-behaved utility function?
+(b) The student chooses her consumption of books and luxuries to maximize her utility.
+Will she spend all her income? Why?
+(c) Using the condition M RS = −p1 /p2 , and the budget constraint, find how many books
+and luxuries she will buy.
+(d) Now consider the more general problem when disposable income is m and the prices
+of books and luxuries are pB and pL . Repeat the analysis in (c) to find the demand
+function for books, as a function of prices and income. What special properties does
+this demand function have?
+(e) Are these “luxuries” in the economic sense?
+(f) Find the demand functions for books and luxuries when the utility function is:
+U (B, L) = 2B 1⁄2 + L
+What special property arises here? Illustrate it using an indifference curve diagram.
+Are luxuries “luxuries” in this case?
+
+(3) Using the framework provided by the Slutsky equation explain how a worker will vary the
+number of hours she works in response to a rise in the wage rate, decomposing the change
+into income and substitution effects. Critically evaluate your answer.
+
+14
+
+ABI ADAMS
+
+Tutorial 6 : Welfare Economics (AA).
+Themes :
+• Interpersonal Utility Comparisons
+• Equivalent & Compensating Variation
+
+Readings :
+• Varian, Chapter 14
+
+(1) Consider two perfectly divisible goods, x1 and x2 , which the consumer can purchase in any
+amounts she wishes. Suppose that the consumer’s preferences are described by the utility
+function
+u = log x1 + 2 log x2 .
+(a) Show that the consumer’s Marshallian/compensated demands for the two goods are
+1m
+3 p1
+2m
+x2 =
+3 p2
+x1 =
+
+where p1 and p2 denote the prices of the two products and m is the consumer’s available
+budget.
+(b) Suppose that the prices of both products are £1 and that the consumer has £2 to
+spend. What will be their demand for each product?
+(c) Draw a diagram showing the budget constraint, their chosen bundle and the rationalising indifference curve (place good 1 on the vertical axis).
+(d) Now suppose that these products are only available in discrete, indivisible, integer
+amounts (0, 1, 2, ...). Suppose that both prices remain at £1 and the consumer’s
+budget remains at £2. What will be the consumer’s demands? Explain your answer.
+(e) Show using a diagram (good 1 on the vertical axis) that the consumer will be worse
+off as a result of this indivisibility.
+(f) Using the prices p1 = £1 and p2 = £1 calculate a money-metric measure of the
+welfare cost of the indivisibility. Draw a diagram illustrating your calculation.
+
+PRELIMS MICROECONOMICS 2016-17
+
+15
+
+(2) The government decides to help (hard-working) people on low incomes by introducing a
+tax credit which effectively raises earnings from work by 25% up to a threshold of precredit earnings of £20,000, after which the credit is withdrawn by one pound for every
+pound earned over £20,000.Consider three individuals at the time before the program was
+introduced:
+(a) someone who is not working;
+(b) someone who was earning £20,000;
+(c) someone who was earning over £20,000.
+In each case what would happen to their hours of work and income after introduction
+of the program? Use a graph or graphs to illustrate your answer.
+
+16
+
+ABI ADAMS
+
+Topic Four : Market Failure
+Class : Externalities & Public Goods (AA).
+Readings :
+• Varian, Chapters 35 & 37
+• Maths Workbook, Chapters 8 & 9
+(1) Consider the Dictator Game. Player 1 has a stake of size 1 which she can divide between
+herself and Player 2. Player 2 is passive recipient. Let x1 denote Player 1’s retained portion
+and let x2 (which equals 1 − x1 ) denote their offer to Player 2. Suppose that Player 1 has
+a utility function given by
+" 2
+#
+α X
+(xj − x̄)2
+u1 = x1 −
+2 j=1
+where α ≥ 0
+(a) What general properties does this utility function have? How is inequality-aversion
+displayed? What restrictions on this model would give you the homo economicus,
+egoistic, special case?
+(b) Show that this utility function can be written as
+u 1 = x1 −
+
+α
+(x1 − x2 )2
+4
+
+[hint: you can think geometrically rather than algebraically, if you wish, and use the
+fact that in this case x̄ =
+
+1
+2
+
+and x1 and x2 must be located symmetrically around it.]
+
+(c) Derive the offer (x2 ) as a function of their inequality aversion parameter α.
+(d) Show that the offer to Player 2 is increasing in α.
+(e) Show that this utility function can rationalise any offer less than or equal to 12 , but
+could not explain why anyone would wish to give away more than half the stake.
+(f) Suppose that you observe
+(i) someone offering 14 . What is their α?
+(ii) someone offering nothing. What is their α?
+
+PRELIMS MICROECONOMICS 2016-17
+
+17
+
+Tutorial 7 : Market Power (AA).
+Themes :
+• Monopoly
+• Monopsony
+Readings :
+• Varian, Chapters 25 - 27
+• CEP Policy Analysis, The National minimum Wage: The Evidence of its Impact on jobs
+and Inequality
+
+(1) Draw a diagram to show how the monopoly price and quantity are determined.
+(a) Explain why the marginal revenue curve lies below the demand curve.
+(b) What is the relationship between the monopoly price and the price elasticity of demand?
+(c) Will production be at minimum average cost? Why, or why not?
+(d) What, precisely, is meant by the “deadweight loss of monopoly”?
+
+(2) You are interested in analysing the behaviour of a monopolist. You assume that the firm
+has a linear demand curve Y = α + βP and have the following information:
+
+Variable
+
+Value
+
+Output
+
+2
+
+Price
+
+4
+
+Elasticity
+Total Costs
+
+-2
+4
+
+(a) Use the information in the table to show that the demand curve is Y = 6 − P and find
+the inverse demand curve and the marginal revenue curve. Hence estimate the firm’s
+current marginal cost, explaining your reasoning.
+(b) By calculating consumer surplus and profits, and comparing with the competitive
+outcome, assess the welfare implications of monopoly in this industry. Use a diagram
+to illustrate your analysis.
+
+18
+
+ABI ADAMS
+
+(c) Without doing any further calculations, describe how you think your findings about
+the firm would have been altered if your estimate fo the elasticity of demand had been
+higher.
+(3) “Minimum wages result in higher unemployment”. Discuss
+
+Tutorial 8 : Imperfect Information (AA).
+Themes :
+• Adverse Selection
+• Moral Hazard
+Readings :
+• Varian, Chapter 38
+• G. Akerlof (1970), The Market for “Lemons”: Quality Uncertainty and the Market Mechanism
+
+(1) Outline (i) how a system of tradeable permits, (ii) a Pigouvian tax, and (iii) allowing
+the affected parties to bargain (provided property rights are clearly defined) could provide
+efficient solutions to problems of environmental pollution.
+(2) “The introduction of a free market in Higher Education with no controls over tuition fees
+is a Lemons Problem waiting to happen”. Discuss
+
+

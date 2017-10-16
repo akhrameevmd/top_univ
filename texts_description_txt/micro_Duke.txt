@@ -1,0 +1,6 @@
+ECON  201D - Intermediate Microeconomics I
+Introduction of the concepts of preferences and technologies. Intermediate development of the theory of demand, supply and competitive equilibrium from individual preferences and technologies. Income and substitution effects, uncompensated demand and marginal willingness to pay. Conditions under which competitive markets result in efficient outcomes. Conditions under which government policy has the potential to increase efficiency. Tension between economic efficiency and different notions of equity. Prerequisites: Economics 21 and 22 or 101; and Mathematics 21 or 111L or 105L and 106L, or 112L, 122, 202, 212 or higher level math. Instructor: Staff
+
+ECON  205D - Intermediate Microeconomics II
+	
+Calculus-based generalization of the theory of demand and supply developed in Economics 201D. Individual behavior in environments of risk and uncertainty. Introduction to game theory and strategic interaction. Adverse selection, moral hazard, non-competitive market structures, externalities, public goods. Prerequisite: Economics 201D; Mathematics 202 or Mathematics 212 or Mathematics 222 or any higher-level mathematics course with Mathematics 212 as a prerequisite. Instructor: Staff

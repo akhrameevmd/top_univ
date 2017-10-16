@@ -1,0 +1,2895 @@
+Macroeconometrics
+Topic 2: Univariate Time Series
+
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas 2016
+
+Univariate Time Series
+
+I
+
+ARMA processes
+
+I
+
+Non-stationary Time Series (i): Deterministic Trends
+
+I
+
+Non-stationary Time Series (ii): Stochastic Trends
+
+ARMA processes
+
+ARMA processes
+
+ARMA processes
+
+I
+
+Definition
+
+I
+
+Properties: Stationarity & Invertibility
+
+I
+
+Examples
+
+I
+
+Wold Decomposition: (MA(∞))
+
+I
+
+Estimation and Inference
+
+I
+
+Model Selection
+
+ARMA processes
+
+I
+
+We have seen AR(1)
+Xt = µ + φXt
+where εt
+
+I
+
+1
+
++ εt ,
+
+WN (0, σ2ε )
+
+We can generalize this to an AR(p)
+Xt = µ + φ1 Xt
+
+1
+
++ φ2 Xt
+
+2
+
++ ... + φp Xt
+
+p
+
++ εt ,
+
+ARMA processes
+
+I
+
+We have also seen a MA(1)
+Xt = µ + εt + θεt
+where εt
+
+I
+
+1,
+
+WN (0, σ2ε )
+
+We can generalize this to an MA(q)
+Xt = µ + εt + θ 1 εt
+
+1
+
++ θ 2 εt
+
+2
+
++ ... + θ q εt q ,
+
+ARMA processes
+
+I
+
+We could then combine and get ARMA(p,q)
+Xt
+
+φ1 Xt
+
+where εt
+I
+
+1
+
+...
+
+φp Xt
+
+p
+
+= µ + εt + θ 1 εt
+
+1
+
+1
+
+= µ + εt + θ 1 εt
+
+1
+
+WN (0, σ2ε )
+
+For instance: ARMA(1,1)
+Xt
+
+φ1 Xt
+
++ ... + θ q εt q ,
+
+ARMA processes
+I
+
+A useful tool in time series: the Lag Operator (L)
+
+I
+
+Definition: Xt L = Xt
+
+I
+
+Properties:
+I
+I
+I
+
+I
+
+Xt Lj = Xt j
+(aXt )L = aXt 1
+(Xt + Yt )L = Xt
+
+1
+
+1
+
++ Yt
+
+1
+
+Example: AR(1). If Xt = µ + φXt
+can be written as
+
+(1
+
+1
+
++ εt , then the model
+
+φL)Xt = µ + εt
+
+ARMA processes
+
+I
+
+For an ARMA(p,q)
+Xt
+
+I
+
+φ1 Xt
+
+1
+
+φp Xt
+
+...
+
+p
+
+= µ + εt + θ 1 εt
+
+1
+
++ ... + θ q εt q ,
+
+The model can be written as
+
+(1
+
+φ1 L
+
+φ2 L2
+
+...
+
+φp Lp )Xt = µ + (1 + θ 1 L + θ 2 L2 + ... + θ q Lq )εt
+
+ARMA processes
+I
+
+The model can be written as
+
+(1
+I
+
+φ1 L
+
+φ2 L2
+
+...
+
+φp Lp )Xt = µ + (1 + θ 1 L + θ 2 L2 + ... + θ q Lq )εt
+
+More compactly:
+Φ p ( L ) Xt = µ + Θ q ( L ) ε t ,
+where
+Φp (L) = 1
+
+φ1 L
+
+φ2 L2
+
+...
+
+φp Lp
+
+Θq (L) = 1 + θ 1 L + θ 2 L2 + ... + θ q Lq
+are the autoregressive and moving average polynomials
+(in L), respectively
+
+ARMA processes
+I
+
+For an ARMA(1,1)
+Xt
+
+I
+
+1
+
+= µ + εt + θ 1 εt
+
+1
+
+The model can be written as
+
+(1
+I
+
+φ1 Xt
+
+φ1 L)Xt = µ + (1 + θ 1 L)εt
+
+More compactly:
+Φ1 (L)Xt = µ + Θ1 (L)εt ,
+where Φp (L) = 1 φ1 L and Θq (L) = 1 + θ 1 L are the
+autoregressive and moving average polynomials (in L),
+respectively
+
+ARMA processes
+I
+
+Properties of ARMA processes:
+Φ p ( L ) Xt = µ + Θ q ( L ) ε t ,
+
+I
+
+Stability and Invertibility
+
+I
+
+Definition: The ARMA process Xt is stable (causal) if the
+roots of the autoregressive polynomial, Φp (L), are outside
+the unit circle
+
+I
+
+Definition: The ARMA process Xt is invertible if the roots
+of the moving average polynomial, Θq (L), are outside the
+unit circle
+
+ARMA processes
+
+I
+
+For an AR(1)
+Xt
+
+I
+
+φ1 Xt
+
+1
+
+= µ + εt
+
+Is the model stable (causal)?
+Check: The roots of Φ1 (L) = 0 have to be outside the unit
+circle (jLj > 1)
+1
+
+φ1 L = 0 so that L = 1/φ1
+
+Hence, the model is stationary if jφ1 j < 1
+I
+
+Is the model invertible? Yes, by construction
+
+ARMA processes
+
+I
+
+For a MA(1)
+Xt = µ + εt + θ 1 εt
+
+1
+
+I
+
+Is the model stable? Yes, by construction
+
+I
+
+Is the model invertible?
+Check: The roots of Θ1 (L) = 0 have to be outside the unit
+circle (jLj > 1)
+1
+
+θ 1 L = 0 so that L =
+
+1/θ 1
+
+Hence, the model is invertible if jθ 1 j < 1
+
+ARMA processes
+I
+
+For an ARMA(1,1)
+Xt
+
+I
+
+φ1 Xt
+
+1
+
+= µ + εt + θ 1 εt
+
+1
+
+Is the model stable?
+Check: The roots of Φ1 (L) = 0 have to be outside the unit
+circle (jLj > 1)
+1
+
+φ1 L = 0 so that L = 1/φ1
+
+Hence, the model is stationary if jφ1 j < 1
+I
+
+Is the model invertible?
+Check: The roots of Θ1 (L) = 0 have to be outside the unit
+circle (jLj > 1)
+1 + θ 1 L = 0 so that L =
+
+1/θ 1
+
+Hence, the model is invertible if jθ 1 j < 1
+
+ARMA processes
+
+I
+
+Representations of stable and invertible ARMA processes:
+Φp (L)Xt = Θq (L)εt
+
+I
+
+MA representation
+Xt = Φp (L)
+
+I
+
+1
+
+Θq (L) εt
+
+AR representation
+Θq (L)
+
+1
+
+Φp (L)Xt = εt
+
+ARMA processes
+I
+
+The Wold Decomposition: If Xt is a stationary and
+non-deterministic process, then
+Xt =
+
+∞
+X
+
+Ψj ut
+
+j
+
++ Zt = Ψ(L)ut + Zt
+
+j=0
+
+where:
+
+P∞
+
+I
+
+Ψ0 = 1 and
+
+I
+
+ut is
+σ2u > 0
+Zt is deterministic
+Cov(ut .Zt ) = 0 for all s and t
+Ψj and ut are unique
+
+I
+I
+I
+
+2
+j=0 Ψ j
+2
+WN (0, σu ) with
+
+<∞
+
+ARMA processes
+The Wold Decomposition and the MA(∞) representation
+I
+
+Wold Decomposition of a stationary process
+Xt =
+
+∞
+X
+
+Ψj ut
+
+j
+
++ Zt = Ψ(L)ut + Zt
+
+j=0
+
+I
+
+For a stationary ARMA process
+Φp (L)Xt = µ + Θq (L)εt
+the MA representation is
+Xt = Φ p ( L )
+
+1
+
+Θq (L) εt + Φp (L)
+
+1
+
+µ
+
+ARMA processes
+I
+
+Let
+Xt
+
+I
+
+= µ + εt
+
+The MA representation is
+
+=
+
+φL)
+
+1
+
+εt + (1 φL)
+1
+1
+εt +
+µ
+1 φL
+1 φL
+
+1
+
+µ
+
+Notice that
+1
+1
+
+I
+
+1
+
+with jφj < 1 (so the process is stationary)
+Xt = (1
+
+I
+
+φXt
+
+φL
+
+= (1 + φL + φ2 L2 + φ3 L3 + ...)
+
+Hence
+Xt =
+
+∞
+X
+j=0
+
+φj εt
+
+j
+
++
+
+µ
+1
+
+φ
+
+ARMA processes
+I
+
+Let
+Xt = µ + εt + θεt
+
+I
+
+with jθ j < 1 (so the process is invertible)
+The AR representation is
+
+(1 + θL) 1 Xt
+I
+
+(1 + θL)
+
+1
+
+µ = εt
+
+Notice that
+1
+=
+1 + θL
+1
+
+I
+
+1
+
+Hence
+
+1
+= (1 + ( θL) + ( θL)2 + ( θL)3 + ...)
+( θL)
+∞
+
+X
+µ
+Xt =
++
+( 1 ) j + 1 θ j Xt
+1+θ
+j=1
+
+j
+
++ εt
+
+ARMA processes
+I
+
+Autocorrelation function of an ARMA(1,1) process
+
+(1
+
+φL)Xt = (1
+
+θL)εt
+
+with jφj < 1 and jθ j < 1 (so the process is stable and
+invertible)
+I
+
+Write
+Xt Xt
+
+I
+
+h
+
+= φXt 1 Xt
+
+h
+
++ εt Xt
+
+h
+
+θεt
+
+1 Xt h
+
+Take expectations
+γX (h) = φγX (h
+
+1) + E(εt Xt
+
+h)
+
+θE(εt
+
+1 Xt h )
+
+ARMA processes
+
+γX (h) = φγX (h
+
+1) + E(εt Xt
+
+h)
+
+θE(εt
+
+I
+
+This gives as this system of equations:
+h = 0 : γX (0) = φγX (1) + σ2ε θ (φ θ )σ2ε
+h = 1 : γX (1) = φγX (0) θσ2ε
+h 2 : γX (h) = φγX (h 1)
+
+I
+
+Hence
+ρX (h) =
+
+8
+>
+<
+>
+:
+
+1
+(φ θ )(1 φθ )
+1+θ 2 2φθ
+
+φρX (h
+
+h=0
+h=1
+
+1) h = 2
+
+1 Xt h )
+
+ARMA processes: Estimation and Inference
+
+I
+
+ARMA process (stable and invertible)
+Φp (L)Xt = Θq (L)εt
+with εt
+
+I
+
+i.i.d.(0, σ2ε )
+
+MA representation of the ARMA process
+Xt = Ψ(L)εt
+where Ψ(L) = Φp (L)
+
+1Θ
+
+q (L)
+
+ARMA processes: Estimation and Inference
+I
+
+Law of Large Numbers for the mean: Let Xt be a
+covariance-stationary process with E(Xt ) = µ and
+absolutely
+summable autocovariances, that
+P
+is h∞= ∞ jγh j < ∞. Then
+n
+
+p
+1X
+Xt ! µ
+n
+t=1
+
+as n ! ∞. (see Hamilton p. 188 or Brockwell and Davis,
+p.58 or Hamilton p. 401)
+I
+
+Note: Any covariance-stationary ARMA(p,q) process
+(roots of the autoregressive polynomial outside the unit
+circle) satisfies the conditions of this theorem.
+
+ARMA processes: Estimation and Inference
+I
+
+Recall: MA representation of the ARMA process
+Xt = µ + Ψ(L)εt
+
+I
+
+Central Limit Theorem forP
+the mean: If Xt = µ + Ψ(L)εt
+where εt i.i.d.(0, σ2ε ) and j∞=0 jψj j < ∞, then as n ! ∞,
+
+p
+
+P∞
+
+n (X̄n
+
+d
+
+µ) ! N 0,
+
+∞
+X
+
+h= ∞
+
+γh
+
+!
+
+where j= ∞ γj = σ2ε Ψ2 (1) is the long run variance. (See
+Hamilton, p.195 or Brockwell and Davis, p.58 or Hamilton
+p. 402)
+
+ARMA processes: Estimation and Inference
+
+I
+
+Example AR(1): (see Hamilton p.215)
+Xt = φXt
+where jφj < 1 and εt
+
+I
+
+Then
+
+p
+
+n
+
+n
+
+where
+
++ εt
+
+i.i.d.(0, σ2ε )
+
+1X
+Xt
+n
+t=1
+
+σ2ε Ψ2 (1)
+
+1
+
+!
+
+d
+
+! N 0,
+
+σ2ε
+(1 φ )2
+
+is the long run variance
+
+ARMA processes: Estimation and Inference
+
+I
+
+Estimation of an AR(1)
+Xt = φXt
+where jφj < 1 and εt
+
+I
+
+1
+
++ εt
+
+i.i.d.(0, σ2ε )
+
+OLS estimation:
+Pn
+Pn
+Xt 1 εt
+t=2 Xt 1 Xt
+φ̂n = Pn
+= φ + Pt=n 2 2
+2
+t=2 Xt 1
+t=2 Xt 1
+
+ARMA processes: Estimation and Inference
+I
+
+I
+
+Properties
+Pn
+Pn
+Xt 1 εt
+t=2 Xt 1 Xt
+Pt=n 2 2
+φ̂n = P
+=
+φ
++
+n
+2
+X
+t=2 t 1
+t=2 Xt 1
+
+Denominator (LLN for stationary and ergodic processes)
+n
+
+1X 2
+Xt
+n
+
+p
+
+1
+
+t=2
+
+I
+
+! E(Xt2 1 ) =
+
+σ2ε
+1 φ2
+
+Numerator (CLT for m.d.s.)
+n
+
+1 X
+p
+Xt
+n t=2
+
+1 εt
+
+d
+
+! N (0,
+
+σ4ε
+)
+1 φ2
+
+ARMA processes: Estimation and Inference
+
+I
+
+Therefore,
+
+p
+
+n(φ̂n
+
+φ) =
+
+p1
+n
+1
+n
+
+Pn
+
+t=2 Xt 1 εt
+
+Pn
+
+2
+t=2 Xt 1
+
+d
+
+! N (0, 1
+
+φ2 ).
+
+I
+
+We can conduct standard inference
+
+I
+
+See Hamilton, p. 215 for the estimation of a general AR(p)
+
+ARMA processes: Selection
+
+I
+
+AR(p): How should we choose p in practice?
+
+I
+
+Different philosophies: General to Specific vs Specific to
+General
+
+I
+
+Tools: significance test, information criteria
+
+ARMA processes: Selection
+I
+
+Information Criteria: Suppose we have k̄ alternative
+models, M1 , ..., Mk̄ where k = 1, ..., k̄ represents the number
+of parameters in the models. We choose the model that
+minimizes the information criteria
+IC(k) = ln σ̂k + k
+
+P(n)
+n
+
+where σ̂k is the variance of the residuals of model Mk , n is
+the sample size and P(n) is a penalty
+I
+
+There are different proposals for P(n) in the literature
+I
+I
+I
+
+AIC (Akaike): P(n) = 2
+BIC (Bayesina): P(n) = ln(n)
+HQ (Hannan-Quin): P(n) = 2 ln(ln(n))
+
+Deterministic Trends
+
+Deterministic Trends
+
+Deterministic Trends
+yt = α + δt + εt ; εt
+
+i.i.d. (0, 1)
+
+XDT
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+Deterministic Trends
+
+i.i.d. 0, σ2
+
+I
+
+Let εt
+
+I
+
+Deterministic trends. Example:
+yt = α + δt + εt
+
+I
+
+Stochastic Properties
+E [xt ] = α + δt
+V [ xt ] = σ 2
+Cov [xt , xs ] = 0
+
+Deterministic Trends: Estimation and Testing
+Hamilton: Chapter 16
+I
+
+yt = α + δt + εt : Estimate α and δ by OLS
+
+I
+
+Asymptotic theory slightly different from the case of iid
+regressors
+
+I
+
+OLS estimates in general have different rates of
+convergence
+
+I
+
+Nevertheless, usual t and F statistics have the usual
+asymptotic distributions in this case
+
+Deterministic Trends: Estimation
+The model
+yt = α + δt + εt ,
+can be written in standard regression model form as follows
+yt = xt0 β + εt ,
+where
+xt0
+
+1 t
+
+,
+
+(1 2)
+
+and
+β
+(2 1)
+
+α
+δ
+
+.
+
+Deterministic Trends: Estimation
+Let b̂T denote the OLS estimate of β based on a sample of size T
+α̂T
+δ̂T
+
+b̂T
+
+=
+
+"
+
+T
+X
+
+xt xt0
+
+t=1
+
+#
+
+1" T
+X
+
+#
+
+xt yt .
+
+t=1
+
+It is simple to see that
+b̂T
+
+β =
+
+"
+
+T
+X
+t=1
+
+xt xt0
+
+#
+
+1" T
+X
+
+#
+
+xt εt ,
+
+t=1
+
+or equivalently
+α̂T
+δ̂T
+
+α
+δ
+
+" P
+#
+PT
+T
+1
+t
+PTt=1 2
+= PtT=1
+t=1 t
+t=1 t
+
+1"
+
+#
+PT
+ε
+t
+PTt=1
+t=1 tεt
+
+Deterministic Trends: Estimation
+
+Notice that
+"
+
+T
+X
+t=1
+
+xt xt0
+
+#
+
+#
+" P
+PT
+T
+1
+t
+PtT=1
+PTt=1 2
+=
+t
+t=1
+t=1 t
+
+=
+
+T
+T (T + 1) /2
+T (T + 1) /2 T (T + 1) (2T + 1) /6
+
+Deterministic Trends: Estimation
+Now, let
+ΥT =
+
+T1/2
+0
+0
+T3/2
+
+,
+
+and notice that
+ΥT 1
+
+=
+
+"
+
+T
+T
+
+"
+
+T
+X
+
+#
+
+xt xt0 ΥT 1
+
+t=1
+
+PT
+1 T
+PtT=1
+2
+t=1 t T
+
+1
+
+#
+PT
+t
+t
+=
+1
+PT 2
+3
+t=1 t
+2
+
+=
+
+T 1T
+T 2 T (T + 1) /2 T
+
+!
+
+1 1/2
+1/2 1/3
+
+Q.
+
+T 2 T (T + 1) /2
+3 T T + 1 2T + 1 /6
+(
+)(
+)
+
+Deterministic Trends: Estimation
+
+Recall
+ΥT =
+
+T1/2
+0
+3/2
+0
+T
+
+.
+
+i.i.d. 0, σ2 and E ε4t < ∞, then
+3
+p PT
+" T
+# 2
+X
+1/
+T
+ε
+t
+t=1
+d
+5 !
+ΥT 1
+xt εt = 4
+N 0, σ2 Q .
+p PT
+1/ T
+t=1 (t/T ) εt
+t=1
+
+If εt
+
+Deterministic Trends: Estimation
+
+Therefore,
+T1/2 (α̂T
+T3/2 δ̂T
+
+α)
+δ
+
+h
+i
+d
+! N 0, Q 1 σ2 QQ 1 = N 0, σ2 Q
+
+1
+
+.
+
+Deterministic Trends: Estimation
+
+Theorem
+Let yt = α + δt + εt where εt is i.i.d. 0, σ2 and E ε4t < ∞. Then,
+T1/2 (α̂T
+T3/2 δ̂T
+
+α)
+δ
+
+d
+
+!N
+
+0
+0
+
+, σ2
+
+1 1/2
+1/2 1/3
+
+Remark: δ̂T is superconsistent!
+
+1
+
+!
+
+.
+
+Deterministic Trends: Testing
+I
+
+Null Hypothesis
+Ho : α = α0
+
+I
+
+Test statistic
+α̂T
+hP
+
+tα =
+s2T
+
+T
+0
+t=1 xt xt
+
+1 0
+
+where
+s2T
+
+=
+
+1
+T
+
+α0
+
+2
+
+T
+X
+t=1
+
+yt
+
+i
+
+α̂T
+
+1
+
+1/2
+
+1
+0
+
+δ̂T t
+
+2
+
+,
+
+Deterministic Trends: Testing
+
+I
+
+Asymptotic Distribution
+
+tα =
+s2T
+
+1 0
+
+α̂T
+hP
+
+α0
+
+T
+0
+t=1 xt xt
+
+d
+
+i
+
+1
+
+1
+0
+
+1/2
+
+! N (0, 1)
+
+Deterministic Trends: Testing
+I
+
+Null Hypothesis
+Ho : δ = δ0
+
+I
+
+Test statistic
+δ̂T
+hP
+
+tδ =
+s2T
+
+T
+0
+t = 1 xt xt
+
+0 1
+
+where again
+s2T
+
+=
+
+1
+T
+
+δ0
+
+2
+
+T
+X
+t=1
+
+yt
+
+i
+
+α̂T
+
+1
+
+1/2
+
+0
+1
+
+δ̂T t
+
+2
+
+,
+
+Deterministic Trends: Testing
+
+I
+
+Asymptotic Distribution
+
+δ̂T
+
+tδ =
+s2T
+
+0 1
+
+hP
+
+δ0
+
+T
+0
+t=1 xt xt
+
+d
+
+i
+
+1
+
+0
+1
+
+1/2
+
+! N (0, 1)
+
+Deterministic Trends: Estimation and Testing
+
+I
+
+α̂T and δ̂T converge at different rates
+
+I
+
+The corresponding standard errors also incorporate
+different orders of T
+
+I
+
+Hence, the usual OLS t tests are asymptotically valid
+
+Stochastic Trends
+
+Stochastic Trends
+
+Unit Roots
+I
+
+Let εt i.i.d. (0, 1), x0 = 0 and consider the following
+DGPs:
+
+xt = 0.5 + 0.3xt
+
+1 + εt ;
+
+xt = 0.5 + 0.7xt
+
+AR1
+
+1 + εt
+
+xt = 0.5 + xt
+
+1 + εt
+
+AR1
+
+5
+
+7
+
+4
+
+6
+
+AR1
+70
+60
+
+5
+
+3
+
+50
+
+4
+
+2
+
+40
+
+3
+
+1
+
+30
+
+2
+
+0
+
+20
+
+1
+
+-1
+
+10
+
+0
+
+-2
+
+-1
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+Unit Roots
+I
+
+Recall:
+xt = β + xt
+
+1
+
+i.i.d. 0, σ2
+
++ ut ; ut
+
+xt = x0 + βt +
+
+t
+X
+
+uj
+
+j=1
+
+I
+
+Stochastic Properties
+E [xt ] = x0 + βt
+V [xt ] = σ2 t
+Cov [xt , xs ] = min ft, sg σ2
+
+Unit Roots
+Some Properties of Unit Root processes:
+I
+
+First difference is stationary:
+xt = β + xt
+
+I
+
+1
+
++ ut vs ∆xt = β + ut
+
+Shocks have a permanent effect on the future of the series
+xt = x0 + βt +
+
+t
+X
+j=1
+
+I
+
+Standard inference does not hold...
+
+uj
+
+Unit Roots
+
+Hamilton Chapter 17: Consider the OLS estimation of the
+AR(1) process,
+yt = ρyt 1 + ut ,
+where ut
+given by
+
+i.i.d.N 0, σ2 and y0 = 0. The OLS estimate of ρ is
+
+ρ̂T =
+
+T
+X
+
+yt
+
+t=1
+T
+X
+t=1
+
+1 yt
+
+= ρ+
+y2t
+
+1
+
+T
+X
+
+yt
+
+t=1
+T
+X
+t=1
+
+1 ut
+
+.
+y2t
+
+1
+
+Unit Roots
+I
+
+If jρj < 1, then the LLN and the CLT can be applied to
+obtain the asymptotic distribution of the OLS estimator of
+ρ. See Hamilton (p. 215)
+
+I
+
+LLN:
+
+T
+1X 2
+yt
+T
+t=1
+
+I
+
+CLT:
+T
+1 X
+
+T1/2
+I
+
+t=1
+
+yt
+
+1 ut
+
+1
+
+h
+i
+p
+! E y2t 1 =
+
+σ2
+.
+1 ρ2
+
+h
+i
+d
+! N 0, E y2t 1 u2t = N 0,
+
+Therefore,
+T1/2 (ρ̂T
+
+d
+
+ρ) ! N 0, 1
+
+ρ2
+
+σ4
+1 ρ2
+
+Unit Roots
+
+I
+
+If ρ = 1, the distribution collapses; that is,
+T1/2 (ρ̂T
+
+p
+
+ρ) ! 0: not very helpful for hypothesis testing
+
+I
+
+To obtain a non-degenerate asymptotic distribution:
+T (ρ̂T ρ)
+
+I
+
+Faster than the stationary case T1/2 but at slower than
+the deterministic trend case T3/2
+
+I
+
+Asymptotic distribution when ρ = 1 non-standard. Can be
+described in terms of functionals of Brownian motions!
+
+Brownian Motion
+Definition
+A Standard Brownian motion W (.) is a continuous-time
+stochastic process, associating each date r 2 [0, 1] with the
+scalar W (r) such that:
+(a) W (0) = 0
+(b) For any dates 0 r1 < r2 < ... < rk 1, the changes
+[W (r2 ) W (r1 )] , [W (r3 ) W (r2 )] , ..., [W (rk ) W (rk 1 )] are
+independent Gaussian with [W (s) W (r)] N (0, s r)
+(c) For a given realization, W (r) is continuous in r with
+probability 1
+
+The Functional Central Limit Theorem
+I
+
+The CLT establishes convergence of random variables, the
+FCLT establishes conditions for convergence of random
+functions
+
+I
+
+Let εt be an i.i.d. 0, σ2 sequence
+
+I
+
+The CLT considers
+T
+
+1/2
+
+ε̄T = T
+
+1/2
+
+T
+1X
+εt
+T
+t=1
+
+I
+
+The FCLT considers
+T
+
+1/2
+
+XT (r) = T
+
+1/2
+
+[Tr]
+1X
+εt
+T
+t=1
+
+The Functional Central Limit Theorem
+I
+
+Consider
+XT ( r ) =
+
+[Tr]
+1X
+εt ,
+T
+t=1
+
+I
+
+where r 2 [0, 1], [Tr] denotes the integer part of Tr
+
+For any given realization, XT (r) is a step function in r:
+8
+0
+0 r < 1/T
+>
+>
+>
+>
+ε1 /T
+1/T r < 2/T
+>
+<
+/T
+2/T r < 3/T
+ε
++
+ε
+(
+)
+1
+2
+XT (r) =
+>
+.
+..
+>
+..
+>
+.
+>
+>
+:
+r=1
+(ε1 + ε2 + ... + εT ) /T
+
+The Functional Central Limit Theorem
+
+The simplest FCLT is known as Donsker’s theorem
+(Donsker, 1951)
+
+Theorem
+Let εt be a sequence of i.i.d. random variables with mean zero. If
+σ2 var (εt ) < ∞, σ2 6= 0, then
+d
+
+T1/2 XT (r) /σ ! W (r)
+
+The Continuous Mapping Theorem
+
+The Continuous Mapping Theorem, CMT, states that if
+d
+
+XT (.) ! X (.) and g is a continuos functional, then
+d
+
+g (XT (.)) ! g (X (.))
+
+The Continuous Mapping Theorem
+
+d
+
+I
+
+Example: ST (r) = T1/2 XT (r) ! σW (r)
+
+I
+
+Example: S2T (r) = T1/2 XT (r)
+
+I
+
+Example:
+
+I
+
+Example:
+R1 2
+R 1 1/2
+XT ( r )
+0 ST (r) dr = 0 T
+
+R1
+0
+
+ST (r) dr =
+
+R1
+0
+
+2
+
+d
+
+! σ2 [W (r)]2
+d
+
+T1/2 XT (r) dr ! σ
+2
+
+d
+
+dr ! σ2
+
+R1
+0
+
+R1
+0
+
+W (r) dr
+
+[W (r)]2 dr
+
+Application to Unit Root Processes
+
+I
+
+Consider the random walk
+yt = yt
+where εt
+
+1
+
++ εt ,
+
+i.i.d. 0, σ2 , and y0 = 0, so that
+yt =
+
+t
+X
+j=1
+
+εj
+
+Application to Unit Root Processes
+
+yt =
+
+t
+X
+
+εj
+
+j=1
+
+I
+
+Then, XT (r) can be consturcted as follows
+8
+0
+0 r < 1/T
+>
+>
+>
+>
+y
+/T
+=
+ε
+/T
+1/T
+r < 2/T
+>
+1
+1
+<
+y2 /T = (ε1 + ε2 ) /T
+2/T r < 3/T
+XT (r)
+>
+.
+..
+>
+.
+>
+.
+.
+>
+>
+:
+yT /T = (ε1 + ε2 + ... + εT ) /T
+r=1
+
+Application to Unit Root Processes
+I
+
+Notice that
+Z
+
+1
+
+XT (r) dr =
+
+0
+
+I
+
+t=1
+
+Hence,
+T
+1 X
+
+T3/2
+I
+
+T
+y1
+y2
+yT
+1 X
+yt
++
++
+...
++
+=
+T2 T2
+T2
+T2
+
+t=1
+
+yt =
+
+Z
+
+0
+
+1
+
+T
+
+1/2
+
+d
+
+XT (r) dr ! σ
+
+Z
+
+1
+
+W (r) dr
+
+0
+
+Similarly,
+Z 1h
+Z 1
+T
+i2
+1 X 2
+d
+1/2
+2
+yt =
+T XT (r) dr ! σ
+[W (r)]2 dr
+T2
+0
+0
+t=1
+
+Application to Unit Root Processes
+I
+
+Recall, if
+yt = ρyt
+where εt
+
+1
+
++ εt ,
+
+i.i.d. 0, σ2 , then the OLS estimator of ρ is
+
+ρ̂T =
+
+T
+X
+
+yt
+
+t=1
+T
+X
+
+1 yt
+
+= ρ+
+y2t
+
+1
+
+t=1
+
+I
+
+T
+X
+
+yt
+
+t=1
+T
+X
+t=1
+
+If ρ = 1
+
+(ρ̂T
+
+1) =
+
+T
+X
+
+yt
+
+t=1
+T
+X
+t=1
+
+1 εt
+
+.
+y2t
+
+1
+
+y2t
+
+1 εt
+
+1
+
+Application to Unit Root Processes
+I
+
+For the numerator, notice that y2t = y2t
+Hence,
+T
+1X
+yt
+T
+
+1 εt
+
+=
+
+t=1
+
+=
+
+T
+1X 2
+yt
+T
+
+1
+2
+
+y2t
+
+t=1
+
+1
+2
+
+1 2
+y
+T T
+
+1
+T
+
+T
+X
+t=1
+
+1
+! σ 2 W 2 (1)
+2
+d
+
+I
+
+1
+
+ε2t
+
++ ε2t + 2yt 1 εt .
+
+1
+
+!
+
+T
+1X 2
+εt
+T
+
+1
+
+And for the denominator
+T
+1 X 2
+yt
+T2
+t=1
+
+d
+
+1
+
+!σ
+
+2
+
+Z
+
+0
+
+1
+
+[W (r)]2 dr
+
+t=1
+
+!
+
+Application to Unit Root Processes
+I
+
+Therefore,
+1
+T
+
+T (ρ̂T
+
+1) =
+
+T
+X
+
+yt
+
+t=1
+T
+X
+
+1
+T2
+
+t=1
+
+1 εt
+d
+
+y2t
+
+!
+1
+
+W 2 (1) 1
+R1
+2 0 [W (r)]2 dr
+
+I
+
+Remark 1: The OLS estimator converges at a rate T:
+Super-consistent!
+
+I
+
+Remark 2: The asymptotic distribution is not standard
+
+Testing for Unit Roots
+I
+
+Unit Root tests: hypotheses testing procedures for a unit
+root
+
+I
+
+This course focuses on: testing the null of a unit root vs
+the alternative of trend-stationary (there are many other
+types)
+
+I
+
+In particular, we will consider one of the most popular test
+for unit roots: the Dickey-Fuller (DF) test
+
+I
+
+For an overview on unit root testing: Phillips and Xiao
+(1998)
+
+Testing for Unit Roots
+
+Some features of the DF test:
+I
+
+The asymptotic distribution is not standard
+
+I
+
+Deterministic components in true model and/or auxiliary
+regression affect the asymptotic distribution
+
+I
+
+Different tables of critical values have to be used in each
+case
+
+The Dickey-Fuller test
+I
+
+The Hypotheses
+I (1)
+I (0)
+
+Ho : yt
+Ha : yt
+I
+
+The Auxiliary Regression
+yt = ρyt
+and hence
+
+I
+
+Ho : yt
+Ha : yt
+
+1
+
++ ut ,
+
+I (1)
+I (0)
+
+ρ=1
+ρ<1
+
+Equivalently,
+∆yt = θyt
+where θ = (ρ
+
+1
+
++ ut ,
+
+1) and hence
+Ho : yt
+Ha : yt
+
+I (1)
+I (0)
+
+θ=0
+θ<0
+
+The Dickey-Fuller test
+I
+
+Three possible specifications to consider deterministic
+components:
+
+I
+
+No Deterministic Components:
+
+(i) ∆yt = θyt
+I
+
+1
+
+Constant Term:
+
+(ii) ∆yt = α + θyt
+I
+
++ ut
+
+1
+
++ ut
+
+Linear Trend:
+
+(iii) ∆yt = α + βt + θyt
+
+1
+
++ ut
+
+The Dickey-Fuller test
+
+I
+
+Which specification to use in practice?
+
+I
+
+It is convenient to use an auxiliary regression that is able to
+explain both Ho and H1
+
+I
+
+A graphical simple device:
+
+I
+
+If the data looks trended, then (iii) would be a reasonable
+specification under both hypothesis
+
+I
+
+Otherwise, (ii) is recommended
+
+The Dickey-Fuller test
+
+I
+
+Auxiliary Regression
+∆yt = f (t) + θyt
+where θ = (ρ
+
+I
+
+1
+
++ ut ,
+
+1)
+
+Two scenarios:
+(a) ut uncorrelated: DF test
+(b) ut correlated: Augmented DF (ADF) test, etc...
+
+The Dickey-Fuller test
+Consider the following case
+yt = yt
+I
+
+1
+
++ ut where ut = εt
+
+Auxiliary Regression
+∆yt = θyt
+where θ = (ρ
+
+I
+
+i.i.d. 0, σ2
+
+1
+
++ ut ,
+
+1)
+
+Test statistic under the Ho : θ = 0 is
+1 PT
+θ̂ T
+t = 1 yt 1 ε t
+T
+=
+,
+tθ =
+1/2
+P
+σ̂θ̂ T
+T
+1
+2
+y
+s
+T
+t=1 t 1
+T2
+
+where, given that θ̂ T = ρ̂T
+s2T =
+
+1
+
+(T
+
+1)
+
+1,
+
+T
+X
+t=1
+
+(yt
+
+ρ̂T yt
+
+1)
+
+2
+
+The Dickey-Fuller test
+Recall
+yt = yt
+
+1
+
++ ut where ut = εt
+
+Therefore,
+(i)
+
+i.i.d. 0, σ2 ,
+
+p
+
+s2T ! σ2
+(ii)
+T
+1X
+yt
+T
+
+1 εt
+
+t=1
+
+n
+d
+! (1/2) σ2 [W (1)]2
+
+(iii)
+T
+1 X 2
+yt
+T2
+t=1
+
+d
+
+1
+
+!σ
+
+2
+
+Z
+
+0
+
+1
+
+[W (r)]2 dr
+
+1
+
+o
+
+The Dickey-Fuller test
+I
+
+Hence,
+tθ
+
+n
+1/2
+(
+)
+[W (1)]2
+d
+! R
+1
+2
+0 [W (r)] dr
+
+o
+1
+
+1/2
+
+I
+
+Remark: This distribution is not standard but it can be
+tabulated. Check DFtest.prg!
+
+I
+
+Remark: Remember from above that different tables of
+critical values have to be used in the presence of
+deterministic components (in the true model and/or the
+auxiliary regression)
+
+The Dickey-Fuller test
+
+I
+
+Assumption ut = εt
+applications
+
+I
+
+Relax the iid assumption: ut = ψ (L) εt with εt
+
+I
+
+If ut is autocorrelated, then the distribution of the DF test
+will change
+
+I
+
+Several ways of accounting for this fact. Here: ADF test
+
+i.i.d. typically violated in economic
+
+i.i.d.
+
+The Augmented Dickey-Fuller test
+I
+
+ADF test: parametric correction to allow for
+autocorrelation in the error
+
+I
+
+Based on the following “augmented” auxiliary regression
+∆yt = f (t) + θyt
+
+1
+
++
+
+p 1
+X
+
+ϕj ∆yt
+
+j
+
++ εt
+
+j=1
+
+I
+
+Under Ho : θ = 0 the test based on the corresponding
+t-statistic has the same asymptotic distribution as in the
+non-autocorrelated case
+
+I
+
+As before, the presence of deterministic components will
+affect the asymptotic distribution
+
+The Augmented Dickey-Fuller test
+
+I
+
+ADF auxiliary regression
+∆yt = f (t) + θyt
+
+1
+
++
+
+p 1
+X
+
+ϕj ∆yt
+
+j
+
++ εt
+
+j=1
+
+I
+
+Said and Dickey (1984): if p goes to infinity slowly enough
+relative to T, p = T1/3 , then the OLS t-test for Ho : θ = 0
+can be carried out using the DF critical values
+
+I
+
+How to select the order of the polynomial lags, p, in
+practice? Information criteria. General to Specific
+
+Nelson and Plosser
+
+I
+
+Nelson and Plosser (1982): “Trends and Random Walks in
+Macroeconomic Time Series”
+
+I
+
+“This paper investigates whether macroeconomic time series are
+better characterized as stationary fluctuations around a
+deterministic trend or as non-stationary processes that have no
+tendency to return to a deterministic path.”
+
+I
+
+“Using long historical time series for the U.S. we are unable to
+reject the hypothesis that these series are non-stationary
+stochastic processes with no tendency to return to a trend line.”
+
+Nelson and Plosser
+Nelson&Plosser data set:
+I
+
+The U.S. historical time series include measures of output,
+money, prices, interest rates...
+
+I
+
+Annual data. Starting dates varying from 1860 to 1909. All
+end in 1970
+
+I
+
+All series except the bond yield are transformed to natural
+logs
+
+I
+
+Extended version available
+
+Nelson and Plosser
+
+Nelson and Plosser
+
+Nelson and Plosser
+
+Nelson and Plosser
+
+

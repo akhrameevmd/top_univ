@@ -1,0 +1,505 @@
+Inflation and Time Inconsistency
+(π* = 0)
+
+Central bank
+
+π=πD
+
+π=0
+Coop solution
+
+π exp = 0
+workers
+
+Y = Yn
+L=L
+
+C
+
+Discretion
+
+Yn < Y < kYn
+L=L
+
+D
+
+D
+
+C
+
+RE
+
+L < L < L
+
+Rational exp equil
+
+π exp = π D = π RE
+
+Y = Yn
+L=L
+
+RE
+1
+
+The Crisis: where are we?
+“Deleveraging”, “Quantitative Easing” and
+“Tapering”
+14.02 Spring 2014
+
+2
+
+United States: real house prices since 1880
+
+© S&P Dow Jones Indices. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: S&P, Case-Shiller Index
+
+3
+
+Real house prices (indeces, 2000=100)
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: IMF, World Economic Outlook, October 2013
+
+4
+
+House prices and household debt (mortgages)
+leverage = 10
+house
+house
+
+leverage = 9,18
+debt and equity
+
+100
+
+equity
+
+10
+
+debt
+
+90
+
+house
+house
+
+debt and equity
+101
+
+equity
+
+11
+
+debt
+
+90
+
+leverage = 10
+• The additional 9$ borrowed are
+spent
+• Leverage and amplification
+• 1$ increase in house price
+• 9$ increase in spending
+
+house
+
+debt and equity
+
+house
+
+101
+
+equity
+
+11
+
+cash
+
+9
+
+debt
+
+99
+5
+
+Households’ leverage ratios: debt to disposable income
+
+Source: IMF, World Economic Outlook, October 2008
+
+6
+
+House prices and household debt (mortgages)
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: IMF, World Economic Outlook, October 2013
+
+7
+
+Deleveraging: US Household saving
+(percent of disposable income)
+
+"Data Source: FRED, Federal Reserve Economic Data, Federal Reserve Bank of St. Louis:
+Personal Savings; U.S. Department of Commerce: Bureau of Economic Analysis;
+http://research.stlouisfed.org; accessed September 8, 2014."
+8
+
+Deleveraging: US Household consumption
+(constant dollars)
+
+"Data Source: FRED, Federal Reserve Economic Data, Federal Reserve Bank of St. Louis: US
+Household Consumption; U.S. Department of Commerce: Bureau of Economic Analysis;
+http://research.stlouisfed.org; accessed September 8, 2014."
+9
+
+The consequences of Banks’ Deleveraging
+
+10
+
+Asset prices and banks’ leverage
+leverage = 10
+assets
+assets
+
+leverage = 19
+liabilities
+
+100
+
+capital
+
+10
+
+liabilities
+
+90
+
+assets
+assets
+
+liabilities
+95
+
+capital
+
+5
+
+liabilities
+
+90
+
+leverage = 10
+assets
+
+After a fall in asset values
+banks sell asset:
+Demand function slopes the wrong way !
+
+assets
+
+liabilities
+50
+
+capital
+
+5
+
+liabilities
+
+45
+11
+
+The leverage cycle
+
+12
+12
+
+Banks deleveraging: an example
+
+Courtesy of the Federal Reserve Bank of Boston. Used with permission.
+
+13
+
+Banks’ leverage and deleveraging
+
+© Bank of England. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Bank of England
+
+14
+
+Bank deleveraging and bank lending to firms
+
+© Bank of England. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Bank of England
+
+15
+
+Bank deleveraging and bank lending to households and firms
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: IMF, World Economic Outlook, October 2013
+
+16
+
+How long does a deleveraging cycle last ?
+Japan: leverage of non financial corporations (1976 – 2010)
+
+© Wiley. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Koo, 2008
+
+17
+
+Reducing leverage: Japan 1990 - 2010
+
+© Richard C. Koo. All rights reserved. This content is excluded from our Creative Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/
+
+18
+
+Per-capita income after a banking crisis
+average of 88 episodes
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: IMF, World Economic Outlook, October 2009
+
+19
+
+Macroeconomics
+how it responded to the crisis and the
+challenges today
+
+20
+
+World Output Growth
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: IMF, World Economic Outlook, April 2014
+
+21
+
+How did monetary and fiscal policy respond ?
+
+22
+
+However they responded, it worked !
+This crisis and the Great Depression in the 1930s
+World Industrial Output
+
+Courtesy of Barry Eichengreen and Kevin Hjortshøj O'Rourke. Used with permission.
+
+Source: Eichengreen and O’Rourke, Vox-EU, March 2010
+
+23
+
+Fiscal policy
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+Source: IMF, World Economic Outlook
+
+24
+
+US Federal Government debt
+(percent GDP, 1940-2013)
+
+Image is in the public domain courtesy of the Congressional Budget Office.
+
+25
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+26
+
+Monetary policy
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+27
+
+Zero Lower Bound: the “Liquidity Trap”
+• Spending shock shifts IS
+to IS ‘
+• Monetary policy response
+shfts LM to LM ‘
+• Zero Lower Bound
+• Central bank buys asset,
+prints money:
+Quantitative Easing
+• IS ‘ shifts up to IS ‘’
+
+28
+
+Quantitative Easing and the Holmstrom-Tirole model
+•
+•
+•
+
+ρ = i + x : interest rate at which firms can borrow
+Investment = I (Y, ρ)
+Crisis reduces banks’ capital (slide 11)
+– x = f (capital of banks and own resources of entrepreneurs, A ) ↑
+
+• for given i, Investment ↓
+– Quantitative Easing raises banks’ capital x ↓
+• For given i, Investment ↑
+
+X down
+
+x up
+
+29
+
+The «asset side» of the Federal Reserve’s balance sheet,before the crsis
+
+Image is in the public domain courtesy of the Federal Reserve of New York.
+
+30
+
+The «asset side» of the Federal Reserve’s balance sheet, today
+
+Image is in the public domain courtesy of the Federal Reserve of New York.
+
+31
+
+Quantitative easing
+before
+
+Central Bank
+assets
+
+Gvt bills
+
+Commercial Bank
+liabilities
+
+100
+
+cash
+
+80
+
+bank
+reserves
+
+20
+
+assets
+
+liabilities
+
+Loans
+
+50
+
+Mortgage
+backed
+securities
+
+30
+
+deposits
+
+90
+
+Reserves at
+the CB
+
+20
+
+equity
+
+10
+
+after
+assets
+
+liabilities
+
+Gvt bills
+
+100
+
+cash
+
+80
+
+Mortgage
+backed
+securities
+
+30
+
+bank
+reserves
+
+50
+
+assets
+
+liabilities
+
+Loans
+
+50
+
+Mortgage
+backed
+securities
+
+0
+
+deposits
+
+90
+
+Reserves at
+the CB
+
+50
+
+equity
+
+10
+32
+
+Quantitative easing and Credit easing
+
+https://www.khanacademy.org/economics-finance-domain/corefinance/money-and-banking/federal-reserve/v/more-on-quantitativeeasing--and-credit-easing
+
+33
+
+Fed «Tapering» and its consequences
+
+© IMF. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+34
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

@@ -1,0 +1,602 @@
+Econ 2004:
+The Open Economy
+
+Lecture 9: Economics of the Eurozone
+
+Reading.
+Core:
+Carlin & Soskice (2015) Chapter 12 Sections 1-4
+
+Optional: See Moodle page
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+1
+
+Last lecture
+
+Model-building:
+1. Sector financial balances
+2. A 2-bloc model of the world economy - extending the AD-BTERU model
+3. Global imbalances
+
+Policy questions
+• Are national / global imbalances necessarily a problem for
+policy-makers?
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+2
+
+This lecture
+Model-building:
+1. Choice of exchange rate regime – costs and benefits of a flexible
+nominal exchange rate
+2. How was policy-making organized in the Eurozone? How did the
+Eurozone perform?
+3. Stabilization policy for a member of the Eurozone
+
+Policy questions
+• Policy response to common shock – the CB’s central bank
+• Policy response to asymmetric shocks – is a national response
+necessary?
+• How can imbalances arise in a common currency area (CCA)?
+UCL ECON2004 TERM 2 LECTURE 9
+
+6
+
+UCL ECON2004 TERM 2 LECTURE 5
+
+7
+
+The choice of exchange rate regime
+Advanced economies club ‘OECD’ (34 countries):
+__ floating exchange rates; __ ‘irrevocably’ fixed via Eurozone
+membership; __ pegged to the euro
+→ Think of the decision of whether to join a CCA
+Microeconomic issues:
+Benefits
+• Single currency 
+• Resource savings
+• Increased competition 
+• Increased liquidity in financial markets 
+UCL ECON2004 TERM 2 LECTURE 9
+
+8
+
+The economic case for & against joining a CCA
+Macroeconomic issues:
+• Optimal Currency Area (OCA) theory (Mundell) → cost of losing
+exchange rate instrument
+• Benefit
+→ Three issues to focus on using models we have already developed
+How does choice of exchange rate regime affect
+1. economy’s ability to respond to shocks?
+• in a CCA, what could substitute for loss of i and e (i.e. the
+ability to choose y1 (via r0 different from r* and q0 ) to respond
+to a shock (3-equation model)?
+2. the credibility of the medium-run inflation rate?
+3. the nature of shocks?
+UCL ECON2004 TERM 2 LECTURE 9
+
+9
+
+The economic case for & against joining a CCA
+Q1. Exchange rate regime & response to shocks
+Common vs. country specific shocks:
+
+• Common shocks
+• Which model to use?
+• Country-specific shocks
+• What happens if country has no monetary policy?
+• Which model to use?
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+10
+
+Q1 (cont.) What difference does the exchange rate regime make?
+
+A country-specific shock – an external trade shock
+Suppose home country is subject to an external demand shock
+• e.g. a change in tastes so that at given Q, its exports fall (i.e. fall
+in σ, its share of world exports) … e.g. sudden fear that Japanese
+cars are unreliable or German cars have emissions problems
+How to analyze this, and what does it tell us about choice of
+exchange rate regime?
+1. Set up the problem
+2. Look at solution under flexible exchange rates
+3. Compare with Eurozone member (i.e. fixed exchange rates (no
+monetary policy))
+UCL ECON2004 TERM 2 LECTURE 9
+
+11
+
+Q1 (cont.)
+
+Modelling an external trade shock (familiar)
+• Fall in σ, country-specific
+• Both AD and BT shift left
+• AD′ and BT′ intersect vertically above y0 – why?
+• What is the new medium-run equilibrium? Flexible e; fixed e;
+vertical ERU; downward-sloping ERU?
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+12
+
+Q1 (cont.) Modelling an external trade shock under different
+exchange rate regimes (new for fixed rates)
+Flexible exchange rates:
+
+q
+
+Ask:
+What changes in which variables are caused by CB and forex behaviour?
+Focus on the role of jumps in eUCL(and
+therefore
+in q)9
+ECON2004
+TERM 2 LECTURE
+
+y
+13
+
+Q1 (cont.) The fixed exchange rate (or member of a CCA) case
+NB The MRE at Z is ________________ of the exchange rate regime if we
+assume _______________________.
+
+3 key equations:
+q
+
+y
+UCL ECON2004 TERM 2 LECTURE 9
+
+14
+
+Q1 (cont.) Modelling an external trade shock
+Fixed exchange rates
+(or member of a CCA):
+What is the cost of losing access to Δe?
+What could potentially offset this?
+
+1.
+
+2.
+3.
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+15
+
+Q1 (cont.) Summary of costs and benefits
+Benefits of joining CCA
+Microeconomic
+
+Costs of joining CCA
+Macroeconomic
+
+Macroeconomic
+
+Why did Germany join Eurozone?
+
+Why did Italy, Spain, Greece join?
+UCL ECON2004 TERM 2 LECTURE 9
+
+16
+
+Q2. Exchange rate regime choice & credibility of the
+
+medium-run inflation rate
+What determines the MRE inflation rate?
+Review slides 21-23 of Lecture 2
+Different choices made by Italy and the UK
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+17
+
+Q3. Exchange rate regime & nature of shocks
+We have done this before …
+Review slides from Lecture 4
+We know:
+• With sluggish adjustment of wages & prices, nominal e volatility
+is RER volatility; RER volatility can have real economic costs
+• Real exchange rate volatility
+• Overshooting in adjustment to shocks
+• Shocks emanating from the forex market
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+18
+
+Put theory into practice: How was policy-making organized in
+the Eurozone? How did the Eurozone perform?
+The Maastricht policy assignment:
+Monetary policy
+
+Fiscal policy
+
+Supply-side policy
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+19
+
+Key features of Eurozone performance
+• Eurozone as a whole
+• Member countries
+
+• Indicators of imbalance
+• RER
+• Current account balances
+• Public sector debt
+• Private sector debt
+• Monetary policy
+
+• Fiscal policy
+UCL ECON2004 TERM 2 LECTURE 9
+
+20
+
+Eurozone and member countries 1999-2008: how close to
+π = πT and y = ye?
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+21
+
+110
+-2
+100
+-7
+
+90
+2013
+
+2011
+
+2009
+
+-12
+2007
+
+80
+1999
+
+REER (left axis)
+
+Current account balance (right axis)
+
+Italy
+
+150
+140
+130
+120
+110
+100
+90
+80
+
+3
+
+2005
+
+-12
+
+8
+
+120
+
+2003
+
+80
+2013
+
+-8
+2011
+
+90
+2009
+
+-4
+
+2007
+
+100
+
+2005
+
+0
+
+2003
+
+110
+
+2001
+
+4
+
+1999
+
+120
+
+Germany
+
+130
+
+2001
+
+Real effective exchange rate
+(1999= 100)
+
+8
+
+Current account balance
+as a % of GDP
+
+France
+
+130
+
+8
+
+130
+
+3
+
+120
+
+-2
+-7
+
+Spain
+
+2013
+
+2011
+
+2009
+
+2007
+
+2005
+
+2003
+
+2001
+
+1999
+
+3
+
+110
+-2
+100
+90
+
+-12
+
+8
+
+80
+
+UCL ECON2004 TERM 2 LECTURE 51999 2001 2003 2005 2007 2009 2011 2013
+22
+
+-7
+
+-12
+
+Eurozone members: household and government debt
+before the crisis
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+23
+
+2. In the Eurozone, how does stabilization (policy) work?
+2 levels
+• Supra-national level. Monetary policy is carried out by CCA CB (in
+Eurozone by ECB) →
+• use 3-equation open economy model (Fig. 12.5)
+• in response to CCA-wide shocks, CB sets r to achieve πT
+
+• National level. What about country-specific shocks?
+A. adjustment without policy intervention via real exchange rate and
+real interest rate channels
+OR
+B. use of fiscal policy. In theory (but not in EZ), MR becomes PR
+since policy-maker’s desired output gap is implemented via fiscal
+policy
+UCL ECON2004 TERM 2 LECTURE 9
+
+24
+
+Stabilization of country-specific shocks
+Step 1. What happens if there is no active policy intervention?
+Example: inflation shock
+Two channels:
+Higher home inflation (relative to CCA inflation) →
+A. The Real Exchange Rate channel (RER)
+
+B. The Real Interest Rate channel (RIR)
+
+The key is how
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+25
+
+Step 1. No active policy intervention:
+A. Real exchange rate channel
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+26
+
+Step 1. No active policy intervention:
+B. Real interest rate channel
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+27
+
+Step 1. No active policy intervention:
+Example: inflation shock – Summary
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+28
+
+Step 2. Using national fiscal policy to stabilize – mimicking
+the use MP under flexible exchange rates
+Example: inflation shock
+Why use FP?
+
+Instead of MP, modify 3-equation model to use FP with the same
+loss function:
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+29
+
+Step 2. Using national fiscal policy to stabilize: comparison with
+using MP to stabilize under flex. exchange rates (adjustment)
+Example: inflation shock
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+30
+
+Step 2. Using national fiscal policy to stabilize: comparison with
+using MP to stabilize under flex. exchange rates (comparing
+new MREs )
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+31
+
+Stabilization of country-specific shocks in a CCA via fiscal policy
+When is it necessary?
+
+Why is it difficult?
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+32
+
+Application to the Eurozone’s first decade
+1. Success of the ECB
+2. Divergence in member countries … remember different motives for joining
+Before the global financial crisis (2008):
+Common characteristic of the crisis countries: current account deficit
+2 types:
+Type 1. Private sector indebtedness
+Type 2. Excessive government deficits before the crisis
+After the global financial crisis
+• Common characteristics of the crisis countries:
+• Current account deficit
+• High level of government debt
+• Attacked by the ‘bond vigilantes’
+• Doubts about solvency … can government honour its bonds?
+UCL ECON2004 TERM 2 LECTURE 9
+
+33
+
+Indicators 1999-2007: countries ranked by interest rate spread over
+German Bund Q2 2011
+Current
+account (%
+GDP)
+
+Greece
+Ireland
+Portugal
+Spain
+Italy
+Belgium
+Austria
+France
+Finland
+Netherlands
+Germany
+
+-8.1
+-1.6
+-9.2
+-5.5
+-1.1
+3.6
+1.3
+0.8
+6.2
+5.3
+2.7
+
+Real exchange
+Real
+rate (manuf.) interest rate
+
+129.9
+97.0
+107.6
+123.0
+123.6
+104.0
+92.6
+98.7
+79.1
+101.1
+85.1
+
+General
+government
+balance (%
+GDP)
+
+0.9
+0.3
+1.2
+0.2
+2.0
+2.4
+2.9
+2.5
+3.1
+1.6
+3.5
+
+-5.8
+1.6
+-3.6
+0.1
+-2.8
+-0.5
+-1.8
+-2.6
+3.7
+-0.5
+-2.1
+
+RER: 1999=100; increase is appreciation. European Commission - Economic and Financial
+Affairs - Economic Databases and Indicators - Price and Cost Competitiveness
+RIR: 10 year government bond yields and spread over German bonds deflated by GDP deflator
+Source: OECD
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+34
+
+Next week
+Crises … and their aftermath
+
+Self-test questions
+Chapter 12 Check-list questions 1-3; 5-8
+
+UCL ECON2004 TERM 2 LECTURE 9
+
+35
+
+

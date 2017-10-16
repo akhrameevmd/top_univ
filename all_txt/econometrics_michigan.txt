@@ -1,0 +1,13 @@
+ECON 251 - Introduction to Statistics and Econometrics II
+This course is designed to introduce students to the fundamentals of econometric analysis. To this end, the primary focus is on simple and multiple linear regressions under the classical assumptions. Extensions include testing hypotheses for single and multiple linear restrictions; regression with binary variables, basic regression with time series data, and other deviations from the classical assumptions. More advanced topics can include instrumental variable estimation,the difference-in-differences estimator, and basic panel data analysis.
+
+The course will put a heavy emphasis on empirical applications; econometric theory will be discussed where necessary but will not be the central focus.
+
+
+ECON 451 - Intermediate Introduction to Statistics and Econometrics I
+ECON 451 is an introduction to mathematical statistics that requires fluency with advanced differential calculus. The purpose is to provide students with an understanding of the fundamentals of statistical inference; to this end, the course will put an emphasis on concepts, rather than only applications. Topics include probability theory, discrete and continuous random variables and their probability distributions, multivariate and conditional distributions, sampling distributions, testing hypotheses,
+ properties of estimators including maximum likelihood and method of moments, and least squares.
+
+ECON 452 - Intermediate Introduction to Statistics and Econometrics II
+This course, a continuation of ECON 451, is intended to prepare students to conduct empirical research in economics. The classical linear regression model is developed with special emphasis on the basic assumptions of the model, economic situations in which the assumptions are violated, and alternative estimation procedures that are appropriate in these cases. 
+Computer exercises are used to introduce students to special problems encountered in the analysis of economic data.

@@ -1,0 +1,533 @@
+ECON2004 Macroeconomic Theory and Policy
+Lecture 3: The supply side.
+
+Reading: see Moodle
+
+Last week: consumption, investment and the IS curve
+Moving along the IS curve:
+
+Shifts in the curve:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 0
+
+The supply side
+Production function:
+
+Links between the demand side and the
+supply side:
+
+y = af(k,n):
+Assume capital and aggregate productivity
+(a measure of the level of technology
+among other things) only change slowly
+so we can neglect them for the purposes of
+analysing the business cycle.
+Why? Otherwise the model would
+become unmanageable…
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 1
+
+This lecture: the labour market
+
+Under perfect competition:
+
+Under imperfect competition:
+
+ Labour demand (LD)
+
+ Wage setting (WS)
+
+ Labour supply (LS)
+
+ Price setting (PS)
+
+ Potential output
+
+ Equilibrium output
+
+ Often referred to as the “classical”
+model
+
+ Sticky wages
+ The Phillips Curve (PC)
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 2
+
+The labour market under perfect competition
+Labour demand
+
+Labour supply
+
+ Firms maximising profits
+
+ Individuals maximising utility
+
+ The real wage paid is the marginal
+product of labour
+
+ Tradeoff between disutility of work
+and utility of income (consumption)
+
+ so diminishing marginal product of
+labour implies a downward sloping
+LD curve
+
+A rise in the real wage leads to:
+ Income effect:
+ Substitution effect:
+ Assume the latter dominates so the LS
+curve is upward sloping
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 3
+
+The labour market under perfect competition
+ Prices and wages and flexible so the
+labour market always clears at “full”
+employment and “potential”output
+ Unemployment is voluntary
+ This level of output is optimal
+(microeconomic welfare theorems)
+ What can policy do?
+
+“Practical men [sic], who believe themselves to
+be quite exempt from any intellectual influence,
+are usually the slaves of some defunct
+economist.” (Keynes, General Theory)
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 4
+
+(Some of) the assumptions of perfect competition
+1. No market power i.e. everyone is a price Do these hold in the labour market?
+taker
+
+2. Complete contracts
+
+In the goods market?
+
+3. Complete information
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 5
+
+The supply side of the labour market when these assumptions
+don’t hold
+Incomplete contracts:
+ firms can’t observe workers’ effort so
+have to pay workers a real wage
+higher than the reservation wage to
+encourage them to exert effort
+ the lower the unemployment rate, the
+higher this wage must be since
+workers will be less worried about
+getting fired
+
+Workers with market power:
+ market power can either arise because
+of unions or differentiated skills
+ either of these will lead to workers
+asking for a real wage higher than their
+reservation wage
+ unemployment is a measure of how
+much bargaining power workers have
+ when unemployment is low, workers
+have more bargaining power so will
+obtain a higher real wage
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 6
+
+The wage setting curve
+ although workers and firms care about
+the real wage, in practice all wages are
+set in nominal terms (this will be
+important later when we talk about
+sticky prices)
+
+W = P(1 – au + z)
+1. P
+2. u
+3. z
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+ the WS lies above the LS curve so
+whatever happens in the goods market
+there will be involuntary
+unemployment
+ the gap is a measure of the degree to
+which the assumptions of perfect
+competition fail to hold
+
+Slide 7
+
+Price setting
+Under perfect competition:
+
+Nominal marginal cost of labour:
+MC = (1+t)W/λ
+
+Under imperfect competition:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+ where λ is the marginal product of
+labour = afn(k,n)
+ t are proportional taxes that the firm
+pays
+ for simplicity, assume λ is independent
+of output
+ then:
+
+Slide 8
+
+The price setting curve
+W
+
+
+P 1   1  t 
+
+Properties:
+Horizontal by assumption
+Shifts if:
+ the marginal product of labour
+changes
+ the markup changes
+ firm taxes change
+ anything else that takes a share of
+the marginal product of labour
+changes
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 9
+
+Price setting, wage setting and aggregation
+Wage setting:
+ workers and firms agree on a nominal
+wage specific to them Wf
+ to get the aggregate nominal wage,
+sum over all firms
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Price setting:
+ firms set the price of their own good Pf
+ to get the aggregate price level
+(corresponding to the CPI) sum over
+all firms
+
+Slide 10
+
+The labour market under imperfect competition
+WS / PS:
+
+ it corresponds to the NAIRU (nonaccelerating inflation rate of
+unemployment)
+ there is both voluntary and involuntary
+unemployment
+ changes in the exogenous variables will
+shift the WS or PS curves so change
+equilibrium output
+
+ if output is away from equilibrium there
+
+Properties:
+
+are no labour market forces which change
+it
+
+ equilibrium output is where price and
+wage setting are consistent
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 11
+
+Equilibrium output
+Tax rates:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Oil prices:
+
+Slide 12
+
+A bit more on efficiency wages
+Higher wages bring benefits to firms as
+well as costs
+Why?
+ Better nutrition (developing countries,
+UK in 19th century)
+“highly paid labour is generally efficient
+and therefore not dear labour; a fact which
+ Fairness / morale – gift exchange
+is more full of hope for the future of the
+human race than any other that is known to
+ Turnover
+us” (Marshall)
+ Adverse selection
+ Moral hazard
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 13
+
+Efficiency wages
+Henry Ford and efficiency wages
+In 1914 Ford offered workers $5 for an
+8 hour shift. Wages had previously
+been $2.34 for 9 hour shift, a 240% pay
+increase.
+
+Turnover Rate
+
+Absenteeism
+
+1913
+370
+1913
+10%
+
+1914 1915
+54
+16
+1914
+2.5%
+
+Model this as a moral hazard problem:
+• workers dislike effort and want to “shirk”
+(i.e. turn up at work but exert no effort)
+• firms cannot monitor effort perfectly
+• firms pay a wage above the reservation wage
+to encourage workers to exert effort
+• if unemployment falls, workers are less
+scared of getting caught shirking and fired,
+so firms have to pay a higher wage
+• the WS curve is upward sloping
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 14
+
+Price and wage (“nominal”) stickiness
+Sticky prices:
+ some prices are flexible
+ some prices are sticky
+
+Sticky wages:
+ most wages are governed by periodic
+contracts, either formally with annual
+union-bargaining rounds or informally
+
+ a very rough estimate of the average
+time between price changes is
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 15
+
+Price and wage stickiness: in the model
+In what follows we’ll assume
+ wages are set for one period in
+advance, and cannot be changed
+during that period. “sticky wages”.
+Then wage setting is:
+
+ this implies the economy is always on
+
+ and, except when output is at
+equilibrium, workers will get a real
+wage different from the one they
+expected
+
+ prices are flexible so firms can change
+prices whenever they want
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 16
+
+The relation between y and π: deriving the Phillips curve
+Treat expected inflation as exogenous
+Expected inflation = 0%
+ye
+y1> ye
+Wages
+Prices
+
+ye
+
+Expected inflation = 3%
+ye
+y1> ye
+Wages
+Prices
+
+y
+
+w
+WS
+
+y2< ye
+
+y2< ye
+
+PS
+
+y
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 17
+
+The Phillips curve and expected inflation
+The PC can be written as:
+π
+
+   e    y  ye 
+There are a family of PCs, with each one
+corresponding to a particular level of
+expected inflation.
+Only at equilibrium output is actual
+inflation equal to expected inflation.
+ye
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+y
+
+Slide 18
+
+The slope of the Phillips curve
+If the period over which inflation is
+calculated is the same as the period over
+which wages are set, the PC is parallel to
+the WS curve.
+
+In the limiting case of flexible wages the
+PC is:
+and output is always at
+
+If wages are set less frequently than
+inflation is calculated, the PC is flatter
+than the WS curve.
+If prices were sticky as well as wages, the
+PC would be flatter than with only wage
+If wages are set more frequently, the PC is stickiness.
+steeper than the WS.
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 19
+
+Timing and expectations
+Timing:
+We’ll assume in each period events
+happen in the following order:
+ Expectations are updated
+
+Expectations:
+ For the moment, assume “adaptive
+expectations”: expected inflation in the
+next period is equal to current inflation
+
+ Nominal wages are set
+ Then, knowing this wage, firms set
+their prices
+
+ See lecture 5 for more detail
+
+ Then the economy is on the PS curve
+(and in general off the WS)
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 20
+
+The economy without policy
+At equilibrium output:
+
+Away from equilibrium output:
+
+π
+
+π
+
+ye
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+y
+
+ye
+
+y
+Slide 21
+
+Is the economy unstable without policy?
+Under perfect competition, any deviation
+from potential output is reversed by price
+or wage adjustment. Such mechanisms
+which return the economy to equilibrium
+without policy intervention are known as
+“classical” mechanisms.
+Potential such mechanisms in the WS/PS
+model:
+
+Simplistic view:
+ Hayek: classical mechanisms are
+powerful
+ Keynes: no they’re not, “in the long
+run were all dead”
+However Keynes later came very close to
+agreeing with Hayek that there are
+powerful self-stabilising mechanisms…
+
+ expected high real wages could lead to
+entry into the labour force
+
+… and a look at history says he was
+probably right to do so e.g. over centuries,
+unemployment rarely deviates much from
+ expectations: if workers consistently get a its average for more than 5 – 10 years,
+lower real wage than they expect, they will unless caused by poor policy e.g. UK in
+change the way they form expectations
+1920s; Eurozone…
+(see lecture 5)
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 22
+
+Summary
+This lecture:
+ The labour market under perfect
+competition
+ The labour market when the
+assumptions of perfect competition do
+not apply – WS, PS, PC
+
+Next lecture:
+ Optimal monetary policy (MR)
+ Using the three – equation model
+
+ Timing and expectations
+
+ Remember the rest of the supply side:
+a,k and links between demand and
+supply
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 3
+
+Slide 23
+
+

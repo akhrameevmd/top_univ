@@ -1,0 +1,32 @@
+14.36 Advanced Econometrics
+Subject meets with 14.387 
+Prereq: 14.32 
+U (Spring) 
+4-0-8 units
+
+Emphasizes econometric theory, methods, and applications using regression, instrumental variables, differences-in-differences, regression discontinuity designs, machine learning and big data sets, and problems related to standard errors and statistical inference. Includes a project with a theoretical, written and data-analytic component. Familiarity with Stata or a similar statistical programming language recommended. Students taking graduate version complete additional assignments.
+J. Angrist, V. Chernozhukov
+
+14.382 Econometrics
+Prereq: 14.381 or permission of instructor 
+G (Spring) 
+5-0-7 units
+
+Covers key models as well as identification and estimation methods used in modern econometrics. Presents modern ways to set up problems and do better estimation and inference than the current empirical practice. Introduces generalized method of moments and the method of M-estimators in addition to more modern versions of these methods dealing with important issues, such as weak identification or biases arising in high dimensions. Also discusses the bootstrap and explores very high dimensional formulations, or "big data." Students gain practical experience by applying the methods to real data sets. Enrollment limited.
+V. Chernozhukov14.387 Applied Econometrics
+Subject meets with 14.36 
+Prereq: 14.382 
+G (Spring) 
+4-0-8 units
+
+Emphasizes econometric theory, methods, and applications using regression, instrumental variables, differences-in-differences, regression discontinuity designs, machine learning and big data sets, and problems related to standard errors and statistical inference. Includes a project with a theoretical, written and data-analytic component. Students taking graduate version complete additional assignments.
+J. Angrist, V. Chernozhukov
+
+14.387 Applied Econometrics
+Subject meets with 14.36 
+Prereq: 14.382 
+G (Spring) 
+4-0-8 units
+
+Emphasizes econometric theory, methods, and applications using regression, instrumental variables, differences-in-differences, regression discontinuity designs, machine learning and big data sets, and problems related to standard errors and statistical inference. Includes a project with a theoretical, written and data-analytic component. Students taking graduate version complete additional assignments.
+J. Angrist, V. Chernozhukov

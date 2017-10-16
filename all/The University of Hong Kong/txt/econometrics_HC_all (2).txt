@@ -1,0 +1,203 @@
+Econ 3121A Introductory Econometrics
+2017 – 2018 Term 1
+The Chinese University of Hong Kong
+
+Instructor: Yan, Jin
+Office hours: Monday 11:30am-12:30pm or by appointment
+Office: 903 Esther Lee Building
+Email: jyan@cuhk.edu.hk
+Teaching Assistant:
+Wang, Jingyi
+Office hours: Wednesday 11:00am-12:00pm or by appointment
+Office: 1017-23 Esther Lee Building
+Email: wangjingyi@link.cuhk.edu.hk
+Lectures: Tuesday 1:30pm-2:15pm, ELB_LT2 & Thursday 10:30am-12:15pm ELB_LT3
+Course Webpage: Access through CUSIS
+Tutorial Hours: TBA (optional, but highly encouraged)
+Required Textbook: Introductory Econometrics: A Modern Approach, Wooldridge, Jeffrey
+M., Cengage Learning, 6th edition, 2016. The book is available at the University Bookstore,
+CUHK. I highly recommend every student to own the textbook.
+(Other editions are acceptable but the reading list and homework assignments are based on the 6th edition. Check with
+classmates to make sure that you are reading the right chapters and doing the right problem set questions if you use other
+editions.)
+
+Course Description and Objectives:
+The purpose of this course is to provide an introduction to the statistical methods that
+economists use to test economic theory and interpret economic data. We begin with an
+extended discussion of simple and multiple regression analysis. More advanced topics will be
+tackled later in the semester, such as dummy variables, heteroscedasticity, instrumental
+variables, binary choice models, panel data and time series. Problem sets will provide
+students practical experience in applying econometric techniques to real world data.
+Upon successful completion of this course, students should demonstrate their mastery of a
+broad knowledge of regression analysis relevant for analyzing economic data, theoretical
+background for the standard econometric methods used in empirical analysis, and skills of
+applying STATA in regression analyses of empirical data.
+
+STATA:
+The computer program STATA will be used extensively in the course. One good introduction
+can be found at http://data.princeton.edu/stata/. I will do some STATA demonstration in class.
+Your TAs will also help you during the tutorial hours. You will have a chance to learn basic
+knowledge of STATA in the computer lab (916) in ELB. Selected exercises will be given for
+you to obtain skills on the basic programming and interpretations.
+
+Requirements:
+1. 4 problem sets (20%). Each problem set will count 5% in your final grade. Problem sets
+will go out about every other week, and you will have 1-2 weeks to do them. You are
+required to bring your hard copy problem sets to the classroom and submit them before
+class time of the due date. No late problem sets are accepted. If you choose to hand in
+late, a 50% discount is applied for each day after the due date. The number of days is
+rounded upward, e.g. 1 day and 1 hour is rounded up to 2 days.
+2. Midterm exam (30%).
+3. Final exam (50%). Final examination will be cumulative, but will emphasize the
+materials after the midterm exam.
+4. Class attendance/participation (5% bonus). You are required to come to class on time.
+We will randomly have few attendance checks. A random number of quizzes will also be
+given in class as participation checks.
+
+Recording:
+Audio and/or video recording of the class is prohibited.
+
+Key Dates:
+1. The midterm exam is scheduled at class time (10:30am-12:15pm) on October 19
+(Thursday). Arrive 10 minutes early.
+2. The date of the final exam will not be known till late November as it is centrally
+scheduled by the University. Early departure before the end of the exam period is
+NOT a valid reason for absence from the final exam. Ensure that you are available on
+these exam dates, as exams will not be rescheduled for any student for any reason.
+3. There is a make-up class scheduled on November 14 (Tuesday) 6:30pm-8:30pm.
+4. Students are responsible for announcements made in class and via E-mail.
+
+Honesty in Academic Work:
+Please visit the following website for details of university policy on Honesty in Academic
+Work: http://www.cuhk.edu.hk/policy/academichonesty/.
+Each assignment must be submitted together with a signed declaration of originality.
+
+I declare that the assignment here submitted is original except for source material
+explicitly acknowledged, and that the same or closely related material has not been
+previously submitted for same or different courses. I also acknowledge that I am aware
+of University policy and regulations on honesty in academic work, and of the
+disciplinary guidelines and procedures applicable to breaches of such policy and
+regulations, as contained in the website
+http://www.cuhk.edu.hk/policy/academichonesty/.
+
+Signature
+
+Date
+
+Name
+
+Student ID
+
+Course code
+
+Course title
+
+Course Schedule:
+The course schedule is subject to changes as the semester proceeds. Students are responsible
+for keeping track of course materials at all times.
+Week
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+11
+12
+13
+
+Tuesday&
+Thursday
+Sep 05 &
+Sep 07
+Sep 12 &
+Set 14
+Sep 19 &
+Sep 21
+Sep 26 &
+Set 28
+Oct 03 &
+Oct 05
+Oct 10 &
+Oct 12
+Oct 17 &
+Oct 19
+Oct 24 &
+Oct 26
+Oct 31 &
+Nov 02
+Nov 07 &
+Nov 09
+Nov 14 &
+Nov 16
+Nov 14
+(Tuesday)
+Nov 21 &
+Nov 23
+Nov 28 &
+Nov 30
+TBA
+
+Topic
+Introduction and Statistics Review
+
+Reading
+Chapters
+1 & App A-B
+
+Simple Regression Model(I)
+
+2.1-2.3
+
+Simple Regression Model(II)
+
+2.4-2.6
+
+Multiple Regression Model(I)
+
+3.1-3.6
+
+No Class on Oct 03 (Cancelled)
+No Class on Oct 05 (Public Holiday)
+Multiple Regression Model(II)
+
+4.1-4.6, App B.5
+
+Review &
+Midterm Exam (Oct 19 in class)
+Asymptotics
+
+5
+
+Dummy Variables
+
+7.1-7.5, 7.7
+
+Binary Choice Model and Heteroskedasticity
+
+17.1, 8.1-8.4
+
+Endogeneity
+No Class on Nov 16 (83rd Congregation)
+Simultaneous Equations
+(Make-up Class 6:30pm-8:30pm)
+Pooled Cross Sections and Panel Data
+
+9.1-9.2, 15.1-15.3
+
+Time Series & Review
+
+10.1-10.2, 10.5
+
+Final Exam
+(centrally scheduled by the University)
+
+16.1-16.3
+13, 14
+
+

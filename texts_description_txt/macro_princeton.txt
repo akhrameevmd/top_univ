@@ -1,0 +1,11 @@
+ECONOMICS 101 THE NATIONAL ECONOMY
+The purpose of the problem sets is to enhance your understanding of economics and to raise your analytical skills in general. Of course, they are also part of your preparation for exams. You are encouraged to discuss the problem sets with classmates (or anyone else), but the work you hand in must be your work. If you work together, then think about your answers and put them into your own words. Searching the WEB for former answer sheets is cheating. Getting help from tutors is OK, but be certain to work on the problem sets alone first so that you gain the needed analytical skills to perform on the exams. Any student caught cheating on any component of the course may receive a failing grade for the entire course. (I don’t expect to see this at Princeton, but I’m supposed to remind students of the rules.)
+
+Macroeconomic Theory I
+Topics: The course will follow the designs of Richard Rogerson and Ben Moll who have taught the course
+in previous years. Ben's slides for 503 are publicly available on his website. I plan, however, to teach on
+the board and will certainly deviate from Ben's material frequently, in particular later on in the course.
+The course will use the neoclassical growth framework to touch upon various key macro topics such as
+growth, taxation, and the income distribution, but mostly it will serve as an environment to introduce
+standard tools and methods used in modern macroeconomics. The following is a coarse and preliminary
+outline of the course.

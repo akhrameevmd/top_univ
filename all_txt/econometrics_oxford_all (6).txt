@@ -1,0 +1,4039 @@
+Microeconometrics
+The Linear Model
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas Term 2016
+
+Outline
+
+The Linear Model
+
+I
+
+The Simple Regression Model (review)
+
+I
+
+Multiple Regression under Classical Assumptions
+
+I
+
+Relaxing Classical Assumptions
+
+The Simple Regression Model
+
+“The simple regression model can be used to study the relationship
+between two variables [...] It has limitations as a general tool for
+empirical analysis. Nevertheless it is sometimes appropriate as an
+empirical tool. (Moreover) Learning how to interpret the simple
+regression model is good practice for studying multiple regression,”
+Wooldridge (2013) p. 20
+
+The Simple Regression Model
+Examples (Stock and Watson, 2012, p. 149)
+I
+
+A state implements tough new penalties on drunk drivers:
+What is the effect on highway fatalities?
+
+I
+
+A school district cuts the size of its elementary school
+classes: What is the effect on its students’ standardized test
+scores?
+
+I
+
+You successfully complete one more year of college classes:
+What is the effect on your future earnings?
+
+The Simple Regression Model
+
+yi = β1 + β2 xi + ui ,
+I
+
+yi and xi are observable random scalars
+
+I
+
+ui is the unobservable random disturbance or error
+
+I
+
+β1 and β2 are the parameters (constants) we would like to
+estimate
+
+The Simple Regression Model: OLS
+I
+
+The OLS objective function
+
+min
+
+b 2 R2
+
+I
+
+n
+X
+
+u2i = min
+b 2 R2
+
+i=1
+
+n
+X
+
+(yi
+
+b1
+
+b2 xi )2 = L
+
+i=1
+
+System of Normal Equations: First Order Conditions
+∂L
+∂b1
+
+=
+
+∂L
+∂b2
+
+=
+
+2
+2
+
+n
+X
+i=1
+n
+X
+i=1
+
+( yi
+
+b1
+
+b2 xi ) = 0
+
+( yi
+
+b1
+
+b2 xi ) xi = 0
+
+The Simple Regression Model: OLS
+
+I
+
+The OLS solution
+Pn
+i=1 (yi
+β̂2 =
+Pn
+
+i=1
+
+β̂1 = ȳ
+
+β̂2 x̄
+
+ȳ) (xi
+
+( xi
+
+x̄)
+
+x̄)
+2
+
+P
+n 1 ni=1 yi xi
+P
+=
+n 1 ni=1 x2i
+
+ȳx̄
+x̄2
+
+The Simple Regression Model: OLS
+
+I
+
+Example: Wage and Education (Wooldridge, 2013, p. 31)
+
+[
+w
+agei =
+I
+
+0.90 + 0.54educi
+
+Interpreting estimates (caution!)
+
+The Simple Regression Model: OLS
+OLS algebraic facts: Let ûi = yi
+1.
+
+β̂1
+
+β̂2 xi
+
+n
+
+1X
+ûi = 0
+n
+i=1
+
+2.
+
+n
+
+1X
+ûi xi = 0
+n
+i=1
+
+Recall system of normal equations
+
+The Simple Regression Model: OLS
+OLS algebraic facts: Let ŷi = β̂1 + β̂2 xi
+3.
+
+n
+
+1X
+ŷi = ȳ
+n
+i=1
+
+4.
+
+SST = SSE + SSR
+where
+SST
+
+n
+X
+i=1
+
+(yi
+
+ȳ)2 SSE
+
+n
+X
+i=1
+
+(ŷi
+
+ȳ)2 SSR
+
+n
+X
+i=1
+
+u2i
+
+The Simple Regression Model: OLS
+OLS algebraic facts:
+5. Goodness-of-Fit: Coefficient of Determination:
+R2
+
+SSE
+=1
+SST
+
+SSR
+SST
+
+6.
+R2
+
+0
+7.
+
+p
+
+R2
+
+= ryx = qP
+n
+
+Pn
+
+i=1
+
+i=1
+
+( yi
+
+1
+
+(yi
+ȳ)
+
+ȳ) (x
+q i
+2 Pn
+
+i=1
+
+x̄)
+
+(xi
+
+x̄)2
+
+The Simple Regression Model: OLS
+
+OLS algebraic facts:
+8.
+β̂2 = β2 +
+9.
+
+n
+n
+
+1
+
+Pn
+
+(xi x̄) ui
+x̄)2
+i=1 (xi
+
+i=1
+
+Pn
+1
+
+β̂1 = β1 + ū
+
+β̂2
+
+β2 x̄
+
+(Some) Classical Assumptions
+A1.
+E [ui jxi ] = 0
+Note: A1 implies Cov (xi , ui ) = 0 (no the other way around) and
+E [ ui ] = 0
+A2. (yi , xi ) are independent and identically distributed (i.i.d.)
+across observations
+A.3. Existence of moments: 0 < E y4i < ∞ and 0 < E x4i < ∞
+(finite kurtosis)
+A.4. Homoskedasticity: var [ui jxi ] = σ2u
+
+The Simple Regression Model: OLS Properties
+OLS Properties under (Some) Classical Assumptions
+1. Expectations:
+E β̂1 = β1 and E β̂2 = β2
+OLS is unbiased!
+2. Conditional Variances
+
+Var β̂2 jxi =
+
+1
+n
+
+σ2u
+n
+P
+
+i=1
+
+( xi
+
+x̄)2
+
+and Var β̂1 jxi =
+
+n
+P
+
+i=1
+
+n
+P
+
+i=1
+
+(xi
+
+x2i
+x̄)2
+
+σ2u
+
+Simple Regression: Gauss-Markov Theorem
+
+Gauss-Markov Conditions
+(a)
+E [ui jx1 , ..., xn ] = 0
+(b)
+var [ui jx1 , ..., xn ] = σ2u , 0 < σ2u < ∞
+(c)
+E ui uj jx1 , ..., xn = 0 i 6= j
+
+Simple Regression: Gauss-Markov Theorem
+
+Gauss-Markov Theorem for β̂2
+Under condition (a), (b) and (c), the OLS estimator β̂2 is BLUE
+(Best (most efficient) Linear conditionally Unbiased Estimator)
+(See Stock and Watson, p. 218)
+
+Simple Regression: Gauss-Markov Theorem
+
+Linear Conditionally Unbiased Estimators
+I
+
+Linearity:
+β̃1 =
+
+n
+X
+
+ai Yi
+
+i=1
+
+where the weights ai can depend on xi but not on yi
+I
+
+Conditionally Unbiased:
+E β̃1 jx1 , ..., xn = β1
+
+Multiple Regression Analysis
+
+The Multiple Regression Model
+
+yi = β1 x1i + β2 x2i + β3 x3i + ... + βK xKi + ui
+Example:
+wagei = β1 + β2 educi + β3 experi + ui
+
+Multiple Regression: OLS
+
+I
+
+The OLS objective function:
+
+L = min
+
+b2RK
+
+I
+
+n
+X
+
+u2i
+
+i=1
+
+In this case:
+L = min
+
+b 2 RK
+
+n
+X
+i=1
+
+(yi
+
+b1 x1i
+
+b2 x2i
+
+b3 x3i
+
+...
+
+bK xKi )2
+
+Multiple Regression: OLS
+System of Normal Equations: First Order Conditions
+∂L
+∂b1
+
+=
+
+∂L
+∂b2
+
+=
+
+2
+2
+
+(yi
+
+b1 x1i
+
+b2 x2i
+
+b3 x3i
+
+...
+
+bK xKi ) x1i = 0
+
+i=1
+n
+X
+
+(yi
+
+b1 x1i
+
+b2 x2i
+
+b3 x3i
+
+...
+
+bK xKi ) x2i = 0
+
+n
+X
+
+(yi
+
+b1 x1i
+
+b2 x2i
+
+b3 x3i
+
+...
+
+bK xKi ) xKi = 0
+
+i=1
+
+..
+.
+∂L
+∂bK
+
+n
+X
+
+=
+
+2
+
+i=1
+
+Multiple Regression: OLS
+Too Long: Matrix Notation!
+Y = Xβ + U
+where
+0
+
+B
+B
+B
+Y = B
+B
+@
+β =
+
+y1
+y2
+y3
+..
+.
+yn
+
+1
+
+0
+
+C
+B
+C
+B
+C
+B
+C,X = B
+C
+B
+A
+@
+
+β1 β2
+
+x11 x21
+x12 x22
+x13 x23
+..
+..
+.
+.
+x1n x2n
+
+βK
+
+0
+
+..
+
+.
+
+xK1
+xK2
+xK3
+..
+.
+xKn
+
+1
+
+0
+
+C
+B
+C
+B
+C
+B
+C,U = B
+C
+B
+A
+@
+
+u1
+u2
+u3
+..
+.
+un
+
+1
+C
+C
+C
+C
+C
+A
+
+Multiple Regression: OLS
+
+I
+
+The OLS objective function: U (b) = Y
+
+Xb
+
+L = minU (b)0 U (b)
+b2Rk
+
+= min (Y
+
+Xb)0 (Y
+
+= min Y0 Y
+
+Y0 Xb
+
+= min Y0 Y
+
+2Y0 Xb + b0 X0 Xb
+
+b2Rk
+
+b2Rk
+b2Rk
+
+Xb)
+b0 X0 Y + b0 X0 Xb
+
+Multiple Regression: OLS
+
+I
+
+System of Normal Equations: First Order Conditions
+∂L
+=
+∂b
+
+I
+
+2X0 Y + 2X0 Xb = 0
+
+OLS estimator
+β̂ = X0 X
+
+1
+
+X0 Y
+
+Multiple Regression: OLS
+
+Note that OLS can also be written as
+β̂ =
+
+=
+
+X0 X
+n
+
+1
+
+1
+n
+X
+
+X0 Y
+Xi0 Xi
+
+i=1
+
+=
+
+n
+
+1
+
+n
+X
+i=1
+
+X̃i X̃i0
+
+!
+
+!
+
+1
+
+n
+
+1
+
+n
+X
+
+Xi0 Yi
+
+i=1
+
+1
+
+n
+
+1
+
+n
+X
+i=1
+
+X̃i Yi
+
+!
+
+!
+
+[Wooldridge]
+
+[Hayashi]
+
+where Xi is the ith row in X, X̃i = Xi0 , and Yi the ith element in
+Y.
+
+Multiple Regression: Classical Assumptions
+
+Greene (2012) p. 56 and p. 92
+A1. Linear in parameters
+A2. Full rank
+A3. Regression (Conditional Expectation)
+A.4. Homoscedasticity and nonautocorrelation
+A.5. Fixed or Random regressors
+A.6. Normality
+
+Multiple Regression: Classical Assumptions
+A1. Linear in parameters: The model specifies a linear
+relationship between y and x1 , x2 , ..., xK :
+Y = Xβ + U
+A2. Full rank: There is no exact linear relationship among any
+of the regressors in the model:
+X is an n
+
+K matrix with rank K
+
+This assumption is also known as the identification condition.
+A3. Regression (Conditional Expectation): The regressors do
+not carry useful information for prediction of ui :
+E [ ui j X ] = 0
+
+Multiple Regression: Classical Assumptions
+
+A.4. Homoscedasticity and nonautocorrelation: Each
+disturbance, ui , has the same finite variance, σ2U , and is
+uncorrelated with every other disturbance, uj :
+Var [ui jX] = σ2U for all i = 1, ..., n
+
+Cov ui uj jX
+
+= 0 for all i 6= j
+
+In matrix form,
+E UU0 jX = σ2U I
+
+Multiple Regression: Classical Assumptions
+
+A.5. Fixed or Random regressors: The data in (x1i , ..., xiK ) may
+be a mixture of constants and random variables:
+X may be fixed or random
+A.6. Normality: The disturbances are normally distributed:
+h
+i
+U jX N 0, σ2U I
+
+Multiple Regression: Finite Sample Properties
+OLS: Finite Sample Properties under Classical Assumptions
+Expectation:
+E β̂
+
+= E E β̂jX
+h h
+ii
+1
+= E E β + X0 X
+X 0 U jX
+h
+i
+1 0
+X E [U jX ]
+= E β + X0 X
+= β
+
+Variance:
+Var β̂jX
+
+= E
+= E
+=
+
+h
+
+h
+
+β̂
+
+β
+
+X0 X
+
+X0 X
+
+1
+
+= σ2U X0 X
+
+β̂
+1
+
+0
+
+β jX
+
+i
+
+X0 UU0 X X0 X
+
+1
+
+X0 E UU0 jX X X0 X
+1
+
+jX
+
+i
+
+1
+
+Multiple Regression: Gauss-Markov
+
+Gauss-Markov Theorem for β̂
+Under the classical assumptions A1-A5, the OLS estimator β̂ is
+BLUE (Best (most efficient) Linear conditionally Unbiased
+Estimator)
+
+Multiple Regression: The Normality Assumption
+
+I
+
+The Gauss-Markov theorem is derived without using the
+normality assumption, A6
+
+I
+
+Normality is useful to perform exact inference in finite
+samples since, under A1-A6,
+β̂jX
+
+N β, σ2U X0 X
+
+i.e. β̂jX is multivariate normal
+
+1
+
+,
+
+Multiple Regression: The Normality Assumption
+
+I
+
+Hence,
+β̂k
+
+βk
+
+sd β̂k
+
+N (0, 1) and
+
+β̂k
+
+βk
+
+tn
+
+se β̂k
+
+K,
+
+where
+sd β̂k =
+and
+
+q
+
+σ2U (X0 X)kk1 and se β̂k =
+σ̂2U =
+
+Û0 Û
+n K
+
+q
+
+σ̂2U (X0 X)kk1
+
+Multiple Regression: The Normality Assumption
+Testing a hypothesis about a coefficient
+The Three Ingredients
+I
+
+The hypothesis:
+Ho : βk = βok
+Ha : βk 6= βok
+
+I
+
+The statistic
+t=
+
+I
+
+β̂k
+
+βok
+
+se β̂k
+
+Decision Rule
+t
+
+tn
+
+K
+
+: RHo if jtj > tα,n
+
+K
+
+Multiple Regression: The Normality Assumption
+Example: Wooldridge (2013) p. 121
+
+\
+col
+GPA =
+
+1.39 + 0.412hsGPA + 0.015ACT
+
+(0.33)
+
+(0.094)
+
+(0.011)
+
+0.083skipped
+
+(0.026)
+
+n = 141, R2 = 0.234
+where:
+I
+
+col GPA denotes college grade point average
+
+I
+
+hsGPA denotes high school GPA
+
+I
+
+ACT achievement test score (to measure skills and
+knowledge)
+
+I
+
+skipped average number of lectures missed per week
+
+Multiple Regression: The Normality Assumption
+Statistical Significance Test
+I
+
+Hypothesis
+Ho : βk = 0 vs Ha : βk 6= 0
+
+I
+
+t-statistic
+
+\
+col
+GPA = 1.39 + 0.412hsGPA + 0.015ACT
+(0.33)
+
+I
+
+(4.38)
+
+(1.36)
+
+0.083 skipped
+
+( 3.19)
+
+Decision Rule:
+t(α/2=.1/2);137 = 1.64; t(α/2=.05/2);137 = 1.96; t(α/2=.01/2);137 = 2.57
+
+Multiple Regression: The Normality Assumption
+Other types of hypothesis
+I
+
+One coefficient is one:
+Ho : β2 = 1
+Ha : β2 6= 1
+
+I
+
+Two coefficients are equal:
+Ho : β2 = β3
+Ha : β2 6= β3
+
+I
+
+A set of coefficients add up to one:
+Ho : β 2 + β 3 + β 4 = 1
+Ha : β 2 + β 3 + β 4 6 = 1
+
+Multiple Regression: The Normality Assumption
+
+Other types of hypothesis:
+I
+
+More than one hypothesis
+Ho : β1 + β2 = 1
+Ha : β1 + β2 6= 1
+and
+Ho : β3 = β4
+Ha : β3 6= β4
+
+Multiple Regression: The Normality Assumption
+
+Testing General Linear Restrictions
+(Greene, p. 153)
+I
+
+Extended Form
+r11 β1 + r12 β2 + ... + r1k βK = q1
+r21 β1 + r22 β2 + ... + r2k βK = q2
+...
+rJ1 β1 + rJ2 β2 + ... + rJk βK = qJ
+
+I
+
+Matrix Form
+Rβ = q
+
+Multiple Regression: The Normality Assumption
+Testing General Linear Restrictions: Examples
+(Greene, p. 153)
+I
+
+One coefficient is zero: βj = 0
+R=
+
+I
+
+and q = 0
+
+Two coefficients are equal: βi = βj
+R=
+
+I
+
+0 0 ... 0 1 0 ... 0
+
+0 0 1 ...
+
+1 ... 0
+
+and q = 0
+
+A set of coefficients add up to one: β2 + β3 + β4 = 1
+R=
+
+0 1 1 1 0 ... 0
+
+and q = 1
+
+Multiple Regression: The Normality Assumption
+Wald Test
+(Greene, p. 157)
+I
+
+Hypothesis
+Ho : Rβ
+
+I
+
+q = 0 vs Ha : Rβ
+
+q 6= 0
+
+Wald statistic (based on the discrepancy m = R β̂
+
+q):
+
+1
+
+I
+
+W = m0 [var [mjX]] m
+h
+0
+= R β̂ q σ2U R X0 X
+
+1
+
+R0
+
+i
+
+1
+
+R β̂
+
+q
+
+Under the null hypothesis (by the normality assumption)
+W
+
+χ2J
+
+Multiple Regression: The Normality Assumption
+I
+I
+
+Wald statistic is not feasible since σ2U is unknown. We
+could estimate it in practice and use σ̂2U .
+Let
+F =
+
+W σ2U
+J σ̂2U
+R β̂
+
+=
+R β̂
+
+=
+
+i 1
+R0
+R β̂
+i
+(n K) σ̂2U /σ2U / (n K)
+i 1
+h
+0
+1
+R β̂
+q Rσ̂2U (X0 X) R0
+q
+h
+
+0
+
+h
+
+Rσ2U (X0 X)
+
+1
+
+q /J
+
+q
+
+J
+
+I
+
+Therefore, under the null hypothesis (by the normality
+assumption)
+F FJ,n K
+
+I
+
+Decision Rule: Reject the null if F > FJ,n
+
+K
+
+Multiple Regression: The Normality Assumption
+Example
+I
+
+The model
+yi = β1 + β2 x2i + β3 x3i + ui
+
+I
+
+The hypothesis
+Ho : β2 = 0
+Ha : β2 6= 0
+
+I
+
+In this case, it can be written as
+Ho : Rβ = q
+Ha : Rβ 6= q
+0
+
+where β = β1 β2 β3 is the 3
+parameters, R = 0 1 0 is a 1
+1 at position 2 and q = 0.
+
+1 vector of
+3 vector of zeros and
+
+Multiple Regression: The Normality Assumption
+
+I
+
+Therefore, R β̂ q = β̂j and since there is only one
+restriction, J = 1. Hence
+R β̂
+F =
+
+=
+
+h
+
+q
+
+0
+
+h
+
+Rσ̂2U (X0 X)
+
+β̂j Rσ̂2U (X0 X)
+1
+
+1
+
+R0
+
+J
+i
+
+1
+
+R0
+
+1
+
+β̂j
+
+i
+
+1
+
+R β̂
+
+q
+
+Multiple Regression: The Normality Assumption
+
+1
+
+I
+
+What is Rσ̂2U (X0 X)
+
+I
+
+\ β̂ = σ̂2U (X0 X)
+Recall that AsyVar
+0
+
+Hence: Rσ̂2U (X0 X)
+
+1
+
+, which is
+
+\ β̂ , β̂
+AsyCov
+1 2
+\ β̂
+AsyVar
+2
+\
+AsyCov β̂2 , β̂3
+
+\ β̂
+AsyVar
+1
+B \
+@ AsyCov β̂1 , β̂2
+\ β̂ , β̂
+AsyCov
+1 3
+I
+
+R0 ?
+
+1
+
+\ β̂
+R0 = AsyVar
+2
+
+1
+\ β̂ , β̂
+AsyCov
+1 3
+\ β̂ , β̂ C
+AsyCov
+2 3 A
+\
+AsyVar β̂3
+
+Multiple Regression: The Normality Assumption
+I
+
+Therefore,
+R β̂
+
+q
+
+0
+
+F =
+
+=
+0
+
+Rσ̂2U (X0 X)
+
+β̂2
+\ β̂
+AsySD
+2
+
+= @q
+
+= t2 .
+I
+
+h
+
+!2
+
+β̂j
+σ̂2U
+
+(X0 X)221
+
+J
+
+1
+
+R0
+
+i
+
+1
+
+R β̂
+
+q
+
+12
+A
+
+Recall, under normality: F FJ,n K . In this case,
+F F1,n 3 . Decision Rule: Reject the null if F > Fα;1,n
+
+3
+
+Multiple Regression: The Normality Assumption
+For a linear restriction:
+Ho : a1 β1 + a2 β2 + ... + aK βK = q
+with ai i = 1, ..., K and q known, the t-statistic is
+t=
+
+a1 β̂1 + a2 β̂2 + ... + aK β̂K q
+\ a1 β̂ + a2 β̂ + ... + aK β̂
+AsySD
+1
+
+2
+
+tn
+K
+
+Example: For
+Ho : β1 + β2 = 1
+the statistic is
+t=
+
+β̂1 + β̂2 1
+\ β̂ + β̂
+AsySD
+1
+2
+
+tn
+
+Decision Rule: Reject the null if jtj > tα/2;n
+
+K
+
+K
+
+K
+
+Multiple Regression: Asymptotics
+
+I
+
+Unbiasedness, the Gauss-Markov theorem, and the
+distributions described above are all finite sample
+properties (Greene p.103 for a review)
+
+I
+
+Next, we will study the properties of the OLS estimator
+and related statistics when the sample size grows (n ! ∞)
+
+I
+
+Normality is not essential for the asymptotic analysis
+
+Multiple Regression: Asymptotics
+Consistency
+(Greene p. 103 and Wooldridge (2010), p. 56)
+C1. Linear in parameters
+Y = Xβ + U
+C2. Independence: (Xi , ui ) i = 1, ..., n is a sequence of
+independent observations and E [U jX] = 0
+C3. Rank condition:
+X0 X
+n! ∞ n
+
+Q = p lim
+has (full) rank K.
+
+Multiple Regression: Asymptotics
+
+Consistency
+(Greene p. 103 and Wooldridge (2010), p. 56)
+Theorem: Under Assumptions C1-C3,
+p
+
+β̂ ! β.
+
+Multiple Regression: Asymptotics
+Proof: Given C1, the OLS estimator β̂ can be written as
+1
+
+X0 X
+n
+
+β̂ = β +
+
+X0 U
+n
+
+By C3 and the Slutsky theorem,
+X0 X
+n
+
+1
+
+p
+
+! Q 1.
+
+By C2 and the Law of Large Numbers,
+X0 U
+n
+
+p
+
+! 0.
+
+.
+
+Multiple Regression: Asymptotics
+Asymptotic Normality
+(Greene p. 105 and Wooldridge (2010), p. 59)
+AN1. Linear in parameters
+Y = Xβ + U
+AN2. Independence: (Xi , ui ) i = 1, ..., n is a sequence of
+independent observations and E[U jX] = 0
+AN3. Rank condition:
+X0 X
+n! ∞ n
+
+Q = p lim
+
+has (full) rank K
+AN4. Homoskedasticity and No Autocorrelation:
+E UU0 jX = σ2U I
+
+Multiple Regression: Asymptotics
+
+Asymptotic Normality
+(Greene p. 105 and Wooldridge (2010), p. 59)
+Theorem: Under Assumptions AN1-AN4,
+
+p
+
+n β̂
+
+β
+
+d
+
+! N 0, σ2U Q
+
+1
+
+.
+
+Multiple Regression: Asymptotics
+
+AsyVar β̂n Estimation
+Greene p. 107
+By Theorem 1,
+
+p
+
+n β̂
+
+β
+
+a
+
+and
+β̂
+See Greene, p. 1124.
+
+a
+
+N β,
+
+N 0, σ2U Q
+σ2U
+Q
+n
+
+1
+
+.
+
+1
+
+Multiple Regression: Asymptotics
+
+AsyVar β̂n Estimation
+Greene p. 107
+Therefore
+
+σ2U
+Q 1.
+n
+This can be consistently estimated (see Greene p. 107) by
+AsyVar β̂n =
+
+\ β̂ = σ̂2U X0 X
+AsyVar
+n
+where remember
+σ̂2U =
+
+Û0 Û
+.
+n K
+
+1
+
+,
+
+Multiple Regression: Asymptotic Inference
+
+“We know that normality plays no role in the unbiasedness of OLS,
+nor does it affect the conclusion that OLS is the best linear unbiased
+estimator under the Gauss-Markov assumptions. But exact inference
+based on t and F statistics requires [Normality of the error term].
+Does this mean that, in our analysis (...), we must abandon the t
+statistic for determining which variables are statistically significant?
+Fortunately, the answer to this question is no,”
+Wooldridge (2013) p. 167
+
+Multiple Regression: Asymptotic Inference
+
+I
+
+Exact inference based on t and F: ONLY under the
+Normality Assumption
+
+I
+
+What can we do if Normality is not assumed?
+
+I
+
+Asymptotic (large-sample) Tests via Central Limit
+Theorem (Wooldridge (2013) p. 165 and Greene p. 167)
+
+Multiple Regression: Asymptotic Inference
+Statistical Significance Test
+Recall, the t-statistic for
+Ho : βk = βok
+Ho : βk 6= βok
+is
+t=
+
+β̂k
+
+βok
+
+se β̂k
+
+where
+se β̂k =
+
+q
+
+σ̂2U (X0 X)kk1 and σ̂2U =
+
+Û0 Û
+n K
+
+Multiple Regression: Asymptotic Inference
+Statistical Significance Test
+The t-statistic can be rewritten as
+p
+n β̂k βok
+t= q
+,
+1
+2
+0
+σ̂U (X X/n)kk
+
+hence under AD1-AD4, if σ̂2U is a consistent estimator of σ2U ,
+under the null,
+p
+n β̂k βok
+N (0, 1) .
+t= q
+σ̂2U (X0 X/n)kk1
+
+Therefore, the decision rule is, for α = 0.05,
+RHo if jtj > 1.96
+
+Multiple Regression: Asymptotic Inference
+Wald Test for Linear Hypothesis
+Greene p. 169
+Recall, the hypotheses are:
+Ho : Rβ
+
+q=0
+
+Ha : Rβ
+
+q 6= 0
+
+The (large sample) Wald statistic is
+W = R β̂
+
+q
+
+0
+
+h
+
+Rσ̂2U X0 X
+
+1
+
+R0
+
+i
+
+1
+
+R β̂
+
+q = JF.
+
+If AD1-AD4 hold and σ̂2U is a consistent estimator of σ2U , then
+under the null,
+d
+W ! χ2J .
+
+Multiple Regression: Asymptotic Inference
+
+Wage Equation
+The specified model:
+wage = β1 + β2 educ + β3 tenure + u
+The estimated model:
+
+[
+w
+age =
+
+2.22 + 0.56 educ + 0.18 tenure
+(0.64)
+
+(0.04)
+
+(0.01)
+
+Multiple Regression: Asymptotic Inference
+
+Wage Equation
+The estimated model:
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.64)
+
+(0.04)
+
+Variance/Covariance matrix of β̂
+0
+0.40979
+1
+2
+0
+\
+@
+0.03018
+AsyVar β̂ =σ̂U X X
+=
+0.00243
+
+(0.01)
+
+0.03018
+0.00238
+0.00005
+
+1
+0.00243
+0.00005 A
+0.00034
+
+Multiple Regression: Asymptotic Inference
+
+Wage Equation
+Consider the hypothesis
+Ho : β2 = β3
+Ha : β2 6= β3
+It can be written as
+Ho : β2
+
+β3 = 0
+
+Ha : β2
+
+β3 = 0
+
+Multiple Regression: Asymptotic Inference
+Hypothesis:
+Ho : β2
+
+β3 = 0
+
+Ha : β2
+
+β3 = 0
+
+Test Statistic
+R β̂
+F=
+
+q
+
+0
+
+h
+
+Rσ̂2U (X0 X)
+J
+
+1
+
+R0
+
+i
+
+1
+
+R β̂
+
+where
+J = 1; R =
+
+0 1
+
+1
+
+and q = 0
+
+q
+
+Multiple Regression: Asymptotic Inference
+Therefore
+R β̂
+
+q
+
+F =
+
+0
+
+h
+
+Rσ̂2U (X0 X)
+
+1
+
+R0
+
+J
+
+β̂2 β̂3
+=
+\ β̂ + AsyVar
+\ β̂
+AsyVar
+2
+3
+0
+12
+β̂2 β̂3
+A
+= @q
+\
+AsyVar β̂2 β̂3
+
+= t2
+= (7.415)2
+= 54.9822
+
+i
+
+1
+
+R β̂
+
+q
+
+2
+
+\ β̂ , β̂
+2AsyCov
+2 3
+
+Multiple Regression: Asymptotic Inference
+
+Decision Rule:
+F
+
+FJ,n
+
+K
+
+= F1,523 and t
+
+tn
+
+K
+
+= t523
+
+Assuming a 5% level of significance (α):
+Fα;1,523 = 3.84 and tα/2;523 = 1.96
+We reject the null hypothesis.
+
+Outline
+
+Linear Model: Relaxing Classical Assumptions
+
+I
+
+Heteroscedasticity: White test and White standard errors
+
+I
+
+Measurement Error and Omitted Variables Problems: IV
+
+Relaxing Classical Assumptions
+
+Heteroscedasticity
+
+Heteroscedasticity
+
+Recall: Wage Equation
+(Wooldridge data)
+The estimated model:
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.64)
+
+(0.04)
+
+Variance/Covariance matrix of β̂
+0
+0.40979
+\ β̂ =σ̂2U X0 X 1 = @ 0.03018
+AsyVar
+0.00243
+
+(0.01)
+
+0.03018
+0.00238
+0.00005
+
+1
+0.00243
+0.00005 A
+0.00034
+
+Heteroscedasticity
+
+Heteroscedasticity
+I
+
+Heteroscedasticity Example: Stock and Watson, p. 199
+
+I
+
+The Economic Value of a Year of Education
+Earning = β1 + β2 YearsEducation
+
+I
+
+Data: Hourly earnings and Years of education for 29- to
+30-year olds in the US in 2008
+
+I
+
+“The spread of the distribution of earnings increases with the
+years of education. While some workers with many years of
+education have low-paying jobs, very few workers with low
+levels of education have high-paying jobs. (...) The variance of
+the residuals in the regression of Equation [above] depends on
+the regressor”
+
+Heteroscedasticity
+
+Recall: Wage Equation
+(Wooldridge data)
+The estimated model:
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.64)
+
+(0.04)
+
+Variance/Covariance matrix of β̂
+0
+0.40979
+\ β̂ =σ̂2U X0 X 1 = @ 0.03018
+AsyVar
+0.00243
+
+(0.01)
+
+0.03018
+0.00238
+0.00005
+
+1
+0.00243
+0.00005 A
+0.00034
+
+Heteroscedasticity
+
+Heteroscedasticity
+
+Recall: Classical Assumptions
+A1. Linear in parameters
+A2. Full rank
+A3. Regression (Conditional Expectation)
+A.4. Homoscedasticity and nonautocorrelation
+A.5. Fixed or Random regressors
+A.6. Normality
+
+Heteroscedasticity
+
+A.4. Homoscedasticity and nonautocorrelation: Each
+disturbance, ui , has the same finite variance, σ2U , and is
+uncorrelated with every other disturbance, uj :
+Var [ui jX] = σ2U for all i = 1, ..., n
+
+Cov ui uj jX
+
+= 0 for all i 6= j
+
+In matrix form,
+E UU0 jX = σ2U I
+
+Heteroscedasticity
+
+Generalized Linear Regression Model
+Greene, p. 297
+The Generalized Linear Regression model is
+Y = Xβ + U
+E [U jX ] = 0
+
+E UU0 jX
+
+= σ2U Ω = Σ
+
+where Ω is a positive definite symmetric matrix.
+
+Heteroscedasticity
+Generalized Linear Regression Model
+(Conditional) Variance/Covariance Matrix of the error term
+3
+1
+20
+u1
+7
+6B u2 C
+7
+C
+6B
+un jX7
+E UU0 jX = E 6B . C u1 u2
+5
+4@ .. A
+20
+
+6B
+6B
+= E 6B
+4@
+
+un
+
+u21 u1 u2
+u2 u1 u22
+..
+..
+.
+.
+un u1 un u2
+
+..
+
+.
+
+1 3
+u1 un
+7
+u2 un C
+C 7
+C jX7
+A 5
+2
+un
+
+Heteroscedasticity
+
+E UU0 jX
+
+20
+
+6B
+6B
+= E 6B
+4@
+0
+
+B
+B
+= B
+@
+
+u21 u1 u2
+u2 u1 u22
+..
+..
+.
+.
+un u1 un u2
+
+..
+
+.
+
+1 3
+u1 un
+7
+u2 un C
+C 7
+C jX7
+A 5
+2
+un
+
+E u21 jX
+E [u1 u2 jX]
+E [u2 u1 jX] E u22 jX
+..
+..
+.
+.
+E [un u1 jX] E [un u2 jX]
+
+..
+
+.
+
+= σ2U Ω = Σ
+
+where Ω is a positive definite symmetric matrix.
+
+1
+E [u1 un jX]
+E [u2 un jX] C
+C
+C
+A
+2
+E un j X
+
+Heteroscedasticity
+
+Generalized Linear Regression Model
+Greene, p. 297
+In AD3 above we assumed Ω = I, that is,
+Y = Xβ + U
+E [U jX ] = 0
+
+E UU0 jX
+
+= σ2U I.
+
+The generalized linear regression model allows Ω to be
+different from the identity matrix.
+
+Heteroscedasticity
+I
+
+Heteroscedasticity:
+2
+
+I
+
+σ21 0
+6 0 σ2
+2
+6
+σ2U Ω = 6
+4
+0 0
+
+..
+.
+
+3
+0
+0 7
+7
+7
+5
+2
+σn
+
+Typically (conditional) Heteroscedasticity:
+2 2
+σ 1 (X )
+0
+0
+2
+6
+0
+σ 2 (X )
+0
+6
+σ2U Ω = 6
+..
+4
+.
+0
+
+0
+
+σ2n (X)
+
+3
+7
+7
+7
+5
+
+Heteroscedasticity
+
+I
+
+Heteroscedasticity tends to be a more relevant problem
+when dealing with cross-sectional data
+
+I
+
+Time Series, on the other hand, typically deals with
+autocorrelation and nonstationarities in the error term
+
+I
+
+Definition (Stock and Watson, p. 198): The error term ui
+given X is homoscedastic if the variance of the conditional
+distribution of ui given X is constant for i = 1, ..., n and in
+particular does not depend on X. Otherwise, the error
+term is heteroscedastic.
+
+Heteroscedasticity
+
+Generalized Linear Regression Model
+Greene, p. 297
+The Generalized Linear Regression model is
+Y = Xβ + U
+E [U jX ] = 0
+
+E UU0 jX
+
+= σ2U Ω = Σ
+
+where Ω is a positive definite matrix.
+
+Heteroscedasticity
+
+Finite Sample Consequences for OLS
+Greene, p. 298
+I
+
+In the Generalized model, we relax A4 allowing for
+heteroscedasticity and autocorrelation
+
+I
+
+What are the finite sample consequences for OLS?
+β̂ = X0 X
+
+1
+
+X0 Y = β + X0 X
+
+1
+
+X0 U
+
+Heteroscedasticity
+Finite Sample Consequences for OLS
+Greene, p. 299
+I
+
+Expectation:
+E β̂ = E E β̂jX
+
+I
+
+Variance
+Var β̂jX
+
+h h
+= E E β + X0 X
+
+= E
+= E
+=
+
+I
+
+h
+
+h
+
+β̂
+
+β
+1
+
+X0 X
+
+X0 X
+
+1
+
+β̂
+
+1
+
+0
+
+β jX
+
+X 0 U jX
+i
+
+1
+
+X0 UU0 X X0 X
+
+Normality
+β̂jX
+
+h
+N β, σ2U X0 X
+
+1
+
+X0 ΩX X0 X
+
+jX
+1
+
+X0 σ2U Ω X X0 X
+
+1
+
+i
+
+ii
+
+i
+
+=β
+
+Heteroscedasticity
+
+Finite Sample Consequences for OLS
+Greene, p. 299
+I
+
+OLS estimator is unbiased in the generalized regression
+model described above
+
+I
+
+The conditional variance is not σ2U (X0 X)
+1
+1
+σ2U (X0 X) X0 ΩX (X0 X)
+
+I
+
+Statistical inference based on σ̂2U (X0 X)
+misleading
+
+I
+
+σ̂2U biased
+
+1
+
+1
+
+but
+
+may be
+
+Heteroscedasticity
+
+Large Sample Consequences for OLS
+Greene, p. 299
+I
+
+In the Generalized model, we relax A4 allowing for
+heteroscedasticity and autocorrelation
+
+I
+
+What are the large sample consequences for OLS?
+β̂ = X0 X
+
+I
+
+1
+
+X0 Y = β + X0 X
+
+1
+
+X0 U
+
+Consistency and Asymptotic Normality affected???
+
+Multiple Regression: Asymptotics
+Recall: Consistency
+(Greene p. 103 and Wooldridge (2010), p. 56)
+C1. Linear in parameters
+Y = Xβ + U
+C2. Independence: (Xi , ui ) i = 1, ..., n is a sequence of
+independent observations and E [U jX] = 0
+C3. Rank condition:
+X0 X
+n! ∞ n
+
+Q = p lim
+has (full) rank k.
+
+Heteroscedasticity
+Large Sample Consequences for OLS
+Greene, p. 299
+I
+
+Consistency of the OLS estimator can be derived without
+stating an assumption about the variance covariance
+matrix of the errors. Hence, OLS will remain consistent in
+the Generalized model.
+
+I
+
+This argument uses the strong LLN, i.e., almost sure
+convergence. We could also use a mean square error
+argument to prove consistency. In this case, the following
+limit should exist:
+X0 ΩX
+.
+n
+n! ∞
+
+Q = p lim
+(see Greene p. 300)
+
+Multiple Regression
+Recall: Asymptotic Normality
+(Greene p. 105 and Wooldridge (2010), p. 59)
+AN1. Linear in parameters
+Y = Xβ + U
+AN2. Independence: (Xi , ui ) i = 1, ..., n is a sequence of
+independent observations and E[U jX] = 0
+AN3. Rank condition:
+X0 X
+n! ∞ n
+
+Q = p lim
+
+has (full) rank K
+AN4. Homoskedasticity and no autocorrelation:
+E UU0 jX = σ2U I
+
+Heteroscedasticity
+
+Large Sample Consequences for OLS
+I
+
+Condition AN4, imposes homoscedasticity and no
+autocorrelation to obtain (recall):
+
+Theorem: Under Assumptions AN1-AN4,
+
+p
+I
+
+n β̂
+
+β
+
+d
+
+! N 0, σ2U Q
+
+1
+
+.
+
+We should expect some impact of relaxing assumption
+AN4
+
+Heteroscedasticity
+Generalized Model: OLS Asymptotic Normality
+(Greene p. 301)
+GAN1. Linear in parameters
+Y = Xβ + U and E UU0 jX = σ2U Ω = Σ
+
+GAN2. Independence: (Xi , ui ) i = 1, ..., n is a sequence of
+independent observations and E[U jX] = 0
+GAN3. Rank condition:
+X0 X
+Q = p lim
+n! ∞ n
+has (full) rank K
+GAN4. Heteroskedasticy and/or Autocorrelation:
+E [UU0 jX] = σ2U Ω = Σ and
+X0 ΩX
+.
+n
+n! ∞
+
+Q = p lim
+exists.
+
+Heteroscedasticity
+
+Large Sample Consequences for OLS
+Under Assumptions GAN1-GAN4,
+
+p
+
+n β̂
+
+β
+
+d
+
+! N 0, σ2U Q 1 Q Q
+
+where Q = p limn!∞ X0 ΩX/n.
+Hence,
+σ2
+a
+β̂ N β, U Q
+n
+See Greene, p. 1124.
+
+1
+
+Q Q
+
+1
+
+.
+
+1
+
+,
+
+Heteroscedasticity
+
+Consequences for OLS
+Greene p.299
+I
+
+β̂ is unbiased and consistent
+
+I
+
+But
+AsyVar β̂ =
+
+σ2U
+Q
+n
+
+1
+
+Q Q
+
+1
+
+I
+
+OLS is no longer BLUE
+
+I
+
+Standard inference based on t and F tests is not appropriate
+
+Heteroscedasticity
+
+Recall: Wage Equation
+The estimated model:
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.64)
+
+(0.04)
+
+Variance/Covariance matrix of β̂
+0
+0.40979
+1
+2
+0
+\
+@
+0.03018
+AsyVar β̂ =σ̂U X X
+=
+0.00243
+
+(0.01)
+
+0.03018
+0.00238
+0.00005
+
+1
+0.00243
+0.00005 A
+0.00034
+
+Heteroscedasticity
+
+Testing for Heteroscedasticity
+
+How to asses statistically the presence of Heteroscedasticty?
+I
+
+There are several statistical procedures to test for
+Heteroscedasticity
+
+I
+
+See for instance: Wooldridge1, p. 265
+
+I
+
+We will consider White’s test (1980)
+
+I
+
+“A Heteroskedastic-Covariance Matrix Estimator and a
+Direct Test for Heteroscedasticity,” Econometrica, 50,
+483-499
+
+Testing for Heteroscedasticity: White’s Test
+White (1980) Test: Example: yi = β1 + β2 x2i + β3 x3i + ui
+I
+
+Step 1: Estimate the model by OLS and compute the OLS
+residuals ûi = β̂1 β̂2 x2i β̂3 x3i
+
+I
+
+Step 2: Run the following regression:
+û2i = α1 + α2 x2i + α3 x3i + γ2 x22i + γ3 x2Ki + γ1 x2i x3i
+
+I
+
+Step 3: Test the null (homoscedasticity) hypothesis
+Ho : α2 = α3 = γ1 = γ2 = γ3 = 0
+Test Statistic: nR2
+R2
+
+χ2p
+
+1
+
+where n,
+and p are the sample size, coefficient of
+determination and number of parameters of (1),
+respectively
+
+(1)
+
+Heteroscedasticity
+
+Recall: Wage Equation
+Step 1: Estimate the model
+
+[
+w
+agei =
+
+2.22162 + 0.56914educi + 0.18958tenurei
+(0.64)
+
+(0.04)
+
+(0.01)
+
+0.56914educi
+
+0.18958tenurei
+
+and obtain residuals:
+ûi = wagei + 2.22162
+
+Heteroscedasticity
+Step 2: Auxiliary Regression:
+û2i = 24.84743
+(11.39610)
+
+4.407294educ
+(1.765585)
+
+0.465109tenure
+(0.660221)
+
+2
+
+0.013566tenure + 0.213336educ2
+(0.012984)
+
+(0.071008)
+
++0.129456educ tenure
+(0.045025)
+
+with n = 526, R2 = 0.106035.
+Step 3: Test the null hypothesis of homoscedasticity
+nR2 = 55.77452 > χ2α=0.05;5
+
+=) RHo
+
+Heteroscedasticity
+Recall: Wage Equation
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.04)
+
+(0.64)
+
+(0.01)
+
+Recall: Heteroscedasticity consequences for OLS
+Unbiased, Consistent but NOT Efficient
++
+σ2U Q
+
+1
+
+vs σ2U Q
+
+1Q
+
+Q
+
+1
+
+Heteroscedasticity
+
+What can we do in practice to account for heteroscedasticity?
+I
+
+There exist several alternative ways to do so
+
+I
+
+In this course, we will consider White (1980) proposal:
+
+I
+
+Use OLS estimator with robust standard errors (HAC)
+
+I
+
+“A Heteroskedastic-Covariance Matrix Estimator and a
+Direct Test for Heteroscedasticity,” Econometrica, 50,
+483-499
+
+Heteroscedasticity
+
+Some Proposed Solutions: HAC standard errors
+(Greene, p. 302)
+I
+
+Principle: Use OLS estimator with HAC standard errors.
+
+I
+
+Recall, under heteroscedasticity and autocorrelation
+AsyVar β̂ =
+
+I
+
+σ2U
+Q
+n
+
+1
+
+Q Q
+
+1
+
+HAC standard errors are based on the sample analog
+
+Heteroscedasticity
+
+Some Proposed Solutions: HAC standard errors
+I
+
+Heteroscedasticity case (Greene, p. 313): White (1980)
+estimator
+" n
+#
+1
+X
+1
+1
+1 0
+1
+0
+2
+0
+\ β̂ =
+XX
+ûi Xi Xi
+XX
+AsyVar
+n n
+n
+n
+i=1
+
+1
+
+Heteroscedasticity
+Wage Equation - OLS “standard” standard errors
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.64)
+
+(0.04)
+
+(0.01)
+
+Wage Equation - OLS “White” standard errors
+
+[
+w
+age =
+
+2.22162 + 0.56914educ + 0.18958tenure
+(0.72)
+
+(0.05)
+
+(0.02)
+
+Relaxing Classical Assumptions
+
+Endogenity
+
+Endogeneity
+
+Endogeneity: OLS Bias
+Greene, p. 259
+Examples:
+1. Measurement errors
+2. Omitted Variables
+3. Simultaneous Equations
+etc....
+
+Measurement Errors
+
+OLS under Measurement Errors
+Wooldridge (2013) p.307 and Greene p. 137
+“There are a number of cases in which observed data are imperfect
+measures of their theoretical counterparts in the regression model.
+Examples include income, education, ability, health, the interest rate,
+output, capital, and so on.”
+Greene, p. 137
+
+Measurement Errors
+
+OLS under Measurement Errors
+Wooldridge (2013) p.307 and Greene p. 137
+It is convenient to distinguish between:
+I
+
+Measurement Error in the Dependent Variable
+
+I
+
+Measurement Error in an Explanatory Variable
+
+Measurement Errors
+
+OLS under Measurement Errors in the Dependent Variable
+Wooldridge (2013) p.307 and Greene p. 137
+Let
+y = β1 + β2 x2 + ... + βk xk + u
+and assume that the Gauss-Markov assumptions are satisfied.
+In addition, let y be the observable measure of y so that
+y = y +e
+where e is the measurement error.
+
+Measurement Errors
+
+OLS under Measurement Errors in the Dependent Variable
+Wooldridge (2013) p.307 and Greene p. 137
+In that case, since y = y
+
+e, the model can be written as
+
+y = β1 + β2 x2 + ... + βk xk + u + e
+Since we have assumed the Gauss-Markov conditions, the
+properties of the OLS estimator will depend on the properties
+of e.
+
+Measurement Errors
+
+OLS under Measurement Errors in the Dependent Variable
+Wooldridge (2013) p.307 and Greene p. 137
+If ei i.i.d 0, σ2e and is independent of the explanatory
+variables xj , then:
+I
+
+the OLS estimator is unbiased and consistent
+
+I
+
+the usual OLS inference procedures (t, F) are valid
+
+I
+
+V (u + e) = V (u) + V (e) > V (u); this results in larger
+variances of the OLS estimators
+
+Measurement Errors
+
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.310 and Greene p. 139
+Let
+y = β1 + β2 x2 + u
+and the Gauss-Markov conditions are satisfied.
+Assume that x2 is not observed and but we observe
+x2 = x2 + v
+where v is a measurement error.
+
+Measurement Errors
+
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.310 and Greene p. 139
+The properties of the OLS estimator which uses x2 instead of x2
+depend on the properties of the measurement error v
+The following two assumptions will be maintained in the
+following:
+(a) E [v] = 0
+(b) u is uncorrelated with x2 and x2
+
+Measurement Errors
+
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.310 and Greene p. 139
+Case 1:
+Cov (x2 , v) = 0
+In this case,
+y = β1 + β2 x2 + (u
+
+β2 v)
+
+Measurement Errors
+
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.310 and Greene p. 139
+
+y = β1 + β2 x2 + (u
+
+β2 v)
+
+I
+
+Note that: E [u
+
+I
+
+Therefore, OLS with x2 instead of x2 is consistent
+
+I
+
+On the other hand,
+Var [u β2 v] = Var [u] + β22 Var [v] > Var [u] if β2 6= 0
+
+β2 v] = 0 and Cov (x2 , u
+
+β2 v) = 0
+
+Measurement Errors
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.311 and Greene p. 139
+Case 2: Classical errors-in-variables
+Cov (x2 , v) = 0
+In this case,
+Cov (x2 , v) = E [x2 v]
+
+= E [(x2 + v) v]
+h i
+= E [x2 v] + E v2
+= V [v]
+
+Measurement Errors
+
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.311 and Greene p. 139
+
+y = β1 + β2 x2 + (u
+I
+
+Note that
+E [u
+
+I
+
+β2 v)
+
+β2 v] = 0
+
+but
+Cov (x2 , u
+
+β2 v) =
+
+β2 Cov (x2 , v) =
+
+β2 V [v]
+
+Measurement Errors
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.311 and Greene p. 139
+Recall
+β̂2 = β2 +
+
+n
+
+1
+
+Pn
+
+i=1 (x2i
+P
+n 1 ni=1
+
+x̄2 ) (ui
+
+(x2i
+
+x̄2 )
+
+β 2 vi )
+2
+
+Therefore, β̂2 is inconsistent. In particular,
+p lim β̂2
+
+Cov (x1 , u β2 v)
+Var (x2 )
+β2 V [v]
+V [x2 ] + V [v]
+V [x2 ]
+V [x2 ] + V [v]
+
+= β2 +
+= β2
+= β2
+
+Measurement Errors
+
+OLS under Measurement Errors in an Explanatory Variable
+Wooldridge (2013) p.311 and Greene p. 139
+Notice that
+0<
+
+V [x2 ]
+<1
+V [x2 ] + V [v]
+
+therefore
+p lim β̂2 = β2
+
+V [ x2 ]
+V [ x2 ] + V [ v ]
+
+is always closer to zero than β2 is. This is known as the
+attenuation bias.
+
+Omitted Variables
+
+OLS under Omitted Variables
+Wooldridge (2013) p.491 and Greene p. 259
+Example (Wooldridge (2013) p.491): Consider
+log (wage) = β1 + β2 educ + β3 abil + e
+where e is the error term and abil is not observed. If the
+following model
+log (wage) = β1 + β2 educ + w
+where w = β3 abil + e is estimated by OLS and educ is correlated
+with abil, then β̂2 is biased and inconsistent.
+
+Endogeneity
+
+Endogeneity
+Greene, p. 259
+As we have seen in the above discussion, since
+β̂ = X0 X
+
+1
+
+X0 Y = β + X0 X
+
+1
+
+X0 U
+
+the assumption that Xi and ui are uncorrelated is fundamental,
+specially for unbiasedness and consistency. Endogeneity
+problems translate in practice into situations in which the
+uncorrelatedness assumption does not hold.
+
+Endogeneity
+
+Endogeneity: OLS Bias
+Greene, p. 259
+Examples:
+1. Measurement errors
+2. Omitted Variables
+3. Simultaneous Equations
+etc...
+
+Endogeneity
+
+Endogeneity: IV Solution
+
+IV Assumptions
+
+IV Assumptions: Regressors X (n
+Greene (2012) p. 263
+
+K)
+
+AIV1. Linear in parameters
+AIV2. Full rank
+AIV3. Endogeneity !!!
+AIV.4. Homoscedasticity and nonautocorrelation
+Note: Normality: We won’t use it. (Asymptotics)
+
+IV Assumptions
+
+AIV1. Linear in parameters: The model specifies a linear
+relationship between y and x1 , x2 , ..., xK :
+Y = Xβ + U
+AIV2. Full rank: There is no exact linear relationship among
+any of the regressors in the model:
+X is an n
+
+K matrix with rank K
+
+This assumption is also known as the identification condition.
+
+IV Assumptions
+
+AIV3. Endogeneity!!!:. The regressors provide information
+about the disturbances
+E [ui jXi ] = η i
+Therefore, E [ui Xi ] = γi and the regressors are no longer
+exogenous.
+
+IV Assumptions
+
+AIV4. Homoscedasticity and nonautocorrelation: Each
+disturbance, ui , has the same finite variance, σ2U , and is
+uncorrelated with every other disturbance, uj :
+Var [ui jX] = σ2U for all i = 1, ..., n
+
+Cov ui uj jX
+
+= 0 for all i 6= j
+
+In matrix form,
+E UU0 jX = σ2U I
+
+OLS Properties under IV Assumptions
+
+OLS Properties under IV Assumptions
+Greene p. 265
+I
+
+OLS is biased:
+E β̂OLS
+
+= E E β̂OLS jX
+h
+= E β + X0 X
+h
+= β + E X0 X
+
+6= β
+
+i
+X0 η
+i
+1 0
+Xη
+1
+
+Therefore, the Gauss-Markov theorem does not hold.
+
+OLS Properties under IV Assumptions
+
+OLS Properties under IV Assumptions
+Greene p. 265
+I
+
+OLS is inconsistent:
+p lim β̂OLS = p lim β + X0 X
+
+1
+
+X0 X
+n
+
+1
+
+n! ∞
+
+n! ∞
+
+= β + p lim
+= β
+6= β
+
+n! ∞
++ QXX1 γ
+
+X0 U
+p lim
+n! ∞
+
+X0 U
+n
+
+IV Solution
+
+The IV principle relies on the assumptions that an additional set
+of variables, Z, with the following two properties, is available:
+1. Exogeneity: The instruments are uncorrelated with the error
+term
+2. Relevance: The instruments are correlated with the
+endogenous independent variables
+
+IV Solution
+I
+
+Endogeneity in the simplest model:
+y = βx + u where Cov (x, u) 6= 0
+
+I
+
+Instrument:
+x = αz + e
+I
+
+Exogeneity:
+Cov (z, u) = 0 and Cov (z, e) = 0
+
+I
+
+Relevance:
+α 6= 0
+
+IV Solution
+
+I
+
+Suppose
+Y = Xβ + U
+where
+X = [1 x1i x2i x3i ]
+and x3i is endogenous (Cov (ui , x3i ) 6= 0). We have an
+instrument for x3i , say IVi .
+
+I
+
+Instruments matrix:
+Z = [1 x1i x2i IVi ]
+
+IV Solution
+
+The IV principle relies on the assumptions that an additional set
+of variables, Z, with the following two properties, is available:
+1. Exogeneity: The instruments are uncorrelated with the error
+term
+2. Relevance: The instruments are correlated with the
+endogenous independent variables
+Lets formalize this.
+
+IV Assumptions
+
+IV Assumptions: Regressors X (n
+Greene (2012) p. 263
+
+K)
+
+AIV1. Linear in parameters
+AIV2. Full rank
+AIV3. Endogeneity !!!
+AIV.4. Homoscedasticity and nonautocorrelation
+Note: Normality: We won’t use it. (Asymptotics)
+
+IV Assumptions
+
+IV Assumptions: Instruments Z (n
+for now L = K
+Example
+I
+
+Regressors: K = 3
+X = [1 x1i x2i x3i ]
+
+I
+
+Instruments matrix: L = K
+Z = [1 x1i x2i IVi ]
+
+L)
+
+IV Assumptions
+
+AIV5. (Xi , Zi , ui ) i = 1, ..., n are i.i.d.
+AIV6. QXX = p lim n1 X0 X is a finite, positive definite matrix
+n! ∞
+
+AIV7. QZZ = p lim
+
+1 0
+nZ Z
+
+is a finite, positive definite matrix
+
+with rank L
+AIV8. QZX = p lim
+
+1 0
+nZ X
+
+is a finite, L
+
+n! ∞
+
+n! ∞
+
+(relevance)
+AIV9. E [ui jzi ] = 0 (exogeneity)
+
+K matrix with rank K
+
+The IV Estimator
+
+The IV Estimator
+Greene p. 265
+The instrumental variables estimator of β is
+β̂IV = Z0 X
+
+1
+
+Z0 Y
+
+The IV Estimator
+The IV Estimator: Large Sample Properties
+Greene p. 266
+The IV estimator can be expressed as
+β̂IV =
+
+Z0 X
+
+1
+
+Z0 Y
+
+=
+
+Z0 X
+
+1
+
+Z0 (Xβ + U )
+
+= β + Z0 X
+
+1
+
+Z0 U
+
+and hence
+
+p
+
+n β̂IV
+
+β =
+
+Z0 X
+n
+
+1
+
+Z0 U
+p
+n
+
+The IV Estimator
+
+The IV Estimator: Large Sample Properties
+Greene p. 266
+Theorem: Under assumptions AIV1-AIV9, if L = K, then
+
+p
+
+n β̂IV
+
+β
+
+d
+
+! N 0, σ2U QZX1 QZZ QXZ1
+
+Therefore,
+β̂IV
+
+a
+
+N β,
+
+σ2U
+Q 1 QZZ QXZ1
+n ZX
+
+The IV Estimator
+
+IV: Asymptotic Variance Estimation
+Greene p. 266
+Since,
+β̂IV
+
+a
+
+N β,
+
+σ2U
+Q 1 QZZ QXZ1
+n ZX
+
+the asymptotic variance of β̂IV is
+AsyVar β̂IV =
+
+σ2U
+Q 1 QZZ QXZ1
+n ZX
+
+The IV Estimator
+
+IV: Asymptotic Variance Estimation
+Greene p. 266
+σ2U
+Q 1 QZZ QXZ1
+n ZX
+The sample analog is then a consistent estimator
+(
+!
+1
+0 Û
+Û
+1
+Z0 X
+Z0 Z
+IV IV
+\ β̂
+AsyVar
+=
+IV
+n
+n
+n
+n
+AsyVar β̂IV =
+
+= σ̂2Û
+
+IV
+
+Z0 X
+
+1
+
+Z0 Z
+
+X0 Z
+
+1
+
+X0 Z
+n
+
+1
+
+)
+
+The IV Estimator
+
+IV: Normal Inference
+Greene p. 266
+Given
+β̂IV
+
+a
+
+N β,
+
+σ2U
+Q 1 QZZ QXZ1
+n ZX
+
+and consistency of
+2
+\ β̂
+AsyVar
+IV = σ̂Û
+
+IV
+
+Z0 X
+
+1
+
+Z0 Z
+
+X0 Z
+
+inference can be carried out in the standard way.
+
+1
+
+Example
+
+Example: Returns to Education
+Wooldridge p. 504
+
+log (wage) = β1 + β2 educ + β3 exp er + β4 exp er2 + ... + u
+where u may be correlated with educ because ability is omitted.
+Let nearc4 be a dummy variable equals 1 if individual i grew up
+near a four-year college and assume that it is correlated with
+educ but not with u.
+
+Example
+
+Example: Returns to Education
+Wooldridge p. 504
+OLS:
+log (wage) = β̂1 + 0.075educ + β̂3 exp er + β̂4 exp er2 + ... + u
+(0.003)
+
+IV:
+log (wage) = β̃1 + 0.132educ + β̃3 exp er + β̃4 exp er2 + ... + u
+(0.055)
+
+Multiple Instruments: 2SLS
+
+Multiple Instruments: 2SLS
+Greene p. 270 and Wooldridge (2010) p. 96
+I
+
+So far, we have assumed that the number of instruments in
+Z is equal to the number of variables (exogenous plus
+endogenous) in X.
+
+I
+
+If Z contains more variables than X then (Z0 X) is L
+with rank K < L, therefore (Z0 X) is not invertible
+
+I
+
+Since E [Z0 U ] = 0, every column of Z is uncorrelated with
+U as it is any linear combination of the columns of Z
+
+I
+
+Which to choose?
+
+K
+
+Multiple Instruments: 2SLS
+
+Multiple Instruments: 2SLS
+Greene p. 270 and Wooldridge (2010) p. 96
+I
+
+Which to choose?
+
+I
+
+2SLS Proposal:
+X̂ = Z Z0 Z
+
+I
+
+1
+
+Z0 X
+
+Why? It can be shown (see Wooldridge 2010 p. 103) that X̂
+delivers the most efficient estimator in the class of
+instrumental variables estimators using instruments linear
+in Z
+
+Multiple Instruments: 2SLS
+Multiple Instruments: 2SLS
+Greene p. 270 and Wooldridge (2010) p. 96
+I
+
+Interpretation:
+Y = Xβ + U
+X = Zα + V
+
+I
+
+Then
+α̂ = Z0 Z
+
+1
+
+Z0 X
+
+and
+
+1
+
+X̂ = Zα̂ = Z Z0 Z
+I
+
+Z0 X
+
+Hence,
+β̂2SLS =
+
+=
+
+X̂0 X
+
+1
+
+X̂0 Y
+
+X 0 Z Z0 Z
+
+1
+
+Z0 X
+
+1
+
+X 0 Z Z0 Z
+
+1
+
+Z0 Y
+
+Multiple Instruments: 2SLS
+Multiple Instruments: 2SLS
+Greene p. 270 and Wooldridge (2010) p. 96
+I
+
+Recall: if L = K
+β̂IV = Z0 X
+
+I
+
+Z0 Y
+
+2SLS Proposal: use as instruments
+X̂ = Z Z0 Z
+
+I
+
+1
+
+1
+
+Z0 X
+
+Hence,
+β̂2SLS =
+
+=
+
+X̂0 X
+
+1
+
+X̂0 Y
+
+X 0 Z Z0 Z
+
+1
+
+Z0 X
+
+1
+
+X 0 Z Z0 Z
+
+1
+
+Z0 Y
+
+Multiple Instruments: 2SLS
+
+Asymptotic Normality of 2SLS
+Wooldridge (2010) p. 101
+Theorem: Under assumptions AIV1-AIV10,
+
+p
+
+n β̂2SLS
+
+β
+
+d
+
+! N 0, σ2U QXZ QZZ1 QZX
+
+Therefore,
+β̂2SLS
+
+a
+
+N β,
+
+σ2U
+QXZ QZZ1 QZX
+n
+
+1
+
+1
+
+Multiple Instruments: 2SLS
+
+2SLS: Asymptotic Variance Estimation
+Wooldridge (2010) p. 101
+Since,
+β̂2SLS
+
+a
+
+N β,
+
+σ2U
+QXZ QZZ1 QZX
+n
+
+1
+
+the asymptotic variance of β̂2SLS is
+AsyVar β̂2SLS =
+
+σ2U
+QXZ QZZ1 QZX
+n
+
+1
+
+Multiple Instruments: 2SLS
+2SLS: Asymptotic Variance Estimation
+Wooldridge (2010) p. 101
+σ2U
+QXZ QZZ1 QZX
+n
+The sample analog is then a consistent estimator
+AsyVar β̂2SLS =
+
+2
+\ β̂
+AsyVar
+2SLS = σ̂Û
+
+X0 Z
+
+2SLS
+
+Z0 Z
+
+1
+
+1
+
+Z0 X
+
+where (IMPORTANT)
+σ̂2Û
+
+2SLS
+
+=
+
+0
+Û2SLS
+Û2SLS
+n
+
+and
+Û2SLS = Y
+
+X β̂2SLS
+
+(NO Y
+
+X̂ β̂2SLS )
+
+1
+
+Multiple Instruments: 2SLS
+
+IV: Normal Inference
+Wooldridge (2010) p. 101
+Given
+β̂2SLS
+
+a
+
+N β,
+
+σ2U
+QXZ QZZ1 QZX
+n
+
+1
+
+and consistency of
+2
+\ β̂
+AsyVar
+2SLS = σ̂Û
+
+2SLS
+
+X0 Z
+
+Z0 Z
+
+1
+
+Z0 X
+
+inference can be carried out in the standard way.
+
+1
+
+Application: Returns to Schooling
+Griliches (1976): Wages of Very Young Men
+(A summary from Hayashi, p. 236)
+I
+
+The semi-log wage equation
+LW = α + βS + γA + δ0 h + ε
+I
+I
+I
+I
+I
+
+LW is the log wage rate for the individual
+S is schooling in years
+A is a measure of ability
+h is the vector of observable characteristics of the individual
+(experience, location dummies, etc...)
+ε is the unobservable error term with zero mean
+
+Application: Returns to Schooling
+Griliches (1976): Wages of Very Young Men
+(A summary from Hayashi, p. 236)
+I
+
+The semi-log wage equation
+LW = α + βS + γA + δ0 h + ε
+
+I
+
+β measures the percentage increase in the wage rate the
+individual would receive for one more year of education
+(marginal return from investing in human capital)
+
+I
+
+It is assumed that (S, A, h) are uncorrelated with ε
+
+I
+
+“Ability bias”: (Griliches) biases on the OLS estimate of β
+when A is not included or measured with error
+
+Application: Returns to Schooling
+
+Griliches (1976): Wages of Very Young Men
+(A summary from Hayashi, p. 236)
+I
+
+Griliches Data: Young Men’s Cohort of the National
+Longitudinal Survey (NLS-Y)
+
+I
+
+This database includes two measures of ability:
+I
+I
+
+I
+
+KWW: Knowledge of the World of Work
+IQ score
+
+“Ability bias”: (Griliches) biases on the OLS estimate of β
+when A is omitted or measured with error
+
+Application: Returns to Schooling
+Griliches (1976): Wages of Very Young Men
+(A summary from Hayashi, p. 236)
+I
+
+Griliches applies 2SLS to control for the bias in the wage
+equation
+
+I
+
+Predetermined Regressors: (1, S, h)
+
+I
+
+IQ as an approximation to ability subject to “classical”
+measurement error
+
+I
+
+Instruments for IQ: age, age squared, KWW, mother’s
+education, background variables (such as father’s
+occupation)
+
+Application: Returns to Schooling
+Returns to Education for Working Women
+Wooldridge data (W1 p.528; W2 p. 102)
+I
+
+Data on 428 working, married women
+
+I
+
+The equation of interest is
+LW = β1 + β2 educ + β3 exper + β4 exper2 + u
+
+I
+
+We assume exper is exogenous, but we allow educ to be
+correlated with u.
+
+I
+
+Instruments for educ: motheeduc, fatheduc, and huseduc
+
+Application: Returns to Schooling
+
+Returns to Education for Working Women
+Wooldridge data (W1 p.528; W2 p. 102)
+I
+
+I
+
+OLS estimation:
+d=
+LW
+
+( 2.628)
+
+d=
+LW
+
+( 0.654)
+
+0.522 + 0.107educ + 0.041exper
+(7.598)
+
+(3.154)
+
+0.0008 exper2
+
+( 2.062)
+
+2SLS:
+
+0.187 + 0.080educ + 0.043exper
+(3.692)
+
+(3.248)
+
+0.0008 exper2
+
+( 2.177)
+
+

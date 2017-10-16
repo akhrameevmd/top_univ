@@ -1,0 +1,188 @@
+ECON 2121A
+Methods of Economic Statistics
+1st Term, 2017-2018
+Lecture Hours and Location:
+Tue 2:30pm - 5:15pm (T07-09); ELB LT4
+Instructor:
+Office:
+
+Phone:
+
+E-mail:
+
+ELB 1010
+
+3943-8192
+
+cwyung186@cuhk.edu.hk
+
+Office:
+
+Phone:
+
+E-mail:
+
+KWOK Stanley
+
+ELB 1017
+
+3943-8202
+
+1006758761@link.cuhk.edu.hk
+
+NI Shengqi
+
+ELB 1016
+
+3943-8203
+
+lightni@link.cuhk.edu.hk
+
+YUNG Chor-Wing Linda
+Teaching Assistants:
+
+Course Description and Objective:
+This course studies basic statistical concepts and their applications. Major topics include: descriptive statistics; probability
+distributions; sampling; estimation; hypothesis testing; regression and correlation analysis. Students should have knowledge of
+elementary differential and integral calculus, and are advised to take ECON1111 before taking this course.
+Upon successful completion of this course, students should demonstrate their mastery of the basic knowledge of statistical concepts
+and techniques, develop their statistical thinking and reasoning skills, and feel comfortable in applying the statistical techniques and
+thinking in analyzing data..
+
+Recommended Textbook:
+
+Anderson, Sweeney, Williams, Camm and Cochran, 2017, Statistics for Business &
+Economics, 13th edition, Cengage Learning
+
+Course Assessment Scheme:
+Quizzes
+
+20%
+
+Mid-term
+
+35%
+
+Final
+
+45%
+
+Course Activities:
+Tutorials and Problem Sets
+Weekly problem sets will be posted on the class Blackboard as we go along. Problem sets will NOT count towards your
+grade. However, it is an essential adjunct to the lecture material, and will assist you in preparing for the exams. Therefore, it
+is very important that you work on your own before tutorial class. Tutorials will start on the third week. It will go through
+some of the assignments.
+Quizzes
+2 short quizzes will be given during class on 3rd Oct 2017 and 21st Nov 2017 respectively to assess the understanding of
+the lecture material. All quizzes are equally weighted. There will be no makeup quizzes.
+Mid-term (17th Oct, 2017) 4:30pm - 6:15pm, YIA LT1 (tentative)
+Please note carefully the date, time and venue of the mid-term; there will be no makeup exam for the mid-term. This is
+not negotiable. If you miss the mid-term, due to a documented illness or emergency, and have received my approval
+prior to the mid-term exam, your final exam score will receive the weight of the mid-term in addition to its own weight.
+Final (time and date will be announced later)
+
+Final will be arranged by the University, please observe the date and venue. The University has very strict regulations on
+how the final exam works. So please make sure you can make it.
+For exchange students, please note that early departure is NOT a valid reason for not taking the final examination at the
+time scheduled by the University.
+
+Course Content and Tentative Schedule:
+Week
+
+Topic
+
+Readings: Chapter
+
+1
+
+Data and Descriptive Statistics
+
+1, 2
+
+2
+
+Numerical Measures
+
+3
+
+3
+
+Introduction to Probability
+
+4
+
+4
+
+Discrete Probability Distributions
+
+5
+
+5
+
+Continuous Probability Distributions Quiz 1
+
+6
+
+6
+
+Sampling and Sampling Distributions
+
+7
+
+7
+
+Mid-term
+
+8
+
+Sampling and Sampling Distributions
+
+7
+
+9
+
+Interval Estimation
+
+8
+
+10
+
+Hypothesis Tests
+
+9
+
+11
+
+Inference with Two Populations
+
+10, 11
+
+12
+
+Analysis of Variance Quiz 2
+
+13
+
+13
+
+Simple Linear Regression
+
+14
+
+Note:
+
+Course notes and announcements will be posted on the class Blackboard. (https://blackboard.cuhk.edu.hk Please
+check frequently.
+
+Attention is drawn to University policy and regulations on honesty in academic work, and to the disciplinary guidelines and
+procedures applicable to breaches of such policy and regulations. Details may be found at
+http://www.cuhk.edu.hk/policy/academichonesty/ .
+With each assignment, students will be required to submit a signed declaration that they are aware of these policies, regulations,
+guidelines and procedures. For group projects, all students of the same group should be asked to sign on the declaration.
+For assignments in the form of a computer-generated document that is principally text-based and submitted via VeriGuide, the
+statement, in the form of a receipt, will be issued by the system upon students' uploading of the soft copy of the assignment.
+Assignments without the receipt will not be graded by teachers. Only the final version of the assignment should be submitted via
+VeriGuide.
+
+

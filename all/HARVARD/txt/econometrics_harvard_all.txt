@@ -1,0 +1,325 @@
+Harvard	University	
+Department	of	Economics	
+
+	
+
+	Economics	1123	
+
+	
+	
+Economics	1123	
+Introduction	to	Econometrics	
+																																							https://canvas.harvard.edu/courses/29992	
+	
+
+	
+Fall	Semester	2017	–	Tues,	Thurs.	1130-100,	Sever	Hall	113	
+	
+Professor	Elie	Tamer	
+125	Littauer	Center	
+elietamer@fas.harvard.edu	
+Office	Hours:	W	10:00-12:00pm	
+	
+Teaching	Fellows:	
+	
+Rachel	Cao	(ruiqingcao@fas.harvard.edu)	-	Head	TF	
+Eric	Andersen	(andersen.ericw@gmail.com)	
+Yoon	Jin	Lee	(yjlee15@gmail.com)		
+	
+Molly	Moore		(mollymoore@alumni.harvard.edu)		
+Andrea	Passalacqua	(andreapassalacqua@g.harvard.edu)		
+Raphael	Small	(raphael.small.26@gmail.com)	
+	
+	
+Course	Description:	
+	
+We	analyze	the	linear	model	as	a	tool	for	describing	relationships	in	economic	data	and	
+associated	disciplined.	In	particular,	we	will	focus	on	best	linear	predictors	under	square	
+loss	and	analyze	this	prediction	problem	in	details	using	cross	sectional	data.	We	discuss	
+nonlinear	models	and	their	approximations	using	linear	models.	Topics	include:	multiple	
+regression,	instrumental	variables	regression,	analysis	of	random	experiments	and	
+quasi-experiments,	and	regression	with	time	series	data.		Students	will	learn	how	to	
+conduct	and	critique	empirical	studies.	The	course	gives	sufficient	details	on	the	theory	
+but	will	focus	on	applications.	Prerequisite:	Statistics	104	or	equivalent.	
+	
+Textbook:		
+The	textbook	is:		
+	
+J.H.	Stock	and	M.W.	Watson,	Introduction	to	Econometrics	(third	edition	update),	
+Addison-Wesley,	2015.		
+	
+Earlier	editions	and	all	international	editions	printed	in	English	are	acceptable.	An	
+optional	book	that	is	complementary	is	
+	
+
+		
+
+Harvard	University	
+Department	of	Economics	
+
+	
+
+	Economics	1123	
+
+	
+J.	Angrist	and	J.S.	Pishke,	Mastering	Metrics,	Princeton	University	Press,	2014.	
+	
+Lecture	slides	(if	used)	will	be	posted	on	the	course	Web	site	by	9pm	the	day	before	
+lecture.	
+	
+Problem	Sets	
+	
+There	will	be	weekly	problem	sets.	Some	of	the	problems	will	be	computer	based.	The	
+course	statistical	software	is	STATA,	which	is	available	for	download	from	FAS	IT.	
+Problem	sets	and	data	will	be	posted	on	the	course	Web	page.	Please	hand	in	your	
+homework	assignments	at	the	beginning	of	class	the	day	they	are	due.		Assignments	
+handed	in	after	this,	but	before	answers	are	posted	will	be	marked	down	by	50%.	
+Assignments	handed	in	after	the	solutions	are	posted	will	receive	no	credit.	Assignments	
+will	generally	be	posted	on	Thursdays	to	be	turned	in	the	following	Thursday.		
+	
+Students	are	encouraged	to	work	in	groups	on	their	problem	sets,	but	each	student	
+must	write	up	his	or	her	answers	separately.	Please	append	your	STATA	“log”	files	to	
+your	assignments.	
+	
+Grading,	etc	
+	
+Problem	Sets:	30%;	Midterm	Exam:	25%;	Final	Exam:	45%.		In	computing	your	total	problem	set	
+grade,	the	lowest	grade	out	of	problem	sets	will	be	dropped.		For	both	exams,	you	will	be	
+permitted	to	bring	in	a	single	(two-sided)	8½x11	sheet	of	notes	and	a	calculator;	no	textbooks,	
+computers,	cell	phones,	etc.		The	spring	and	fall	semesters	of	this	course	are	graded	using	the	
+same	curve.	The	midterm	exam	will	be	held	in	class	on	Tuesday	October	10th.	There	will	be	no	
+midterm	retakes	allowed,	so	please	plan	accordingly.	Also,	the	final	will	be	held	at	a	time	
+specified	by	the	registrar’s	office.	
+	
+	
+Various	tidbits,…	
+	
+Generally,	I	like	talking	to	students	in	office	hours	and	encourage	you	to	show	up	(and	show	
+up	early	as	my	office	hours	end	sharply	at	the	end	of	the	designated	time).	Also,	drop	by	early	
+in	the	semester,	and	introduce	yourself	–no	need	for	a	particular	question.	Please	make	sure	
+that	if	you	have	a	set	of	questions	or	need	extra	help	you	should	try	your	best	to	show	up	
+early	at	office	hours.	Coming	in	with	many	questions	5	minutes	before	the	end	of	office	hours	
+is	not	encouraged.	Also,	contact	the	TFs,	as	they	are	a	great	asset	to	you.	Keep	your	email	
+questions	to	ones	that	require	quick	answers	such	as	fixing	typos,	etc.	Long	serious	questions	
+like	``why	linear	models’’	require	serious	answers	that	cannot	be	done	via	email.	Most	
+importantly,	if	you	are	not	catching	up	with	the	class	(for	whatever	reason),	get	help	and	get	
+help	early.		
+Finally,	all	communications	will	be	done	via	the	class	website	with	occasional	emails.	Please	
+make	sure	you	check	the	website,	and	check	it	often.		
+	
+
+Harvard	University	
+Department	of	Economics	
+
+	
+
+	Economics	1123	
+
+	
+	
+	
+	
+TENTATIVE	CLASS	SCHEDULE	
+	
+	
+	
+
+	
+
+	
+
+	
+
+Readings:	
+
+Problem	Sets:	
+
+SW	Ch.	#	
+2,	3	
+2,	3	
+4,	5	
+4,	5	
+6	
+6,	7	
+8	
+9	
+9	
+10	
+10	
+	
+
+Posted	 Due	
+	
+	
+	
+	
+PS#1	
+	
+	
+	
+			PS#2	 		PS#1	
+	
+	
+PS#3	 PS#2	
+	
+	
+PS#4	 PS#3	
+	
+	
+PS#5	 PS#4	
+	
+	
+
+Class	no.	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+
+Date	
+	
+8/31	 		Thurs	
+9/5	 		Tues	
+9/7	 		Thurs	
+9/12	 		Tues	
+9/14	 		Thurs	
+9/19	 		Tues		
+9/21	 		Thurs	
+9/26	 		Tues		
+9/28	 		Thurs	
+10/3	 		Tues		
+10/5	 		Thurs	
+10/10			Tues	
+
+13	
+14	
+15	
+16	
+17	
+18	
+19	
+
+10/12			Thurs		
+10/17			Tues	
+10/20			Thurs	
+10/24			Tues	
+10/26			Thurs	
+10/31			Tues	
+11/2	 		Thurs	
+
+Topic	
+Review	of	probability	&	statistics	
+Review	of	probability	&	statistics	
+Algebra	of	Bivariate	Regression	
+Inference	in	the	Bivariate	Regression		
+Multiple	Regressors	
+Omitted	Variable	Bias		
+Nonlinear	regression	function	
+Assessing	studies,	external	validity	
+Causality	with	a	regression	
+Panel	data	I	
+Panel	data	II	
+MIDTERM	EXAM	(coverage	through	
+Class	11)	
+Binary	Response	Model	
+Binary	Response	Model		
+Instrumental	variables	model		
+Instrumental	variables	model	
+Instrumental	variables	model	
+Program	Evaluation	I	
+Program	Evaluation	II	
+
+20	
+21	
+22	
+23	
+24	
+	
+25	
+26	
+	
+
+11/7	 		Tues	
+11/9	 		Thurs	
+11/14			Tues	
+11/16			Thurs	
+11/21			Tues	
+11/23			Thurs	
+11/28			Tues	
+11/30			Th	
+	 	
+
+Program	Evaluation	III	
+Forecasting	I	
+Forecasting	II	
+Forecasting	III	
+Intro	to	Big	Data	I	
+THANKSGIVING	
+Intro	to	Big	Data	II	
+Review	
+	
+
+	
+	
+	
+Last	revised	Thursday,	August	31,	2017	
+
+11	
+11	
+12	
+12	
+12	
+13	
+13	
+
+PS#6	
+	
+PS#7	
+	
+PS#8	
+	
+PS#9	
+
+PS#5	
+	
+PS#6	
+	
+PS#7	
+	
+PS#8	
+	
+13	
+	
+	
+14	
+PS#10	 PS#9	
+14	
+	
+	
+14	
+PS#11	 PS#10	
+Web	Material	
+	
+	
+	
+	
+	
+Web	Material	
+	
+PS#11	
+	
+	
+	
+	
+	
+	
+
+

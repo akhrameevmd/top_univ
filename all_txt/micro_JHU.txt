@@ -1,0 +1,31 @@
+180.102 Elements of Microeconomics
+An introduction to the economic system and economic analysis with emphasis on demand and supply, relative prices,
+ the allocation of resources, and the distribution of goods and services; theory of consumer behavior, theory of the firm, and competition and monopoly,
+ including the application of microeconomic analysis to contemporary problems.
+
+Prerequisites: basic facility with graphs and algebra.
+
+Instructor: Hamilton
+
+
+180.301 Microeconomic Theory
+An introduction to the modern theory of allocation of resources, starting with the theories of the individual consumer and producer,
+ and proceeding to analysis of systems of interacting individuals, first in the theory of exchange, then to systems which include production as well.
+
+Prerequisites:
+
+180.101(can be taken concurrently with 180.101)-102 and Differential Calculus 110.106, or permission of instructor
+
+Instructor: Husain
+180.401 Advanced Microeconomic Theory
+This course covers roughly the same material as Microeconomic Theory 180.301 but in a more formal and mathematically rigorous way.
+ You can use either 180.301 or 180.401 to satisfy the requirement for the economics major. 180.301 and 180.401 are offered during the same time slot,
+ so the logistics of switching from 180.301 to 180.401 should be seamless, should you decide to make the switch. This course is suitable for those students 
+who prefer a more formal treatment of economic theory and who are planning to take some of the more technically demanding electives in economics at a later stage.
+ NOTE: you may not take both 180.301 and 180.401.
+
+Prerequisites:
+
+You may not take both 180.401 and 180.301.; 180.102 and any two semesters of calculus (or equivalent)
+
+Instructor: Quah

@@ -1,0 +1,441 @@
+“Review” of what we studied so far
+We have studied 2 reasons why banks (more generally a financial system) are
+useful:
+1.
+
+by monitoring firms and making it harder for entrepreneurs to shirk banks allow
+projects that otherwise could not be financed to be implemented (as we studied in the
+Holmstrom- Tirole model)
+
+2.
+
+by transforming maturities they allow the savings that households wish to keep
+“liquid” (i.e. immediately accessible) to be used to fund long-term projects (as we
+studied in the Diamond-Dybvig model)
+
+We have also learned (with the Tirole model) that it is important that banks be
+diversified, otherwise too much liquidity may end up in some places that do
+not need it, and too little where it would be needed
+Finally we have learned how financial contracts may amplify macro shocks
+We now ask why this helps us understand the origin of financial crisis exploded in
+2007-08 and not yet over
+1
+
+Background reading
+Promises that proved ultimately empty
+“Unless banks can better demonstrate their usefulness to society, they face a
+debilitating battle against new regulation.”
+John Gapper, Financial Times, January 10, 2012.
+
+Playing with Fire
+“Financial Innovation can do a lot of good. It its tendency to excess that must be
+curbed”
+Andrew Palmer, The Economist, February 25, 2012.
+
+2
+
+Lack of diversification increases exposure to risk
+Example: local bank with local risk exposure
+
+Households in Texas
+Monitoring
+Mortgages
+
+Bank in Texas
+
+Lack of diversification increases exposure to risk
+Example: local bank with local risk exposure
+
+Households in Texas
+Monitoring
+Mortgages
+
+Bank in Texas
+
+• This actually happened in Texas in the late 1980s. When the price
+of oil fell, many Texans companies and households (Texas being an
+oil-based economy) were unable to keep paying their mortgages.
+Texas banks collapsed
+•
+
+To address the problem, two solutions were tried:
+1. build cross-state banks which lend in many different states:
+the BankofAmerica model
+2. diversify via securitization
+
+Diversification reduces exposure to idiosyncratic risk
+Securitization is an avenue to diversification for banks
+
+Households in Texas
+Monitoring
+S
+E
+C
+U
+R
+I
+T
+I
+Z
+A
+T
+I
+O
+N
+
+Mortgages
+
+Bank in Texas
+Portfolio of worldwide
+diversified mortgages
+
+Mortgages
+Manufacturers of
+Mortgage backed securities
+
+Bank in
+Florida
+
+Bank in
+Thailand
+
+Securitization: transforming mortgages into claims to
+diversified pools of money
+•
+
+Recall that owning a mortgage means owning a cash flow: the flow
+of interest payments
+
+•
+
+A bank can sell a mortgage to a specialized firm (a "factory") that
+collects thousands of mortgages and issues claims to the cash
+flows they generate (a security)
+
+•
+
+If the cash flows are uncorrelated, buying these ensuing securities
+allows investors to get rid of "local" risk (diversify)
+
+•
+
+These securities are sometimes called Collateralised Debt
+Obligations (CDOs)
+•
+•
+
+Collateralized: because guaranteed by an asset, the house
+Debt: because they are a debt of the “factory”
+6
+
+Securitization: transforming mortgages into claims to
+diversified pools of money
+
+•
+
+The “factory” finances its purchase of mortgages by
+•
+
+Selling CDOs to the market and the banks
+
+•
+
+Borrowing from the market issuing a special kind of deposits:
+3-Months Commercial Paper
+
+•
+
+Thus the “factory” does two things at the same time:
+•
+•
+
+diversification through the bundling of mortgages
+maturity transformation, when it issues deposits to buy longterm mortgages
+
+7
+
+The “factory” finances the purchase of mortgages issuing CDOs and short
+term deposits (Commercial paper)
+Households in Texas
+Monitoring
+Mortgages
+Portfolio of worldwide
+diversified mortgages
+(CDOs)
+
+Bank in Texas
+
+Mortgages
+Manufacturers of
+Mortgage backed securities
+CDOs
+3-months
+Commercial paper
+
+Long Term
+Investors
+
+Short Term
+Investors
+
+The structure of a CDO: who gets what, at what risk
+
+High-Grade Structured CDO
+Subprime mortgage loans
+
+Subprime mortgage bonds
+
+Senior AAA
+
+88%
+
+Junior AAA
+
+5%
+
+AA
+
+3%
+
+AAA
+
+80%
+
+A
+
+2%
+
+AA
+
+11%
+
+BBB
+
+1%
+
+A
+
+4%
+
+Unrated
+
+1%
+
+BBB
+BB-unrated
+
+3%
+2%
+
+Representative Pool:
+$1 billion par value
+4000 mortgages
+
+Mezzanine Structured CDO
+
+CDO-squared
+Senior AAA
+
+60%
+
+Junior AAA
+
+27%
+
+8%
+
+AA
+
+4%
+
+A
+
+6%
+
+A
+
+4%
+
+BBB
+
+6%
+
+BBB
+
+3%
+
+Unrated
+
+4%
+
+Unrated
+
+2%
+
+Senior AAA
+
+62%
+
+Junior AAA
+
+14%
+
+AA
+
+CDO: Collateralized Debt Obligation
+
+When the bank has sold the mortgage, does it still have an incentive to
+monitor homeowners ?
+Households in Texas
+Monitoring
+Mortgages
+Portfolio of worldwide
+diversified mortgages
+(CDOs)
+
+Bank in Texas
+
+Mortgages
+Manufacturers of
+Mortgage backed securities
+CDOs
+3-months
+Commercial paper
+
+Long Term
+Investors
+
+Short Term
+Investors
+
+With no more capital invested in the mortgage (IB = 0 )
+the bank has no incentive to monitor
+Households in Texas
+
+Mortgages
+Portfolio of worldwide
+diversified mortgages
+(CDOs)
+
+Bank in Texas
+
+Mortgages
+Manufacturers of
+Mortgage backed securities
+CDOs
+3-months
+commercial paper
+
+Long Term
+Investors
+
+Short Term
+Investors
+
+Defaults on sub-prime mortgages by year of
+mortgage approval
+
+© Moody's Investors Services. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see http://ocw.mit.edu/help/faq-fair-use/.
+
+From the absence of monitoring to a “Bank Run”
+ When investors realized that mortgages were no longer
+monitored (and thus that banks were giving them out without
+properly screening borrowers), they lost confidence in
+mortgage-backed securities
+ Long Term Investors were stuck with the mortgages
+they had bought
+ Short term investors, who had financed the
+manufactures buying 3-month commercial paper, all
+withdrew their deposits, like in a bank run.
+(More precisely they stopped rolling over short term
+commercial paper, which is the same thing)
+ The manufacturers of CDOs were broke because part of the
+mortgages they had bought had been financed with short
+term borrowing
+13
+
+When investors realized that mortgages were no longer monitored, they lost
+confidence in mortgage-backed securities CDO manufacturers went broke
+Households in Texas
+
+Mortgages
+Portfolio worldwide
+diversified mortgages:
+
+Bank in Texas
+
+Mortgages
+Manufacturers of
+Mortgage backed securities
+CDOs
+3-months
+commercial paper
+
+Long Term
+Investors
+
+Short Term
+Investors
+
+Balance sheet of CDO manufacturers
+Assets
+30-year mortgages
+
+Liabilities
+3-months deposits
+
+• Long term assets and short term liabilities
+made them vulnerable to shifts in confidence
+
+15
+
+Further complication: banks had given CDOs manufacturers a guarantee
+which was triggered when they were hit by the recall of loans
+Households in Texas
+
+Mortgages
+
+Bank in Texas
+
+Equity Line
+Manufactures of
+Mortgage backed securities
+
+Some banks did not have enough capital to keep CDO manufacturers
+alive: both went broke.
+
+Bottom line: securitization gave the illusion of diversification
+
+ Diversification is a wonderful idea -- provided it is done
+right
+
+ Banks thought they had reduced their risk selling the
+mortgages, but they had not
+
+17
+
+Eventually the Government saved the banks
+U.S. Treasury
+Federal Reserve
+
+Households in Texas
+
+Mortgages
+Capital increase
+
+Bank in Texas
+
+Equity Line
+Manufacturers of
+Mortgage backed securities
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

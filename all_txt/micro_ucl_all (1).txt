@@ -1,0 +1,74 @@
+ECON2001 : Intermediate Microeconomics
+Course Lecturers:
+Term 1 Professor Martin Cripps
+Email: m.cripps@ucl.ac.uk
+Room 122 Drayton House
+Office Hour Friday 1:00-2:00
+Term 2 Professor Ian Preston
+Email: i.preston@ucl.ac.uk
+Room 207 Drayton House
+Office Hour: Friday 1:30-2:30
+Class Teachers
+Term 1: Claudia Cerrone; Michele Gianola; Homa Esfahanian; Shilan Dargahi; Alireza
+Kharazi; Amairisa Kouki
+Term 2: Shilan Dargahi; Alireza Kharazi; Amairisa Kouki; Francesca Parodi
+Aims: This course is designed to provide students with a rigorous grounding in the core
+concepts and methods of Microeconomics. At the end of the course the student should:
+(a) Understand microeconomic theory at a level appropriate for an economics graduate.
+(b) Understand how to analyse microeconomic models using appropriate techniques.
+(c) Be able to address economic phenomena using these models and techniques.
+Texts: The main text for this course is Microeconomics: Principles and Analysis [F. Cowell, OUP
+2006 (ISBN 0-19-926777-4)]. This can be supplemented with the easier books: Microeconomic
+Theory: Basic Principles and Extensions [Nicholson, South-Western 2005] and Intermediate
+Microeconomics [Varian, Norton 2003]. A more advanced book for an ambitious student is:
+Microeconomics [Gravelle and Rees, Pearson 2004].
+Other Materials:
+Copies of the slides for lectures and demonstration lectures, problem sets and answers will
+be posted on the course website.
+Examination Format:
+Three hours; Part A of the paper is 20 multiple choice questions and TWO from Part B
+(longer problem questions). Answers to Part B to include ONE from Part BI and ONE from
+Part BII. (For affiliate students: Two Hours; the questions from Part A and ONE question
+from Part B.)
+Required Coursework:
+Four problem sets for Term 1 and four problem sets for Term 2.
+
+Course Outline and Syllabus
+Term 1:
+
+1) Games in Strategic and Extensive Form: Cowell Chapter 10
+a) Strategic forms, dominance, Nash equilibrium.
+b) Extensive forms, backwards induction and subgame perfection.
+2) Oligopoly and Monopoly: Cowell Chapters 10, 3
+a) Static models of oligopoly: Cournot, Bertrand and differentiated product
+competition; auctions.
+b) Dynamic models of oligopoly: Stackelberg, commitment and collusion
+c) Monopoly
+3) The Perfectly Competitive Firm: Cowell Chapters 2 and 3
+a) Production functions, Cost Functions, Input Demands.
+b) Scale and Homogeneity, Duality, LR and SR costs
+4) Adverse Selection: Signalling and Hidden Information: Cowell Chapter 11.
+a) Lemons and signals in insurance models.
+b) Screening and product provision.
+c) Non-Linear Pricing
+5) Incentives and Moral Hazard: Cowell Chapter 11 and 12
+a) Principals and Agents
+b) Incentive compatibility and individual rationality
+c) Providing incentives for workers.
+6) Designing Economic Systems: Cowell Chapter 12
+Term 2:
+6) Consumer Demand: Cowell Chapter 4
+a) Budget constraints  
+b) Revealed preference  
+c) Preferences and utility, duality  
+d) Consumer surplus and price indices 
+7) Demand with endowments: Cowell Chapter 5
+a) Labour supply  
+b) Intertemporal choice  
+8) Uncertainty: Cowell Chapter 8  
+9) General equilibrium: Cowell Chapter 6 and 7
+a) Exchange equilibrium  
+b) Equilibrium with production  
+c) Welfare theorems  
+
+

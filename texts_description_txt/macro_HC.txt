@@ -1,0 +1,4 @@
+ECON2021 BASIC MACROECONOMICS
+This course covers basic concepts in macroeconomic theory. Major topics include: national income accounting, consumption and investment theories, demand and supply of money, unemployment and inflation, fiscal and monetary policies, balance of payments and exchange rate systems.
+ECON3021 INTERMED MACROECONOMIC THEORY
+The emphasis of this course is on the history of macroeconomic fluctuations and growth; recent theoretical analyses of such phenomena, for example, the New Classical and New Keynesian approaches; and the consequence and relevance of institutions and policies. Students should have knowledge of elementary differential calculus, and are advised to take ECON2021 before taking this course.

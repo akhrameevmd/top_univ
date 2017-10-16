@@ -1,0 +1,872 @@
+ECON 2007: Quant Econ and Econometrics
+Instrumental Variables
+Dr. Áureo de Paula
+Department of Economics
+University College London
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+1 / 40
+
+Practicalities
+
+I
+
+Office Hours
+Thursdays, 16:00-18:00 (January), 14:30-15:30 (after January), or
+by appointment
+228 Drayton House
+
+I
+
+Required Textbook
+Wooldridge: Introductory Econometrics: A Modern Approach
+
+I
+
+Supplementary (non-required) reading:
+Stock and Watson: Introduction to Econometrics
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+2 / 40
+
+Practicalities
+The fight is won or lost far away from witnesses – behind
+the lines, in the gym, and out there on the road, long
+before I dance under those lights. (Muhammad Ali)
+I
+
+Homeworks (= the “gym”):
+Three problem sets (. . . but there are many exercises in the book
+as well!).
+
+I
+
+Exam (= the “lights”):
+3 hour written exam for entire module in Term 3.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+3 / 40
+
+Practicals
+
+I
+
+Practical sessions will take place on Mondays, 10:00-11:00.
+
+I
+
+The practical sessions will be led by Gavin Kader.
+
+I
+
+Practicals are scheduled for 30th January, 6th February, 20th
+February, 6th March and 20th March.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+4 / 40
+
+Road Map
+Week 20 (13/01): IV (W Ch.15.1-15.6, SW Ch.12) (Conway Hall)
+Week 21 (20/01): IV (W Ch.15.1-15.6, SW Ch.12) (Royal Nat. Hotel Galleon Ste A)
+Week 22 (27/01): Simultaneous Equations (W Ch.16.1-16.3) (IOE - Logan Hall)
+Week 23 (05/02):
+Week 24 (10/02):
+Week 26 (24/02):
+Week 27 (03/03):
+
+LDV (W Ch.17; SW Ch.11) (IOE - Logan Hall)
+LDV (W Ch.17; SW Ch.11) (IOE - Logan Hall)
+LDV (W Ch.17; SW Ch.11) (IOE - Logan Hall)
+LDV (W Ch.17; SW Ch.11) (IOE - Logan Hall)
+
+Week 28 (10/03): Reg with TS (W Ch.10, 11.1-3; SW Ch.14, 15) (IOE - Logan Hall)
+Week 29 (17/03): Serial Corr. and Heterosk. (W Ch.12; SW Ch.15) (IOE - Logan Hall)
+Week 30 (24/03): Serial Corr. and Heterosk. (W Ch.12; SW Ch.15) and Selected
+Further Topics (W Ch. 16.4, Ch. 18; SW Ch.16) (Royal Nat. Hotel Galleon Suite A)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+5 / 40
+
+Outline: Instrumental Variables (IV)
+Part I: The basics of IV
+I
+I
+
+Motivation and basic idea
+IV assumptions and estimator
+I
+
+Example
+
+Part II: Issues in IV estimation
+I
+I
+
+Inference and weak instruments
+2SLS
+I
+I
+
+Multiple explanatory variables
+Multiple instruments
+
+I
+
+Testing for endogeneity
+
+I
+
+Overidentification
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+6 / 40
+
+Introduction
+Remember the classical linear regression model:
+y = β0 + β1 x + u
+
+(≡ β > x + u using matrix algebra).
+
+For the OLS estimator to be consistent (i.e. to get “close” to β as the
+sample increases) we assume
+cov(x, u) = 0.
+
+If cov(x, u) 6= 0 we say that x is (econometrically) endogenous.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+7 / 40
+
+What does cov(x, u) 6= 0 mean?
+Let’s think about this in the context of an example:
+ln(wage) = β0 + β1 educ + u.
+We need to consider what factors are captured by u.
+cov (u, educ) = 0 implies no (linear) association between educ and u,
+which may incorporate variables such as ability. But more educated
+individuals will tend to be more “able”.
+Remember that if cov(educ, u) 6= 0, OLS estimators for β0 and β1 are
+not consistent.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+8 / 40
+
+When could cov(x, u) 6= 0 arise?
+
+Common sources of endogeneity are:
+I
+
+Ommited variables
+
+I
+
+Measurement error (i.e. errors-in-variables)
+
+I
+
+Simultaneity
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+9 / 40
+
+Small detour: unbiasedness 6= consistency!
+
+I
+
+Unbiasedness: small sample; Consistency: large sample.
+
+I
+
+Conditions are different:
+E(u|x) = 0 ⇒ cov (x, u) = 0
+
+I
+
+It is not true that cov (x, u) = 0 implies E(u|x) = 0.
+
+I
+
+Intuitively, these two conditions highlight that x and u should be
+unrelated. Technically, they are nevertheless different!
+
+I
+
+If you confuse the two in the exam, you will be penalized.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+10 / 40
+
+IV: The Basic Idea
+OLS: Exogenous regressors
+x
+
+→ y
+%
+
+u
+OLS: Omitted variables bias:
+x → y
+l %
+u
+IV: Suppose there exists a variable z such that
+z → x → y
+l %
+u
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+11 / 40
+
+IV Assumptions
+Consider the simple regression model
+yi = β0 + β1 xi + ui
+
+(2SLS.1)
+
+where cov (u, x) 6= 0
+Assume now that we have an instrumental variable zi that satisfies the
+following two conditions
+I cov (zi , ui ) = 0 (exogeneity or validity)
+(+E(ui ) = 0 ⇒ 2SLS.4)
+I cov (zi , xi ) 6= 0 (relevance)
+(⇐ 2SLS.3)
+The exogeneity assumption requires that:
+I zi affects yi only through xi
+I zi is unrelated to ui
+and is not testable (since it involves ui ).
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+12 / 40
+
+IV Assumptions
+
+Instrument relevance requires that zi affect xi
+I
+
+It can be verified by estimating the following regression
+xi = π 0 + π 1 zi + vi
+
+Since π1 = cov (zi , xi )/var (zi ), we can (and must!) test relevance:
+I
+I
+
+H0 : π1 = 0: instrument irrelevant
+H1 : π1 6= 0: instrument relevant
+I
+
+As usual, perform t-test
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+13 / 40
+
+IV Estimator
+Now we can identify β1 by (i) noting that
+cov (zi , yi ) = β1 cov (zi , xi ) + cov (zi , ui )
+and ii) using the IV assumptions to write
+β1 =
+
+cov (zi , yi )
+cov (zi , yi )/var (zi )
+=
+cov (zi , xi )
+cov (zi , xi )/var (zi )
+
+which is the slope coefficient estimator from the reduced form divided
+by the slope coefficient estimator from the first stage.
+Reduced form: cov (zi , yi )/var (zi )
+I
+
+slope coefficient from a regression of yi on zi and an intercept
+
+First stage: cov (zi , xi )/var (zi )
+I
+
+slope coefficient from a regression of xi on zi and an intercept
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+14 / 40
+
+IV Estimator
+The sample analog is the instrumental variable estimator of β1 :
+Pn
+(zi − z)(yi − y )
+β̂1 = Pi=1
+n
+i=1 (zi − z)(xi − x)
+The IV estimator of β0 is:
+βˆ0 = y − βˆ1 x
+Note that βˆ1 is the OLS estimator of β1 when zi = xi .
+2SLS.1, 3-4 + Random Sampling (2SLS.2) ⇒ 2SLS is consistent.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+15 / 40
+
+Special Case of IV: Wald Estimator
+A common (and simple) example of IV is one where the instrument is
+binary
+zi ∈ {0, 1}
+Note that
+E[yi |zi = 1] = β0 + β1 E[xi |zi = 1]
+E[yi |zi = 0] = β0 + β1 E[xi |zi = 0]
+so that
+E[yi |zi = 1] − E[yi |zi = 0] = β1 (E[xi |zi = 1] − E[xi |zi = 0])
+which after rearranging and taking sample analogues gives the Wald
+estimator:
+y (z=1) − y (z=0)
+βˆ1 =
+x (z=1) − x (z=0)
+P
+where x (z=1) ≡ (|{i : zi = 1}|)−1 {i:zi =1} xi , etc.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+16 / 40
+
+Example
+Consider our example of returns to schooling
+ln(wagei ) = β0 + β1 educi + ui
+Angrist and Krueger (1991) came up with an instrument for education
+in the US: quarter of birth.
+Arguments for instrument:
+I
+I
+
+Education is compulsory by law until your 16th birthday
+School start in the year you turn 6:
+I
+I
+
+I
+
+children born early in the year begin school at an older age
+and may therefore leave school with somewhat less education
+
+Quarter of birth is arguably uncorrelated with unobservables
+affecting wages (though see Bound, Jaeger and Baker (1995) for
+arguments otherwise).
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+17 / 40
+
+Mean Years of Completed Education, by Quarter of
+Birth
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+18 / 40
+
+Mean Log Weekly Earnings, by Quarter of Birth
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+19 / 40
+
+OLS and IV estimates
+
+ln(weekly wage)
+
+Quarter of birth
+1st
+4th
+(1)
+(2)
+5.892
+5.905
+
+Years of education
+
+12.688
+
+12.839
+
+Difference
+(2)-(1)
+(3)
+0.0135
+(0.0034)
+0.151
+(0.016)
+
+Wald estimate of
+return to education
+
+0.089
+(0.021)
+
+OLS estimate of
+return to education
+
+0.070
+(0.0005)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+20 / 40
+
+Inference
+Assuming homoscedasticity E[ui2 |zi ] = σ 2 , it can be shown that the
+estimated (asymptotic) variance of the IV estimator is:
+vd
+ar (β̂IV ) =
+Pn
+
+σ̂ 2
+2
+SSTx Rx,z
+
+− x)2
+
+I
+
+SSTx =
+
+I
+
+2 : the R-squared from a regression of x on z and an intercept
+Rx,z
+i
+i
+Pn
+2
+−1
+2
+σ̂ = (n − 2)
+i=1 ûi where ûi = yi − β̂0 − β̂1 xi
+
+I
+
+i=1 (xi
+
+As before, we compute the standard error and use it to perform tests
+and derive confidence intervals, but we might need large sample sizes.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+21 / 40
+
+IV vs. OLS
+Advantage of IV estimator: Consistent even if u and x are correlated,
+in which case the OLS estimator is biased and inconsistent.
+Disadvantage of IV estimator: less efficient if u and x are uncorrelated.
+Assume that u and x are uncorrelated. Then:
+vd
+ar (β̂IV ) =
+
+σ̂ 2
+σ̂ 2
+>
+= vd
+ar (β̂OLS )
+2
+SSTx
+SSTx Rx,z
+
+and we can see the variance of the IV estimator
+I
+
+is always larger than the variance of the OLS estimator and
+
+I
+
+depends crucially on the correlation between z and x.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+22 / 40
+
+Weak Instruments and Bias
+Weak instrument means that z and x are only weakly correlated:
+I
+
+not only lead to imprecise IV estimates,
+
+I
+
+but can also give large bias.
+
+Recall that:
+Pn
+Pn
+(zi − z)(ui − u)
+i=1 (zi − z)(yi − y )
+β̂1 = Pn
+= β1 + Pi=1
+n
+(z
+−
+z)(x
+−
+x)
+i
+i=1 i
+i=1 (zi − z)(xi − x)
+Even if cov (z, u) is smaller than cov (x, u), it is not necessarily better
+when the denominator is small.
+Even if cov (z, u) = 0, β̂1 becomes very unstable and unreliable if z and
+x are only weakly correlated, so that the denominator is close to zero
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+23 / 40
+
+Weak Instruments and Bias
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+24 / 40
+
+Weak Instruments and Bias
+
+I
+
+If the IVs are weak, the sampling distribution of the TSLS
+estimator (and its t-statistic) is not well approximated by its large n
+normal approximation.
+
+I
+
+IV estimation thus requires fairly strong instruments
+
+I
+
+Rule
+of thumb: F-statistic above 10 (same as t-statistic above
+√
+10) for the instrument in the first stage
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+25 / 40
+
+Example - Weak instrument: Birth weight and smoking
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+26 / 40
+
+IV in the MLR model
+
+We can add an additional explanatory variables x2 to the model:
+yi = β0 + β1 xi1 + β2 xi2 + ui
+Assume that x2 is uncorrelated with u, while x1 is correlated with u
+I
+
+xi2 : exogenous explanatory variable
+
+I
+
+xi1 : endogenous explanatory variable
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+27 / 40
+
+IV in the MLR model
+To consistently estimate all the β’s we use the sample analogues of the
+moment conditions
+E(ui ) = 0 ⇒
+cov (ui , zi ) = 0 ⇒
+
+n
+X
+i=1
+n
+X
+
+(yi − β̂0 − β̂1 xi1 − β̂2 xi2 ) = 0
+(yi − β̂0 − β̂1 xi1 − β̂2 xi2 )zi1 = 0
+
+i=1
+n
+X
+cov (ui , xi2 ) = 0 ⇒
+(yi − β̂0 − β̂1 xi1 − β̂2 xi2 )xi2 = 0
+i=1
+
+3 equations with 3 unknowns: can be solved as we did for OLS
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+28 / 40
+
+IV in the MLR model
+As before we need z1 to be correlated with x1 , but now over and above
+x2 .
+We can test this by estimating the following regression
+xi1 = π0 + π1 zi1 + π2 xi2 + vi
+and instrument relevance is tested as:
+H0 : π1 = 0 vs H1 : π1 6= 0
+In other words, IV in the MLR model is just as IV in the SLR model
+except the exogeneity assumption is now:
+cov (zi , ui | xi2 ) = 0
+(Note that zi and xi2 can be correlated!)
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+29 / 40
+
+Two-stage least squares (2SLS)
+We still consider the following model
+yi = β0 + β1 xi1 + β2 xi2 + ui
+but now with M > 1
+cov (ui , zim | xi2 ) = 0 m = 1, . . . , M
+We only need to modify the first stage such that:
+xi1 = π0 + π1 zi1 + . . . + πM ziM + πM+1 xi2 + vi
+Instrument relevance is tested using an F statistic for
+H0 : π1 = . . . = πM = 0
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+30 / 40
+
+2SLS: Step-by-step
+1. Estimate the first-stage regression:
+xi1 = π0 + π1 zi1 + . . . + πM ziM + πM+1 xi2 + vi
+- regressing the endogenous explanatory variable on the
+instruments and all the other exogenous explanatory variable
+2. Compute the predicted value of x1 :
+x̂i1 = π̂0 + π̂1 zi1 + . . . + π̂M ziM + π̂M+1 xi2
+3. Estimate the second-stage regression:
+yi
+
+= β0 + β1 x̂i1 + β2 xi2 + ei
+
+- regressing the outcome variable on x̂i1 and all the other
+exogenous explanatory variable
+Note that using more than one instrument is not necessary, but it can
+give you more efficient IV estimates.
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+31 / 40
+
+Multiple Endogenous Variables
+If there is more than one endogenous variable, e.g.
+y1 = β0 + β1 y2 + β2 y3 + β3 z1 + u1
+we need at least two exogenous variables z2 and z3 that do not appear
+in the equation above. (This is known as the order condition.)
+Both of these variables still need to be relevant though. If z2 does not
+correlate with either endogenous variable or if both z2 and z3 correlate
+with only one of the endogenous variables we would not be able to
+identify the desired parameters. The sufficient condition for
+identification is called the rank condition. (We will revisit that when we
+discuss simultaneous equations.)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+32 / 40
+
+Weak IV Revisited
+I
+
+Weak IV are also a problem with many instruments.
+
+I
+
+Adding instruments with low predictive power in the first stage
+lowers the F -statistic and exacerbates the bias in the 2SLS
+estimator.
+
+I
+
+Bound, Jaeger, and Baker (1995) illustrate this using the Angrist
+and Krueger (1991). AK present results using different sets of IVs
+(plus other covariates):
+- quarter of birth dummies: M = 3 instruments.
+- quarter of birth + (quarter of birth) x (year of birth) dummies:
+M = 30 instruments.
+- quarter of birth + (quarter of birth) x (year of birth) + (quarter of
+birth) x (state of birth): M = 180 instruments.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+33 / 40
+
+Weak IV Revisited
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+34 / 40
+
+Weak IV Revisited
+
+With more than one endogenous variable the F -statistic in the first
+stage may not suffice for detection of weak IVs either.
+One alternative is to perform a test based on the Cragg-Donald
+Eigenvalue statistic (see Stock, Wright and Yogo (2002)).
+(Alternatively, see Sanderson and Windmeijer, CeMMAP Working
+Paper CWP58/13.)
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+35 / 40
+
+Testing for endogeneity: Hausman test
+Consider the simple regression model
+yi = β0 + β1 xi1 + ui
+Test for endogeneity:
+I H0 : cov (xi1 , u) = 0, both OLS and IV are consistent
+I H1 : cov (xi1 , u) 6= 0, only IV is consistent and xi1
+We perform a Hausman test by
+1. Calculating the first-stage residual v̂i (this contains the
+endogenous part of xi1 )
+xi1 − x̂i1 = v̂i
+2. Adding v̂i to the regression model, and estimate by OLS:
+yi
+
+= β0 + β1 xi1 + θv̂i + ei
+
+3. Using a t-test to check if θ is significantly different from zero ⇒
+reject H0 : cov (xi1 , ui ) = 0
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+36 / 40
+
+Testing Overidentification Restrictions
+
+I
+
+When there are as many IVs as endogenous variables, exogeneity
+of the instruments is not testable.
+
+I
+
+However, when there are more IVs than endogenous variables,
+we can test whether some of them are uncorrelated with the u.
+
+I
+
+With two IVs and one endogenous variable, for example, we could
+compute alternative 2SLS estimates using each of the IVs. If the
+IVs are both exogenous, the 2SLS will converge to the same
+parameter and they will differ only by sampling error.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+37 / 40
+
+Testing Overidentification Restrictions
+
+I
+
+If the two estimates are statistically different, we would not be able
+to reject the hypothesis that at least one of the IVs is invalid.
+
+I
+
+But we would not be able to ascertain which one!
+
+I
+
+Moreover, if they are similar and pass the test it could because
+both IVs fail the exogeneity requirement.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+38 / 40
+
+Testing Overidentification Restrictions
+
+In practice, under homoskedasticity (i.e., E(u 2 |z) = σ 2 ),
+1. Estimate coefficients by 2SLS and obtain residuals ûi .
+2. Regress ûi on all exogenous variables. Record the R 2 .
+3. Under the null hypothesis that all IVs are exogenous, nR 2 ∼ χ2M−1 .
+This test can be made robust to heteroskedasticity.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+39 / 40
+
+These slides covered:
+Wooldridge 15.1-15.6, Stock and Watson 10.
+
+de Paula (UCL)
+
+ECON 2007: Quantitative Economics and Econometrics
+
+40 / 40
+
+

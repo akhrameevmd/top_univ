@@ -1,0 +1,23 @@
+ECON 21010. Statistical Methods in Economics. 100 Units.
+This course provides a solid foundation in probability and statistics for economists. We emphasize topics
+needed for further study of econometrics in ECON 21020. Topics include elements of probability theory,
+sampling theory, estimation, hypothesis testing, and an introduction to linear algebra.
+Instructor(s): Staff Terms Offered: Autumn,Winter
+Prerequisite(s): At least concurrent registration with Econ 20100
+ECON 21020. Econometrics. 100 Units.
+Required of students who are majoring in economics; those students are encouraged to meet this
+requirement by the end of their third year. This course covers the single and multiple linear regression
+model, the associated distribution theory, and testing procedures; corrections for heteroskedasticity,
+autocorrelation, and simultaneous equations; and other extensions as time permits. Students also apply
+the techniques to a variety of data sets using PCs.
+Instructor(s): Staff Terms Offered: Autumn,Spring,Winter
+Prerequisite(s): ECON 20100, ECON 21010, or STAT 2340 0 and MATH 19620 (or MATH 20000 or
+STAT 24300 or MATH 20250)
+ECON 21030. Econometrics - Honors. 100 Units.
+The topics are essentially the same as those covered in ECON 21020, but this foundations course in
+econometrics gives a more systematic introduction to the application of statistical theory to economic
+applications. This course is intended for students who are planning to study economics at the graduate
+level.
+Instructor(s): Staff Terms Offered: Spring,Winter
+Prerequisite(s): ECON 20100, and STAT 24400, 24 410 or 24500, and MATH 20250 or STAT 24300; or
+consent of instructor

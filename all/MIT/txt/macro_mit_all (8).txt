@@ -1,0 +1,105 @@
+Explaining C. Romer Numbers
+ 
+(Slide 25 IS/LM)
+ 
+
+1
+
+Using Model from Class 
+•	 Y= (c0+I+G‐c1T)/(1‐c1) 
+ 
+•	 One unit increase in G increases Y by 1/(1‐c1) 
+ 
+•	 Inconsistent with numbers from C. Romer which 
+are generally increasing 
+ 
+•	 Implies c1 changing across quarters 
+ 
+
+•	 Or generated by different model  
+
+2
+
+Response to Permanent Increase in G
+
+1.5
+
+c1=0.3 Standard Model
+
+0
+
+.5
+
+1
+
+ 
+
+0
+
+5
+
+10
+
+15
+
+20
+
+Q
+change_in_G
+
+3
+
+change_in_Y
+
+25
+
+Alternative Habit Formation Model
+ 
+• C (t) ‐ C (t‐1) = a  ( C (t) * ‐ C (t‐1) ) 
+– with C (t) * = c0+ c1Y (t) 
+– 0 < a <= 1 
+– For a = 1,  C (t) = C (t) * 
+
+• Y ( t) = C (t) + G (t) 
+ 
+• Solution: Y ( t) = c0 + (1‐a)C(t‐1) + G (t)/(1‐ac1)
+ 
+
+4
+
+Response to Permanent Increase in G
+
+0 .2 .4 .6 .8 1 1.2 1.4 1.6 1.8 2
+
+c1=0.3, a=0.5 Habit Formation
+
+ 
+
+0
+
+5
+
+10
+
+15
+
+20
+
+Q
+change_in_Y
+
+5
+
+change_in_G
+
+25
+
+MIT OpenCourseWare
+http://ocw.mit.edu
+
+14.02 Principles of Macroeconomics
+Spring 2014
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+

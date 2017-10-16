@@ -1,0 +1,2778 @@
+Microeconometrics
+Nonlinear Models
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas Term 2016
+
+Outline
+I
+
+I
+
+Nonlinear Models: Preliminaries
+I
+
+Nonlinearities in variables
+
+I
+
+Nonlinearities in Parameters
+
+Estimation Methods
+I
+
+Nonlinear Least Squares (NLLS)
+
+I
+
+Maximum Likelihood (ML)
+
+Nonlinear Models: Preliminaries
+Environmental Kuznets Curve Hypothesis
+
+pollution
+
+income
+
+Nonlinear Models: Preliminaries
+Environmental Kuznets Curve Hypothesis
+I
+
+GapMinder Data: http://www.gapminder.org/
+
+I
+
+BTW: The Joy of Stats (Poisson min 22:02)
+(http://www.gapminder.org/videos/the-joy-of-stats/)
+
+Nonlinear Models: Preliminaries
+Test Score vs District Income (thousands of dollars)
+Stock and Watson, p. 297
+
+Nonlinear Models: Preliminaries
+
+Types Nonlinear Regression Models
+I
+
+In this course: Parametric Models. Example:
+yi = g (xi , θ ) + εi
+
+I
+
+Nonparametric Models. Example:
+yi = h (xi ) + ui
+
+I
+
+Semiparametric Models. Example:
+yi = m (xi ) + βzi + ei
+
+Nonlinear Models: Preliminaries
+Nonlinear Parametric Regression Models
+I
+
+Nonlinear in variables
+yi = θg (xi ) + ui
+Examples: Piecewise linear, polynomials, logarithmic
+
+I
+
+Nonlinear in parameters
+yi = g (xi , θ ) + ui
+Examples: Exponential, Logistic, CES production function,
+Box-Cox
+
+Nonlinear Models: Preliminaries
+
+Nonlinear Parametric Regression Models
+I
+
+Intrinsically linear models. Example
+yi = Akiα li eui
+β
+
+I
+
+Intrinsically non-linear. Example:
+β
+
+yi = Akiα li + ui
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Examples
+I
+
+Polynomials (SW p. 297)
+testScorei = β0 + β1 Incomei + β2 Income2i + β3 Income3i + ui
+
+I
+
+Logarithms (SW p. 312)
+ln (testScorei ) = β0 + β1 ln (Incomei ) + ui
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Examples
+I
+
+Dummies: Piecewise linear (SW p. 322)
+testScorei = β0 + β1 STRi + β2 HiELi + β3 STRi
+
+I
+
+HiELi + ui
+
+Cross-Products: (SW p. 328)
+testScorei = β0 + β1 STRi + β2 PctELi + β3 STRi
+
+PctELi + ui
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Polynomials
+yi = β0 + β1 xi + β2 x2i + ... + β2 xri + ui
+I
+
+Linear in parameters: OLS
+
+I
+
+Testing the null that the model is linear:
+Ho : β2 = β3 = ... = βr = 0 vs Ha : at least one βj 6= 0,
+j = 2, ..., r (q = r 1 restrictions. Wald test)
+
+I
+
+Which degree polynomial should we use? General to
+Specific vs Specific to General
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Polynomials
+Example (Stock and Watson)
+
+\ i = 600.1 + 5.02 Incomei
+testScore
+(117.66)
+
+(7.07)
+
+0.096 Income2i + 0.00069Income3i
+
+( 3.31)
+
+I
+
+Which degree polynomial should we use?
+
+I
+
+General to Specific vs Specific to General
+
+(1.971)
+
+Nonlinear Models: Nonlinear in Variables
+Nonlinearity in Variables: Logarithms (SW p. 314)
+I
+
+Case I
+yi = β1 + β2 ln (xi ) + ui
+A 1% change in x is associated with a change in y of 0.01β2
+
+I
+
+Case II
+ln (yi ) = β1 + β2 (xi ) + ui
+A change in x by 1 unit is associated with a 100β2 % change
+in y
+
+I
+
+Case III
+ln (yi ) = β1 + β2 ln (xi ) + ui
+A 1% change in x is associated with a β2 % change in y, i.e.
+β2 is the elasticity of y with respect to x
+
+Nonlinear Models: Nonlinear in Variables
+Recall: Elasticities
+Stock and Watson, p. 352
+I
+
+I
+
+Let
+yi = f (xi , θ ) + ui with E (yi jxi ) = f (xi , θ )
+Slope of f (x) evaluated at at point x̃ is
+slope (x̃) =
+
+I
+
+df (x)
+dx
+
+x=x̃
+
+Elasticity of y with respect to x:
+εyx =
+
+dy
+y
+dx
+x
+
+=
+
+dy x
+d ln y
+=
+dx y
+d ln x
+
+Nonlinear Models: Nonlinear in Variables
+
+Recall: Elasticities
+Stock and Watson, p. 352
+I
+
+I
+
+Let
+yi = f (xi , θ ) + ui with E (yi jxi ) = f (xi , θ )
+Elasticity of E (yjx) with respect to x:
+ε E(yjx)x =
+
+dE(yjx)
+E(yjx)
+dx
+x
+
+=
+
+dE (yjx) x
+d ln E (yjx)
+=
+dx E (yjx)
+d ln x
+
+Nonlinear Models: Nonlinear in Variables
+Recall: Elasticities
+I
+
+Linear: y = β1 + β2 x + u
+εE(yjx)x = β2 x/ ( β1 + β2 x)
+
+I
+
+Linear-log: y = β1 + β2 ln (x) + u
+εE(yjx)x = β2 / ( β1 + β2 ln (x))
+
+I
+
+Log-linear: ln (y) = β1 + β2 x + u
+ε E(yjx)x = β 2 x
+
+I
+
+Log-Log: ln (y) = β1 + β2 ln (x) + u
+ε E(yjx)x = β 2
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Logarithms
+(Stock and Watson)
+Case I
+
+\ i = 557.8 + 36.42 ln (Incomei )
+testScore
+(3.8)
+
+(1.40)
+
+A 1% increase in income is associated with an increase in test
+scores of 0.01 36.42 = 0.36 points
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Logarithms
+(Stock and Watson)
+Case II
+
+\ i ) = 6.439 + 0.00284Incomei
+ln (testScore
+(0.003)
+
+(0.00018)
+
+A change in income by 1 unit is associated with a 0.28% change
+in test scores
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Logarithms
+(Stock and Watson)
+Case III
+
+\ i ) = 6.336 + 0.0554 ln (Incomei )
+ln (testScore
+(0.006)
+
+(0.0021)
+
+A 1% change in income is associated with a 0.0554% change in
+test scores, i.e. the elasticity of test scores with respect to
+income is 0.0554
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Dummies
+I
+
+Constant
+yi = β0 + β1 xi + β2 Di + ui
+
+I
+
+Slope
+yi = β0 + β1 xi + β2 xi Di + ui
+
+I
+
+Constant & Slope
+yi = β0 + β1 xi + β2 Di + β3 xi Di + ui
+
+Nonlinear Models: Nonlinear in Variables
+
+Nonlinearity in Variables: Dummies
+Constant
+
+Slope
+
+y
+
+Constant&Slope
+
+y
+
+y
+x
+
+x
+
+x
+
+Nonlinear Models: Nonlinear in Variables
+Dummies: Student-teacher ratio and % of English learners
+(Stock and Watson)
+
+\ i = 682.2
+testScore
+(11.9)
+
+0.97 STRi + 5.6 HiELi + 1.28 STRi
+
+(0.59)
+
+(19.5)
+
+(0.97)
+
+HiELi
+
+I
+
+Districts with a low fraction of English learners
+(HiELi = 0) estimated regression: 682.2 0.97STRi
+
+I
+
+Districts with a high fraction of English learners
+(HiELi = 1) estimated regression:
+682.2 + 5.6 0.97STRi 1.28STRi = 687.8 2.25STRi
+
+I
+
+Reduction student-ratio by 1 increases test scores by 0.97
+point in districts with low fractions of English learners but
+2.25 points in districts with high fractions of English
+learners
+
+Nonlinear Models: Nonlinear in Variables
+Nonlinearity in Variables: Cross-Products
+(Stock and Watson)
+
+\ i = 686.3
+testScore
+(11.9)
+
+1.12 STRi
+
+(0.59)
+
+0.67 PctELi + 0.0012STRi
+
+(0.37)
+
+(0.019)
+
+PctELi + ui
+
+I
+
+Percentage of English learners at the median
+(PctELi = 8.85), the slope of the line relating test scores
+and student-teacher ratio is: 1.11 = 1.12 + 0.0012 8.85
+
+I
+
+For a district with 8.85% English learners, the estimated
+effect of a one-unit reduction in the student-teacher ratio is
+to increase test scores by 1.11 point
+
+Nonlinear Models: Nonlinear in Variables
+Nonlinearity in Variables: Cross-Products
+(Stock and Watson)
+
+\ i = 686.3
+testScore
+(11.9)
+
+1.12 STRi
+
+(0.59)
+
+0.67 PctELi + 0.0012STRi
+
+(0.37)
+
+(0.019)
+
+PctELi + ui
+
+I
+
+Percentage of English learners at the 75th percentile
+(PctELi = 23.0), the slope of the line relating test scores
+and student-teacher ratio is: 1.09 = 1.12 + 0.0012 23
+
+I
+
+For a district with 8.85% English learners, the estimated
+effect of a one-unit reduction in the student-teacher ratio is
+to increase test scores by 1.11 point
+
+I
+
+Notice, however that t = 0.0012/0.019 = 0.06
+
+Nonlinear Models: Nonlinear in Parameters
+
+Nonlinearity in Parameters: Examples
+I
+
+Logistic Curve (Stock and Watson p. 348)
+yi =
+
+I
+
+1
+1+e
+
+( β1 + β2 xi )
+
++ ui
+
+Negative Exponential Growth (Stock and Watson p. 349)
+yi = β1 1
+
+eβ2 (xi
+
+β3 )
+
++ ui
+
+Nonlinear Models: Nonlinear in Parameters
+Nonlinearity in Parameters: Examples
+(see Greene p.233)
+I
+
+Box Cox transformation (Box and Cox, 1964)
+
+I
+
+Generalization of the linear model
+yi = α + β
+I
+I
+
+1
+λ
+
++ ui
+
+If λ = 1: linear model: yi = α + βxi + ui
+If λ = 0: by L’Hôpital rule
+lim
+
+λ !0
+I
+
+xiλ
+
+If λ =
+
+xiλ
+
+1
+λ
+
+= lim
+
+λ !0
+
+d xiλ
+
+1 /dλ
+= lim xλ
+1
+λ !0
+
+1: linear model: yi = α̃ + β̃ x1 + ui
+i
+
+ln x = ln x
+
+Nonlinear Models: Nonlinear in Parameters
+Nonlinearity in Parameters: Examples
+(see Greene p.222)
+I
+
+CES production function: Constant elasticity of
+substitution
+y = γ δk
+
+I
+
+ρ
+
++ (1
+
+δ) l
+
+ρ
+
+ν/ρ ε
+
+e
+
+Take logs:
+ln y = ln γ
+
+ν
+ln δk
+ρ
+
+still nonlinear in parameters
+
+ρ
+
++ (1
+
+δ) l
+
+ρ
+
++ε
+
+Nonlinear Models: Nonlinear in Parameters
+Coefficient Interpretation in Nonlinear Regression
+(Cameron and Trivedi p. 122)
+y = g (x, θ ) + u with E [yjx] = g (x, θ )
+Marginal effects
+∂E [yjx]
+∂x
+I
+
+Linear model: y = βx + u
+∂E [yjx]
+=β
+∂x
+
+I
+
+Exponential model: y = exp ( βx) + u
+∂E [yjx]
+= exp ( βx) β
+∂x
+
+Nonlinear Models: Nonlinear in Parameters
+Marginal effects: Three different estimates
+(Cameron and Trivedi p. 122)
+I
+
+Average response of all individuals
+n
+
+1 X ∂E [yi jxi ]
+n
+∂xi
+i=1
+
+I
+
+Response of the average individual
+∂E [yjx]
+∂x
+
+I
+
+= exp ( βx̄) β
+x̄
+
+Response of the representative individual with x = x (e.g.
+person who is female with 12 years of schooling)
+∂E [yjx]
+∂x
+
+= exp ( βx ) β
+x
+
+Nonlinear Models: Nonlinear in Parameters
+Single Index Models
+(Cameron and Trivedi p. 123)
+I
+
+Let
+E [y jx ] = g x0 β
+
+where x is a vector of regressors (x0 = [x1 x2 ...xk ])
+I
+
+Marginal effect of xj :
+∂E [yjx]
+= ġ x0 β βj
+∂xj
+
+I
+
+where ġ (z) = ∂g (z) /∂z
+Therefore, relative effects
+βj
+∂E [yjx] /∂xj
+=
+∂E [yjx] /∂xk
+βk
+
+Nonlinear Models: Estimation
+
+Nonlinear Regression Models: Estimation
+I
+
+Nonlinear in Variables: OLS
+yi = θg (xi ) + εi
+OLS Estimator: g (xi ) regressor (Interpretation)
+
+I
+
+Nonlinear in parameters:
+yi = g (xi , θ ) + εi
+Extremum Estimators: NLLS, Maximum Likelihood, GMM
+
+Nonlinear Models: Nonlinear in Parameters
+Nonlinearity in Parameters: Examples
+I
+
+Logistic Curve
+yi =
+
+I
+
+1
+1+e
+
++ ui
+
+Negative Exponential Growth
+yi = β1 1
+
+I
+
+( β1 + β2 xi )
+
+eβ2 (xi
+
+β3 )
+
++ ui
+
+Box-Cox type
+γ
+
+yi = α + βxi + ui
+I
+
+CES production function
+ln y = ln γ
+
+ν
+ln δk
+ρ
+
+ρ
+
++ (1
+
+δ) l
+
+ρ
+
++ε
+
+Nonlinear Models: Estimation
+
+Extremum Estimators
+(Cameron and Trivedi p. 124)
+Extremum estimators are a very general class of estimators that
+minimize or maximize an objective function. In particular, an
+estimator θ̂ is called an extremum estimator if there is an
+objective function Qn (θ ) such that
+θ̂ = arg maxQn (θ )
+θ 2Θ
+
+where Θ is the parameter space i.e. the set of possible
+parameter values (ex. Θ RK )
+
+Nonlinear Models: Estimation
+
+Extremum Estimators: Two Examples
+
+I
+
+NLLS: Nonlinear Least Squares
+
+I
+
+ML: Maximum Likelihood
+
+Nonlinear Least Squares
+Let
+yi = g (xi , θ 0 ) + ui
+where θ 0 a K
+
+1 vector of unknown parameters.
+
+The Nonlinear Least Squares (NLLS) estimator is defined as
+θ̂ = arg minQn (θ )
+θ 2Θ
+
+where
+
+n
+
+n
+
+1X 2
+1X
+Qn (θ ) =
+ui =
+( yi
+n
+n
+i=1
+
+i=1
+
+g (xi , θ ))2
+
+Nonlinear Least Squares
+
+The Nonlinear Least Squares (NLLS) estimator is defined as
+n
+
+θ̂ = arg minQn (θ ) = arg min
+θ 2Θ
+
+θ 2Θ
+
+1X
+(yi
+n
+
+g (xi , θ ))2
+
+i=1
+
+First order conditions:
+∂Qn (θ )
+Q̇n (θ ) =
+=
+∂θ
+
+n
+
+1X
+2
+(yi
+n
+
+where ġ (xi , θ ) = ∂g (xi , θ ) /∂θ.
+
+i=1
+
+g (xi , θ )) ġ (xi , θ ) = 0
+
+Nonlinear Least Squares
+Example:
+I
+
+The model
+yi = θ 00 + θ 01 x1i + θ 02 x2i + θ 01 θ 02 x3i + ui
+
+I
+
+NLLS
+θ̂ = arg minQn (θ )
+θ 2Θ
+
+n
+
+1X
+= arg min
+(yi
+θ 2Θ n
+
+θ0
+
+i=1
+
+n
+1X 2
+= arg min
+ui (θ )
+θ 2Θ n
+i=1
+
+θ 1 x1i
+
+θ 2 x2i
+
+θ 1 θ 2 x3i )2
+
+Nonlinear Least Squares
+I
+
+NLLS
+n
+
+1X
+θ̂ = arg min
+(yi
+θ 2Θ n
+
+θ0
+
+θ 1 x1i
+
+θ 2 x2i
+
+θ 1 θ 2 x3i )2
+
+i=1
+
+I
+
+First order conditions:
+∂Qn (θ )
+∂θ 0
+∂Qn (θ )
+∂θ 1
+∂Qn (θ )
+∂θ 2
+
+I
+
+n
+
+=
+
+2
+
+1X
+ui ( θ ) = 0
+n
+i=1
+
+=
+
+n
+1X
+2
+ui (θ ) (x1i + θ 2 x3i ) = 0
+n
+i=1
+
+=
+
+n
+1X
+2
+ui (θ ) (x2i + θ 1 x3i ) = 0
+n
+i=1
+
+System of Nonlinear Equations !!!
+
+Nonlinear Least Squares
+Example:
+I
+
+The model
+yi = θ 00 + θ 01 eθ 02 xi + ui
+
+I
+
+NLLS
+θ̂ = arg minQn (θ )
+θ 2Θ
+
+= arg min
+θ 2Θ
+
+n
+
+1X
+yi
+n
+i=1
+
+n
+1X 2
+= arg min
+ui (θ )
+θ 2Θ n
+i=1
+
+θ0
+
+θ 1 eθ 2 xi
+
+2
+
+Nonlinear Least Squares
+I
+
+NLLS
+
+n
+
+1X
+θ̂ = arg min
+yi
+θ 2Θ n
+
+θ0
+
+θ 1 eθ 2 xi
+
+2
+
+i=1
+
+I
+
+First order conditions:
+
+=
+
+∂Qn (θ )
+∂θ 1
+
+=
+
+∂Qn (θ )
+∂θ 2
+I
+
+n
+
+∂Qn (θ )
+∂θ 0
+
+=
+
+1X
+2
+ui (θ ) = 0
+n
+2
+
+1
+n
+
+i=1
+n
+X
+
+ui (θ ) eθ 2 xi = 0
+
+i=1
+
+n
+1X
+2
+ui (θ ) θ 1 xi eθ 2 xi = 0
+n
+i=1
+
+System of Nonlinear Equations !!!
+
+Nonlinear Least Squares
+I
+
+The Nonlinear Least Squares (NLLS) estimator is defined
+as
+n
+
+θ̂ = arg minQn (θ ) = arg min
+θ 2Θ
+
+I
+
+θ 2Θ
+
+1X
+(yi
+n
+
+g (xi , θ ))2
+
+i=1
+
+First order conditions:
+∂Qn (θ )
+Q̇n (θ ) =
+=
+∂θ
+
+n
+
+1X
+2
+(yi
+n
+
+g (xi , θ )) ġ (xi , θ ) = 0
+
+i=1
+
+where ġ (xi , θ ) = ∂g (xi , θ ) /∂θ.
+I
+
+These systems of equations do not have an explicit
+(closed-form) solution... What to do?
+
+Nonlinear Least Squares
+
+Numerical Methods:
+I
+
+Grid Search: (Trial and error principle). Construct a grid
+
+[θ min , ..., θ max ]
+and search for the value that solves the least squares
+problem
+I
+
+Iterative algorithms: Newton-Raphson, Gauss-Newton,
+etc.......
+
+Nonlinear Least Squares
+Iterative algorithms: Newton’s Methods
+
+I
+
+Based on Taylor’s Theorem (Taylor approximations)
+
+I
+
+(From Bartle’s Introduction to Real Analysis): “A very
+useful technique in the analysis of real functions is the
+approximation of functions by polynomials.[...] a fundamental
+theorem in this area which goes back to Brook Taylor (1685-173
+1), although the remainder term was not provided until much
+later by Joseph-Louis Lagrange (1736-1813).
+Taylor’s Theorem is a powerful result that has many applications.
+[...] some of its applications to numerical estimation,
+inequalities, extreme values of a function, and convex
+functions.”
+
+Taylor’s Theorem
+Iterative algorithms: Newton’s Methods
+Taylor’s theorem: (As in Bartle p. 184): Let m 2 N, let
+I := [a, b], and let f : I ! R be such that f and its derivatives
+ḟ , f̈ , ..., f (m) are continuous on I and that f (m+1) exists on (a, b). If
+x0 2 I, then for any x in I there exists a point c between x and x0
+such that
+ḟ (x0 )
+f̈ (x0 )
+( x x0 ) +
+(x x0 )2
+1!
+2!
+f ( m ) ( x0 )
+f (m+1) ( c )
++... +
+( x x0 ) m + 1 .
+( x x0 ) n +
+m!
+(m + 1) !
+
+f ( x ) = f ( x0 ) +
+
+Taylor’s Theorem
+Taylor theorem conclusion:
+
+f ( x ) = Pm ( x ) + Rm ( x )
+with polynomial approximation
+ḟ (x0 )
+f̈ (x0 )
+( x x0 ) +
+(x
+1!
+2!
+f (m) (x0 )
++... +
+(x x0 )n
+m!
+
+Pm (x) = f (x0 ) +
+
+and remainder
+Rm (x) =
+
+f (m+1) ( c )
+(x
+(m + 1) !
+
+x0 )m+1
+
+x0 ) 2
+
+Taylor’s Theorem
+Taylor theorem: Example
+(Bartle p. 185)
+p
+Taylor Theorem with m = 2 to approximate 3 1 + x (x >
+
+1)
+
+I
+
+Take the function f (x) = (1 + x)1/3 , the point x0 = 0, and
+m=2
+
+I
+
+First derivative
+ḟ (x) =
+
+I
+
+1
+(1 + x)
+3
+
+2/3
+
+so that ḟ (0) =
+
+1
+3
+
+Secon derivative
+f̈ (x) =
+
+1
+3
+
+2
+3
+
+(1 + x)
+
+5/3
+
+so that f̈ (0) =
+
+2
+9
+
+Taylor’s Theorem
+Taylor theorem: Example
+(Bartle p. 185)
+Taylor Theorem with m = 2 to approximate
+I
+
+p
+3
+
+1 + x (x >
+
+Hence,
+1
+f ( x ) = Pm ( x ) + Rm ( x ) = 1 + x
+3
+
+2 2
+x + R2
+9
+
+with
+
+5
+1 ...
+f ( c ) x3 =
+(1 + c)
+3!
+81
+for some point c between 0 and x
+R2 =
+
+8/3 3
+
+x
+
+1)
+
+Taylor’s Theorem
+Taylor theorem: Example
+(Bartle p. 185)
+I
+
+Remainder
+R2 =
+
+I
+
+8/3 3
+
+x
+
+for some point c between 0 and x
+p
+Let x = 0.3 for instance, so P2 (0.3) = 1.09 for 3 1.3. In this
+case, c > 0, then (1 + c) 8/3 < 1 and the error is at most
+R2 (0.3)
+
+I
+
+1 ...
+5
+f ( c ) x3 =
+(1 + c)
+3!
+81
+
+5
+81
+
+3
+10
+
+3
+
+=
+
+p
+So we get: 3 1.3 1.09 < 0.5
+accuracy is assured
+
+1
+< 0.17
+600
+10
+
+2:
+
+10
+
+2
+
+.
+
+Two decimal place
+
+Nonlinear Least Squares
+Recall: Our objective is to solve:
+I
+
+The Nonlinear Least Squares (NLLS) estimator is defined
+as
+n
+
+1X
+θ̂ = arg minQn (θ ) = arg min
+(yi
+θ 2Θ
+θ 2Θ n
+
+g (xi , θ ))2
+
+i=1
+
+I
+
+First order conditions:
+∂Qn (θ )
+Q̇n (θ ) =
+=
+∂θ
+
+I
+
+n
+
+1X
+2
+(yi
+n
+
+g (xi , θ )) ġ (xi , θ ) = 0
+
+i=1
+
+where ġ (xi , θ ) = ∂g (xi , θ ) /∂θ.
+These systems of equations do not have an explicit
+(closed-form) solution... What to do?
+
+Nonlinear Least Squares
+
+Taylor theorem application: Newton’s Method
+(Bartle p. 189)
+“It is often desirable to estimate a solution of an equation with a high
+degree of accuracy. [...] A method that often results in much more
+rapid convergence is based on the geometric idea of successively
+approximating a curve by tangent lines. The method is named after
+its discoverer, Isaac Newton.”
+
+Iterative algorithms: Newton’s Method
+Taylor theorem application: Newton’s Method
+(Bartle p. 189)
+
+I
+
+Let f be a differentiable function that has a zero at r and let
+x1 be an initial estimate of r
+
+I
+
+The line tangent to the graph at (x1 , f (x1 )) has the equation
+y = f (x1 ) + ḟ (x1 ) (x
+and crosses the x-axis at the point
+x2 = x1
+
+f (x1 )
+ḟ (x1 )
+
+x1 )
+
+Iterative algorithms: Newton’s Method
+Taylor theorem application: Newton’s Method
+(Bartle p. 189)
+
+I
+
+If we replace x1 by the second estimate x2 , a new point x3 is
+obtained (so on and so for)... At the p-th iteration we get
+xp+1 = xp
+
+I
+
+f xp
+ḟ xp
+
+Newton’s Method is based on the fact that xp will converge
+rapidly to a root of the equation f (x) = 0. Key tool to
+show this is Taylor’s theorem
+
+Nonlinear Least Squares
+I
+
+The Nonlinear Least Squares (NLLS) estimator is defined
+as
+n
+
+θ̂ = arg minQn (θ ) = arg min
+θ 2Θ
+
+I
+
+θ 2Θ
+
+1X
+(yi
+n
+
+g (xi , θ ))2
+
+i=1
+
+First order conditions:
+∂Qn (θ )
+Q̇n (θ ) =
+=
+∂θ
+
+n
+
+1X
+2
+(yi
+n
+
+g (xi , θ )) ġ (xi , θ ) = 0
+
+i=1
+
+where ġ (xi , θ ) = ∂g (xi , θ ) /∂θ.
+I
+
+These systems of equations do not have an explicit
+(closed-form) solution... What to do?
+
+Nonlinear Least Squares
+Iterative algorithms: Newton Methods
+
+I
+
+Based on Taylor’s Theorem (Taylor approximations)
+
+I
+
+(From Bartle’s Introduction to Real Analysis): “A very
+useful technique in the analysis of real functions is the
+approximation of functions by polynomials.[...] a fundamental
+theorem in this area which goes back to Brook Taylor (1685-173
+1), although the remainder term was not provided until much
+later by Joseph-Louis Lagrange (1736-1813).
+Taylor’s Theorem is a powerful result that has many applications.
+[...] some of its applications to numerical estimation,
+inequalities, extreme values of a function, and convex
+functions.”
+
+Nonlinear Least Squares
+Gauss-Newton Method
+(Amemiya, 1985 p. 139)
+I
+I
+
+Gauss-Newton Method specially designed to calculate
+NLLS
+Consider the simple model:
+yi = g (xi , θ ) + ui
+
+I
+
+where both xi and θ are scalars.
+First order Taylor approximation around and initial
+estimate θ̂ (1) :
+g (xi , θ )
+
+I
+
+g xi , θ̂ (1) + ġ xi , θ̂ (1)
+
+θ
+
+θ̂ (1)
+
+Linearized model:
+yi
+
+g xi , θ̂ (1) + ġ xi , θ̂ (1)
+
+θ
+
+θ̂ (1) + ui
+
+Nonlinear Least Squares
+Gauss-Newton Method
+(Amemiya, 1985 p. 139)
+Linearized model:
+yi
+
+g xi , θ̂ (1) + ġ xi , θ̂ (1)
+
+θ
+
+θ̂ (1) + ui
+
+This is a linear model with unknown θ that we can estimate by
+least squares again
+θ̂ (2) = arg minQ̃n (θ )
+θ 2Θ
+
+= arg min
+θ 2Θ
+
+n
+
+1X
+yi
+n
+i=1
+
+g xi , θ̂ (1) + ġ xi , θ̂ (1)
+
+2
+
+θ
+
+θ̂ (1)
+
+Nonlinear Least Squares
+Gauss-Newton Method
+(Amemiya, 1985 p. 139)
+Linear model with unknown θ that we can estimate by least
+squares again
+θ̂ (2) = arg minQ̃n (θ )
+θ 2Θ
+
+n
+
+1X
+yi
+= arg min
+θ 2Θ n
+
+g xi , θ̂ (1)
+
+ġ xi , θ̂ (1)
+
+2
+
+θ
+
+θ̂ (1)
+
+i=1
+
+FOC
+
+=
+
+∂Q̃n (θ )
+∂θ
+n
+1X
+2
+yi
+n
+i=1
+
+= 0
+
+g xi , θ̂ (1)
+
+ġ xi , θ̂ (1)
+
+θ
+
+θ̂ (1)
+
+ġ xi , θ̂ (1)
+
+Nonlinear Least Squares
+
+Gauss-Newton Method
+(Amemiya, 1985 p. 139)
+The second-round estimator is
+" n
+# 1" n
+X
+X
+2
+yi
+ġ xi , θ̂ (1)
+θ̂ (2) = θ̂ (1) +
+i=1
+
+i=1
+
+g xi , θ̂ (1)
+
+ġ xi , θ̂ (1)
+
+#
+
+Nonlinear Least Squares
+
+Gauss-Newton Method
+(Amemiya, 1985 p. 139)
+At the p-th iteration we get
+θ̂ (p+1) = θ̂ (p) +
+
+n
+P
+
+i=1
+
+ġ xi , θ̂ (p)
+
+2
+
+1
+
+n
+P
+
+i=1
+
+yi
+
+g xi , θ̂ (p)
+
+ġ xi , θ̂ (p)
+
+I
+
+The iteration continues until convergence is achieved
+
+I
+
+So: starting with an initial value θ̂ (0) , the process can be
+iterated until θ̂ (p+1)
+
+θ̂ (p) is small enough
+
+Nonlinear Models: Estimation
+
+Extremum Estimators
+(Cameron and Trivedi p. 124)
+Extremum estimators are a very general class of estimators that
+minimize or maximize an objective function. In particular, an
+estimator θ̂ is called an extremum estimator if there is an
+objective function Qn (θ ) such that
+θ̂ = arg maxQn (θ )
+θ 2Θ
+
+where Θ is the parameter space i.e. the set of possible
+parameter values (ex. Θ RK )
+
+Maximum Likelihood
+Extremum Estimators Examples:
+Maximum Likelihood
+yi = g (xi , θ ) + εi with εi
+
+iidN 0, σ2ε
+
+The Maximum Likelihood (ML) estimator is defined as
+θ̂ = arg maxQn (θ )
+θ 2Θ
+
+where
+
+n
+
+Qn (θ ) =
+
+1X
+ln f (yi jxi , θ )
+n
+i=1
+
+and where f (yi jxi , θ ) is the conditional likelihood for
+observation i.
+
+Maximum Likelihood
+
+What is a likelihood function?
+(Stock and Watson p. 438)
+Definition: The likelihood function is the joint probability
+distribution of the data, treated as a function of the unknown
+coefficients
+
+Maximum Likelihood
+What is a likelihood function?
+(Unconditional)
+I
+
+Let (y1 , ..., yn ) be i.i.d. and let f (yi , θ ) be probability density
+function (or probability mass) for each i. Example:
+yi B (1, p) so that (Bernoulli) f (yi , p) = pyi (1 p)1 yi
+
+I
+
+Since yi
+
+i.i.d. the joint density function is
+
+f (y1 , ..., yn , θ ) = f (y1 , θ )
+
+f ( y2 , θ )
+
+...
+
+f (yn , θ ) =
+
+n
+Q
+
+i=1
+
+I
+
+The likelihood function is
+Ln (θ, y1 , ..., yn ) =
+
+n
+Q
+
+i=1
+
+f (θ, yi )
+
+f ( yi , θ )
+
+Maximum Likelihood
+
+I
+
+The likelihood function is
+Ln (θ, y1 , ..., yn ) =
+
+n
+Q
+
+f (θ, yi )
+
+i=1
+
+I
+
+The log-likelihood function is
+
+Ln (θ ) = ln (Ln (θ, y1 , ..., yn )) = ln
+
+n
+Q
+
+i=1
+
+f (θ, yi )
+
+=
+
+n
+X
+i=1
+
+ln f (θ, yi )
+
+Maximum Likelihood
+
+Maximum Likelihood
+(Stock and Watson p. 438)
+Definition: The maximum likelihood estimator (MLE) of the
+unknown coefficients are the value of the coefficients that
+maximize the likelihood function. In effect, the MLE chooses
+the values of the parameters to maximize the probability of
+drawing the data that are actually observed. In this sense, the
+MLEs are the parameter values “most likely” to have produced
+the data.
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution (Ross, p. 136)
+I
+
+A random variable Y that takes on one of the values 0,1,2,...
+is said to be Poisson random variable with parameter λ if,
+for some λ > 0,
+P (Y = y) = f (y, λ) =
+
+e
+
+λ λy
+
+y!
+
+y = 0, 1, 2, ...
+
+I
+
+Introduced by Simeón Denis Poisson in a book published
+in 1837 titled (translated from French) “Investigations into
+the Probability of Verdicts in Criminal and Civil Matters.”
+
+I
+
+A book that applies probability theory to lawsuits,
+criminal trials, etc...
+
+Maximum Likelihood
+
+Example: Poisson distribution (Ross, p. 136)
+I
+
+Used in situations in which a certain kind of occurrence
+happens at random over a period of time. For instance:
+I
+I
+I
+I
+
+Number of misprints on a page (or group of pages) of a
+book (or my lecture notes...)
+Number of people in a community who survive to age 100
+Number of customers entering a store on a given day
+etc... etc...
+
+Maximum Likelihood
+
+Maximum Likelihood Example
+Example: Poisson distribution (Ross, p. 136)
+For a Poisson random variable Y
+I
+
+Probability mass:
+f (y, λ) =
+
+e
+
+λ λy
+
+y!
+
+y = 0, 1, 2, ...
+
+I
+
+E [Y ] = V [Y ] = λ
+
+I
+
+We would like to estimate λ by Maximum Likelihood
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution
+I
+
+Density function
+f (yi , λ) =
+
+e
+
+λ λyi
+
+yi !
+
+yi = 0, 1, 2, ...
+
+tell us, for a fixed λ, the the probability of occurrence of
+Y = y.
+I
+
+Likelihood function for individual i:
+L (λ, yi ) = f (λ, yi ) =
+
+e
+
+λ λyi
+
+yi !
+
+yi = 0, 1, 2, ...
+
+is the density as a function of the parameters, λ in this case
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution for a random sample (iid) yi ,
+i = 1, ..., n
+I
+
+Joint Density function: By iid
+f (y1 , ..., yn , λ) =
+
+n
+Y
+
+f ( yi , λ ) =
+
+i=1
+
+I
+
+n
+Y
+e
+i=1
+
+λ λyi
+
+yi !
+
+Likelihood function:
+Ln (λ, y1 , ..., yn ) =
+
+n
+Y
+i=1
+
+L (λ, yi ) =
+
+n
+Y
+e
+i=1
+
+λ λyi
+
+yi !
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution for a random sample (iid) yi ,
+i = 1, ..., n
+I
+
+Likelihood function:
+Ln (λ, y1 , ..., yn ) =
+
+n
+Y
+
+L (λ, yi ) =
+
+i=1
+
+I
+
+n
+Y
+e
+i=1
+
+λ λyi
+
+yi !
+
+Log-Likelihood function:
+
+Ln (λ) = ln (Ln (λ, y1 , ..., yn )) = ln
+
+n
+Y
+e
+i=1
+
+λ λyi
+
+yi !
+
+!
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution for a random sample (iid) yi ,
+i = 1, ..., n
+I
+
+Log-Likelihood function:
+
+Ln (λ) = ln
+=
+=
+
+n
+X
+
+i=1
+n
+X
+
+n
+Y
+e
+i=1
+
+ln
+
+e
+
+λ λ yi
+
+yi !
+
+!
+
+λ λyi
+
+yi !
+
+( λ ln (e) + yi ln (λ)
+
+ln (yi !))
+
+i=1
+
+=
+
+Nλ + ln (λ)
+
+n
+X
+i=1
+
+yi
+
+n
+X
+i=1
+
+ln (yi !)
+
+Maximum Likelihood
+
+Extremum Estimators Examples: Maximum Likelihood
+The Maximum Likelihood (ML) estimator is defined as
+θ̂ = arg maxQn (θ )
+θ 2Θ
+
+where
+
+n
+
+Qn (θ ) =
+
+1X
+ln f (θ, yi )
+n
+i=1
+
+and where f (θ, yi ) is the likelihood for observation i.
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution for a random sample (iid) yi ,
+i = 1, ..., n. The Maximum Likelihood (ML) estimator is defined
+as
+λ̂ = arg maxQn (λ)
+λ
+
+where
+n
+
+Qn (λ) =
+
+1X
+ln f (λ, yi )
+n
+i=1
+
+=
+
+λ + ln (λ)
+
+n
+
+1X
+yi
+n
+i=1
+
+n
+
+1X
+ln (yi !)
+n
+i=1
+
+Maximum Likelihood
+
+Maximum Likelihood Example
+Example: Poisson distribution for a random sample (iid) yi ,
+i = 1, ..., n. The Maximum Likelihood (ML) estimator is defined
+as
+λ̂ = arg maxQn (λ)
+λ
+n
+
+= arg max
+λ
+
+1X
+yi
+λ + ln (λ)
+n
+i=1
+
+n
+
+1X
+ln (yi !)
+n
+i=1
+
+!
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: Poisson distribution for a random sample (iid) yi ,
+i = 1, ..., n
+I MLE
+λ̂ = arg maxQn (λ)
+λ
+n
+
+= arg max
+λ
+
+I
+
+FOC:
+
+1X
+λ + ln (λ)
+yi
+n
+i=1
+
+∂Qn (λ)
+=
+∂λ
+I
+
+Therefore, the MLE is:
+
+n
+
+1+
+
+n
+
+1X
+ln (yi !)
+n
+i=1
+
+11X
+yi = 0
+λn
+i=1
+
+n
+
+1X
+λ̂ =
+yi
+n
+i=1
+
+!
+
+Maximum Likelihood
+
+Some notation etc...
+Cameron and Trivedi, p. 139
+I
+I
+I
+
+Joint probability mass or density: f (y, xjθ )
+
+Likelihood function: f (y, xjθ ) as a function of θ given the
+data (y, x) is denoted by: Ln (θ jy, x)
+
+Maximizing Ln (θ jy, x) is equivalent to maximizing the
+log-likelihood function Ln (θ jy, x)
+
+Maximum Likelihood (Conditional)
+
+Some notation etc...
+Cameron and Trivedi, p. 139
+I
+
+Likelihood function: Ln (θ jy, x) =
+f (y, xjθ ) = f (yjx, θ ) f (xjθ ) requires specification of both:
+conditional and marginal
+
+I
+
+Instead, estimation is usually based on the conditional
+likelihod function Ln (θ ) = f (yjx, θ )
+
+I
+
+Goal of regression is to model the behavior of y given x
+
+Maximum Likelihood (Conditional)
+Example: The Poisson regression model (Cameron and
+Trivedi p. 117 or Greene p. 843)
+I
+I
+
+Each yi is drawn from a Poisson population with
+parameter λi , which is related to the regressors xi
+Primary equation of the model
+P (Y = yi jλi (xi )) =
+
+e
+
+λi λyi
+i
+
+yi !
+
+, y = 0, 1, 2, ...
+
+I
+
+The most common formulation for λi is the loglinear
+model:
+ln λi = xi0 β
+
+I
+
+In this case:
+0
+
+E [yi jxi ] = V [yi jxi ] = λi = exi β
+I
+
+So
+
+∂E [yi jxi ]
+= λi β
+∂xi
+
+Maximum Likelihood
+
+Maximum Likelihood
+(Conditional)
+Example: The Poisson regression model (Cameron and
+Trivedi p. 117 or Greene p. 843)
+yi = E [yi jxi ] + ui
+in this case is
+
+0
+
+yi = exi β + ui
+and our objective is to estimate β by ML
+
+Maximum Likelihood
+Maximum Likelihood Example
+0
+
+Example: The Poisson regression model: Now yi and λi = exi β
+vary for each individual:
+I
+
+Density: By iid
+f (y1 , ..., yn jxi , β) =
+
+I
+
+n
+Y
+i=1
+
+f (yi jxi , β) =
+
+n
+Y
+e
+i=1
+
+λi λyi
+i
+
+yi !
+
+Conditional Likelihood function:
+Ln (y1 , ..., yn jx1 , ...xn , β) =
+
+n
+Y
+i=1
+
+L ( yi j xi , β ) =
+
+n
+Y
+e
+i=1
+
+λ i λ yi
+i
+
+yi !
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: The Poisson regression model:
+I
+
+Conditional Likelihood function:
+Ln (y1 , ..., yn jx1 , ...xn , β) =
+
+I
+
+n
+Y
+i=1
+
+L ( yi j xi , β ) =
+
+n
+Y
+e
+i=1
+
+λ i λ yi
+i
+
+yi !
+
+Conditional Log-Likelihood function:
+
+Ln ( β) = ln (Ln (y1 , ..., yn jx1 , ...xn , β)) = ln
+
+n
+Y
+e
+i=1
+
+λi λyi
+i
+
+yi !
+
+!
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: The Poisson regression model: Log-Likelihood
+0
+function: ln (λi ) = xi0 β or equivalently λi = exi β
+!
+y
+n
+Y
+e λi λ i i
+Ln ( β) = ln
+yi !
+i=1
+!
+y
+n
+X
+e λi λ i i
+=
+ln
+yi !
+i=1
+
+=
+
+n
+X
+
+( λi ln (e) + yi ln (λi )
+
+i=1
+
+=
+
+n
+X
+i=1
+
+0
+
+exi β + yi xi0 β
+
+ln (yi !)
+
+ln (yi !))
+
+Maximum Likelihood
+
+Extremum Estimators Examples: Maximum Likelihood
+The Maximum Likelihood (ML) estimator is defined as
+β̂ = arg maxQn ( β)
+β
+
+where
+
+n
+
+1X
+ln f (yi jxi , β)
+Qn ( β) =
+n
+i=1
+
+and where f (yi jxi , β) is the conditional likelihood for
+observation i.
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: The Poisson regression model: The Maximum
+Likelihood (ML) estimator is defined as
+β̂ = arg maxQn ( β)
+β
+
+where
+n
+
+Qn ( β) =
+
+1X
+ln f (yi jxi , β)
+n
+i=1
+
+=
+
+n
+1X
+n
+i=1
+
+0
+
+exi β + yi xi0 β
+
+ln (yi !)
+
+Maximum Likelihood
+Maximum Likelihood Example
+Example: The Poisson regression model:
+I
+
+MLE
+n
+
+β̂ = arg maxQn ( β) = arg max
+β
+
+I
+
+FOC:
+
+β
+
+1X
+n
+
+e
+
+xi0 β
+
++ yi xi0 β
+
+ln (yi !)
+
+i=1
+
+n
+
+∂Qn ( β)
+1X
+=
+yi
+∂β
+n
+
+0
+
+exi β xi = 0
+
+i=1
+
+I
+
+System of Nonlinear equations!!! Numerical Methods
+
+!
+
+Nonlinear Models: Estimation
+
+Extremum Estimators: Asymptotics
+Consistency and Asymptotic Normality
+I
+
+The asymptotic analysis of extremum estimators is a
+technical matter
+
+I
+
+Amemiya (1985) is a good reference for this material
+
+I
+
+General treatment for Extremum Estimators
+
+I
+
+Application to particular cases: NLLS and ML
+
+Nonlinear Models: Estimation
+
+Recall: Extremum Estimators
+
+θ̂ n = arg maxQn (θ )
+θ 2Θ
+
+Nonlinear Models: Estimation
+Extremum Estimators: Consistency
+Heuristics (for a formal argument: Amemiya, p. 106)
+θ̂ n = arg maxQn (θ )
+θ 2Θ
+
+Let the following assumptions hold:
+(A) The parameter space Θ is compact (θ 0 is in Θ)
+(B) Qn (θ ) is continuous in θ 2 Θ
+(C) For a nonstochastic function Q (θ ), uniformly in θ,
+p
+
+Qn ( θ ) ! Q ( θ )
+and Q (θ ) attains a unique global maximum at θ 0 .
+Under (A), (B), and (C):
+p
+
+θ̂ n ! θ 0 .
+
+Nonlinear Models: Estimation
+
+Extremum Estimators: Consistency
+Qn (θ )
+NLLS
+
+ML
+
+Nonlinear Models: Estimation
+Extremum Estimators: Asymptotic Normality
+(Heuristics)
+
+θ̂ n = arg maxQn (θ )
+θ 2Θ
+
+The first order conditions are
+Q̇n (θ ) =
+
+∂Qn (θ )
+=0
+∂θ
+
+Then the estimator θ̂ n is the value that solves this system of
+equations. Therefore,
+Q̇n θ̂ n = 0
+
+Nonlinear Models: Estimation
+
+Extremum Estimators: Asymptotic Normality
+(Heuristics)
+
+θ̂ n = arg maxQn (θ )
+θ 2Θ
+
+From the FOC:
+Q̇n θ̂ n = 0.
+Let us apply a first order Taylor expansion to Q̇n θ̂ n around
+the true parameter θ 0 :
+Q̇n θ̂ n
+
+Q̇n (θ 0 ) + Q̈n (θ 0 ) θ̂ n
+
+θ0
+
+Nonlinear Models: Estimation
+Extremum Estimators: Asymptotic Normality
+(Heuristics)
+Let us apply a first order Taylor expansion to Q̇n θ̂ n around
+the true parameter θ 0 :
+Q̇n θ̂ n
+
+Q̇n (θ 0 ) + Q̈n (θ 0 ) θ̂ n
+
+θ0
+
+Hence,
+Q̇n (θ 0 ) + Q̈n (θ 0 ) θ̂ n
+
+Q̇n θ̂ n = 0
+and
+θ̂ n
+
+θ0
+
+Q̈n (θ 0 )
+
+1
+
+Q̇n (θ 0 )
+
+θ0
+
+Nonlinear Models: Estimation
+
+Extremum Estimators: Asymptotic Normality
+(Heuristics)
+p
+p
+n θ̂ n θ 0
+Q̈n (θ 0 ) 1 nQ̇n (θ 0 )
+Under appropriate regularity conditions (see Amemiya p. 111)
+
+p
+
+n θ̂ n
+
+θ0
+
+d
+
+! N 0, A (θ 0 )
+
+1
+
+B (θ 0 ) A (θ 0 )
+
+1
+
+where A (θ 0p
+) = p lim Q̈n (θ 0 ) and B (θ 0 ) is the asymptotic
+variance of nQ̇n (θ 0 ).
+Consistent estimates of A (θ 0 ) and B (θ 0 ) can be obtained.
+Inferences can be performed.
+
+Maximum Likelihood
+
+Maximum Likelihood
+(Conditional)
+Example: The Poisson regression model (Cameron and
+Trivedi p. 117 or Greene p. 843)
+yi = E [yi jxi ] + ui
+in this case is
+
+0
+
+yi = exi β + ui
+and our objective is to estimate β by ML
+
+Motivating Regressions: Conditional Expectation
+I
+
+Main focus of this course: Conditional Expectation: E [yjx]
+y = E [yjx] + u
+
+I
+
+First part of the course E [yjx] linear: Example: Linear
+wage equation
+E [wagejx] = β0 + β1 educ + β2 exper + β3 female
+
+I
+
+Second part of the course E [yjx] is nonlinear. Example:
+Poisson Regression for number of arrests
+E [narr86jx] = exp ( β0 + β1 pcnv + β2 avgsen + β3 tottime)
+
+Motivating Regressions: Conditional Expectation
+
+I
+
+Main focus of this course: Conditional Expectation: E [yjx]
+y = E [yjx] + u
+
+I
+
+Second part of the course E [yjx] is nonlinear. Example:
+Poisson Regression for number of arrests
+E [narr86jx] = exp ( β0 + β1 pcnv + β2 avgsen + β3 tottime)
+
+I
+
+Binary choice models. Example: Labor force participation
+E [inlfi jx] = P (inlfi = 1jx) = g (nwifeinci , educi , exp eri kidslt6i , θ )
+
+Cross-sectional Data: California Test Score
+
+I
+
+California Test Score: Data: Stock and Watson (p. 51)
+I
+I
+I
+I
+
+tscorei : average of the math and science test scores for all
+fifth grades in 1999 in district i
+stri : average student-teacher ratio in district i
+exp eni : average expenditure per pupil
+engi : percentage of students still learning English
+
+Cross-sectional Data: Wage Equations
+
+I
+
+Wage Equations: Data: Wooldrige (p. 218)
+I
+I
+I
+I
+I
+
+wi : hourly wage
+educi : years of formal education
+exp eri : years of workforce experience
+femalei : 1 if person i is female, otherwise
+marriedi : 1 if person i is married, otherwise
+
+Cross-sectional Data: Labor Force Participation
+
+I
+
+Labor Force Participation: Data: Wooldrige (p. 239)
+I
+I
+I
+I
+I
+I
+
+inlfi : 1 if woman i reports working for a wage outside the
+home, 0 otherwise
+nwifeinci : husband’s earnings
+educi : years of education
+exp eri : past years of labor market experience
+kidslt6i : number of children less than six years old
+kidsge6i : number of kids between 6 and 18 years of age
+
+Cross-sectional Data: Crime Data
+
+I
+
+Crime: Data: Wooldrige (p. 4, 78,172, 295, 583)
+I
+I
+I
+I
+I
+I
+
+crimei : some measure of the frequency of criminal activity
+Ex: narr86i : number of times a man was arrested
+pcnvi : proportion of prior arrests leading to conviction
+tottimei : total time the man has spent in prison prior to 1986
+since reaching the age of 18
+ptime86i : months spent in prison in 1986
+qemp86i : number of quarters in 1986 during which the man
+was legally employed
+
+

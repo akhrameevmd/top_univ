@@ -1,0 +1,622 @@
+ECON2004 Macroeconomic Theory and Policy
+Lecture 1: Introduction. The demand side.
+
+Reading: see Moodle
+
+This lecture
+ A (brief) reminder of what macro’s all about
+ Course outline
+ Course organisation
+ Modelling consumption
+ The Permanent Income Hypothesis
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 1
+
+Macroeconomics: why bother?
+
+Understanding interesting times:
+
+
+credit crunch (2007 – 2008)
+
+
+
+recession (2008 - …)
+
+
+
+sovereign debt crises (2009 - …)
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+US GDP
+
+Slide 2
+
+Notation
+Upper case letters: nominal
+
+Superscript e means “expected”
+
+Lower case letters: real
+
+Other super / subscripts defined when used.
+
+For example, w = W/P means “the real wage is Dynamic models need time subscripts.
+the nominal wage divided by the price level”
+e
+
+
+
+e.g. the Phillips curve: t
+t    yt  ye 
+Interest rates always lower case:
+i is the nominal interest rate, r the real interest
+rate
+Note real investment is v not i.
+
+means inflation at time t is expected
+inflation at time t plus a constant times the
+difference between output at time t and
+equlibrium output.
+Can omit time subscripts when they’re all
+the same e.g. y  c  v  g means
+yt  ct  vt  gt : t
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 3
+
+Demand and supply sides
+Supply side
+
+Demand side
+
+What firms make
+
+What agents buy
+
+y = af(k,n)
+
+y = c + v + g +(x - m)
+
+Price and wage setting
+Equilibrium output: ye
+Inflation: π
+Supply-side policies:
+- labour market reform
+- competition policy
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Demand-side policies:
+- monetary
+- fiscal
+Slide 4
+
+The three-equation (IS-PC-MR) model
+IS: the demand side
+
+r
+
+ non-durable consumption of households
+ investment by households (durables and housing)
+and firms
+ government spending
+
+rS
+IS
+y
+π
+
+PC (πe= πT)
+
+π
+
+T
+
+MR
+
+WS / PS: the supply side
+
+ imperfectly competitive labour market
+ price setting by firms
+ wage setting by firms / workers
+
+y
+w
+
+ye
+
+PC: Phillips curve
+
+WS
+
+ summarising the supply side with nominal
+stickiness
+
+PS
+
+y
+
+MR: monetary rule
+
+ optimal monetary policy
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 5
+
+Course outline
+Building the model
+
+Using the model
+
+The demand side (IS): lectures 1,2
+
+Basic use: lecture 4
+
+The supply side (PC): lecture 3
+
+Expectations and policy effectiveness
+lecture 5
+
+Monetary policy (MR): lecture 4
+Fiscal policy and government debt:
+lecture 7
+
+Oil shocks; the UK in the 1980s; precrisis monetary policy lecture 6
+Fiscal policy, lecture 7
+
+The financial sector: lecture 8
+The economy since 2007: lectures 9/10
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 6
+
+Models, theory and data
+ The macroeconomy is exceedingly
+complex both in cross-section and
+time-series.
+
+Dealing with this:
+ Models are not the truth (“the map is
+not the territory”); simply a way of
+structuring our thoughts
+
+ The models we can build are
+extremely simple: “three equations” to
+describe millions of agents interacting
+ Distrust dogmatic statements about the
+in endless complicated ways in an
+macroeconomy, whomsoever they
+institution and technological
+may come from
+environment that is constantly
+"The curious task of economics is to demonstrate to
+changing.
+ The data we have is limited and noisy.
+Structural change means historical
+data is not necessarily useful.
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+men how little they really know about what they
+imagine they can design." (Hayek)
+
+ See unit 2.1 of the new CORE
+Slide 7
+
+General points
+Lectures
+ Read BEFORE the lecture
+ Handouts / lecturecast
+Classes
+ problem sets consist of questions to be
+handed in and discussion points
+ solutions will be posted on Moodle.
+
+Demo lectures
+ your questions
+ general points on the exam
+ exam questions posted on Moodle; attempt
+them before the lecture
+
+FAQs on Moodle
+
+ you are expected to carefully work
+through these solutions BEFORE the class If you didn’t take ECON1001
+ www.core-econ.org/. Start by reading
+and prepare any questions you want to ask
+units 12 – 14, then 10,11 and 17.
+ class tutors will NOT go through the
+solution to the problems. Most of the
+class will be spent on the discussion points Feedback
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 8
+
+The demand side: where we’re going
+An identity:
+
+Market clearing:
+
+Behavioural models:
+
+The IS curve:
+
+ consumption
+
+r
+
+IS
+
+ct  ct c   c0 c   c y  c yt  cr c rt
+ investment:
+vt  vt  v   v0  v   v y  v yt  vr  v rt
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+y
+
+Slide 9
+
+The demand side
+Approaches
+1. Empirical
+
+2. Theoretical
+
+ “ad hoc” e.g. c=c0+cyy ; c0, cy assumed constant
+“The fundamental psychological law, upon which we are entitled
+to depend with great confidence both a priori from our knowledge
+of human nature and from the detailed facts of experience, is that
+men [sic] are disposed, as a rule and on average, to increase their
+consumption as their income increases, but not by as much as the
+increase in their income” (Keynes)
+
+ Microfounded
+o based on a description of the behaviour of
+individuals
+o aggregated to get from individuals to aggregate
+o ct  ct c   c0 c   c y c yt  cr c rt where Ʌc is
+a list of variables including:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 10
+
+Modelling households
+Household spending consists of:
+Non-durable consumption e.g.
+
+Durable consumption e.g.
+
+Housing.
+The second two are counted as:
+From Bank of England Inflation Report Feb 2014
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 11
+
+Modelling consumption
+Heterogeneity
+
+The representative agent
+
+Let ch,t be the consumption of household h Assume that the decision of a single
+at time t
+household can be used to represent the
+aggregate behaviour of all households in
+Then if there are N households in the
+the economy i.e. ignore heterogeneity.
+economy, aggregate consumption at time t
+is
+Is this a good assumption?
+
+See CORE unit 12
+In principle, each household could make
+its consumption decision differently.
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 12
+
+Modelling consumption: the permanent income hypothesis (PIH)
+In words
+
+Smoothing over the business cycle
+
+ individuals optimally choose how
+much to consume by allocating their
+resources across their lifetimes
+ resources include assets and current
+and future income
+
+Smoothing over the life cycle
+
+ this is a forward looking decision and
+will depend on interest rates, asset
+values, expectations of future income,
+expectations of future taxes…
+
+
+
+the result is that optimal consumption
+is smooth compared to income
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 13
+
+The PIH: why is consumption smooth?
+A simple example:
+
+The property of the utility function which
+means optimal consumption is smooth is
+
+U = log c1 + log c2
+c1+c2 = 10
+What is optimal consumption?
+
+Why?
+See also CORE unit 11.
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 14
+
+PIH: the utility function
+
+
+1
+e
+Ut  
+log
+c
+t i
+i
+
+
+1
+
+
+i 0
+
+Points to note
+ infinite lifetime
+ time-separable utility
+
+Definitions:
+
+ctei
+
+ what is the expected marginal
+utility of consumption at time t+i?
+
+
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 15
+
+PIH: the budget constraint
+
+
+
+The left-hand side (LHS) is:
+1
+1
+e
+e
+c  (1  r )at 1  
+y
+
+i t i
+i t i
+i  0 1  r 
+i  0 1  r 
+
+Definitions:
+
+The right-hand side (RHS) is:
+
+r
+at-1
+ytei
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 16
+
+Solving for optimal consumption
+Households choose consumption to
+maximise their lifetime utility:
+
+1
+e
+max
+log
+c
+t i
+ 
+cti i0 i 0 1   i
+subject to the budget constraint
+
+
+1
+e
+e
+c  t
+
+i t i
+i 0 1  r 
+
+Solving the problem gives an Euler
+equation:
+
+(to get to this we also need to assume ρ
+= r)
+i.e. consumption is smoothed (in
+expectations).
+
+How to solve this?
+See derivations document on Moodle (you
+would not be expected to reproduce this in the
+exam)
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 17
+
+The Euler equation: intuition
+Imagine consumption wasn’t smooth (assume for this example that there is no
+uncertainty)
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 18
+
+The permanent income hypothesis
+So we know consumption is smooth,
+but at what level? Substituting the
+Euler equation into the budget
+constraint gives
+r
+ct 
+ te
+1 r
+
+1
+e
+e
+ t  (1  r )at 1  
+y
+i t i
+i  0 1  r 
+
+Individuals choose their consumption
+to be the level at which they can keep
+it constant over time, given what they
+currently expect about their future
+income.
+
+Consumption is the annuity value of
+expected lifetime wealth, “permanent
+income”.
+
+If current income is below permanent
+income individuals
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+If current income is above permanent
+income individuals
+
+Slide 19
+
+The permanent income hypothesis: implications
+Consumption is not affected by
+predictable changes in income.
+
+What changes consumption?
+
+The marginal propensity to consume
+Temporary changes in income: if
+current income yt increases
+unexpectedly by one unit, consumption
+increases by
+
+Permanent changes in income: if
+news arrives that current and all future
+income increases by one unit,
+consumption increases by:
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Slide 20
+
+The PIH: summary
+(Some of) the assumptions
+ representative agent
+ infinite lifetime
+ forward-looking behavior
+ log utility
+
+Implications
+
+
+consumption smoothing
+
+
+
+expectations of future income determine
+consumption today
+
+
+
+temporary changes in income have a small
+impact on consumption
+
+
+
+permanent changes in income have a 1:1
+impact on consumption
+
+
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+implications for fiscal policy (see lectures
+2 & 7)
+
+Slide 21
+
+Testing the PIH
+News about an increase in income from y1 to Prediction: news about changes in
+y2 at time t+1 is announced at time t
+income should lead to an immediate
+shift in consumption
+ In the data, consumption is sluggish
+Assume before the news arrives c=y1 (what
+in responding to news
+does this mean we’re assuming about a?)
+
+Prediction: predictable changes in
+income should have no effect on
+current consumption
+ In the data, consumption changes
+by ~30% of the change
+
+y2
+
+y1
+t
+
+t+1
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+Time
+
+Slide 22
+
+Summary
+This lecture:
+ A forward-looking model of
+consumption
+ implications for consumption
+
+Next lecture:
+ Improving the PIH
+ Implications for policy
+ Investment
+
+ testing it
+
+ECON2004 Macroeconomic Theory and Policy. Lecture 1
+
+ The IS curve
+
+Slide 23
+
+

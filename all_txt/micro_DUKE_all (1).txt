@@ -1,0 +1,434 @@
+Econ	201	–	Intermediate	Microeconomics	
+Spring	2017	Syllabus	
+
+	
+	
+Instructor	and	Head	TA	
+	
+Todd	Sarver	
+Office:	Social	Sciences	232	
+Email:	todd.sarver@duke.edu	(please	include	Econ	201	in	the	subject	line	of	emails)	
+Office	Hours:	MWF	11:20am-12pm	(on	days	that	we	have	class)	
+Lectures:	MWF	10:05am-11:20am	in	LSRC	B101	(Love	Auditorium)	
+	
+Head	TA:	Chelsea	Garber	
+Email:	chelsea.garber@duke.edu	
+	
+	
+Textbook	and	Required	Course	Materials	
+	
+The	textbook	for	this	course	is	Microeconomics:	An	Intuitive	Approach	with	Calculus,	
+2nd	Edition,	by	Thomas	Nechyba.	The	publisher	has	online	materials	related	to	this	
+textbook	available	on	a	website	called	MindTap.	Access	to	the	MindTap	website	is	
+REQUIRED	for	this	course.	You	will	use	it	to	submit	internet-based	assignments.	
+This	site	also	includes	other	resources,	including	an	electronic	copy	of	the	entire	
+textbook,	interactive	graphs,	and	video	presentations.	When	you	set	up	MindTap,	
+you	will	need	to	link	to	our	course,	which	can	be	done	by	visiting	the	following	
+course-specific	registration	link:	
+https://login.cengagebrain.com/course/MTPQZWPP8DKH	
+	
+Going	“electronic-only”:	The	bookstore	should	have	a	bundle	available	that	
+includes	a	hardcopy	of	the	textbook	together	with	an	access	card	that	can	be	
+used	as	the	form	of	payment	when	you	visit	the	MindTap	website	listed	
+above.	(Note	that	you	will	most	likely	not	get	the	appropriate	access	card	if	
+you	purchase	your	textbook	from	Amazon	or	some	other	online	retailer.)	
+Alternatively,	you	have	the	option	to	only	purchase	online	access	using	the	
+link	above	and	skip	the	hardcopy.	A	trial	period	is	also	available	on	the	site.	
+Please	see	the	announcement	on	Sakai	for	additional	information.	
+	
+To	Calc,	or	not	to	Calc,	that	is	the	question:	Economics	201	is	a	rigorous	but	
+largely	non-mathematical	development	of	the	fundamental	concepts	in	
+microeconomics.	It	emphasizes	logical	arguments	and	graphical	modeling	
+techniques	together	with	some	formal	mathematical	analysis;	however,	the	
+complete	mathematical	treatment	these	topics	is	reserved	for	Economics	
+205.	In	the	textbook,	chapters	are	divided	into	A	and	B	parts,	with	the	
+mathematical	treatment	involving	calculus	developed	in	the	B	parts.	This	
+course	will	focus	primarily	on	the	A	parts	of	each	chapter,	but	you	may	find	
+the	B	parts	useful	for	reference.	
+
+	
+	
+Lectures,	Discussion	Sections,	and	Office	Hours	
+	
+Lectures:	Class	lectures	will	be	a	mix	of	traditional	lectures	and	time	spent	
+working	together	on	applications	and	exercises.	To	free	up	more	time	for	
+working	through	problems	together,	I	may	ask	you	to	watch	brief	video	
+modules	prior	to	some	classes.	These	will	be	posted	on	Sakai	several	days	
+before	the	class	in	which	we	will	use	the	material	in	the	module.	
+	
+Discussion	Sections	and	TAs:	Discussion	sections	are	run	by	Teaching	
+Assistants	(TAs).	Their	main	purpose	is	to	give	you	an	opportunity	to	clarify	
+your	understanding	of	the	topics	from	the	lecture	and	textbook.	Sections	will	
+often	be	used	to	work	together	through	exercises	and	to	cover	material	that	
+will	do	not	get	to	in	lectures,	or	to	review	material	from	the	lectures.	The	
+most	valuable	function	of	the	TAs	is	to	answer	your	questions	about	problem	
+sets	and	the	course	material	more	generally.	You	should	also	view	your	TAs	
+as	a	channel	to	voice	concerns	about	the	course	in	circumstances	where	you	
+feel	uncomfortable	approaching	me	directly.	
+	
+The	schedule	for	discussion	sections	will	be	posted	on	Sakai	in	the	coming	
+week,	and	sections	will	begin	on	January	25.	The	sessions	will	be	
+coordinated	so	that	the	same	material	is	covered	in	the	sections	starting	on	
+any	given	Wednesday	through	the	subsequent	Tuesday.	Although	you	were	
+required	to	pick	sections	when	registering	for	the	course,	you	are	free	to	
+attend	whichever	(and	however	many)	sections	you	wish.	
+	
+Office	Hours:	The	schedule	for	office	hours	for	the	TAs	will	be	posted	on	Sakai	
+in	the	coming	week	and	will	begin	on	January	25.	My	office	hours	are	listed	
+above.	Note	that	they	begin	immediately	following	class.	I	will	remain	in	the	
+classroom	right	after	each	lecture	to	take	questions,	and	we	can	move	to	my	
+office	once	it	is	time	for	the	next	class	to	begin	in	the	auditorium.	
+	
+	
+Evaluation:	Exams,	Assignments,	and	Attendance	
+	
+Grades	are	determined	by	two	midterm	exams	(25%	each),	a	cumulative	final	exam	
+(40%),	and	MindTap	assignments	and	attendance	(10%).	However,	if	your	score	on	
+the	final	exam	is	higher	than	on	one	of	the	midterms,	weight	will	be	moved	from	
+that	midterm	to	the	final.	Your	final	course	grade	is	therefore	determined	by	the	
+following	formula:	
+0.1	𝑀𝑇	𝑎𝑛𝑑	𝐴	 + 0.25𝑀1 + 0.25𝑀2 + 0.4𝐹,
+𝑆𝑐𝑜𝑟𝑒 = 𝑚𝑎𝑥
+	
+0.1	𝑀𝑇	𝑎𝑛𝑑	𝐴	 + 0.25𝑀1 + 0.65𝐹,
+0.1	𝑀𝑇	𝑎𝑛𝑑	𝐴	 + 0.25𝑀2 + 0.65𝐹
+	
+(MT=MindTap	assignments,	A=Attendance,	M1=Midterm	1,	M2=Midterm	2,	F=Final)	
+
+	
+Midterms:	The	midterm	exams	are	scheduled	for	Wednesday,	February	15	
+and	Wednesday,	April	5.	These	dates	should	be	assumed	fixed	unless	an	
+announcement	to	the	contrary	is	made	in	class.	If	you	miss	a	midterm	and	
+have	a	legitimate	excuse,	the	weight	for	that	exam	will	be	reallocated	to	the	
+final	exam	per	the	formula	above.	There	are	no	“make-up”	exams.		
+	
+
+Final	Exam:	The	final	exam	has	been	scheduled	by	the	registrar	for	9am12pm	on	Monday,	May	1.	This	date	is	fixed	and	will	not	change.	If	you	miss	
+the	final,	you	will	not	receive	credit	for	the	class.	Do	not	register	for	this	
+course	if	you	will	be	unable	to	take	the	final	at	the	scheduled	time	(e.g.,	due	to	
+airline	tickets,	summer	internships,	or	for	any	other	reason).	If	a	student	is	
+excused	from	the	exam	by	an	academic	dean	due	to	illness	or	some	other	
+extreme	circumstance,	the	policy	for	Economics	201	is	that	the	student	
+would	then	take	the	final	exam	being	offered	for	the	same	class	in	the	
+following	semester.	
+
+	
+Assignments:	I	will	be	assigning	weekly	problem	sets	during	this	course.	
+These	assignments	will	include	two	parts:	completion	of	“Aplia	Homework”	
+assigned	within	MindTap	and	submission	of	end	of	chapter	exercises	on	
+Sakai.	Assignments	will	be	posted	on	Sakai	and	will	typically	be	due	on	
+Wednesdays	before	that	start	of	class.	Late	assignments	will	not	be	
+accepted.	However,	I	will	drop	the	lowest	two	homework	scores	when	
+determining	the	overall	grade.	Details	about	the	grading	of	each	part	of	the	
+assignments:	
+	
+• MindTap	exercises	will	be	graded	for	credit	and	together	with	
+attendance	will	count	for	10%	of	your	grade.	
+• End	of	chapter	exercises	will	not	be	looked	at	until	the	end	of	the	term.	
+At	that	time,	we	will	look	at	the	assignments	of	those	whose	course	
+grade	(excluding	assignments)	is	close	to	the	borderline	of	a	higher	
+grade.	If	end	of	chapter	problems	were	handed	in	consistently	and	the	
+quality	of	the	work	was	good,	we	will	then	adjust	grades	for	students	
+who	are	close	to	a	higher	grade	upward.	
+	
+
+Note	that	assignments	are	designed	to	give	you	a	hands-on	perspective	on	
+the	material	as	well	as	practice	for	exams.	The	best	way	to	learn	economics	is	
+to	practice	using	the	techniques!	You	are	permitted—and	even	encouraged—
+to	collaborate	with	other	students	on	assignments,	especially	if	you	get	stuck.	
+However,	each	student	must	submit	his	or	her	own	copy	of	the	assignment.	
+	
+Attendance:	Class	attendance	will	be	tracked	using	the	Arkaive	app	
+(instructions	will	be	posted	in	the	coming	week)	and	together	with	MindTap	
+assignments	will	account	for	10%	of	your	grade.	
+	
+
+	
+Grading	(and	Re-Grading)	of	Exams	
+	
+What	I	want	you	to	learn	in	this	course	is	how	to	apply	the	methodology	of	
+economics	to	a	wide	variety	of	problems/situations.	Therefore,	your	exam	grades	
+will	depend	at	least	as	much	on	the	strength	of	your	reasoning	as	on	the	bottom-line	
+answers	you	give.	You	should	write	out	a	careful	explanation	for	all	your	answers.		
+	
+Grade	Disputes:	Grade	disputes	impose	a	significant	cost	in	terms	of	time	and	
+energy.	The	best	way	to	avoid	them	is	to	answer	questions	clearly	and	
+concisely.	Vague	or	ambiguous	answers	will	typically	lead	to	a	low	grade.	
+That	said,	if	you	think	that	an	exam	has	been	graded	incorrectly,	it	is	possible	
+to	petition	for	a	re-grading	of	the	exam.	The	petition	must	be	typed	and	
+submitted	to	the	Head	TA	in	writing—by	email—within	24	hours	of	receiving	
+the	graded	exam.	The	HTA	decides	whether	or	not	to	accept	the	petition.	If	
+the	petition	is	accepted,	the	entire	exam	will	be	re-graded	(not	just	one	
+particular	question),	which	could	ultimately	result	in	either	a	higher	or	lower	
+total	score.	A	student	must	submit	this	petition	for	any	re-grading,	including	
+the	case	where	the	points	were	not	added	up	correctly.	
+	
+	
+Other	Policies	and	Guidelines	
+	
+Computers	and	Cell	Phones: Use	of	cell	phones,	tablets,	and	computers	are	not	
+permitted	during	the	lectures.	These	devices	can	cause	a	distraction	to	your	
+fellow	students	(and	yourselves).	Also,	please	make	sure	you	have	your	
+phone	silenced	in	class.	
+	
+Academic	Conduct: It	goes	without	saying	that	academic	misconduct	will	not	
+be	tolerated.	Students	are	expected	to	uphold	the	Duke	Community	Standard:	
+https://studentaffairs.duke.edu/conduct/about-us/duke-communitystandard	
+Note	that	neither	calculators	nor	cell	phones	can	be	used	in	any	fashion	
+during	exams.	Plan	to	use	a	wristwatch	rather	than	a	cell	phone	if	you	wish	to	
+monitor	the	time.	
+	
+Students	with	Disabilities:	Students	with	disabilities	who	believe	they	may	
+need	accommodations	in	this	class	are	encouraged	to	contact	the	Student	
+Disability	Access	Office	at	(919)	668-1267	as	soon	as	possible	to	better	
+ensure	that	such	accommodations	can	be	implemented	in	a	timely	fashion.	
+Please	also	inform	me	of	any	exam	accommodations	within	the	first	two	
+weeks	of	class.	All	discussions	will	remain	confidential.	
+	
+Difficulties	Completing	Coursework:	Be	sure	to	contact	your	academic	dean	if	
+you	have	any	issues	that	will	interfere	with	your	completion	of	coursework	
+or	the	final	exam.	Instructors	are	not	permitted	to	directly	adjust	a	student’s	
+
+course	grades	due	to	difficulties	faced	by	the	student.	Such	matters	must	be	
+handled	by	a	student’s	academic	dean.	
+
+	
+	
+Course	Calendar	
+	
+The	following	is	a	tentative	(and	ambitious)	course	outline,	which	may	be	revised	
+depending	on	time	constraints.	
+	
+Date	
+	
+Topic	
+Readings	
+WEEK	1	
+11	 Introduction	
+Chapter	1	
+January	
+13	 Budgets	
+Chapter	2A,	3A	
+	
+	
+	
+	
+	
+16	 MLK	DAY	–	NO	CLASS	
+	
+WEEK	2	
+18	 Indifference	Curves	and	Tastes	
+Chapter	4A	
+	
+20	 Tastes	and	Optimization	
+Chapter	5A,	6A	
+	
+	
+	
+	
+	
+23	 Income	and	Substitution	Effects	
+Chapter	7A	
+WEEK	3	
+25	 Dead	Weight	Loss	(DWL)	from	Taxation	
+Chapter	8A	
+	
+27	 Consumer	Demand	and	Labor	Supply	
+Chapter	9A	
+	
+	
+	
+	
+	
+31	 MWRP	and	DWL	Revisited	
+Chapter	10A	
+WEEK	4	
+1	 Exercises	and	Extensions	
+	
+February	
+3	 Single	Input	Production	
+Chapter	11A.1-4	
+	
+	
+	
+	
+	
+6	 Cost	Minimization	and	Supply	
+Chapter	11A.5	
+WEEK	5	
+8	 Exercises	and	Extensions	
+	
+	
+10	 NO	CLASS	
+	
+	
+	
+	
+	
+	
+13	 Two-Input	Production	
+Chapter	12A.1-4	
+WEEK	6	
+15	 MIDTERM	1	EXAM	(in	class)	
+	
+	
+17	 NO	CLASS	
+	
+	
+	
+	
+	
+	
+20	 Linking	SR	and	LR	Costs	
+Chapter	13A.1	
+WEEK	7	
+22	 SR	&	LR	Supply	and	Equilibrium	
+Chapter	13A.2.1,	
+13A.3.1,	14A.1-2	
+	
+24	 Equilibrium	and	Welfare	
+Chapter	14A.3-4,	
+15A	
+	
+	
+	
+	
+	
+27	 General	Equilibrium	
+Chapter	16A	
+WEEK	8	
+1	 Exercises	and	Extensions	
+	
+March	
+3	 Elasticities	&	Price-Distorting	Policies	
+Chapter	18A	
+	
+	
+	
+	
+	
+6	 Taxes	and	Subsides	
+Chapter	19A	
+WEEK	9	
+8	 Exercises	and	Extensions	
+	
+
+	
+	
+	
+	
+	
+WEEK	10	
+	
+	
+	
+WEEK	11	
+	
+	
+April	
+WEEK	12	
+	
+	
+	
+WEEK	13	
+	
+	
+	
+WEEK	14	
+	
+	
+	
+WEEK	15	
+	
+May	
+	
+	
+
+10	
+	
+	
+	
+20	
+22	
+24	
+	
+27	
+29	
+31	
+	
+3	
+5	
+7	
+	
+10	
+12	
+14	
+	
+17	
+19	
+21	
+	
+24	
+26	
+	
+1	
+
+CATCH-UP	CLASS	
+	
+SPRING	BREAK	(MARCH	13-17)	
+	
+Immigration	and	Trade	
+Exercises	and	Extensions	
+Externalities	
+	
+Asymmetric	Information/Discrimination	
+Exercises	and	Extensions	
+Monopoly	
+	
+Game	Theory	I	
+MIDTERM	2	EXAM	(in	class)	
+NO	CLASS	
+	
+Game	Theory	II	
+Oligopoly	
+Oligopoly	
+	
+Monopolistic	Competition	
+Public	Goods	
+Behavioral	Economics	
+	
+Efficiency	and	Normative	Economics	
+Review	
+	
+FINAL	EXAM,	9am-12pm	
+
+	
+	
+	
+	
+Chapter	20A	
+	
+Chapter	21A	
+	
+Chapter	22A	
+	
+Chapter	23A	
+	
+Chapter	24A	
+	
+	
+	
+Chapter	24A	
+Chapter	25A	
+Chapter	25A	
+	
+Chapter	26A	
+Chapter	27A	
+Chapter	29A.1,2	
+	
+Chapter	29A.3	
+Chapter	30	
+	
+	
+
+

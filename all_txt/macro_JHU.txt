@@ -1,0 +1,17 @@
+180.101 Elements of Macroeconomics
+An introduction to the economic system and economic analysis, with emphasis on total national income and output, employment,
+ the price level and inflation, money, the government budget, the national debt, and interest rates. The role of public policy.
+ Applications of economic analysis to government and personal decisions. Prerequisite: basic facility with graphs and algebra.
+
+Instructor: Barbera
+180.302 Macroeconomic Theory
+The course provides a treatment of macroeconomic theory including a static analysis of the determination of output, employment,
+ the price level, the rate of interest, and a dynamic analysis of growth, inflation, and business cycles. In addition,
+ the use and effectiveness of monetary and fiscal policy to bring about full employment, price stability, and steady economic growth will be discussed.
+ Please see the course Blackboard site for further information.
+
+Prerequisites:
+
+180.101-102 (can be taken concurrently with 180.102) and Differential Calculus 110.106, or permission of instructor.
+
+Instructor: Korinek

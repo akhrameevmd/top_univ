@@ -1,0 +1,411 @@
+Econometrics
+Preliminaries: Asymptotic Theory
+
+by Vanessa Berenguer-Rico
+University of Oxford
+
+Michaelmas Term 2016
+
+Outline
+
+Asymptotic Theory
+
+I
+
+The Law of Large Numbers
+
+I
+
+The Central Limit Theorem
+
+Asymptotic Theory
+Setup: Population and Unknown parameter
+Example: Mean starting salary of newly graduated PPE
+students last year from the University of Oxford. Collect a
+random sample of n PPE students graduated last year
+Population
+X
+µ, σ2
+
+Random Sample
+fx1 , x2 , ..., xn g
+x̄n (sample analog)
+
+Random sample: independent and identically distributed
+random variables fxi g iid µ, σ2 (both µ and σ2 are assumed
+to be finite, exist)
+
+Asymptotic Theory
+
+LLN and CLT are about the behaviour of the sample mean
+n
+
+x̄n =
+
+1X
+xi
+n
+i=1
+
+as the number of observations, n, gets large
+Note: since xi are random variables, x̄n is also a random
+variable
+
+Asymptotic Theory
+
+A first look at the random variable: x̄n
+(i) Expected Value
+#
+n
+n
+1X
+1X
+xi =
+E [xi ] = µ
+E [x̄n ] = E
+n
+n
+"
+
+i=1
+
+i=1
+
+Asymptotic Theory
+A first look at the random variable: x̄n
+(ii) Variance
+"
+
+#
+n
+1X
+V [x̄n ] = V
+xi
+n
+i=1
+1
+0
+n
+n X
+n
+X
+1 @X
+V [xi ] +
+Cov xi , xj A
+= 2
+n
+i=1
+
+=
+
+1
+n2
+
+σ2
+=
+n
+
+n
+X
+i=1
+
+V [ xi ]
+
+i=1 j6 =i
+
+Asymptotic Theory
+
+A first look at the random variable: x̄n
+(iii) Standard Deviation
+σ
+s.d. [x̄n ] = p
+n
+
+Asymptotic Theory
+
+iidN µ, σ2 then x̄n
+
+N µ, σ2 /n for each n
+
+I
+
+If fxi g
+
+I
+
+Unfortunately: if fxi g are not normal, exact sampling
+distribution of x̄n can be very complicated
+
+I
+
+Fortunately, LLN and CLT: large sample (n ! ∞)
+approximations to the sampling distribution of x̄n .
+Normality is not required: Very powerful!
+
+I
+
+LLN and CLT: very important results in probability theory
++ play a crucial role in statistics (estimation and inference)
+
+Law of Large Numbers
+
+I
+
+LLN: Let fxi g
+
+iid µ, σ2 (both µ and σ2 are assumed to
+p
+
+be finite, exist), then x̄n ! µ as n ! ∞. (Chebyshev)
+I
+
+Convergence in probability means that: For any c > 0
+P (jx̄n µj > c) ! 0 as n ! ∞
+
+I
+
+LLN: conditions for x̄n to be close to µ with high
+probability when n is large
+
+Law of Large Numbers
+I
+
+I
+
+I
+
+Very useful result will help us to show the LLN:
+Convergence in mean square implies convergence in
+probability! (Due to Chebyshev)
+h
+Convergence in mean square: lim E (x̄n
+n! ∞
+
+h
+Note: E (x̄n
+
+i
+µ)2 = V [x̄n ]; hence,
+
+h
+lim E (x̄n
+
+n! ∞
+
+i
+µ )2 = 0
+
+i
+σ2
+µ)2 = lim V [x̄n ] = lim
+= 0,
+n! ∞
+n! ∞ n
+p
+
+which shows that x̄n ! µ as n ! ∞, i.e., the sample mean
+is a consistent estimator of the population mean
+
+The Central Limit Theorem
+
+I
+
+Approximate distribution of x̄n when n is large?
+
+I
+
+Recall: x̄n ! µ or equivalently that x̄n µ ! 0 since
+lim V [x̄n ] = 0. This means x̄n has a degenerate
+
+p
+
+p
+
+n! ∞
+
+distribution in the limit (takes only a single value!)
+
+I
+
+Lets consider
+zn
+
+x̄n µ
+x̄n E [x̄n ]
+= p
+=
+=
+pσ
+V [x̄n ]
+n
+
+p
+
+n (x̄n
+σ
+
+µ)
+
+The Central Limit Theorem
+I
+
+I
+
+Expected Value
+"
+#
+x̄n E [x̄n ]
+1
+E [x̄n
+E [ zn ] = E p
+=p
+V [x̄n ]
+V [x̄n ]
+
+Variance:
+
+"
+
+#
+x̄n E [x̄n ]
+V [zn ] = V p
+V [x̄n ]
+1
+=
+V [x̄n E [x̄n ]]
+V [x̄n ]
+1
+=
+V [x̄n ]
+V [x̄n ]
+=1
+
+E [x̄n ]] = 0
+
+The Central Limit Theorem
+
+I
+
+CLT: (Lindeberg-Levy): Let fxi g
+
+iid µ, σ2 (both µ and
+d
+
+σ2 are assumed to be finite, exist), then zn ! N (0, 1)
+
+I
+
+Conditions under which zn converges in distribution to a
+standard normal random variable
+
+I
+
+Asymptotic distribution of zn is N (0, 1) or zn
+x̄n
+
+A
+
+N
+
+µ, σ2 /n
+
+A
+
+N (0, 1) or
+
+The Central Limit Theorem
+
+I
+
+d
+
+! means that the sample or empirical cumulative
+distribution function of x̄n converge (as n ! ∞) to the
+cumulative distribution function of a standard normal:
+lim Fn (x̄n ) = F (x) ,
+
+n! ∞
+
+where
+
+1
+F (x) = p
+2π
+
+Z
+
+x
+∞
+
+e
+
+s2
+2
+
+ds
+
+The Central Limit Theorem
+I
+
+Lindeberg-Levy CLT can proved via the characteristic
+R∞
+function of a random variable: E eiλx = ∞ eiλx dF (x), it
+completely defines its probability distribution
+
+I
+
+Proof of the (Lindeberg-Levy) CLT uses the following
+result:
+If E eiλyn ! E eiλy for every λ and E eiλy is continuous
+d
+
+at λ = 0, then yn ! y
+I
+
+In the CLT, yn = x̄n and y is a standard normal. Idea: show
+that the characteristic function of x̄n converges to that of a
+N (0, 1), see, for instance, Amemiya (1985) p.91
+
+LLN and CLT: Uses
+I
+
+LLN: Consistent estimates
+
+I
+
+CLT: Inferences. For instance, confidence intervals
+zn =
+
+x̄n µ
+s.d. (x̄n )
+
+A
+
+N (0, 1)
+
+Hence,
+P
+
+1.96
+
+x̄n µ
+s.d. (x̄n )
+
+1.96
+
+= 0.95
+
+Or
+P (x̄n
+
+1.96s.d. (x̄n )
+
+Therefore, CI : x̄n
+
+µ
+
+x̄n + 1.96s.d. (x̄n )) = 0.95
+
+1.96s.d. (x̄n )
+
+
