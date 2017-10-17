@@ -6,3 +6,24 @@ of whether to work, how much to save, what to buy, firms’ choices about how much
 what prices to charge and whether to invest, and government’s choices about what to tax, what
 to subsidise, and what goods and services to provide. These are the sorts of microeconomic issues
 that we will study this term.
+
+Readings :
+Varian, Chapter 1 & 15
+1 The Market
+Constructing a Model 1 Optimization and Equilibrium 3 The Demand
+Curve 3 The Supply Curve 5 Market Equilibrium 7 Comparative
+Statics 9 Other Ways to Allocate Apartments 11 The Discriminating
+Monopolist • The Ordinary Monopolist • Rent Control •
+Which Way Is Best? 14 Pareto Efficiency 15 Comparing Ways to Allocate
+Apartments 16 Equilibrium in the Long Run 17 Summary 18
+Review Questions 19
+15 Market Demand
+From Individual to Market Demand 270 The Inverse Demand Function
+272 Example: Adding Up “Linear” Demand Curves Discrete Goods
+273 The Extensive and the Intensive Margin 273 Elasticity 274
+Example: The Elasticity of a Linear Demand Curve Elasticity and Demand
+276 Elasticity and Revenue 277 Example: Strikes and Profits
+Constant Elasticity Demands 280 Elasticity and Marginal Revenue 281
+Example: Setting a Price Marginal Revenue Curves 283 Income Elasticity
+284 Summary 285 Review Questions 286 Appendix 287
+Example: The Laffer Curve Example: Another Expression for Elasticity

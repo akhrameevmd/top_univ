@@ -5,7 +5,17 @@ concepts and methods of Microeconomics. At the end of the course the student sho
 (b) Understand how to analyse microeconomic models using appropriate techniques.
 (c) Be able to address economic phenomena using these models and techniques.
 Texts: The main text for this course is Microeconomics: Principles and Analysis [F. Cowell, OUP
-2006 (ISBN 0-19-926777-4)]. This can be supplemented with the easier books: Microeconomic
-Theory: Basic Principles and Extensions [Nicholson, South-Western 2005] and Intermediate
-Microeconomics [Varian, Norton 2003]. A more advanced book for an ambitious student is:
-Microeconomics [Gravelle and Rees, Pearson 2004].
+2006 (ISBN 0-19-926777-4)]. 
+1. Introduction
+2. The Firm
+3. The Firm and the Market
+4. The Consumer
+5. The Consumer and the Marketin
+6. A Simple Economy
+7. General Equilibrium
+8. Uncertainty and Risk
+9. Welfare
+10. Strategic Behaviour
+11. Information
+12. Design
+13. Government and the Individual

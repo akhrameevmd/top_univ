@@ -1,3 +1,9 @@
+ECON 19800 Introduction to Microeconomics
+ Course Description:
+The course treats by way of economic theory, applications, and contemporary issues:
+behavior and decision making on the part of individuals, business firms, and government; and
+the role of choices, tradeoffs, costs, prices, incentives and markets in the American economy.
+
 ECON 21100. Microeconometrics. 100 Units.
 This course provides students with a basic understanding of how econometrics, economic theory, and
 knowledge of institutions can be used to draw credible inferences on economic relationships. Topics
@@ -18,3 +24,38 @@ the empirical results, we will also discuss the importance of omitted variables 
 error.
 Instructor(s): J. Joensen Terms Offered: Spring
 Prerequisite(s): ECON 20900 or ECON 21000
+
+Principles of Economics
+N. Gregory Mankiw
+
+TABLE OF CONTENTS
+
+Part I: INTRODUCTION.
+1. Ten Principles of Economics.
+2. Thinking Like an Economist.
+3. Interdependence and the Gains from Trade.
+Part II: HOW MARKETS WORK.
+4. The Market Forces of Supply and Demand.
+5. Elasticity and Its Application.
+6. Supply, Demand, and Government Policies.
+Part III: MARKETS AND WELFARE.
+7. Consumers, Producers, and the Efficiency of Markets.
+8. Applications: The Costs of Taxation.
+9. Application: International Trade.
+Part IV: THE ECONOMICS OF THE PUBLIC SECTOR.
+10. Externalities.
+11. Public Goods and Common Resources.
+12. The Design of the Tax System.
+Part V: FIRM BEHAVIOR AND THE ORGANIZATION OF INDUSTRY.
+13. The Costs of Production.
+14. Firms in Competitive Markets.
+15. Monopoly.
+16. Monopolistic Competition.
+17. Oligopoly.
+Part VI: THE ECONOMICS OF THE LABOR MARKET.
+18. The Markets for the Factors of Production.
+19. Earnings and Discrimination.
+20. Income Inequality and Poverty.
+Part VII: TOPICS FOR FURTHER STUDY.
+21. The Theory of Consumer Choice.
+22. Frontiers in Microeconomics.

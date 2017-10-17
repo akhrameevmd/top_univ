@@ -1,0 +1,79 @@
+Undergraduate Econometrics
+Michaelmas 2017
+
+Vanessa Berenguer-Rico
+(vanessa.berenguer-rico@economics.ox.ac.uk)
+
+Description
+
+The course is divided into two parts: (I) Microeconometrics and (II) Macroeconometrics.
+Part I introduces some of the main tools used in microeconometric analyses. This part consists
+of three main topics. The …rst one starts by motivating the statistical tools (data, concepts, methods, etc...) used in microeconometrics from a general perspective. Then, the linear regression model
+under classical assumptions is reviewed. Methods developed to deal with situations in which classical
+assumptions are not satis…ed are also considered. The second topic focuses on nonlinear models. Nonlinear estimation methods, such as non-linear least squares and maximum likelihood, are thoroughly
+examined. The third topic applies these non-linear estimation methods to binary response and count
+data models.
+
+Part II motivates the main theoretical and empirical features that appear when dealing with macroeconomic data. This part consists of three main topics. The …rst one discusses why the analysis of
+macroeconomic time series di¤ers from the analysis of micro data. To that end, dependent and/or
+heterogeneously distributed observations are introduced. The second topic focuses on the analysis of
+univariate time series. In particular, stationary and non-stationary processes are studied. Special emphasis is given to autoregressive models. The third topic is devoted to the analysis of multivariate time
+series. Single equation models are put forward. Speci…cally, autoregressive distributed lag models,
+co-integrating relations and are discussed.
+
+To deepen the understanding of the theoretical contents of the course as well as to familiarise you
+with the analysis of real data, three computer lectures will be given by Felix Pretis (http://www.felixpretis.org/).
+
+1
+
+Outline
+
+Part I. Microeconometrics
+Topic 1. Preliminaries & the Linear Model
+Regressions; Conditional Expectations. Linear model under Classical Assumptions. Relaxing
+Classical Assumptions
+Topic 2. Nonlinear Models
+Non-linear Models in variables; Non-linear Models in parameters; M-estimators: Non-linear Least
+Squares and Maximum Likelihood
+Topic 3. Limited Dependent Variables
+Probit and Logit; Count Data
+
+Part II. Macroeconometrics
+Topic 1. Macroeconomic Time Series
+Dependent and/or Heterogeneously distributed Observations
+Topic 2. Univariate Time Series
+Stationary and Non-stationary Time Series Analysis
+Topic 3. Multivariate Time Series
+Single equation models: ADL, Co-integration, Error Correction models
+
+2
+
+Bibliography
+
+Course References:
+Brockwell and Davis: Introduction to Time Series and Forecasting. 2nd edition. Springer
+Cameron and Trivedi: Microeconometrics. 8th printing. Cambridge
+Greene: Econometric Analysis. 7th edition. Pearson
+Hamilton: Time Series Analysis. 1st edition. Princeton
+Hayashi: Econometrics. 1st edition. Princeton
+Hendry: Introductory Macro-econometrics: A New Approach. 1st edition. Timberlake
+Hendry and Nielsen: Econometric Modelling: A Likelihood Approach. Princeton
+Mittelhammer: Mathematical Statistics for Economics and Business. 7th edition. Springer
+Stock and Watson: Introduction to Econometrics. 3rd edition. Pearson
+Wooldridge: Econometric Analysis of Cross Section and Panel Data. 2nd edition. MIT
+Wooldridge: Introductory Econometrics: A Modern Approach. 5th edition. Cengage
+
+Complementary Readings:
+
+Koenker and Hallock (2001): Quantile Regression. Journal of Economic Perspectives, 15, 143-156.
+(...)
+
+Note
+
+The content of the course is based on all the references listed above and lecture notes from the
+professors who taught me this material at Universitat de Barcelona and Universidad Carlos III de
+Madrid. I hope you enjoyed this course as much as I enjoyed theirs.
+
+3
+
+

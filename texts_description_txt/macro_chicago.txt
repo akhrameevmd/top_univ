@@ -5,6 +5,33 @@ output, inflation, unemployment, and economic growth; money, banking, and the Fe
 System; federal spending, taxation, and deficits; and international trade, exchange rates, and the
 balance of payments.
 Instructor(s): A. Sanderson Terms Offered: Autumn, Winter
+Principles of Economics
+N. Gregory Mankiw
+
+TABLE OF CONTENTS
+
+Part VIII: THE DATA OF MACROECONOMICS.
+23. Measuring a Nation’s Income.
+24. Measuring the Cost of Living.
+Part IX: THE REAL ECONOMY IN THE LONG RUN.
+25. Production and Growth.
+26. Saving, Investment, and the Financial System.
+27. Tools of Finance.
+28. Unemployment and Its Natural Rate.
+Part X: MONEY AND PRICES IN THE LONG RUN.
+29. The Monetary System.
+30. Money Growth and Inflation.
+Part XI: THE MACROECONOMICS OF OPEN ECONOMICS.
+31. Open-Economy Macroeconomics: Basic Concepts.
+32. A Macroeconomic Theory of the Open Economy.
+Part XII: SHORT-RUN ECONOMIC FLUCTUATIONS.
+33. Aggregate Demand and Aggregate Supply.
+34. The Influence of Monetary and Fiscal Policy on Aggregate Demand.
+35. The Short-Run Tradeoff between Inflation and Unemployment.
+Part XIII: FINAL THOUGHTS.
+36. Six Debates over Macroeconomic Policy.
+
+
 ECON 23200. Topics in Macroeconomics. 100 Units.
 This course focuses on the use of dynamic general equilibrium models to study questions in
 macroeconomics. Topics include long-run growth and dynamic fiscal policy (Ricardian equivalence, tax

@@ -1,3 +1,21 @@
 Macroeconomic Theory and Policy
 This term’s part of ECON2004 is concerned with the open economy and with open economy aspects of the global financial crisis and the Eurozone sovereign debt crisis. You will frequently need to make use of the closed economy analysis covered in the autumn term.
  Please refer to the ECON2004 Moodle website for copies of the course information and for on-line material.
+
+Wendy Carlin and David Soskice (2015), Macroeconomics: Institutions, Instability and the Financial System. Oxford: OUP.
+1. The demand side
+2. The supply side
+3. The 3-equation model and macroeconomic policy
+4. Expectations
+5. Money, banking and the macro-economy
+6. The financial sector and crises
+7. The global financial crisis: applying the models
+8. Growth, fluctuations and innovation
+9. The 3-equation model in the open economy
+10. The open economy: the demand and supply sides
+11. Extending the open economy model: oil shocks and imbalances
+12. The Eurozone
+13. Monetary policy
+14. Fiscal policy
+15. Supply-side policy, institutions and unemployment
+16. Real Business Cycle and New Keynesian models
