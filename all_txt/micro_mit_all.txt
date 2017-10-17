@@ -1,0 +1,69 @@
+14.04 Intermediate Micro Theory
+Fall 2003
+Lectures: MW 10:30-12;
+Recitation: F 11; E51-390
+
+E51-390
+
+Professor: Sergei Izmalkov, izmalkov@mit.edu, E52-252C, 452-2522
+Assistant: Denise MacDougall
+E52-3xx, xx-xxx
+TA:
+Office hours:
+Prof: W 1-3 or by appointment.
+Web Page: http://web.mit.edu/14.04/www/ (?)
+Prerequisites: 14.01, 18.02, 18.06.
+Note: Credit cannot also be received for 14.03.
+
+Textbook:
+Hal R. Varian, Microeconomic Analysis, 3rd Ed., W.W. Norton & Company, New
+York, 1992.
+Course requirements:
+Two mid-term exams and one short final exam. Each worth 30% of the grade.
+Homeworks are worth 10%
+Homework: Due on Wednesdays, 10:30am, covered in detail on Fridays. Joint
+work(*) is not permitted. (*) You may discuss ideas, help each other with
+material in general, but, ultimately, your homework has to be a unique written
+(or typed) piece. Late homework gets no credit.
+Exceptional circumstances: In case you cannot attend one of the examinations
+due to extenuating circumstances, including illness or unavoidable conflicts with
+other MIT assignments, contact Prof. Izmalkov in advance or as soon as possible.
+We will do our best to reschedule your exams. You would have to provide
+sufficient proof of your circumstances (see MIT guidelines).
+
+Overview
+Producer Part.
+1. Technology
+2. Profit maximization.
+3. Profit function, deriving supply and demand.
+4. Cost minimization.
+5. Cost function .
+6. Duality.
+EXAM –
+
+Consumer Part.
+1. Utility functions.
+2. Individual Choice.
+3. Demand, aggregating individual demands.
+4. Consumer Surplus. Welfare.
+5. Competitive Markets.
+6. Monopoly.
+EXAM –
+
+Strategic Considerations.
+1.
+2.
+3.
+4.
+5.
+
+Intro into game theory.
+Exchange Economy.
+Walrasian Equilibrium with Production.
+Public goods. Externalities.
+Information Economics: Lemon markets, Adverse Selection, Signaling, Moral
+Hazard, Principal-Agent Problems.
+EXAM –
+Special topics (2 lectures): Auctions, Asset pricing
+
+

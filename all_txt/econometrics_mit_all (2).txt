@@ -1,0 +1,135 @@
+14.36 – E51-385
+
+1
+
+Spring 2013
+
+14.36 Undergraduate Advanced Econometrics Spring 2013
+Jerry A. Hausman
+jhausman@mit.edu
+(E52-271D)
+Lecture: M 12:00-2:00pm, E51-385
+Recitation F 12-1 PM, E51-061 / Office Hours: M 2-4 PM, E52-310
+TA: Maxim Pinkovskiy (maxim09(@mit.edu)
+Course website: http://stellar.mit.edu/S/course/14/sp13/14.36/
+Prof. Hausman has office hours each day when he is not travelling. The time is posted each day
+on the website, http://economics.mit.edu/faculty/hausman/spring
+
+ADVANCED ECONOMETRICS
+Texts:
+W. Greene, Econometric Analysis, 2012. 7th edition.
+Angrist and Pischke, Mostly Harmless Econometrics: An Empiricist's Companion,
+2009. 1st Edition.
+Supplementary Texts:
+J. Wooldridge, Econometric Analysis of Cross Section and Panel Data, 2002.
+J. Wooldridge, Introductory Econometrics: A Modern Approach, 2006
+Course Requirement:
+Each student will write an applied econometric paper for the course. Professor
+Hausman or Maxim will discuss the topic of the paper with students. Outlines for
+student paper are due March 17th
+COURSE OUTLINE
+(links below may be broken, see Maxim if your Google Scholar efforts prove unfruitful)
+1. Interpreting Regression and the Hausman Test
+• Greene, Chapter 3, Sections 8.1-8.4
+• Angrist and Pischke, Sections 1, 2, 3.1 – 3.2 (pp 27 – 67), 4.1 – 4.2 (pp 113 – 146), 4.6
+(pp 188 – 215)
+
+14.36 – E51-385
+
+2
+
+Spring 2013
+
+Application: Returns to Education
+2. Non-Linear Regression
+• Greene, Sections 7.1-7.2
+• Angrist and Pischke, Sections 3.3 – 3.4 (pp 68 – 109), 6 (pp 249 – 268)
+Application: Credit Score
+3. Non-Parametric Regression
+• Greene, Section 7.5
+Application: Hausman and Newey (1995): “Non-Parametric Estimation of Exact Consumer
+Surplus,” Econometrica
+4. Probit/ Logit, Ordered Probit/ Ordered Logit, Tobit
+• Greene, Sections 17.1-17.3, 19.3
+Application: Married Women’s Labor Force Participation
+Application: Asset Allocation in Pension Plans
+5. Quantile Estimation and Powell Estimation for Tobit
+• Greene, Section 7.3
+• Angrist and Pischke, Sections 7 (pp 269 – 292)
+• Chay and Powell (2001): “Semiparametric Censored Regression Models,” Journal of
+Economic Perspectives
+http://faculty.smu.edu/Millimet/classes/eco6375/papers/chay%20powell.pdf
+Application: Academic Aptitude Determinants
+6. Errors in Variable and Semiparametric Regression
+• Han (1987): “Non-Parametric Analysis of a Generalized Regression Model: the
+Maximum Rank Correlation Estimator,” Journal of Econometrics
+http://www.sciencedirect.com/science/article/pii/0304407687900303#
+• Hausman (2001): “Mismeasured Variables in Econometric Analysis: Problems from
+the Right and Problems from the Left,” Journal of Economic Perspectives
+
+14.36 – E51-385
+
+3
+
+Spring 2013
+
+https://www.math.umass.edu/~johnpb/s697m/hausman.pdf
+Application:
+• Hausman, Abrevaya, Scott-Morton (1998): “Misclassification of The Dependent
+Variable in a Discrete-Response Setting,” Journal of Econometrics
+http://faculty.smu.edu/millimet/classes/eco7377/papers/hausman%20et%20al.pdf
+7. Panel Data
+• Greene, Chapter 11.
+• Angrist and Pischke, Sections 5 (pp 221 – 248)
+• Hausman and Taylor (1981): “Panel Data and Unobservable Individual Effects,”
+Journal of Econometrics.
+http://web.mit.edu/14.33/www/hausman.pdf
+Application: Effect of Unions on Wages
+8. Count Models
+• Greene, Section 18.4.
+• Hausman, Hall, and Griliches (1984): “Econometric Models for Count Data with an
+Application to the Patents-R & D Relationship,” Econometrica.
+http://emlab.berkeley.edu/~bhhall/papers/HausmanHallGriliches%20E84.pdf
+Application: Moral Hazard in Healthcare Utilization in Germany
+9. Duration Models
+• Greene, Section 19.4
+• Han and Hausman (1990): “Flexible Parametric Estimation of Duration and Competing
+Risk Models,” Journal of Applied Econometrics
+http://math.uncc.edu/~zcai/s-paper35.pdf
+Application: Unemployment Spell
+10. Choice Models
+• Greene, 18.2
+• McFadden and Train (2000): “Mixed MNL Models for Discrete Response,” Journal of
+Applied Econometrics
+http://download.clib.psu.ac.th/datawebclib/e_resource/trial_database/WileyInterScienceCD
+/pdf/JAE/JAE_3.pdf
+
+14.36 – E51-385
+
+4
+
+Spring 2013
+
+• Train (2003): “Discrete Choice Methods with Simulation,”
+http://elsa.berkeley.edu/books/choice2.html
+• Petrin (2002): “Quantifying the Benefits of New Products: The Case of the Minivan,”
+Journal of Political Economy
+http://pages.stern.nyu.edu/~acollard/Petrin.pdf
+• Burda, Harding and Hausman (2008): “A Bayesian Mixed Logit-Probit Model for
+Multinomial Choice,” Journal of Econometrics.
+http://www.stanford.edu/~mch/resources/Harding_BayesianMixedLogit.pdf
+Application: Travel Mode Choice Between Sydney and Melbourne, Australia
+11. Weak and Many Instruments
+• Greene, Section 10.6.6
+• Hahn and Hausman (2003): “Weak Instruments: Diagnosis and Cures in Empirical
+Econometrics,” American Economic Review.
+• Hausman (2005): Lecture notes, Uppsala.
+• Stock, Wright and Yogo (2002): “A Survey of Weak Instruments and Weak
+Identification in GMM,” Journal of Business and Economic Statistics.
+• Hahn and Hausman (2003), “IV Estimation with Valid and Invalid Instruments,”
+mimeo http://economics.mit.edu/files/1056
+• Hansen, Hausman and Newey (2008): “Estimation with Many Instrumental Variables,”
+Journal of Business and Economic Statistics.
+Application: Academic Aptitude Determinants
+
+

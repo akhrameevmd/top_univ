@@ -7,13 +7,82 @@ Provides an overview of macroeconomic issues including the determination of nati
 Fall: R. Caballero, M. Beraja 
 Spring: J. Poterba
 
+Macroeconomics, 7th Edition
+Olivier Blanchard, MIT
+Table of Contents
+
+THE CORE
+
+Introduction
+
+1. A Tour of the World  
+
+2. A Tour of the Book
+
+The Short Run  
+
+3. The Goods Market  
+
+4. Financial Markets I
+
+5. Goods and Financial Markets; The IS-LM Model
+
+6. Financial Markets II
+
+The Medium Run
+
+7. The Labor Market
+
+8. The Phillips Curve, the Natural Rate of Unemployment, and Inflation
+
+9. Putting All Markets Together: From the Short to the Medium Run
+
+The Long Run
+
+10. The Facts of Growth
+
+11. Saving, Capital Accumulation, and Output
+
+12. Technological Progress and Growth
+
+13. Technological Progress: The Short, the Medium, and the Long Runs
+
+EXTENSIONS
+
+Expectations
+
+14. Financial Markets and Expectations
+
+15. Expectations, Consumption, and Investment
+
+16. Expectations, Output, and Policy
+
+The Open Economy
+
+17. Openness in Goods and Financial Markets
+
+18. The Goods Market in an Open Economy
+
+19. Output, the Interest Rate, and the Exchange Rate
+
+20. Exchange Rate Regimes
+
+Back to Policy
+
+21. Should Policy Makers Be Restrained?
+
+22. Fiscal Policy: A Summing Up
+
+23. Monetary Policy: A Summing Up
+
+24. Epilogue: The Story of Macroeconomics
+
+
 14.05 Intermediate Macroeconomics
 Prereq: 14.01, 14.02 
 U (Spring) 
 4-0-8 units. HASS-S
 
-Uses the tools of macroeconomics to investigate various macroeconomic issues in depth. Topics range from economic growth and inequality in the long run to economic stability and financial crises in the short run. Surveys many economic models used today. Requires a substantial research paper on the economics of long-run economic growth.
-A. Simsek
 
 14.06 Advanced Macroeconomics
 Prereq: 14.01, 14.02 

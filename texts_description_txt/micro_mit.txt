@@ -8,10 +8,123 @@ Fall: J. Gruber
 Spring: J. Harris
 
 
+Perloff, Jeffrey M. Microeconomics. 5th ed. Addison Wesley, 2008.
+Brief Contents
+Preface xiv
+Chapter 1 Introduction 1
+Chapter 2 Supply and Demand 9
+Chapter 3 Applying the Supply-and-Demand Model 42
+Chapter 4 Consumer Choice 73
+Chapter 5 Applying Consumer Theory 111
+Chapter 6 Firms and Production 151
+Chapter 7 Costs 184
+Chapter 8 Competitive Firms and Markets 226
+Chapter 9 Applying the Competitive Model 270
+Chapter 10 General Equilibrium and Economic Welfare 316
+Chapter 11 Monopoly 353
+Chapter 12 Pricing and Advertising 394
+Chapter 13 Oligopoly and Monopolistic Competition 436
+Chapter 14 Game Theory 482
+Chapter 15 Factor Markets 517
+Chapter 16 Interest Rates, Investments, and Capital Markets 542
+Chapter 17 Uncertainty 573
+Chapter 18 Externalities, Open-Access, and Public Goods 605
+Chapter 19 Asymmetric Information 637
+Chapter 20 Contracts and Moral Hazards 666
+Chapter Appendixes A-1
+Answers to Selected Questions and Problems A-28
+Sources for Applications A-44
+References A-52
+Index A-60
+Credits A-78
+
+
 14.04 Intermediate Microeconomic Theory
 Prereq: 14.01, Calculus II (GIR) 
 U (Fall) 
 4-0-8 units. HASS-S
+Varian, Hal R. Intermediate Microeconomics: A Modern Approach. 7th ed. New York, NY: W.W. Norton, 2005. ISBN: 9780393927023. The 6th edition may also be used.
+Contents
+
+1. The Market
+
+2. Budget Constraint
+
+3. Preferences
+
+4. Utility
+
+5. Choice
+
+6. Demand
+
+7. Revealed Preference
+
+8. Slutsky Equation
+
+9. Buying and Selling
+
+10. Intertemporal Choice
+
+11. Asset Markets
+
+12. Uncertainty
+
+13. Risky Assets
+
+14. Consumer’s Surplus
+
+15. Market Demand
+
+16. Equilibrium
+
+17. Econometrics
+
+18. Auctions
+
+19. Technology
+
+20. Profit Maximization
+
+21. Cost Minimization
+
+22. Cost Curves
+
+23. Firm Supply
+
+24. Industry Supply
+
+25. Monopoly
+
+26. Monopoly Behavior
+
+27. Factor Markets
+
+28. Oligopoly
+
+29. Game Theory
+
+30. Game Applications
+
+31. Behavioral Economics
+
+32. Exchange
+
+33. Production
+
+34. Welfare
+
+35. Externalities
+
+36. Information Technology
+
+37. Public Goods
+
+38. Asymmetric Information
+
+Mathematical Appendix
+
+
 
 Analysis of consumer and producer decisions including analysis of competitive and monopolistic markets. Price-based partial and general equilibrium analysis. Introduction to game theory as a foundation for the strategic analysis of economic situations. Imperfect competition, dynamic games among firms. Failures of general equilibrium theory and their resolutions: externalities, public goods, incomplete information settings, signaling, screening, insurance, alternative market mechanisms, auctions, design of markets.
 J. Toikka
@@ -30,6 +143,222 @@ Spring: N. Agarwal
 Prereq: 14.04, permission of instructor 
 G (Fall; first half of term) 
 3-0-3 units
+
+Mas-Colell, Andreu, Michael Dennis Whinston, and Jerry R. Green. Microeconomic Theory. Vol. 1. Oxford University Press, 1995. ISBN: 9780195073409.
+Part I: INDIVIDUAL DECISION-MAKING
+Introduction to Part I
+1. Preference and Choice
+A. Introduction
+B. Preference Relations
+C. Choice Rules
+D. The Relationship between Preference Relations and Choice Rules
+Exercises
+2. Consumer Choice
+A. Introduction
+B. Commodities
+C. The Consumption Set
+D. Competitive Budgets
+E. Demand Functions and Comparartive Statics
+F. The Weak Axiom of Revealed Preference and the Law of Demand
+Exercises
+3. Classical Demand Theory
+A. Introduction
+B. Preference Relations: Basic Properties
+C. Preference and Utility
+D. The Utility Maximization Problem
+E. The Expenditure Minimization Problem
+F. Duality: A Mathematical Introduction
+G. Relationships between Demand, Indirect Utility, and Expenditure Functions
+H. Integrability
+I. Welfare Evaluation of Economic Changes
+J. The Strong Axiom of Revealed Preference
+Appendix: Continuity and Differentiability Properties of Walrasian Demand
+Exercises
+4. Aggregate Demand
+A. Introduction
+B. Aggregate Demand and Aggregate Wealth
+C. Aggregate Demand and the Weak Axiom
+D. Aggregate Demand and the Existence of a Representative Consumer
+Appendix: Regularizing Effects of Aggregation
+Exercises
+5. Production
+A. Introduction
+B. Production Sets
+C. Profit Maximization and Cost Minimization
+D. The Geometry of Cost and Supply in the Single Output Case
+E. Aggregation
+F. Efficient Production
+G. Remarks on the Objectives of the Firm
+Appendix: The Linear Activity Model
+Exercises
+6. Choice under Uncertainty
+A. Introduction
+B. Expected Utility Theory
+C. Money Lotteries and Risk Aversion
+D. Comparison of Payoff Distributions in Terms of Return and Risk
+E. State Dependent Utility
+F. Subjective Probability Theory
+Exercises
+Part II: GAME THEORY
+Introduction to Part II
+7. Basic Elements of Non-Cooperative Games
+A. Introduction
+B. What is a Game?
+C. The Extensive Form Representation of a Game
+D. Strategies and the Normal Form Representation of a Game
+E. Randomized Choices
+Exercises
+8. Simultaneous-Move Games
+A. Introduction
+B. Dominant and Dominated Strategies
+C. Rationalizable Strategies
+D. Nash Equilibrium
+E. Games of Incomplete Information: Bayesian Nash Equilibrium
+F. The Possibility of Mistakes: Trembling-Hand Perfection
+Appendix: Existence of Nash Equilibrium
+Exercises
+9. Dynamic Games
+A. Introduction
+B. Sequential Rationality, Backwards Induction, and Subgame Perfection
+C. Sequential Rationality and Out-of-Equilibrium Beliefs
+D. Reasonable Beliefs, Forward Induction, and Normal Form Refinements
+Appendix A: Finite and Infinite Horizon Bilateral Bargaining
+Appendix B: Extensive Form Trembling-Hand Perfection
+Exercises
+Part III: MARKET EQUILIBRIUM AND MARKET FAILURE
+Introduction to Part III
+10. Competitive Markets
+A. Introduction
+B. Pareto Optimality and Competitive Equilibria
+C. Partial Equilibrium Competitive Analysis
+D. The Fundamental Welfare Theorems in a Partial Equilibrium Context
+E. Welfare Analysis in the Partial Equilibrium Model
+F. Free-Entry and Long-Run Competitive Equilibria
+G. Concluding Remarks on Partial Equilibrium Analysis
+Exercises
+11. Externalities and Public Goods
+A. Introduction
+B. A Simple Bilateral Externality
+C. Public Goods
+D. Multilateral Externalities
+E. Private Information and Second-Best Solutions
+Appendix: Non-Convexities and the Theory of Externalities
+Exercises
+12. Market Power
+A. Introduction
+B. Monopoly Pricing
+C. Static Models of Oligopoly
+D. Repeated Interaction
+E. Entry
+F. The Competitive Limit
+G. Strategic Precommitments to Affect Future Competition
+Appendix A: Infinitely Repeated Games and the Folk Theorem
+Appendix B: Strategic Entry Deterrence and Accommodation
+Exercises
+13. Adverse Selection, Signalling, and Screening
+A. Introduction
+B. Informational Asymmetries and Adverse Selection
+C. Signalling
+D. Screening
+Appendix: Reasonable-Beliefs Refinements in Signalling Games
+Exercises
+14. The Principal-Agent Problem
+A. Introduction
+B. Hidden Actions (Moral Hazard)
+C. Hidden Information (and Monopolistic Screening)
+D. Hidden Actions and Hidden Information: Hybrid Models
+Appendix A: Multiple Effort Levels in the Hidden Action Model
+Appendix B: A Formal Solution of the Principal-Agent Problem with Hidden Information
+Exercises
+Part IV: GENERAL EQUILIBRIUM
+Introduction to Part IV
+15. General Equilibrium Theory: Some Examples
+A. Introduction
+B. Pure Exchange: The Edgeworth Box
+C. The One Consumer-One Producer Economy
+D. The 2x2 Production Model
+E. General versus Partial Equilibrium Theory
+Exercises
+16. Equilibrium and Its Basic Welfare Properties
+A. Introduction
+B. The Basic Model and Definitions
+C. The First Fundamental Theorem of Welfare Economics
+D. The Second Fundamental Theorem of Welfare Economics
+E. Pareto Optimality and Social Welfare Optima
+F. First-Order Conditions for Pareto Optimality
+G. Some Applications
+Appendix: Technical Properties of the Set of Feasible Allocations
+Exercises
+17. The Positive Theory of Equilibrium
+A. Introduction
+B. Equilibrium: Definitions and Basic Equations
+C. Existence of Walrasian Equilibrium
+D. Local Uniqueness and the Index Theorem
+E. Anything Goes: The Sonnenschein-Mantel-Debreu Theorem
+F. Uniqueness of Equilibria
+G. Comparative Statics Analysis
+H. Tatonnement Stability
+I. Large Economies and Non-Convexities
+Appendix A: Characterizing Equilibrium through Welfare Equations
+Appendix B: A General Approach to the Existence of Walrasian Equilibrium
+Exercises
+18. Some Foundations for Competitive Equilibria
+A. Introduction
+B. Core and Equilibria
+C. Non-Cooperative Foundations of Walrasian Equilibria
+D. The Limits to Redistribution
+E. Equilibrium and the Marginal Productivity Principle
+Appendix: Cooperative Game Theory
+Exercises
+19. General Equilibrium under Uncertainty
+A. Introduction
+B. A Market Economy with Contingent Commodities: Description
+C. Arrow-Debreu Equilibrium
+D. Sequential Trade
+E. Asset Markets
+F. Incomplete Markets
+G. Firm Behavior in General Equilibrium Models under Uncertainty
+H. Imperfect Information
+Exercises
+20. Equilibrium and Time
+A. Introduction
+B. Intertemporal Utility
+C. Intertemporal Production and Efficiency
+D. Equilibrium: The One-Consumer Case
+E. Stationary Programs, Interest Rates, and Golden Rules
+F. Dynamics
+G. Equilibrium: Several Consumers
+H. Overlapping Generations
+I. Remarks on Non-Equilibrium Dynamics: Tatonnement and Learning
+Exercises
+Part V: WELFARE ECONOMICS AND INCENTIVES
+Introduction to Part V
+21. Social Choice Theory
+A. Introduction
+B. A Special Case: Social Preferences over Two Alternatives
+C. The General Case: Arrow's Impossibility Theorem
+D. Some Possibility Results: Restricted Domains
+E. Social Choice Functions
+Exercises
+22. Elements of Welfare Economics and Axiomatic Bargaining
+A. Introduction
+B. Utility Possibility Sets
+C. Social Welfare Functions and Social Optima
+D. Invariance Properties of Social Welfare Functions
+E. The Axiomatic Bargaining Approach
+F. Coalitional Bargaining: The Shapley Value
+Exercises
+23. Incentives and Mechanism Design
+A. Introduction
+B. The Mechanism Design Problem
+C. Dominant Strategy Implementation
+D. Bayesian Implementation
+E. Participation Constraints
+F. Optimal Bayesian Mechanisms
+Appendix A: Implementation and Multiple Equilibria
+Appendix B: Implementation in Environments with Complete Information
+Exercises
+
 
 Covers consumer and producer theory, markets and competition, general equilibrium and the welfare theorems; featuring applications, uncertainty, identification and restrictions models place on data. Enrollment limited; preference to PhD students.
 R. Townsend
