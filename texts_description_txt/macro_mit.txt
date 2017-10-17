@@ -82,7 +82,8 @@ Back to Policy
 Prereq: 14.01, 14.02 
 U (Spring) 
 4-0-8 units. HASS-S
-
+-Uses the tools of macroeconomics to investigate various macroeconomic issues in depth. Topics range from economic growth and inequality in the long run to economic stability and financial crises in the short run. Surveys many economic models used today. Requires a substantial research paper on the economics of long-run economic growth.
+-A. Simsek
 
 14.06 Advanced Macroeconomics
 Prereq: 14.01, 14.02 
