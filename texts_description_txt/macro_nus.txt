@@ -3,3 +3,101 @@ growth and short-term business cycle, and in the related empirical and policy de
 overlapping-generations models), and various endogenous growth models with knowledge spillovers, human capital and R&D investment. We also consider income
 distribution, convergence, income ranking, and population ageing in the growth models. The business cycle theory includes the real-business cycle model and various New
 Keynesian models. The policy issues include national debt, social security, and monetary policies. It helps students understand the frontier debates in macroeconomics.
+
+
+EC2102 Macroeconomic Analysis I 
+This course develops the analytical tools to understand basic questions on short-run macroeconomic fluctuations, and shows how these tools can be applied to real world situations. In the process of developing these tools, we will discuss the determinants of consumption and investment. Next we turn to different business cycle theories. Specifically, we study the Keynesian, New Keynesian, Neo Classical and Real Business Cycle models, and examine their different assumptions and policy prescriptions for macroeconomic stabilization. IS-LM and AD-AS frameworks are employed in studying some or all of these paradigms. Finally, we evaluate the predictions of these models against business cycle facts. We will also briefly review national income accounting and discuss some measurement issues.
+
+
+Principles of Economics
+N. Gregory Mankiw
+TABLE OF CONTENTS
+Part VIII: THE DATA OF MACROECONOMICS.
+23. Measuring a Nation’s Income.
+24. Measuring the Cost of Living.
+Part IX: THE REAL ECONOMY IN THE LONG RUN.
+25. Production and Growth.
+26. Saving, Investment, and the Financial System.
+27. Tools of Finance.
+28. Unemployment and Its Natural Rate.
+Part X: MONEY AND PRICES IN THE LONG RUN.
+29. The Monetary System.
+30. Money Growth and Inflation.
+Part XI: THE MACROECONOMICS OF OPEN ECONOMICS.
+31. Open-Economy Macroeconomics: Basic Concepts.
+32. A Macroeconomic Theory of the Open Economy.
+Part XII: SHORT-RUN ECONOMIC FLUCTUATIONS.
+33. Aggregate Demand and Aggregate Supply.
+34. The Influence of Monetary and Fiscal Policy on Aggregate Demand.
+35. The Short-Run Tradeoff between Inflation and Unemployment.
+Part XIII: FINAL THOUGHTS.
+36. Six Debates over Macroeconomic Policy.
+
+EC3102 Macroeconomic Analysis II
+This course follows up on Macroeconomics I (EC2102). We review consumption and investment theories, and study the determinants of money demand and supply. Aggregate Supply functions under differing assumptions regarding labour-market clearing and price expectations (rational or adaptive) are derived next, and combined with the Aggregate Demand function to study policy and other effects. We next examine the expectations-augmented Phillips Curve, and simple inflation-unemployment dynamics. We also study further policy issues (time inconsistency, Ricardian Equivalence, profit-sharing), open-economy macroeconomics (the Mundell-Fleming model), and simple growth theory (the Solow model and the AK endogenous growth model).
+
+Macroeconomics by Blanchard and Johnson, 6th Edition.
+Introduction  1
+Chapter 1 A Tour of the World  3
+Chapter 2 A Tour of the Book  19
+The Short Run  41
+Chapter 3 The Goods Market  43
+Chapter 4 Financial Markets  63
+Chapter 5 Goods and Financial Markets:
+The IS–LM Model  85
+The Medium Run  109
+Chapter 6 The Labor Market  111
+Chapter 7 Putting All Markets Together:
+The AS–AD Model  133
+Chapter 8 The Phillips Curve, the Natural Rate
+of Unemployment, and Inflation  161
+Chapter 9 The Crisis  183
+The Long Run  205
+Chapter 10 The Facts of Growth  207
+Chapter 11 Saving, Capital Accumulation,
+and Output  225
+Chapter 12 Technological Progress and
+Growth  249
+Chapter 13 Technological Progress: The
+Short, the Medium, and the
+Long Run  267
+EXTENSIONS
+Expectations  289
+Chapter 14 Expectations: The Basic Tools  291
+Chapter 15 Financial Markets and
+Expectations  313
+Chapter 16 Expectations, Consumption,
+and Investment  337
+Chapter 17 Expectations, Output,
+and Policy  357
+The Open Economy  377
+Chapter 18 Openness in Goods and Financial
+Markets  379
+Chapter 19 The Goods Market in an Open
+Economy  399
+Chapter 20 Output, the Interest Rate, and
+the Exchange Rate  423
+Chapter 21 Exchange Rate Regimes  445
+Back to Policy  471
+Chapter 22 Should Policymakers Be
+Restrained?  473
+Chapter 23 Fiscal Policy: A Summing Up  493
+Chapter 24 Monetary Policy: A Summing Up  517
+Chapter 25 Epilogue: The Story of
+Macroeconomics  539
+EC4302 Macroeconomic Analysis III
+This module is divided into two sections; long- and short- run macro-economic analysis. In the first section, we shall discuss various theories of economic growth using inter-temporal optimization models, which include neo-classical growth models and overlapping-generations models. In the second section, we shall add stochastic elements to the standard neo-classical growth model and use it to study business cycles. Our focus will be to highlight the similarities and differences between the Real Business Cycle and New-Keynesian Models. This course is suitable for students intending to pursue graduate studies or quantitative research (in ministries, statutory boards, etc.) in Economics.
+
+Topics
+1.   Preference and Utility
+2.   Utility-Maximizing Problem and Its Solution
+3.   Utility-Maximizing Problem and Expenditure-Minimizing Problem
+4.   Law of Demand, Exchange Economies, Pareto Efficiency
+5.   Core and Competitive Equilibrium
+6.   Welfare Theorems and Existence of Competitive Equilibrium
+7.   Choice under Risk
+8.   Externality
+9.   Asymmetric Information
+10. Modelling Strategic Behaviours I
+11. Modelling Strategic Behaviours II
+12. Incomplete Information and Efficient Mechanism

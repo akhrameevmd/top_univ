@@ -2,8 +2,128 @@ Econometrics
 Description/Objectives:
 This course is an introduction to econometrics. Econometrics is a sub-discipline of statistics that provides methods for inferring economic structure from data. This course has two goals. The first goal is to give you means to evaluate an econometric analysis critically and logically. Second, you should be able to analyze a data set methodically and comprehensively using the tools of econometrics.
 
+Stock and Watson, Introduction to Econometrics, “3rd edition”
+Table of Contents
+Part I. Introduction and Review  
+Chapter 1. Economic Questions and Data
+Chapter 2. Review of Probability 
+Chapter 3. Review of Statistics 
+Part II. Fundamentals of Regression Analysis  
+Chapter 4. Linear Regression with One Regressor
+Chapter 5. Regression with a Single Regressor: Hypothesis Tests and Confidence Intervals  
+Chapter 6. Linear Regression with Multiple Regressors  
+Chapter 7. Hypothesis Tests and Confidence Intervals in Multiple Regression  
+Chapter 8. Nonlinear Regression Functions  
+Chapter 9. Assessing Studies Based on Multiple Regression  
+Part III. Further Topics in Regression Analysis  
+Chapter 10. Regression with Panel Data 
+Chapter 11. Regression with a Binary Dependent Variable  
+Chapter 12. Instrumental Variables Regression  
+Chapter 13. Experiments and Quasi-Experiments
+Part IV. Regression Analysis of Economic Time Series Data  
+Chapter 14. Introduction to Time Series Regression and Forecasting 
+Chapter 15. Estimation of Dynamic Causal Effects  
+Chapter 16. Additional Topics in Time Series Regression 
+Part V. The Econometric Theory of Regression Analysis  
+Chapter 17. The Theory of Linear Regression with One Regressor 
+Chapter 18. The Theory of Multiple Regression  
+
 ECO517: ECONOMETRIC THEORY I
 course description Part I of the course provides an introduction to statistical theory.
 A brief review of probability will be given mainly as background material; it is
 assumed to be known. Part II of the course provides an introduction to regression
 analysis.
+
+Hayashi, F. (2000) Econometrics, Princeton University Press, Princeton, NJ
+Table of Contents
+List of Figures xvii
+Preface xix
+1 Finite-Sample Properties of OLS 3
+1.1 The Classical Linear Regression Model 3
+The Linearity Assumption 4
+Matrix Notation 6
+The Strict Exogeneity Assumption 7
+Implications of Strict Exogeneity 8
+Strict Exogeneity in Time-Series Models 9
+Other Assumptions of the Model 10
+The Classical Regression Model for Random Samples 12
+"Fixed" Regressors 13
+1.2 The Algebra of Least Squares 15
+OLS Minimizes the Sum of Squared Residuals 15
+Normal Equations 16
+Two Expressions for the OLS Estimator 18
+More Concepts and Algebra 18
+Influential Analysis (optional) 21
+A Note on the Computation of OLS Estimates 23
+1.3 Finite-Sample Properties of OLS 27
+Finite-Sample Distribution of b 27
+Finite-Sample Properties of s2 30
+Estimate of Var(b | X) 31
+1.4 Hypothesis Testing under Normality 33
+Normally Distributed Error Terms 33
+Testing Hypotheses about Individual Regression Coefficients 35
+Decision Rule for the t-Test 37
+Confidence Interval 38
+p-Value 38
+Linear Hypotheses 39
+The F-Test 40
+A More Convenient Expression for F 42
+t versus F 43
+An Example of a Test Statistic Whose Distribution Depends on X 45
+1.5 Relation to Maximum Likelihood 47
+The Maximum Likelihood Principle 47
+Conditional versus Unconditional Likelihood 47
+The Log Likelihood for the Regression Model 48
+ML via Concentrated Likelihood 48
+Cramer-Rao Bound for the Classical Regression Model 49
+The F-Test as a Likelihood Ratio Test 52
+Quasi-Maximum Likelihood 53
+1.6 Generalized Least Squares (GLS) 54
+Consequence of Relaxing Assumption 1.4 55
+Efficient Estimation with Known V 55
+A Special Case: Weighted Least Squares (WLS) 58
+Limiting Nature of GLS 58
+1.7 Application: Returns to Scale in Electricity Supply 60
+The Electricity Supply Industry 60
+The Data 60
+Why Do We Need Econometrics? 61
+The Cobb-Douglas Technology 62
+How Do We Know Things Are Cobb-Douglas? 63
+Are the OLS Assumptions Satisfied? 64
+Restricted Least Squares 65
+Testing the Homogeneity of the Cost Function 65
+Detour: A Cautionary Note on R2 67
+Testing Constant Returns to Scale 67
+Importance of Plotting Residuals 68
+Subsequent Developments 68
+Problem Set 71
+Answers to Selected Questions 84
+2 Large-Sample Theory 88
+2.1 Review of Limit Theorems for Sequences of Random Variables 88
+Various Modes of Convergence 89
+Three Useful Results 92
+Viewing Estimators as Sequences of Random Variables 94
+Laws of Large Numbers and Central Limit Theorems 95
+2.2 Fundamental Concepts in Time-Series Analysis 97
+Need for Ergodic Stationarity 97
+Various Classes of Stochastic Processes 98
+Different Formulation of Lack of Serial Dependence 106
+The CLT for Ergodic Stationary Martingale Differences Sequences 106
+2.3 Large-Sample Distribution of the OLS Estimator 109
+The Model 109
+Asymptotic Distribution of the OLS Estimator 113
+s2 Is Consistent 115
+2.4 Hypothesis Testing 117
+Testing Linear Hypotheses 117
+The Test Is Consistent 119
+Asymptotic Power 120
+Testing Nonlinear Hypotheses 121
+2.5 Estimating  Consistently 123
+Using Residuals for the Errors 123
+Data Matrix Representation of S 125
+Finite-Sample Considerations 125
+2.6 Implications of Conditional Homoskedasticity 126
+Conditional versus Unconditional Homoskedasticity 126
+Reduction to Finite-Sample Formulas 127
+Large-Sample Distribution of t and F Statistics 128
+Variations of As

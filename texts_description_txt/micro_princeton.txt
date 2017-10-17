@@ -5,3 +5,33 @@ decision making of individuals regarding what and how much to consume, 2) the de
 making of rms regarding what and how much to produce, 3) how these decisions are coor-
 dinated (for better and for worse) through market and other institutions, and 4) the role of
 public policy (e.g., taxation, expenditure, and regulation).
+
+Parkin, Michael. Microeconomics, 
+Table of Contents
+
+I. Introduction
+1. What is Economics?
+2. The Economic Problem
+II. How Markets Work
+3. Demand and Supply
+4. Elasticity
+5. Efficiency and Equity
+6. Government Actions in Markets
+7. Global Markets in Action
+III. Households’ Choices
+8. Utility and Demand
+9. Possibilities, Preferences, and Choices
+IV. Firms and Markets
+10. Organizing Production
+11. Output and Costs
+12. Perfect Competition
+13. Monopoly
+14. Monopolistic Competition
+15. Oligopoly
+V. Market Failure and Government
+16. Public Choices and Public Goods
+17. Economics of the Environment
+VI. Factor Markets, Inequality, and Uncertainty
+18. Markets for Factors of Production
+19. Economic Inequality
+20. Uncertainty and Information

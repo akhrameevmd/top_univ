@@ -1,6 +1,36 @@
 ECONOMICS 101 THE NATIONAL ECONOMY
 The purpose of the problem sets is to enhance your understanding of economics and to raise your analytical skills in general. Of course, they are also part of your preparation for exams. You are encouraged to discuss the problem sets with classmates (or anyone else), but the work you hand in must be your work. If you work together, then think about your answers and put them into your own words. Searching the WEB for former answer sheets is cheating. Getting help from tutors is OK, but be certain to work on the problem sets alone first so that you gain the needed analytical skills to perform on the exams. Any student caught cheating on any component of the course may receive a failing grade for the entire course. (I don’t expect to see this at Princeton, but I’m supposed to remind students of the rules.)
 
+William J. Baumol and Alan S. Blinder, Macroeconomics: Principles and Policy, 13th Edition
+ART I: GETTING ACQUAINTED WITH ECONOMICS.
+1. What Is Economics? 
+2. The Economy: Myth and Reality.
+3. The Fundamental Economic Problem: Scarcity and Choice.
+4. Supply and Demand: An Initial Look.
+PART II: THE MACROECONOMY: AGGREGATE SUPPLY AND DEMAND.
+5. An Introduction to Macroeconomics.
+6. The Goals of Macroeconomic Policy.
+7. Economic Growth: Theory and Policy.
+8. Aggregate Demand and the Powerful Consumer.
+9. Demand-Side Equilibrium: Unemployment or Inflation?
+10. Bringing in the Supply Side: Unemployment and Inflation?
+PART III: FISCAL AND MONETARY POLICY.
+11. Managing Aggregate Demand: Fiscal Policy.
+12. Money and the Banking System.
+13. Monetary Policy: Conventional and Unconventional.
+14. The Financial Crisis and the Great Recession.
+15. The Debate over Monetary and Fiscal Policy.
+16. Budget Deficits in the Short and Long Run.
+17. The Trade-Off Between Inflation and Unemployment.
+PART IV: THE UNITED STATES IN THE WORLD ECONOMY.
+18. International Trade and Comparative Advantage.
+19. The International Monetary System: Order or Disorder?
+20. Exchange Rates and the Macroeconomy.
+Appendix: Answers to Odd-Numbered Test Yourself Questions.
+Glossary.
+Index.
+
+
 Macroeconomic Theory I
 Topics: The course will follow the designs of Richard Rogerson and Ben Moll who have taught the course
 in previous years. Ben's slides for 503 are publicly available on his website. I plan, however, to teach on
@@ -9,3 +39,9 @@ The course will use the neoclassical growth framework to touch upon various key 
 growth, taxation, and the income distribution, but mostly it will serve as an environment to introduce
 standard tools and methods used in modern macroeconomics. The following is a coarse and preliminary
 outline of the course.
+ Ljungqvist, Lars and Thomas J. Sargent (2004), “Recursive Macroeconomic Theory”.
+Part I: The imperialism of recursive
+methods
+1. Overview
+Part II: Tools
+10. Ricardian Equivalence 31211. Fiscal Policies in the Growth Model 32314. Economic Growth 44915. Optimal Taxation with Commitment 47822. Credible Government Policies 77323. Two Topics in International Trade 82024. Fiscal-Monetary Theories of Inflation 85725. Credit and Currency 904

@@ -1,5 +1,92 @@
+EC5101A MICROECONOMICS
 This course is designed to provide students with a sound understanding of modern microeconomic theory. It will cover the aspects of microeconomic theory that are required
 to analyse contemporary economics issues and to create new models to explain the behaviour of individuals, firms, and markets, and to evaluate economic policies. The topics
 will include consumer and producer theories, analysis of risk and uncertainty, game theory and its applications in economics, general equilibrium, market failure and welfare
 economics. The course considers the problem of incomplete and asymmetric information in market interactions, including the issues of moral hazard, adverse selection, and
 signaling. The impact of government policies on economic activities will also be examined.
+
+
+
+EC2101 Microeconomic Analysis I
+This course is for students who have studied the principles of economics and will take them through to the next level in their study of microeconomics. Our approach stresses the relevance and application of microeconomic theory in both managerial and public policy decision making. A combination of tables, figures, and simple mathematics will be used to provide the grounding in the key principles of microeconomics for further study in the economics programme.
+ 
+Microeconomics, 8th ed., 2012--by Robert S. Pindyck & Daniel L. Rubinfeld
+ PART ONE
+Introduction: Markets and Prices 1
+ 1
+Preliminaries 3
+ 2
+The Basics of Supply and Demand 21
+ PART TWO
+Producers, Consumers, and Competitive Markets 65
+ 3
+Consumer Behavior 67
+ 4
+Individual and Market Demand 111
+ 5
+Uncertainty and Consumer Behavior 159
+ 6
+Production 201
+ 7
+The Cost of Production 229
+ 8
+Profit Maximization and Competitive Supply 279
+ 9
+The Analysis of Competitive Markets 317
+ PART THREE
+Market Structure and Competitive Strategy 355
+ 10
+Market Power: Monopoly and Monopsony 357
+ 11
+Pricing with Market Power 399
+ 12
+Monopolistic Competition and Oligopoly 451
+ 13
+Game Theory and Competitive Strategy 487
+ 14
+Markets for Factor Inputs 529
+ 15
+Investment, Time, and Capital Markets 559
+ PART FOUR 
+Information, Market Failure, and the Role of Government 593
+ 16
+General Equilibrium and Economic Efficiency 595
+ 17
+Markets with Asymmetric Information 631
+ 18
+Externalities and Public Goods 661
+Appendix: The Basics of Regression 700Glossary 708Answers to Selected Exercises 718Photo Credits 731Index 732
+
+
+
+EC3101 Microeconomic Analysis II
+This module is a continuation of the foundation module on microeconomics. It is designed to equip students with the standard tools and techniques to analyze microeconomic issues and to prepare them to access higher level modules that utilize microeconomic analysis. The module begins with a review of several foundation topics on consumer and producer theory covered in the prerequisite course, i.e. EC2101. It then moves on to discuss the general equilibrium model, whereby consumers and producers are put together in a general equilibrium framework. After that, it covers choice over time, i.e. inter-temporal choice and choices over different states of the world, i.e. choices under uncertainty. It then continues with game theory. This topic will be discussed extensively. Coverage will include various solution concepts for one-shot games and sequential move games. Applications of the theory on the issues of oligopolistic competition, entry and entry prevention, and network economics will receive a great deal of attention. Finally, the module ends with the asymmetric information, i.e. moral hazard and adverse selection and its application on the internal organisation of the firm. Throughout the course, empirical observations and real-life cases pertaining to the issues discussed in this module are presented.
+
+Intermediate Microeconomics by Hal Varian, 8th Edition.
+
+Intertemporal Choice
+Uncertainty (covered in EC2101)
+Exchange
+Externalities
+Game Theory
+Game Applications
+Oligopoly
+Asymmetric Information
+
+
+EC4301 Microeconomic Analysis III
+The purpose of this course is to provide students with a sound understanding of modern microeconomic theory. The first half of the course introduces the fundamental tools of microeconomic analysis. It covers consumer theory, firm theory, and general equilibrium. The second half consists of introduction to a number of topics which signify the recent development in microeconomics. These topics include decisions under uncertainty and asymmetric information, and non-cooperative game theory and its applications.
+
+Topics
+1.   Preference and Utility
+2.   Utility-Maximizing Problem and Its Solution
+3.   Utility-Maximizing Problem and Expenditure-Minimizing Problem
+4.   Law of Demand, Exchange Economies, Pareto Efficiency
+5.   Core and Competitive Equilibrium
+6.   Welfare Theorems and Existence of Competitive Equilibrium
+7.   Choice under Risk
+8.   Externality
+9.   Asymmetric Information
+10. Modelling Strategic Behaviours I
+11. Modelling Strategic Behaviours II
+12. Incomplete Information and Efficient Mechanism
