@@ -1,6 +1,21 @@
 Ec 122. Econometrics. 9 units (3-0-6); first term. Prerequisites: Ma 3.
 The application of statistical techniques to the analysis of economic data.
 Instructor: Sherman. 
+
+Course Description: Econometrics is the study of y’s and x’s and u’s. The y’s are observed
+economic response variables, the x’s are observed variables that determine the y’s in some way,
+and the u’s are unobserved variables that also determine the y’s. For example, y could be
+wages, the x’s might include variables like education and experience, and the u’s might involve
+variables like ability and motivation. In this example, one may want to determine the rate of
+return to education, that is, the effect of an additional year of schooling on expected wages.
+Data is collected on the y’s and x’s. Interest centers on using the data together with economics,
+statistics and computing to (i) determine the causal effect of one of the x’s on IE(y | x) (ii)
+predict values of y given the x’s and (iii) test economic theories about the relationship between
+the x’s and y. This class will emphasize objectives (i) and (iii). As we will see, the relationship
+between the x’s and the u’s will be critically important in determining how difficult it will be to
+achieve these objectives. The hope is that by the end of the class you will begin to understand
+something of what constitutes sound econometric analysis.
+
 Required textbooks:
 hill, r. carter,griffiths, william e.,lim, guay c.; principles of econometrics (4th), wiley, 2011. ISBN:
 978-0-470-62673-3

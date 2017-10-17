@@ -1,0 +1,154 @@
+Syllabus for Ec 122: Econometrics
+Fall, 2013
+
+Room: 125 Baxter
+Days and Times: Tuesdays and Thursdays, 1 - 2:30pm
+Required Text: Principles of Econometrics, 4th Edition, Hill, Griffiths, and Lim, Wiley, 2011.
+Recommended Text: Applied Econometrics in R, Kleiber and Zeileis, Springer, 2008.
+Instructor: Bob Sherman
+Office: Baxter 119
+Phone: 4337
+Office Hours: Fridays, 1 - 2:30pm and by (dis)appointment.
+TA: Kyle Carlson
+email: kyle21c@gmail.com
+office hours: Mondays, 2:30 - 4pm
+Secretary: Sabrina Boschetti
+Office: Baxter 123
+Phone: 4228
+
+Course Description: Econometrics is the study of y’s and x’s and u’s. The y’s are observed
+economic response variables, the x’s are observed variables that determine the y’s in some way,
+and the u’s are unobserved variables that also determine the y’s. For example, y could be
+wages, the x’s might include variables like education and experience, and the u’s might involve
+variables like ability and motivation. In this example, one may want to determine the rate of
+return to education, that is, the effect of an additional year of schooling on expected wages.
+Data is collected on the y’s and x’s. Interest centers on using the data together with economics,
+statistics and computing to (i) determine the causal effect of one of the x’s on IE(y | x) (ii)
+predict values of y given the x’s and (iii) test economic theories about the relationship between
+the x’s and y. This class will emphasize objectives (i) and (iii). As we will see, the relationship
+between the x’s and the u’s will be critically important in determining how difficult it will be to
+achieve these objectives. The hope is that by the end of the class you will begin to understand
+something of what constitutes sound econometric analysis.
+1
+
+Grading: There will be 9 homework sets and a take-home final exam.
+Homework: 50%
+Final: 50%
+Letter grades will be determined as follows:
+A: 90% or higher
+B: 80-89%
+C: 70-79%
+D: 60-69%
+F: Below 60%
+I will give pluses and minuses for grades A through D. For example, a score of at least 90 but
+less than 93 will be an A-, a score of at least 93 but less than 97 will be an A, and a score of at
+least 97 will be an A+. Similarly for the other letters.
+
+Homework sets will be based on material covered during the week in lectures, in the text, in
+handouts, and in the Sunday comics. The handouts will consist of journal articles (one every
+other week, roughly) whose purpose will be to give you some idea of the types of problems that
+econometrics can be used to address. Homework assignments will be given each Tuesday and
+will be due the following Tuesday at the beginning of class. I will try to have the homeworks
+graded by the beginning of class on the Tuesday after they are handed in. No homework sets will
+be given during finals week. The goal of the homework sets will be to get students to think and
+compute. This means that there will be analytical problems and computational problems. The
+computational problems will involve either simulation exercises or exercises involving analysis
+of real data sets.
+
+The final will test your understanding of material from the entire course, but will have no
+computing component. You can pick up the exam from my mailbox after 9am on Wednesday,
+December 11. The exam must be returned to me (or under my door, if I’m out of my office) by
+5pm Friday, December 13. You may take as much time as you want for the exam.
+
+Collaboration Policy: You are encouraged to freely collaborate on the homework sets. That
+2
+
+is, you may discuss and even work out solutions to the homework sets together. However, you
+must write up your own solutions. No copying. You are on your own for the final exam. No
+collaboration on the final.
+
+Homework Make-up Policy: You must have a doctor’s note or be able to give evidence of
+some other serious personal matter to be able to make up a missed homework assignment. It is
+not sufficient for you to be busy or even overwhelmed with other assignments or tests. Please
+plan ahead. I sometimes make exceptions for job interviews, NSF Fellowship proposal deadlines,
+Monday Night Football, important stuff like that, but in such cases, you must see me at least a
+week in advance.
+
+Books on Reserve at Sherman-Fairchild
+1. Principles of Econometrics, 4th Edition, Hill, Griffiths, and Lim, Wiley, 2011.
+2. Applied Econometrics in R, Kleiber and Zeileis, Springer, 2008.
+
+Computing: You are encouraged to use R. However, you may use any package you wish, such
+EViews, Excel, SAS, Stata, HANSL, GRETL, (see page viii of the text for more on these packages). You may also use Mathematica or Matlab. Mathematica and Matlab can be downloaded
+free from the IMSS website by any Caltech student. R can be downloaded free from the R
+website
+http://cran.stat.ucla.edu/.
+Let me emphasize that you will be on your own for support with any package except R. Also,
+you are strongly discouraged from relying exclusively on Excel.
+I will post notes, homeworks, journal articles, etc, at Moodle, which can be accessed at
+https://courses.caltech.edu/login/index.php
+with your IMSS username and password, using my last name “sherman” as the enrollment key.
+Here are links to R tutorials that you may find useful:
+
+3
+
+http://cran.r-project.org/doc/manuals/R-intro.pdf
+http://www.cyclismo.org/tutorial/R/
+A good quick refererence book for R is
+R in a Nutshell, Adler, O’Reilly, 2010.
+Here are links to free online R books available through springerlink (from on-campus IP’s):
+Full series:
+http://www.springerlink.com/content/t83625/
+Specific books:
+http://www.springerlink.com/content/978-0-387-74730-9/
+http://www.springerlink.com/content/978-0-387-93836-3/
+http://www.springerlink.com/content/978-0-387-77316-2/
+http://www.springerlink.com/content/978-0-387-98140-6/
+
+Here’s a tentative schedule for the fall term. It’s far too ambitious, but as a famous poet once
+said: “A man’s reach should exceed his grasp, or what’s a heaven for?”
+
+Date
+Week
+Week
+Week
+Week
+Week
+Week
+Week
+Week
+Week
+Week
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Material Covered
+HGL Chapters 1-2, Matrix Approach, FWL
+FWL, HGL Chapter 3
+HGL Chapters 4-5
+HGL Chapters 6-7
+HGL Chapters 8-9
+HGL Chapters 10-11
+HGL Chapters 11-12
+HGL Chapter 13, Bootstrap
+HGL Chapters 14-15
+HGL Chapters 15-16
+
+Some milestones (millstones?):
+October 18: Last day to add class
+November 20: Last day to drop class
+December 5: Last day of class
+Decmber 11: Final exam, a day without class
+
+4
+
+

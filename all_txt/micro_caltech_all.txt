@@ -1,53 +1,65 @@
-Ec 11. Introduction to Economics. 9 units (3-2-4); first, second terms. An
-introduction to economic methodology, models, and institutions. Includes
-both basic microeconomics and an introduction to modern approaches to
-macroeconomic issues. Students are required to participate in economics
-experiments. Instructors: Plott, Rangel.
-Ec 97. Undergraduate Research. Units to be arranged; any term.
-Prerequisites:Advanced economics and instructor�s permission. This course offers
-advanced undergraduates the opportunity to pursue research in Economics
-individually or in a small group. Graded pass/fail. 
-515
-Ec 98 abc. Senior Research and Thesis. Prerequisite: instructor�s permission.
-Senior economics majors wishing to undertake research may elect a variable
-number of units, not to exceed 12 in any one term, for such work under the
-direction of a member of the economics faculty.
-Ec 101. Selected Topics in Economics. Units to be determined by arrangement
-with the instructor; offered by announcement. Topics to be determined by
-instructor. Instructors: Staff, visiting lecturers.
-Ec 105. Industrial Organization. 9 units (3-0-6); first term. Prerequisites:
-Ec 11 or equivalent. A study of how technology affects issues of
-market structure and how market structure affects observable economic
-outcomes, such as prices, profits, advertising, and research and development
-expenditures. Emphasis will be on how the analytic tools
-developed in the course can be used to examine particular industries�
-especially those related to internet commerce�in detail. Each student is
-expected to write one substantial paper. Not offered 2016�17.
-Ec 106. Topics in Applied Industrial Organization. 9 units (3-0-6); first
-term. Prerequisite: Ec 11; Ec 116 recommended. Topics include simulation of
-mergers in oligopolistic industries, valuation of intellectual property, price
-setting and concentration in the pharmaceutical market, and statistical
-analysis of combined tobacco and asbestos exposure. A term paper will be
-required. Not offered 2016�17.
-Ec/Psy 109. Frontiers in Behavioral Economics. 9 units (3-0-6), first term.
-Prerequisites: Ec 11. Behavioral economics studies agents who are biologically
-limited in computational ability, willpower and pure self-interest. An
-important focus is how those limits interact with economic institutions
-and firm behavior. This reading-driven course will cover new papers that
-are interesting and draw attention to a topic of importance to economics.
-Readings will cover lab and field experiments, axiomatic models of behavioral
-phenomena, and welfare. Each weekly discussion will begin with a
-10-minute overview, then an inspection of the paper�s scientific machinery,
-judge whether its conclusions are justified, and speculate about the scope
-of its generalizability. It should help students as referees and as writers. Assignments
-are two 1000-word summary-critiques. Not offered 2016�17.
-Ec 116. Contemporary Socioeconomic Problems. 9 units (3-0-6). Prerequisites:
-Ec 11 and PS 12 or equivalents. An analytical investigation of the
-economic aspects of certain current social issues. Topics: the economics of
-education, medical-care systems, urban affairs, and the welfare system. Not
-offered 2016�17.
-Ec 121 ab. Theory of Value. 9 units (3-0-6); first, second terms. Prerequisites:
-Ec 11 and Ma 2 (may be taken concurrently). A study of consumer preference,
-the structure and conduct of markets, factor pricing, measures of economic
-efficiency, and the interdependence of markets in reaching a general equilibrium.
-Instructors: Border, Saito
+California Institute of Technology
+Ec 105. Industrial Organization. Winter Term 2005
+
+Course Outline
+
+Instructor: Simon Wilkie
+Office: Baxter 105
+Phone : X4216
+Email: wilkie@hss.caltech.edu
+
+TA: Laura Panattoni
+Email: lpan@hss.caltech.edu
+
+Secretary: Patricia Hamad
+Phone: X3586
+Email: path@hss.caltech.edu
+
+Class: Baxter 25 Mon. and Wed. 1.00 to 2.30.
+Text Book: “Industrial Organization” by Oz Shy, MIT Press.
+Recommended Reading. At times we will also refer to the following:
+“Sunk Cost and Market Structure,” by J. Sutton, MIT Press.
+“Industry Structure, Strategy and Public Policy,” by F. M. Scherer, Harper
+Collins.
+“Information Rules” by C. Shapiro and H. Varian, HBS Press.
+“The Innovator’s Dilemma” by C. Christensen, HBS Press.
+Grades: Based on 5 homework sets, together worth half of the grade, and a final
+exam worth half. Collaboration is allowed on the homework, but not the final.
+1
+
+In this course we study the strategic decisions faced by firms in the marketplace.
+The basic framework of analysis is the “Structure-Conduct-Performance” paradigm.
+That is, we ask how does market structure, factors such as; the number of firms in
+the market, the relative size of firms, and the similarity of products, and the quality of information, affect strategy or conduct. Strategic decisions include; pricing
+practices, investment levels, advertising, and research expenditures. We then ask
+how strategic conduct affect the market’s “performance.” This includes questions
+such as: Is the market efficient? What are the firm’s profits? Are consumers hurt
+by certain practices? Is the there too much or too little product diversity? We will
+also ask how performance may then have a feedback affect on structure. Examples
+include, innovation, exit and entry, and mergers.
+In the first five to six weeks of the class we will present the analytical models
+used in Industrial Organization, and we will follow the text book closely. The last
+four weeks will involve “case studies” of particular industries to showcase how the
+models are used. This later part of the course will use additional readings that will
+be placed on reserve in the Millikan Library.
+Syllabus
+1 Introduction to Game Theory and Strategy.
+2 The “Structure-Conduct-Performance,” paradigm.
+3 Homogeneous Goods (commodities) and Models of Competition.
+4 Exogenous Barriers to Entry: Technology and Sunk Costs.
+5 Strategic Barriers to Entry 1. Advertising and Branding.
+6 Strategic Barriers to Entry 2: Technology Choice and R&D.
+7 Market Design 1: Vertical Relationships: Supply, Contracting, Integration.
+8 Market Design 2: Horizontal Relationships: Mergers, Strategic Partnerships
+9 Market Design 3: Network Externalities: Networks, Standardization.
+10 The General Model: Empirical Implications and Tests of the Theory.
+11 Case Study 1: The Beer Industry: Advertising and Contested Leadership.
+2
+
+13 Case Study 2: Intel: R&D and the Product Cycle.
+14 Case Study 3: The Airline Industry: Endogenous Technology and Structure.
+16 Case Study 4: A Primer on Media Markets: Sport as an ”Essential Facility”
+
+3
+
+

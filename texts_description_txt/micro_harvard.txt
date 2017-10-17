@@ -4,3 +4,106 @@ Course Objectives: The main objectives of the course are:
  Study the economic principles that attempt to elucidate the complex choices that households, businesses, and societies make in their pursuit of happiness and greater common good
  Critically examine the role of government policies in achieving greatest common good both at micro and macro levels
  Learn about the tools and methodologies that economists use as social scientists to arrive at economic theories.
+
+
+Economics, 5th Edition
+R. Glenn Hubbard, Columbia University
+Anthony Patrick O'Brien, Lehigh University
+Table of Contents
+
+Part 1: Introduction
+
+1. Economics: Foundations and Models
+
+Appendix: Using Graphs and Formulas
+2: Trade-offs, Comparative Advantage, and the Market System
+
+3. Where Prices Come From: The Interaction of Demand and Supply
+
+4. Economic Efficiency, Government Price Setting, and Taxes
+
+Appendix: Quantitative Demand and Supply Analysis
+
+Part 2: Markets in Action: Policy and Applications
+
+5. Externalities, Environmental Policy, and Public Goods
+
+6. Elasticity: The Responsiveness of Demand and Supply
+
+7. The Economics of Health Care
+
+Part 3: Firms in the Domestic and International Economies
+
+8. Firms, the Stock Market, and Corporate Governance
+
+Appendix: Tools to Analyze Firms’ Financial Information
+
+9. Comparative Advantage and the Gains from International Trade
+
+Part 4: Microeconomic Foundations: Consumers and Firms
+
+10. Consumer Choice and Behavioral Economics
+
+Appendix: Using Indifference Curves and Budget Lines to Understand Consumer Behavior
+
+11: Technology, Production, and Costs
+
+Appendix: Using Isoquants and Isocost Lines to Understand Production and Cost
+
+Part 5: Market Structure and Firm Strategy
+
+12. Firms in Perfectly Competitive Markets
+
+13. Monopolistic Competition: The Competitive Model in a More Realistic Setting
+
+14. Oligopoly: Firms in Less Competitive Markets
+
+15. Monopoly and Antitrust Policy
+
+16. Pricing Strategy
+
+Part 6: Labor Markets, Public Choice, and the Distribution of Income
+
+17. The Markets for Labor and Other Factors of Production
+
+18. Public Choice, Taxes, and the Distribution of Income
+
+Part 7: Macroeconomic Foundations and Long-Run Growth
+
+19. GDP: Measuring Total Production and Income
+
+20. Unemployment and Inflation
+
+21. Economic Growth, the Financial System, and Business Cycles
+
+22. Long-Run Economic Growth: Sources and Policies
+
+Part 8: Short-Run Fluctuations
+
+23. Aggregate Expenditure and Output in the Short Run
+
+Appendix: The Algebra of Macroeconomic Equilibrium
+
+24. Aggregate Demand and Aggregate Supply Analysis
+
+Appendix: Macroeconomic Schools of Thought
+
+Part 9: Monetary and Fiscal Policy
+
+25: Money, Banks, and the Federal Reserve System
+
+26: Monetary Policy
+
+27: Fiscal Policy
+
+Appendix: A Closer Look at the Multiplier
+
+28: Inflation, Unemployment, and Federal Reserve Policy
+
+Part 10: The International Economy
+
+29: Macroeconomics in an Open Economy
+
+30: The International Financial System
+
+Appendix: The Gold Standard and the Bretton Woods System

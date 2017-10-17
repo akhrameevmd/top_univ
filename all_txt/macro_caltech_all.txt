@@ -1,7 +1,592 @@
-Ec 123. Macroeconomics. 9 units (3-0-6); third term. Prerequisite: Ec 11
-and modest ability to program in Matlab or Mathematica. The role of time and
-uncertainty in understanding the behavior of economic aggregates such as
-investment, employment, and price levels. Emphasis is on representativeagent
-recursive equilibrium models. Topics include practical dynamic programming;
-job search, matching, and unemployment; asset pricing; monetary
-and fiscal policy; and taxation and insurance. 
+Ec 11: Introduction 
+to Economics
+Professor Jean‐Laurent Rosenthal
+
+1
+
+Goals Of This Course
+Goals Of This Course
+Introduce you to
+Introduce
+you to
+• Economic language (jargon)
+• Major concepts
+j
+• Economic reasoning and analysis
+– ability to apply
+– tools
+– Intuition
+
+• Hopefully point you to areas of further study
+Hopefully point you to areas of further study
+2
+
+Who Am I?
+Who Am I?
+•
+•
+•
+•
+•
+
+Ph.D. Caltech, 1988, B.A. Reed College, 1984
+Ph.D.
+Caltech, 1988, B.A. Reed College, 1984
+Taught at UCLA 1988‐2005
+Executive officer for the Social Sciences
+Executive officer for the Social Sciences
+Co‐Editor, Journal of Economic History
+Research
+Research 
+–
+–
+–
+–
+
+Property rights and investment
+Credit markets 
+Wealth inequality
+Law and the organization of business firms
+
+3
+
+Textbook
+• Introduction
+Introduction to Economic 
+to Economic
+Analysis, version 2.0
+• Free online:
+Free online:
+• http://www.introecon.com/
+
+• Can also use John Taylor
+– Microeconomics 6
+Microeconomics 6th
+edition
+• but not necessary.
+4
+
+Assessment
+•
+•
+•
+•
+
+Midterm
+Final
+8 quizzes from Homeworks
+8 quizzes from Homeworks
+Responsible for website material
+
+26%
+50%
+24%
+
+– http:http://www
+http:http://www.hss.caltech.edu/
+hss caltech edu/~jlr/courses/Syllabus011
+jlr/courses/Syllabus011.
+htm
+– Check at least weekly for updates
+
+• Responsible for material presented in class
+• Responsible for material in book
+5
+
+APR 3
+
+Quiz due Answers 
+6 pm 
+p
+posted
+p
+No Quiz
+APR 8
+APR 10
+
+3
+
+APR 10
+
+APR 15
+
+APR 17
+
+4
+
+APR 17
+
+APR 22
+
+APR 24
+
+5
+
+APR 24
+
+APR 29
+
+MAY 1
+
+6
+
+MAY 1
+
+MAY 6
+
+MAY 8
+
+7
+
+MAY 8
+
+MAY 13
+
+MAY 20
+
+8
+
+MAY 20
+
+MAY 22
+
+MAY 24
+
+9
+
+MAY 24
+
+MAY 27
+
+MAY 29
+
+Week
+1
+2
+
+10
+
+Quiz
+Posted
+
+TA sections
+Attendance is 
+necessary!
+
+No Quiz
+
+Slots are scarce--we will
+allocate if possible by order
+of preference. Please mark
+ballot as order of preference
+preference.
+If on time not feasible please
+mark why.
+
+Thursdays
+Fridays
+Fridays
+Fridays
+
+7‐8 PM
+9‐10 AM
+11‐12 AM
+11
+12 AM
+1‐2 PM
+
+127 Baxter
+237 Baxter
+210 Baxter
+127 Baxter
+6
+
+THE PLAN
+THE PLAN
+30‐Mar Scarcity, budgets, preferences
+
+4‐May
+
+Markets and firms Monopoly
+
+1‐Apr
+
+6‐May
+
+Public goods
+
+Supply and demand
+
+6‐Apr
+
+Utility and constrained 
+optimization
+8‐Apr Demand, price effects, income 
+effects
+13‐Apr Exchange economies
+15 A Firms and Production 
+15‐Apr
+Fi
+dP d i
+
+11‐May Public bads and taxation
+13‐May Property rights and investment
+18‐May Risk and the market for insurance
+
+20‐Apr Production and cost function
+
+22 M IInformation and the market for 
+22‐May
+f
+i
+d h
+k f
+Lemons
+25‐May International trade Ricardo
+
+22 Apr Technical change and efficiency
+22‐Apr
+Technical change and efficiency
+
+27 May International trade Hecksher‐Olin
+27‐May
+International trade Hecksher Olin
+
+27‐Apr Economies of scale and scope
+
+1‐Jun
+
+Investment and Growth
+
+29‐Apr Markets and firms Competition 
+
+3‐Jun
+
+Endogenous growth and Human 
+capital
+it l
+
+What is Economics
+What is Economics
+• Founded in the 18th Centuryy
+• Two issues
+– How do individuals and organizations make decisions that 
+avoid waste?
+• Minimize costs
+• Maximize profits
+
+– Why are some individuals, groups, societies more 
+successful?
+• Second half of the course
+Second half of the course
+
+– Now ask a whole variety of actions about individual 
+behavior
+
+8
+
+Scarcity and Economics
+Scarcity and Economics
+• Making
+Making decisions that are not wasteful 
+decisions that are not wasteful
+matters only if there is scarcity
+• If not then what
+If not then what
+• If there is scarcity then 
+– someone ought to get access to scarce resources
+– Some activity ought to get access to scarce 
+resources
+– They have to be allocated
+9
+
+Scarcity =>> allocation
+Scarcity 
+allocation
+• What is scarce
+What is scarce
+–
+–
+–
+–
+
+Land
+Energy
+Time
+And pretty much 
+everything else sooner 
+hi
+l
+or later
+
+• Allocation methods
+Allocation methods
+– Markets
+– Government
+– Crime
+– Clubs
+Cl b
+– Gifts
+
+Ask two kinds of questions:
+•Positive: how do credit markets work?
+•Normative:
+N
+ti
+h
+how should
+h ld th
+the right
+i ht tto pollute
+ll t b
+be
+allocated?
+
+10
+
+Economic Analysis
+Economic Analysis
+• To answer questions:
+– Heavy use of mathematical models
+• Simplify a complex world
+• Early on avoided the pb of very bad very scarce data.
+
+– Positive and normative theories
+– Self‐interested behavior
+• Maximization paradigm
+
+– More recently resurgence of an empirical side
+• Data has become abundant.
+
+11
+
+A simple example
+A simple example
+• Should you buy a hybrid car?  How should the 
+government encourage the sale of Hybrid cars?
+h
+l f H b id
+?
+– Start with private benefits and private costs
+
+– Standard Honda Civic $18,000 (34MPG)
+Standard Honda Civic $18,000 (34MPG)
+– Hybrid Honda Civic $23,000  (45MPG)
+1. You drive 15000 miles a year gas is 3$ a gallon.  Save 
+$323 a year    10 year PV of saving $2618 do not buy
+2. You drive 20000 miles a year gas is 5$ a gallon.  Save 
+$718 buy! 10 year PV of saving $5930 buy!
+$718 buy! 10 year PV of saving $5930 buy!
+12
+
+It
+depends
+It depends
+• Could re do with 
+Humer2 @ 18mpg
+Humer2 @ 18mpg
+• Or Range Rover 
+@16mpg
+
+40000
+35000
+
+25000
+20000
+17.75
+15.5
+13.25
+11
+8 75
+8.75
+
+15000
+10000
+5000
+
+6.5
+0
+
+4.25
+
+Price of Gas
+
+Net Valu
+ue of adoption
+
+30000
+
+People have more incentive 
+People
+have more incentive
+to switch
+But would they (since they 
+did not buy a low mpg 
+y
+pg
+vehicle to begin with)
+For more amusement
+– http://www.fueleconomy.go
+v/feg/findacar.htm
+
+2
+
+Miles per year
+
+13
+
+Beyond private costs
+Beyond private costs
+• Social gain  CO2 emission?
+Soc a ga CO e ss o ?
+– Hybrid saves 71 gallons of gas per 10,000 miles driven. 
+Or between 300 and 2700 discounted per decade.
+– Per gallon of gas emit 2.421 Kilos of CO2. Price at 
+current carbon buy back of $12 per ton of CO2
+– Between $8 and $75.  
+Between $8 and $75
+
+• Car emission are not a cost effective way to 
+p
+reduce carbon footprint if the alternative is 
+carbon buy backs.=> Cars for Clunkers bad idea 
+from the environment’s point of view
+14
+
+Government intervention
+Government intervention
+• So
+So maybe Carbon Buyback prices are not a good 
+maybe Carbon Buyback prices are not a good
+indicator of the social value of adopting hybrids.
+• Suppose the government wants to get a million 
+Suppose the government wants to get a million
+vehicles off the road. How should it do it?
+– Provide
+Provide tax incentives for people who buy hybrids
+tax incentives for people who buy hybrids
+– Raise the price of gasoline?
+– Have a first come first serve 
+Have a first come first serve “get
+get on the carpool lane 
+on the carpool lane
+alone.”
+– Provide free parking to people who buy Hybrids
+15
+
+Costs
+• Hybrids
+Hybrids have benefits, but no everyone adopts 
+have benefits, but no everyone adopts
+because they also have costs
+• The most obvious are purchase costs, and these 
+p
+,
+come from production costs
+p
+g
+p y
+• Less obvious are cost of disposing of those pesky 
+batteries
+• Still less obvious may be the incentive effects on 
+driving.
+– Anti‐lock brakes and distance to the next car.
+16
+
+Opportunity cost
+• But why might the government prefer
+– Gasoline taxes over tax incentives?
+l
+?
+– Because the lost revenue has an opportunity cost.
+
+• Opportunity
+Opportunity cost is the value of the best foregone 
+cost is the value of the best foregone
+alternative
+– Humane society puppy
+Humane society puppy
+– Caltech education
+
+• Opportunity cost often translated into $
+pp
+y
+$
+– Willingness and ability to pay
+– Value of human life
+17
+
+From the example back to theory
+From the example back to theory
+• Resources are scarce and things have costs then I 
+have to figure out what to buy
+have to figure out what to buy.
+• Budget
+– The value of resources at my command.
+y
+• Income
+– Labor => wages
+– Wealth => rents, dividend, interest
+
+• Capital life time wages….
+
+– Either way these are finite.
+
+• Preferences
+– What do I want?       The hummer or the hybrid?
+– basic idea is that individuals can and do rank.
+• How? 
+18
+
+Jargon
+•
+•
+•
+•
+•
+•
+•
+
+Ceteris paribus
+Ceteris
+paribus
+Marginal
+Homo economicus
+i
+Self‐interested behavior
+Normative and positive theories
+Maximization paradigm
+Maximization paradigm
+Comparative static
+19
+
+Next time!
+Next time!
+• Assume markets.
+– Individuals will observe prices and make decisions
+d d l
+ll b
+d
+k d
+– The decisions can be summarized as 
+
+• Demand and Supply
+Demand and Supply
+• Market equilibrium
+Th bi
+The bigger question.
+ti
+• Why people want to use markets?
+–R
+Rather than government, crime, lotteries, or gift 
+th th
+t i
+l tt i
+ift
+giving.
+– Or at least why do they do so more often than not!
+y
+y
+20
+
+

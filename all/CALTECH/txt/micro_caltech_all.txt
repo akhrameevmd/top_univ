@@ -3,18 +3,7 @@ introduction to economic methodology, models, and institutions. Includes
 both basic microeconomics and an introduction to modern approaches to
 macroeconomic issues. Students are required to participate in economics
 experiments. Instructors: Plott, Rangel.
-Ec 97. Undergraduate Research. Units to be arranged; any term.
-Prerequisites:Advanced economics and instructor’s permission. This course offers
-advanced undergraduates the opportunity to pursue research in Economics
-individually or in a small group. Graded pass/fail. 
-515
-Ec 98 abc. Senior Research and Thesis. Prerequisite: instructor’s permission.
-Senior economics majors wishing to undertake research may elect a variable
-number of units, not to exceed 12 in any one term, for such work under the
-direction of a member of the economics faculty.
-Ec 101. Selected Topics in Economics. Units to be determined by arrangement
-with the instructor; offered by announcement. Topics to be determined by
-instructor. Instructors: Staff, visiting lecturers.
+
 Ec 105. Industrial Organization. 9 units (3-0-6); first term. Prerequisites:
 Ec 11 or equivalent. A study of how technology affects issues of
 market structure and how market structure affects observable economic
@@ -23,29 +12,160 @@ expenditures. Emphasis will be on how the analytic tools
 developed in the course can be used to examine particular industries—
 especially those related to internet commerce—in detail. Each student is
 expected to write one substantial paper. Not offered 2016–17.
-Ec 106. Topics in Applied Industrial Organization. 9 units (3-0-6); first
-term. Prerequisite: Ec 11; Ec 116 recommended. Topics include simulation of
-mergers in oligopolistic industries, valuation of intellectual property, price
-setting and concentration in the pharmaceutical market, and statistical
-analysis of combined tobacco and asbestos exposure. A term paper will be
-required. Not offered 2016–17.
-Ec/Psy 109. Frontiers in Behavioral Economics. 9 units (3-0-6), first term.
-Prerequisites: Ec 11. Behavioral economics studies agents who are biologically
-limited in computational ability, willpower and pure self-interest. An
-important focus is how those limits interact with economic institutions
-and firm behavior. This reading-driven course will cover new papers that
-are interesting and draw attention to a topic of importance to economics.
-Readings will cover lab and field experiments, axiomatic models of behavioral
-phenomena, and welfare. Each weekly discussion will begin with a
-10-minute overview, then an inspection of the paper’s scientific machinery,
-judge whether its conclusions are justified, and speculate about the scope
-of its generalizability. It should help students as referees and as writers. Assignments
-are two 1000-word summary-critiques. Not offered 2016–17.
-Ec 116. Contemporary Socioeconomic Problems. 9 units (3-0-6). Prerequisites:
-Ec 11 and PS 12 or equivalents. An analytical investigation of the
-economic aspects of certain current social issues. Topics: the economics of
-education, medical-care systems, urban affairs, and the welfare system. Not
-offered 2016–17.
+
+Industrial Organization
+Theory and Applications
+By Oz Shy MIT Press, 1995
+CONTENTS
+List of Figures xiii
+Preface xvii
+1 Introduction 1
+1.1 The Study of Industrial Organization 1
+1.2 Law and Economics 5
+1.3 Industrial Organization and International Trade 7
+1.4 References 7
+I Theoretical Background 9
+2 Basic Concepts in Noncooperative Game Theory 11
+2.1 Normal Form Games 12
+2.2 Extensive Form Games 22
+2.3 Repeated Games 28
+2.4 Appendix: Games with Mixed Actions 33
+2.5 Appendix: Games with Imperfect Information 37
+2.6 Exercises 40
+2.7 References 42
+3 Technology, Production Cost, and Demand 43
+3.1 Technology and Cost 43
+3.2 The Demand Function 49
+3.3 Appendix: Consumer Surplus: Quasi-Linear Utility 53
+3.4 Exercises 54
+Page viii
+II Market Structures and Organization 57
+4 Perfect Competition 63
+4.1 Non-Increasing Returns to Scale 64
+4.2 Increasing Returns to Scale 66
+4.3 Marginal-Cost Pricing and Social Welfare 68
+4.4 Exercises 69
+4.5 References 70
+5 The Monopoly 71
+5.1 The Monopoly's Profit-Maximization Problem 72
+5.2 Monopoly and Social Welfare 73
+5.3 Discriminating Monopoly 75
+5.4 The Cartel and the Multiplant Monopoly 78
+5.5 Durable-Goods Monopolies 80
+5.6 Appendix: The Legal Approach 89
+5.7 Exercises 92
+5.8 References 94
+6 Markets for Homogeneous Products 97
+6.1 Cournot Market Structure 98
+6.2 Sequential Moves 104
+6.3 Bertrand Market Structure 107
+6.4 Cournot versus Bertrand 112
+6.5 Serf-Enforcing Collusion 115
+6.6 International Trade in Homogeneous Products 120
+6.7 Appendix: Cournot with Heterogeneous Firms 126
+6.8 Exercises 128
+6.9 References 131
+7 Markets for Differentiated Products 133
+7.1 Two Differentiated Products 135
+7.2 Monopolistic Competition in Differentiated Products 143
+7.3 "Location" Models 149
+7.4 Appendix: Inverting Demand Systems 162
+7.5 Appendix: Equilibrium in the Linear City 163
+7.6 Exercises 164
+7.7 References 166
+Page ix
+8 Concentration, Mergers, and Entry Barriers 169
+8.1 Concentration Measures 171
+8.2 Mergers 173
+8.3 Entry Barriers 182
+8.4 Entry Deterrence 186
+8.5 Contestable Markets 206
+8.6 Appendix: Merger and Antitrust Law 209
+8.7 Appendix: Entry Deterrence and Antitrust Law 212
+8.8 Exercises 213
+8.9 References 214
+III Technology and Market Structure 219
+9 Research and Development 221
+9.1 Classifications of Process Innovation 222
+9.2 Innovation Race 224
+9.3 Cooperation in R&D 229
+9.4 Patents 233
+9.5 Licensing an Innovation 239
+9.6 Governments and International R&D Races 241
+9.7 Appendix: Patent Law 244
+9.8 Appendix: Legal Approach to R&D Joint Ventures 247
+9.9 Mathematical Appendix 248
+9.10Exercises 248
+9.11 References 250
+10 The Economics of Compatibility and Standards 253
+10.1 The Network Externalities Approach 256
+10.2 The Supporting Services Approach 263
+10.3 The Components Approach 269
+10.4 Exercises 276
+10.5 References 276
+Page x
+IV Marketing 279
+ 11 Advertising 281
+11.1 Persuasive Advertising 283
+11.2 Informative Advertising 287
+11.3 Targeted Advertising 290
+11.4 Comparison Advertising 294
+11.5 Other Issues Concerning Advertising 297
+11.6 Appendix: Advertising Regulations 300
+11.7 Exercises 302
+11.8 References 304
+12 Quality, Durability, and Warranties 307
+12.1 Personal Income and Quality Purchase 308
+12.2 Quality as Vertical Product Differentiation 310
+12.3 Market Structure, Quality, and Durability 315
+12.4 The Innovation-Durability Tradeoff 317
+12.5 The Market for Lemons 322
+12.6 Quality-Signaling Games 327
+12.7 Warranties 330
+12.8 Appendix: The Legal Approach to Products Liability 335
+12.9 Exercises 337
+12.10 References 338
+13 Pricing Tactics: Two-Part Tariff and Peak-Load Pricing 341
+13.1 Two-Part Tariff 342
+13.2 Nonuniform Pricing 346
+13.3Peak-Load Pricing 348
+13.4 Can Firms "Control" the Seasons? 352
+13.5 Exercises 358
+13.6 References 358
+14 Marketing Tactics: Bundling, Upgrading, and Dealerships 361
+14.1 Bundling and Tying 362
+14.2 Killing Off Markets for Used Textbooks 376
+14.3 Dealerships 380
+14.4 Appendix: The Legal Approach to Tying 388
+14.5 Appendix: Legal Approach to Vertical Restraints 389
+14.6 Exercises 390
+14.7 References 392
+Page xi
+V The Role of Information 393
+15 Management, Compensation, and Regulation 395
+15.1 The Principal-Agent Problem 396
+15.2 Production with Teams 404
+15.3 Competition and Managerial Compensation 407
+15.4 Why Executives Are Paid More than Workers 413
+15.5 Regulating a Firm under Unknown Cost 416
+15.6 Exercises 419
+15.7 References 420
+16 Price Dispersion and Search Theory 421
+16.1 Price Dispersion 421
+16.2 Search Theory 426
+16.3 Mathematical Appendix 432
+16.4 Exercises 432
+16.5 References 433
+VI Selected Industries 435
+17 Miscellaneous Industries 437
+17.1 Restaurant Economics 438
+17.2 The Airline Industry 440
+17.3 The Fishing Industry 448
+17.4 Public Roads and Congestion 452
+17.5 Exercises 456
+17.6 References 457
+Index
+
 Ec 121 ab. Theory of Value. 9 units (3-0-6); first, second terms. Prerequisites:
 Ec 11 and Ma 2 (may be taken concurrently). A study of consumer preference,
 the structure and conduct of markets, factor pricing, measures of economic
