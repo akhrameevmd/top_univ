@@ -1,3 +1,4 @@
+HE1002	MACROECONOMIC PRINCIPLES
 In this course, we adopt the overlapping-generations model as the dynamic model to model the macro economy, and use a consistent
 approach based on microeconomic foundations and the rationality of economic agents to address several issues in monetary policy,
 exchange-rate policy and fiscal policy. Among other issues, the issues in monetary policy studied here include the welfare effects of
@@ -8,6 +9,7 @@ of exchange rates in the presence of currency controls and the indeterminacy of 
 currencies of their choice.
 
 
+HE4002	ADVANCED MACROECONOMICS
 This course exposes students to a basic understanding of the workings of the economy as a whole. The topics covered include
 measures of the GNP; inflation and unemployment; economic growth; the general product market; the 'Keynesian cross' model; the
 general money market, the creation of money; the role of central bank and of the financial institutions; the basic IS-LM model;

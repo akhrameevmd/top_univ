@@ -1,3 +1,4 @@
+HE1001 	MICROECONOMIC PRINCIPLES
 This course gives students a basic grasp of economic theory as well as the ability to apply economic principles to real-world problems.
 The course addresses the decision-making of small economic units - consumers, firms and markets. Topics covered include costbenefit
 principles, opportunity cost, laws and elasticity of demand and supply, utility maximization, the concept of the margin,

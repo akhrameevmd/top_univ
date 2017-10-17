@@ -1,9 +1,14 @@
+HE2004	INTRODUCTORY ECONOMETRICS
 This course helps students to form a foundation in econometric analysis especially those related to modern economic research.
 Modern econometric skills will be introduced to students through lectures and computer based class projects. The course emphasizes
 applications of econometric techniques rather than econometric theories. Statistical package will be used to illustrate analysis of realworld
 data. The main topics covered are: Multiple Regression Analysis (Estimation and Inference), Dummy Variables,
 Multicollinearity, Heteroscedasticity, Autocorrelation, Binary Choice Model, Panel Regression, and Baysian Estimation
 
+HE2005	PRINCIPLES OF ECONOMETRICS
 Discussions of different estimations of the econometric models, their tests and their applications. Topics include the Simple
 Linear Regression Model, Generalized Linear Regression Models, Dummy variable models, dynamic models and
 introductory time series models. For each topic, illustrative examples will be employed during the lectures and tutorials.
+
+HE4020	ECONOMETRIC TIME SERIES ANALYSIS
+This course provides an introduction to econometric time series techniques that are widely used in analyzing economic data. The course will meet the needs of students who plan more advanced studies in this area. Students are instructed on the econometric time series techniques that can be used for empirical economic studies, as well as to analyze financial time series. Topics covered include stationary time-series models, trends and volatility modeling, models for time-varying volatility, univariate processes with unit roots, multiequation time-series models, cointegration and the error-correction models.
