@@ -51,3 +51,32 @@ Ec 11 and Ma 2 (may be taken concurrently). A study of consumer preference,
 the structure and conduct of markets, factor pricing, measures of economic
 efficiency, and the interdependence of markets in reaching a general equilibrium.
 Instructors: Border, Saito
+Varian, Hal; Microeconomic Analysis (3rd), Norton, 1992. 
+TOC
+Technology
+Profit maximization
+Profit function
+Cost minimization
+Cost function
+Duality
+Utility maximization
+Choice
+Demand
+Consumers' supplies
+Uncertainty
+Econometrics
+Competitive markets
+Monopoly
+Game theory
+Oligopoly
+Exchange
+Production
+Time
+Asset markets
+Equilibrium analysis
+Welfare
+Public goods
+Externalities
+Information
+Mathematics
+Optimization.

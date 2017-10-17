@@ -1,8 +1,30 @@
 Ec 122. Econometrics. 9 units (3-0-6); first term. Prerequisites: Ma 3.
 The application of statistical techniques to the analysis of economic data.
 Instructor: Sherman. 
-SS 213 abc. Financial Economics. 9 units (3-2-4); first, second, third
-terms. First term: asset pricing theory, statistical tests on historical data
-and evidence from financial markets experiments. Second term: financial
-econometrics, with emphasis on applications to risk management. Third
-term: general equilibrium foundations of asset and option pricing theory. 
+Required textbooks:
+hill, r. carter,griffiths, william e.,lim, guay c.; principles of econometrics (4th), wiley, 2011. ISBN:
+978-0-470-62673-3
+Brief Contents
+Chapter 1 An Introduction to Econometrics
+Probability Primer
+Chapter 2 The Simple Linear Regression Model
+Chapter 3 Interval Estimation and Hypothesis Testing
+Chapter 4 Prediction, Goodness-of-Fit, and Modeling Issues
+Chapter 5 The Multiple Regression Model
+Chapter 6 Further Inference in the Multiple Regression Model
+Chapter 7 Using Indicator Variables
+Chapter 8 Heteroskedasticity
+Chapter 9 Regression with Time-Series Data: Stationary Variables
+Chapter 10 Random Regressors and Moment-Based Estimation
+Chapter 11 Simultaneous Equations Models
+Chapter 12 Regression with Time-Series Data: Nonstationary Variables
+Chapter 13 Vector Error Correction and Vector Autoregressive Models
+Chapter 14 Time-Varying Volatility and ARCH Models
+Chapter 15 Panel Data Models
+Chapter 16 Qualitative and Limited Dependent Variable Models
+Appendix A Mathematical Tools
+Appendix B Probability Concepts
+Appendix C Review of Statistical Inference
+Appendix D Tables
+Index
+
