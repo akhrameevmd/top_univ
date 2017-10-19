@@ -1,3 +1,29 @@
 ECON 3120 Applied Econometrics
 Introduction to the theory and application of econometric techniques. Emphasis is on both development of techniques and applications of econometrics to economic questions. Topics include estimation and inference in bivariate and multiple regression models, instrumental variables, regression with qualitative information, heteroskedasticity,
  and serial correlation. Students are expected to apply techniques through regular empirical exercises with economic data.
+Introduction to Econometrics, 3rd edition, by Stock and
+Watson (Addison-Wesley, 2010).
+
+Part I. Introduction and Review  
+Chapter 1. Economic Questions and Data
+Chapter 2. Review of Probability 
+Chapter 3. Review of Statistics 
+Part II. Fundamentals of Regression Analysis  
+Chapter 4. Linear Regression with One Regressor
+Chapter 5. Regression with a Single Regressor: Hypothesis Tests and Confidence Intervals  
+Chapter 6. Linear Regression with Multiple Regressors  
+Chapter 7. Hypothesis Tests and Confidence Intervals in Multiple Regression  
+Chapter 8. Nonlinear Regression Functions  
+Chapter 9. Assessing Studies Based on Multiple Regression  
+Part III. Further Topics in Regression Analysis  
+Chapter 10. Regression with Panel Data 
+Chapter 11. Regression with a Binary Dependent Variable  
+Chapter 12. Instrumental Variables Regression  
+Chapter 13. Experiments and Quasi-Experiments
+Part IV. Regression Analysis of Economic Time Series Data  
+Chapter 14. Introduction to Time Series Regression and Forecasting 
+Chapter 15. Estimation of Dynamic Causal Effects  
+Chapter 16. Additional Topics in Time Series Regression 
+Part V. The Econometric Theory of Regression Analysis  
+Chapter 17. The Theory of Linear Regression with One Regressor 
+Chapter 18. The Theory of Multiple Regression 

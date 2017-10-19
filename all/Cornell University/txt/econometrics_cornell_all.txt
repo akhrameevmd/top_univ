@@ -1,3 +1,408 @@
-ECON 3120 Applied Econometrics
-Introduction to the theory and application of econometric techniques. Emphasis is on both development of techniques and applications of econometrics to economic questions. Topics include estimation and inference in bivariate and multiple regression models, instrumental variables, regression with qualitative information, heteroskedasticity,
- and serial correlation. Students are expected to apply techniques through regular empirical exercises with economic data.
+ECON 3120: Applied Econometrics
+Cornell University, Fall 2016
+Tues/Thurs, 8:40am–9:55am
+Klarman Hall KG70
+
+Instructor
+Douglas McKee (douglas.mckee@cornell.edu)
+Office: 466 Uris Hall
+Office Hours: Tuesday 10:30am-12:00pm
+
+Teaching Assistants
+Thomas Eisenberg (te48@cornell.edu)
+Section 201: Friday, 9:05am-9:55am, Rockefeller Hall 103
+Section 202: Friday, 10:10am-11:00am, Rockefeller Hall 103
+Office Hours: TBD
+Flavio Stanchi (fs379@cornell.edu)
+Section 203: Friday, 1:25pm-2:15pm, Rockefeller Hall 132
+Section 204: Friday, 2:30pm-3:20pm, Rockefeller Hall 132
+Office Hours: TBD
+
+Course Description
+Economics 3120 teaches econometrics, with a focus on application and practice. The main
+objective of this course is to teach students to use and interpret a set of quantitative methods
+frequently employed in empirical analysis of economic phenomena. Applications of these methods will be emphasized throughout the course.
+The first part of the course will be a short review of probability, estimation and hypothesis
+testing. Most of this material is covered in Econ 3110, but this serves as a refresher and reviews
+the material with an eye toward using it later on in the course. Next, we’ll spend some quality
+time with the work horse of empirical economics: the linear regression model. Finally, we’ll
+cover a few more advanced concepts and methods frequently encountered in applied economic
+research.
+
+1
+
+The prerequisite for this course is either ECON 3110 or 3130.
+The economics department offers two different two-semester sequences for econometrics. A
+common question is how these two sequences differ. The core idea is that while both sequences
+cover many of the same topics, the treatment in 3120 will emphasize applications of econometric techniques. We will focus on substantive questions first and then introduce mathematical
+methods that will help us answer them. 3140 spends more time on theoretical models and the
+mechanics of the theory (i.e., proofs). Along these lines, 3140 is usually taught by econometricians, while 3120 is often taught by faculty like me who analyze data for a living.
+By the end of the class, you will have acquired several concrete skills. Specifically, you will:
+1.
+2.
+3.
+4.
+5.
+
+Understand the strengths and weaknesses of different methods.
+Be able to choose appropriate methods to answer real-world questions.
+Understand the math behind methods like linear regression.
+Understand the intuition behind these methods.
+Be able to apply these methods to analyze real data with a powerful statistical analysis
+package (Stata).
+
+Lectures
+Lectures will be highly interactive. I will never talk continuously for more than 10 minutes at a
+time. You will be asked questions about the material and work on problems (alone and in small
+groups) several times per class. You will be using the i<clicker system during class to give me
+feedback on what you’re learning and what you’re not so I can tailor the lecture. This will
+require that you purchase either an i<clicker hardware remote or the i<clicker REEF
+software for your mobile device. The clicker costs $30-40 and can be used for multiple
+classes. The software costs $14.99 for a 6 month license. You can learn more on the Cornell
+Clicker How-to page: http://www.it.cornell.edu/services/polling/howto-students.cfm
+
+Grades
+Your grade for the class will be composed of five parts:
+1. Problem Sets (20%)
+There will be 6 problem sets during the semester. You may pass in the problem sets as pdf’s
+through the course web site by 8:40am or in person at the beginning of class on the due date.
+Complete solution sets will be posted in the evening after the problem sets are due. It is your
+responsibility to read these solutions and make sure you understand them. Your lowest grade
+on a problem set will be dropped. Late problem sets will not be accepted, including
+those turned in after class on the due date. Computer exercises must include the
+Stata .do and .log files that you produce.
+2. Empirical Project (15%)
+One of the most important parts of the class is the empirical project: It is your opportunity
+to use the tools you learn to answer a question you come up with and that you care about.
+2
+
+At the end of the second week of classes, when the roster has settled down, I will divide the
+class into groups of four or five students each. Each group will identify and pass in their research question by the end of the third week (September 9). During the 8th week (October 13),
+each group will pass in a document that quantitatively describes their sample and the relevant
+variables in it. During the last week of the classes (December 1), each group will do a poster
+presentation of their results, and by the end of the final exam study period (December 6),
+groups will submit a written project report that includes a discussion of the empirical analysis.
+The research question is worth 5% of your final grade, the data description another 5%, and
+the final analysis (presentation and report) is worth 5%. You will get a fair bit of written and
+verbal guidance throughout the process.
+3. First Midterm Exam (20%)
+Date: Thursday, September 22 (in class)
+4. Second Midterm Exam (20%)
+Date: Thursday, October 27 (in class)
+5. Final Exam (25%)
+The final test will be given during finals period. The schedule will be posted at
+https://registrar.cornell.edu/Sched/exams.html some time in September.
+Exams are closed book, but you may bring one double-sided page of notes to the first midterm,
+two pages to the second midterm, and three pages to the final exam. You may use calculators
+during the exams.
+Final grades for the class will be determined by computing a weighted score based on the
+weights listed above. The weighted scores are assigned letter grades A-B-C at proportions of
+35-35-20 percent. The remaining 10 percent is spread across the letter grade distribution (including D and F) at the discretion of the instructor.
+Excuses
+Because one problem set is dropped, I do not consider excuses for missed problem sets. The
+only exception is prolonged/severe illness, which must be handled through the advising deans
+as per case (1) below.
+With respect to exams, the Faculty Handbook
+(http://theuniversityfaculty.cornell. edu/handbook/Chapter5.pdf) lists four types of situations
+in which faculty are encouraged to make accomodations for missed work. However, the determination as to whether a particulary case warrants accomodation is ultimately the decision of
+the faculty member. Here is how the four cases are handled in this course:
+1. Illness, or family or personal emergency: Any situations that fall under this category must
+be first brought up with the advising dean in the students college. The advising dean will
+then contact me directly, and I will make a determination based on the particular case.
+Do not email me directly about these issues.
+3
+
+2. Employment interviews. The student must provide me evidence of the interview and
+establish that (s)he has no control over the timing of the interview.
+3. Religious observances. While I do my best not to schedule exams during religious holidays, please contact me at least two weeks in advance if an exam date/time conflicts with
+a religious holiday.
+4. Athletics and Extracurricular Activities. Students in varsity athletics or recognized extracurricular activities must provide the standard permission slip from the staff responsible for the activity at least two weeks before the exam.
+Final Exam Conflicts
+There are two situations that I will consider for exam conflicts. First is a direct conflict where
+ECON 3120 and another class appear on the registrars exam schedule at the same time. Second
+is more than 2 exams in 24 hours. This is defined as 3 or more exams having a start time within
+24 hours, as indicated on the registrars exam schedule. If Exam 1 is on Monday at 2pm, Exam
+2 is on Monday at 7pm, and Exam 3 is on Tuesday at 2pm, this is not more than 2 exams in
+24 hours. If you have a conflict, you need to email me at least 2 weeks before the final exam,
+listing out the other classes involved and scheduled exam times. The date and time of the
+makeup is determined by me.
+Grading FAQ
+
+• Are the tests cumulative? The tests are not explicitly cumulative, but you will need
+to use concepts from the earlier parts of the course in order to understand the later topics.
+The tests may also include sub-questions that relate to earlier parts of the course if they
+are relevant.
+• Is there extra work I can do to improve my grade? No.
+• I didnt do as well as I had hoped early in the course. In determining my final
+grade, can you put more weight on the latter part of the course? No.
+• I have X exams/assignments due within Y of each other. Can I reschedule
+the exam/hand in the homework late? No. The first two prelim dates are given
+above, and the final exam will be posted in September. This gives you plenty of time to
+plan ahead. The only exception is more than 2 finals in 24 hours, see above.
+Exam Regrades
+While we take care to grade exams as fairly and consistently as possible, on rare occasions
+there may be grading mistakes. If you feel that your test has been graded incorrectly, you must
+submit it to the professor (not the TA), along with an explanation of the issue in writing. You
+must do this within 2 weeks of the exam being returned (not the date you pick it up) for it to
+be regraded. The entire exam will be regraded, and as a result it is possible for your grade to
+go down as well as up.
+4
+
+Acceptable Use Policy
+You are free to use any published materials (e.g., another textbook), in preparing Econ 3120
+assignments or for learning the material more generally. You are also strongly encouraged to
+work with others in your class. This is particularly helpful for learning to program. Each person
+must turn in their own assignment.
+The use of any solution materials prepared in a previous year for Econ 3120, other than materials distributed this academic year by the course faculty, is strictly prohibited. This includes
+1) any notes, spreadsheets, or handouts distributed by me in a prior term of Econ 3120; and
+2) any notes, solutions, or spreadsheets prepared by former students of Econ 3120, in either
+written or electronic form.
+This policy means you should not solicit or use solutions to previous years’ problem sets. The
+reason for this policy is that access to previous years materials can create serious inequities
+between fellow students, and jeopardize the integrity of the academic environment. Academic
+disciplinary actions will be taken against those who violate this policy.
+
+Text and Readings
+The required textbook for this course is Introduction to Econometrics, 3rd edition, by Stock and
+Watson (Addison-Wesley, 2010). The 2014 updated edition is completely unnecessary. Stock
+and Watson’s treatment of regression methods is excellent, and the book should serve you well
+as a reference in the future. Purchasing this book new is expensive, but you can typically find
+used copies of the textbook on the web at sites like Amazon for under $50.
+Students without a strong mathematical or statistical background may find Probability and
+Statistical Inference, 8th or 9th ed., by Robert Hogg, Elliot Tanis, and most recently Dale
+Zimmerman (Pearson, 2010 or 2013) useful. The most important method we will cover during
+the course is linear regression and I highly recommend Paul Allison’s Multiple Regression: A
+Primer. The writing is extremely clear and he covers both the intuition and mathematics behind the method. You wil also read a few chapters from Angrist and Pischke’s Mostly Harmless
+Econometrics, and these will be posted on the course web site.
+The readings for this course are about mathematical techniques and the big picture ideas that
+underly them. They are not bed-time reading. Take your time to prepare the readings for
+each class, and make sure you understand what is being presented. Preparation for class means
+doing some of the review exercises at the end of the assigned readings.
+
+5
+
+Software
+Much of the course work in Econ 3120, will involve analysis of data using the Stata software
+package. There are three options for using Stata:
+1. You can use Stata for free by using the CISER account that will be created for all students
+in the class. This requires using a remote desktop connection to a CISER server. It is
+pretty easy once you get the hang of it. The TAs will show you how to do this in the first
+section. All students enrolled in the class before August 23 will have a CISER acount
+setup automatically. If you enroll in the class after August 23, you need to fill out a new
+account for at http://ciser.cornell.edu/computing/accts/RSCH ReqForm.php
+2. If you want to use Stata directly on your own computer, you can purchase a six-month
+(or longer) license at http://www.stata.com/order/new/edu/gradplans/student-pricing/.
+There are various flavors of Stata, starting at $75. Any of them are fine for this course
+except for Small Stata.
+3. You can use Stata in the public computer labs in Warren Hall and Mann Library (see
+http://www.cscu.cornell.edu/software/facilities.php).
+I will spend some time in class teaching Stata and the program documentation is excellent.
+You will get plenty of practice during your sections, and there are several terrific free online
+resources for learning the software. For those students who feel more comfortable with a book
+in hand, Acock’s A Gentle Introduction to Stata, Revised Third Edition is up to date and pretty
+good.
+
+Acknowledgements
+This class is in large part derived from an econometrics class that Professor Lanier Benkard
+taught at Yale in Fall 2010. I’m extremely grateful to him for sharing his syllabus, lecture slides,
+assignments, handouts, exams, and advice. I have also borrowed liberally from the syllabus
+and materials of Jim Berry who taught this class in Fall 2015. All of these have provided a
+fantastic starting point. That said, I take full responsibility for any mistakes that I may have
+added to the material.
+Please do not redistribute any of these materials without my permission.
+
+6
+
+Schedule
+PART I: REVIEW OF PROBABILITY AND STATISTICS
+Week 1: Probabilities and Random Variables
+Lecture: August 23 and 25
+Read: SW (Stock and Watson) Chapters 1 and 2
+Topics:
+
+–
+–
+–
+–
+–
+–
+–
+
+Course overview
+Terminology and concepts: experiments, outcomes, and events
+Marginal, joint, and conditional probabilities
+Probability tables
+Discrete random variables (e.g., Bernoulli and Binomial)
+Continuous random variables (e.g., Normal, t, Chi-Square, and F)
+Covariance and indepependence
+
+Week 2: Estimation and Hypothesis Testing
+Lecture: August 30 and September 1
+Read: SW Chapter 3
+Topics:
+
+–
+–
+–
+–
+–
+
+The Central Limit Theorem
+Samples and populations: Overview
+Standard errors
+Confidence Intervals
+One and two sample hypothesistests
+
+PART II: BIVARIATE REGRESSION
+Week 3: Introduction to Regression Analysis
+Lecture: September 6 and 8
+Read: SW Chapter 4
+(Optional) Allison, Chapters 1 and 5
+Due: Problem Set 1 on September 6, 8:40am
+Due: Empirical Project Research Question on September 9, 5:00pm
+Topics:
+
+–
+–
+–
+–
+–
+
+Mechanics of simple regression
+Correlation vs. slope
+Interpreting regression estimates
+Doing regression in Stata
+R2 and goodness-of-fit
+
+Week 4: Statistical Inference in Regression
+Lecture: September 13 and 15
+7
+
+Read: SW Chapter 5
+Topics:
+
+– Hypothesis testing and statistical significance
+– Confidence intervals
+– Prediction
+
+Week 5: Midterm week
+Lecture: September 20
+Due: Problem Set 2 on September 20, 8:40am
+Thursday, September 22: FIRST MIDTERM EXAM
+PART III: MULTIVARIATE REGRESSION
+Week 6: Multiple Regression
+Lecture: September 27 and 29
+Read: SW Chapters 6-7
+(Optional) Allison, Chapters 2 and 3
+Topics:
+
+–
+–
+–
+–
+–
+–
+–
+
+Mechanics of multiple regression
+Interpreting multiple regression results
+Controlling for categorical variables with sets of dummy variables
+Regression F-test
+Joint Tests
+Restricted and Unrestricted models
+Tests of linear restrictions in regression models
+
+Week 7: Model Building in Practice
+Lecture: October 4 and 6
+Read: SW Chapter 8
+(Optional) Allison, Chapters 7 and 8
+Topics:
+
+–
+–
+–
+–
+–
+–
+
+Developing regression models
+Interpreting and using results
+Model building using real data
+Variable Interactions
+Confounding variables
+Intervening variables
+
+Week 8: Assessing Validity of Regression Models
+Lecture: October 13
+Read: SW Chapter 9
+
+8
+
+Due: Empirical Project Data Description on October 13, 8:40am
+Due: Problem Set 3 on October 13, 8:40am
+Topics:
+
+– Internal and external validity
+– Measurement error
+– Missing data
+
+Week 9: Randomized Experiments
+Lecture: October 18 and 20
+Read: SW 3.5
+Angrist and Piscke (AP), Chapters 1 and 2 of Mostly Harmless Econometrics
+posted
+Topics:
+
+– Interpreting observational and experimental data
+
+Week 10: Midterm Week
+Lecture: October 25
+Due: Problem Set 4 on October 25, 8:40am
+Thursday, October 27: SECOND MIDTERM EXAM
+PART IV: FURTHER TOPICS IN REGRESSION
+Week 11: Binary Dependent Variables
+Lecture: November 1 and 3
+Read: SW Chapter 11
+Topics:
+
+– Linear probability model
+– Logit and probit models
+
+Week 12: Instrumental Variables
+Lecture: November 8 and 10
+Read: Chapter 12 (Optional) AP Chapter 4
+Topics:
+
+– The linear probability model
+– Estimating causal effects with instrumental variables
+– Evaluating instrumental variables
+
+Week 13: Panel Data
+Lecture: November 15 and 17
+Read: SW 10
+(Optional) AP Chapter 5
+Due: Problem Set 5 on November 15, 8:40am
+Topics:
+
+– Using diff-in-diff to estimate policy effects
+– Implementing and extending diff-in-diff with regression
+9
+
+Week 14: Difference-in-Differences
+Lecture: November 22
+Read: SW Chapter 10
+Topics:
+
+– Using diff-in-diff to estimate policy effects
+– Implementing and extending diff-in-diff with regression
+
+Week 15: Regression Discontinuity
+Lecture: November 29 and December 1
+Read: AP Chapter 6
+Due: Problem Set 6 on November 29, 8:40am
+Due: Empirical Project Poster Session on December 1
+Due: Empirical Project Data Analysis on December 6, 5pm
+
+10
+
+

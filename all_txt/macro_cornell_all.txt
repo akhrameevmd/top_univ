@@ -1,5 +1,224 @@
-ECON 3040 Intermediate Macroeconomic Theory
-ntroduces the theory of national income and determination and economic growth in alternative models of the national economy. Examines the interaction and relation of these models to empirical aggregate economic data. Reviews national accounts, output and employment determination, price stability and economic growth,
- in the context of alternative government policy programs and the impact of globalization.
-ECON 1120 Introductory Macroeconomics
-Analysis of aggregate economic activity in relation to the level, stability, and growth of national income. Topics may include the determination and effects of unemployment, inflation, balance of payments, deficits, and economic development, and how these may be influenced by monetary, fiscal, and other policies.
+Intermediate Macroeconomic Theory
+Economics 3040-1 Fall 2018
+Cornell University Department of Economics
+
+Instructor:
+Andrew Fieldhouse
+ajf263@cornell.edu
+Uris 402
+Office Hours:
+Tu 3:00-5:00pm
+andrewjfieldhouse.com
+
+Teaching Assistant:
+Peter Gardner
+pgg76@cornell.edu
+Uris 465
+Office Hours:
+W 1:15-2:45pm
+Thr 10:00-11:30am
+
+Lectures: Tu, Thr 1:25-2:40pm, Malott 251
+Discussion Sections: I: Fri 1:25-2:15pm, II: Fri 2:30-3:20pm, Rockefeller 102
+Course Description: This course introduces the theory of national income and its determination, beginning with the measurement of the macroeconomy and national income
+accounting. We will build a stylized model of general equilibrium, combining separate models of the goods market, labor market, and money market. We will analyze the determinants
+of long-run growth, and study business cycle fluctuations around trend, long-run growth.
+We will examine monetary and fiscal stabilization policy, particularly the Federal Reserve’s
+dual mandate of promoting low unemployment and price stability, and the role of inflation
+in the economy. At the end of the course, we will study international linkages through trade
+and exchange rates.
+Prerequisites: ECON 1110, ECON 1120, and single-variable calculus.
+Text: Macroeconomics, 8th Edition
+Authors: Andrew B. Abel, Ben Bernanke, and Dean Croushore ISBN-13: 9780132992282
+Course Rationale: Abel, Bernanke, and Croushore define macroeconomics as “the study
+of the structure and performance of national economies and of the policies that governments
+use to try to affect economic performance.” In evaluating these questions, we will build upon
+your toolbox from Intro Micro and Intro Macro to construct an aggregated model of an
+economic activity. This course, however, is more applied than its prerequisites, and will
+emphasize measurement of the macroeconomy and benchmarking our models’ predictions to
+“stylized facts” about macroeconomic data series. The course also provides students with
+a basic foundation of macroeconomic history, emphasizing the Great Depression through
+the Great Recession. More than any other core economics course, this class is intended to
+promote economic literacy and ground your economics studies in some real world context!
+
+1
+
+Course Objectives: At the completion of this course, students will be able to:
+1. Recognize and contrast determinants of both short-run economic fluctuations and
+long-run economic growth.
+2. Develop a model of of aggregate economic activity that allows us to analyze monetary
+and fiscal stabilization policy, and apply this framework to real world policy choices.
+3. Take an informed stance on whether various government policies can be used to improve macroeconomic performance.
+4. Assemble and interpret macroeconomic times series data to advance an argument.
+5. Assess how economies are linked through international trade and financial flows, and
+to appraise convergence or lack thereof across countries’ long-run growth paths.
+6. Comprehend and critique contemporary economic journalism, e.g., the Economist or
+Wall Street Journal.
+Grading Policies: The majority of your course grade will be determined by three examinations in which you must demonstrate your comprehension of the course material and
+applications to novel problem extensions. The exams will reward the development of your
+analytical thinking and problem solving skills, not rote memorization. Short, periodic problem sets will provide practice for such problem solving techniques and structure to help keep
+you on top of the course material. In addition to exams and problem sets, you will also be
+assigned two writing projects. Clear, effective writing is a fundamental, requisite skill that
+every university graduate should possess! But the more technical, positive style of writing
+and analysis through the lens of economics is a somewhat different skill than much of your
+writing to date, and a useful skill to develop for the professional world; moreover, some of
+you will need economics writing samples for internship or job applications.
+The course is graded based on a criterion reference, as opposed to grading you relative to
+one another, say by fitting the raw distribution of grades to a bell curve. You should view
+your fellow students as collaborators and academic resources, not as competition.
+Exams (65%): You will have two preliminary exams in class on Thursday, October 5th and
+Thursday, November 2nd, each of which is worth 20% of your course grade. The final exam
+is cumulative and counts for 25% of your grade (date TBD by the university). There are no
+make-up exams for the prelims or final. If you are forced to miss a prelim for a legitimate
+reason, your Advising Dean must send me an email explaining why you missed the prelim;
+if you miss one of the prelims, the final exam will count for 45% of your course grade; if you
+miss both prelims, the final exam will count for 65% of your grade. All exams are closed
+book, closed note, and calculators are not allowed.
+After you take a prelim, you may also decide whether to drop the grade; if you wish to drop
+a prelim, you must email the TA within a week of receiving your grade, and this decision is
+irreversible. If you drop one prelim, the final will count for 45% of your grade; if you drop
+two prelims, the final will count for 65% of your final grade.
+
+2
+
+Recovery Act Essay (20%): You will write one short essay on the use of fiscal stimulus during the Great Recession, applying our analytical toolkit, course content, and basic
+research skills to the lens of a real world policy question. Putting yourself in the shoes
+of an economist with the Council of Economic Advisors in January 2009, you will draft a
+three-page memo analyzing the merits of the American Recovery and Reinvestment Act, a
+$787 billion package of tax cuts, transfers, infrastructure spending, unemployment benefits,
+and state fiscal relief drafted during the Great Recession. Your memo will inform President
+Obama’s decision to enact or veto the bill. The full prompt is available on the course website. For many of you, much of your professional work will involve open-ended projects that
+apply prior knowledge and research skills to a new question—skills that this assignment is
+meant to foster, and which are generally ill suited to assessment by exams. In particular,
+this assignment will give you an opportunity to practice assembling and interpreting macroeconomic times series data to advance an argument.
+Much of your work in the professional sphere is likely to be collaborative, rather than individualistic; giving constructive feedback and receiving and incorporating such comments are
+important skills to develop before graduating, both of which should improve your writing
+and organization. With that in mind, a first draft of your paper will be due on November
+14th, three weeks ahead of your final submission. You will be assigned a partner with whom
+to exchange your draft papers, and you will each have one week to give your partner feedback
+on their drafts, which must be returned to your partner by November 21st. You will then
+have an additional two weeks to incorporate any suggestions and revise your essays before
+final submission is due on December 5th; past this deadline, your submission will lose half a
+letter grade for each day it’s late.
+FOMC Project (5%): During our study of the Federal Reserve’s conduct of monetary
+policy, you will analyze the most recent Federal Open Market Committee statement. You
+will be asked to write a one-page article for the Wall Street Journal or Financial Times
+explaining that decision, and its relevant context. The project is due November 30th; past
+this deadline, your submission will lose half a letter grade for each day it’s late. As with
+the essay, this assignment is an opportunity for you to demonstrate knowledge of theory and
+course material to a real world application, and to hone your writing as an economist. It is
+also intended to help you comprehend and critique contemporary economic journalism.
+Problem Sets (10%): You will have roughly 8 problem sets assigned throughout the
+semester. Neither email submissions nor late problem sets will be accepted, but
+your lowest two grades will be dropped, to accommodate for any extenuating circumstances.
+The average score of your remaining problem sets will be worth 10% of your course grade.
+Solutions to each problem set will be posted within a few days of their due date.
+Special Accommodations: If you are allowed special accommodations for testing, please
+provide the teaching assistant a letter from Student Disability Services at least two weeks
+before to the need for accommodations.
+
+3
+
+Grade Determination Overview:
+Prelim 1
+20% Date: October 5, 2018
+Prelim 2
+20% Date: November 2, 2018
+Recovery Act Essay 20% Peer Draft Due: November 14, 2018
+Peer Feedback Due: November 21, 2018
+Final Due: December 5, 2018
+FOMC Project
+5% Due: November 30, 2018
+Problem Sets
+10% Due: Periodically
+Final Exam
+25% Date: TBD
+It is a violation of university policy and FERPA for me to discuss grades via email. If you
+have a question about your grade, please make an appointment to meet during office hours.
+Academic Policies: Attendance is not required for either lecture or discussion section,
+but you will greatly benefit from attending both! Periodic attendance of office hours is also
+highly recommended! Students are encouraged to work together on problem sets, but must
+turn in individual assignments. All work must conform with Cornell’s Code of Academic
+Integrity and Campus Code of Conduct.
+
+4
+
+Tentative Course Outline
+Note: weekly coverage might change slightly depending on the pace of the class.
+Week
+
+Content
+
+Week 1
+
+• Intro: The Great Recession, Measuring the Macroeconomy
+• Reading: Chapter 1, Chapter 2
+
+Week 2
+
+• The Goods Market and Production
+• Reading: Chapter 4
+
+Week 3
+
+• The Labor Market
+• Reading: Chapter 3
+
+Week 4
+
+• The Asset Market: Money and Prices
+• Reading: Chapter 7
+
+Week 5
+
+• Growth Theory Part I
+• Reading: Chapter 6
+
+Week 6
+
+• Growth Theory Part II: Business Cycles
+• Reading: Chapter 8
+
+Week 7
+
+• Theory of Economic Fluctuations: IS-LM/AS-AD
+• Reading: Chapter 9
+
+Week 8
+
+• Theory of Economic Fluctuations: Real Business Cycle Theory
+• Reading: Chapter 10
+
+Week 9
+
+• Theory of Economic Fluctuations: New Keynseian Theory
+• Reading: Chapter 11
+
+Week 10
+
+• Testing Theory: Unemployment and Inflation Dynamics
+• Reading: Chapter 12
+
+Week 11
+
+• Monetary Policy and the Federal Reserve:
+• Reading: Chapter 14
+
+Week 12
+
+• Fiscal Policy
+• Reading: Chapter 15
+
+Week 13
+
+• The Great Recession Revisited
+• Reading: TBD
+
+Week 14
+
+• The Open Economy: Trade and Exchange Rates
+• Reading: Chapters 5, Chapter 13
+
+5
+
+

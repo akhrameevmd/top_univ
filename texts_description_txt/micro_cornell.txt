@@ -1,4 +1,32 @@
 ECON 3030 Intermediate Microeconomic Theory
 The pricing processes in a private enterprise economy are analyzed under varying competitive conditions, and their role in the allocation of resources and the functional distribution of national income is considered.
+Microeconomic Theory: Basic Principles and Extensions, by Walter Nicholson and Christopher Snyder.
+Part 1 Introduction
+Chapter 1: Economic Models 3
+Chapter 2: Mathematics for Microeconomics 19
+Part 2 Choice and Demand
+Chapter 3: Preferences and Utility 87
+Chapter 4: Utility Maximization and Choice 113
+Chapter 5: Income and Subtitution Effects 141
+Chapter 6: Demand Relationships among Goods 182
+Chapter 7: Uncertainty and Information 202
+Chapter 8: Strategy and Game Theory 236
+Part 3 Production and Supply
+Chapter 9: Production Functions 295
+Chapter 10: Cost Functions 323
+Chapter 11: Profit Maximization 358
+Part 4 Competitive Markets
+Chapter 12: The Partial Equilibrium Competitive Model 391
+Chapter 13: General Equilibrium and Welfare 441
+Part 5 Market Power
+Chapter 14: Monopoly 491
+Chapter 15: Imperfect Competition 521
+Part 6 Pricing in Input Markets
+Chapter 16: Labor Markets 573
+Chapter 17: Capital and Time 595
+Part 7 Market Failure
+Chapter 18: Asymmetric Information 627
+Chapter 19: Externalities and Public Goods 670
+
 ECON 1110 Introductory Microeconomics
 Explanation and evaluation of how the price system operates in determining what goods are produced, how goods are produced, who receives income, and how the price system is modified and influenced by private organizations and government policy.

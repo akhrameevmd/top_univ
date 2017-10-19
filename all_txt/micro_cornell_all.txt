@@ -1,4 +1,401 @@
-ECON 3030 Intermediate Microeconomic Theory
-The pricing processes in a private enterprise economy are analyzed under varying competitive conditions, and their role in the allocation of resources and the functional distribution of national income is considered.
-ECON 1110 Introductory Microeconomics
-Explanation and evaluation of how the price system operates in determining what goods are produced, how goods are produced, who receives income, and how the price system is modified and influenced by private organizations and government policy.
+ECON 3030: Intermediate Microeconomic Theory
+Cornell University, Spring 2017
+Section 01: Tues/Thurs, 10:10am–11:25pm, Section 03: Tues/Thurs, 1:25pm–2:40pm
+Rockefeller Hall 122
+
+Instructor
+Douglas McKee (douglas.mckee@cornell.edu)
+Office: 466 Uris Hall
+Office Hours: Tues/Thurs 3:00pm-4:00pm
+
+Teaching Assistants
+Flavio Stanchi (fs379@cornell.edu)
+Section 210: Friday, 9:05am-9:55am, Rockefeller Hall 102
+Section 211: Friday, 10:10am-11:00am, Rockefeller Hall 102
+Office Hours: Monday and Wednesday, 10:00am-11:30am, Uris 429
+Chris Rojas (car332@cornell.edu)
+Section 230: Friday 9:05am-9:55am, Rockefeller Hall 105
+Section 231: Friday 10:10am-11:00am, Rockefeller Hall 105
+Office Hours: Monday and Wednesday, 2:00pm-3:30pm, Uris 451
+
+Course Description
+Everyone entering this class should be familiar with the concepts of preferences, maximization,
+technology, markets, and strategic interaction from previous coursework. Here, we will use the
+tools of calculus, constrained optimization, and game theory to put a formal mathematical
+foundation under these ideas. This will let us model more complex markets and relax assumptions (such as linearity) that are commonly made in introductory classes. Substantive topics
+will include consumer preferences and utility; demand relationships among goods; labor supply;
+uncertainty and risk; production and costs; welfare; behavior of firms; monopoly; price discrimination; public goods and externalities; asymmetric information; signaling; moral hazard and
+adverse selection.
+This course will motivate the analysis of economic concepts using case studies and empirical
+facts. For most of the class we will assume actors behave as if they maximize an objective
+function. Depending on whether actors are firms, people, or governments, such functions may
+represent the level of profits, happiness or social welfare. The academic objective of this course
+is to elaborate students’ skills in using theoretical tools to formulate and solve economic problems. The broader goal is for students to gain a deep understanding of the economic aspects
+of individuals’ and firms’ decisions.
+The prerequisites for this course are introductory economics (ECON 1110/1120) and familiarity with single variable calculus (MATH 1110). Some experience with partial derivatives (e.g.,
+MATH 1120) is helpful but not required.
+
+1
+
+Lectures
+Lectures will be highly interactive. I will never talk continuously for more than 10 minutes at
+a time. You will be asked questions about the material and work on problems (alone and in
+small groups) several times per class.
+We will use the MobLab platform to play economic games in class starting on the first day. This
+will require you to have a device with internet access, and a MobLab account for the course that
+costs $10. These games will let you learn experientially about things like production functions,
+Nash equilibria, and other market equilibria.
+We will also use Poll Everywhere for in class surveys. You will be able to submit your answers
+through a web browser on your phone or laptops, or by sending a text message. There will be
+no cost to you for participating.
+
+Grades
+Your grade for the class will be composed of five parts:
+1. Problem Sets (20%)
+There will be 6 problem sets during the semester. You may pass in the problem sets as pdf’s
+through the course web site by 1:25pm or in person at the beginning of class on the due date.
+Your grade on each problem set will be based primarily on your answers to two randomly selected questions, but I will also expect you to submit answers to all the questions. Complete
+solution sets will be posted in the evening after the problem sets are due, and it is your responsibility to read these solutions and make sure you understand them. Your lowest grade on a
+problem set will be dropped. Late problem sets will not be accepted, including those
+turned in after class on the due.
+2. Creative Project (15%)
+One of the most important parts of the class is the creative project: It is your opportunity to use
+the tools you learn to model an interesting market that you choose and that you care about.
+At the end of the second week of classes, when the roster has settled down, I will divide the class
+into groups of four or five students each. Each group will identify and pass in a short description
+of their market choice by the end of the third week (February 10). During the 8th week (March
+14), each group will pass in a document that describes the preferences of consumers in the market and the production functions of the producers. Descriptions will be written in both English
+and mathematical language. The last part of the project is to model any market constraints
+or additional actors, write down the equilibrium conditions, and derive something interesting
+from the model. During the last week of the classes (May 10), each group will do a poster
+presentation of their results, and by the end of the final exam study period (May 14), groups
+will submit a written project report. The market choice is worth 5% of your final grade, the
+preferences and production description another 5%, and the final analysis (presentation and report) is worth 5%. You will get a fair bit of written and verbal guidance throughout the process.
+3. First Prelim Exam (20%)
+2
+
+Date: Tuesday, February 28 at 7:30pm
+4. Second Prelim Exam (20%)
+Date: Thursday, April 13 at 7:30pm
+5. Final Exam (25%)
+The final test will be given during finals period. The schedule will be posted at
+https://registrar.cornell.edu/Sched/exams.html some time in early in the semester.
+Exams are closed book, but you may bring one double-sided page of notes to the first prelim,
+two pages to the second prelim, and three pages to the final exam. You may use calculators
+during the exams.
+Final grades for the class will be determined by computing a weighted score based on the
+weights listed above. The weighted scores are assigned letter grades A-B-C at proportions of
+35-35-20 percent. The remaining 10 percent is spread across the letter grade distribution (including D and F) at the discretion of the instructor. No more than 5% of students (and likely
+less) will get A+’s.
+Excuses
+Because one problem set is dropped, I do not consider excuses for missed problem sets. The
+only exception is prolonged/severe illness, which must be handled through the advising deans
+as per case (1) below.
+With respect to exams, the Faculty Handbook
+(http://theuniversityfaculty.cornell. edu/handbook/Chapter5.pdf) lists four types of situations
+in which faculty are encouraged to make accomodations for missed work. However, the determination as to whether a particulary case warrants accomodation is ultimately the decision of
+the faculty member. Here is how the four cases are handled in this course:
+1. Illness, or family or personal emergency: Any situations that fall under this category must
+be first brought up with the advising dean in the students college. The advising dean will
+then contact me directly, and I will make a determination based on the particular case.
+Do not email me directly about these issues.
+2. Employment interviews. The student must provide me evidence of the interview and
+establish that (s)he has no control over the timing of the interview.
+3. Religious observances. While I do my best not to schedule exams during religious holidays, please contact me at least two weeks in advance if an exam date/time conflicts with
+a religious holiday.
+4. Athletics and Extracurricular Activities. Students in varsity athletics or recognized extracurricular activities must provide the standard permission slip from the staff responsible for the activity at least two weeks before the exam.
+
+3
+
+Final Exam Conflicts
+There are two situations that I will consider for exam conflicts. First is a direct conflict where
+ECON 3030 and another class appear on the registrars exam schedule at the same time. Second
+is more than 2 exams in 24 hours. This is defined as 3 or more exams having a start time within
+24 hours, as indicated on the registrars exam schedule. If Exam 1 is on Monday at 2pm, Exam
+2 is on Monday at 7pm, and Exam 3 is on Tuesday at 2pm, this is not more than 2 exams in
+24 hours. If you have a conflict, you need to email me at least 2 weeks before the final exam,
+listing out the other classes involved and scheduled exam times. The date and time of the
+makeup is determined by me.
+Grading FAQ
+
+• Are the tests cumulative? The tests are not explicitly cumulative, but you will need
+to use concepts from the earlier parts of the course in order to understand the later topics.
+The tests may also include sub-questions that relate to earlier parts of the course if they
+are relevant.
+• Is there extra work I can do to improve my grade? No.
+• I didn’t do as well as I had hoped early in the course. In determining my final
+grade, can you put more weight on the latter part of the course? No.
+• I have X exams/assignments due within Y of each other. Can I reschedule
+the exam/hand in the homework late? No. The first two prelim dates are given
+above, and the final exam will be posted early in the semester. This gives you plenty of
+time to plan ahead. As noted above, the only exception is more than 2 finals in 24 hours.
+Exam Regrades
+While we take care to grade exams as fairly and consistently as possible, on rare occasions
+there may be grading mistakes. If you feel that your test has been graded incorrectly, you must
+submit it to the professor (not the TA), along with an explanation of the issue in writing. You
+must do this within 2 weeks of the exam being returned (not the date you pick it up) for it to
+be regraded. The entire exam will be regraded, and as a result it is possible for your grade to
+go down as well as up.
+
+Acceptable Use Policy
+You are free to use any published materials (e.g., another textbook), in preparing Econ assignments or for learning the material more generally. You are also strongly encouraged to work
+with others in your class. This is particularly helpful for learning to program. Each person
+must turn in their own assignment.
+The use of any solution materials prepared in a previous year for ECON 3030, other than materials distributed this academic year by the course faculty, is strictly prohibited. This includes
+4
+
+1) any notes or handouts distributed by an instructor in a prior term of ECON 3030; and 2) any
+notes or solutions prepared by former students of Econ 3030, in either written or electronic form.
+This policy means you should not solicit or use solutions to previous years’ problem sets. The
+reason for this policy is that access to previous years materials can create serious inequities
+between fellow students, and jeopardize the integrity of the academic environment. Academic
+disciplinary actions will be taken against those who violate this policy.
+
+Text and Readings
+The required textbook for this course is Microeconomic Theory: Basic Principles and Extensions, by Walter Nicholson and Christopher Snyder. You may use either the latest (12th)
+edition or the previous (11th) edition which can be found as a paperback international edition
+on Amazon for around $15. Uris Library should soon have two copies of the 12th edition on
+reserve. Be careful not to accidentally purchase their much less mathematically-oriented book:
+Intermediate Microeconomics and Its Application.
+There are several other excellent intermediate micro textbooks on the market, and you may
+want to look at one or two during the semester to get a different perspective on the material:
+• Varian’s Intermediate Microeconomics: A Modern Approach comes in a version with and
+without calculus.
+• Nechyba’s Microeconomics: An Intuitive Approach with Calculus covers each topic informally and then again formally (with calculus)
+• Perloff’s Microeconomics: Theory and Applications with Calculus is probably the most
+entertaining of the intermediate micro books, but the bar is pretty low.
+The readings for this course are about mathematical techniques and the big picture ideas that
+underly them. They are not bed-time reading. Take your time to do the assigned reading for
+each class, and make sure you understand what is being presented. Preparation for class also
+means working through some of the review exercises at the end of the assigned chapters.
+
+Acknowledgements
+Much of this class is derived from the intermediate microeconomics classes that Larry Samuelson and Eva Chalioti taught recently at Yale. I’m extremely grateful to them for sharing their
+syllabi, lecture slides, assignments, handouts, exams, and advice. In addition, Gregory Besharov and Max Troshkin have generously shared materials that they have used in teaching
+this course in the past. All of these have provided a fantastic starting point. That said, I take
+full responsibility for any mistakes that I may have added to the material.
+Please do not redistribute any of these materials without my permission.
+
+5
+
+Schedule
+PART I: INDIVIDUAL CHOICE
+Week 1: The Big Picture
+Lecture: January 26
+Read: NS (Nicholson and Snyder) Chapter 1
+Topics:
+
+–
+–
+–
+–
+
+Course overview
+Preferences and utility Functions
+Budget constraints
+Optimization
+
+Week 2: Constrained Optimization and Optimal Choice
+Lecture: January 31 and February 2
+Read: NS Chapter 2
+Topics:
+
+–
+–
+–
+–
+–
+
+Single variable optimization
+Multi-variable optimization
+Lagrangians
+Indifference curves and utility
+Demand
+
+Week 3: Demand
+Lecture: Febuary 7 and 9
+Due: Problem Set 1 on Febrary 7, 1:25pm
+Due: Creative Project—Market Choice on February 10, 5:00pm
+Read: NS Chapters 3, 4, and 5
+Topics:
+
+–
+–
+–
+–
+–
+–
+
+Deriving demand functions
+Homogeneous functions
+Price elasticity of demand
+Income elasticity of demand
+Cobb-Douglas utility functions
+Constant elasticity of substitution (CES)
+
+Week 4: Expenditures and Labor Supply
+Lecture: February 14
+Online Lecture: February 16
+Read: NS Chapter 5 and Chapter 16 (first 3 sections)
+Topics:
+
+– Expenditure minimization
+– Substitution effects
+6
+
+–
+–
+–
+–
+–
+
+Income effects
+Slutsky equation
+Marshallian (ordinary) demand vs. Hicksian (compensated) demand
+Labor-Leisure choice
+Income vs. Excise taxes
+
+Week 5: Review for Prelim
+February Break: February 18–21
+Lecture: February 23
+Due: Problem Set 2 on Febrary 23, 1:25pm
+Tuesday, February 28 at 7:30pm: FIRST PRELIM EXAM
+PART II: TIME AND UNCERTAINTY
+Week 6: Intertemporal Decisions
+Lecture: March 2
+Read: NS Chapter 5 (section on Consumer Surplus) and Chapter 17
+Topics:
+
+– Model of intemporal decisions
+– Consumer surplus
+– Compensating variation
+
+Week 7: Uncertainty and Insurance
+Lecture: March 7 and 9
+Read: NS Chapter 7
+Topics:
+
+–
+–
+–
+–
+–
+–
+–
+
+Risk and probabilities
+Expected utility
+Risk aversion
+Choice under uncertainty
+Cost benefit analysis under uncertainty
+Insurance markets
+Risk pooling
+
+7
+
+Part III: FIRMS
+Week 8: Profit Maximization
+Lecture: March 14 and 16
+Read: NS Chapter 9, 10, 11
+Due: Problem Set 3 on March 14, 1:25pm
+Due: Creative Project—Preferences and Production Description on March 14, 1:25pm
+Topics:
+
+–
+–
+–
+–
+–
+–
+
+Production functions
+Marginal product
+Marginal rate of technical substitution (MRTS)
+Returns to scale
+Profit maximization vs cost minimization
+Fixed vs variable costs
+
+Part IV: COMPETITIVE MARKETS
+Week 9: Partial and General Equilibrium
+Lecture: March 21 and 23
+Read: NS Chapters 12 and 13
+Topics:
+
+–
+–
+–
+–
+–
+–
+–
+
+Perfect Competition
+Short run vs long run
+Aggregate supply
+Economic efficiency
+Edgeworth Box
+Walras’ Law
+Contract curve
+
+Week 10: Welfare and Production Economies
+Lecture: March 28 and 30
+Read: NS Chapter 13
+Topics:
+
+– First and second welfare theorems
+– Production Possibility Frontier (PPF)
+
+Week 11: Prelim Week
+Lecture: April 11
+Due: Problem Set 4 on April 11, 1:25pm
+Thursday, April 13 at 7:30pm: SECOND PRELIM EXAM
+8
+
+PART V: MARKET FAILURE
+Week 12: Monopoly and Oligopoly
+Lecture: April 18 and 20
+Read: NS Chapters 14 and 15
+Topics:
+
+– Market power
+– Markets with one firm vs few firms
+– Price discrimination
+
+Week 13: Imperfect Competition and Externalities
+Lecture: April 25 and 27
+Due: Problem Set 5 on April 25, 1:25pm
+Read: NS Chapters 15 and 19
+Topics:
+
+–
+–
+–
+–
+–
+–
+
+Cournot competition vs Bertrand competition
+Differentiated products
+Positive and negative externalities
+Policy responses to externalities
+Excludability and rivalry
+Public goods
+
+Week 14: Information
+Lecture: May 2 and 4
+Read: NS Chapter 8 (Section on Signaling) and Chapter 18
+Topics:
+
+– Signaling
+– Adverse Selection
+– Moral Hazard
+
+Week 15: Review
+Lecture: May 9
+Due: Problem Set 6 on May 9, 1:25pm
+Due: Creative Project—Poster Session on May 10
+Due: Creative Project—Market Analysis on May 14, 5pm
+
+9
+
+

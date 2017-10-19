@@ -1,5 +1,30 @@
 ECON 3040 Intermediate Macroeconomic Theory
-ntroduces the theory of national income and determination and economic growth in alternative models of the national economy. Examines the interaction and relation of these models to empirical aggregate economic data. Reviews national accounts, output and employment determination, price stability and economic growth,
- in the context of alternative government policy programs and the impact of globalization.
+Introduces the theory of national income and determination and economic growth in alternative models of the national economy. Examines the interaction and relation of these models to empirical aggregate economic data. Reviews national accounts, output and employment determination, price stability and economic growth, in the context of alternative government policy programs and the impact of globalization.
+Macroeconomics (8th Edition)
+Andrew B. Abel , Ben Bernanke , Dean Croushore
+I. INTRODUCTION
+1. Introduction to Macroeconomics
+2. The Measurement and Structure of the National Economy
+ 
+II. LONG-RUN ECONOMIC PERFORMANCE
+3. Productivity, Output, and Employment
+4. Consumption, Saving, and Investment
+5. Saving and Investment in the Open Economy
+6. Long-Run Economic Growth
+7. The Asset Market, Money, and Prices
+ 
+III. BUSINESS CYCLES AND MACROECONOMIC POLICY
+8. Business Cycles
+9. The IS–LM/AD–AS Model: A General Framework for Macroeconomic Analysis
+10. Classical Business Cycle Analysis: Market-Clearing Macroeconomics
+11. Keynesianism: The Macroeconomics of Wage and Price Rigidity
+ 
+IV. MACROECONOMIC POLICY: ITS ENVIRONMENT AND INSTITUTIONS
+12. Unemployment and Inflation
+13. Exchange Rates, Business Cycles, and Macroeconomic Policy in the Open Economy
+14. Monetary Policy and the Federal Reserve System
+15. Government Spending and Its Financing
+Appendix A: Some Useful Analytical Tools
+
 ECON 1120 Introductory Macroeconomics
 Analysis of aggregate economic activity in relation to the level, stability, and growth of national income. Topics may include the determination and effects of unemployment, inflation, balance of payments, deficits, and economic development, and how these may be influenced by monetary, fiscal, and other policies.
