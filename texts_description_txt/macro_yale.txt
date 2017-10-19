@@ -1,5 +1,47 @@
+
+Econ 116a. Introductory Macroeconomics
 An introduction that stresses how the macroeconomy works, including the determination of output, unemployment, inflation, interest rates, and exchange rates.
 Economic theory is applied to current events.
+
+Case, Fair, and Oster, Principles of
+Macroeconomics
+
+Table of Contents
+
+Part I: Introduction To Economics
+1. The Scope and Method of Economics
+2. The Economic Problem: Scarcity and Choice
+3. Demand, Supply, and Market Equilibrium
+4. Demand and Supply Applications
+ 
+Part II: Concepts and Problems in Macroeconomics
+5. Introduction to Macroeconomics
+6. Measuring National Output and National Income
+7. Unemployment, Inflation, and Long-Run Growth
+ 
+Part III: The Core of Macroeconomic Theory
+8. Aggregate Expenditure and Equilibrium Output
+9. The Government and Fiscal Policy
+10. Money, the Federal Reserve, and the Interest Rate
+11. The Determination of Aggregate Output, the Price Level, and the Interest Rate
+12. Policy Effects and Cost Shocks in the AS/AD Model
+13. The Labor Market in the Macroeconomy
+ 
+Part IV: Further Macroeconomics Issues
+14. Financial Crises, Stabilization, and Deficits
+15. Household and Firm Behavior in the Macroeconomy: A Further Look
+16. Long-Run Growth
+17. Alternative Views in Macroeconomics
+ 
+Part V: The World Economy
+18. International Trade, Comparative Advantage, and Protectionism
+19. Open-Economy Macroeconomics: The Balance of Payments and Exchange Rates
+20. Economic Growth in Developing Economies
+ 
+Part VI: Methodology
+21. Critical Thinking about Research
+
+Econ 122a. Intermediate Macroeconomics
 Contemporary theories of employment, finance, money, business fluctuations, and economic growth. Their implications for monetary and fiscal policy. Emphasis on empirical studies, financial and monetary crises, and recent policies and problems.
 
 After two terms of introductory economics and completion of the mathematics requirement for the major or its equivalent. May not be taken after Econ 126.

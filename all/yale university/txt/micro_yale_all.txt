@@ -1,6 +1,367 @@
-An introduction to the basic tools of microeconomics to provide a rigorous framework for understanding how individuals, 
-firms, markets, and governments allocate scarce resources. The design and evaluation of public policy.
+Notes on Introductory Micro Economics for
+Econ 115a
+Yale University
+Prof. Steven Berry
+September 3, 2003
 
-The theory of resource allocation and its applications. Topics include the theory of choice, consumer and firm behavior, production, price determination in different market structures, welfare, and market failure.
+1
 
-After introductory microeconomics and completion of the mathematics requirement for the major or its equivalent. Elementary techniques from multivariate calculus are introduced and applied, but prior knowledge is not assumed. May not be taken after Econ 125.
+Background
+
+This is a short set of notes intended to complement the introductory material
+in the Pyndyck and Rubenfeld textbook. That book is intended for use at
+the (easy) intermediate level. However, the authors teach at MIT, where the
+book is used as an introductory text. The MIT students are bright, so they
+can handle it, but then again you are also bright and so you can handle it.
+When we used an actual “introductory” text, students complained that it
+was so far beneath the level of their abilities and the level of the course, that
+it was basically useless. Thus, we have switched to an easy intermediate-level
+text.
+One problem is that, in writing an intermediate text, Pyndyck and Rubenfeld do not attempt much of an introduction to the field – supposedly the
+reader knows that already. These informal notes are an attempt to compensate for that missing introduction.
+
+2
+
+What is (Micro-) Economics?
+
+Economics is the study of “the allocation of scarce resources.” There is an old
+line that economics is the “dismal science” and what could be more dismally
+bland than a phrase like “the allocation of scarce resources”? Let me try to
+convince you that the problems studied by economics are of great importance
+to society. First, let’s see what we mean by scarce.
+1
+
+2.1
+
+Scarcity
+
+Economics is restricted to the study of things that are scarce, by which we
+mean things that would have a value in some alternate use. The food you
+eat is scarce in the sense that some other person in the world would like to
+have been served that same food.
+What other things are scarce? Obviously, many physical objects are
+scarce. There are more folks who want a BMW than there are BMW’s to be
+had and so economists study the production and consumption of automobiles.
+In some parts of the world clean air and clean water are scarce (there is
+not enough to go around) and so economists also study pollution and the
+allocation of natural resources.
+“Services”, like hair-cuts and life insurance, are not physical goods but
+they are also typically scarce. When economists talk about scarce “goods”
+they mean both physical objects and also services.
+Services like hair cuts are scarce because, most fundamentally, our time
+is scarce. Everyday, you face the problem of how to divide the fixed 24 hours
+of your day into various activities – sleep, play, work, study. The problem
+of how to balance these activities against each other is an important topic of
+economics.
+It seems almost harder to think of things that are not scarce, where my
+consumption takes nothing away from anyone else. Economists famously say
+that “there is no such thing as a free lunch”, which is not just a sign of being
+crabby, but a shorthand for the fact that the resources used by one person
+would also have been valued by someone else (and that even one’s own time
+in eating lunch has alternative uses – a homeless man eating at the church
+“free lunch” could have spent the time pan-handling instead.)
+Things are not scarce are truly “free” to society and are not the subject
+of economics. For example, perhaps “thought” can be “free” of any scarcity
+problem in the sense that my thinking does not take away from your thinking.
+Many conflicts and much suffering around the world are due, at root, to
+the problem of scarce resources. Among other causes, wars are often fought
+to control how resources are allocated within a nation or region. Even apart
+from war, much suffering and deprivation could be avoided if we could figure
+out better ways to allocate scarce resources. Our own, relatively comfortable,
+lives could still be made better if more resources were available. Economists
+look for ways to alleviate scarcity by finding better ways to use and produce
+valuable goods, so that everyone can enjoy a better life.
+2
+
+Maybe it sounds boring to some, but to me it sounds pretty important.
+
+2.2
+
+Opportunity Cost
+
+If a good is scarce, then it has an “opportunity cost”. The opportunity cost
+of a good is the value of a good in its next-best use. Opportunity cost is
+crucial to the understanding of resource allocation.
+A few of you have a (nearly) all-expense paid ride to Yale: no tuition
+payments and Yale even covers room and board. Is your education free?
+No: there is still an opportunity cost to being here. You could have finished
+high-school and then taken a paying job. You are giving up that salary to
+be here. Further, you could have gone to some other school: Colorado would
+also haven given you a full scholarship and you could ski most weekends –
+or else you could have gone to San Diego and surfed after every class. You
+gave that up to be here: that is part of your opportunity cost. There is No
+Free Lunch.
+To allocate resources (like time) correctly, we will have to keep close
+track of opportunity cost. When you spend an hour sleeping then you are
+not studying and when you are studying you are not sleeping – it can’t be
+avoided. In all cases, the correct economic notion of cost is opportunity cost:
+what we (as individuals or as a society) give up to undertake an action or
+consume a resource.
+
+2.3
+
+Preferences and Trade-offs
+
+Some folks give up millions of dollars to come to college – think of future
+NBA stars (or more likely at Yale, successful young actresses.) Is this worth
+it? To figure out the answer, we will have to develop some means of thinking
+about benefits as well as costs. Something may cost a lot and still be worth
+doing – the presence of a large opportunity cost does not necessary imply
+that something is not worth doing.
+In much of our analysis, we will examine the trade-offs between allocations
+of scarce resources. We will balance opportunity cost against benefit. There
+is an old slur: “an economist knows the price of everything and the value of
+nothing.” Not so, as you will see. We will treat consumers, and societies, has
+having preferences for different activities and we will give these preferences
+equal weight with costs. If your roommate chooses to study on a Friday
+night, then he has decided that the benefit of study exceeds the opportunity
+3
+
+cost of the lost party – and that is OK, no matter how dull it seems to you.
+Your roommate just has a different set of preferences.
+We will study how different preferences (of individuals or societies) will
+affect our resource-allocation decisions. In most cases, we will take those
+preferences as given. We will trace the consequences of different preferences
+(for chocolate over strawberry, or for more social inequality over less), but
+we will typically leave the question of where preferences come from, and
+whether some preferences are better than others, to your other courses and
+to your personal system of beliefs. If you know that you prefer chocolate to
+strawberry then you will know how to allocate your own budget and if you
+prefer less inequality to more then we will help you learn what kind of social
+allocation methods you should prefer.
+
+2.4
+
+Allocation
+
+Scarce goods have got to be allocated, in some fashion, across competing
+uses. This follows from the definition of scarcity – folks are not going to
+get everything they want and so in practice there is always some allocation
+“mechanism” that determines how much of the scarce resource goes to each
+activity (and/or each person.)
+In a state of pure anarchy or barbarism, goods may be allocated largely
+by brute force. The folks with the guns get the stuff. Most of us do not find
+this to be a satisfactory allocation mechanism.
+Societies typically try to enforce some rules about allocation. No stealing,
+no cheating and pay your taxes. But what rules governing allocation are best?
+This is a very important part of economics.
+Since at least the 18th century, there has been a debate about the best
+kinds of social allocation mechanisms. This debate often comes down to the
+question of the proper role of government and the proper role of markets.
+In 1776, Adam Smith argued that, under certain circumstances, unfettered
+markets can lead individuals to operate in the public interest as if led by an
+“invisible hand.” In the 19th century, “socialist” critics decried the brutal
+poverty that they blamed on market outcomes, calling for a greater role for
+government. Who is right? The correct answer is, as usual, “it depends.”
+We study economics to find out what the answer depends on.
+Successful modern economies rely on a mix of market and government
+allocation mechanisms. There is still a fierce debate over which way to push
+the balance between government and market forces. By the end of this
+4
+
+course, you will have a much better idea of how markets and governments
+can contribute to, and hinder, a good allocation of scarce resources.
+
+2.5
+
+Microeconomics versus Macroeconomics
+
+“Micro” (meaning, of course, “small” as in “microscope”) is the study of
+the individuals components of the economy: consumers and producers and
+how these actors come together in specific markets. “Macro” is the study
+of aggregates: the sums of consumption and production across the economy.
+The price of a Toyota SUV is a question for microeconomics, while changes
+in the average level of prices in the economy (“inflation”) is a question for
+macroeconomics. Similarly, the question of how many workers to employ
+at a given auto plant is Micro, the overall level of employment (and the
+unemployment rate) is Macro. The total level of employment in the auto
+industry is an example of a question at the boundaries of Macro and Micro.
+Which subject to study first? In some ways, Micro is prior to Macro: why
+not understand the objects being aggregated before studying aggregation?
+Also, Econ 115 is a pre-requisite for spring-term Econ 116b (but not for fallterm Econ 116a – confusing, eh?) On the other hand, some folks find it easier
+to start with the “topical” subjects of Macro, like the unemployment rate.
+No accounting for preferences, as we say.
+
+3
+
+Method in Economics and in this Course
+
+This course not just about a particular set of questions. It will also teach
+you a different way of thinking. This manner of thinking and analyzing will
+drive a few of you nuts, but most will catch on and realize that it is, at least,
+a nice addition to the modes of analysis that you learn in other social-science
+courses.
+
+3.1
+
+Models
+
+First, although we are talking about very complicated human and social decisions and interactions, we are going to unabashedly make use of “models”
+– purposefully artificial stories, rigorously derived from a basic set of simplifying assumptions about the world. (If you want human interaction in all
+its wondrous complexity, read a good novel instead.) We do this because
+5
+
+we believe this is the only way to make progress. We start with very simple
+models, with assumptions designed to capture some important aspects of the
+world. We see how much of the world these simple models explain and then
+we go back and try to make the models more complicated and realistic –
+with a goal (never fully reached) of finally capturing all the relevant factors.
+The course mimics this research agenda. We start with very, very simple
+models and draw strong conclusions from them. Then, particularly after the
+mid-term, we introduce a series of realistic complications and see how this
+changes our conclusions. In an introductory course, you will never reach the
+fullness of current academic research, but you will get a good beginning idea
+of both methods and conclusions.
+
+3.2
+
+Mathematics
+
+When we say that a particular set of assumptions about facts and behaviors
+leads to a certain set of conclusions, we want to be correct. One way to check
+our logic is to frame that logic in the language and symbols of mathematics.
+Mathematics is a language, a mode of expression, that is very common in
+economic analysis. Placing our argument in mathematical terms does not
+guarantee that our model matches the world, but it does ensure that we have
+not made some error logic in moving between assumption and conclusion.
+In this way, we can be sure to know what assumptions drive different
+conclusions. If someone argues that markets (or governments) are the answer
+to all allocation problems, what assumptions must they be making about the
+world? We can then think about whether we believe these assumptions.
+This course has a math pre-requisite that amounts to serious high-school
+algebra and geometry (no trig., no calculus.) Some mathematical wizards
+will realize that many of our arguments could have been simplified via the
+techniques of calculus, but that idea is left to intermediate economics classes
+(we have to leave something for them to teach.)
+In practice, we will set down some assumptions, express them in simple
+equations or on a graph and then derive some conclusions. We would like to
+go forward and use various statistical techniques to compare these conclusions
+to real-world data – but unfortunately that last step is left to later classes
+(e.g. Econ 161.). We will try to do some informal “empirical” critiques of
+the various models.
+
+6
+
+4
+
+Positive versus Normative Economics
+
+“Positive” economics is the study of the way the world actually is, how it
+actually works. Positive economics makes statements like: “[under some
+conditions] a rise in input prices, holding demand factors fixed, will result in
+higher prices.”
+“Normative economics” makes statements about what allocation methods
+ought to look like. To move from positive to normative analysis, we have to
+introduce a set of moral beliefs – a notion of what it means for a allocation
+to be “good”. We will not attempt to prove any normative conclusion except
+as the consequence of some particular set of moral beliefs.
+We will try to be careful about which parts of our analysis are positive
+and which are normative. To say that a particular government policy will,
+in practice, have a particular outcome is not to say whether that outcome is
+good.
+Many political arguments about economic policy seek to blur the distinction between normative and positive. Politicians will try to make it seem
+that normative conclusions can be drawn without reference to any particular
+set of moral beliefs. It is simply a fact that “markets are good” or is it the
+case that “socialism is scientific.”
+Micro-economists agree to a remarkable degree on many of the fundamental positive issues that they study. Sometimes there are controversies over
+the measurement of the magnitudes of certain effects. In other cases, different people simply have unresolvable issues about the definition of “good”.
+These arguments often make their way into policy debates as if they were
+“economic” controversies whereas they are in fact differences in moral preferences. This tends to mask the large underlying degree of agreement among
+academic micro-economists. If we carefully delineate positive and normative,
+and if we carefully indicate where assumptions matter and where answers depend on the precise magnitudes of various effects, then the content of this
+course is subject to little actual controversy.
+So let’s start!
+
+5
+
+Supply and Demand
+
+There are a number of very simple models of the allocation of goods. For
+example, some introductory texts begin with a “Robinson Crusoe model”.
+7
+
+We imagine a single individual stranded on a desert island. His problem
+is to allocate time between picking coconuts and planting rice. There is
+an opportunity cost to each activity and one could analyze how Robinson
+should think about his allocation problem. We will come back to models like
+this when we think about how a modern household should allocate its fixed
+income across different goods and services.
+A slightly more complicated model would introduce a second island (Gilligan’s Island?) where a second individual faces a different set of opportunities
+costs. These models often emphasize the benefits of trade – if each individual
+specializes in the activity in which he has a lower opportunity cost and then
+trades with the other island for goods not locally produced, then both can
+be better off.
+The benefits of voluntary trade are familiar from grade-school cafeterias,
+where a mutually-agreed upon trade of peanut-butter-and-jelly for a ham
+sandwich can make both kids better off. The benefits of specialization are
+familiar from modern life, where the inefficient Frontier necessity of making
+all one’s worldly goods is replaced by specialized employment (as say a lawyer
+or farmer) together with the market purchase of needed goods.
+But the Intro Text’s simple models of one or two individuals, while emphasizing nice economic concepts like opportunity cost, specialization and trade,
+do not much resemble modern economic activity, which involves the coming
+together in markets of many participants who often don’t know anything
+about each other. In these markets, the patterns of trade and consumption
+are set by market prices and no single individual sets that price.
+In the modern economy, households sell their labor services to firms and
+receive income in return. Households also invest (through bank accounts,
+stocks and bonds) in the activities of firms, gaining future income through
+current investments. Households then spend their labor and investment income in the market for goods and services. Firms take this money and produce the desired goods and services, paying off their input suppliers. Thus,
+labor and capital flow from households to firms in return for money while
+goods and services flow from firms to households (in return for money.) This
+circular flow of money keeps the economy moving.1
+The supply and demand (S & D) model considers only one market (for
+1
+
+The story is simplified in various ways: household members can lend money to other
+households and can work directly for other households, firms purchase inputs and borrow
+money from other firms and so forth.
+
+8
+
+one good or for one kind of labor) at a time. This model attempts to capture
+some basic features of such a market. The disadvantage of focusing on only
+good at a time in that so we cannot talk in a detailed way about trade-offs
+across goods. But it is still a useful (and classic) place to start and it is
+where your textbook starts.
+The S & D model is largely positive: it tells us what factors matter in
+an individual’s choice of how much to consume and what factors matter in a
+firm’s choice of how much to produce. It provides a model of how prices are
+set and so we can analyze the factors that shift both prices and quantities of
+a good.
+After a bit, we will consider some normative concepts that allow us to
+make some judgments about whether the supply-and-demand market outcome is in some sense “good.” But for the moment we will focus on positive
+analysis.
+
+6
+
+The Path Ahead
+
+After studying the supply and demand model, we will “go behind” the demand curve to get a more detailed understanding of a consumer’s trade-offs
+across different goods and of the assumptions that generate household demand. We will then do a similar analysis of the production and cost factors
+that influence firm output decisions.
+In the first half of the course, we will then go on to embed supply and
+demand the larger framework of “perfect competition”, an idealized model
+of markets which will turn out to provide strong normative support to the
+notion of an “invisible hand” that leads market participants to do make the
+socially “correct” decision. The intellectual framework behind this invisible
+hand result is quite impressive and it should give some pause to anyone would
+thinks that market allocation mechanisms are somehow inherently bad.
+There are two possible responses to the pro-market argument that we
+will present prior to the mid-term. One is to challenge that implicit moral
+beliefs that underlie the invisible hand result. These arguments often focus
+on inequality.
+Another point is that the assumptions of perfect competition are quite
+strong. Post-midterm you will study, with Prof. Hastings, a set of more realistic models that have more nuanced results. There are circumstances where
+government action is indeed justified, even under the same moral beliefs that
+9
+
+justify the invisible hand results. You will learn what these circumstances are
+and what are the limits of the arguments in favor of government intervention.
+Along the way, you will learn rules about the allocation of scarce resources
+that are likely to be of use in your private life and quite possibly in your future
+life as a professional or manager operating in a largely market economy.
+Have fun!
+
+10
+
+
