@@ -3,12 +3,78 @@ Prerequisites: (ECON UN3211 or ECON UN3213) and (MATH UN1201 or MATH UN1207) and
 
 Modern econometric methods; the general linear statistical model and its extensions; simultaneous equations and the identification problem; time series problems; forecasting methods;
  extensive practice with the analysis of different types of data.
+Introduction to Econometrics, 3rd Edition
+James H. Stock
+Mark W. Watson 
+Part I. Introduction and Review  
+Chapter 1. Economic Questions and Data
+Chapter 2. Review of Probability 
+Chapter 3. Review of Statistics 
+Part II. Fundamentals of Regression Analysis  
+Chapter 4. Linear Regression with One Regressor
+Chapter 5. Regression with a Single Regressor: Hypothesis Tests and Confidence Intervals  
+Chapter 6. Linear Regression with Multiple Regressors  
+Chapter 7. Hypothesis Tests and Confidence Intervals in Multiple Regression  
+Chapter 8. Nonlinear Regression Functions  
+Chapter 9. Assessing Studies Based on Multiple Regression  
+Part III. Further Topics in Regression Analysis  
+Chapter 10. Regression with Panel Data 
+Chapter 11. Regression with a Binary Dependent Variable  
+Chapter 12. Instrumental Variables Regression  
+Chapter 13. Experiments and Quasi-Experiments
+Part IV. Regression Analysis of Economic Time Series Data  
+Chapter 14. Introduction to Time Series Regression and Forecasting 
+Chapter 15. Estimation of Dynamic Causal Effects  
+Chapter 16. Additional Topics in Time Series Regression 
+Part V. The Econometric Theory of Regression Analysis  
+Chapter 17. The Theory of Linear Regression with One Regressor 
+Chapter 18. The Theory of Multiple Regression  
+
 
 ECON GU4412 Advanced Econometrics.
 Prerequisites: ECON W3211, ECON W3213, ECON W3412, MATH V2010.
 
 The linear regression model will be presented in matrix form and basic asymptotic theory will be introduced. The course will also introduce students to basic time series methods for forecasting and analyzing economic data.
  Students will be expected to apply the tools to real data.
+
+Econometric Analysis, 7th Edition
+
+By William H. Greene
+
+Table of Contents
+
+Part I: The Linear Regression Model
+Chapter 1: Econometrics
+Chapter 2: The Linear Regression Model
+Chapter 3: Least Squares
+Chapter 4: The Least Squares Estimator
+Chapter 5: Hypothesis Tests and Model Selection
+Chapter 6: Functional Form and Structural Change
+Chapter 7: Nonlinear, Semiparametric, and Nonparametric Regression Models
+Chapter 8: Endogeneity and Instrumental Variable Estimation
+
+Part II: Generalized Regression Model and Equation Systems
+Chapter 9: The Generalized Regression Model and Heteroscedasticity
+Chapter 10: Systems of Equations
+Chapter 11: Models for Panel Data
+
+Part III: Estimation Methodology
+Chapter 12: Estimation Frameworks in Econometrics
+Chapter 13: Minimum Distance Estimation and the Generalized Method of Moments
+Chapter 14: Maximum Likelihood Estimation
+Chapter 15: Simulation-Based Estimation and Inference
+Chapter 16: Bayesian Estimation and Inference
+
+Part IV: Cross Sections, Panel Data, and Microeconometrics
+Chapter 17: Discrete Choice
+Chapter 18: Discrete Choices and Event Counts
+Chapter 19: Limited Dependent Variables—Truncation, Censoring, and Sample Selection
+
+Part V: Time Series and Macroeconometrics
+Chapter 20: Serial Correlation
+Chapter 21: Models with Lagged Variables 
+Chapter 22: Time-Series Models 
+Chapter 23: Nonstationary Data 
 
 
 ECON GU4413 Econometrics of Time Series and Forecasting.
@@ -23,3 +89,8 @@ Prerequisites: ECON 3211, W3213, W3412, and sign-up in the department's office.
 
 Analyzing data in a more in-depth fashion than in ECON W3412. Additional estimation techniques include limited dependent variable and simultaneous equation models. 
 Go to the department's undergraduate Seminar Description webpage for a detailed description.
+
+GU4412 ADVANCED ECONOMETRICS
+Prerequisites: ECON W3211, ECON W3213, ECON W3412, MATH V2010. The linear regression model will be presented in matrix form and basic asymptotic theory will be introduced. The course will also introduce students to basic time series methods for forecasting and analyzing economic data. Students will be expected to apply the tools to real data.
+
+

@@ -9,6 +9,47 @@ Prerequisites: ECON UN1105 and MATH UN1101 and (MATH UN1201 or MATH UN1207)
 
 The determination of the relative prices of goods and factors of production and the allocation of resources.
 
+intermediate microeconomics : a modern approach Varian, Hal R. 
+
+The market
+Budget constraint
+Preferences
+Utility
+Choice
+Demand
+Revealed preference
+Slutsky equation
+Buying and selling
+Intertemporal choice
+Asset markets
+Uncertainty
+Risky assets
+Consumer's surplus
+Market demand
+Equilibrium
+Auctions
+Technology
+Profit maximization
+Cost minimization
+Cost curves
+Firm supply
+Industry supply
+Monopoly
+Monopoly behavior
+Factor markets
+Oligopoly
+Game theory
+Game applications
+Behavioral economics
+Exchange
+Production
+Welfare
+Externalities
+Information technology
+Public goods
+Asymmetric information
+Mathematical appendix
+
 
 ECON GU4211 Advanced Microeconomics. 
 Prerequisites: ECON W3211, W3213, and MATH V2010.
