@@ -6,6 +6,9 @@ An introduction to the economic system and economic analysis with emphasis on de
 Prerequisites: basic facility with graphs and algebra.
 
 Instructor: Hamilton
+Microeconomics 1st Edition Edition
+by Austan Goolsbee 
+PART 1 Basic Concepts 1 Adventures in Microeconomics 2 Supply and Demand 3 Using Supply and Demand to Analyze Markets PART 2 Consumption and Production 4 Consumer Behavior Appendix: The Calculus of Utility Maximization and Expenditure Minimization 5 Individual and Market Demand Appendix: The Calculus of Income and Substitution Effects 6 Producer Behavior Appendix: The Calculus of Cost Minimization 7 Costs Appendix: The Calculus of a Firm's Cost Structure PART 3 Markets and Prices 8 Supply in a Competitive Market 9 Market Power and Monopoly Appendix: The Calculus of Profit Maximization 10 Market Power and Pricing Strategies 11 Imperfect Competition 12 Game Theory PART 4 Beyond the Basics 13 Investment, Time, and Uncertainty 14 General Equilibrium 15 Asymmetric Information 16 Market Failure 17 Behavioral and Experimental Economics
 
 
 180.301 Microeconomic Theory

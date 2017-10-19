@@ -4,6 +4,77 @@ An introduction to the economic system and economic analysis, with emphasis on t
  Applications of economic analysis to government and personal decisions. Prerequisite: basic facility with graphs and algebra.
 
 Instructor: Barbera
+
+Table of Contents
+
+Part 1: Introduction
+
+1. Economics: Foundations and Models
+
+Appendix: Using Graphs and Formulas
+
+2. Trade-offs, Comparative Advantage, and the Market System
+
+3. Where Prices Come From: The Interaction of Demand and Supply
+
+4. Economic Efficiency, Government Price Setting, and Taxes
+
+Appendix: Quantitative Demand and Supply Analysis
+
+5. The Economics of Health Care
+
+Part 2: Firms in the Domestic and International Economies
+
+6. Firms, the Stock Market, and Corporate Governance
+
+Appendix: Tools to Analyze Firms’ Financial Information
+
+7. Comparative Advantage and the Gains from International Trade
+
+Part 3: Macroeconomic Foundations and Long-Run Growth
+
+8. GDP: Measuring Total Production and Income
+
+9. Unemployment and Inflation
+
+10. Economic Growth, the Financial System, and Business Cycles
+
+11. Long-run Economic Growth: Sources and Policies
+
+Part 4: Short-Run Fluctuations
+
+12. Aggregate Expenditure and Output in the Short Run
+
+Appendix: The Algebra of Macroeconomic Equilibrium
+
+13. Aggregate Demand and Aggregate Supply Analysis
+
+Appendix: Macroeconomic Schools of Thought
+
+Part 5: Monetary and Fiscal Policy
+
+14. Money, Banks, and the Federal Reserve System
+
+15. Monetary Policy
+
+16. Fiscal Policy
+
+Appendix: A Closer Look at the Multiplier
+
+17. Inflation, Unemployment, and Federal Reserve Policy
+
+Part 6: The International Economy
+
+18. Macroeconomics in an Open Economy
+
+19. The International Financial System
+
+
+Macroeconomics, 6th Edition
+R. Glenn Hubbard, Columbia University
+Anthony Patrick O'Brien, Lehigh University
+
+
 180.302 Macroeconomic Theory
 The course provides a treatment of macroeconomic theory including a static analysis of the determination of output, employment,
  the price level, the rate of interest, and a dynamic analysis of growth, inflation, and business cycles. In addition,
