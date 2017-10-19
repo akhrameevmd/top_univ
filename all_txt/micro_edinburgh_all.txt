@@ -18,3 +18,12 @@ basic calculus is assumed.
 Topics covered may include asymmetric information,
 expected utility theory, auction theory; bargaining theory;
 social choice theory.
+
+
+Learning Outcomes
+On completion of this course, the student will be able to:
+A knowledge and understanding of principles and models used in microeconomic analysis and associated mathematical and statistical techniques, along with applications and policy implications of those models.
+Research and investigative skills such as problem framing and solving and the ability to assemble and evaluate complex evidence and arguments.
+Communication skills in order to critique, create and communicate understanding.
+Personal effectiveness through task-management, time-management, dealing with uncertainty and adapting to new situations, personal and intellectual autonomy through independent learning.
+Practical/technical skills such as, modelling skills (abstraction, logic, succinctness), qualitative and quantitative analysis and general IT literacy.

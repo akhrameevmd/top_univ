@@ -9,6 +9,21 @@ This course will examine modern applied research on macroeconomic and financial 
 main objective is to allow students to understand and critically appraise applied work on
 macroeconomic and financial topics.
 
+Enders, W. Applied Econometric Time Series, Wiley, 2014.Chapter 1: Difference Equations
+
+Chapter 2: Stationary Time-Series Models
+
+Chapter 3: Modeling Volatility
+
+Chapter 4: Models with Trend
+
+Chapter 5: Multiequation Time-Series Models
+
+Chapter 6: Cointegration and Error-Correction Models
+
+Chapter 7: Nonlinear Models and Breaks
+
+
 Economic Models and Introductory
 Econometrics
 This is a unit in basic econometrics, emphasising the problems involved in the empirical
@@ -16,6 +31,28 @@ measurement of economic relationships and the techniques used to solve these pro
 While the application of econometric techniques is of prime importance, the results are not
 just presented but derived using a mixture of rigour and intuition so as to leave as few
 loose ends as possible.
+
+
+Hill, R.C., Griffiths, W.E. and G.C. Lim (2011) Principles of Econometrics, 4th
+edition, Wiley, New Jersey.
+Chapter 1 An Introduction to Econometrics
+Probability Primer
+Chapter 2 The Simple Linear Regression Model
+Chapter 3 Interval Estimation and Hypothesis Testing
+Chapter 4 Prediction, Goodness-of-Fit, and Modeling Issues
+Chapter 5 The Multiple Regression Model
+Chapter 6 Further Inference in the Multiple Regression Model
+Chapter 7 Using Indicator Variables
+Chapter 8 Heteroskedasticity
+Chapter 9 Regression with Time-Series Data: Stationary Variables
+Chapter 10 Random Regressors and Moment-Based Estimation
+Chapter 11 Simultaneous Equations Models
+Chapter 12 Regression with Time-Series Data: Nonstationary Variables
+Chapter 13 Vector Error Correction and Vector Autoregressive Models
+Chapter 14 Time-Varying Volatility and ARCH Models
+Chapter 15 Panel Data Models
+Chapter 16 Qualitative and Limited Dependent Variable Models
+
 Econometris II: Econometric Models
 This course presents and develops techniques necessary for the quantitative analysis of economic
 and business problems that are beyond the scope of the simple linear regression model covered in
@@ -23,3 +60,29 @@ EMET2007 or STAT2008. Topics include: endogeneity, instrumental variables estima
 experiments, binary dependent variables, and panel data estimation. This is a hand-on course
 with a focus on applications in economics as well as business. A standard statistical software will
 be used during computer sessions, no special programming skills are required.
+
+Introduction to Econometrics (updated third edition, 2014) by Stock
+and Watson.
+Part I. Introduction and Review  
+Chapter 1. Economic Questions and Data
+Chapter 2. Review of Probability 
+Chapter 3. Review of Statistics 
+Part II. Fundamentals of Regression Analysis  
+Chapter 4. Linear Regression with One Regressor
+Chapter 5. Regression with a Single Regressor: Hypothesis Tests and Confidence Intervals  
+Chapter 6. Linear Regression with Multiple Regressors  
+Chapter 7. Hypothesis Tests and Confidence Intervals in Multiple Regression  
+Chapter 8. Nonlinear Regression Functions  
+Chapter 9. Assessing Studies Based on Multiple Regression  
+Part III. Further Topics in Regression Analysis  
+Chapter 10. Regression with Panel Data 
+Chapter 11. Regression with a Binary Dependent Variable  
+Chapter 12. Instrumental Variables Regression  
+Chapter 13. Experiments and Quasi-Experiments
+Part IV. Regression Analysis of Economic Time Series Data  
+Chapter 14. Introduction to Time Series Regression and Forecasting 
+Chapter 15. Estimation of Dynamic Causal Effects  
+Chapter 16. Additional Topics in Time Series Regression 
+Part V. The Econometric Theory of Regression Analysis  
+Chapter 17. The Theory of Linear Regression with One Regressor 
+Chapter 18. The Theory of Multiple Regression  

@@ -1,0 +1,385 @@
+ECON1102
+
+Macroeconomics 1
+Macroeconomics is concerned with the operation of the economy as a whole, with
+attention paid to such things as unemployment, inflation, and interest rates,
+determination of the level of national income, savings and investment, and the
+exchange rate and the current account of the balance of payments. The course
+develops a consistent model of the economy to explore the interactions of key
+macroeconomic markets and variables and to examine the impacts of different
+kinds of shocks to the economy and the role of government budgetary and
+monetary policy in influencing the level of economic activity.
+Mode of Delivery
+Prerequisites
+
+On campus, lecture and tutorial based
+Completion of, or concurrent enrollment in, Econ 1101 –
+Microeconomics 1
+Incompatible Courses As listed in Programs and Courses
+Course Convener and Dr. Cameron Gordon
+Lecturer
+Phone
+(02) 61250384
+Email
+cameron.gordon@anu.edu.au
+Office hours for student This information will be available in Wattle
+consultation
+Room 2010, HW Arndt Building 25a
+Research Interests
+Public Economics, Political Economy, Transport Economics,
+Economic History, Infrastructure Finance
+Relevant administrator Nicole Millar / School Office
+Phone
+(02) 61250384
+Email
+enquiries.rse@anu.edu.au
+Tutor
+This information will be available in Wattle
+
+SEMESTER 2
+2017
+
+http://programsandcourses.anu.edu.au/course/ECON1102 and Wattle
+
+ECON 1102 - SEMESTER 2 2017- AUSTRALIAN NATIONAL UNIVERSITY – Page 1 of 7
+
+COURSE OVERVIEW
+Course Description
+This is a class about macro-economics; that is, the economy as a whole. It differs from microeconomics which focuses on components of the economy. And it also differs from microeconomics in assuming that the whole of an economy may not always behave like the sum of the
+parts, especially in the short-run. Key macroeconomic policy and economic questions and ideas
+we will cover include: National Income Accounting; economic productivity and growth across a
+national or regional economy; management of the business cycle through fiscal and monetary
+policy tools; Aggregate Demand and Aggregate Supply models; and tools to measure and
+monitor a macro-economy. This course will take an economic history approach, starting by looking
+at the Great Depression of the 1930s (which rightfully can be said to have given birth to the field)
+and going on to other key historical episodes up to the present day as illustrations of
+macroeconomics in practice. We will also examine the way macroeconomic thought has evolved,
+especially in response to real-world events. Macroeconomics is very much a field in which failure
+of models in the field often leads to rather quick re-thinking and re-formulation of ideas.
+
+Learning Outcomes
+Upon successful completion of the requirements for this course, students should be able to:
+• Understand the differences and relationship between macroeconomic theory and
+microeconomic theory.
+• Describe the main policy instruments used to mitigate and manage business cycles,
+especially recession and boom.
+• Explain the limitations of government macro-intervention and the differences between
+monetary and fiscal policy, as well as how they are best used together .
+• Understand and use basic macro-economy models, especially aggregate supply and
+demand frameworks
+• Understand the relationship between the real and financial sectors of the
+economy especially as they pertain to business cycles.
+ Understand and use basic macro-economy models, especially aggregate supply and
+demand frameworks
+ Be able to analyse the dynamics and trade-offs between price inflation and unemployment.
+
+Assessment Summary
+The table below contains the proposed assessment schedule. Details about assessment may
+change during the first two weeks of semester. If there are any changes to the assessment
+schedule these will be posted in Wattle.
+Assessment
+item
+Tutorial
+Preparation
+
+Mid-semester
+exam
+Final
+examination
+
+Description
+
+Specific
+requirements
+
+Due date
+
+Compulsory and
+non-redeemable
+
+Weekly – starting
+week 2.
+
+90 minutes with 15
+minutes reading time
+
+Optional and
+redeemable
+
+180 minutes with
+30 minutes reading
+time
+
+Compulsory and
+non-redeemable
+
+Week 6 (check
+note on
+examinations)
+Final
+examination
+period
+
+Pre-prepared, hand
+written tutorial
+solutions for
+selected questions.
+
+AUSTRALIAN NATIONAL UNIVERSITY – Page 2 of 7
+
+Weighting (%)
+10%
+
+30%
+
+60% or 90%
+
+Research-Led Teaching
+The course will cover recent research in the area of macroeconomics. Recent papers on fiscal and
+monetary policy, inflation and unemployment, among other topics, will be provided in Wattle, often
+as suggested optional readings. When feasible the main findings of those papers will be discussed
+in class. The lecturer in charge of this course has research interests in economic history, public
+economics, political economy, and financial crisis as well as transport and infrastructure economics
+and has published papers in top international journals.
+
+Workload
+Students taking this course are expected to commit at least 11 hours a week to completing the
+work. This will include:
+• 3 hours a week: lecture
+• 1 hour a week: tutorial
+• At least 7 hours a week: reading, research, writing, lecture and tutorial preparation
+
+Course delivery
+The Pass component of Macroconomics 1 (ECON1102) consists on three hours of lecture and a
+one-hour tutorial per week (see the timetable for details on dates, times and locations). Tutorial
+meetings start in week 2 (See tutorial registration details below).
+• Lectures: It is expected that students attend lectures whenever possible and come prepared to
+them. The handouts for each topic (primarily PPTs) will be available before the lectures in
+Wattle. The relevant references are included in the last page.
+• Tutorials. It is expected that students prepare for tutorials in advance and come ready to
+answer questions about the problems assigned for each week's tutorial. The details about
+tutors are available in the contacts section and more detailed information about tutorials can be
+found in the folder “Tutors and tutorials” in Wattle.
+
+Co-teaching
+Please contact the administrative office for further guidance.
+
+Attendance requirements
+There are no marks allocated for attendance but participation in lectures and tutorials is
+encouraged. As noted above it is expected that students prepare for lectures and tutorials in
+advance.
+
+Tutorial registration
+Enrolment in tutorials will be completed online using the Electronic Teaching Assistant (ETA)
+after the first lecture. More information will be available in Wattle.
+
+Prescribed text and reference materials
+Prescribed text
+Macroeconomics VitalSource (3e)
+Glenn Hubbard, Anne Garnett, Philip Lewis, Tony O'Brien
+ISBN 9781486011735
+ISBN 10 148601173X
+Published 02/12/2014
+Published by Pearson Australia
+(Hereafter referred to as ‘H’)
+This book can be obtained through the ANU Bookstore or through the ANU Library
+Other materials, available online, will also be prescribed to supplement the text on certain topics.
+These links will be provided on the Wattle site in advance of the relevant lectures.
+
+Recommended (non-prescribed texts)
+Bernanke B., et. al. (2011). Principles of Macroeconomics, 2nd Edition, McGraw-Hill
+Colander, D (2009). Macroeconomics (8th edition), McGraw-Hill
+AUSTRALIAN NATIONAL UNIVERSITY – Page 3 of 7
+
+COURSE SCHEDULE
+The table below contains the proposed course schedule. Required readings are indicated by an
+asterisk (*) and are listed first. They mostly refer to the prescribed text. However a number of
+different sources are sometimes used. The complete set of references will appear in the last page
+of each handout. Please check the last page of the handouts, as they become available, as
+additional references might be added throughout the semester.
+Topic
+
+Title
+
+References
+
+1
+
+Macroeconomics v microeconomics
+
+H Chs. 1, 2, 3
+
+2
+
+Readings (online) to be assigned
+
+3
+
+The Great Depression and the birth
+of macroeconomics
+National Income Accounting
+
+H Ch. 4
+
+4
+
+Economic growth
+
+H, Ch 5,6
+
+5
+
+Labour Markets and Unemployment
+
+H, Ch 7
+
+6
+
+Price Inflation
+
+H, Ch 8
+
+7
+
+The short-run model of the
+macroeconomy
+
+H, Ch 9
+
+8
+
+Aggregate Supply and Aggregate
+Demand analysis
+
+H, Ch 10
+(except
+appendix)
+
+9
+
+Different Schools of Macroeconomic
+Thought
+
+H, Ch 10 appendix
+And other materials to be assigned.
+
+10
+
+Monetary Policy
+
+H, Ch 11, 12
+
+11
+
+Fiscal Policy
+
+H, Ch 13
+
+12
+
+Open Economy Macroeconomics
+
+H, Ch 14
+
+ASSESSMENT REQUIREMENTS
+Tutorial Assessment
+The tutorial assessment consists of submitting pre-prepared tutorial solutions for selected tutorial
+questions. These questions will involve a combination of problem-solving questions and short
+essays, very similar to questions that can be found in examination papers. The purpose of this
+AUSTRALIAN NATIONAL UNIVERSITY – Page 4 of 7
+
+assessment is to provide regular feedback on how to answer questions. Students will be advised
+at a later date, in class and in Wattle, of the precise tasks to be fulfilled for each tutorial.
+•
+•
+
+Hard Copy Submission (handwritten only): Pre-prepared tutorial solutions must be submitted
+to the tutor before commencing the tutorial. Email and fax submissions are not acceptable.
+Please keep a copy of your tutorial solutions for your own use during class discussions.
+The tutorial questions will be returned during the tutorials or lectures as soon as they are
+marked. One exception will be the final tutorial. Since there are no classes in week 13,
+alternative arrangements will be made and details will be posted on Wattle.
+
+Extensions and penalties
+• Extensions and late submission of assessment pieces are covered by the Student Assessment
+(Coursework) Policy and Procedure.
+• The Course Convener may grant extensions for assessment pieces that are not examinations or
+take- home examinations. If you need an extension, you must request it in writing on or before
+the due date. If you have documented and appropriate medical evidence that demonstrates you
+were not able to request an extension on or before the due date, you may be able to request it
+after the due date.
+• No submission of assessment tasks without an extension after the due date will be permitted.
+If an assessment task is not submitted by the due date, a mark of 0 will be awarded.
+
+Examinations
+•
+
+•
+
+•
+
+The mid-semester exam will consist of 2 sections – multiple choice and short-answer - to
+be answered in 90 minutes and will take place in week 6. Students will be advised at a later
+date, in class and in Wattle, of the material covered in the mid-semester exam. Note that for
+reasons beyond the control of the lecturer (e.g. clashes with other mid-semester exams) the
+mid-semester exam may be scheduled outside the preferred week (week 6). Any changes to
+the schedule will be notified in class and in Wattle. Students are expected to check the Wattle
+site regularly for announcements.
+The final exam will consist of 3 sections – multiple choice, short answer and long answer - to
+be answered in 3 hours. The questions will vary in complexity with 50% of the exam devoted to
+basic questions, aimed at determining whether the student should pass the unit, and then
+questions of increasing complexity, aimed at determining which students deserve credit,
+distinction or high distinction. You may have access to the previous years’ final exam papers
+through Wattle. The final exam will assess all material covered in the course.
+The permitted materials at the examinations are non-scientific calculators. You will also be able
+to check the permitted materials at the examination at http://timetable.anu.edu.au/exams/
+when the examination date and location will be announced.
+
+OTHER RELEVANT INFORMATION
+Announcements
+Students are expected to check the Wattle site for announcements about this course, e.g. changes
+to timetables or notifications of cancellations. Notifications of emergency cancellations of lectures
+or tutorials will be posted on the door of the relevant room.
+
+Feedback
+Staff Feedback
+Students will be given feedback in the following forms in this course:
+• The solutions to tutorial assessments and mid-semester exams will be covered
+in class.
+• Written comments, if relevant, will be included in the tutorial assessments returned to
+students.
+• Verbal comments, if necessary, will be provided during consultation time.
+
+Student Feedback
+AUSTRALIAN NATIONAL UNIVERSITY – Page 5 of 7
+
+ANU is committed to the demonstration of educational excellence and regularly seeks feedback
+from students. One of the key formal ways students have to provide feedback is through Student
+Experience of Learning Support (SELS) surveys. The feedback given in these surveys is
+anonymous and provides the Colleges, University Education Committee and Academic Board with
+opportunities to recognise excellent teaching, and opportunities for improvement.
+For more information on student surveys at ANU and reports on the feedback provided on ANU
+courses, go to
+• http://unistats.anu.edu.au/surveys/selt/students/ and
+• http://unistats.anu.edu.au/surveys/selt/results/learning/
+
+Policies
+ANU has educational policies, procedures and guidelines, which are designed to ensure that staff
+and students are aware of the University’s academic standards, and implement them. You can find
+the University’s education policies and an explanatory glossary at: http://policies.anu.edu.au/
+Students are expected to have read the Student Academic Integrity Policy before the
+commencement of their course.
+
+AUSTRALIAN NATIONAL UNIVERSITY – Page 6 of 7
+
+Other key policies include:
+• Student Assessment (Coursework)
+• Student Surveys and Evaluations
+
+SUPPORT FOR STUDENTS
+The University offers a number of support services for students. Information on these is available
+online from http://students.anu.edu.au/studentlife/
+
+AUSTRALIAN NATIONAL UNIVERSITY – Page 7 of 7
+
+

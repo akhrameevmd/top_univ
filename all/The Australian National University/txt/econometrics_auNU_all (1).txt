@@ -1,0 +1,253 @@
+EMET3004
+
+Econometris II: Econometric Models
+This course presents and develops techniques necessary for the quantitative analysis of economic
+and business problems that are beyond the scope of the simple linear regression model covered in
+EMET2007 or STAT2008. Topics include: endogeneity, instrumental variables estimation, natural
+experiments, binary dependent variables, and panel data estimation. This is a hand-on course
+with a focus on applications in economics as well as business. A standard statistical software will
+be used during computer sessions, no special programming skills are required.
+
+Mode of Delivery
+Prerequisites
+
+Incompatible Courses
+Co-taught Courses
+Course Convener:
+Phone:
+Email:
+Office hours for student consultation:
+Research Interests
+Student administrator
+Phone:
+Email:
+
+On campus
+ECON1101 and STAT2008;
+or
+EMET2007
+EMET6008
+EMET6008
+Juergen Meinecke
+56184
+juergen.meinecke at anu.edu.au
+Thu 9:45-11:15
+Econometrics, computational things
+Nicole Millar
+50384
+enquiries@anu.edu.au
+SEMESTER 2
+2017
+
+COURSE OVERVIEW
+Learning Outcomes
+Upon successful completion of the requirements for this course, students will
+1. understand the challenges of empirical modelling in economics and business
+2. understand the shortcomings of the standard linear regression model
+3. be able to apply important extensions to the linear regression model
+4. be able to express new econometric methods mathematically
+5. be able to think clearly about the relationship between data, model and estimation in econometrics
+6. use statistical software to study actual data sets
+
+Assessment Summary
+1.
+2.
+3.
+4.
+
+Assessment Task
+Assignment 1
+Assignment 2
+Participation
+Final Exam
+
+Value
+20%
+20%
+10%
+50%
+
+Due Date
+28 August
+16 October
+Weeks 2-11
+
+Date for Return to Students
+18 September
+24 October
+Week 12
+
+Research-Led Teaching
+This course teaches state-of-the-art methods and practices in econometrics. We will use applications and data sets from recently published papers in top academic journals.
+
+Feedback
+Staff Feedback
+Students will be given feedback in the following forms in this course:
+• Solution suggestions of past exams will be offered.
+• Verbal feedback will be given in the computer tutorials.
+• Written comments, if necessary, will be included in assignments returned to students.
+• Verbal comments, if necessary, will be provided during consultation.
+
+Student Feedback
+ANU is committed to the demonstration of educational excellence and regularly seeks feedback
+from students. One of the key formal ways students have to provide feedback is through Student Experience of Learning Support (SELS) surveys. The feedback given in these surveys is
+anonymous and provides the Colleges, University Education Committee and Academic Board
+with opportunities to recognise excellent teaching, and opportunities for improvement.
+For more information on student surveys at ANU and reports on the feedback provided on ANU
+courses, go to
+http : //unistats.anu.edu.au/surveys/selt/students/ and
+http : //unistats.anu.edu.au/surveys/selt/results/learning/
+
+Policies
+ANU has educational policies, procedures and guidelines, which are designed to ensure that staff
+and students are aware of the Universitys academic standards, and implement them. You can find
+the Universitys education policies and an explanatory glossary at: http : //policies.anu.edu.au/
+Students are expected to have read the Academic Misconduct Rule before the commencement of
+their course.
+Other key policies include:
+• Student Assessment (Coursework)
+• Student Surveys and Evaluations
+
+Required Resources
+Textbook
+The textbook for the course is Introduction to Econometrics (updated third edition, 2014) by Stock
+and Watson. Chiefly library has several copies of the textbook. I strongly recommend that you buy
+a copy of the book as I base the lecture and practice sessions on it.
+Other excellent textbooks include A Guide to Modern Econometrics by Verbeek and Introductory
+Econometrics: A Modern Approach 5ed, by Wooldridge. (There is no need to buy these, however.)
+Software
+The econometric software for this course is “Stata” Here’s a quick wiki summary of what Stata
+is: http : //en.wikipedia.org/wiki/Stata. From my own experience, Stata is an exhaustive, welldocumented, powerful and user-friendly statistical software. We will get to know Stata during the
+tutorial in a “learning-by-doing manner” Stata is available in the ANU computer labs. You do not
+need to purchase your own Stata license.
+
+Examination material or equipment
+None permitted
+
+COURSE SCHEDULE
+Week
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+Summary of Activities
+Review of OLS Estimation
+Unbiasedness, Consistency, CLT
+Identification and Endogneity
+Instrumental Variables Estimation
+Instrumental Variables Estimation
+Instrumental Variables Estimation
+(Quasi)-Experiments
+(Quasi)-Experiments
+Binary Dependent Variables
+Binary Dependent Variables
+Panel Data Estimation
+Panel Data Estimation
+Examination Period
+
+Assessment
+
+Assignment 1
+
+Assignment 2
+Final Exam
+
+ASSESSMENT REQUIREMENTS
+As a further academic integrity control, students may be selected for a 15 minute individual oral
+examination of their written assessment submissions.
+Any student identified, either during the current semester or in retrospect, as having used ghost
+writing services will be investigated under the University’s Academic Misconduct Rule.
+
+Assessment Tasks
+Participation
+Your participation is an essential part in the overall learning experience (both for you as well as
+your classmates!) in the course. I will evaluate you on your participation during the computer
+tutorial sessions. By participation I specifically mean:
+• answering questions
+• asking relevant and helpful questions
+Feel free to participate and contribute to these sessions. Do not be afraid to give ‘wrong‘ answers;
+as long as you are constructively engaged, there is no such thing as a wrong answer. After every
+tutorial your tutor will take note of students who participated in class and at the end of the semester
+I will aggregate these numbers to an overall participation mark. Roughly, I will give 10 marks to
+regular participators, 5 marks to occasional participators and zero marks to students who rarely
+or never participate. Feel free to seek feedback from me or your tutor during the semester on your
+participation performance.
+Do not confuse participation with attendance! In order to participate, you do need to attend. But
+in addition you also need to contribute to the tutorial discussion. (Attendance is necessary but not
+sufficient for participation.)
+
+Assignments
+Working through exercises is an effective method of learning econometrics, as it is with most mathematical subjects. That means that the assignments are more than simply part of the assessment
+for the course. Students will be required to submit two written assignments during the semester.
+The assignments will require computer work as well as analytical work. These assignments should
+be your own work. You may discuss assignments with classmates, but you should do all your own
+computing and writing of the assignments. It is an offense against the Universitys regulations to
+copy from other students assignments.
+Assignments should be submitted in hard copy by dropping them into a specially labeled assignment box at the Research School of Economics. (Contact the Student Administrator for details.)
+The front page of the submitted assignments must show your name, student number and the
+course name (EMET3004/6008). Assignments missing any of this information will receive a mark
+of zero.
+Assignments must be submitted by 3pm on the due date. Further details about assignment submission will be given during lectures.
+Extensions for Assignments
+No submission of assignments without an extension after the due date will be permitted. If an
+assessment task is not submitted by the due date, a mark of 0 will be awarded.
+Returning Assignments
+Assignments will be returned to you during your regular tutorial.
+Resubmission of Assignments
+Resubmission of assignments is not permitted.
+Final Examination
+The final exam is compulsory. Examinable material covers the whole semester. The exam will be
+marked out of 100.
+The final exam will be held in the exam period at the end of the semester. Details will be posted
+on the ANU exam timetable site.
+
+Scaling
+Your final mark for the course will be based on the raw marks allocated for each of your assessment items. However, your final mark may not be the same number as produced by that formula,
+as marks may be scaled. Any scaling applied will preserve the rank order of raw marks (i.e. if your
+raw mark exceeds that of another student, then your scaled mark will exceed the scaled mark of
+that student), and may be either up or down.
+
+Privacy Notice
+The ANU has made a number of third party, online, databases available for students to use. Use of
+each online database is conditional on student end users first agreeing to the database licensors
+terms of service and/or privacy policy. Students should read these carefully.
+In some cases student end users will be required to register an account with the database licensor
+and submit personal information, including their: first name; last name; ANU email address; and
+other information.
+In cases where student end users are asked to submit content to a database, such as an assignment or short answers, the database licensor may only use the students content in accordance
+with the terms of service including any (copyright) licence the student grants to the database licensor.
+Any personal information or content a student submits may be stored by the licensor, potentially
+offshore, and will be used to process the database service in accordance with the licensors terms
+of service and/or privacy policy.
+If any student chooses not to agree to the database licensors terms of service or privacy policy,
+the student will not be able to access and use the database. In these circumstances students
+should contact their lecturer to enquire about alternative arrangements that are available.
+
+Tutorial Seminar Registration
+Tutorial signup for this course will be done via the Wattle website. Detailed information about
+signup times will be provided on Wattle or during your first lecture. When tutorials are available for
+enrolment, follow these steps:
+1. Log on to Wattle, and go to the course site
+2. Click on the link ‘Tutorial enrolment’
+3. On the right of the screen, click on the tab ‘Become Member of . . . .’ for the tutorial class you
+wish to enter
+4. Confirm your choice
+If you need to change your enrolment, you will be able to do so by clicking on the tab ‘Leave
+group. . . .’ and then re-enrol in another group. You will not be able to enrol in groups that have
+reached their maximum number. Please note that enrolment in ISIS must be finalised for you to
+have access to Wattle.
+
+SUPPORT FOR STUDENTS
+The University offers a number of support services for students. Information on these is available
+online from http : //students.anu.edu.au/studentlife/
+
+

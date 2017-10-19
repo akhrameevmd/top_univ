@@ -1,4 +1,4 @@
- Essentials of Econometrics (ECNM10052)
+Essentials of Econometrics (ECNM10052)
 Summary 
 Essentials of Econometrics provides an introduction to
 econometric theory and practice for advanced
@@ -30,3 +30,37 @@ with exercises which foster 'learning-by-doing'. The
 course provides an opportunity to develop and practice
 key practical skills in computing, data gathering,
 processing, analysis and presentation.
+
+
+Learning Outcomes
+On completion of this course, the student will be able to:
+A knowledge and understanding of key econometric techniques for the empirical analysis of economic phenomena, along with application of these techniques in a variety of contexts.
+Research and investigative skills such as problem framing and solving and the ability to assemble and evaluate complex evidence and arguments.
+Communication skills in order to critique, create and communicate understanding and to collaborate with and relate to others.
+Personal effectiveness through task-management, time-management, teamwork and group interaction, dealing with uncertainty and adapting to new situations, personal and intellectual autonomy through independent learning.
+Practical/technical skills such as, modelling skills (abstraction, logic, succinctness), qualitative and quantitative analysis and interpretation of data, programming of statistical packages and general IT literacy.
+
+J. H. Stock and M. W. Watson, Introduction to Econometrics, (3rd revised edition)
+Part I. Introduction and Review  
+Chapter 1. Economic Questions and Data
+Chapter 2. Review of Probability 
+Chapter 3. Review of Statistics 
+Part II. Fundamentals of Regression Analysis  
+Chapter 4. Linear Regression with One Regressor
+Chapter 5. Regression with a Single Regressor: Hypothesis Tests and Confidence Intervals  
+Chapter 6. Linear Regression with Multiple Regressors  
+Chapter 7. Hypothesis Tests and Confidence Intervals in Multiple Regression  
+Chapter 8. Nonlinear Regression Functions  
+Chapter 9. Assessing Studies Based on Multiple Regression  
+Part III. Further Topics in Regression Analysis  
+Chapter 10. Regression with Panel Data 
+Chapter 11. Regression with a Binary Dependent Variable  
+Chapter 12. Instrumental Variables Regression  
+Chapter 13. Experiments and Quasi-Experiments
+Part IV. Regression Analysis of Economic Time Series Data  
+Chapter 14. Introduction to Time Series Regression and Forecasting 
+Chapter 15. Estimation of Dynamic Causal Effects  
+Chapter 16. Additional Topics in Time Series Regression 
+Part V. The Econometric Theory of Regression Analysis  
+Chapter 17. The Theory of Linear Regression with One Regressor 
+Chapter 18. The Theory of Multiple Regression  

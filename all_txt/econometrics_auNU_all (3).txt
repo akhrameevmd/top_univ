@@ -1,0 +1,303 @@
+EMET4305/8005
+
+Economic Models and Introductory
+Econometrics
+This is a unit in basic econometrics, emphasising the problems involved in the empirical
+measurement of economic relationships and the techniques used to solve these problems.
+While the application of econometric techniques is of prime importance, the results are not
+just presented but derived using a mixture of rigour and intuition so as to leave as few
+loose ends as possible.
+Mode of Delivery
+Prerequisites
+
+Incompatible Courses
+Course Convener:
+Phone:
+Email:
+Office hours for student
+consultation:
+Research Interests
+Relevant administrator if
+any (optional)
+Phone:
+Email:
+Tutor
+Email:
+
+On campus
+Knowledge of basic mathematics (including
+calculus), statistics and linear algebra is
+assumed.
+Sriram Shankar
+6125 2310
+sriram.shankar@anu.edu.au
+Please refer to Wattle for consultation time
+Risk and Uncertainty and Applied Econometrics
+Nicole Millar
+6125 0384
+Enquiries.rse@anu.edu
+TBA
+
+TBA
+
+SEMESTER 2
+2017
+
+http://programsandcourses.anu.edu.au/course/EMET8005
+
+1 | THE AUSTRALIAN NATIONAL UNIVERSITY
+
+COURSE OVERVIEW
+Learning Outcomes
+The main objective of this course is to provide students with an introduction to econometric
+methods needed for graduate level empirical analysis in economics and related
+disciplines. At the end of this course, students will:
+•
+
+•
+
+be able to conduct a basic empirical analysis of cross sectional data (observations on
+characteristics of several economic units, such as firms or households, at a single point
+in time) or time series data (observations on characteristics of one economic unit over
+time);
+have sufficient background to take EMET8001 Applied Micro-Econometrics or
+EMET8010 Applied Macro and Financial Econometrics or EMET8002 Case Studies in
+Applied Econometrics in the second semester.
+
+Assessment Summary
+Assessment Task
+
+Value
+
+Start Date
+
+Due Date
+
+1 Assignment 1
+2. Assignment 2
+3. Mid-Semester Exam
+
+10%
+10%
+35%
+
+26/07/2017
+06/09/2016
+-
+
+31/08/2017
+20/10/2016
+18/09/2016
+
+Final Exam
+
+45%
+
+-
+
+TBA
+
+Feedback
+Staff Feedback
+Students will be given feedback in the following forms in this course: written comments,
+verbal comments, feedback to the whole class and to tutorial groups.
+Student Feedback
+ANU is committed to the demonstration of educational excellence and regularly seeks feedback
+from students. One of the key formal ways students have to provide feedback is through Student
+Experience of Learning Support (SELS) surveys. The feedback given in these surveys is
+anonymous and provides the Colleges, University Education Committee and Academic Board with
+opportunities to recognise excellent teaching, and opportunities for improvement.
+For more information on student surveys at ANU and reports on the feedback provided on ANU
+courses, go to
+http://unistats.anu.edu.au/surveys/selt/students/ and
+http://unistats.anu.edu.au/surveys/selt/results/learning/
+
+Policies
+ANU has educational policies, procedures and guidelines, which are designed to ensure
+that staff and students are aware of the University’s academic standards, and implement
+them. You can find the University’s education policies and an explanatory glossary at:
+http://policies.anu.edu.au/
+
+2 | THE AUSTRALIAN NATIONAL UNIVERSITY
+
+Students are expected to have read the Student Academic Integrity Policy before the
+commencement of their course.
+Other key policies include:
+• Student Assessment (Coursework)
+• Student Surveys and Evaluations
+Required Resources
+Commonwealth supported students and domestic full-fee paying students generally must
+be able to complete the requirements of their program of study without the imposition of
+fees that are additional to the student contribution amount or tuition fees.
+Provided that its payment is in accordance with the Act, a fee is of a kind that is into any one or
+more of the following categories:
+(a) It is a charge for a good or service that is not essential to the course of study.
+(b) It is a charge for an alternative form, or alternative forms, of access to a good or service that is
+an essential component of the course of study but is otherwise made readily available at no
+additional fee by the higher education provider.
+(c) It is a charge for an essential good or service that the student has the choice of acquiring from a
+supplier other than the higher education provider and is for:
+(i) equipment or items which become the physical property of the student and are not consumed
+during the course of study; or
+(ii) food, transport and accommodation costs associated with the provision of field trips that form
+part of the course of study.
+(d) It is a fine or a penalty provided it is imposed principally as a disincentive and not in order to
+raise revenue or cover administrative costs.
+
+Additional course costs
+EViews econometric software will be used in this course. A Student version of the software may be
+purchased separately.
+Examination material or equipment
+The relevant information will be posted on Wattle.
+Recommended Resources
+Essential Textbook: Hill, R.C., Griffiths, W.E. and G.C. Lim (2011) Principles of Econometrics, 4th
+edition, Wiley, New Jersey.
+Other recommended texts (not compulsory):
+W.H. Greene (2008) Econometric analysis, 6th edition, Prentice Hall, New Jersey.
+P. Kennedy (2003) A Guide to Econometrics, 5th edition, Cambridge, Mass. MIT Press.
+G.S. Maddala (2000) Introductory econometrics, Prentice Hall Englewood Cliffs,
+New Jersey.
+Stock, J.H. and M.W. Watson (2007) Introduction to econometrics, 2nd edition, Pearson.
+J.M. Wooldridge (2006) Introductory Econometrics: A Modern Approach, 3rd edition.
+
+3 | THE AUSTRALIAN NATIONAL UNIVERSITY
+
+COURSE SCHEDULE
+Week/
+Session
+1
+2
+3
+4
+5
+6
+
+Summary of Activities
+Introduction and Probability Primer (Hill et al.,
+chapter 1)
+Simple Linear Regression Model (Hill et al.,
+chapter 2)
+Interval Estimation and Hypothesis Testing (Hill
+et al., chapter 3)
+Prediction, Goodness of Fit and Modelling
+Issues (Hill et al., chapter 4)
+Multiple Regression Model (Hill et al., chapter 5)
+
+Inference in the Multiple Regression Model (Hill et
+al., chapter 6)
+7 (Monday) Mid-semester exam
+7 (Tuesday) Using Dummy Variables in Regression (Hill et al.,
+Chapter 7)
+Heteroskedasticity (Hill et al., chapter 8)
+8
+
+9
+10
+11
+12
+
+Heteroskedasticity (Hill et al., chapter 8)
+Instrumental Variables Regression (Hill et al.,
+chapter 10.3)
+Regression analysis with Stationary time series
+data (Hill et al., chapter 9)
+Regression analysis with Non-stationary time
+series data (Hill et al., chapter 12)
+
+Examination period
+ASSESSMENT REQUIREMENTS
+
+The ANU is using Turnitin to enhance student citation and referencing techniques, and to
+assess assignment submissions as a component of the University's approach to managing
+Academic Integrity. For additional information regarding Turnitin please visit the ANU
+Online website.
+Students may choose not to submit assessment items through Turnitin. In this instance
+you will be required to submit, alongside the assessment item itself, copies of all
+references included in the assessment item.
+As a further academic integrity control, students may be selected for a 15 minute individual
+oral examination of their written assessment submissions.
+Any student identified, either during the current semester or in retrospect, as having used
+ghost writing services will be investigated under the University’s Academic Misconduct
+Rule.
+Assessment Tasks
+Assignments
+There will be two assignments in this course. The due dates for these assignments will be posted
+on Wattle.
+4 | THE AUSTRALIAN NATIONAL UNIVERSITY
+
+Examination(s)
+The mid-semester exam would contain multiple choice and short-answer/calculation type questions
+based on topics covered in the assignments and lectures. Students who miss the test for valid and
+documented medical reasons will have the value of the test added to the value of the final
+examination.
+Assignment submission
+
+Online Submission: Assignments are submitted using Turnitin in the course Wattle site.
+You will be required to electronically sign a declaration as part of the submission of your
+assignment. Please keep a copy of the assignment for your records.
+Extensions and penalties
+Extensions and late submission of assessment pieces are covered by the Student Assessment
+(Coursework) Policy and Procedure.
+The Course Convener may grant extensions for assessment pieces that are not examinations or takehome examinations. If you need an extension, you must request it in writing on or before the due date. If
+you have documented and appropriate medical evidence that demonstrates you were not able to request
+an extension on or before the due date, you may be able to request it after the due date.
+Late submission of assessment tasks without an extension are penalised at the rate of 5% of the possible
+marks available per working day or part thereof. Late submission of assessment tasks is not accepted
+after 10 working days after the due date, or on or after the date specified in the course outline for the
+return of the assessment item.
+Late submission is not accepted for take-home examinations.
+Returning assignments
+The dates for returning the assignments will be posted on Wattle.
+
+Announcements
+Students are expected to check the Wattle site for announcements about this course, e.g. changes
+to timetables or notifications of cancellations.
+
+Scaling
+Your final mark for the course will be based on the raw marks allocated for each of your
+assessment items. However, your final mark may not be the same number as produced by
+that formula, as marks may be scaled. Any scaling applied will preserve the rank order of
+raw marks (i.e. if your raw mark exceeds that of another student, then your scaled mark
+will exceed the scaled mark of that student), and may be either up or down.
+Privacy Notice
+The ANU has made a number of third party, online, databases available for students to
+use. Use of each online database is conditional on student end users first agreeing to the
+database licensor’s terms of service and/or privacy policy. Students should read these
+carefully.
+5 | THE AUSTRALIAN NATIONAL UNIVERSITY
+
+In some cases student end users will be required to register an account with the database
+licensor and submit personal information, including their: first name; last name; ANU email
+address; and other information.
+In cases where student end users are asked to submit ‘content’ to a database, such as an
+assignment or short answers, the database licensor may only use the student’s ‘content’ in
+accordance with the terms of service – including any (copyright) licence the student grants
+to the database licensor.
+Any personal information or content a student submits may be stored by the licensor,
+potentially offshore, and will be used to process the database service in accordance with
+the licensors terms of service and/or privacy policy.
+If any student chooses not to agree to the database licensor’s terms of service or privacy
+policy, the student will not be able to access and use the database. In these
+circumstances students should contact their lecturer to enquire about alternative
+arrangements that are available.
+Tutorial Seminar Registration
+Tutorial signup for this course will be done via the Wattle website. Detailed information
+about signup times will be provided on Wattle or during your first lecture. When tutorials
+are available for enrolment, follow these steps:
+1. Log on to Wattle, and go to the course site
+2. Click on the link “Tutorial enrolment”
+3. On the right of the screen, click on the tab “Become Member of…..” for the tutorial
+class you wish to enter
+4. Confirm your choice
+If you need to change your enrolment, you will be able to do so by clicking on the tab
+“Leave group….” and then re-enrol in another group. You will not be able to enrol in
+groups that have reached their maximum number. Please note that enrolment in ISIS
+must be finalised for you to have access to Wattle.
+
+SUPPORT FOR STUDENTS
+The University offers a number of support services for students. Information on these is
+available online from http://students.anu.edu.au/studentlife/
+
+6 | THE AUSTRALIAN NATIONAL UNIVERSITY
+
+

@@ -22,3 +22,36 @@ labour economics.
 The course is taught through a programme of lectures and
 tutorials. Learning-by-doing, through exercise sets, is an
 important ingredient of the course.
+
+Learning Outcomes
+On completion of this course, the student will be able to:
+A knowledge and understanding of principles and models used in macroeconomic analysis and associated mathematical and statistical techniques, along with applications and policy implications of those models.
+Research and investigative skills such as problem framing and solving and the ability to assemble and evaluate complex evidence and arguments.
+Communication skills in order to critique, create and communicate understanding.
+Personal effectiveness through task-management, time-management, dealing with uncertainty and adapting to new situations, personal and intellectual autonomy through independent learning.
+Practical/technical skills such as, modelling skills (abstraction, logic, succinctness), qualitative and quantitative analysis and general IT literacy.
+
+Romer, D., (2010), 'Advanced Macroeconomics', McGraw Hill.\
+
+Chapter 1 THE SOLOW GROWTH MODEL 6
+Chapter 2 INFINITE-HORIZON AND
+OVERLAPPING-GENERATIONS
+MODELS 49
+Chapter 3 ENDOGENOUS GROWTH 101
+Chapter 4 CROSS-COUNTRY INCOME
+DIFFERENCES 150
+Chapter 5 REAL-BUSINESS-CYCLE THEORY 189
+Chapter 6 NOMINAL RIGIDITY 238
+Chapter 7 DYNAMIC STOCHASTIC GENERALEQUILIBRIUM
+MODELS OF
+FLUCTUATIONS 312
+Chapter 8 CONSUMPTION 365
+Chapter 9 INVESTMENT 405
+Chapter 10 UNEMPLOYMENT 456
+Chapter 11 INFLATION AND MONETARY
+POLICY 513
+Chapter 12 BUDGET DEFICITS AND FISCAL
+POLICY 584
+Epilogue THE FINANCIAL AND
+MACROECONOMIC CRISIS OF 2008
+AND BEYOND 644

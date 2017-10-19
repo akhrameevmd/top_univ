@@ -4,3 +4,37 @@ and to their interactions in the market under varying degrees of competition.
 
 The aim of this course is to introduce students to the models of behavior and of equilibrium that are most important to contemporary economics. These models provide the lens through which economists today study economic reality. We shall consider the mathematical formulation of these models, the interpretation of the models, and how the models are used in empirical research.
 
+Workouts in intermediate microeconomics : for intermediate microeconomics and intermediate..., Author: Theodore C. Bergstrom; Hal R. Varian., 
+1. The Market 1
+2. Budget Constraint 5
+3. Preferences 17
+4. Utility 33
+5. Choice 49
+6. Demand 65
+7. Revealed Preference 79
+8. Slutsky Equation 95
+9. Buying and Selling 109
+10. Intertemporal Choice 129
+11. Asset Markets 143
+12. Uncertainty 157
+13. Risky Assets 171
+14. Consumer's Surplus 177
+15. Market Demand 187
+16. Equilibrium 197
+17. Technology 209
+18. Profit Maximization 221
+19. Cost Minimization 233
+20. Cost Curves 245
+21. Firm Supply 251
+22. Industry Supply 261
+23. Monopoly 275
+24. Monopoly Behavior 281
+25. Factor Markets 289
+26. Oligopoly 293
+27. Game Theory 309
+28. Exchange 329
+29. Production 343
+30. Welfare 353
+31. Externalities 363
+32. Law 373
+33. Public Goods 377

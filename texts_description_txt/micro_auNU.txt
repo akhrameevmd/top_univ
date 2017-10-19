@@ -11,6 +11,47 @@ are examined. Public goods, externalities and common resources are key examples 
 cases in which private markets may yield social sub-optimal outcomes. Such cases are
 examined the role of government policy in correcting for these is discussed.
 
+Principles of Microeconomics: Australia and New Zealand Edition. Joshua Gans, Stephen
+King, Martin Byford and N. Gregory Mankiw
+Part I: Introduction
+1. Ten lessons from economics
+2. Thinking like an economist
+3. Interdependence and the gains from trade
+
+Part I: Supply and demand I: how markets work
+4. The market forces of supply and demand
+5. Elasticity and its application
+6. Supply, demand and government policies
+
+Part III: Supply and demand II: markets and welfare
+7. Consumers, producers and the efficiency of markets
+8. Application: the costs of taxation
+9. Application: international trade
+
+Part IV: The economics of the public sector
+10. Externalities
+11. Public goods and common resources
+12. The design of the tax system
+
+Part V: Firm behaviour and the organisation of industry
+13. The costs of production
+14. Firms in competitive markets
+15. Monopoly
+16. Business strategy
+17. Competition policy
+18. Monopolistic competition
+
+Part VI: The economics of labour markets
+19. The markets for the factors of production
+20. Earnings, unions and discrimination
+21. Income inequality and poverty
+
+Part VII: Topics for further study
+22. The theory of consumer choice
+23. Frontiers of microeconomics
+
+
+
 ECON2101
 Microeconomics 2
 
@@ -24,3 +65,36 @@ by economic efficiency? When do markets fail to achieve efficient outcomes? Trai
 analysis is achieved via weekly tutorials that go over problem sets linked to material presented in
 lectures. Overall, the course takes an analytical approach emphasising rigorous logical reasoning and
 economic problem solving.
+
+Nicholson, W., & Snyder, C., 2015, Intermediate Microeconomics and its Applications, 12th edition,
+Cengage Learning, USA.
+
+Part I: INTRODUCTION.
+1. Economic Models.
+Appendix: Mathematics Used in Microeconomics.
+Part II: DEMAND.
+2. Utility and Choice.
+3. Demand Curves.
+Part III: UNCERTAINTY AND STRATEGY.
+4. Uncertainty.
+5. Game Theory.
+Part IV: PRODUCTION, COSTS, AND SUPPLY.
+6. Production.
+7. Costs.
+8. Profit Maximization and Supply.
+Part V: PERFECT COMPETITION.
+9. Perfect Competition in a Single Market.
+10. General Equilibrium and Welfare.
+Part VI: MARKET POWER.
+11. Monopoly.
+12. Imperfect Competition.
+Part VII: INPUT MARKETS.
+13. Pricing in Input Markets.
+Appendix: Labor Supply.
+14. Capital and Time.
+Appendix: Compound Interest.
+Part VIII: MARKET FAILURES.
+15. Asymmetric Information.
+16. Externalities and Public Goods.
+17. Behavioral Economics.
+

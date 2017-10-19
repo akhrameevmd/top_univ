@@ -1,0 +1,581 @@
+Version: 9 July 2017 
+ 
+
+ECON 3102
+
+Macroeconomics 3
+Mode of Delivery
+
+On campus, in person
+
+Prerequisites
+
+As listed in Programs and Courses
+
+Incompatible Courses
+
+Incompatible with ECON8026
+
+Co-taught Courses
+
+N/A
+
+Course Convener and
+Lecturer/Tutor:
+
+Dr. Timo Henckel
+
+Phone:
+
+02 6125 5540
+
+Email:
+
+timo.henckel@anu.edu.au
+
+Lecture times:
+
+Tue 10-11am & Fri 2-4pm
+
+Tutorial times:
+
+TBA
+
+Office hours for student
+consultation:
+
+TBA, Crisp/Copland 2088
+
+Research Interests
+
+Macroeconomics, Monetary economics, International
+finance, Behavioural economics
+
+RSE Student Office
+Contact
+
+Nicole Millar
+
+Phone:
+
+02 6125 0384
+
+Email:
+
+enquiries.rse@anu.edu.au
+
+RSE Students Webpage
+
+www.rse.anu.edu.au/students
+
+SEMESTER 2, 2017
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+ 
+ 
+ 
+
+P a g e  | 2 
+
+COURSE OVERVIEW
+Course Description
+This course extends and reinforces the material developed in Macroeconomics 2 by
+analysing a number of policy issues in macroeconomics. Its objective is to show how
+practical problems can be structured and analysed using macroeconomic models and
+appropriate data. Most of the applications will be drawn from contemporary and historical
+Australian and international experience. Topics to be discussed include measurement and
+interpretation of macroeconomic aggregates; impact of the world economy on short-run
+fluctuations in Australia; determinants of economic growth and foreign debt; assessment of
+the impact of fiscal policy; inflation targets and monetary policy; and the persistence of
+unemployment.
+Learning Outcomes
+Upon successful completion of this course, students should be able to:
+1. be able to use macroeconomic models to examine and understand recent major
+economic events in the Australian economy;
+2. understand how to use different macroeconomic models to evaluate macroeconomic
+activity;
+3. be familiar with the main computational models used in Australia to forecast
+economic activity, and how they are used to evaluate policy proposals;
+4. know how to report macroeconomic policy analysis in a coherent way with clear
+explanations of the economic intuition.
+Assessment Summary
+Assessment Task Description
+
+Value
+
+2 Assignments
+
+ASAP
+TBA,
+15% for first
+probably
+assignment,
+15% for second Week 4 and
+assignment, both Week 10
+compulsory &
+non-redeemable
+
+Take-home
+tasks to be
+handed in
+writing, involving
+problem-solving
+questions and
+modelling
+exercises
+Mid-semester exam 120 minutes with
+15 minutes
+reading time
+Final exam
+
+25%,
+compulsory &
+redeemable
+
+Due Date
+
+Week 7
+
+Date for Return of
+Assessment
+
+ASAP
+
+150 minutes with 45%,
+Final
+ASAP
+30 minutes
+compulsory &
+examination
+reading time
+non-redeemable period
+
+Research-Led Teaching
+While the course’s mission is to teach macroeconomic principles, a strong emphasis will be
+placed on critical thinking. The lecturer is an active researcher, with expertise in
+macroeconomics, monetary economics, international finance and behavioural economics.
+Whenever possible, he draws attention to new ideas and evidence in macroeconomics.
+
+ 
+ 
+ 
+Feedback
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+P a g e  | 3 
+
+Staff Feedback
+Students will be given feedback in the following ways:
+ Oral feedback in lectures and tutorials and during consultations
+ Written comments, where relevant, will be included in the assignments returned to
+students.
+ Online feedback through the Wattle course site, especially in the Discussion Forum
+Student Feedback
+ANU is committed to the demonstration of educational excellence and regularly seeks
+feedback from students. One of the key formal ways students have to provide feedback is
+through Student Experience of Learning Support (SELS) surveys. The feedback given in
+these surveys is anonymous and provides the Colleges, University Education Committee
+and Academic Board with opportunities to recognise excellent teaching, and opportunities for
+improvement.
+For more information on student surveys at ANU and reports on the feedback provided on
+ANU courses, go to
+http://unistats.anu.edu.au/surveys/selt/students/ and
+http://unistats.anu.edu.au/surveys/selt/results/learning/
+I take these surveys seriously. Please take the time at the end of the course to complete the
+SELS surveys for this course. Thank you in advance for your cooperation and support.
+Policies
+ANU has educational policies, procedures and guidelines, which are designed to ensure that
+staff and students are aware of the University’s academic standards, and implement them.
+You can find the University’s education policies and an explanatory glossary at:
+http://policies.anu.edu.au/
+Students are expected to have read the Academic Misconduct Rule before the
+commencement of their course.
+Other key policies include:
+ Student Assessment (Coursework)
+ Student Surveys and Evaluations
+Required Resources
+Students should obtain a copy of the following textbook which forms the basis for much of
+this course:
+
+
+Carlin, Wendy, and David Soskice, Macroeconomics: Institutions, Instability, and the
+Financial System, Oxford: Oxford University Press, 2015.
+
+You should be able to obtain a copy through the ANU Coop bookshop. Alternatively, order a
+copy through www.amazon.com or www.bookdepository.com. Do not confuse this book with
+the authors’ 2005 textbook Macroeconomics: Imperfections, Institutions, and Policies, also
+from Oxford University Press.
+
+ 
+ECON3102, 2nd Sem 2017 Course Outline 
+P a g e  | 4 
+ 
+ 
+Recommended Resources
+Other possible texts for the course, of varying degree of difficulty and relevance, include:
+
+
+
+
+
+
+
+
+
+
+Carlin, Wendy, and David Soskice, Macroeconomics: Imperfections, Institutions, and
+Policy, Oxford: Oxford University Press, 2005.
+Williamson, Stephen D., Macroeconomics 5th edition, New York: Pearson, 2014.
+Gottfries, Nils, Macroeconomics, London: Palgrave Macmillan. 2015.
+Leamer, Edward E., Macroeconomic Patterns and Stories: A Guide for MBAs, Berlin:
+Springer, 2009.
+Montiel, Peter J., International Macroeconomics, Chichester: Wiley-Blackwell, 2009.
+Chugh, Sanjay K., Modern Macroeconomics, Cambridge: MIT Press, 2015.
+Heijdra, Ben J., Foundations of Modern Macroeconomics 2nd edition, Oxford: Oxford
+University Press, 2009.
+Bénassy-Quéré, Agnès, Benoît Cœuré, Pierre Jacquet, and Jean Pisani-Ferry,
+Economic Policy: Theory and Practice, Oxford: Oxford University Press, 2010.
+Godley, Wynne, and Marc Lavoie, Monetary Economics: An Integrated Approach to
+Credit, Money, Income, Production and Wealth, London: Palgrave Macmillan, 2007.
+
+If you cannot afford, or do not wish to own, a personal copy of the textbooks, I am trying to
+ensure copies are available from the ANU Libraryʼs 2-hour reserve listing.
+You should try to stay abreast of current events and regularly read the business and
+economics sections of leading newspapers and magazines (The Economist, Financial
+Times, Australian Financial Review, etc.)
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+ 
+ 
+ 
+
+P a g e  | 5 
+
+COURSE SYLLABUS
+
+Week/
+Summary of Activities
+Session
+1
+
+TBA
+
+2
+
+Exogenous and Endogenous Growth (Ch 8)
+
+3
+
+Introduction and Review of Short-Run (Chs 1 & 2)
+
+4
+
+3-Equation Model and Policy (Ch 3)
+
+5
+
+Expectations (Ch 4)
+
+6
+
+Money, Banking and Finance I (Chs 5 & 6)
+
+7
+
+Money, Banking and Finance II (Chs 6 & 7)
+
+8
+
+Open Economy I (Chs 9 & 10)
+
+9
+
+Open Economy II (Chs 10 & 11)
+
+10
+
+Overlapping Generations (OLG) Models
+
+11
+
+Monetary and Fiscal Policy (Chs 13, 14 & 16)
+
+12
+
+Behavioural Macroeconomics
+Examination period
+
+Assessment
+
+Assignment 1
+
+Midsemester Exam
+
+Assignment 2
+
+Final Exam
+
+ 
+Unless otherwise specified, chapter numbers refer to the Carlin & Soskice textbook. You will
+be told in advance which sections in the textbook are relevant.
+For some topics additional sources will be necessary. These will be made available to you
+prior to the respective lecture(s).
+This course outline is indicative only. Depending on how the course progresses, the
+weighting of some topics may change and some topics may be dropped or added.
+
+ 
+ 
+ 
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+P a g e  | 6 
+
+ASSESSMENT REQUIREMENTS
+The ANU is using Turnitin to enhance student citation and referencing techniques, and to
+assess assignment submissions as a component of the University's approach to managing
+Academic Integrity. For additional information regarding Turnitin please visit the ANU Online
+website.
+Students may choose not to submit assessment items through Turnitin. In this instance you
+will be required to submit, alongside the assessment item itself, copies of all references
+included in the assessment item.
+As a further academic integrity control, students may be selected for a 15 minute individual
+oral examination of their written assessment submissions.
+Any student identified, either during the current semester or in retrospect, as having used
+ghost writing services will be investigated under the University’s Academic Misconduct Rule.
+Assessment Tasks
+Participation
+There are no marks allocated for attendance but participation in lectures and tutorials is
+encouraged. It is expected that students prepare for lectures and tutorials in advance.
+2 Take-Home Assignments
+See assessment summary above for details.
+Examinations
+There will be one mid‐term exam, testing the entire material covered in the first six weeks. It
+will be held in week 7.
+The final exam will test the entire material covered throughout the semester, with an
+emphasis on the second half of the course. (Roughly one third of the exam will cover the first
+half of the course, and two thirds of the exam will cover the second half of the course.) It will
+be held during the university examination period.
+The format of the mid-term and final exams has not yet been determined. Most likely, it will
+consist of three parts. The first part contains multiple choice questions (MCQ). The second
+part contains “short answer” questions (SAQ) that typically focus on a single concept. Good
+answers to these questions range from a couple of sentences to approx. half a page, rarely
+longer. The third part contains “long answer” questions (LAQ), with several sub-questions,
+which test your technical skills as well as your general understanding, intuition and
+knowledge of macroeconomics.
+Answers on exams should be clear, neat, relevant and concise. Due to the volume of
+grading, there will only be minimal written comments.
+Extensions and penalties
+Extensions and late submission of assessment pieces are covered by the Student
+Assessment (Coursework) Policy and Procedure.
+The Course Convener may grant extensions for assessment pieces that are not
+examinations or take-home examinations. If you need an extension, you must request it in
+writing on or before the due date. If you have documented and appropriate medical evidence
+
+ 
+ECON3102, 2nd Sem 2017 Course Outline 
+P a g e  | 7 
+ 
+ 
+that demonstrates you were not able to request an extension on or before the due date, you
+may be able to request it after the due date.
+No submission of assessment tasks without an extension after the due date will be
+permitted. If an assessment task is not submitted by the due date, a mark of 0 will be
+awarded.
+Returning assignments
+The assignments will be returned during the tutorials and/or lectures as soon as they are
+marked. An announcement will be made in Wattle.
+Resubmission of assignments
+Resubmission of assignments is not possible.
+Referencing requirements
+Students are expected to familiarize themselves with and apply standard referencing
+procedures. Carefully read and understand the information contained in the relevant web
+pages under http://www.anu.edu.au/students/learning-development/academic-integrity.
+Please pay particular attention to the pages on:
+ academic integrity (http://www.anu.edu.au/students/learning-development/academicintegrity/academic-integrity), and
+ academic misconduct and plagiarism (http://www.anu.edu.au/students/programadministration/assessments-exams/academic-honesty-plagiarism).
+Scaling
+Your final mark for the course will be based on the raw marks allocated for each of your
+assessment items. However, your final mark may not be the same number as produced by
+that formula, as marks may be scaled. Any scaling applied will preserve the rank order of
+raw marks (i.e. if your raw mark exceeds that of another student, then your scaled mark will
+exceed the scaled mark of that student), and may be either up or down.
+WARNING
+There is a growing tendency for students to haggle over grades. This is totally unacceptable.
+You are reminded that you need to earn your grades. This requires hard work, many hours
+of studying, and focus. Top grades (high distinction) are rare; they are evidence of
+outstanding academic achievement. In the past typically no more than 10% of students earn
+HD’s. It is important that you are realistic about your expectations.
+
+ 
+ 
+ 
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+P a g e  | 8 
+
+COMMUNICATION
+All course material, including lecture slides, problem sets, articles, etc., will be made
+available on the Wattle site for ECON3102. All students formally enrolled in this course
+should have access to this site and should check it several times a week.
+Typically, preliminary slides will be posted shortly before the lecture. Sometimes revised or
+updated lecture slides will be posted after the lecture. Problem sets for the tutorials will
+normally be made available each Thursday evening for the following week.
+If you have questions about the course, either about the lectures or the tutorials, please
+contact me.
+I am there to help you. However, I am a busy person and I also have a private life. It is
+unreasonable for you to expect me to be on call 24/7.
+I have office hours. Take advantage of them. If you need to see me outside my office hour,
+please arrange a time beforehand, preferably by email. Please do not show up at my office
+outside office hours unannounced.
+As a general rule, when communicating with your tutor and your lecturer, please be polite.
+Starting an email with “Hey” is inappropriate; do not be surprised if you do not receive a
+response to rude messages.
+
+ 
+ 
+ 
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+P a g e  | 9 
+
+HOW TO LEARN
+Lectures
+To learn the material, it is necessary to attend lectures regularly and to read the assigned
+texts/articles. Readings consist of textbook chapters, other book chapters, academic journal
+articles and newspaper/magazine articles, most of which will be made available on Wattle.
+You should go over the material in your own time before and after the lectures. Some
+additional readings may be provided after the lectures.
+For this course, given its pace and demanding nature, you must read the relevant
+textbook sections prior to attending the lecture. You will be told prior to the lectures
+which sections will be covered. I will assume that everyone has read the textbook sections
+as I will not cover all relevant material in the lectures. I will use the lectures to focus on key
+issues and particularly challenging concepts.
+Although timetabling has reserved three contact hours per week for lectures, the two-hour
+sessions on Fridays are the primary lecture times. The Tuesday lecture is an “overflow”
+lecture that I will use as required. I expect to use approx. 6 or 7 of the Tuesday lectures. I will
+let you know in advance if and when we meet on Tuesdays. Make sure you are always
+available for the Tuesday and Friday lectures.
+All lectures will be recorded and made available on the Echo360 section of the Wattle course
+site. Echo360 is meant for people who really cannot make it to particular lectures, for people
+who are unable to attend physically (i.e. for medical reasons), and for those wanting to
+review the lecture material. For the able-bodied the Echo360 is not meant to be a substitute
+for attending lectures.
+Staying Abreast of Current Events
+You should try to stay abreast of current events and regularly read the business and
+economics sections of leading newspapers and magazines (The Economist, Financial
+Times, Australian Financial Review, etc.)
+Tutorials
+A crucial component of the course is the ability to analyse a problem using macroeconomic
+tools. Learning‐by‐doing is the best way to achieve this. To this end, you should always
+attempt the problem sets before attending your tutorials. Simply copying answers provided in
+the tutorial is an ineffective and dangerous technique for learning how to solve problems.
+Additional questions at the end of each chapter in the text provide further practice.
+Many questions will be difficult, some will be very difficult. This is deliberate to force you to
+think hard about a problem. Arriving at the correct answer is of secondary import to begin
+with—you learn from mistakes and from being pushed. Even if the solution appears elusive,
+you should attempt every question. The brain is like a rubber band—it is only useful when
+stretched.
+You are strongly encouraged to actively participate in tutorials by volunteering answers,
+asking questions and engaging with me and your class mates. I am there to assist in
+learning the material, provided you have attended the lecture, kept up with the reading and
+made a serious effort at answering the tutorial questions. I cannot make up for the lack of
+student effort.
+
+ 
+ECON3102, 2nd Sem 2017 Course Outline 
+P a g e  | 10 
+ 
+ 
+Additional Learning Aids and Online Resources
+Make use of the internet where you can find a plethora of useful learning aids and online
+resources. The Preface of the Carlin & Soskice textbook points you to additional study aides
+which you should definitely take advantage of. They will help you understand and remember
+the material.
+Small Study Groups
+You are strongly encouraged to study in small groups (2‐4 students). Study groups provide
+you with a non‐threatening environment to ask questions and discuss mutual problems. If
+you are stuck on a problem, probably someone else is too. Moreover, explaining a concept
+to your peers is the best way to learn and calcifies the material in your memory. Finally,
+study groups offer an effective commitment device to do the work. However, you should
+make sure that the problem sets reflect your own work; members of a study group should
+not write down identical answers.
+Wattle Discussion Forum
+Use the Wattle Discussion Forum! Feel free to post questions (and answers!) related to the
+course material on the Discussion Forum. The usual internet etiquette applies. Be precise,
+concise and specific.
+A good question might be, “In Tutorial Problem Set 2, Question 4, we are asked to analyse
+the effect of an oil price shock on GDP and inflation assuming rational expectations. Here is
+my proposed answer: The AS curve jumps up, causing an increase in inflation and a
+reduction in GDP but I’m unsure whether the AD curve also jumps to the new equilibrium, or
+whether the AD curve moves to the new equilibrium gradually. Any ideas? And what is the
+economic intuition?”
+This question clearly shows that the student has thought about the problem and attempted to
+answer it herself in the first instance.
+Posing a question such as “I don’t understand what the AD curve is and all this curve shifting
+is totally confusing. The exam is only 8 weeks away!!!!!!!!!!!!!! This is too hard!!!!!!” is not
+useful.
+Students are encouraged to post answers (precise, concise and specific) to their peers’
+questions. If all goes well, there will be a lively discussion of the course material on the
+Wattle Forum, with everyone benefiting.
+I will monitor the forum discussions and will periodically contribute, mostly when I can tell
+that the discussion is going in a completely wrong direction.
+Repeat: Please be polite, relevant, precise, concise and specific.
+Summary:
+Internalize the following Confucian wisdom:
+I hear and I forget.
+I see and I remember.
+I do and I understand.
+
+ 
+ 
+ 
+
+ECON3102, 2nd Sem 2017 Course Outline 
+
+P a g e  | 11 
+
+FURTHER INFORMATION
+Privacy Notice
+The ANU has made a number of third party, online, databases available for students to use.
+Use of each online database is conditional on student end users first agreeing to the
+database licensor’s terms of service and/or privacy policy. Students should read these
+carefully.
+In some cases student end users will be required to register an account with the database
+licensor and submit personal information, including their: first name; last name; ANU email
+address; and other information.
+In cases where student end users are asked to submit ‘content’ to a database, such as an
+assignment or short answers, the database licensor may only use the student’s ‘content’ in
+accordance with the terms of service – including any (copyright) licence the student grants to
+the database licensor.
+Any personal information or content a student submits may be stored by the licensor,
+potentially offshore, and will be used to process the database service in accordance with the
+licensors terms of service and/or privacy policy.
+If any student chooses not to agree to the database licensor’s terms of service or privacy
+policy, the student will not be able to access and use the database. In these circumstances
+students should contact their lecturer to enquire about alternative arrangements that are
+available.
+Support for Students
+The University offers a number of support services for students. Information on these is
+available online from http://students.anu.edu.au/studentlife/.
+RSE has a Frequently Asked Questions page where you can find relevant policies and
+information on a broad range of topics, the onus is on the student to familiarise themselves
+with this page and the information available.
+https://www.rse.anu.edu.au/students/students/frequently-askedquestions/
+Building Access Hours
+Both CBE and HW ARNDT buildings:
+ TEACHING PERIOD: Mon-Fri 07.45 to 21.15 and SAT, SUN and Public Holidays is
+not accessible by students.
+ NON TEACHING PERIOD: Mon-Fri 08.00 to 18.00 and SAT, SUN and Public
+Holidays is not accessible by students.
+
+RSE has a Frequently Asked Questions page where you can find
+relevant policies and information on a broad range of topics
+https://www.rse.anu.edu.au/students/frequently-asked-questions/
+
+

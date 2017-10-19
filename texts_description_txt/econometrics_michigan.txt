@@ -11,3 +11,29 @@ ECON 451 is an introduction to mathematical statistics that requires fluency wit
 ECON 452 - Intermediate Introduction to Statistics and Econometrics II
 This course, a continuation of ECON 451, is intended to prepare students to conduct empirical research in economics. The classical linear regression model is developed with special emphasis on the basic assumptions of the model, economic situations in which the assumptions are violated, and alternative estimation procedures that are appropriate in these cases. 
 Computer exercises are used to introduce students to special problems encountered in the analysis of economic data.
+
+
+INTRO ECONOMETRICS MODERN APPRCH., Author: Wooldridge., Publisher: Cengage Learning 2015
+Chapter 1 The Nature of Econometrics and Economic Data 1
+PART 1: Regression Analysis with Cross-Sectional Data 21
+Chapter 2 The Simple Regression Model 22
+Chapter 3 Multiple Regression Analysis: Estimation 68
+Chapter 4 Multiple Regression Analysis: Inference 118
+Chapter 5 Multiple Regression Analysis: OLS Asymptotics 168
+Chapter 6 Multiple Regression Analysis: Further Issues 186
+Chapter 7 Multiple Regression Analysis with Qualitative
+Information: Binary (or Dummy) Variables 227
+Chapter 8 Heteroskedasticity 268
+Chapter 9 More on Specification and Data Issues 303
+PART 2: Regression Analysis with Time Series Data 343
+Chapter 10 Basic Regression Analysis with Time Series Data 344
+Chapter 11 Further Issues in Using OLS with Time Series Data 380
+Chapter 12 Serial Correlation and Heteroskedasticity in Time Series Regressions 412
+PART 3: Advanced Topics 447
+Chapter 13 Pooling Cross Sections Across Time: Simple Panel Data Methods 448
+Chapter 14 Advanced Panel Data Methods 484
+Chapter 15 Instrumental Variables Estimation and Two Stage Least Squares 512
+Chapter 16 Simultaneous Equations Models 554
+Chapter 17 Limited Dependent Variable Models and Sample Selection Corrections 583
+Chapter 18 Advanced Time Series Topics 632
+Chapter 19 Carrying Out an Empirical Project

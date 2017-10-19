@@ -1,4 +1,4 @@
-ECON1102
+ECON 1102
 Macroeconomics 1
 Macroeconomics is concerned with the operation of the economy as a whole, with
 attention paid to such things as unemployment, inflation, and interest rates,
@@ -8,6 +8,43 @@ develops a consistent model of the economy to explore the interactions of key
 macroeconomic markets and variables and to examine the impacts of different
 kinds of shocks to the economy and the role of government budgetary and
 monetary policy in influencing the level of economic activity.
+
+Macroeconomics VitalSource (3e)
+Glenn Hubbard, Anne Garnett, Philip Lewis, Tony O'Brien
+PART 1 INTRODUCTION 
+CHAPTER 1 Economics: Foundations and models 
+CHAPTER 1 APPENDIX Using graphs and formulae 
+CHAPTER 2 Choices and trade-offs in the market 
+
+PART 2 HOW THE MARKET WORKS 
+CHAPTER 3 Where prices come from: The interaction of demand and supply 
+
+PART 3 MACROECONOMIC FOUNDATIONS AND ECONOMIC GROWTH 
+CHAPTER 4 GDP: Measuring total production, income and economic growth 
+CHAPTER 5 Economic growth, the financial system and business cycles 
+CHAPTER 6 Long-run economics growth: sources and policies 
+
+PART 4 UNEMPLOYMENT AND INFLATION 
+CHAPTER 7 Unemployment 
+CHAPTER 8 Inflation 
+
+PART 5 SHORT-RUN FLUCTUATIONS 
+CHAPTER 9 Aggregate expenditure and output in the short run 
+CHAPTER 9 APPENDIX The algebra of macroeconomic equilibrium 
+CHAPTER 10 Aggregate demand and aggregate supply analysis 
+CHAPTER 10 APPENDIX Macroeconomic schools of thought 
+PART 6 MONETARY AND FISCAL POLICY 
+CHAPTER 11 Money, banks and the Reserve Bank of Australia 
+CHAPTER 12 Monetary policy 
+CHAPTER 13 Fiscal policy 
+CHAPTER 13 APPENDIX 1 Is there a short-run trade-off between unemployment and inflation? 
+CHAPTER 13 APPENDIX 2 A closer look at the multiplier 
+PART 7 THE INTERNATIONAL ECONOMY 
+CHAPTER 14 Macroeconomics in an open economy 
+CHAPTER 15 The international financial system 
+CHAPTER 15 APPENDIX The gold standard and the Bretton Woods System
+
+
 
 ECON 2102
 MACROECONOMICS 2
@@ -21,6 +58,72 @@ courses, and also closer to how macroeconomics is done in the best universities 
 such as the U.S. Federal Reserve, the International Monetary Fund, the European Central Bank, Bank
 of England, the Reserve Banks of New Zealand and Australia.
 
+Stephen D. Williamson (2014), “Macroeconomics”, 5th edition. Pearson Addison Wesley Publishers
+(International version)
+Table of Contents
+
+I. INTRODUCTION AND MEASUREMENT ISSUES
+
+1. Introduction
+
+2. Measurement
+
+3. Business Cycle Measurement
+
+
+
+II. A ONE-PERIOD MODEL OF THE MACROECONOMY
+
+4. Consumer and Firm Behavior: The Work—Leisure Decision and Profit Maximization
+
+5. A Closed-Economy One-Period Macroeconomic Model
+
+6. Search and Unemployment
+
+
+
+PART III. ECONOMIC GROWTH
+
+7. Economic Growth: Malthus and Solow
+
+8. Income Disparity Among Countries and Endogenous Growth
+
+
+
+PART IV. SAVINGS, INVESTMENT, AND GOVERNMENT DEFICITS
+
+9. A Two-Period Model: The Consumption—Savings Decision and Credit Markets
+
+10. Credit Market Imperfections: Credit Frictions, Financial Crises, and Social Security
+
+11. A Real Intertemporal Model with Investment
+
+
+
+PART V. MONEY AND BUSINESS CYCLES
+
+12. Money, Banking, Prices, and Monetary Policy
+
+13. Business Cycle Models with Flexible Prices and Wages
+
+14. New Keynesian Economics: Sticky Prices
+
+
+
+PART VI. INTERNATIONAL MACROECONOMICS
+
+15. International Trade in Goods and Assets
+
+16. Money in the Open Economy
+
+
+
+PART VII. MONEY, BANKING, AND INFLATION
+
+17. Money, Inflation, and Banking
+
+18. Inflation, the Phillips Curve, and Central Bank Commitment
+
 Macroeconomics 3
 Course Description
 This course extends and reinforces the material developed in Macroeconomics 2 by
@@ -32,3 +135,23 @@ interpretation of macroeconomic aggregates; impact of the world economy on short
 fluctuations in Australia; determinants of economic growth and foreign debt; assessment of
 the impact of fiscal policy; inflation targets and monetary policy; and the persistence of
 unemployment.
+Carlin, Wendy, and David Soskice, Macroeconomics: Institutions, Instability, and the
+Financial System, Oxford: Oxford University Press, 2015. 
+
+
+1. The demand side
+2. The supply side
+3. The 3-equation model and macroeconomic policy
+4. Expectations
+5. Money, banking and the macro-economy
+6. The financial sector and crises
+7. The global financial crisis: applying the models
+8. Growth, fluctuations and innovation
+9. The 3-equation model in the open economy
+10. The open economy: the demand and supply sides
+11. Extending the open economy model: oil shocks and imbalances
+12. The Eurozone
+13. Monetary policy
+14. Fiscal policy
+15. Supply-side policy, institutions and unemployment
+16. Real Business Cycle and New Keynesian models
