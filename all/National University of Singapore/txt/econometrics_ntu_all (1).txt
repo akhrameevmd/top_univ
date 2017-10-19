@@ -1,0 +1,140 @@
+School of Humanities & Social Sciences
+
+Division of Economics
+HE204B/HE2005 – Principles of Econometrics
+2014/2015 Semester 1
+This course offers students in economics and mathematics a firm foundation in the theory
+and methods of econometrics. The course teaches students the main tools of estimation and
+inference. Applications of econometric techniques will be illustrated by empirical
+examples based on economic analysis. In addition, further topics such as goodness-of-fit,
+prediction, dummy variables, heteroskedasticity, functional form misspecification, time
+series data will be discussed.
+Teaching Faculty
+WANG Wei Siang
+
+Office
+
+Telephone
+
+E-mail
+
+HSS-04-55
+
+6514 1092
+
+wswang@ntu.edu.sg
+
+Office Hours: Tue 5-6 pm, Wed 12.30 -1.30 pm, Thurs 3.40 - 4.20 pm
+Prerequisite: HE1005 or MAS215 or MTH214 or MH2500
+Textbook* and Recommended References
+[1] *Wooldridge, Jeffrey (2013), Introductory Econometrics: A Modern Approach (5th
+edition) (Library Call#: HB139.W913I)
+[2] Hill, Rufus et al. (2011), Principles of Econometrics (4th edition) (Library Call#
+HB139.H647P 2011)
+[3] Gujarati, Damodar and D. Porter (2010), Essentials of Econometrics (4th edition)
+(Library Call#: HB139.G969E 2010)
+Method of Instruction
+Lectures: 100 minutes per week (Lectures commence in Week 1 and end in Week 13)
+Tutorials: 50 minutes per week (Tutorials commence in Week 2 and end in Week 14)
+Course Assessment
+Your grade on this course will be based on four components.
+Participation:
+Problem Sets:
+In-class Quizzes:
+Final Examination:
+
+10%
+10%
+15%
+65% (Closed-book Exam on November 26, 2014)
+
+TOTAL:
+
+100%
+
+page 1
+
+Proposed Lecture Schedule
+Week No
+
+Topics #
+
+Reading
+
+1
+
+THE NATURE OF ECONOMETRICS AND ECONOMICS DATA
+
+Ch 1
+
+2
+
+THE SIMPLE REGRESSION MODEL
+
+Ch 2
+
+3
+
+MULTIPLE REGRESSION ANALYSIS: ESTIMATION
+
+Ch 3
+
+4
+
+MULTIPLE REGRESSION ANALYSIS: INFERENCE
+
+Ch 4
+
+5
+
+MULTIPLE REGRESSION ANALYSIS: OLS ASYMPTOTICS
+
+Ch 5
+
+6
+
+MULTIPLE REGRESSION ANALYSIS: FURTHER ISSUES
+
+Ch 6
+
+7
+
+MULTIPLE REGRESSION ANALYSIS WITH QUALITATIVE
+INFORMATION: BINARY (OR DUMMY ) VARIABLES
+
+Ch 7
+
+RECESS
+
+8
+9
+
+HETEROSKEDASTICITY
+
+Ch 8
+
+10
+
+MORE ON SPECIFICATION AND DATA ISSUES
+
+Ch 9
+
+11
+
+INSTRUMENTAL VARIABLE ESTIMATION
+
+Ch 15
+
+REGRESSION ANALYSIS WITH TIME SERIES DATA
+
+Ch 10 & 11
+
+12 & 13
+
+# I reserve the
+
+right to change the content if it is in the best interest of student-learning.
+
+page 2
+
+

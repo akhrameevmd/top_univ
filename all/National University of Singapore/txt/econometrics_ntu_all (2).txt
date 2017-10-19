@@ -1,0 +1,121 @@
+NANYANG TECHNOLOGICAL UNIVERSITY
+School of Humanities and Social Sciences
+Division of Economics
+Semester 1, Academic Year 2014-15
+
+1
+
+Course Description
+
+This course introduces students to econometric time series techniques that are widely used to analyse economic and …nancial data. The course prepares students for more advanced study in this area, as well
+as in applying these techniques to empirical studies. Topics covered include stationary and nonstationary
+univariate time series modeling, multi-equation time-series models and volatility modeling.
+
+2
+
+Course Outline
+Week No.
+1&2
+12/8/2014
+19/8/2014
+
+3-5
+26/8/2014
+2/9/2014
+9/9/2014
+6&7
+16/9/2014
+23/9/2014
+8
+9 - 11
+7/10/2014
+14/10/2014
+21/10/2014
+12 - 13
+28/10/2014
+4/11/2014
+
+3
+
+Topic
+Univariate Time Series Models
+-Autoregressive processes
+-Moving average processes
+-Mixed processes
+-Forecasting
+Modeling volatility
+- ARCH Models
+- GARCH Models
+- Estimation and Testing
+Nonstationary processes
+- Trend
+- Unit root tests
+- Structural breaks
+RECESS WEEK
+Vector Autoregressive Processes
+- Representation of the system
+- Granger causality
+- Impulse response analysis
+- Variance decomposition
+Cointegration
+- De…nition and properties
+- Cointegration in single equation models
+- Cointegration in VAR
+
+Basic Text
+
+Enders W.
+Applied Econometric Time Series (3rd Ed.)
+John_Wiley (2010)
+NTU Library Call Number: HB139.E56 2010
+
+4
+
+Method of Instruction
+
+Seminars:
+3 hours per week
+Lectures commence in Week 2 and end in Week 13.
+
+1
+
+Reference
+Enders Chap. 1 & 2
+
+Enders Chap. 3
+
+Enders Chap 4
+
+Enders Chap 5
+
+Enders Chap 6
+
+5
+
+Course Assessment
+
+Class Quiz (Week 10)
+Final examination
+Total
+
+6
+
+30%
+70%
+100%
+
+Instructor
+
+Name
+O¢ ce
+Tel
+Email
+
+Low C.K.
+HSS-04-84
+6790 4706
+acklow@ntu.edu.sg
+
+2
+
+

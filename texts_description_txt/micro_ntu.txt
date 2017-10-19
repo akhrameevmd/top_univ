@@ -4,3 +4,37 @@ The course addresses the decision-making of small economic units - consumers, fi
 principles, opportunity cost, laws and elasticity of demand and supply, utility maximization, the concept of the margin,
 indifference curves, profit maximization, market equilibrium and efficiency, market structure, market failure, public choice,
 externalities and property rights, the economics of public policy and of public goods.
+
+Robert S. Pindyck and Daniel Rubinfeld
+Microeconomics, an Asian Perspective,
+Prentice Hall, 8th Edition 2013• PART ONE
+Introduction: Markets and Prices 1
+ 1 Preliminaries 3
+ 2 The Basics of Supply and Demand 21
+• PART TWO
+Producers, Consumers, and Competitive Markets 65
+ 3 Consumer Behavior 67
+ 4 Individual and Market Demand 111
+ 5 Uncertainty and Consumer Behavior 159
+ 6 Production 201
+ 7 The Cost of Production 229
+ 8 Profit Maximization and Competitive Supply 279
+ 9 The Analysis of Competitive Markets 317
+• PART THREE
+Market Structure and Competitive Strategy 355
+10 Market Power: Monopoly and Monopsony 357
+11 Pricing with Market Power 399
+12 Monopolistic Competition and Oligopoly 451
+13 Game Theory and Competitive Strategy 487
+14 Markets for Factor Inputs 529
+15 Investment, Time, and Capital Markets 559
+• PART FOUR
+Information, Market Failure, and the Role
+of Government 593
+16 General Equilibrium and Economic Efficiency 595
+17 Markets with Asymmetric Information 631
+18 Externalities and Public Goods 661
+Appendix: The Basics of Regression 700
+Glossary 708
+Answers to Selected Exercises 718
+Photo Credits 

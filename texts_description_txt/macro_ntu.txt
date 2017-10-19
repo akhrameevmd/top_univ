@@ -8,9 +8,64 @@ The issues in exchange-rate policy studied here include the implications of diff
 of exchange rates in the presence of currency controls and the indeterminacy of exchange rates when people are free to hold
 currencies of their choice.
 
+HE1002 –PRINCIPLES OF MACROECONOMICS
+Table of Contents
+
+Part I: INTRODUCTION TO ECONOMICS
+Ch 1: The Scope and Method of Economics
+Ch 2: The Economic Problem: Scarcity and Choice
+Ch 3: Demand, Supply, and Market Equilibrium
+Ch 4: Demand and Supply Applications
+Part II: CONCEPTS AND PROBLEMS IN MACROECONOMICS
+Ch 5: Introduction to Macroeconomics
+Ch 6: Measuring National Output and National Income
+Ch 7: Unemployment, Inflation, and Long-Run Growth
+Part III: THE CORE OF MACROECONOMIC THEORY
+Ch 8: Aggregate Expenditure and Equilibrium Output
+Ch 9: The Government and Fiscal Policy
+Ch 10: The Money Supply and the Federal Reserve System
+Ch 11: Money Demand and the Equilibrium Interest Rate
+Ch 12:  The Determination of aggregate output, the Price Level, and the Interest Rate
+Ch 13: Policy Effects and Cost Effects in the AS/AD Model
+Ch 14:  The Labor Market In the Macroeconomy
+Part IV: FURTHER MACROECONOMICS ISSUES
+Ch 15:  Financial Crises, Stabilization, and Deficits
+Ch 16: Household and Firm Behavior in the Macroeconomy: A Further Look
+Ch 17: Long-Run Growth
+Ch 18:  Alternative Views in Macroeconomics
+Part VII: THE WORLD ECONOMY
+Ch 19: International Trade, Comparative Advantage, and Protectionism
+Ch 20: Open-Economy Macroeconomics: The Balance of Payments and Exchange Rates
+Ch 21: Economic Growth in Developing and Transitional Economies
+
 
 HE4002	ADVANCED MACROECONOMICS
 This course exposes students to a basic understanding of the workings of the economy as a whole. The topics covered include
 measures of the GNP; inflation and unemployment; economic growth; the general product market; the 'Keynesian cross' model; the
 general money market, the creation of money; the role of central bank and of the financial institutions; the basic IS-LM model;
 aggregate demand and aggregate supply; open economy macroeconomics that includes capital flows and the balance of trade.
+
+Ljungqvist, L. and T.Sargent (2000), Recursive Macroeconomic Theory, MIT Press
+(1) Economic Growth Theory:
+• Neoclassical Growth Theory
+• Elementary Endogenous Growth Theory:
+(i) The AK Model
+(ii) Technology and Economic Growth
+(iii) Human capital and Economic Growth
+(2) Economic Development Theory
+• The Big push theory
+• Poverty trap
+• Industrial transformation
+• Demographic transition
+(3) Money, Finance and Long-run growth
+• Basic ”Lucas” asset pricing model
+• OLG model with Money
+• Financial intermediation and endogenous growth
+(4) International development and globalization
+• Exchange rate determination and FDI
+• Traditional ”Grossman-Helpman North-South” international trade model
+• Frontier ”Melitz-Eaton-Korum” international trade model
+(5) Contemporary issues in income and firm distribution
+• Income distribution
+• Growth, cycles and firm distribution
+• Political institutions and distributive policies

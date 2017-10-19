@@ -1,9 +1,0 @@
-This course helps students to form a foundation in econometric analysis especially those related to modern economic research.
-Modern econometric skills will be introduced to students through lectures and computer based class projects. The course emphasizes
-applications of econometric techniques rather than econometric theories. Statistical package will be used to illustrate analysis of realworld
-data. The main topics covered are: Multiple Regression Analysis (Estimation and Inference), Dummy Variables,
-Multicollinearity, Heteroscedasticity, Autocorrelation, Binary Choice Model, Panel Regression, and Baysian Estimation
-
-Discussions of different estimations of the econometric models, their tests and their applications. Topics include the Simple
-Linear Regression Model, Generalized Linear Regression Models, Dummy variable models, dynamic models and
-introductory time series models. For each topic, illustrative examples will be employed during the lectures and tutorials.
