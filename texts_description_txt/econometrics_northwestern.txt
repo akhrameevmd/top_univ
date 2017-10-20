@@ -5,6 +5,33 @@ multiple regression, simultaneous equations, and forecasting.
 Prerequisites:
 201; 202; MATH 220; STAT 210 or
 equivalent.
+
+James H. Stock and Mark W. Watson (2014), “Introduction to Econometrics” 3rd Edition, Addison Wesley.
+
+Part I. Introduction and Review  
+Chapter 1. Economic Questions and Data
+Chapter 2. Review of Probability 
+Chapter 3. Review of Statistics 
+Part II. Fundamentals of Regression Analysis  
+Chapter 4. Linear Regression with One Regressor
+Chapter 5. Regression with a Single Regressor: Hypothesis Tests and Confidence Intervals  
+Chapter 6. Linear Regression with Multiple Regressors  
+Chapter 7. Hypothesis Tests and Confidence Intervals in Multiple Regression  
+Chapter 8. Nonlinear Regression Functions  
+Chapter 9. Assessing Studies Based on Multiple Regression  
+Part III. Further Topics in Regression Analysis  
+Chapter 10. Regression with Panel Data 
+Chapter 11. Regression with a Binary Dependent Variable  
+Chapter 12. Instrumental Variables Regression  
+Chapter 13. Experiments and Quasi-Experiments
+Part IV. Regression Analysis of Economic Time Series Data  
+Chapter 14. Introduction to Time Series Regression and Forecasting 
+Chapter 15. Estimation of Dynamic Causal Effects  
+Chapter 16. Additional Topics in Time Series Regression 
+Part V. The Econometric Theory of Regression Analysis  
+Chapter 17. The Theory of Linear Regression with One Regressor 
+Chapter 18. The Theory of Multiple Regression  
+
 ECON 381-1,2 Econometrics 1. Probability and distribution
 theory, statistical inference, simple and multiple regression,
 specification error and multicollinearity, heteroskedasticity
@@ -16,3 +43,6 @@ distributed lags, panel data, simultaneous equation systems,
 limited dependent variables. Prerequisite:
 381-1 (310-2,
 311 recommended).
+
+
+Introduction to Econometrics by Stock and Watson, 3rd Edition updated 

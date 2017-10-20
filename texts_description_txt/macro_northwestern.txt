@@ -1,14 +1,77 @@
-ECON 201-0 Introduction to Macroeconomics Scarcity and
-choice; elements of demand and supply, determinants of
+ECON 201-0 Introduction to Macroeconomics 
+Scarcity and choice; elements of demand and supply, determinants of
 aggregate output, employment, inflation, growth, and
 international balance of payments.
-ECON 311-0 Macroeconomics Macroeconomics and monetary
-policy. Behavior of the economy as a whole. Income,
+
+Modern Principles: Macroeconomics by Cowen and Tabarrok, 2nd Edition. 
+
+Part I: Supply and Demand
+CHAPTER 1 The Big Ideas in Economics ......................................................... 1
+CHAPTER 2 The Power of Trade and Comparative Advantage .................... 13
+CHAPTER 3 Supply and Demand .................................................................. 27
+CHAPTER 4 Equilibrium: How Supply and Demand Determine Prices ......... 47
+CHAPTER 5 Elasticity and Its Applications .................................................... 65
+CHAPTER 6 Taxes and Subsidies .................................................................. 93
+Part 2: The Price System
+CHAPTER 7 The Price System: Signals, Speculation, and Prediction .......... 113
+CHAPTER 8 Price Ceilings and Floors ......................................................... 131
+CHAPTER 9 International Trade .................................................................. 159
+CHAPTER 10 Externalities: When Prices Send the Wrong Signals .............. 175
+Part 3: Firms and Factor Markets
+CHAPTER 11 Costs and Profit Maximization Under Competition ............... 193
+CHAPTER 12 Competition and the Invisible Hand...................................... 223
+CHAPTER 13 Monopoly .............................................................................. 233
+CHAPTER 14 Price Discrimination ............................................................... 257
+CHAPTER 15 Cartels, Oligopolies, and Monopolistic Competition ............ 279
+CHAPTER 16 Competing for Monopoly: The Economics of
+Network Goods .......................................................................................... 303
+CHAPTER 17 Labor Markets ........................................................................ 319
+Part 4: Government
+CHAPTER 18 Public Goods and the Tragedy of the Commons .................. 343
+CHAPTER 19 Political Economy and Public Choice .................................... 361
+CHAPTER 20 Economics, Ethics, and Public Policy ..................................... 385
+viii
+Cowen2e_Econ_Contents.indd viii 11/3/11 11:27 AM
+Brief Contents • ix
+Part 5: Decision Making for Businesses, Investors,
+and Consumers
+CHAPTER 21 Managing Incentives ............................................................. 401
+CHAPTER 22 Stock Markets and Personal Finance ..................................... 419
+CHAPTER 23 Consumer Choice .................................................................. 435
+Part 6: Economic Growth
+CHAPTER 24 GDP and the Measurement of Progress ................................ 461
+CHAPTER 25 The Wealth of Nations and Economic Growth ...................... 483
+CHAPTER 26 Growth, Capital Accumulation, and the Economics of Ideas:
+Catching Up vs. the Cutting Edge .............................................................. 509
+CHAPTER 27 Saving, Investment, and the Financial System ...................... 543
+Part 7: Business Fluctuations
+CHAPTER 28 Unemployment and Labor Force Participation ...................... 577
+CHAPTER 29 Inflation and the Quantity Theory of Money ......................... 603
+CHAPTER 30 Business Fluctuations: Aggregate Demand and Supply ....... 627
+CHAPTER 31 Transmission and Amplification Mechanisms ........................ 657
+Part 8: Macroeconomic Policy and Institutions
+CHAPTER 32 The Federal Reserve System and
+Open Market Operations ........................................................................... 673
+CHAPTER 33 Monetary Policy ..................................................................... 697
+CHAPTER 34 The Federal Budget: Taxes and Spending ............................ 721
+CHAPTER 35 Fiscal Policy ........................................................................... 745
+Part 9: International Economics
+CHAPTER 36 International Finance ............................................................. 769
+
+
+
+ECON 311-0 Macroeconomics 
+Macroeconomics and monetary
+policy.Behavior of the economy as a whole. Income,
 inflation, unemployment, and growth; consumption,
 investment, and rate of interest; monetary and fiscal policy.
 Prerequisites: 201, 202, MATH 220.
-ECON 316-0 Advanced Topics in Macroeconomics Topics
-may include growth, business cycles, unemployment and
+
+Robert J. Gordon, Macroeconomics, 12th edition.
+
+
+ECON 316-0 Advanced Topics in Macroeconomics 
+Topics may include growth, business cycles, unemployment and
 job search, monetary economics, macroeconomic policy,
 intertemporal choice, and general equilibrium. Prerequisites:
 281; 310-1,2; 311; MATH 224 and 230.

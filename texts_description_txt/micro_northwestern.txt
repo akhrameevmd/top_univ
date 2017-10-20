@@ -1,13 +1,77 @@
-ECON 202-0 Introduction to Microeconomics Consumers’
-and producers’ influence on structure of output and prices
+ECON 202-0 Introduction to Microeconomics 
+Consumers’ and producers’ influence on structure of output and prices
 and distribution of income. Social efficiency in resource
 allocation. Government impact on allocative efficiency and
 distributive equity. Prerequisite: 201.
-ECON 310-1,2 Microeconomics 1. Consumer behavior and
-the theory of demand; production, cost, supply functions;
+Microeconomics by Acemoglu, Laibson and List, 1st Edition
+
+I. Introduction to Economics
+1. The Principles and Practice of Economics
+2. Economic Methods and Economic Questions
+3. Optimization: Doing the Best You Can 
+4. Demand, Supply, and Equilibrium
+
+II. Foundations of Microeconomics
+5. Consumers and Incentives
+6. Sellers and Incentives
+7. Perfect Competition and the Invisible Hand
+8. Trade
+9. Externalities and Public Goods
+10. The Government in the Economy: Taxation and Regulation
+11. Markets for Factors of Production
+
+III. Market Structure
+12. Monopoly
+13. Game Theory and Strategic Play
+14. Oligopoly and Monopolistic Competition
+
+IV. Extending the Microeconomic Toolbox
+15. Trade-offs Involving Time and Risk
+16. The Economics of Information 
+17. Auctions and Bargaining
+18. Social Economics
+
+ECON 310-1,2 Microeconomics 1.
+Consumer behavior and the theory of demand; production, cost, supply functions;
 competitive equilibrium; monopoly. Prerequisites: 201,
 202, MATH 220. 2. Social choice theory, applications of
 elementary game theory, general equilibrium in perfectly
 competitive markets, and the economic consequences
 of uncertainty and imperfect information. Prerequisite:
 310-1.
+
+Microeconomics by Besanko & Braeutigam, 5th Edition
+
+PART 1 INTRODUCTION TO MICROECONOMICS
+CHAPTER 1 Analyzing Economic Problems 1
+CHAPTER 2 Demand and Supply Analysis 26
+APPENDIX: Price Elasticity of Demand Along a Constant Elasticity Demand Curve 72
+PART 2 CONSUMER THEORY
+CHAPTER 3 Consumer Preferences and the Concept of Utility 73
+CHAPTER 4 Consumer Choice 103
+APPENDIX 1: The Mathematics of Consumer Choice 143
+APPENDIX 2: The Time Value of Money 144
+CHAPTER 5 The Theory of Demand 150
+PART 3 PRODUCTION AND COST THEORY
+CHAPTER 6 Inputs and Production Functions 200
+APPENDIX: The Elasticity of Substitution for a Cobb–Douglas Production Function 243
+CHAPTER 7 Costs and Cost Minimization 245
+APPENDIX: Advanced Topics in Cost Minimization 281
+CHAPTER 8 Cost Curves 285
+APPENDIX: Shephard’s Lemma and Duality 323
+PART 4 PERFECT COMPETITION
+CHAPTER 9 Perfectly Competitive Markets 327
+APPENDIX: Profit Maximization Implies Cost Minimization 384
+CHAPTER 10 Competitive Markets: Applications 386
+PART 5 MARKET POWER
+CHAPTER 11 Monopoly and Monopsony 438
+CHAPTER 12 Capturing Surplus 485
+PART 6 IMPERFECT COMPETITION AND STRATEGIC BEHAVIOR
+CHAPTER 13 Market Structure and Competition 528
+APPENDIX: The Cournot Equilibrium and the Inverse Elasticity Pricing Rule 570
+CHAPTER 14 Game Theory and Strategic Behavior 571
+PART 7 SPECIAL TOPICS
+CHAPTER 15 Risk and Information 604
+CHAPTER 16 General Equilibrium Theory 648
+APPENDIX: Deriving the Demand and Supply Curves for General Equilibrium 692
+CHAPTER 17 Externalities and Public Goods 697

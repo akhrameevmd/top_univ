@@ -1,6 +1,78 @@
 ECON  201D - Intermediate Microeconomics I
 Introduction of the concepts of preferences and technologies. Intermediate development of the theory of demand, supply and competitive equilibrium from individual preferences and technologies. Income and substitution effects, uncompensated demand and marginal willingness to pay. Conditions under which competitive markets result in efficient outcomes. Conditions under which government policy has the potential to increase efficiency. Tension between economic efficiency and different notions of equity. Prerequisites: Economics 21 and 22 or 101; and Mathematics 21 or 111L or 105L and 106L, or 112L, 122, 202, 212 or higher level math. Instructor: Staff
 
+
+Microeconomics: An Intuitive Approach with Calculus,
+2nd Edition, by Thomas Nechyba
+Web Chapter 0: Foundational Preliminaries: Using Graphs and Math in Economics (web-based chapter).
+1. Introduction.
+PART I: UTILITY-MAXIMIZING CHOICE: CONSUMERS, WORKERS, AND SAVERS.
+2. A Consumer's Economic Circumstances.
+3. Economic Circumstances in Labor and Financial Markets.
+4. Tastes and Indifference Curves.
+5. Different Types of Tastes.
+6. Doing the "Best" We Can.
+7. Income and Substitution Effects in Consumer Goods Markets.
+8. Wealth and Substitution Effects in Labor and Capital Markets.
+9. Demand for Goods and Supply of Labor and Capital.
+10. Consumer Surplus and Deadweight Loss.
+PART II: PROFIT-MAXIMIZING CHOICE: PRODUCERS (OR "FIRMS").
+11. One Input and One Output: A Short-Run Producer Model.
+12. Production with Multiple Inputs.
+13. Production Decisions in the Short and Long Run.
+PART III: COMPETITIVE MARKETS AND THE "INVISIBLE HAND".
+14. Competitive Market Equilibrium.
+15. The "Invisible Hand" and the First Welfare Theorem.
+16. General Equilibrium.
+17. Choice and Markets in the Presence of Risk.
+PART IV: DISTORTIONS OF THE "INVISIBLE HAND" IN COMPETITIVE MARKETS.
+18. Elasticities, Price-Distorting Policies, and Non-Price Rationing.
+19. Distortionary Taxes and Subsidies.
+20. Prices and Distortions across Markets.
+21. Externalities in Competitive Markets.
+22. Asymmetric Information in Competitive Markets.
+PART V: DISTORTIONS OF THE "INVISIBLE HAND" FROM STRATEGIC DECISIONS.
+23. Monopoly.
+24. Strategic Thinking and Game Theory.
+25. Oligopoly.
+26. Product Differentiation and Innovation in Markets.
+27. Public Goods.
+28. Governments and Politics.
+PART VI: CONSIDERING HOW TO MAKE THE WORLD A BETTER PLACE.
+29. What Is Good? Challenges from Psychology and Philosophy.
+30. Balancing Government, Civil Society, and Markets.
+
+
+
 ECON  205D - Intermediate Microeconomics II
 	
 Calculus-based generalization of the theory of demand and supply developed in Economics 201D. Individual behavior in environments of risk and uncertainty. Introduction to game theory and strategic interaction. Adverse selection, moral hazard, non-competitive market structures, externalities, public goods. Prerequisite: Economics 201D; Mathematics 202 or Mathematics 212 or Mathematics 222 or any higher-level mathematics course with Mathematics 212 as a prerequisite. Instructor: Staff
+
+
+Nicholson and Snyder, Microeconomic Theory. Cengage Learning, Twelfth Edition, 2017.
+Part 1 Introduction
+Chapter 1: Economic Models 3
+Chapter 2: Mathematics for Microeconomics 19
+Part 2 Choice and Demand
+Chapter 3: Preferences and Utility 87
+Chapter 4: Utility Maximization and Choice 113
+Chapter 5: Income and Subtitution Effects 141
+Chapter 6: Demand Relationships among Goods 182
+Chapter 7: Uncertainty and Information 202
+Chapter 8: Strategy and Game Theory 236
+Part 3 Production and Supply
+Chapter 9: Production Functions 295
+Chapter 10: Cost Functions 323
+Chapter 11: Profit Maximization 358
+Part 4 Competitive Markets
+Chapter 12: The Partial Equilibrium Competitive Model 391
+Chapter 13: General Equilibrium and Welfare 441
+Part 5 Market Power
+Chapter 14: Monopoly 491
+Chapter 15: Imperfect Competition 521
+Part 6 Pricing in Input Markets
+Chapter 16: Labor Markets 573
+Chapter 17: Capital and Time 595
+Part 7 Market Failure
+Chapter 18: Asymmetric Information 627
+Chapter 19: Externalities and Public Goods 670
