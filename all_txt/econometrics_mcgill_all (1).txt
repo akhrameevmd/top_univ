@@ -1,0 +1,71 @@
+ECON 337
+
+Introductory Econometrics I
+
+Instructor:
+
+K.MacKenzie, Leacock 435, 514-398-4400, local 00017
+kenneth.mackenzie@mcgill.ca
+
+Hours:
+
+See post on WEB-CT or office door
+
+Textbook:
+
+Some material will be on WEB CT. Introduction to Econometrics by Stock and
+Watson has been ordered by Paragraphe Book Store
+
+Students should have the equivalent of ECON 227 (Economics Statistics) to take this course,
+namely familiarity with basic probability, hypothesis testing, and an introductory knowledge of
+regression and correlation. Some knowledge of matrices and calculus is desirable
+Topic
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+Introduction, review of matrices
+Introduction to regression analysis, least-squares estimators
+Design matrices, hat-matrices, leverages, VIF, standard errors of coefficients by hand
+computation
+Computation and interpretation of all the numbers in MINITAB printouts for simple and
+multiple regression.
+Transformations to linearity, finite-difference method.
+Regression through the origin
+Inference and prediction, discrete random variables in regression
+Heteroscedasticity, autocorrelation
+Durbin-Watson statistic, Cochrane-Orcutt prodedure.
+Brief introduction to time series
+Examples of seasonality handled by multiplicative seasonal index numbers, and by indicator
+variables in multiple regression
+Maximum likelihood, Logistic Regression: Logit, Probit
+
+Evaluation:
+
+Assignments
+Midterm Examination
+Final Examination
+
+15
+25
+60
+
+Students should have a calculator capable of statistics computations with two-variable capacity.
+There will be work done on the computer using MINITAB and EXCEL.
+Work may be presented in English or French.
+
+McGill University values academic integrity. Therefore all students must understand the
+meaning and consequences of cheating, plagiarism and other academic offences under the
+Code of Student Conduct and Disciplinary Procedures (see http://www.mcgill.ca/integrity
+for more information).
+
+

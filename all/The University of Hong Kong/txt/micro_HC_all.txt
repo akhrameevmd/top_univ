@@ -1,0 +1,126 @@
+ECON 4010
+ADVANCED TOPICS IN MICROECONOMICS
+Department of Economics
+Chinese University of Hong Kong
+Fall 2017
+
+Instructor
+Bo Chen
+Email: bochen@smu.edu
+O¢ ce: ELB 1014
+Time and Location
+Fridays 8:30AM - 11:15AM, YIA 402.
+Course Webpage/Materials: Blackboard.
+TA
+Mr. Jiong Wu <j.wu@link.cuhk.edu.hk>
+Tutorial and O¢ ce Hours: TBA
+O¢ ce Hours
+Thursday: 4:00pm-5:00pm, or by appointment.
+Course Overview
+This course covers several advanced topics in microeconomic theory, with a main focus on the economics
+of uncertainty and information. We will begin with the theory of choice under uncertainty, so as to obtain a
+solid understanding of the vNM expected utility theory and the concept of risk aversion. We will then give
+a quick review of noncooperative game theory, in particular, representations of games and various solution
+concepts, which will serve as the analytical tools for the rest of the course. The most important part of the
+course is the study of various economics models with asymmetric information, including adverse selection,
+signaling, screening, and principal-agent problems. Finally, time permitting, we will give a quick introduction
+to the theory of stable matching and market design. To do well in this course, students should be familiar
+with calculus, elementary optimization techniques, and basic probability theory.
+Learning Outcomes
+After completing the course, students are expected to
+1. Acquire advanced knowledge in various important topics in microeconomics;
+2. Develop useful skills in theoretical modeling and analysis in microeconomics;
+3. Obtain preparations for conducting independent research in microeconomics.
+Recommended Textbooks
+There is no required textbook for this course. I will write my own lecture notes and my lectures will
+mainly draw materials from related journal articles and the following books:
+R. Gibbons, Game Theory for Applied Economists, Princeton University Press 1992.
+M. Osborne, An Introduction to Game Theory, Oxford 2004.
+M. Osborne and A. Rubinstein, A Course in Game Theory, The MIT Press, 1994.
+R. Myerson, Game Theory: Analysis of Con‡ict, Harvard, 1991.
+D. Kreps, A Course in Microeconomics, Princeton University Press, 1990.
+
+A. Roth and M. Sotomayor, Two-Sided Matching, Cambridge, 1990.
+The …rst two are excellent advanced undergraduate-level game theory books, with a lot of examples and
+exercises and very intuitive exposition. Osborne and Rubinstein (1994) is an encyclopedic textbook on game
+theory; Myerson (1991) is a nice textbook for those who would like to get a deeper understanding of the
+materials. Kreps (1990), proceeding in a somewhat informal way, provides intuitive explanations, as well
+as nice insights on many issues. Roth and Sotomayor (1990) is so far the best book on two-sided matching
+problems.
+Grading (Assessment Scheme)
+Your course grade will be determined jointly by problem sets, an in-class midterm, and an in-class …nal
+(both exams are closed-book). They will count toward the grade as follows.
+Assignments 20%
+Midterm
+35%
+Final
+45%
+The assignment of grades will follow the following descriptors:
+Grade
+A
+AB+/B/BC+/C/CD+/D
+F
+
+Descriptor
+Truly outstanding performance, able to apply knowledge to novel situations/problems
+Thorough understanding of taught concepts, steady accumulation of knowledge and
+skills throughout the course
+Satisfactory grasp of key concepts, consistent involvement in learning activities
+Fair understanding of key concepts
+Some misunderstanding of key concepts, inconsistent e¤orts observed
+Unsatisfactory performance, poor understanding of subject matter, poor e¤orts
+
+Problem Sets:
+There will be (around) 7 problem sets. These are essential adjunct to the course material. The problem
+sets will be graded on the basis of whether you made an e¤ort to do the problems and not whether or
+not you had the right answers. Students are expected to work on the problem sets independently and
+to attend tutorial sessions, in which answers to di¢ cult problems in the problem sets will be discussed.
+Each student should hand in an independent solution to each problem set. As an upper-year student,
+you would play a very risky strategy if you free ride on others’ solutions without making a serious
+e¤ort on the problem sets. Finally, I will NOT accept any late assignments.
+
+Exams:
+There will be two (in-class) written exams, one midterm exam and one (comprehensive) …nal exam.
+The exams will only include materials that have been covered in class. The midterm exam will be
+held in class on Friday, October 20th , 8:30AM – 11:15AM. There will be NO make-up exams.
+For those who miss the midterm exam due to circumstances that are truly exceptional and can be
+substantiated (for example, a note signed by a medical doctor indicating that the student is truly
+medically incapable to take the exam at the exam time), the weight of the midterm exam of such
+students will be transferred to the …nal exam. The …nal exam will be centrally scheduled and the
+time and venue of the …nal will not be announced until November. Please note that we cannot arrange
+a make-up exam for the …nal to accommodate your travel plans.
+
+Lecture Notes
+I will prepare a set of lecture notes, which will be posted in a timely manner on Blackboard.
+2
+
+Academic Honesty
+Attention is drawn to University Policy and Regulations on honesty in academic work, and to the disciplinary guidelines and procedures applicable to breaches of such policy and regulations. Details may be
+found at http://www.cuhk.edu.hk/policy/academichonesty/.
+List of Topics:
+The following is a tentative list of the topics that will/might be covered in the course.
+1. Choice under Uncertainty
+Preferences over Lotteries, Expected Utility Theory, Risk Aversion
+2. Game Theory
+Extensive and Normal form representations; Strategies; Mixed Strategies; Dominant and Dominated
+strategies; Nash Equilibrium; Incomplete Information Games: Bayesian-Nash Equilibrium; Dynamic
+Games: Sequential Rationality, Backward Induction and Subgame Perfection; Beliefs and Sequential Rationality: Perfect Bayesian Equilibrium; Sequential Equilibrium; Finitely/In…nitely Repeated
+Games and Folk Theorem (time permitting)
+3. Information Economics
+Information Asymmetry, Adverse Selection in Markets for Lemmons, Signaling, Screening
+4. The Principal-Agent Problem
+Moral Hazard and Risk Sharing, Hidden Information and Screening; Revelation Principle
+5. Matching and Market Design
+Two-Sided Matching: Marriage Market, Pairwise Stability, Deferred Acceptance Algorithm
+One-Sided Matching: House Allocation, Serial Dictatorship, Housing Market, Top Trading Cycle
+Important Dates
+September 04, Monday: First Day of Classes.
+Midterm Exam: Friday, October 20th , 8:30AM - 11:15AM (in class).
+October 21, Saturday: Orientation Day for Undergraduate Admissions.
+November 16, Thursday: 83rd Congregation for the Conferment of Bachelor’s Degrees and Master’s
+Degrees.
+Final Exam: To Be Announced.
+
+3
+
+

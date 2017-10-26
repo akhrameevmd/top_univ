@@ -1,0 +1,108 @@
+ECONOMICS 330D1 MACROECONOMIC THEORY (MAJORS)
+This course has two main objectives. One of these is for the students to acquire a rigorous understanding of macroeconomic analysis. This will be imparted through the use of verbal arguments, diagrams and high school mathematics. While some knowledge of calculus makes it easier to understand many of the theories in economics, this course will not require such prior knowledge. However, the ability to manipulate simple equations and do other derivations at the level of high school mathematics will be presumed and is essential to doing well in this course.
+The second objective of the course is for the students to learn to apply economic analysis to explanations of the macroeconomic aspects of the economy. This requires knowledge of particular aspects of the actual economy, their representation in numerical data and diagrammatic forms, and the ability to interpret the patterns in the data and graphs, so that economic analysis can be used to explain the discerned patterns.
+
+JAGDISH HANDA, MACROECONOMICS, World Scientific Press, 2010.
+Introduction to Macroeconomics:
+Output, Unemployment, and the Basic Concepts
+Money, Prices, Interest Rates, and Fiscal Deficits
+Introduction to the Open Economy: Exchange Rates and the Balance of Payments
+Short-Run Macroeconomics:
+Determinants of Aggregate Demand: The Commodity Market of the Closed Economy
+Aggregate Demand in the Open Economy Under an Interest Rate Target: IS-IRT Analysis
+Aggregate Demand Under a Money Supply Operating Target: IS-LM Analysis
+Full-Employment Output and the Natural Rate of Unemployment
+Output in the Short Run: The Role of Expectations and Adjustment Costs
+Actual Output, Disequilibrium, and the Interaction Among Markets
+Employment, Unemployment, and Inflation
+Paradigms in Macroeconomics
+Topics in Open Economy Macroeconomics:
+The Foreign Exchange Market, IMF, and Globalization
+The Open Economy Under a Fixed Exchange Rate Regime
+Growth Economics:
+Classical Growth Theory
+Advanced Topics in Growth Theory
+Business Cycles, Crises, and The International Transmission of Economic Activity
+
+Macroeconomic Analysis & Applications ECON 209
+The course aims to introduce students to the major issues facing the world's economies, to the
+methods that economists use to study those issues, and to the policy problems that those issues
+create. The goal is to give students a sucient understanding of the denition and determinants
+of aggregate variables in the economy. Topics include: introduction and preliminaries; GDP and
+national accounts; the basic macroeconomic model; money; ination; unemployment; scal and
+monetary policy; trade policy; nancial crisis and recession. The course assumes that students
+have taken ECON208 or equivalent.
+Economics (15th Canadian Edition) by C. Ragan, published by Pearson Education Canada.
+Part One:  What Is Economics?
+1: Economic Issues and Concepts
+2: Economic Theories, Data, and Graphs
+Part Two:  An Introduction to Demand and Supply
+3: Demand, Supply, and Price
+Part Seven:  An Introduction to Macroeconomics    
+19: What Macroeconomics Is All About    
+20: The Measurement of National Income    
+Part Eight:  The Economy in the Short Run    
+21: The Simplest Short-Run Macro Model
+22: Adding Government and Trade to the Simple Macro Model
+23: Output and Prices in the Short Run    
+Part Nine:  The Economy in the Long Run    
+24: From the Short Run to the Long Run: The Adjustment of Factor Prices
+25: Long-Run Economic Growth    
+Part Ten:  Money, Banking, and Monetary Policy    
+26: Money and Banking
+27: Money, Interest Rates, and Economic Activity
+28: Monetary Policy in Canada    
+Part Eleven:  Macroeconomic Problems and Policies   
+29: Inflation and Disinflation
+30: Unemployment Fluctuations and the NAIRU
+31: Government Debt and Deficits
+Part Twelve:  Canada in the Global Economy
+32: The Gains from International Trade
+33: Trade Policy
+34: Exchange Rates and the Balance of Payments
+
+
+Macroeconomic TheoryECON 330D1-002
+The objective of this course is to make you familiar with the modern day tools and methods
+of macroeconomics. Macroeconomics is a vast eld, and it is not possible to summarize it
+in its entirety in a single course. It is my hope, however, that by the end of this course, you
+will be able to:
+1. Understand and critically assess macroeconomic policies implemented by policy makers
+and governments. Such analyses would involve weighing the costs and benets of
+policies.
+2. Start thinking like a macroeconomist! For instance, this would entail going above and
+beyond a layperson's understanding of economic issues. In economics, there is generally
+no single right answer. One should generally refrain from making blanket statements
+
+
+
+Econ 209 section 004, Macroeconomic Analysis and Applications
+The course is intended to equip students with basic knowledge in Macroeconomics. We will go
+over basic concepts and notions in macroeconomics and will see several practical applications of
+the theory. This will help you to understand how macroeconomic variables are related to each
+other and how they interact as well as how government policy intervention can affect economic
+performance. This course does not have calculus requirement though knowing it is always an
+asset.
+Chapter 19: What Macroeconomics Is All About
+Chapter 20: The Measurement of National Income
+Part Eight: The Economy in the Short Run
+Chapter 21: The Simplest Short-Run Macro Model
+Chapter 22: Adding Government and Trade to the Simple Macro Model
+Chapter 23: Output and Prices in the Short Run
+Part Nine: The Economy in the Long Run
+Chapter 24: From the Short Run to the Long Run: The Adjustment of Factor Prices
+Chapter 25: The Difference Between Short-Run and Long-Run Macroeconomics
+Chapter 26: Long-Run Economic Growth
+Part Ten: Money, Banking, and Monetary Policy
+Chapter 27: Money and Banking
+Chapter 28: Money, Interest Rates, and Economic Activity
+Chapter 29: Monetary Policy in Canada
+Part Eleven: Macroeconomic Problems and Policies
+Chapter 30: Inflation and Disinflation
+Chapter 31: Unemployment Fluctuations and the NAIRU
+Chapter 32: Government Debt and Deficits
+Part Twelve: Canada in the Global Economy
+Chapter 33: The Gains from International Trade
+Chapter 34: Trade Policy
+Chapter 35: Exchange Rates and the Balance of Payments
+Chapter 36: Challenges Facing the Developing Countries

@@ -1,6 +1,84 @@
 ECON2011 BASIC MICROECONOMICS
 This course covers basic concepts in microeconomic theory. Major topics include: consumer preference and decision-making, demand theory and applications, theory of the firm, perfect competition in partial equilibrium, monopoly, oligopoly, basic game theory, general competitive equilibrium, welfare economics and market failure.
+N. Gregory Mankiw, Principles of Economics (8th Edition)
+
+Part I: INTRODUCTION.
+1. Ten Principles of Economics.
+2. Thinking Like an Economist.
+3. Interdependence and the Gains from Trade.
+Part II: HOW MARKETS WORK.
+4. The Market Forces of Supply and Demand.
+5. Elasticity and Its Application.
+6. Supply, Demand, and Government Policies.
+Part III: MARKETS AND WELFARE.
+7. Consumers, Producers, and the Efficiency of Markets.
+8. Applications: The Costs of Taxation.
+9. Application: International Trade.
+Part IV: THE ECONOMICS OF THE PUBLIC SECTOR.
+10. Externalities.
+11. Public Goods and Common Resources.
+12. The Design of the Tax System.
+Part V: FIRM BEHAVIOR AND THE ORGANIZATION OF INDUSTRY.
+13. The Costs of Production.
+14. Firms in Competitive Markets.
+15. Monopoly.
+16. Monopolistic Competition.
+17. Oligopoly.
+Part VI: THE ECONOMICS OF THE LABOR MARKET.
+18. The Markets for the Factors of Production.
+19. Earnings and Discrimination.
+20. Income Inequality and Poverty.
+Part VII: TOPICS FOR FURTHER STUDY.
+21. The Theory of Consumer Choice.
+22. Frontiers in Microeconomics.
+
+
 ECON3011 INTERMED MICROECONOMIC THEORY
 This course covers the allocation, production and distribution theories in microeconomics. Topics include utility and preference, consumer demand, production and cost, market structure, general equilibrium and welfare economics. Analytical aspects will be emphasized. Mathematical concepts and maximization techniques will be used. Students should have knowledge of differential calculus, and are advised to take ECON2011 before taking this course.
+
+Microeconomics, by David Besanko and Ronald
+R. Braeutigam, the international student version, 5th edition
+
+PART 1 INTRODUCTION TO MICROECONOMICS
+CHAPTER 1 Analyzing Economic Problems 1
+CHAPTER 2 Demand and Supply Analysis 26
+APPENDIX: Price Elasticity of Demand Along a Constant Elasticity Demand Curve 72
+PART 2 CONSUMER THEORY
+CHAPTER 3 Consumer Preferences and the Concept of Utility 73
+CHAPTER 4 Consumer Choice 103
+APPENDIX 1: The Mathematics of Consumer Choice 143
+APPENDIX 2: The Time Value of Money 144
+CHAPTER 5 The Theory of Demand 150
+PART 3 PRODUCTION AND COST THEORY
+CHAPTER 6 Inputs and Production Functions 200
+APPENDIX: The Elasticity of Substitution for a Cobb–Douglas Production Function 243
+CHAPTER 7 Costs and Cost Minimization 245
+APPENDIX: Advanced Topics in Cost Minimization 281
+CHAPTER 8 Cost Curves 285
+APPENDIX: Shephard’s Lemma and Duality 323
+PART 4 PERFECT COMPETITION
+CHAPTER 9 Perfectly Competitive Markets 327
+APPENDIX: Profit Maximization Implies Cost Minimization 384
+CHAPTER 10 Competitive Markets: Applications 386
+PART 5 MARKET POWER
+CHAPTER 11 Monopoly and Monopsony 438
+CHAPTER 12 Capturing Surplus 485
+PART 6 IMPERFECT COMPETITION AND STRATEGIC BEHAVIOR
+CHAPTER 13 Market Structure and Competition 528
+APPENDIX: The Cournot Equilibrium and the Inverse Elasticity Pricing Rule 570
+CHAPTER 14 Game Theory and Strategic Behavior 571
+PART 7 SPECIAL TOPICS
+CHAPTER 15 Risk and Information 604
+CHAPTER 16 General Equilibrium Theory 648
+APPENDIX: Deriving the Demand and Supply Curves for General Equilibrium 692
+CHAPTER 17 Externalities and Public Goods 697
+Mathematical Appendix 729
+Solutions to Selected Problems 749
+
+
+
+
 ECON4010 ADV TOPICS IN MICROECONOMICS
 This course covers important developments in microeconomic theory in the last two decades. Emphasis depends on the interest of the instructor. Possible topics include: contract theory, mechanism design, adverse selection, signalling theory, and principal-agent problems. This course is particularly suitable for students who aspire to graduate work. While knowledge of advanced mathematics (such as real analysis, topology, and measure theory) is not required, students should have attained a certain degree of maturity in mathematical thinking. Students are advised to take ECON1111 and 3011 before taking this course.
+
+

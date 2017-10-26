@@ -1,0 +1,131 @@
+Macroeconomic Analysis & Applications
+ECON 209 (Section 003)
+Mayssun El-Attar Vilalta
+McGill University
+Winter 2017
+
+Course description and objectives
+The course aims to introduce students to the major issues facing the world’s economies, to the
+methods that economists use to study those issues, and to the policy problems that those issues
+create. The goal is to give students a sufficient understanding of the definition and determinants
+of aggregate variables in the economy. Topics include: introduction and preliminaries; GDP and
+national accounts; the basic macroeconomic model; money; inflation; unemployment; fiscal and
+monetary policy; trade policy; financial crisis and recession. The course assumes that students
+have taken ECON208 or equivalent.
+Study Hints: I strongly recommend that you keep up with the readings as the lectures
+progress - don’t leave them until exam time, it is very easy to get behind, and difficult to
+catch up when you do. Economic reasoning builds upon itself, so you need to understand each
+part as we go along. Lectures and conferences are very important. Lecture notes will be posted
+on the MyCourses web site. Answers to conference questions will not.
+Math requirements:
+should be enough.
+
+A working knowledge of arithmetic and a small amount of basic algebra
+
+Administrative Issues
+3 credits.
+2 lectures per week, Tue and Thurs 8:30pm-10:00am in MAAS 112
+
+Contact:
+course email: econ209.S3.2017@gmail.com
+my email: mayssun.el-attarvilalta@mcgill.ca
+office hours: Tue and Thurs 10:30-11:30am and 2:30-3:30pm in Leacock 320.
+
+1
+
+Text and learning tools: The textbook for this course is the macroeconomics half of Economics (15th Canadian Edition) by C. Ragan, published by Pearson Education Canada. You
+can also purchase the macro half separately, Macroeconomics (same author, same publisher).
+Both are available at Paragraphe bookstore on McGill College Avenue.
+You may find the associated Study Guide (by Dickinson & Indart) useful; working through
+this study guide will considerably help your understanding of the material.
+You may also find it useful to practice with some multiple choice exercises using the textbook’s
+own web site on MyEconLab, at www.myeconlab.com. When using MyEconLab you will be
+asked for the course name (ECON 209 Section 3 (Winter 2017)) and Course ID (el-attar95066).
+There will also be some readings supplementary to the textbook. I will also assign several of
+the Additional Topics that have been written to accompany this textbook. These will be made
+available electronically (on the course’s mycourses page) at the appropriate time.
+In addition, continuous class attendance is strongly encouraged. Any points raised in class can
+end up in the examinations.
+
+Conferences and Office Hours: TAs will hold weekly conferences to review the material
+covered during class, I strongly advise you to attend. There will be two TAs assigned to this
+course (section 3 ), each holding four weekly tutorial sessions of one hour each. The plan is that
+there will be enough scheduled tutorials so that every student can find one that fits his or her
+schedule. You do not need to register for these conferences. The purpose of the tutorials is to
+go over practical exercises and discussion questions. The TAs will also be prepared to address
+other material from class or from the textbook.
+Conferences are expected to start in the 3rd week of the semester (16th of January). Conference
+rooms and conference times will be posted on MyCourses.
+Each TA will also hold two hours of office hours every week.
+Answering questions by email: For any questions about the course, email econ209.S3.
+2017@gmail.com. The TAs and I will be answering questions sent to this email address.
+
+2
+
+Grading: There will be two (optional) mid-term exams in this course, plus one (mandatory)
+final exam in April. The mid-term exams are optional, but once written they will contribute
+to your final grade. Each midterm will be worth 20% of your course grade, and a 3-hour final
+scheduled by the Faculty of Arts in April will be worth 60% of your course grade. If you do not
+take a midterm, its weight will be added to that of the final exam. Regardless of the reason for
+not completing the midterm there will be no deferred midterm.
+Under no circumstances will you be allowed to present additional work to increase your grade
+in the course.
+Anticipated dates & times for the midterms:
+• Midterm #1: Thursday February 23, in class.
+• Midterm #2: Tuesday April 4, in class.
+Note: Each midterm exam will focus on material since the previous exam. But since the
+material by its nature builds on earlier material, I will assume that you have knowledge of earlier
+chapters. The final exam will cover the entire course.
+In case of absence at the final exam for medical reasons, please refer to the University Regulations
+Concerning Final Examinations. Note: According to Senate regulations, instructors are not
+permitted to make special arrangements for final exams. Please consult the Calendar, section
+4.7.2.1, General University Information and Regulations at www.mcgill.ca. Also note: In accord
+with McGill University’s Charter of Students’ Rights, students in this course have the right to
+submit in English or in French any written work that is to be graded. Finally: In the event
+of extraordinary circumstances beyond the University’s control, the content and/or evaluation
+scheme in this course is subject to change.
+MyCourses: You should regularly check the myCourses page for announcements, up-to-date
+information, additional readings, conference topics, and other items to assist you in the course.
+Through this web page you will also be able to ask questions of and receive answers from your
+fellow students in the course.
+Academic Integrity: Cheating is bad, everywhere and always. It is your responsibility to
+understand what is meant by “cheating” at McGill, and thus what behaviour is unacceptable.
+I am required to have the following statement on the course outline, in both official languages:
+McGill University values academic integrity. Therefore all students must understand the meaning and consequences of cheating, plagiarism and other academic offences under the code of student conduct and disciplinary procedures (see http://www.mcgill.ca/students/srr/honest/
+for more information).
+L’université McGill attache une haute importance à l’honnêteté académique. Il incombe par
+conséquent à tous les étudiants de comprendre ce que l’on entend par tricherie, plagiat et autres
+3
+
+infractions académiques, ainsi que les conséquences que peuvent avoir de telles actions, selon le
+Code de conduite de l’étudiant et des procédures disciplinaires (pour de plus amples renseignements, veuillez consulter le site http://www.mcgill.ca/students/srr/honest/).
+
+Course Outline
+Due to time constraints, it is possible that some topics will not be covered or some topics added.
+I maintain discretion regarding changes in this outline. Any changes will be announced in class
+and/or on MyCourses.
+1. Introduction to Macroeconomic Issues.
+• Economic issues and concepts (chapter 1, chapter 2 and chapter 3).
+• What macroeconomics is about (chapter 19).
+• The measurement of national income (chapter 20).
+2. The Economy in the Short Run.
+• The simplest short-run macro model (chapter 21).
+• Adding government and trade to the simple macro model (chapter 22 and Appendix).
+• Output and prices in the short-run (chapter 23).
+3. The Economy in the Long Run.
+• From the short-run to the long-run: the adjustment of factor prices (chapter 24).
+• The difference between short-run and long-run macroeconomics (chapter 25).
+• Long-run economic growth (chapter 26).
+4. Money, Banking and Monetary Policy.
+• Money and Banking (chapter 27).
+• Money, interest rates and economic activity (chapter 28).
+• Monetary Policy in Canada (chapter 29).
+5. Macroeconomic problems and policies.
+• Inflation and disinflation (chapter 30).
+• Unemployment fluctuations and the NAIRU (chapter 31).
+• Government debt and deficits (chapter 32).
+6. Trade policy (chapter 34).
+
+4
+
+

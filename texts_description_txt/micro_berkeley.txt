@@ -1,9 +1,42 @@
 ECON 100A Economic Analysis--Micro
 Resource allocation and price determination.
+
+Austan Goolsbee, Steven Levitt, and Chad Syverson.  (2016).  Microeconomics, 2nd Edition
+Chapter 1: Adventures in Microeconomics
+Chapter 2: Supply and Demand
+Chapter 3: Using Supply and Demand to Analyze Markets
+Chapter 4: Consumer Behavior
+Chapter 5: Individual and Market Demand
+Chapter 6: Producer Behavior
+Chapter 7: Costs
+Chapter 8: Supply in a Competitive Market
+Chapter 9: Market Power and Monopoly
+Chapter 10: Market Power and Pricing Strategies
+Chapter 11: Imperfect Competition
+Chapter 12: Game Theory
+Chapter 13: Factor Markets
+Chapter 14: Investment, Time, and Insurance
+Chapter 15: General Equilibrium
+Chapter 16: Asymmetric Information
+Chapter 17: Externalities and Public Goods
+Chapter 18: Behavioral and Experimental Economics
+
+
 ECON 101A Economic Theory--Micro 
 Theory of resource allocation and price determination with an emphasis on microeconomic principles.
 ECON 104 Advanced Microeconomic Theory 
 This course explores some issues in advanced microeconomic theory, with special emphasis on game-theoretic models and the theory of choice under uncertainty. Specific applications will vary from year to year, but will generally include topics from information economics and models of strategic interaction.
+This is an advanced undergraduate microeconomic theory course.  It will cover topics that were
+not covered in Econ 101A or were covered only in limited fashion.  The level of rigor will
+resemble and exceed that of Econ 101A.  This class will help you prepare for graduate school in
+economics, but it is not a graduate course.  As such, the mathematical treatment will not be as
+formal as a graduate micro course.  The course will focus on the analytical tools of modern
+microeconomics – especially game theory and information economics – and will apply these
+tools mostly to problems related to industrial organization, e.g., imperfect competition,
+auctions, contracts, price discrimination, etc.  I hope it will be a fun and exciting journey
+through some of the most interesting topics in modern economics
+
+
 ECON 230C Public Sector Microeconomics
 The economic and policy analysis of government expenditures, taxes, and intergovernmental fiscal relations.
 ECON C270A Microeconomics of Development

@@ -1,0 +1,36 @@
+ECON 338 Introductory Econometrics II
+Students should have the equivalent of ECON 337 to take this course, namely familiarity with simple and multiple regression , together with a bit of matrix technique, principally through EXCEL. Some knowledge of calculus is highly desirable. The main thrust of the course is forecasting methods, although some additional topics appear. Some real data sets, including the well-known Box-Jenkins airline data, will be used for examples and problems. Work will be done using statistics software, such as MINITAB and EXCEL.
+Topic
+1. Partial correlation and stepwise regression
+2. Time-series models, transformations
+4. Ratio-to-moving-average method, deseasonalisation
+5. Improvement to RTMA method
+6. Multiple regression with indicator variables for seasons, deseasonalisation
+7. Stationarity, finite differences, log transformations
+8. Exponential smoothing
+9. Holt-Winters methods
+10. Seasonal models
+11. Backshift operator, ARIMA, Box-Jenkins models
+12. Chow Test
+
+
+ECON 337 Introductory Econometrics I
+Students should have the equivalent of ECON 227 (Economics Statistics) to take this course,
+namely familiarity with basic probability, hypothesis testing, and an introductory knowledge of
+regression and correlation. Some knowledge of matrices and calculus is desirable
+Topic
+1. Introduction, review of matrices
+2. Introduction to regression analysis, least-squares estimators
+3. Design matrices, hat-matrices, leverages, VIF, standard errors of coefficients by hand
+computation
+4. Computation and interpretation of all the numbers in MINITAB printouts for simple and
+multiple regression.
+5. Transformations to linearity, finite-difference method.
+6. Regression through the origin
+7. Inference and prediction, discrete random variables in regression
+8. Heteroscedasticity, autocorrelation
+9. Durbin-Watson statistic, Cochrane-Orcutt prodedure.
+10. Brief introduction to time series
+11. Examples of seasonality handled by multiplicative seasonal index numbers, and by indicator
+variables in multiple regression
+12. Maximum likelihood, Logistic Regression: Logit, Probit

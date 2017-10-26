@@ -1,0 +1,54 @@
+DEPARTMENT OF ECONOMICS
+UNIVERSITY OF CALIFORNIA
+
+J.L. Powell
+Fall 2008
+ECONOMICS 141
+Econometric Analysis
+
+Description: This course will introduce the statistical analysis of linear models, as applied to economic data.
+Though much of the course will be devoted to derivation of econometric theory, applications of this theory to
+particular problems in the analysis of economic data will also be presented.
+Prerequisites: Statistics 20 and Math 53-54 or the equivalent. The first few lectures will review the pertinent
+material from statistics; students must be comfortable with these basic concepts of probability theory and
+statistical inference, and, more generally, with mathematical derivations and arguments. Matrix algebra and
+multivariate calculus will be used later in the course.
+Course Requirements: The grade in this course will be based on two midterm exams (worth 40% of the
+grade), a final exam (35%), and performance on (approximately) biweekly problem sets (25%). The midterm
+exams will be held in class, on October 2 and November 13. There will be no makeup exams; scheduling
+conflicts should be discussed with the instructor or GSI at least a week prior to the exam. Regular attendance at
+the discussion sections is important; in addition to reviewing the answers to the problem sets, the GSI will
+discuss the computer software needed for some of the problem sets.
+Required Text:
+
+R.S. Pindyck and D.L. Rubinfeld, Econometric Models and Economic Forecasts,
+Fourth Edition (McGraw-Hill, 1997).
+
+Recommended Texts: Goldberger, A.S., A Course in Econometrics (Harvard, 1991).
+J.H. Stock and M.W. Watson, Introduction to Econometrics (Addison-Wesley, 2003).
+Course Website:
+
+http://emlab.berkeley.edu/users/powell/e141_f08/e141.html
+COURSE OUTLINE
+(two to three weeks per topic)
+
+1.
+Review of Probability and Statistical Inference (P&R, Ch. 2): Random variables, expectation and
+variance rules, point and interval estimation, univariate hypothesis tests.
+2.
+Simple Linear Regression (P&R, Ch 1,3): Least squares estimation, statistical properties of the
+estimates, goodness of fit.
+3.
+Multiple Regression (P&R, Ch. 4,5): Elements of matrix algebra, estimation of regression coefficients,
+tests of linear restrictions, dummy variables, prediction.
+4.
+Departures from Basic Assumptions I (P&R, Ch. 6): Nonnormality, heteroskedasticity, serial
+correlation, lagged dependent variables.
+5.
+Departures from Basic Assumptions II (P&R, Ch. 7): Nonlinearity, omitted variables, measurement
+error, simultaneous equations, limited dependent variables.
+6.
+Advanced Topics (P&R, Ch. 8-12): Forecasting, time series models, panel data, nonlinear models,
+simultaneous equations.
+
+

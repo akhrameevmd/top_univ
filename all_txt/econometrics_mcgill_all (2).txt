@@ -1,0 +1,67 @@
+ECON 338
+
+Introductory Econometrics II
+
+Instructor:
+
+K.MacKenzie, Leacock 435, 514-398-4663
+kenneth.mackenzie@mcgill.ca
+
+Hours:
+
+To be arranged
+
+Textbook:
+
+Some material will be on WEB CT. Forecasting Methods and Applications by
+Makridakis, Wheelwright, and Hyndman, as well as some other books, will be
+put on reserve in the library.
+
+Students should have the equivalent of ECON 337 to take this course, namely familiarity with
+simple and multiple regression , together with a bit of matrix technique, principally through
+EXCEL. Some knowledge of calculus is highly desirable. The main thrust of the course is
+forecasting methods, although some additional topics appear. Some real data sets, including the
+well-known Box-Jenkins airline data, will be used for examples and problems. Work will be
+done using statistics software, such as MINITAB and EXCEL.
+Topic
+1.
+2.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+Partial correlation and stepwise regression
+Time-series models, transformations
+Ratio-to-moving-average method, deseasonalisation
+Improvement to RTMA method
+Multiple regression with indicator variables for seasons, deseasonalisation
+Stationarity, finite differences, log transformations
+Exponential smoothing
+Holt-Winters methods
+Seasonal models
+Backshift operator, ARIMA, Box-Jenkins models
+Chow Test
+Evaluation:
+
+Assignments
+Midterm Examination
+Final Examination
+
+15
+25
+60
+
+Students should have a calculator capable of statistics computations with two-variable capacity.
+Work may be presented in English or French.
+McGill University values academic integrity. Therefore all students must understand the
+meaning and consequences of cheating, plagiarism and other academic offences under the Code
+of Student Conduct and Disciplinary Procedures (see http://www.mcgill.ca/integrity for more
+information).
+
+

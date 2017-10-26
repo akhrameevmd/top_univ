@@ -1,0 +1,209 @@
+Macroeconomic Theory
+ECON 330D1-002
+Chinmay Sharma
+
+September 10, 2017
+
+1
+
+Course Objectives
+
+The objective of this course is to make you familiar with the modern day tools and methods
+of macroeconomics. Macroeconomics is a vast eld, and it is not possible to summarize it
+in its entirety in a single course. It is my hope, however, that by the end of this course, you
+will be able to:
+1. Understand and critically assess macroeconomic policies implemented by policy makers
+and governments. Such analyses would involve weighing the costs and benets of
+policies.
+2.
+
+For instance, this would entail going above and
+beyond a layperson's understanding of economic issues. In economics, there is generally
+no single right answer. One should generally refrain from making blanket statements.
+
+Start thinking like a macroeconomist!
+
+I have attempted to combine material from a number of sources, and I will strive to make
+the material as intuitive as possible. We will be going over a variety of models that attempt
+to simplify reality and distill economic problems to their crucial and quintessential aspects.
+Models are not to be taken as literal representations of the world. They are an abstraction
+because reality is just too complex to be encapsulated by a single model. For instance, how
+will consumers react to an increase in the interest rate? To answer this question, we will
+need to make assumptions about the economy generally, and consumers specically. One
+way to think about models is to juxtapose them to maps. In order to learn about distances
+between countries, we can use a map instead of navigating a ship across high seas. Of course,
+the appropriateness of models relies on the plausibility of their assumptions. Questioning
+the assumptions of models and indeed, realizing that they may fail in certain (if not most)
+real world cases is also a key component to understanding models. We will be making use
+of distinct models to go over a variety of relevant, and interesting topics. These include,
+but are not limited to: the theory of output, consumption, investment, employment (and
+unemploymet), economic growth, business cycles, the price level and central banking.
+1
+
+2
+
+Lecturer Contact Information
+•
+
+Email: chinmay.sharma@mcgill.ca
+
+•
+
+Oce Hours:
+
+•
+
+Location of Oce Hours: Leacock 437
+
+3
+
+TBD
+
+Textbooks and Material
+
+I will be making use of the book by Stephen D. Williamson, titled Macroeconomics. This
+book will form the core of the lectures. Lectures will be posted before each class, and students
+will be expected to keep up with the lectures. The subject matter is cumulative in nature- id
+est if you fail to keep up with lectures, you will nd that future lectures become increasingly
+hard to comprehend. I will also be using journal articles to supplement some of the lectures
+covered in class.
+
+4
+
+Class Schedule
+
+2 Classes per week (Wednesdays and Fridays from 2:35 P.M to 3:55 P.M) at ENGTR 0100.
+
+5
+5.1
+
+Grading Policy
+Assignments
+
+The grading for this course comprises of two components: 4 homework assignments and 2
+nal exams. The 4 homework assignments are worth 7.5% each. As such, the homework
+component will count for 30% of your overall grade. Two of the homework exercises can be
+done in groups (these will be empirical in nature), and two of them will have to be done
+individually. Moreover, the group assignments will have to be typed by separately by
+each student. Late assignments will be penalized by 10 marks each day (out of 100), for a
+maximum of 5 days, after which they will be awarded a mark of 0.
+I will be using mycourses to post the homework assignments and other class related documents.
+5.2
+
+Final Exams
+
+There will be two closed book, cumulative nal exams during the regular exam periods in
+December and April. You will be expected to know and understand the material that we
+will cover in classes. The exam in December will cover approximately half of the material,
+whereas the one in April will be cumulative. As such, the April exam will contain a lot
+more testable information. Without loss of generality, assume that the grade for the exam
+2
+
+in December is E1 whereas the one for April is E2 . The exam component of the course will
+be computed as follows:
+(
+E2
+if E2 − E1 ≥ 10
+G=
+0.6×max (E1 , E2 ) + 0.4 × min (E1 , E2 ) o/w
+
+where the former if condition ensures that a student is able to raise an entire letter grade or
+more on the nal, relative to the midterm. If a student meets this condition, then the exam
+will count for 100% of the grade component. This scheme will always weigh the higher grade
+more, and will reward signicantimprovement handsomely.
+5.3
+
+Missed Exam
+
+In the eventuality that you miss the nal exam due to an illness or extenuating circumstances,
+you will need to provide a Doctor's note for the former or a proof of the latter no later
+than a week after the exam, in which case you will be allowed to write a supplemental
+exam.
+
+6
+6.1
+
+Policy Statements
+Academic Integrity
+
+McGill University values academic integrity. Therefore, all students must understand the
+meaning and consequences of cheating, plagiarism and other academic oences under the
+Code of Student Conduct and Disciplinary Procedures (see www.mcgill.ca/students/srr/honest/
+for more information)
+L'université McGill attache une haute importance à l'honnêteté académique. Il incombe par
+conséquent à tous les étudiants de comprendre ce que l'on entend par tricherie, plagiat et
+autres infractions académiques, ainsi que les conséquences que peuvent avoir de telles actions,
+selon le Code de conduite de l'étudiant et des procédures disciplinaires (pour de plus amples
+renseignements, veuillez consulter le site www.mcgill.ca/students/srr/honest/).
+6.2
+
+Language of Submission
+
+In accord with McGill University's Charter of Students' Rights, students in this course have
+the right to submit in English or in French any written work that is to be graded.
+Conformément à la Charte des droits de l'étudiant de l'Université McGill, chaque étudiant a
+le droit de soumettre en français ou en anglais tout travail écrit devant être noté (sauf dans
+le cas des cours dont l'un des objets est la maîtrise d'une langue).
+
+3
+
+6.3
+
+Additional Statements
+
+Instructor-generated course materials (e.g., handouts, notes, summaries, exam questions,
+etc.) are protected by law and may not be copied or distributed in any form or in any
+medium without explicit permission of the instructor. Note that infringements of copyright
+can be subject to follow up by the University under the Code of Student Conduct and
+Disciplinary Procedures.
+In the event of extraordinary circumstances beyond the University's control, the content
+and/or evaluation scheme in this course is subject to change.
+
+4
+
+7
+
+(Tentative) Course Plan
+
+Topic
+
+Content
+
+Topic 1
+
+• GDP and its Measurement
+
+Topic 2
+
+• Consumer and Firm Behavior: The Work-Leisure Decision and Prot
+
+Topic 3
+
+Maximization
+• A Closed-Economy One-Period Macroeconomic Model
+
+Topic 4
+
+• A Two-Period Model: The Consumption Savings Decision and Credit
+
+Topic 5
+Topic 6
+Topic 7
+
+• The Solow Growth Model
+
+Markets
+• A Real Intertemporal Model with Investment
+• A Monetary Intertemporal Model
+
+Topic 8
+
+• Money, Ination, and Banking
+
+Topic 9
+
+• Unemployment: Search and Eciency Wages
+
+5
+
+

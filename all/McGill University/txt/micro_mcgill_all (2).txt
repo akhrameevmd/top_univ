@@ -1,0 +1,195 @@
+1
+
+Econ208: Microeconomic Analysis & Applications (Section 004)
+Tuesday & Thursday, 1:05 – 2:25
+Professor: Paul Dickinson
+
+Stuart Biology South, Theatre 4 (STBIO S1/4)
+
+paul.dickinson@mcgill.ca
+********************************************
+
+Winter 2017
+
+A: Course Content
+This 3-credit Microeconomics course focuses on the behaviour of individual economic units (individual markets, individual
+consumers, and individual firms). It examines the choices that consumers and firms face, how different market structures
+respond to these choices, and when/how/why government intervention may or may not be desirable for society as a whole. At
+each stage you will do some theory and then use it for a variety of applications. I hope you will be surprised to find that some
+things you think seem obvious in everyday life turn out to be anything but! The course assumes you have no prior knowledge of
+economics.
+.
+Do the readings as the lectures progress - economic reasoning builds upon itself, so you need to understand each part as we go
+along. If you must miss a lecture or conference, arrange a 'buddy system' so you can copy the notes of someone who does attend.
+Some examinable material covered in lectures may not be in the text. Lecture notes will not be posted on the myCourses web
+site.
+B: Text & Learning Tools
+The text is Microeconomics, 15th Canadian Edition, by Ragan (published by Person Canada) available from Paragraphe
+bookstore, 2220 McGill College Avenue. [**Make sure you get the MICRO, not the Macro.]
+The text comes with access to an online site (MyEconLab), where you will find (i) explanations for a selection of end-of-chapter
+text exercises/questions, (ii) some short practice quizzes, (iii) sections on the Additional Topics referred to in the text, and more.
+Also available is the Study Guide to the 14th edition of the text (by Dickinson & Indart) which has brief summaries of chapter
+topics, useful study hints, and lots of practice questions and answers (with explanations). It includes multiple-choice questions,
+short-answer questions and longer exercises to help understand the material.
+A very important learning tool is the myCourses website accessed through the McGill website. This is specific to Econ208-004
+and you should regularly check it for course announcements, additional readings, conference sheets (questions and answer
+guides), and other items to assist you in the course. You can also use it to ask questions of and receive answers from your fellow
+students.
+C: Contacting Me
+My office hours (times to be determined) are in Leacock 516. If you can’t make my office hours because of your course
+schedule, email a request (paul.dickinson@mcgill.ca) to arrange a mutually convenient time and include (i) your weekly
+schedule and (ii) a brief explanation of what you need to talk about. Use email, not the ‘phone.
+D: Conferences
+Your Teaching Assistants, M. Jean-Louis Bernard Menard (and others to be assigned), hold weekly ‘conferences’ (small-group
+seminars) to help you understand assigned questions & topics on ‘conference sheets’ and answer your questions about lectures
+and readings. Conference sheets aim at a further understanding of the lecture/text material and its applications. The sheet
+questions and basic answer guides will be posted each week on myCourses. Try them yourself before you go to conferences.
+Conferences are expected to start in the week beginning Monday January 16 or Monday January 23 – you will be notified.
+Conference times, and the conference rooms, and TA office hours, will be posted on myCourses.
+
+E: Grading/Examinations/Conduct
+There will be a mid-term exam worth 30% (expected to be on Thursday February 23) and a cumulative 3-hour final worth
+70% (held during the final examination period as determined by the Faculty of Arts). If your performance on the final is
+better than that on the midterm the weightings will be 20%/80%. It is anticipated that the exams will be multiple-choice,
+'though I reserve the right to include some short-answer questions at my discretion. They are "closed book" examinations no texts, notes, cell phones or electronic memory devices allowed. The course grades may be curved at my discretion.
+There is NO deferred examination for the mid-term. If you miss the mid-term, the final will count as 100% of the course
+mark only in cases where students can’t attend the mid-term for justifiable reasons, as determined by the instructor and
+subject to written confirmation deemed acceptable to the instructor. Students missing the mid-term without instructor
+approval will get a mark of zero for that exam.
+
+2
+
+Regulations require/recommend that you be reminded of the following:
+1. McGill University values academic integrity. Therefore all students must understand the meaning and
+consequences of cheating, plagiarism and other academic offences under the Code of Student Conduct and
+Disciplinary Procedures (see www.mcgill.ca/students/srr/honest
+2. According to Senate regulations, instructors are not permitted to make special arrangements for final exams.
+Please consult the Calendar, section 4.7.2.1, General University Information and Regulations at www.mcgill.ca.
+3. In accord with McGill University’s Charter of Students’ Rights, students in this course have the right to submit
+in English or in French any written work that is to be graded. (Note: Not applicable to multiple-choice exams)
+4. If you have a disability please contact the instructor to arrange a time to discuss your situation. It would be
+helpful if you contact the Office for Students with Disabilities at 514-398-6009 before you do this.
+
+Text Packages and Prices
+The following print packages are available at Paragraphe bookstore.
+
+
+
+
+
+
+$149.95 for a bound version of the Ragan 15th edition text with MyEconLab
+$169.95 for a package containing a bound Ragan 15th edition text with MyEconLab, and 14th edition Study Guide
+$45.0 for the 14th edition Study Guide.
+$95 for the loose-leaf Ragan 15th edition text with MyEconLab
+$115 for a package with a loose-leaf Ragan 15th edition text with MyEconLab, and with 14th edition Study Guide
+
+The following are available online. They can’t be downloaded,
+
+
+
+
+$90 for e-text with MyEconLab – but what you get depends on where you buy it.
+o If you buy the MyEconLab at Paragraphe you get a free Study Guide with it. Access to the MyEconLab
+component expires in 12 months.
+o If you don’t buy it from Paragraphe – i.e. you go directly online – then you don’t get the Study Guide.
+$74.97 for e-text alone, with no additions. This is available from VitalSource and access expires in 12 months.
+
+Because economics ‘builds upon itself’ you’ll often need to return to previous pages for a refresher. For me (and you may have a
+different opinion) this is easier with a print copy than with e-text because the latter shows only one page at a time, so it’s harder
+to ‘flip back’. For those preferring print, the $115 package is a good deal.
+
+3
+
+F: Topics Structure and Readings
+Week numbers are estimates and may change. In addition to references below, associated topics and applications will be on
+Conference Sheets and made available through the course web site. Some analysis and applications will be covered in
+lectures for which there are no set readings. References below preceded by SG refer to recommended exercises in the 14th
+edition Study Guide (e.g., SG4:E5 is Study Guide Chapter 4, Exercise 5).
+I: THE BASICS
+A: Issues and Concepts and Approach
+
+Preface, Chaps. 1 and 2
+
+B: Competitive Markets
+*
+Market demand, supply & price
+*
+Sensitivity (‘elasticity’) of demand and supply
+*
+Market interventions & market efficiency
+
+Weeks 2, 3 & 4
+Chap 3, SG3: E4, Ext.E1 & E2
+Chap 4, SG4: E5 & 6, Ext.E3, Ext.E4
+Chap 5
+
+II: CONSUMERS & PRODUCERS
+A: The Consumer Side of Markets
+*
+Utility maximization and consumer choice
+*
+Income & substitution effects
+*
+Value versus price
+.
+B: The Producer Side of Markets
+*
+Production and costs in the short run
+*
+Production, costs and technology in the long run
+
+Weeks 1 & 2
+
+Weeks 5 & 6
+Chap 6, pp. 111-117, SG6: E6
+Chap 6, pp. 117-121, SG6: E3
+Chap 6, pp. 121-125, SG6: Ext.E1
+(Appendix 6 is excluded)
+Weeks 6 & 7
+Chap 7
+Chap 8 (excluding Appendix)
+
+Mid-Term Examination (Week 7)
+C: Market Structures & Economic Efficiency
+*
+The perfect competition extreme
+*
+The monopoly extreme, cartels, & price discrimination
+*
+Between the extremes, strategic behaviour of firms
+*
+Economic efficiency & government policy (Part 1)
+III: INTERVENTION & EFFICIENCY (Part 2)
+*
+Government intervention when markets fail
+*
+Environmental policies controlling pollution
+*
+Global warming
+IV: INTERNATIONAL TRADE
+*
+Production specialisation & international trade
+*
+Protectionism
+*
+NAFTA
+
+Weeks, 8 & 9
+Chap 9
+Chap 10
+Chap 11
+Chap 12
+Weeks 10 & 11
+Chap 16
+Chap 17, pp. 389-400
+Chap 17, pp. 400-409
+Weeks 12 & 13
+Chap 32
+Chap 33, pp. 800-813
+Chap 33, pp. 816-819
+
+In the event of extraordinary circumstances beyond the University’s control, the content and/or evaluation
+scheme in this course is subject to change.
+
+

@@ -1,0 +1,202 @@
+University of California, Berkeley
+Department of Economics
+Spring 2001
+
+Professor Alan Auerbach
+525 Evans Hall
+3-0711; auerbach@econ
+
+ECONOMICS 230B
+PUBLIC SECTOR MICROECONOMICS
+This course follows Economics 230A, and will consider several applications of the theory of
+taxation and public expenditures. Although Economics 230A is not an absolute prerequisite,
+students who have not taken that course may find the need to do some additional reading to be able
+to follow the material in some sections of Economics 230B.
+Class meetings:
+
+Tuesdays (and, on occasion, Thursdays), 9-11, 639 Evans Hall
+
+Office hours:
+
+Monday, 10:00-11:30
+
+Prerequisites:
+
+First-year graduate microeconomics (Economics 201A,B)
+First-year graduate econometrics (Economics 240A)
+
+Requirements:
+
+Problem sets (2) Paper (5 page review) Class participation Final examination -
+
+20%
+15%
+20%
+45%
+
+There is no required textbook for this course. All starred readings below are required and are
+included in the course reader, which will be available at Copy Central. Several of the papers are
+reprinted in Alan J. Auerbach, ed., Public Finance (Worth Series in Outstanding Contributions),
+2000.
+I. BEHAVIORAL EFFECTS OF CAPITAL INCOME TAXATION
+A. Savings and Portfolio Choice
+*Douglas Bernheim, “Taxation and Saving,” Handbook of Public Economics volume 3,
+forthcoming, mimeo.
+*James Poterba, “Taxation, Risk-Taking and Household Portfolio Behavior,” Handbook of
+Public Economics volume 3, forthcoming, mimeo.
+Mervyn King and Jonathan Leape, “Wealth and Portfolio Composition: Theory and Evidence,”
+Journal of Public Economics, August 1998, 155-93.
+Steven Venti and David Wise, “Have IRAs Increased U.S. Saving? Evidence from Consumer
+Expenditure Surveys,” Quarterly Journal of Economics, August 1990, 661-98.
+
+Economics 230B, Spring 2001
+
+Page 2
+
+William Gale and Karl Scholz, “IRAs and Household Saving” American Economic Review,
+December 1994, 1233-60.
+B. Capital Gains Taxation
+*Leonard Burman and William Randolph, “Measuring Permanent Responses to Capital-Gains
+Tax Changes in Panel Data,” American Economic Review, September 1994, 794-809.
+Reprinted in Auerbach, ed., Public Finance.
+*Alan Auerbach and Jonathan Siegel, “Capital Gains Realizations of the Rich and
+Sophisticated,” American Economic Review, May 2000, 276-82.
+*Alan Auerbach, “Retrospective Capital Gains Taxation,” American Economic Review, March
+1991, 167-78.
+Joseph Stiglitz, “Some Aspects of the Taxation of Capital Gains,” Journal of Public
+Economics, July 1983, 257-94.
+Alan Auerbach, “On the Design and Reform of Capital Gains Taxation,” American Economic
+Review, May 1992, 263-67.
+C. Corporate Financial Structure
+*Alan Auerbach, “Taxation and Corporate Financial Policy,” Handbook of Public Economics
+volume 3, forthcoming, mimeo.
+Alan Auerbach and Mervyn King, “Taxation, Portfolio Choice, and Debt-Equity Ratios: A
+General Equilibrium Model,” Quarterly Journal of Economics, November 1983, 587609.
+Alan Auerbach and David Reishus, “The Effects of Taxation on the Merger Decision,” in A.
+Auerbach, ed., Corporate Takeovers, 1988, 157-83.
+D. Investment Behavior
+*Alan Auerbach, “Tax Reform and Adjustment Costs: The Impact on Investment and Market
+Value,” International Economic Review, November 1989, 939-62.
+*Jason Cummins, Kevin Hassett and Glenn Hubbard, “A Reconsideration of Investment
+Behavior Using Tax Reforms as Natural Experiments,” Brookings Papers on Economic
+Activity, 1994:2, 1-59.
+*James Hines, “Tax Policy and the Activities of Multinational Corporations,” in Alan J.
+Auerbach, ed., Fiscal Policy: Lessons from Economic Research, 1997, Chapter 9.
+
+Economics 230B, Spring 2001
+
+Page 3
+
+Luis Alvarez, Vesa Kanniainen, and Jan Södersten, “Tax Policy, Uncertainty and Corporate
+Investment: A Theory of Tax-Induced Investment Spurts,” Journal of Public Economics,
+July 1998, 17-48.
+Bronwyn Hall and John Van Reenan, “How Effective are Fiscal Incentives for R&D?” Burch
+Center Working Paper No. B99-04, March 1999.
+II. LABOR INCOME TAXATION AND INCOME TRANSFER PROGRAMS
+A. Basic Labor Supply Estimates
+*Nada Eissa, “Taxation and Labor Supply of Married Women: The Tax Reform Act of 1986 as
+a Natural Experiment,” NBER Working Paper No. 5023, February 1995.
+*Richard Blundell, Alan Duncan, and Costas Meghir, “Estimating Labor Supply Responses
+Using Tax Reforms,” Econometrica, July 1998, 827-61.
+*James Ziliak and Thomas Kneisner, “Estimating Life Cycle Labor Supply Tax Effects,”
+Journal of Political Economy, April 1999, 326-59.
+B. Reponsiveness of Taxable Income
+*Martin Feldstein, “The Effect of Marginal Tax Rates on Taxable Income: A Panel Study of the
+1986 Tax Reform Act,” Journal of Political Economy, June 1995, 551-72. Reprinted in
+Auerbach, ed., Public Finance.
+*Jonathan Gruber and Emmanuel Saez, “The Elasticity of Taxable Income: Evidence and
+Implications,” NBER Working Paper No. 7512, January 2000.
+C. The Design of Low Income Support Schemes
+*George Akerlof, “The Economics of Tagging as Applied to the Optimal Income Tax,”
+American Economic Review, March 1978, 8-19.
+*Timothy Besley and Stephen Coate, The Design of Income Maintenance Programmes,”
+Review of Economic Studies, April 1995, 187-221.
+Emmanuel Saez, “Optimal Income Transfer Programs: Intensive Versus Extensive Labor
+Supply Responses,” NBER Working Paper No. 7708, May 2000.
+
+Economics 230B, Spring 2001
+
+Page 4
+
+D. Behavioral Responses
+*Robert Moffitt, “Incentive Effects of the U.S. Welfare System: A Review,” Journal of
+Economic Literature, March 1992, 1-61.
+*Nada Eissa and Jeffrey Liebman, “Labor Supply Response to the Earned Income Tax Credit,”
+Quarterly Journal of Economics, May 1996, 605-37. Reprinted in Auerbach, ed., Public
+Finance.
+Hilary Hoynes and Thomas MaCurdy, “Has the Decline in Benefits Shortened Welfare
+Spells?” American Economic Review, May 1994, 43-48.
+III. SOCIAL SECURITY
+A. Design Issues
+*Peter Diamond, “A Framework for Social Security Analysis,” Journal of Public Economics,
+December 1977, 275-98.
+*Peter Diamond and James Mirrlees, “A Model of Social Insurance with Variable
+Retirement,” Journal of Public Economics, December 1978, 295-336.
+Martin Feldstein, “The Optimal Level of Social Security Benefits,” Quarterly Journal of
+Economics, May 1985, 300-20.
+Martin Feldstein, “Should Social Security Benefits Be Means Tested?” Journal of Political
+Economy, June 1987, 468-84.
+B. Simulation Models of the Impact of Social Security
+*Alan Auerbach and Laurence Kotlikoff, Dynamic Fiscal Policy, 1987, Chapters 10 and 11.
+Glenn Hubbard and Kenneth Judd, “Social Security and Individual Welfare: Precautionary
+Saving, Borrowing Constraints, and the Payroll Tax,” American Economic Review,
+September 1987, 630-46.
+Glenn Hubbard, Jonathan Skinner, and Stephen Zeldes, “Precautionary Saving and Social
+Insurance,” Journal of Political Economy, April 1995, 360-99.
+C. Social Security and Labor Supply
+*Martin Feldstein and Andrew Samwick, “Social Security Tax Rules and Marginal Tax
+Rates,” National Tax Journal, March 1992, 1-22.
+
+Economics 230B, Spring 2001
+
+Page 5
+
+*Courtney Coile and Jonathan Gruber, “Social Security and Retirement,” NBER Working
+Paper No. 7830, August 2000.
+Andrew Samwick, “New Evidence on Pensions, Social Security, and the Timing of
+Retirement,” Journal of Public Economics, November 1998, 207-36.
+Jonathan Gruber and Peter Orszag, “Does the Social Security Earnings Test Affect Labor
+Supply and Benefits Receipt?” NBER Working Paper No. 7923, September 2000.
+D. Social Security and Saving
+*William Gale, “The Effects of Pensions on Household Wealth: A Reevaluation of Theory and
+Evidence,” Journal of Political Economy, August 1998, 706-23.
+Peter Diamond and Jerry Hausman, “Individual Retirement and Savings Behavior,” Journal of
+Public Economics, February/March 1984, 81-114.
+Douglas Bernheim, “The Economic Effects of Social Security: Toward a Reconciliation of
+Theory and Measurement,” Journal of Public Economics, August 1987, 273-304.
+E. Distributional Issues and Reform
+*Laurence Kotlikoff, Kent Smetters, and Jan Walliser, “Privatizing Social Security in the U.S.:
+Comparing the Options,” Review of Economic Dynamics, July 1999, 532-74.
+*Julia Lynn Coronado, Don Fullerton, and Thomas Glass, “Long Run Effects of Social Security
+Reform Proposals on Lifetime Progressivity” NBER Working Paper No. 7568, February
+2000.
+Kjetil Storesletten, Chris Telmer, and Amir Yaron, “The Risk-Sharing Implications of
+Alternative Social Security Arrangements,” Carnegie-Rochester Conference Series on
+Public Policy, June 1999, 213-59.
+Mariacristina DeNardi, Selahattin Imrohoroglu, and Thomas Sargent, “Projected US
+Demographics and Social Security,” Review of Economic Dynamics, July 1999, 575-615.
+F. Political Economy
+*Guido Tabellini, “The Politics of Intergenerational Redistribution,” Journal of Political
+Economy, April 1991, 335-57.
+Thomas Cooley and Jorge Soares, “Will Social Security Survive the Baby Boom?” CarnegieRochester Conference Series on Public Policy, December 1996, 89-121.
+
+Economics 230B, Spring 2001
+
+Page 6
+
+IV. GOVERNMENT POLICY AND HEALTH INSURANCE
+*David Cutler, “Health Care and the Public Sector,” Handbook of Public Economics volume
+3, forthcoming, mimeo.
+*Jonathan Gruber and James Poterba, “Tax Incentives and the Decision to Purchase Health
+Insurance: Evidence from the Self-Employed,” Quarterly Journal of Economics, August
+1994, 701-33.
+*David Cutler and Jonathan Gruber, “Does Public Insurance Crowd Out Private Insurance?”
+Quarterly Journal of Economics, May 1996, 391-430.
+Jonathan Gruber, “The Incidence of Mandated Maternity Benefits,” American Economic
+Review, June 1994, 622-41. Reprinted in Auerbach, ed., Public Finance.
+Brigitte Madrian, “Employment-Based Health Insurance and Job Mobility: Is There Evidence
+of Job Lock?” Quarterly Journal of Economics, February 1994, 27-54.
+Billy Jack and Louise Sheiner, “Welfare Improving Health Expenditure Subsidies,” American
+Economic Review, March 1997, 206-21.
+
+

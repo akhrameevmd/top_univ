@@ -1,0 +1,113 @@
+Department of Economics						Summer 2016
+University of California, Berkeley					Econometrics 140
+M, T, W, Th  12-1.30 PM, 10 Evans					Dr. Carson
+
+Economics 140 – Economic Statistics & Econometrics
+
+The four stages of the scientific method are observation, hypothesis, testing, and discussion.  This indicates that competently handling data upon which observations and testing are based is a high priority in any scientific endeavor.  If you have followed your degree plan, you have completed micro and macroeconomics so have a working understanding of how economists think about the economy.  But the rational upright ape at this point, if not before, should ask whether or not this is the way the world works.  So, econometrics is the combination of economic theory and statistics to test economic hypotheses from micro and macroeconomics theory to evidence.  And if you are like my Texas economics and finance students, you have delayed taking econometrics because you heard it was among the most difficult courses in the major.  It is!  But, mastering it offsets the effort you extend to learn the material.  Like no other course in my undergraduate experience, my time spent learning econometrics has been the most rewarded courses and has changed the way I look at the world.   My objective this semester is to do the same with you, change the way you look at the world. 
+
+
+COURSE LEARNING OBJECTIVES  
+
+1.	The student will have a deeper understanding of economic statistics, econometrics, and have greater confidence in its application.
+2.	Students will learn the basics of ordinary least squares model estimation, with its advantages and disadvantages.
+3.	Students will learn appropriate alternatives to ordinary least squares, when assumptions underlying the classical linear regression model are violated.
+4.	Students will learn model construction and estimation, with applications in consumer and producer theory.
+5.	Students will gain insights into the relationship between econometric estimation and diagnostic testing.  
+6.	Students will understand the basics of microeconometrics and time series.
+
+
+Grading
+
+You are graded on your performance relative to the class in four areas.
+
+1.	Problem sets, (200 Points, 8 assignments at 25 points each)
+2.	Exam 1, Essay  (100 Points)
+3.	Exam 2, Essay  (100 Points)
+4.	Comprehensive Final, Essay  (200 Points)
+
+Professor's Office Hours
+M, T, W, Th 3-4pm
+
+Prerequisite
+
+Economics 1 (Introduction to Microeconomics and Macroeconomics) is the only prerequisite for the course.  Some familiarity with the broad outlines of U.S. economic history is presumed.
+
+Required Textbooks
+
+Gujarati, Damodar and Dawn Porter, Basic Econometrics, 5th Edition. McGraw-Hill.
+
+Angrist, Joshua and Jorn-Seffen Pischke.  Mastering Metrics: The Path from Cause to Effect.  Princeton University Press.
+
+Many times it is useful to have additional perspective at the introductory level.  Here is a list of books that you may find helpful.
+
+Cameron, Colin and Pravin Trivedi.  Microeconometrics Using Stata.  Stata Press.
+
+Maddala, George S., Introduction to Econometrics, Prentice Hall.  Any edition.
+
+Stock, James H. and Mark Watson.  Introduction to Econometrics, 2nd Edition.  Pearson, Addison Wesley.  2007.
+
+Software
+
+This course uses Stata.  It is available through Citrix and  Dlabs.  If you have any problems, Harrison Dekker can help you access it.
+
+Grading
+
+Grades are assigned according to your point accumulation relative to the class high.  Grades are
+assigned according to the following scale:
+
+
+                                   Grade                        	Percent
+                                    A                               	93%
+                                    A-                              	90%
+                                    B+                              	87%
+                                    B                               	84%
+                                    B-                              	81%
+                                    C+                              	78%
+                                    C                               	75%
+                                    C-                              	70%
+                                    D+                              	67%
+                                    D                               	64%
+                                    D-                              	60%
+                                    E                               	Below 60%
+
+
+POLICY ON SCHOLASTIC DISHONESTY: 
+
+When legal code is necessary to maintain academic honesty and social interaction, social bounds of reciprocity are eliminated.  Ergo, it is expected that the highest forms of honesty and respect for others be adhered too.  Outside of that, the University expects a student to maintain a high standard of individual honor in all scholastic work.  
+
+The short of it is do not cheat.  It will influence your grade.
+
+STUDENT CLASSROOM CONDUCT:  
+  
+Be nice.  Failure to be cool with me, the instructor, or other students may adversely affect your grade.  If you sometimes feel like you're stepping over the lines of social decorum, you probably are, so step back and reevaluate, because it may detract from our classroom environment.  Other than that, let's just hang out and learn as much as we can this semester.  
+
+ELECTRONIC DEVICE POLICY
+
+Computers are essential in modern research and econometrics.  However, they can also be a tremendous distraction.  The current policy toward laptops is that you can use them in the class so long as I feel that you are using them to do legitimate classroom work.  If I get a sense that you are doing things other than following the examples or taking notes, I will ask you to close your laptop.
+
+The use of other electronic devices, such as cell phones and text messagers, is strictly prohibited.  Please do not even bring them to class.  Moreover, please do not distract class by turning your phone to vibrate and then walking out to take a call.  Take all calls before or after class.  Nothing good is going on when a student is doing things with their hands under their desk.  It is an almost certainly the case you are texting or doing something else that you do not need to be doing in class.  So, outside of the limited use of laptop computers, do not bring electronic devices to class.
+
+
+Outline					Pages
+
+GB Chapter 2		Elementary Statistics, a Review			19-51
+AP  Chapter 1		Randomized Trials					1-46
+GB Chapter 1		Introduction to Regression				3-17
+GB Chapter 3		The Two Variable Regression Model			57-82
+GB Chapter 4		The Multiple Regression Model			85-113
+GB Chapter 5		Using the Multiple Regression Model		117-139
+AP Chapter 2		Regression						47-97
+GB Chapter 6		Serial Correlation and Hetroskedasticity		145-175
+GB Chapter 7		Instrumental Variables and Model Specification	178-200
+AP Chapter 3		Instrumental Variables				98-146
+GB Chapter 9		Single Equation Estimation: Advanced Topics	229-261
+GB Chapter 10	Non-Linear and Maximum Likelihood Estimation	265-284
+GB Chapter 11	Models of Qualitative Choice			298-324, 329-334
+AP Chapter 5		Differences in Differences				178-208
+AP Chapter 4		Regression Discontinuity				147-177
+
+This is a tentative syllabus and outline.  I reserve the right to make changes.  However, all
+changes will be announced in class.  If you miss a day, you are responsible to be informed of
+any changes to this syllabus.
+

@@ -1,7 +1,49 @@
 ECON3121 INTRODUCTORY ECONOMETRICS
 This course studies the basic econometric theory and the application of econometric methods to actual economic data. The emphasis is on explaining basic ideas behind formulas and rules. Topics covered are: basic concepts of statistical inference; estimation and inference for the general linear statistical model; stochastic regressors; heteroscedasticity; disturbance related sets of regression equations; multicollinearity; autocorrelation; and specification, identification and estimation of simultaneous equation models. Students are advised to take ECON2121 before taking this course.
+
+
+Week Topic Readings: 
+1 Data and Descriptive Statistics 
+3 Introduction to Probability
+4 Discrete Probability Distributions 
+5 Continuous Probability Distributions 
+6 Sampling and Sampling Distributions 
+7 Mid-term
+8 Sampling and Sampling Distributions 
+9 Interval Estimation 
+10 Hypothesis Tests 
+11 Inference with Two Populations 
+12 Analysis of Variance 
+13 Simple Linear Regression
+
 ECON2121 METHODS OF ECONOMIC STATISTICS
 This course studies basic statistical concepts and their applications. Major topics include: descriptive statistics; probability distributions; sampling; estimation; hypothesis testing; regression and correlation analysis. Students should have knowledge of elementary differential and integral calculus, and are advised to take ECON1111 before taking this course. (Not for students who have taken, or are currently taking DSME2010, DSME2011, SEEM2430, STAT2006 or STAT2101.)
+
+Introductory Econometrics: A Modern Approach, Wooldridge, Jeffrey M., Cengage Learning, 6th edition
+PART 1: Regression Analysis with Cross-Sectional Data 21
+Chapter 2 The Simple Regression Model 22
+Chapter 3 Multiple Regression Analysis: Estimation 68
+Chapter 4 Multiple Regression Analysis: Inference 118
+Chapter 5 Multiple Regression Analysis: OLS Asymptotics 168
+Chapter 6 Multiple Regression Analysis: Further Issues 186
+Chapter 7 Multiple Regression Analysis with Qualitative
+Information: Binary (or Dummy) Variables 227
+Chapter 8 Heteroskedasticity 268
+Chapter 9 More on Specification and Data Issues 303
+PART 2: Regression Analysis with Time Series Data 343
+Chapter 10 Basic Regression Analysis with Time Series Data 344
+Chapter 11 Further Issues in Using OLS with Time Series Data 380
+Chapter 12 Serial Correlation and Heteroskedasticity in Time Series Regressions 412
+PART 3: Advanced Topics 447
+Chapter 13 Pooling Cross Sections Across Time: Simple Panel Data Methods 448
+Chapter 14 Advanced Panel Data Methods 484
+Chapter 15 Instrumental Variables Estimation and Two Stage Least Squares 512
+Chapter 16 Simultaneous Equations Models 554
+Chapter 17 Limited Dependent Variable Models and Sample Selection Corrections 583
+Chapter 18 Advanced Time Series Topics 632
+Chapter 19 Carrying Out an Empirical Project
+
 ECON4120 APPLIED FORECASTING METHODS
 This course focuses on the estimation and inference of modern econometric forecasting models. Topics include the ARMA model, forecasting trends and seasonality, combination of forecasts, and evaluation of forecasts. Students are advised to take ECON2021 and 3121 before taking this course.
 
+Diebold, Francis X. (2008): "Elements of Forecasting," Fourth Edition

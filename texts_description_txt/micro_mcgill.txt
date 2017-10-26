@@ -1,0 +1,106 @@
+ECON 208 Microeconomic Analysis and Applications
+Course Objectives:
+This course provides an understanding of the basic principles of microeconomics and their use in
+analyzing contemporary economic issues. It begins with an introduction to the methodology of
+economics and continues with an analysis of demand and supply. Interactions among markets, elasticity
+and consumer behaviour are also discussed. A theory of the firm is presented, together with
+considerations regarding the influence of market structure on firm behaviour. Market failures,
+government intervention and the general theory of welfare economics are considered. We also analyse
+the role of financial markets as a source of funds for firms, and as a link between households and firms.
+Microeconomics, 15th Canadian Edition, by Christopher Ragan
+Part One:  What Is Economics?
+1: Economic Issues and Concepts
+2: Economic Theories, Data, and Graphs
+ 
+Part Two:  An Introduction to Demand and Supply
+3: Demand, Supply, and Price
+4: Elasticity
+5: Price Controls and Market Efficiency
+ 
+Part Three:  Consumers and Producers
+6: Consumer Behaviour
+7: Producers in the Short Run
+8: Producers in the Long Run
+ 
+Part Four:  Market Structure and Efficiency
+9: Competitive Markets
+10: Monopoly, Cartels, and Price Discrimination
+11: Imperfect Competition and Strategic Behaviour
+12: Economic Efficiency and Public Policy
+ 
+Part Five:  Factor Markets    
+13: How Factor Markets Work    
+14: Labour Markets and Income Inequality    
+15: Interest Rates and the Capital Market
+ 
+Part Six: Government in the Market Economy    
+16: Market Failures and Government Intervention    
+17: The Economics of Environmental Protection    
+18: Taxation and Public Expenditure    
+ 
+Part Twelve:  Canada in the Global Economy
+32: The Gains from International Trade
+33: Trade Policy
+34: Exchange Rates and the Balance of Payments
+
+
+Econ 230, Microeconomics
+The course is intended to equip students with knowledge in Microeconomics.
+We will go over basic concepts and notions in microeconomics and will see several practical
+applications of the theory. This will help you to understand the principles of market economy,
+the concepts of supply and demand. We will study the rational consumer’s consumption choice
+and profit-maximizing producer’s production choice to identify what lies behind the demand and
+the supply in the market. We will briefly touch on efficiency of the market based economics and
+how one may study the effects of government interventions on the efficiency of the system and
+the welfare of the people.
+
+Part One: An Introduction to Demand and Supply
+Chapter 1: Introduction
+Chapter 2: Supply and Demand
+Chapter 3: Applying Supply-and-Demand model
+Part Two: Consumers
+Chapter 4: Consumer Choice
+Chapter 5: Applying Consumer Theory
+Decision Making Under Uncertainty
+Part Three: Producers
+Chapter 6: Firms and Production
+Chapter 7: Costs
+Chapter 8: Competitive Firms and Market
+Part Five: Factor Markets
+Chapter 9: Applying Competitive Model
+Chapter 14: General Equilibrium and Economic Welfare
+
+Microeconomic Theory (ECON230D1-001)
+Course Overview: This course is designed to provide the fundamental principles of
+microeconomic analysis. Topics include the behavior of consumers, the theory of
+production and cost curves, the theory of the firm, welfare economics, and the theory of
+general equilibrium. Students will learn to use calculus based techniques and methods to
+solve standard problems in microeconomic theory.
+Jeffrey M. Perloff: Microeconomics
+
+1. Introduction 
+2. Supply and Demand 
+3. A Consumer’s Constrained Choice 
+4. Demand 
+5. Consumer Welfare and Policy Analysis 
+6. Firms and Production 
+7. Costs 
+8. Competitive Firms and Markets 
+9. Properties and Applications of the Competitive Model 
+10. General Equilibrium and Economic Welfare 
+11. Monopoly and Monopsony 
+12. Pricing and Advertising 
+13. Game Theory 
+14. Oligopoly and Monopolistic Competition 
+15. Factor Markets 
+16. Uncertainty 
+17. Property Rights, Externalities, Rivalry, and Exclusion 
+18. Asymmetric Information 
+19. Contracts and Moral Hazards 
+Answers to Selected Questions and Problems 
+Definitions 
+References 
+Sources for Challenges and Applications 
+
+Econ208: Microeconomic Analysis & Applications
+This 3-credit Microeconomics course focuses on the behaviour of individual economic units (individual markets, individual consumers, and individual firms). It examines the choices that consumers and firms face, how different market structures respond to these choices, and when/how/why government intervention may or may not be desirable for society as a whole. At each stage you will do some theory and then use it for a variety of applications. I hope you will be surprised to find that some things you think seem obvious in everyday life turn out to be anything but! The course assumes you have no prior knowledge of economics.

@@ -1,0 +1,99 @@
+Department of Economics						Summer 2016
+University of California, Berkeley					Economics 100A
+M, T, W, Th  10-11.30 AM, 100 Lewis				Dr. Carson
+
+Economics 100A -- Economic Analysis--Micro
+
+Economics offers unique insights into the study of human behavior.  Perhaps nowhere is this better illustrated than in microeconomics, broadly defined.  The bedrock assumption in microeconomics assumption is that economic agents seek to maximize their well being, subject to whatever constraints are placed upon them.  In mathematical terms, individuals and firms have objective functions that are optimized subject to constraints.  This means that individuals seek to maximize their utility subject to prevailing prices and income, and firms seek to maximize profits.  This is price theory.  Out of this comes several interesting results, such as political decision makers allocate vote and non-vote support to maximize their political utility functions.  Stock owners rationally separate themselves from day-to-day management to maximize their utility, although this decision is itself costly.  Game theory has gained greater appeal in microeconomics, and modeling human interaction as an effort to make each individual better off given that all other economic agents are also trying to make themselves better off has greatly added to the microeconomist’s tool kit. This course is designed to give you an introduction to the tools used by microeconomists and serves as a foundation to many economics courses that follow, such as labor, financial and industrial economics. 
+
+COURSE LEARNING OBJECTIVES  
+
+1.	The student will have a deeper understanding of microeconomics and have greater confidence in its application.
+2.	Students will learn constrained optimization, with applications in consumer and producer theory.
+3.	Students will gain insights into the relationship between production and cost, and how costs can determine market entry.  Students will understanding basic game theory modeling and how game theory application to market structure.
+4.	Students gain insight into consumer surplus, producer surplus and economic welfare.  Applications of the impact of policy changes on welfare are considered.
+5.	Students learn a thorough understanding of the workings of the market process and conditions under which the market produces the greatest social welfare.  Externalities are then considered.
+
+
+Grading
+
+You are graded on your performance relative to the class in four areas.
+
+1.	Problem sets, (100 Points, 4 assignments at 25 points each)
+2.	Exam 1, Essay  (100 Points)
+3.	Exam 2, Essay  (100 Points)
+4.	Comprehensive Final, Essay  (200 Points)
+
+Professor's Office Hours
+
+M, T, W, H 2-3pm
+
+Prerequisite
+
+Economics 1 (Introduction to Microeconomics and Macroeconomics) is the only prerequisite for the course.  Some familiarity with the broad outlines of U.S. economic history is presumed.
+
+Required Textbooks
+
+Austan Goolsbee, Steven Levitt, and Chad Syverson.  (2016).  Microeconomics, 2nd Edition.  Worth Publishers.
+
+I really do not care which edition you use.  You just need access to the problem sets at the back of the chapter for the 2nd edition.
+
+Grading
+
+Grades are assigned according to your point accumulation relative to the class high.  Grades are
+assigned according to the following scale:
+
+
+                                   Grade                        	Percent
+                                    A                               	93%
+                                    A-                              	90%
+                                    B+                              	87%
+                                    B                               	84%
+                                    B-                              	81%
+                                    C+                              	78%
+                                    C                               	75%
+                                    C-                              	70%
+                                    D+                              	67%
+                                    D                               	64%
+                                    D-                              	60%
+                                    E                               	Below 60%
+
+
+POLICY ON SCHOLASTIC DISHONESTY: 
+
+Scholastic dishonesty has been a problem in recent years.  When legal code is necessary to maintain academic honesty and social interaction, social bounds of reciprocity are eliminated.  Ergo, it is expected that the highest forms of honesty and respect for others be adhered too.  Outside of this, the University expects a student to maintain a high standard of individual honor in all scholastic work. 
+
+The short of it is, do not cheat.  It will influence your grade.
+
+STUDENT CLASSROOM CONDUCT:  
+  
+Be nice.  Failure to be cool with me, the instructor, or other students may adversely affect your grade.  If you sometimes feel like you're stepping over the lines of social decorum, you probably are, so step back and reevaluate, because it may detract from our classroom environment.  Other than that, let's just hang out and learn as much as we can this semester.  
+
+
+Outline
+
+Chapter 1		Adventures in Microeconomics			pp. 1-10
+Chapter 2 		Supply and Demand					pp. 11-55
+Chapter 3		Using Supply and Demand to Analyze Markets	pp. 57-104
+Chapter 4		Consumer Behavior					pp. 105-154
+Chapter 5 		Individual and Market Demand			pp. 155-199
+Chapter 17		Externalities and Public Goods			pp. 651-689
+Exam 1
+Chapter 6		Producer Behavior					pp. 201-246
+Chapter 7		Costs							pp. 247-295
+Chapter 8		Supply in a Competitive Market			pp. 297-329
+Chapter 9		Market Power and Monopoly				pp. 331-375
+Chapter 10		Pricing Strategies for Firms with Market Power	pp. 377-420
+Exam 2
+Chapter 11		Imperfect Competition				pp. 421-464
+Chapter 12		Game Theory						pp. 465-509
+Chapter 13		Factor Markets					pp. 511-541
+Chapter 14		Investment, Time, and Insurance			pp. 541-571
+Chapter 16		Asymmetric Information				pp. 615-650
+Chapter 15		General Equilibrium					pp. 573-614
+Final
+
+This is a tentative syllabus and outline.  I reserve the right to make changes.  However, all
+changes will be announced in class.  If you miss a day, you are responsible to be informed of
+any changes to this syllabus.
+
