@@ -1,0 +1,246 @@
+ECON 101 (Fall 2017) Intermediate Microeconomics
+Rakesh Vohra
+This version: July 16, 2017
+
+Description
+Microeconomics is the formal study of how individuals respond to incentives
+and the effect on social outcomes. Attention will focus on how the terms of trade
+between buyers and sellers are set. The course emphasizes the development of the
+mathematical tools needed to reason carefully about incentives and necessitates a
+taste for long chains of reasoning (see below for prerequisites).
+This course is not a laundry list of facts to memorize or recipies to follow. Its
+purpose is to change the way you think. This will be accomplished by posing questions whose answers will challenge your intuition. Merely recording the answers
+is insufficient, one must understand the reasoning process by which one arrives at
+them.
+The course requires that one perform computations that, by themselves, are
+unimportant, but are useful to convince oneself of things that one might at first
+disbelieve. Regular homework assignments will allow one to get practice at these
+things.
+In the recitation sessions, the TA will cover problems from a file of review
+problems (with solutions) (ReviewProb.pdf) posted on CANVAS. I will post the
+problems to be covered in advance via CANVAS. The problems for each session
+are selected to mirror those on the homeworks. The review sessions are for practice
+at the problems. Larger questions about relevance of the course to this and that
+should be addressed to me. Some, but not all, of the problems are of the cookbook
+variety. The non-cookbook problems are designed to tax your reasoning faculties
+rather than ability to pattern match.
+This class is not a spectator sport, don’t approach it as such. Inspecting the
+answer to a problem or following the reasoning of another is simply insufficient
+to master the material; one needs to attempt problems and work through these
+difficulties on one’s own before turning to the solution. If thinking were easy,
+everyone would be doing it.
+
+1
+
+Course Material
+1. Lecture notes on CANVAS.
+2. As a courtesy, a copy of the entire slide deck posted on CANVAS (which will
+be updated from time to time). They are not a substitute for item 1 above
+or the lectures but a supplement.
+3. Optional for the course is: Jeffrey M. Perloff, Microeconomics: Theory and
+Applications with Calculus, 3rd or 4th Edition.
+4. Perloff is not the only textbook of its kind available. There are many substitutes. For example, Introduction to Economic Analysis by McAfee, Lewis
+and Dale which is a free, open source text book available at
+http://www.mcafee.cc/Introecon/
+CANVAS is used to post announcements, slides, homework assignments, homework
+solutions, additional handouts, and other important materials. You are responsible
+for regularly checking, downloading, and reading materials posted on the site,
+as they form an integral part of the class. Handouts, homework problems,
+solutions and other material prepared by the TAs and myself is not for
+distribution to those outside of the current class.
+
+Grading
+The final grade will depend on
+• 7 Homework exercises each graded out of 10 points. (15%)
+• 3 in-class exams each graded out of 20 points. (each worth 15% of total
+grade)
+• One final exam, graded out of 30 points. (40%)
+No scores are dropped.
+
+Office Hours
+The TA for your recitation section will hold two office hours of an hour duration.
+Check with them for the time and place. My office hours are Monday and Thursday
+from 11 am to 12 pm in McNeil 451. If you cannot make these, you are welcome
+to schedule an appointment outside of these hours.
+2
+
+Laptop Use
+You may use your laptop in class, but this is not a carte blanche to employ
+it to distract classmates by tracking your portfolio, instant messaging, tweeting,
+blogging, booking a flight or updating yourself on the whereabouts of Brangelina.
+
+Course Calendar
+These dates are not fixed in stone. I reserve the right to change them to adjust
+to the pace of the class.
+• Sept 7: Homework 1 due
+• Sept 14: Exam #1 in class
+• Sept 28: Homework 2 due
+• Oct 5: No class (fall break)
+• Oct 9: Drop period ends
+• Oct 12: Homework 3 due
+• Oct 19: Exam #2 in class
+• Nov 2: Homework 4 due
+• Nov 9: Homework 5 due
+• Nov 10: Last day to withdraw
+• Nov 16: Exam #3 in class
+• Nov 23: No class (thanksgiving)
+• Nov 30: Homework 6 due
+• Dec 7: Homework 7 due
+• Dec 21, 9-11 am: Final Exam.
+
+3
+
+Prerequisites
+Introductory microeconomics and macroeconomics (Econ 1 and 2); Math 104
+and Math 114 or 115 or students who have received a B+ or better in Math 104
+may take Econ 101 and Math 114 or 115 concurrently. Transfer students for Math
+104 must complete Math 114 or 115 before enrolling in Econ 101. All enrollment
+is through permission of the department.
+The course assumes multivariate calculus, and a strong understanding of these
+mathematical tools is crucial to success in the course.
+1. Functions and Properties of Functions
+•
+•
+•
+•
+•
+
+Monotonicity
+Continuity
+Concavity and Convexity
+Logarithmic functions
+Homogeneous functions
+
+2. Derivatives
+•
+•
+•
+•
+
+How to take a derivative
+Product and Quotient Rules
+Chain Rule
+Partial derivatives
+
+3. Solving optimization problems
+• Unconstrained optimization: find the extrema of a function (maxima/
+minima)
+• Constrained optimization: Substitution method
+• Constrained optimization: Lagrange’s method
+• Comparative statics of solution functions
+• Comparative statics of optimal value functions
+
+Exams
+Exams are open book with calculators (even scientific) permitted, but no ‘smart’
+devices such as tablet, laptop or phone with intelligence exceeding that of a plant.
+4
+
+Exam attendance is mandatory. Students who miss a midterm for an allowable
+reason must report their absence on the Course Absence Reporting (CAR) System.1
+There are no make-up exam; students who are excused from an exam will see the
+weights on the subsequent exams and final adjusted upwards to account for the
+absence.
+No assistance may be given or received during an exam.2 Students are expected
+to abide by the Code of Academic Integrity in the completion of assignments,
+papers and exams.
+All graded exams (except the final) will be distributed in recitation sections.
+
+Assignments
+Homework assignments to be submitted at the beginning of class on the due
+date. No late work is accepted. Graded homework assignments will be distributed in Recitation sections.
+Write-ups must be your original work. You may not use materials containing
+solutions or partial solutions to the assignments (including solutions prepared by
+current or former students). If your analysis contains information from outside
+sources, then you must properly cite the sources.
+While you are required to complete the assignments individually, I don’t wish
+to discourage learning from one’s peers. This leaves room for ambiguity, so I will
+try to make expectations as clear as possible. In brief:
+1. Discussing the general ideas behind the problems is permitted.
+2. Writing formal solutions should be completely individual, done in the equivalent
+of separate rooms.
+As discussions of general ideas gradually become more specific, some judgment calls
+are unavoidable, but here’s the kind of interaction I have in mind: If a peer conveys
+an idea which seems central to the solution, do not write it down.....immediately.
+Approach the problem again on your own as if afresh, influenced by however much
+of their idea you remember. If you can re-create it without notes, you have mastered it, and I’m happy to give you credit. In this way we can let everyone help
+each other learn, while steering a wide berth around simple copying.
+1
+http://economics.sas.upenn.edu/undergraduate-program/course-information/guidelines/
+policies has a list of valid excuses for missing an exam.
+2
+The Economics Department Course Policies, which include rules about exam attendance,
+make-up exams, grading appeals, etc., are available at:
+http://economics.sas.upenn.edu/
+undergraduate-program/course-information/guidelines/policies
+
+5
+
+Course Outline
+Week 1: Introduction and Rational Buyer Model
+Perloff Pg. 138-139
+
+Week 2: Monopoly Pricing & Elasticity
+Chapter 1 from lecture notes, Perloff Chapter 11
+
+Week 3: Monopoly Pricing & Costs
+Chapter 1 & 2 from lecture notes, Perloff Chapter 7
+
+Week 4: Welfare & Price Dsicrimination
+Chapter 3 from lecture notes, Perloff Chapter 12
+
+Week 5: Bundling & Versioning
+Chapter 3 from lecture notes, Perloff Chapter 12,
+
+Week 6 & 7: Imperfect Competition: Introduction
+Chapter 4& 5 from lecture notes, Perloff Chapter 13 & 14
+
+Week 8 & 9: Imperfect Competition: Substitutes & Complements
+Chapter 4& 5 from lecture notes, Perloff Chapter 13 & 14
+
+Week 10: Consumer Theory
+Chapter 6 from lecture notes, Perloff Chapter 3 & 4
+
+Week 11: Perfect Competition
+Chapter 7 from lecture notes, Perloff Chapter 8 & 9
+
+Week 12: Perfect Competition
+Chapter 7 from lecture notes, Perloff Chapter 5&8 & 9
+
+Week 13: Perfect Competition
+Chapter 7 from lecture notes, Perloff Chapter 5& 8 & 9
+
+Week 14: Externalities
+Chapter 8 from lecture notes, Perloff Chapter 17
+
+Week 15: Externalities
+Chapter 8 from lecture notes, Perloff Chapter 17
+
+6
+
+Recitation Sections
+These are used to go over problems in the review packet. Problems to be
+covered each week will be posted on CANVAS. *No recitations on 9/1- 9/4 (Labor
+Day), 10/6-10/9 (mid-semester break), 11/24-11/27 (Thanksgiving)
+
+How to Prepare for Exams
+1. Space your practice out rather than compressing it into a short period.
+If you spread five hours of study into one hour a day, you’ll remember more
+than if you study for five hours on one day.3 Memories have a short half-life
+and need reinforcement.
+2. Practice retrieving information rather than recognizing it.
+Don’t mistake the ability to recognize something for an ability to recall it.
+In an exam you don’t get marks for things being familiar, you get marks for
+recalling relevant information and using it to answer the question.
+3. Figure out what you don’t know.
+Revision is not for reassurance but to identify what you don’t know or understand.
+4. Rehearse.
+No one has learnt how to swim from YouTube. Study for an exam by testing
+yourself on writing full answers under exam conditions.
+
+3
+
+It works in reverse for chocolate.
+
+7
+
+

@@ -1,0 +1,300 @@
+Economics 102: Macroeconomic Theory
+Instructor: Guillermo Ordoñez.
+Office: McNeil 428.
+Phone: (215) 898-1875.
+Email: ordonez@econ.upenn.edu.
+Time of Class: Tuesdays and Thursdays, 1:30 pm - 2:50 pm.
+Room: Stiteler B6
+Office Hours: Tuesdays 10:00-11:30 am, and by appointment.
+Teaching Assistants and Recitations:
+Coby Wittman: Recitations: M 9-10am (TBD) and F 10am-11am (TBD).
+Office Hours: TBD
+Pedro Brandao Solti: Recitations: M 2-3pm (TBD) and F 9-10am (TBD).
+Office Hours: TBD
+Recommended Text: Stephen D. Williamson: Macroeconomics, 5th edition.
+
+1
+
+Course Outline and Overview
+
+Economics 102 is the basic course in macroeconomic theory for undergraduate economics
+majors. In contrast to the focus of Economics 2 on policy, Economics 102 is a mathematical
+class and is centered on constructing and understanding macroeconomic models.
+We will cover models at an abstract and advanced level. You MUST have the degree of
+mathematical maturity associated with the concepts of sets, functions, derivatives, integrals,
+Taylor series, optimization, ordinary differential equations, and other material covered in
+Math 104 and Math 114/115. STRICT prerequisites for the class is Economics 1, 2, 101,
+and one year of calculus. If you do not meet these requirements, you cannot take this class.
+This course will be taught from an equilibrium perspective. This means we will
+analyze environments in which economic agents optimize and in which aggregate consistency
+conditions hold. Understanding the concept of equilibrium will then be the single most
+important task of the course.
+We will apply this equilibrium insight to discuss the theory of long-run economic growth
+and short-run economic fluctuations. Growth theory describes and explains how the main
+economic aggregates (such as output, employment, inflation, interest rates) evolve on average
+over long periods of time, whereas theories of short-run fluctuations (business cycle theories)
+analyze the short-run movements of economic aggregates. Once we have understood how
+the macroeconomy works, we can start analyzing macroeconomic policy, in particular fiscal
+policy (what are the macroeconomic effects of taxation, government spending, budget deficits,
+or surpluses) and monetary policy (what happens if the Federal Reserve Bank increases or
+lowers the Federal Funds Rate). By the end of the course you should be able to construct a
+critical opinion about economic issues using good economic intuition and knowledge.
+
+1
+
+2
+
+Readings
+
+The most important material for this class is the set of slides, homeworks, practice
+exercises and announcements I will post regularly on the Canvas web page for the class.
+You should know how to use Canvas to access all that material. The Library provides tutorials
+and help in case you are not familiar with this website.
+Since I will discuss all the topics (growth, business cycles and macroeconomic policies)
+in a unified framework, using a unified notation, I suggest to use my slides and classes as
+the main tool to study. As a support material I will upload a set of notes that follow
+notation and topics that are consistent with my classes. Even though there are no required
+textbooks for this class, I will also match most covered topics with chapters of Stephen
+Williamson’s Macroeconomics, 5th ed. While the notes and the textbook are not required
+(meaning midterms will not include concepts that were not introduced in class and were
+not covered in homeworks and practice exercises) I strongly recommend their reading to
+complement lectures and slides, and to understand the material from a broader perspective.
+Finally, please try to keep informed about what is going with the economy in reality by
+reading articles published in publications such as The Economist, the Financial Times, or
+the New York Times. I will try to address current economic events from time to time, and
+discussing them is much more productive if you have heard about the news beforehand.
+
+3
+
+Level of the Class
+
+Penn is considered one of the top universities in the country. Since we need to live up to our
+reputation (your future wages depend on it!), we will cover a substantial amount of material
+in 14 weeks, with lots of information. I will try to make it as interesting as possible but your
+participation in class is key to achieve that goal. Your feedback is also key. If there is
+something about the course that you think can be improved, please let me know. We are in
+this together and the higher the quality of the class, the better for us all.
+Your success in the class is very important to me I want to be available for addressing
+your questions as well as possible. You can always ask questions in or after class, I will
+hold regular office hours in my office 428, McNeil Economics Building and I will be available
+for office hours by appointment. Additionally, you can always reach me via phone at (215)
+898-1875 or, preferably, via email at ordonez@econ.upenn.edu.
+
+4
+
+Course Requirements and Grades
+
+Students learn more if they keep a constant attention to the material, then, to keep you
+motivated you will have three tests during the course, one approximately every four
+weeks of class. These tests will take place during regular lecture hours (covering the whole
+lecture time) and will include short questions and exercises.
+In preparation for each test, I will post in advance a “representative test” in advance,
+with an answer key so you will know what to expect. Each test will be worth 20 points.
+There will be NO final. I will drop your worst test grade and replace it with the
+average of the other two tests. If you are absent from one of the midterms, I can drop
+2
+
+those points from consideration. Take into account that I will drop your absolute worst grade,
+not your worst grade relative to the rest of the class. The rationale is that I want to give you
+an individual insurance for unpredictable shocks, not a strategic motive to skip exams.
+In addition to the tests there will be 3 homeworks, each of which will be worth
+10 points. You have one week to complete each homework, which is due at the end of the
+assigned lecture (there will be a box in the classroom where you can drop your homework
+the due date). NO excuses will be allowed for late homeworks except by the proviso below
+regarding personal issues. Do not put your homework in my mailbox in McNeil or slide them
+under the door of my office, and do not give them to any administrative assistant; I will not
+be responsible for any such submissions. Electronic or Fax submissions will not be accepted.
+If you have a problem with any of the dates homeworks are due and with more than
+one of the dates for the exams, please let me know before September 5. After that day
+I will NOT accommodate personal issues. Travel plans are not an acceptable reason for
+rescheduling. In past years, a high percentage of conflicts with test dates were related with
+religious holidays. The Office of the Chaplain at Penn has a calendar of religious holidays at
+http://www.upenn.edu/chaplain/. You may want to check that calendar ASAP to solve
+NOW possible conflicts.
+We will make every effort to grade and hand back exams and homeworks in a week. If
+you have complaints about the grading, do the following. Within 1 week after the test
+was returned hand back to me your graded test and a written statement explaining your
+complaint (i.e., which question you think was graded wrongly and why you think it was graded
+wrongly). I will then regrade the whole assignment. Needless to say, I cannot guarantee that,
+after the test has been regraded, your score will be higher than before and it may indeed be
+lower. One week after the test has been returned the scores cannot be changed anymore and
+no further complaints will be accepted.
+Otherwise stated, all Policy procedures of the Department of Economics may be found in
+the Undergrad Drop Down menu under Departmental Policies.
+
+5
+
+Grading Standards
+
+Students taking the course for a letter grade will receive grades from A through D or an F.
+Students that take the class on a Pass/Fail basis need at least a D+ to pass the class. Poor
+performance is not a valid reason for an incomplete (I). An incomplete is given only under
+exceptional circumstances and requires satisfactory completion of a substantial part of the
+course.
+DO NOT panic if your numerical score is low. The overall grading for the course will,
+roughly, be on a curve. About 30%-35% of the students will be in the A’s; about 50% in
+the B’s, and the rest in C’s and under. These fractions, however, are not written in stone
+and if the class is doing well in general you should expect a larger fraction of A’s.
+
+6
+
+Contents of the Course
+
+This is an outline of the topics that I intend to cover and the dates where I intend to do
+so. The list of topics may be revised during the course as I may not be able to cover all the
+3
+
+material. Test and homework dates, however, are written in stone and will NOT change.
+In the following table, (W) refers to Williamson’s book (with corresponding chapters and
+pages), (N) refers to own notes to be posted in Canvas, and ” refers to the same suggested
+reading as in the previous lecture.
+Lecture
+
+Topic
+
+Suggested Reading
+
+1 - Aug. 29
+2 - Aug. 31
+3 - Sep. 5
+4 - Sep. 7
+5 - Sep. 12
+6 - Sep. 14
+7 - Sep. 19
+8 - Sep. 21
+9 - Sep. 26
+10 - Sep. 28
+
+Introduction.
+Brief History of Macroeconomics.
+National Income Accounting.
+NO CLASS
+Households.
+Firms.
+Competitive Equilibrium.
+Social Planner I.
+Social Planner II.
+Growth Facts I.
+Homework 1 due.
+Growth Facts II.
+Test 1.
+Growth Accounting I.
+Growth Accounting II.
+Solow Growth Model I.
+Solow Growth Model II.
+Endogenous Growth Models I.
+Endogenous Growth Models II.
+Homework 2 due.
+Political Economy and Growth.
+Test 2.
+Real Business Cycle I.
+Real Business Cycle II.
+Fiscal Policy I.
+Fiscal Policy II.
+Money.
+Homework 3 due.
+Monetary Policy I.
+Monetary Policy II.
+Test 3.
+
+(W-Ch.1)
+
+11
+12
+13
+14
+15
+16
+17
+18
+
+-
+
+Oct.
+Oct.
+Oct.
+Oct.
+Oct.
+Oct.
+Oct.
+Oct.
+
+3
+10
+12
+17
+19
+24
+26
+31
+
+19
+20
+21
+22
+23
+24
+25
+
+-
+
+Nov.
+Nov.
+Nov.
+Nov.
+Nov.
+Nov.
+Nov.
+
+2
+7
+9
+14
+16
+21
+18
+
+26 - Nov. 30
+27 - Dec. 5
+28 - Dec. 7
+
+4
+
+(W-Ch. 2)
+(N),
+(N),
+(N),
+(N),
+
+(W
+(W
+(W
+(W
+
+-
+
+Ch.
+Ch.
+Ch.
+Ch.
+
+4, pp: 96-116)
+4, pp: 116-131)
+5, pp: 137-144)
+5, pp: 144-150)
+”
+(W - Ch. 7, pp: 220-226)
+”
+(N), (W - Ch. 7, pp: 254-262)
+”
+(N), (W - Ch. 7, pp: 237-251)
+”
+(N), (W - Ch. 8)
+”
+
+(N), (W - Ch. 3)
+”
+(N), (W - Ch. 9, pp: 319-331)
+”
+
+

@@ -1,0 +1,510 @@
+ECON 001
+Introduction to Microeconomics
+Fall 2017 Syllabus
+Instructor: Anne Duchene Office: McNeil 553
+Lecture: Meyerson B1 Mon-Wed 9-9:50 / 10-10:50 / 11-11:50 (section 003/001/002)
+Office hours: Tuesday 11am-12:30pm / Wednesday 1:30pm-3pm
+E-mail: econ-001@sas.upenn.edu
+Course Structure
+Two lectures (Monday and Wednesday, 50 minutes each): Introduce concepts.
+One recitation (Thursday or Friday, 50 minutes): Review concepts, solve problems, get
+extra help from your recitation instructor (RI). Recitations are an important part of this
+course and are structured to help you push beyond the surface to achieve a higher order
+level of understanding. You should attend lectures and recitations (exam questions will
+assume you attended all lectures and recitations.). Attendance will be taken in recitation.
+All the recitation sessions for this course with their locations and instructors are listed in
+the course registrar's website: http://www.upenn.edu/registrar/roster/econ.html.
+Required Materials
+Canvas:
+Login in Canvas system at www.library.upenn.edu/courseware. This course
+website is very important for your study. I will post announcements, lecture
+slides, recitation material, homework assignments, grades, etc. You should have
+one site for this course, a lecture-wide site. Recitation level groups are formed
+within this site to allow your TA to communicate with the recitation group
+separately.
+PowerPoint slides will be posted on Canvas before the material on the slides is
+covered in class. During class, I will not talk at a pace that allows you time to
+copy all the material on these slides. I strongly suggest printing the slides out,
+placing them in a binder, and then taking notes from class on the printouts.
+MyEconLab:
+Signup to MyLab and Mastering system (from within Canvas), a companion
+website to complete the online assignments and access the online copy of the
+textbook (if you choose to purchase access to the e-book). You are required to
+
+sign up using your Penn email address. Failure to do so will lead to a loss of 1
+point from your overall score. More details and “how to signup” are available in a
+separate document posted on Canvas.
+Textbook: Parkin: Microeconomics, Pearson.
+You	do	NOT	have	to	purchase	the	most	recent	version	(12th	edition)	of	this	
+textbook.	If you are looking for a cheaper option:	
+- You can buy an older edition (preferably not older than 10th edition), or
+- You can opt to have an electronic copy of the book with your MyEconLab
+subscription, and not purchase the hard copy.
+Poll Everywhere
+Starting in class 4, on September 13, I will ask 3 questions at the end of every
+Wednesday lecture. All questions will be asked using Poll Everywhere. I will open the
+poll during classes such that students can answer the question and will close the poll a
+little later. To answer the questions students will need to bring either a smart phone, a
+tablet, or a laptop.
+Each student will need to create an account on Poll Everywhere and join the group Econ
+001 Fall 2017 using the following link:
+www.polleverywhere.com/register?p=2ium5-1eu2&pg=cB3HApf&u=4L2QssB3
+You will be asked your email address and your phone number (if you will be
+participating via SMS texting). You are required to sign up using your Penn email
+address. Failure to do so will lead to a loss of 1 point from your overall score. Your
+information is protected, and Poll Everywhere will never share emails or phone numbers
+with any third party.
+Course Objective
+Econ 001 provides a thorough introduction to microeconomic theory. Starting from the
+basic ideas of tradeoffs, opportunity cost, and the benefits of trade, we will study how the
+market forces of supply and demand cause prices to be what they are. We will see the
+sense in which market economies are efficient, and the way governments can make our
+economy less or more efficient. We will delve behind the supply curve to see how firms
+choose their production levels to maximize profits, culminating in the model of perfect
+competition. We will look at market failures such as imperfect competition (monopoly,
+oligopoly), externalities and asymmetric information.
+Evaluation Criteria
+Your grade will be determined on a standard 100 point scale. A range: 90% to 100%, B
+range: 80%-89%, C range: 70%-79%, D range: 60%-69%, F: 59% and below. If I feel
+
+that a curve is necessary it will be determined separately for each exam and announced
+on canvas when exam grades are posted. Grading in the course will be based upon
+assignments, quizzes, two midterm exams and a cumulative final exam. A breakdown of
+the scoring appears in the table below.
+Task
+MyEconLab Assignments
+Canvas Assignments
+Poll everywhere participation
+Recitation participation
+Worst of your two Midterm scores
+Best of your two Midterm scores
+Final Exam (cumulative)
+Total
+
+% of Course Grade
+12%
+8%
+3%
+2%
+20%
+25%
+30%
+100%
+
+Homework Assignments (MyEconLab and Canvas)
+Each week you will have to complete two types of homework assignments: through
+MyEconLab and through Canvas. All MyEconLab assignments are due on Fridays at
+6PM, while all Canvas assignments are due on Sundays at 6PM (see schedule on the last
+page of this syllabus). The level of difficulty is not the same: MyEconLab assignments
+are a direct application of the concepts covered in lectures, while Canvas assignments are
+closer to recitation material, the two latter being the best match to exam questions.
+Therefore it is recommended that each week you complete the Canvas assignment after
+having completed the MyEconLab assignment, as it requires a deeper understanding of
+the material.
+MyEconLab Homework:
+There will be a total of 11 MyEconLab assignments, each worth 15 points. To get
+the full 100% credit, you must accrue at least 120 points (out of 165 cumulative
+points available). If you accrue less than 120 points, your grade will be pro-rated.
+For example, 60 points earn you 50%. If you get more than 120 points, good for
+you! Nonetheless, the maximum credit is 120 points.
+No late assignments will be accepted. The MyEconLab system will have strict
+deadlines embedded and if you miss it there is nothing that can be done. Even
+technical problems with your computer or with Internet connection are not
+acceptable excuses. You have several days to submit each homework assignment
+and quiz; do not leave the submission to the last hour of the last day that it is due.
+MyEconLab keeps track of how you answer homework questions and, through its
+Study Plan feature, recommends additional questions to help you brush-up on
+topics where you need to do more work. You are strongly encouraged to
+strengthen your grasp of the course material by working with MyEconLab's
+
+sample test and study plan features. Homework assignments, sample tests and
+study plan questions closely match chapters in the textbook.
+Canvas Homework:
+There will be a total of 11 assignments on Canvas, graded on completion. To
+allow flexibility we allow three freebies. You will have to upload your answers
+directly on Canvas. Your recitation instructor will view your answers on Canvas,
+grade them for completion and give you a short feedback on your performance.
+Late or incomplete homework assignments will receive a grade of zero.
+Please be diligent in completing your assignments in a timely manner. If you get
+stuck on any part of the assignment you are welcome to stop by office hours or to
+ask your TA to go over a particular part or question in recitation. We do not
+expect 100% success on these assignments, but rather 100% effort.
+Feel free to study with other students and to discuss the assignments with your
+classmates and in fact you are encouraged to do so. However, the work you turn
+in should be your own. This is because working out problems is an essential
+component to learning economics. Your performance on the exams is likely to be
+correlated with your performance on assignments. Directly copying someone
+else’s problem set will be considered cheating.
+Poll Everywhere
+At the end of 10 Wednesday sessions, there will be 3 Poll Everywhere questions. You get
+one “participation” point for answering each question, and one bonus point for giving the
+right answer. All 30 participation points count for 3% of your overall grade. These are
+easy points and extra practice for the exam. All 30 bonus points can add up to 3%.
+Poll questions are to be answered in class only. If you are found to be responding from
+any other location, it will be considered a violation of academic integrity.
+Recitation Participation
+Recitation attendance is mandatory, but to allow flexibility you can have up to 3
+absences. Class participation implies more than mere presence in recitation. We are
+expecting an active, meaningful, thoughtful, and relevant contribution to class
+discussions and other activities.
+Exams
+There will be three (3) exams. The final exam will be comprehensive. Exam dates can be
+found in the course calendar at the end of this syllabus.
+Midterms: 1h each, not cumulative. No books, notes, calculators, formula sheets. If
+academic conflict: email your TA by email at least one week prior to the exam date. If
+
+health/family emergency: contact your TA. There is only one make-up exam offered for
+each midterm and only students who have a valid reason to miss a midterm are qualified
+to take the make-up.
+Final exam: 2h, cumulative. No books, no notes, no calculators, no formula sheets. The
+makeup will be in January. There is absolutely no option of taking the final exam on any
+other date in the Fall. Purchasing an early plane ticket is not a valid excuse to not take the
+final.
+Exams will be held on the following dates:
+Ø Midterm 1
+October 3 6:00-7:00PM (make-up date: October 4)
+Ø Midterm 2
+November 7 6:00-7:00PM (make-up date: November 8)
+Ø Final Exam December 18 3:00-5:00PM (make-up date: January)
+Important dates
+MyEconLab grace period expires 14 days from the first day the student signs up
+October 9: drop period ends;
+November 10, last day to withdraw from a course without a W.
+Course Expectations
+The rule of thumb in college is that you study for at least 2 hours outside of class for each
+hour you spend in class. This means you should spend a minimum of 6 hours per week
+studying for ECON 1. Please know that it is highly unlikely that studying “a lot” the
+week before the exam will make up for not studying enough in the weeks preceding the
+exam! You may have been able to get away with this in the past. However, most ECON 1
+students realize that this just doesn’t work in economics or with the way in which I teach
+and test.
+How to study
+Read about each topic in the text before the topic is presented in class. If you have
+already seen the material, the lectures will be easier to follow.
+Come to class. If you miss a lecture, watch the recording on Canvas to catch up.
+Take smart notes. The lecture outlines are on Canvas. Print those off and bring them to
+the lecture to follow. You can bring your laptop to class, but this course is very graph
+intensive, and you simply cannot graph fast enough with a computer. So bringing a pen
+and paper and printed slides might be much more efficient.
+
+After class, re-read the text. Sometimes the text will explain a concept in more details
+than I did in class.
+Do the MyEconLab homework assignment before the Canvas homework. If you get stuck
+on any part of the assignment you are welcome to stop by office hours in advance of your
+recitation or to ask your TA to go over a particular part or question in recitation. I will
+add office hours before exams.
+Form a small study group and make it a habit to meet at the same time each week.
+Practice! Do the textbook questions, re-do the homework and recitation questions, use the
+study plan feature on MyEconLab, do the practice exams, etc.
+You will only be tested on the material covered in class. For example, I will not ask you a
+test question that expects you to remember a topic or application from the text not
+covered in class. Instead, the text should be used to help you understand the lectures.
+If you find yourself falling behind, please see me. I’m here to help and I want you to
+succeed! My posted office hours are when you are guaranteed to find me in my office. If
+you have a conflict, you may arrange a meeting time outside office hours.
+Whom to contact
+•
+
+•
+
+•
+
+•
+•
+
+Any question regarding homework grades, homework assignments, or the subject
+matter of the course should be first sent to your recitation TA. If you do not get a
+satisfactory or timely response, please email the email the ECON 1 team: econ001@sas.upenn.edu. You will get a response within one business day. Please note
+if the question is particularly complex, you might be redirected to office hours, a
+recitation session or a help session.
+To join a section or change sections: you should email Lynn Costello, the
+Undergraduate
+Coordinator
+in
+the
+Economics
+department.
+costello@econ.upenn.edu. Her office is McNeil 160. Lynn is also very
+knowledgeable about major requirements and stuff like that.
+Special needs/arrangements: Reasonable accommodation will be made for those
+with special needs. Anyone eligible for special arrangements on examinations
+must make sure I get notification from the Student Disability Services (SDS). If I
+have not been contacted by SDS before an exam, I will not be able to
+accommodate the student’s needs.
+For Canvas: Go to http://www.library.upenn.edu/courseware/ and click “Support
+for Students”
+Personal questions (NOT related to the course logistics or material) should be
+emailed to me directly at duchene@sas.upenn.edu. From Monday-Thursday, you
+should expect a response to your email within 24 hours. From Friday-Sunday and
+on holidays you should expect a response within 48 hours.
+
+Policies
+This syllabus is a contract. Deviation from these policies is not allowed.
+Please refer to the following website for Economics department
+https://economics.sas.upenn.edu/undergraduate-program/courseinformation/guidelines/policies
+
+policies:
+
+Attendance
+In class: Show up on time. No distractions on your laptop for students sitting behind.
+Generally, be attentive during lectures. There are many students in the lecture but I love it
+when students ask questions, so please feel free to do so. I will try to answer them as
+much as possible.
+Homework: No late submission, no make-up, no extra credit.
+Exams: Make-up for midterm and final exams only with valid excuses, as defined by the
+University.
+• Examples of valid excuses are:
+o (*For final exam only*): Three final exams scheduled within one calendar
+day. This policy of 3 exams does not count for midterm exams.
+o An exam is given outside of the regular class schedule and the timing
+conflicts with another class in which the student is enrolled.
+o Observance of a university-recognized religious holiday.
+o UPenn business that takes you away from campus (for example: athletic
+events in which you are actively participating).
+o An illness/health emergency.
+o A death in your family.
+• Examples that are not valid for missing an exam are:
+o job internships;
+o beginning the fall break early or returning after a scheduled exam;
+o end of semester early flights;
+All absences are notified through the CAR (Course Absence Report) system. The
+University keeps a long-term track of whether you have a tendency to get sick during
+exam times.
+Regrading requests
+• Regrading requests should first be brought to the attention of your TA.
+• No regarding is possible for exams written in pencil, only with pens.
+• Regrading is possible only when your grade is inconsistent with our published
+grading policy
+o Valid request: “question X on my quiz got 2 points less than what the
+grading policy suggests”
+o Invalid requests: “I’d like my entire midterm to be regarded”, or “I believe
+your team allocated too few points to this question on the exam”
+
+•
+•
+•
+
+Requests must be typed and made within 1 week after the quiz or exam is
+returned. We do not regrade the midterms or the quizzes right before / after you
+take the final.
+We will regrade your entire exam, so your grade might go up or down
+The University allows us to keep copies of exams for our records, to assure
+academic integrity. Any sign of academic dishonesty will be pursued.
+
+Extra credit
+There is no extra credit in this course. The reason is that if everyone knows about it, it's
+not really extra credit. It's just another assignment. If some people don't know about it
+(for instance, if a specific student asks for extra credit at the end of the semester), then
+I'm treating my students differently, which I make every attempt to avoid.
+Integrity
+Penn has a clear Code of Academic Integrity. It’s your responsibility to familiarize
+yourself with the code, and to follow it to the letter:
+www.upenn.edu/academicintegrity/ai_codeofacademicintegrity.html
+In particular, you are expected to
+• maintain a professional, respectful environment
+• be courteous to me and your TAs
+• not disrupt class (be quiet if entering class late, turn off electronic devices, do not
+chat).
+• Never present work that is not your own
+
+Weekly class schedule
+Date
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+
+8/30
+9/06
+9/11
+9/13
+9/18
+9/20
+9/25
+9/27
+10/02
+10/03
+10/04
+10/09
+10/11
+10/16
+10/18
+10/23
+10/25
+10/30
+11/01
+11/06
+11/07
+11/08
+11/13
+11/15
+11/20
+11/22
+11/27
+11/29
+12/04
+12/06
+12/11
+12/18
+
+Text
+Chapter
+Introduction and Opportunity Cost
+Ch. 1
+Scarcity and Choice
+Ch. 2
+Gains from Trade
+Ch. 2
+Supply & Demand
+Ch. 3
+Elasticity
+Ch. 4
+Efficiency and Equity
+Ch.5
+Applications of S&D: price controls, taxes, subsidies Ch.6
+Externalities
+Ch.17
+Review for MT1
+MT1 on Tuesday October 3, 6-7PM
+No class on Wednesday October 4
+Fall break: no recitation on October 5-6
+Firm and Costs of Production
+Ch. 10-11
+Perfect Competition part I
+Ch. 12
+Perfect Competition part II
+Ch. 12
+Monopoly part I
+Ch. 13
+Monopoly part II
+Ch. 13
+Monopolistic competition
+Ch. 14
+Oligopoly
+Ch. 15
+Public Goods
+Ch. 16
+Review for MT2
+MT2 on Tuesday, November 7, 6-7PM
+No class on Wednesday November 8.
+Consumer Theory part I
+Ch. 9
+Consumer Theory part II
+Ch. 9
+Behavioral Economics
+Ch. 8 end
+No lecture AND no recitation
+Market for labor part I
+Ch. 18
+Market for labor part II
+Ch. 18
+Market for labor part III
+Ch. 18
+Economic Inequality
+Ch. 19
+Review for Final exam
+Final 3-5PM on Monday, December 18
+Topic
+
+Comments
+Register Poll Everywhere
+Register MyEconLab
+
+Make up for MT1 6PM
+
+Make up for MT2 6PM
+
+Happy Thanksgiving!
+
+Make up in January *only*
+
+Homework assignments due dates (all assignments due at 6PM) and in-class quizzes
+dates:
+Week
+Week 1
+Week 2
+Week 3
+Week 4
+Week 5
+Week 6
+Week 7
+Week 8
+Week 9
+Week 10
+Week 11
+Week 12
+Week 13
+Week 14
+Week 15
+Week 16
+
+Poll Everywhere
+in-class quizzes
+All on Wednesdays
+Quiz 1 on 09/13
+Quiz 2 on 09/20
+Quiz 3 on 09/27
+Quiz 4 on 10/11
+Quiz 5 on 10/18
+Quiz 6 on 10/25
+Quiz 7 on 11/01
+Quiz 8 on 11/15
+Quiz 9 on 11/29
+Quiz 10 on 12/06
+
+MyEconLab (MEL)
+Homework
+All due Fridays 6PM
+MEL HW1 due 09/08
+MEL HW2 due 09/15
+MEL HW3 due 09/22
+MEL HW4 due 09/29
+Midterm 1 week
+MEL HW5 due 10/13
+MEL HW6 due 10/20
+MEL HW7 due 10/27
+MEL HW8 due 11/03
+Midterm 2 week
+MEL HW9 due 11/17
+Thanksgiving week
+MEL HW10 due 12/01
+MEL HW11 due 12/08
+
+Canvas Homework
+All due Sundays 6PM
+Canvas HW1 due 09/10
+Canvas HW2 due 09/17
+Canvas HW3 due 09/24
+Canvas HW4 due 10/01
+Canvas HW5 due 10/15
+Canvas HW6 due 10/22
+Canvas HW7 due 10/29
+Canvas HW8 due 11/05
+Canvas HW9 due 11/19
+Canvas HW10 due 12/03
+Canvas HW11 due 12/10
+
+

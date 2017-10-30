@@ -1,0 +1,83 @@
+ECON 101 Intermediate Microeconomics
+Microeconomics is the formal study of how individuals respond to incentives
+and the eect on social outcomes. Attention will focus on how the terms of trade
+between buyers and sellers are set. The course emphasizes the development of the
+mathematical tools needed to reason carefully about incentives and necessitates a
+taste for long chains of reasoning (see below for prerequisites).
+This course is not a laundry list of facts to memorize or recipies to follow. Its
+purpose is to change the way you think. This will be accomplished by posing ques-
+tions whose answers will challenge your intuition. Merely recording the answers
+is insucient, one must understand the reasoning process by which one arrives at
+them.
+The course requires that one perform computations that, by themselves, are
+unimportant, but are useful to convince oneself of things that one might at rst
+disbelieve. Regular homework assignments will allow one to get practice at these
+things.
+
+Jeffrey M. Perloff, Microeconomics: Theory and
+Applications with Calculus
+1. Functions and Properties of Functions
+ Monotonicity
+ Continuity
+ Concavity and Convexity
+ Logarithmic functions
+ Homogeneous functions
+2. Derivatives
+ How to take a derivative
+ Product and Quotient Rules
+ Chain Rule
+ Partial derivatives
+3. Solving optimization problems
+ Unconstrained optimization: nd the extrema of a function (maxima/
+minima)
+ Constrained optimization: Substitution method
+ Constrained optimization: Lagrange's method
+ Comparative statics of solution functions
+ Comparative statics of optimal value functions
+
+
+ECON 001 Introduction to Microeconomics
+Econ 001 provides a thorough introduction to microeconomic theory. Starting from the
+basic ideas of tradeoffs, opportunity cost, and the benefits of trade, we will study how the
+market forces of supply and demand cause prices to be what they are. We will see the
+sense in which market economies are efficient, and the way governments can make our
+economy less or more efficient. We will delve behind the supply curve to see how firms
+choose their production levels to maximize profits, culminating in the model of perfect
+competition. We will look at market failures such as imperfect competition (monopoly,
+oligopoly), externalities and asymmetric information.
+
+Textbook: Parkin: Microeconomics
+PART ONE
+INTRODUCTION 1
+CHAPTER 1 What Is Economics? 1
+CHAPTER 2 The Economic Problem 29
+PART TWO
+HOW MARKETS WORK 55
+CHAPTER 3 Demand and Supply 55
+CHAPTER 4 Elasticity 83
+CHAPTER 5 Efficiency and Equity 105
+CHAPTER 6 Government Actions in Markets 127
+CHAPTER 7 Global Markets in Action 151
+PART THREE
+HOUSEHOLDS’ CHOICES 179
+CHAPTER 8 Utility and Demand 179
+CHAPTER 9 Possibilities, Preferences, and Choices
+203
+PART FOUR
+FIRMS AND MARKETS 227
+CHAPTER 10 Organizing Production 227
+CHAPTER 11 Output and Costs 251
+CHAPTER 12 Perfect Competition 273
+CHAPTER 13 Monopoly 299
+CHAPTER 14 Monopolistic Competition 323
+CHAPTER 15 Oligopoly 341
+PART FIVE
+MARKET FAILURE AND GOVERNMENT 371
+CHAPTER 16 Public Choices and Public Goods 371
+CHAPTER 17 Economics of the Environment 393
+PART SIX
+FACTOR MARKETS, INEQUALITY,
+AND UNCERTAINTY 417
+CHAPTER 18 Markets for Factors of Production 417
+CHAPTER 19 Economic Inequality 441
+CHAPTER 20 Uncertainty and Information 465

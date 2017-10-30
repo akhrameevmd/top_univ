@@ -1,0 +1,33 @@
+Econ 104 Introduction to Eco nometrics
+This course provides an undergraduate introduction to modern econometrics, in both cross-section and time-series environments.
+
+Heavily-used site: Econometrics (open text, slides, data, code, etc.). The site is constantly evolving, so check frequently for updates. The course outline is
+effectively the text's table of contents, but the slides and lectures, not the text, are the centerpiece of everything. Although the slides are self-contained,
+there is no way to understand them without attending lectures, where I will interpret/embellish/generalize/specialize them, guiding you selectively. Hence
+regular class attendance is absolutely essential.
+
+Wooldridge Introductory Econometrics: A Modern Approach (balanced and comprehensive)
+
+Chapter 1 The Nature of Econometrics and Economic Data 1
+PART 1: Regression Analysis with Cross-Sectional Data 21
+Chapter 2 The Simple Regression Model 22
+Chapter 3 Multiple Regression Analysis: Estimation 68
+Chapter 4 Multiple Regression Analysis: Inference 118
+Chapter 5 Multiple Regression Analysis: OLS Asymptotics 168
+Chapter 6 Multiple Regression Analysis: Further Issues 186
+Chapter 7 Multiple Regression Analysis with Qualitative
+Information: Binary (or Dummy) Variables 227
+Chapter 8 Heteroskedasticity 268
+Chapter 9 More on Specification and Data Issues 303
+PART 2: Regression Analysis with Time Series Data 343
+Chapter 10 Basic Regression Analysis with Time Series Data 344
+Chapter 11 Further Issues in Using OLS with Time Series Data 380
+Chapter 12 Serial Correlation and Heteroskedasticity in Time Series Regressions 412
+PART 3: Advanced Topics 447
+Chapter 13 Pooling Cross Sections Across Time: Simple Panel Data Methods 448
+Chapter 14 Advanced Panel Data Methods 484
+Chapter 15 Instrumental Variables Estimation and Two Stage Least Squares 512
+Chapter 16 Simultaneous Equations Models 554
+Chapter 17 Limited Dependent Variable Models and Sample Selection Corrections 583
+Chapter 18 Advanced Time Series Topics 632
+Chapter 19 Carrying Out an Empirical Project 676

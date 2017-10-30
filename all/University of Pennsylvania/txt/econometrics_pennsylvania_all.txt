@@ -1,0 +1,51 @@
+Econ 104
+Introduction to Econometrics
+Prof. F.X. Diebold
+Fall 2017
+
+This course provides an undergraduate introduction to modern econometrics, in both cross-section and time-series environments.
+Prerequisites: Econ 103 must be taken prior to Econ 104. (Certain other introductory Penn courses in probability and statistics including regression may be
+acceptable, again taken prior to Econ 104, such as Penn's Stat 430/430 or Penn's Engineering equivalent. Any other background must be explicitly
+approved.)
+Heavily-used site: Econometrics (open text, slides, data, code, etc.). The site is constantly evolving, so check frequently for updates. The course outline is
+effectively the text's table of contents, but the slides and lectures, not the text, are the centerpiece of everything. Although the slides are self-contained,
+there is no way to understand them without attending lectures, where I will interpret/embellish/generalize/specialize them, guiding you selectively. Hence
+regular class attendance is absolutely essential.
+Relevant texts, recommended but not required, include: Gujarati, Econometrics by Example, latest edition (pragmatic, easy to read); Wooldridge,
+Introductory Econometrics: A Modern Approach, latest edition (balanced and comprehensive); Stock and Watson, Introduction to Econometrics, latest
+edition (deep and insightful, worth the investment).
+Software: Your choice. The Econometrics site has R, EViews, Stata, and Python code samples.
+TA office hours as announced in class. FXD office hours (held in McNeil 519) here. Read the instructions carefully.
+Grading will be based on three problem sets (50% of final grade) and three in-class exams (50% of final grade). Problem sets are due at the start of class on
+the assigned day. UNDER NO CIRCUMSTANCES WILL LATE PROBLEM SETS BE ACCEPTED, so be sure to start (and finish) them early, to insure
+against illness and emergencies.
+Important Administrative Policies: Here. (READ CAREFULLY!)
+Important Dates:
+In-Class Midterm Exam 1 (mt weight .33; no books, notes, electronic devices, etc.): *** Sept 14 ***
+Problem Set 1 (ps weight .33; must be done alone, show all code in an appendix): *** Sept 26 ***
+A1. (20 points) Consider an iid random sample of size N from density f for four cases: N=10, N=500, f=N(2,2), and f=ChiSquare(2), and consider the usual
+"t-statistic" t for the sample mean. In each case, what can be said ANALYTICALLY about the sampling distribution of t?
+A2. (40 points) Support and/or extend your answers to (A1) via a Monte Carlo simulation using R=1000 replications. In each of the four cases,
+characterize the simulated sampling distribution using mean, variance, skewness, and kurtosis statistics, as well as a histogram and various percentiles (e.g.,
+what is 2.5%, 97.5%).
+B. (40 points) Obtain the three CPS wage datasets, do the following for each of the three datasets, and at the end compare your results. (1) Test the
+hypothesis that the population mean wage is $13/hour. (2) Test the hypothesis that the population mean wage is the same for men and women. (3) Display a
+scatterplot of wage vs. education (put wage on the vertical axis). (4) Regress wage on education, discuss the results in detail, and again graph wage vs.
+education, this time with the fitted regression line superimposed.
+In-Class Midterm Exam 2 (mt weight .33; no books, notes, electronic devices, etc.): *** Oct 19 ***
+Problem Set 2 (ps weight 0.33; may be done in groups of at most three. I expect a creative analysis, well-defended yet qualified as appropriate, thorough yet
+concise, maximum 15 pages. Show all code in an appendix.): *** Nov 9 ***
+Obtain the three CPS wage datasets, do the following for each of them, and compare your results. (1) Specify and estimate a model of hourly wages using
+our CPS data. Among other things, you will likely want to consider non-normality, outliers, group effects, nonlinearities, and heteroskedasticity. (2)
+Suppose that a new person arrives (union white female, 12 years education, 3 years experience). Predict her wage (point, interval, density).
+In-Class Midterm Exam 3 (mt weight .33; no books, notes, electronic devices, etc.): *** Dec 7 ***
+Problem Set 3 (ps weight 0.45; may be done in groups of at most three. I expect a creative analysis, well-defended yet qualified as appropriate, thorough yet
+concise, maximum 15 pages. Show all code in an appendix.): *** Dec 14 ***
+
+Specify and estimate a model of U.S. quarterly e-commerce retail sales, NSA in millions of dollars, using all available data (series ECOMNSA from
+FRED). Among other things, you may want to consider trend, seasonality and other calendar effects, nonlinearity, autoregressive dynamics, non-normality,
+outliers, dynamic heteroskedasticity, and structural change. Use your preferred model to predict ECOMNSA out-of-sample for the next quarter (point,
+interval, density).
+NOTE WELL: Changes may be implemented at any time. Check the page frequently, and attend class, for updates.
+
+
