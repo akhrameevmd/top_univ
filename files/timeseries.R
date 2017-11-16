@@ -1,6 +1,5 @@
 options(download.file.method="libcurl")
 library(lubridate)
-library(rbokeh)
 library(forecast)
 library(tseries)
 library(gtrendsR)
@@ -569,16 +568,41 @@ univer <- c("Caltech",
             "University of Hong Kong",
             "University of California, Berkeley",
             "McGill University")
+
+univer <- c("Иркутский государственный университет",
+            "Казанский федеральный университет",
+            "МГИМО",
+            "МФТИ",
+            "Московский гуманитарный университет",
+            "Мордовский государственный университет",
+            "Новосибирский государственный университет",
+            "Пензенский государственный университет",
+            "Плешка",
+            "РУДН",
+            "Саратовский государственный университет",
+            "Томский государственный университет", 
+           "Томский политехнический университет",
+            "Южный федеральный университет", 
+            "ВАВТ",
+            "ВШЭ",
+            "МГУ")
+
+
 m <- matrix(0, ncol = length(univer), nrow = 4)
 m <- data.frame(t(m))
 names(m)<- c("base_univer","univer","mean_1","mean_2")
 
- for (j in 2:2){
-   for (i in 1:3){
- x <- gtrends(c(univer[j],univer[i]), time = "today+5-y")
- part1 <- x$interest_over_time$hits[1:260]
- part2 <- x$interest_over_time$hits[261:520]
- m$base_univer[i] <- univer[j]
+univer <- c("Воронежский государственный университет",
+            "Белгородский государственный университет",
+            "Кемеровский государственный университет",
+            "Алтайский государственный университет")
+
+ for (j in 1:1){
+   for (i in 3:3){
+ x <- gtrends(c("РАНХиГС",univer[i]), time = "today+5-y")
+ part1 <- x$interest_over_time$hits[1:261]
+ part2 <- x$interest_over_time$hits[262:522]
+ m$base_univer[i] <- "РАНХиГС"
  m$univer[i] <- univer[i]
  m$mean_1[i] <- mean(part1)
  m$mean_2[i] <- mean(part2)
@@ -590,10 +614,28 @@ names(m)<- c("base_univer","univer","mean_1","mean_2")
    }
  }
 
-m$ratio <- m$mean_2/m$mean_1
-write.csv(m,file="отношения_предпочтений_UCL.csv")
 
-m1 <- m
+  for (i in 1:17){
+    x <- gtrends(univer[i], time = "today+5-y")
+    part1 <- x$interest_over_time$hits
+    lel <- ts(part1, freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+    fit <- tbats(lel) 
+    plot(fit, main = univer[i])
+    dev.copy(png, paste0(univer[i],'.png'))
+    dev.off()
+    fc <- forecast(fit, h=53)
+    plot(fc, main = paste0(univer[i]," прогноз"))
+    dev.copy(png, paste0(paste0(univer[i]," прогноз"),'.png'))
+    dev.off()
+    print(univer[i])
+    print(Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0))
+    y = data.frame(x$interest_over_time$date, x$interest_over_time$hits)
+    write.csv(y, file = paste0(univer[i],'.csv') , row.names=FALSE)
+  }
+
+
+m$ratio <- m$mean_2/m$mean_1
+write.csv(m,file="отношения_предпочтений_РАНХиГС.csv")
 
 x <- gtrends(c("caltech","MIT"), time = "today+5-y")
 part1 <- x$interest_over_time$hits[1:260]
@@ -616,9 +658,119 @@ mean(part1)
 mean(part2)
 mean(part2)/mean(part1)
 
-x <- gtrends(c("McGill University","University College London"), time = "today+5-y")
-part1 <- x$interest_over_time$hits[1:260]
+x <- gtrends(c("РАНХиГС","Кемеровский государственный университет"), time = "today+5-y")
+ part1 <- x$interest_over_time$hits[1:260]
 part2 <- x$interest_over_time$hits[261:520]
 mean(part1)
 mean(part2)
 mean(part2)/mean(part1)
+
+
+
+data = read.csv("micro_en.csv", header=FALSE)
+name_1 = "Microeconomics"
+name_2 = "Microeconomics прогноз"
+micro_en <- ts(data[,2], freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+fit <- tbats(micro_en) 
+plot(fit, main = name_1)
+dev.copy(png, paste0(name_1,'.png'))
+dev.off()
+summary(fit)
+fc <- forecast(fit, h=53)
+plot(fc, main = name_2)
+dev.copy(png,paste0(name_2,'.png'))
+dev.off()
+plot(fit$errors)
+adf.test(fit$errors)
+Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0)
+
+
+data = read.csv("macro_en.csv", header=FALSE)
+name_1 = "Macroeconomics"
+name_2 = "Macroeconomics прогноз"
+macro_en <- ts(data[,2], freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+fit <- tbats(macro_en) 
+plot(fit, main = name_1)
+dev.copy(png, paste0(name_1,'.png'))
+dev.off()
+summary(fit)
+fc <- forecast(fit, h=53)
+plot(fc, main = name_2)
+dev.copy(png,paste0(name_2,'.png'))
+dev.off()
+plot(fit$errors)
+adf.test(fit$errors)
+Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0)
+
+
+data = read.csv("econometrics_en.csv", header=FALSE)
+name_1 = "Econometrics"
+name_2 = "Econometrics прогноз"
+econometrics_en <- ts(data[,2], freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+fit <- tbats(econometrics_en) 
+plot(fit, main = name_1)
+dev.copy(png, paste0(name_1,'.png'))
+dev.off()
+summary(fit)
+fit$parameters
+fc <- forecast(fit, h=53)
+plot(fc, main = name_2)
+dev.copy(png,paste0(name_2,'.png'))
+dev.off()
+plot(fit$errors)
+adf.test(fit$errors)
+Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0)
+
+
+
+
+data = read.csv("instek_en.csv", header=FALSE)
+name_1 = "Institutional economics"
+name_2 = "Institutional economics прогноз"
+instek_en <- ts(data[,2], freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+fit <- tbats(instek_en) 
+plot(fit, main = name_1)
+dev.copy(png, paste0(name_1,'.png'))
+dev.off()
+summary(fit)
+fc <- forecast(fit, h=53)
+plot(fc, main = name_2)
+dev.copy(png,paste0(name_2,'.png'))
+dev.off()
+plot(fit$errors)
+adf.test(fit$errors)
+Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0)
+
+
+
+  x <- gtrends("МФТИ", time = "today+5-y")
+  part1 <- x$interest_over_time$hits
+  lel <- ts(part1, freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+  fit <- tbats(lel) 
+  plot(fit, main = "МФТИ")
+  dev.copy(png, paste0("МФТИ",'.png'))
+  dev.off()
+  fc <- forecast(fit, h=53)
+  plot(fc, main = paste0("МФТИ"," прогноз"))
+  dev.copy(png, paste0(paste0("МФТИ"," прогноз"),'.png'))
+  dev.off()
+  print(univer[i])
+  print(Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0))
+  y = data.frame(x$interest_over_time$date, x$interest_over_time$hits)
+  write.csv(y, file = paste0("МФТИ",'.csv') , row.names=FALSE)
+
+  x <- gtrends("Плеханова", time = "today+5-y")
+  part1 <- x$interest_over_time$hits
+  lel <- ts(part1, freq=365.25/7, start=decimal_date(ymd("2012-11-11")))
+  fit <- tbats(lel,use.trend = FALSE) 
+  plot(fit, main = "РЭУ ИМ. Г.В.Плеханова")
+  dev.copy(png, paste0("РЭУ ИМ. Г.В.Плеханова",'.png'))
+  dev.off()
+  fc <- forecast(fit, h=53)
+  plot(fc, main = paste0("РЭУ ИМ. Г.В.Плеханова"," прогноз"))
+  dev.copy(png, paste0(paste0("РЭУ ИМ. Г.В.Плеханова"," прогноз"),'.png'))
+  dev.off()
+  print(univer[i])
+  print(Box.test(fit$errors, lag = 1, type = c("Ljung-Box"), fitdf = 0))
+  y = data.frame(x$interest_over_time$date, x$interest_over_time$hits)
+  write.csv(y, file = paste0("РЭУ ИМ. Г.В.Плеханова",'.csv') , row.names=FALSE)

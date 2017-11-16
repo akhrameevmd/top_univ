@@ -1,0 +1,118 @@
+[1] "Иркутский государственный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.1229, df = 1, p-value = 0.7259
+
+[1] "Казанский федеральный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 2.5776, df = 1, p-value = 0.1084
+
+[1] "МГИМО"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.28863, df = 1, p-value = 0.5911
+
+[1] "МФТИ"
+
+		Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.02806, df = 1, p-value = 0.867
+
+[1] "Московский гуманитарный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.3973, df = 1, p-value = 0.5285
+
+[1] "Мордовский государственный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 1.056, df = 1, p-value = 0.3041
+
+[1] "Новосибирский государственный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.15607, df = 1, p-value = 0.6928
+
+[1] "Пензенский государственный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 1.645, df = 1, p-value = 0.1996
+
+[1] "Плеханова"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.01, df = 1, p-value = 0.98
+
+[1] "РУДН"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.10362, df = 1, p-value = 0.7475
+
+[1] "Саратовский государственный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.28542, df = 1, p-value = 0.5932
+
+[1] "Томский государственный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.10831, df = 1, p-value = 0.7421
+
+[1] "Томский политехнический университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.69662, df = 1, p-value = 0.4039
+
+[1] "Южный федеральный университет"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.6587, df = 1, p-value = 0.417
+
+[1] "ВАВТ"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.078332, df = 1, p-value = 0.7796
+
+[1] "ВШЭ"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.089612, df = 1, p-value = 0.7647
+
+[1] "МГУ"
+
+	Box-Ljung test
+
+data:  fit$errors
+X-squared = 0.12962, df = 1, p-value = 0.7188
